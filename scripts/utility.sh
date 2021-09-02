@@ -14,7 +14,7 @@ do
 	while read DOCUMENT_FILE
 	do
 	    DOCUMENT_PATH=$(dirname ${DOCUMENT_FILE});
-	    [ -d ${DOCUMENT_PATH} ] || ${DOCUMENT_PATH};
+	    [ -d ${DOCUMENT_PATH} ] || mkdir ${DOCUMENT_PATH};
 	    [ -d ${DOCUMENT_PATH}/po ] || mkdir ${DOCUMENT_PATH}/po;
 	    [ -d ${DOCUMENT_PATH}/po/${LINGUA} ] || mkdir ${DOCUMENT_PATH}/po/${LINGUA};
 	    
@@ -26,6 +26,26 @@ do
 		    echo -n "Generating ${POT_FILE} ... ";
 		    po4a-gettextize -M utf8 -f texinfo -m ${ORIGINAL_TEXI} -p ${POT_FILE};
 		    echo "done.";
+		    ;;
+
+		msginit)
+		    cd ${DOCUMENT_PATH}/po/${LINGUA};
+		    ORIGINAL_TEXI=${REPOSITORY_ROOT}/${DOCUMENT_FILE};
+		    PO_FILE="$(basename ${ORIGINAL_TEXI} .texi).po";
+		    POT_FILE=${PO_FILE}t;
+		    cp -fp ${POT_FILE} ${PO_FILE};
+
+		translate)
+			  cd ${REPOSITORY_ROOT};
+			  ORIGINAL_TEXI=$(realpath --relative-to . ${REPOSITORY_ROOT}/${DOCUMENT_FILE});
+			  PO_FILE="$(basename ${ORIGINAL_TEXI} .texi).po";			  
+		    po4a-translate -f texinfo \
+				   -k 0 \
+				   -M utf8 \
+				   -m ${ORIGINAL_TEXI} \
+				   -p ${PO_DIR}/${TEXI}.po \
+				   -l ${JA_TEXI_DIR}/${JA_TEXI};
+		    
 		    ;;
 	    esac
 	    
