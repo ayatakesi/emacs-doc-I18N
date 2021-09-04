@@ -1,3 +1,30 @@
-This is just an experimental repository.
-It trys to internationalize emacs-doc-ja repository.
-My translation work is always done on emacs-doc-ja repository, so if this repository includes translated contents, it may wrong or old or even impossible translation.
+Description:
+Translating emacs documents from English to any other languages.
+
+Howto-Use:
+0. From emacs tarball, copy doc/ to repository's root.
+   (If copy from savannah's clone, you may need at least run configure for creating emacsver.texi.)
+1. Add language code(for example, ISO 639 language codes). to LINGUAS file(one line for one locale. for me this is 'ja').
+2. Add document id to DOCUMENTS file.
+   (I added "emacs" for Emacs manual. This id need not same to any file-system symbol like directory name.)
+3. Create new file that lists document source files.
+   IMPORTANT: This file must be named upper-case of document id added by stepw, and followed "_FILES" (I created EMACS_FILES).
+4. Add document source files to ${document id}_FILES.
+   (I added files by checking doc/emacs/Makefile.)
+5. Run 'scripts/utility.sh gettextize'
+   (Create pot files in 'C' locale directory.)
+6. Run 'scripts/utility.sh msgint'.
+   (Create po files in language code's directory by copying pot files.)
+7. Tranlate them.
+   (It may take some time ;-)
+8. Run 'scripts/utility.sh translate'.
+   (Create localized texi in language code directory that will be created under original texi files)
+9. As time goes by, Emacs new version will be released, so copy doc/ directory like step 0.
+10. Run 'scripts/utility.sh gettextize' like syep 5.
+    (Update C/s.pot)
+11. You MUST NOT run 'scripts/utility.sh msgint' like step 6.
+    (If you do, your works will be list.)
+12. Run 'scripts/utility.sh msgmerge'.
+    (Update po files by pot files and  po files that contains translations)
+13. Goto steo 7.
+14. /* never reach here */
