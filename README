@@ -26,5 +26,5 @@ Howto-Use:
     (If you do, your works will be lost.)
 12. Run 'scripts/utility.sh msgmerge'.
     (Update po files by pot files and  po files that contains translations)
-13. Goto steo 7.
+13. Goto step 7.
 14. /* never reach here */
