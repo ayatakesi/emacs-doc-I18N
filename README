@@ -21,7 +21,7 @@ Howto-Use:
    (Create localized texi in language code directory that will be created under original texi files)
 9. As time goes by, Emacs new version will be released, so copy doc/ directory like step 0.
 10. Run 'scripts/utility.sh gettextize' like syep 5.
-    (Update C/s.pot)
+    (Update C/*.pot)
 11. You MUST NOT run 'scripts/utility.sh msgint' like step 6.
     (If you do, your works will be list.)
 12. Run 'scripts/utility.sh msgmerge'.
