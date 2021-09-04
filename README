@@ -23,7 +23,7 @@ Howto-Use:
 10. Run 'scripts/utility.sh gettextize' like syep 5.
     (Update C/*.pot)
 11. You MUST NOT run 'scripts/utility.sh msgint' like step 6.
-    (If you do, your works will be list.)
+    (If you do, your works will be lost.)
 12. Run 'scripts/utility.sh msgmerge'.
     (Update po files by pot files and  po files that contains translations)
 13. Goto steo 7.
