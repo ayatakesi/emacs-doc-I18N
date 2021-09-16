@@ -1,10 +1,10 @@
 language: minimal
 os: linux
-dist: trusty
+dist: focal
 branches:
   only:
   - gh-pages
   - "/.*/"
-before_install: sudo apt-get install -y gettext; sudo apt-get install -y po4a; sudo apt-get install -y coreutils; sudo apt-get
+before_install: sudo apt-get install -y gettext; sudo apt-get install -y po4a; sudo apt-get install -y realpath; sudo apt-get
   install -y texinfo;
 install: scripts/utility.sh gettextize; scripts/utility.sh msginit; scripts/utility.sh translate; scripts/utility.sh msgmerge;
