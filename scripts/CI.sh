@@ -9,8 +9,9 @@ REPOSITORY_ROOT="$(realpath $(dirname ${BASH_SOURCE})/..)";
 
 while read DOCUMENT
 do
+    DOCUMENT_ID="${DOCUMENT^^}"
     DOCUMENT_FILES="${DOCUMENT_ID}_FILES";
-
+    
     while read DOCUMENT_FILE
     do
 	DOCUMENT_PATH="${REPOSITORY_ROOT}/$(dirname ${DOCUMENT_FILE})";
