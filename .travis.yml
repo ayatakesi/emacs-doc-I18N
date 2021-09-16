@@ -6,5 +6,5 @@ branches:
   - gh-pages
   - "/.*/"
 before_install: sudo apt-get install -y gettext; sudo apt-get install -y po4a; sudo apt-get install -y realpath; sudo apt-get
-  install -y texinfo;
-install: scripts/utility.sh gettextize; scripts/utility.sh msginit; scripts/utility.sh translate; scripts/utility.sh msgmerge;
+  install -y texinfo; sudo apt-get install -y tree;
+install: scripts/utility.sh gettextize; scripts/utility.sh msginit; scripts/utility.sh translate; scripts/utility.sh msgmerge; tree;
