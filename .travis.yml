@@ -7,4 +7,4 @@ branches:
   - "/.*/"
 before_install: sudo apt-get install -y gettext; sudo apt-get install -y po4a; sudo apt-get install -y realpath; sudo apt-get
   install -y texinfo; sudo apt-get install -y tree;
-install: scripts/utility.sh gettextize; scripts/utility.sh msginit; scripts/utility.sh translate; scripts/utility.sh msgmerge; tree;
+install: scripts/utility.sh gettextize; scripts/utility.sh msginit; scripts/CI.sh translate xref; scripts/utility.sh translate; scripts/utility.sh msgmerge; tree;
