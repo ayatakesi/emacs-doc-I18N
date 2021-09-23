@@ -1,0 +1,1059 @@
+[main]
+host = https://www.transifex.com
+
+[emacs.doc-emacs-abbrevs]
+file_filter = doc/emacs/po/<lang>/abbrevs.texi.po
+source_file = doc/emacs/po/C/abbrevs.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-ack]
+file_filter = doc/emacs/po/<lang>/ack.texi.po
+source_file = doc/emacs/po/C/ack.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-anti]
+file_filter = doc/emacs/po/<lang>/anti.texi.po
+source_file = doc/emacs/po/C/anti.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-arevert-xtra]
+file_filter = doc/emacs/po/<lang>/arevert-xtra.texi.po
+source_file = doc/emacs/po/C/arevert-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-basic]
+file_filter = doc/emacs/po/<lang>/basic.texi.po
+source_file = doc/emacs/po/C/basic.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-buffers]
+file_filter = doc/emacs/po/<lang>/buffers.texi.po
+source_file = doc/emacs/po/C/buffers.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-building]
+file_filter = doc/emacs/po/<lang>/building.texi.po
+source_file = doc/emacs/po/C/building.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-cal-xtra]
+file_filter = doc/emacs/po/<lang>/cal-xtra.texi.po
+source_file = doc/emacs/po/C/cal-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-calendar]
+file_filter = doc/emacs/po/<lang>/calendar.texi.po
+source_file = doc/emacs/po/C/calendar.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-cmdargs]
+file_filter = doc/emacs/po/<lang>/cmdargs.texi.po
+source_file = doc/emacs/po/C/cmdargs.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-commands]
+file_filter = doc/emacs/po/<lang>/commands.texi.po
+source_file = doc/emacs/po/C/commands.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-custom]
+file_filter = doc/emacs/po/<lang>/custom.texi.po
+source_file = doc/emacs/po/C/custom.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-dired-xtra]
+file_filter = doc/emacs/po/<lang>/dired-xtra.texi.po
+source_file = doc/emacs/po/C/dired-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-dired]
+file_filter = doc/emacs/po/<lang>/dired.texi.po
+source_file = doc/emacs/po/C/dired.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-display]
+file_filter = doc/emacs/po/<lang>/display.texi.po
+source_file = doc/emacs/po/C/display.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-doclicense]
+file_filter = doc/emacs/po/<lang>/doclicense.texi.po
+source_file = doc/emacs/po/C/doclicense.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-docstyle]
+file_filter = doc/emacs/po/<lang>/docstyle.texi.po
+source_file = doc/emacs/po/C/docstyle.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-emacs-xtra]
+file_filter = doc/emacs/po/<lang>/emacs-xtra.texi.po
+source_file = doc/emacs/po/C/emacs-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-emacs]
+file_filter = doc/emacs/po/<lang>/emacs.texi.po
+source_file = doc/emacs/po/C/emacs.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-emerge-xtra]
+file_filter = doc/emacs/po/<lang>/emerge-xtra.texi.po
+source_file = doc/emacs/po/C/emerge-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-entering]
+file_filter = doc/emacs/po/<lang>/entering.texi.po
+source_file = doc/emacs/po/C/entering.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-files]
+file_filter = doc/emacs/po/<lang>/files.texi.po
+source_file = doc/emacs/po/C/files.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-fixit]
+file_filter = doc/emacs/po/<lang>/fixit.texi.po
+source_file = doc/emacs/po/C/fixit.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-fortran-xtra]
+file_filter = doc/emacs/po/<lang>/fortran-xtra.texi.po
+source_file = doc/emacs/po/C/fortran-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-frames]
+file_filter = doc/emacs/po/<lang>/frames.texi.po
+source_file = doc/emacs/po/C/frames.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-glossary]
+file_filter = doc/emacs/po/<lang>/glossary.texi.po
+source_file = doc/emacs/po/C/glossary.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-gnu]
+file_filter = doc/emacs/po/<lang>/gnu.texi.po
+source_file = doc/emacs/po/C/gnu.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-gpl]
+file_filter = doc/emacs/po/<lang>/gpl.texi.po
+source_file = doc/emacs/po/C/gpl.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-help]
+file_filter = doc/emacs/po/<lang>/help.texi.po
+source_file = doc/emacs/po/C/help.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-indent]
+file_filter = doc/emacs/po/<lang>/indent.texi.po
+source_file = doc/emacs/po/C/indent.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-killing]
+file_filter = doc/emacs/po/<lang>/killing.texi.po
+source_file = doc/emacs/po/C/killing.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-kmacro]
+file_filter = doc/emacs/po/<lang>/kmacro.texi.po
+source_file = doc/emacs/po/C/kmacro.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-m-x]
+file_filter = doc/emacs/po/<lang>/m-x.texi.po
+source_file = doc/emacs/po/C/m-x.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-macos]
+file_filter = doc/emacs/po/<lang>/macos.texi.po
+source_file = doc/emacs/po/C/macos.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-maintaining]
+file_filter = doc/emacs/po/<lang>/maintaining.texi.po
+source_file = doc/emacs/po/C/maintaining.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-mark]
+file_filter = doc/emacs/po/<lang>/mark.texi.po
+source_file = doc/emacs/po/C/mark.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-mini]
+file_filter = doc/emacs/po/<lang>/mini.texi.po
+source_file = doc/emacs/po/C/mini.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-misc]
+file_filter = doc/emacs/po/<lang>/misc.texi.po
+source_file = doc/emacs/po/C/misc.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-modes]
+file_filter = doc/emacs/po/<lang>/modes.texi.po
+source_file = doc/emacs/po/C/modes.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-msdos-xtra]
+file_filter = doc/emacs/po/<lang>/msdos-xtra.texi.po
+source_file = doc/emacs/po/C/msdos-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-msdos]
+file_filter = doc/emacs/po/<lang>/msdos.texi.po
+source_file = doc/emacs/po/C/msdos.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-mule]
+file_filter = doc/emacs/po/<lang>/mule.texi.po
+source_file = doc/emacs/po/C/mule.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-package]
+file_filter = doc/emacs/po/<lang>/package.texi.po
+source_file = doc/emacs/po/C/package.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-picture-xtra]
+file_filter = doc/emacs/po/<lang>/picture-xtra.texi.po
+source_file = doc/emacs/po/C/picture-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-programs]
+file_filter = doc/emacs/po/<lang>/programs.texi.po
+source_file = doc/emacs/po/C/programs.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-regs]
+file_filter = doc/emacs/po/<lang>/regs.texi.po
+source_file = doc/emacs/po/C/regs.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-rmail]
+file_filter = doc/emacs/po/<lang>/rmail.texi.po
+source_file = doc/emacs/po/C/rmail.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-screen]
+file_filter = doc/emacs/po/<lang>/screen.texi.po
+source_file = doc/emacs/po/C/screen.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-search]
+file_filter = doc/emacs/po/<lang>/search.texi.po
+source_file = doc/emacs/po/C/search.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-sending]
+file_filter = doc/emacs/po/<lang>/sending.texi.po
+source_file = doc/emacs/po/C/sending.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-text]
+file_filter = doc/emacs/po/<lang>/text.texi.po
+source_file = doc/emacs/po/C/text.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-trouble]
+file_filter = doc/emacs/po/<lang>/trouble.texi.po
+source_file = doc/emacs/po/C/trouble.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-vc-xtra]
+file_filter = doc/emacs/po/<lang>/vc-xtra.texi.po
+source_file = doc/emacs/po/C/vc-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-vc1-xtra]
+file_filter = doc/emacs/po/<lang>/vc1-xtra.texi.po
+source_file = doc/emacs/po/C/vc1-xtra.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-windows]
+file_filter = doc/emacs/po/<lang>/windows.texi.po
+source_file = doc/emacs/po/C/windows.texi.pot
+source_lang = en
+type = PO
+
+[emacs.doc-emacs-xresources]
+file_filter = doc/emacs/po/<lang>/xresources.texi.po
+source_file = doc/emacs/po/C/xresources.texi.pot
+source_lang = en
+type = PO
+
+[lispintro.doc-lispintro-doclicense]
+file_filter = doc/lispintro/po/<lang>/doclicense.texi.po
+source_file = doc/lispintro/po/C/doclicense.texi.pot
+source_lang = en
+type = PO
+
+[lispintro.doc-lispintro-emacs-lisp-intro]
+file_filter = doc/lispintro/po/<lang>/emacs-lisp-intro.texi.po
+source_file = doc/lispintro/po/C/emacs-lisp-intro.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-abbrevs]
+file_filter = doc/lispref/po/<lang>/abbrevs.texi.po
+source_file = doc/lispref/po/C/abbrevs.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-anti]
+file_filter = doc/lispref/po/<lang>/anti.texi.po
+source_file = doc/lispref/po/C/anti.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-back]
+file_filter = doc/lispref/po/<lang>/back.texi.po
+source_file = doc/lispref/po/C/back.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-backups]
+file_filter = doc/lispref/po/<lang>/backups.texi.po
+source_file = doc/lispref/po/C/backups.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-book-spine]
+file_filter = doc/lispref/po/<lang>/book-spine.texi.po
+source_file = doc/lispref/po/C/book-spine.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-buffers]
+file_filter = doc/lispref/po/<lang>/buffers.texi.po
+source_file = doc/lispref/po/C/buffers.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-commands]
+file_filter = doc/lispref/po/<lang>/commands.texi.po
+source_file = doc/lispref/po/C/commands.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-compile]
+file_filter = doc/lispref/po/<lang>/compile.texi.po
+source_file = doc/lispref/po/C/compile.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-control]
+file_filter = doc/lispref/po/<lang>/control.texi.po
+source_file = doc/lispref/po/C/control.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-customize]
+file_filter = doc/lispref/po/<lang>/customize.texi.po
+source_file = doc/lispref/po/C/customize.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-debugging]
+file_filter = doc/lispref/po/<lang>/debugging.texi.po
+source_file = doc/lispref/po/C/debugging.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-display]
+file_filter = doc/lispref/po/<lang>/display.texi.po
+source_file = doc/lispref/po/C/display.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-doclicense]
+file_filter = doc/lispref/po/<lang>/doclicense.texi.po
+source_file = doc/lispref/po/C/doclicense.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-edebug]
+file_filter = doc/lispref/po/<lang>/edebug.texi.po
+source_file = doc/lispref/po/C/edebug.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-elisp]
+file_filter = doc/lispref/po/<lang>/elisp.texi.po
+source_file = doc/lispref/po/C/elisp.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-errors]
+file_filter = doc/lispref/po/<lang>/errors.texi.po
+source_file = doc/lispref/po/C/errors.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-eval]
+file_filter = doc/lispref/po/<lang>/eval.texi.po
+source_file = doc/lispref/po/C/eval.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-files]
+file_filter = doc/lispref/po/<lang>/files.texi.po
+source_file = doc/lispref/po/C/files.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-frames]
+file_filter = doc/lispref/po/<lang>/frames.texi.po
+source_file = doc/lispref/po/C/frames.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-functions]
+file_filter = doc/lispref/po/<lang>/functions.texi.po
+source_file = doc/lispref/po/C/functions.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-gpl]
+file_filter = doc/lispref/po/<lang>/gpl.texi.po
+source_file = doc/lispref/po/C/gpl.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-hash]
+file_filter = doc/lispref/po/<lang>/hash.texi.po
+source_file = doc/lispref/po/C/hash.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-help]
+file_filter = doc/lispref/po/<lang>/help.texi.po
+source_file = doc/lispref/po/C/help.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-hooks]
+file_filter = doc/lispref/po/<lang>/hooks.texi.po
+source_file = doc/lispref/po/C/hooks.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-index]
+file_filter = doc/lispref/po/<lang>/index.texi.po
+source_file = doc/lispref/po/C/index.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-internals]
+file_filter = doc/lispref/po/<lang>/internals.texi.po
+source_file = doc/lispref/po/C/internals.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-intro]
+file_filter = doc/lispref/po/<lang>/intro.texi.po
+source_file = doc/lispref/po/C/intro.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-keymaps]
+file_filter = doc/lispref/po/<lang>/keymaps.texi.po
+source_file = doc/lispref/po/C/keymaps.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-lay-flat]
+file_filter = doc/lispref/po/<lang>/lay-flat.texi.po
+source_file = doc/lispref/po/C/lay-flat.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-lists]
+file_filter = doc/lispref/po/<lang>/lists.texi.po
+source_file = doc/lispref/po/C/lists.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-loading]
+file_filter = doc/lispref/po/<lang>/loading.texi.po
+source_file = doc/lispref/po/C/loading.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-macros]
+file_filter = doc/lispref/po/<lang>/macros.texi.po
+source_file = doc/lispref/po/C/macros.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-maps]
+file_filter = doc/lispref/po/<lang>/maps.texi.po
+source_file = doc/lispref/po/C/maps.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-markers]
+file_filter = doc/lispref/po/<lang>/markers.texi.po
+source_file = doc/lispref/po/C/markers.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-minibuf]
+file_filter = doc/lispref/po/<lang>/minibuf.texi.po
+source_file = doc/lispref/po/C/minibuf.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-modes]
+file_filter = doc/lispref/po/<lang>/modes.texi.po
+source_file = doc/lispref/po/C/modes.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-nonascii]
+file_filter = doc/lispref/po/<lang>/nonascii.texi.po
+source_file = doc/lispref/po/C/nonascii.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-numbers]
+file_filter = doc/lispref/po/<lang>/numbers.texi.po
+source_file = doc/lispref/po/C/numbers.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-objects]
+file_filter = doc/lispref/po/<lang>/objects.texi.po
+source_file = doc/lispref/po/C/objects.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-os]
+file_filter = doc/lispref/po/<lang>/os.texi.po
+source_file = doc/lispref/po/C/os.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-package]
+file_filter = doc/lispref/po/<lang>/package.texi.po
+source_file = doc/lispref/po/C/package.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-positions]
+file_filter = doc/lispref/po/<lang>/positions.texi.po
+source_file = doc/lispref/po/C/positions.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-processes]
+file_filter = doc/lispref/po/<lang>/processes.texi.po
+source_file = doc/lispref/po/C/processes.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-records]
+file_filter = doc/lispref/po/<lang>/records.texi.po
+source_file = doc/lispref/po/C/records.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-searching]
+file_filter = doc/lispref/po/<lang>/searching.texi.po
+source_file = doc/lispref/po/C/searching.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-sequences]
+file_filter = doc/lispref/po/<lang>/sequences.texi.po
+source_file = doc/lispref/po/C/sequences.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-streams]
+file_filter = doc/lispref/po/<lang>/streams.texi.po
+source_file = doc/lispref/po/C/streams.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-strings]
+file_filter = doc/lispref/po/<lang>/strings.texi.po
+source_file = doc/lispref/po/C/strings.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-symbols]
+file_filter = doc/lispref/po/<lang>/symbols.texi.po
+source_file = doc/lispref/po/C/symbols.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-syntax]
+file_filter = doc/lispref/po/<lang>/syntax.texi.po
+source_file = doc/lispref/po/C/syntax.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-text]
+file_filter = doc/lispref/po/<lang>/text.texi.po
+source_file = doc/lispref/po/C/text.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-threads]
+file_filter = doc/lispref/po/<lang>/threads.texi.po
+source_file = doc/lispref/po/C/threads.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-tips]
+file_filter = doc/lispref/po/<lang>/tips.texi.po
+source_file = doc/lispref/po/C/tips.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-variables]
+file_filter = doc/lispref/po/<lang>/variables.texi.po
+source_file = doc/lispref/po/C/variables.texi.pot
+source_lang = en
+type = PO
+
+[lispref.doc-lispref-windows]
+file_filter = doc/lispref/po/<lang>/windows.texi.po
+source_file = doc/lispref/po/C/windows.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-auth]
+file_filter = doc/misc/po/<lang>/auth.texi.po
+source_file = doc/misc/po/C/auth.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-autotype]
+file_filter = doc/misc/po/<lang>/autotype.texi.po
+source_file = doc/misc/po/C/autotype.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-bovine]
+file_filter = doc/misc/po/<lang>/bovine.texi.po
+source_file = doc/misc/po/C/bovine.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-calc]
+file_filter = doc/misc/po/<lang>/calc.texi.po
+source_file = doc/misc/po/C/calc.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-cc-mode]
+file_filter = doc/misc/po/<lang>/cc-mode.texi.po
+source_file = doc/misc/po/C/cc-mode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-cl]
+file_filter = doc/misc/po/<lang>/cl.texi.po
+source_file = doc/misc/po/C/cl.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-dbus]
+file_filter = doc/misc/po/<lang>/dbus.texi.po
+source_file = doc/misc/po/C/dbus.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-dired-x]
+file_filter = doc/misc/po/<lang>/dired-x.texi.po
+source_file = doc/misc/po/C/dired-x.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-doclicense]
+file_filter = doc/misc/po/<lang>/doclicense.texi.po
+source_file = doc/misc/po/C/doclicense.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ebrowse]
+file_filter = doc/misc/po/<lang>/ebrowse.texi.po
+source_file = doc/misc/po/C/ebrowse.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ede]
+file_filter = doc/misc/po/<lang>/ede.texi.po
+source_file = doc/misc/po/C/ede.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ediff]
+file_filter = doc/misc/po/<lang>/ediff.texi.po
+source_file = doc/misc/po/C/ediff.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-edt]
+file_filter = doc/misc/po/<lang>/edt.texi.po
+source_file = doc/misc/po/C/edt.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-efaq-w32]
+file_filter = doc/misc/po/<lang>/efaq-w32.texi.po
+source_file = doc/misc/po/C/efaq-w32.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-efaq]
+file_filter = doc/misc/po/<lang>/efaq.texi.po
+source_file = doc/misc/po/C/efaq.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-eieio]
+file_filter = doc/misc/po/<lang>/eieio.texi.po
+source_file = doc/misc/po/C/eieio.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-emacs-gnutls]
+file_filter = doc/misc/po/<lang>/emacs-gnutls.texi.po
+source_file = doc/misc/po/C/emacs-gnutls.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-emacs-mime]
+file_filter = doc/misc/po/<lang>/emacs-mime.texi.po
+source_file = doc/misc/po/C/emacs-mime.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-epa]
+file_filter = doc/misc/po/<lang>/epa.texi.po
+source_file = doc/misc/po/C/epa.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-erc]
+file_filter = doc/misc/po/<lang>/erc.texi.po
+source_file = doc/misc/po/C/erc.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ert]
+file_filter = doc/misc/po/<lang>/ert.texi.po
+source_file = doc/misc/po/C/ert.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-eshell]
+file_filter = doc/misc/po/<lang>/eshell.texi.po
+source_file = doc/misc/po/C/eshell.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-eudc]
+file_filter = doc/misc/po/<lang>/eudc.texi.po
+source_file = doc/misc/po/C/eudc.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-eww]
+file_filter = doc/misc/po/<lang>/eww.texi.po
+source_file = doc/misc/po/C/eww.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-flymake]
+file_filter = doc/misc/po/<lang>/flymake.texi.po
+source_file = doc/misc/po/C/flymake.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-forms]
+file_filter = doc/misc/po/<lang>/forms.texi.po
+source_file = doc/misc/po/C/forms.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-gnus-coding]
+file_filter = doc/misc/po/<lang>/gnus-coding.texi.po
+source_file = doc/misc/po/C/gnus-coding.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-gnus-faq]
+file_filter = doc/misc/po/<lang>/gnus-faq.texi.po
+source_file = doc/misc/po/C/gnus-faq.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-gpl]
+file_filter = doc/misc/po/<lang>/gpl.texi.po
+source_file = doc/misc/po/C/gpl.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-htmlfontify]
+file_filter = doc/misc/po/<lang>/htmlfontify.texi.po
+source_file = doc/misc/po/C/htmlfontify.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ido]
+file_filter = doc/misc/po/<lang>/ido.texi.po
+source_file = doc/misc/po/C/ido.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-info]
+file_filter = doc/misc/po/<lang>/info.texi.po
+source_file = doc/misc/po/C/info.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-mairix-el]
+file_filter = doc/misc/po/<lang>/mairix-el.texi.po
+source_file = doc/misc/po/C/mairix-el.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-message]
+file_filter = doc/misc/po/<lang>/message.texi.po
+source_file = doc/misc/po/C/message.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-mh-e]
+file_filter = doc/misc/po/<lang>/mh-e.texi.po
+source_file = doc/misc/po/C/mh-e.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-newsticker]
+file_filter = doc/misc/po/<lang>/newsticker.texi.po
+source_file = doc/misc/po/C/newsticker.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-nxml-mode]
+file_filter = doc/misc/po/<lang>/nxml-mode.texi.po
+source_file = doc/misc/po/C/nxml-mode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-octave-mode]
+file_filter = doc/misc/po/<lang>/octave-mode.texi.po
+source_file = doc/misc/po/C/octave-mode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-org]
+file_filter = doc/misc/po/<lang>/org.texi.po
+source_file = doc/misc/po/C/org.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-pcl-cvs]
+file_filter = doc/misc/po/<lang>/pcl-cvs.texi.po
+source_file = doc/misc/po/C/pcl-cvs.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-pgg]
+file_filter = doc/misc/po/<lang>/pgg.texi.po
+source_file = doc/misc/po/C/pgg.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-rcirc]
+file_filter = doc/misc/po/<lang>/rcirc.texi.po
+source_file = doc/misc/po/C/rcirc.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-reftex]
+file_filter = doc/misc/po/<lang>/reftex.texi.po
+source_file = doc/misc/po/C/reftex.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-remember]
+file_filter = doc/misc/po/<lang>/remember.texi.po
+source_file = doc/misc/po/C/remember.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-sasl]
+file_filter = doc/misc/po/<lang>/sasl.texi.po
+source_file = doc/misc/po/C/sasl.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-sc]
+file_filter = doc/misc/po/<lang>/sc.texi.po
+source_file = doc/misc/po/C/sc.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-sem-user]
+file_filter = doc/misc/po/<lang>/sem-user.texi.po
+source_file = doc/misc/po/C/sem-user.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-semantic]
+file_filter = doc/misc/po/<lang>/semantic.texi.po
+source_file = doc/misc/po/C/semantic.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-ses]
+file_filter = doc/misc/po/<lang>/ses.texi.po
+source_file = doc/misc/po/C/ses.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-sieve]
+file_filter = doc/misc/po/<lang>/sieve.texi.po
+source_file = doc/misc/po/C/sieve.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-smtpmail]
+file_filter = doc/misc/po/<lang>/smtpmail.texi.po
+source_file = doc/misc/po/C/smtpmail.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-speedbar]
+file_filter = doc/misc/po/<lang>/speedbar.texi.po
+source_file = doc/misc/po/C/speedbar.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-srecode]
+file_filter = doc/misc/po/<lang>/srecode.texi.po
+source_file = doc/misc/po/C/srecode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-todo-mode]
+file_filter = doc/misc/po/<lang>/todo-mode.texi.po
+source_file = doc/misc/po/C/todo-mode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-tramp]
+file_filter = doc/misc/po/<lang>/tramp.texi.po
+source_file = doc/misc/po/C/tramp.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-trampver]
+file_filter = doc/misc/po/<lang>/trampver.texi.po
+source_file = doc/misc/po/C/trampver.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-url]
+file_filter = doc/misc/po/<lang>/url.texi.po
+source_file = doc/misc/po/C/url.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-vhdl-mode]
+file_filter = doc/misc/po/<lang>/vhdl-mode.texi.po
+source_file = doc/misc/po/C/vhdl-mode.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-vip]
+file_filter = doc/misc/po/<lang>/vip.texi.po
+source_file = doc/misc/po/C/vip.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-viper]
+file_filter = doc/misc/po/<lang>/viper.texi.po
+source_file = doc/misc/po/C/viper.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-widget]
+file_filter = doc/misc/po/<lang>/widget.texi.po
+source_file = doc/misc/po/C/widget.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-wisent]
+file_filter = doc/misc/po/<lang>/wisent.texi.po
+source_file = doc/misc/po/C/wisent.texi.pot
+source_lang = en
+type = PO
+
+[misc.doc-misc-woman]
+file_filter = doc/misc/po/<lang>/woman.texi.po
+source_file = doc/misc/po/C/woman.texi.pot
+source_lang = en
+type = PO
+

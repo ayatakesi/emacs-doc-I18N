@@ -1,0 +1,2271 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-22 12:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../erc.texi:4
+#, no-wrap
+msgid "ERC Manual"
+msgstr ""
+
+#. type: include
+#: ../../erc.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: include
+#: ../../erc.texi:7
+#, no-wrap
+msgid "emacsver.texi"
+msgstr ""
+
+#. type: copying
+#: ../../erc.texi:12
+msgid "This manual is for ERC as distributed with Emacs @value{EMACSVER}."
+msgstr ""
+
+#. type: copying
+#: ../../erc.texi:14
+msgid "Copyright @copyright{} 2005--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../erc.texi:22
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../erc.texi:25
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: quotation
+#: ../../erc.texi:28
+msgid ""
+"All Emacs Lisp code contained in this document may be used, distributed, and "
+"modified without restriction."
+msgstr ""
+
+#. type: dircategory
+#: ../../erc.texi:31
+#, no-wrap
+msgid "Emacs network features"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:34
+msgid "ERC: (erc)"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:34
+msgid "Powerful and extensible IRC client for Emacs."
+msgstr ""
+
+#. type: title
+#: ../../erc.texi:37
+#, no-wrap
+msgid "ERC manual"
+msgstr ""
+
+#. type: subtitle
+#: ../../erc.texi:38
+#, no-wrap
+msgid "a full-featured IRC client"
+msgstr ""
+
+#. type: subtitle
+#: ../../erc.texi:39
+#, no-wrap
+msgid "for Emacs"
+msgstr ""
+
+#. type: node
+#: ../../erc.texi:51
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../erc.texi:52
+#, no-wrap
+msgid "ERC"
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:67 ../../erc.texi:85 ../../erc.texi:86
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "What is ERC?"
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:67 ../../erc.texi:72 ../../erc.texi:110 ../../erc.texi:111
+#, no-wrap
+msgid "Getting Started"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Quick Start guide to using ERC."
+msgstr ""
+
+#. type: node
+#: ../../erc.texi:67 ../../erc.texi:262
+#, no-wrap
+msgid "Keystroke Summary"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Keystrokes used in ERC buffers."
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:67 ../../erc.texi:345 ../../erc.texi:346
+#, no-wrap
+msgid "Modules"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Available modules for ERC."
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:67 ../../erc.texi:77 ../../erc.texi:484 ../../erc.texi:485
+#, no-wrap
+msgid "Advanced Usage"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Cool ways of using ERC."
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Getting Help and Reporting Bugs::"
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:67 ../../erc.texi:822 ../../erc.texi:823
+#, no-wrap
+msgid "History"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "The history of ERC."
+msgstr ""
+
+#. type: appendix
+#: ../../erc.texi:67 ../../erc.texi:894 ../../erc.texi:895
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: node
+#: ../../erc.texi:67 ../../erc.texi:898
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:67
+msgid "Search for terms."
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:70
+msgid "--- The Detailed Node Listing ---"
+msgstr ""
+
+#. type: section
+#: ../../erc.texi:75 ../../erc.texi:129 ../../erc.texi:131 ../../erc.texi:132
+#, no-wrap
+msgid "Sample Session"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:75 ../../erc.texi:129
+msgid "Example of connecting to the #emacs channel"
+msgstr ""
+
+#. type: section
+#: ../../erc.texi:75 ../../erc.texi:129 ../../erc.texi:189 ../../erc.texi:190
+#, no-wrap
+msgid "Special Features"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:75 ../../erc.texi:129
+msgid "Differences from standalone IRC clients"
+msgstr ""
+
+#. type: node
+#: ../../erc.texi:81 ../../erc.texi:492 ../../erc.texi:494
+#, no-wrap
+msgid "Connecting"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:81 ../../erc.texi:492
+msgid "Ways of connecting to an IRC server."
+msgstr ""
+
+#. type: section
+#: ../../erc.texi:81 ../../erc.texi:492 ../../erc.texi:661 ../../erc.texi:662
+#, no-wrap
+msgid "Sample Configuration"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:81 ../../erc.texi:492
+msgid "An example configuration file."
+msgstr ""
+
+#. type: section
+#: ../../erc.texi:81 ../../erc.texi:492 ../../erc.texi:739 ../../erc.texi:740
+#, no-wrap
+msgid "Options"
+msgstr ""
+
+#. type: menuentry
+#: ../../erc.texi:81 ../../erc.texi:492
+msgid "Options that are available for ERC."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:90
+msgid ""
+"ERC is a powerful, modular, and extensible IRC client for Emacs.  It is "
+"distributed with Emacs since version 22.1."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:92
+msgid "It comes with the following capabilities enabled by default."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:94
+#, no-wrap
+msgid "Flood control"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:95
+#, no-wrap
+msgid "Timestamps"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:96 ../../erc.texi:368
+#, no-wrap
+msgid "Join channels automatically"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:97 ../../erc.texi:376
+#, no-wrap
+msgid "Buttonize URLs, nicknames, and other text"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:98 ../../erc.texi:389
+#, no-wrap
+msgid "Wrap long lines"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:99 ../../erc.texi:397
+#, no-wrap
+msgid "Highlight or remove IRC control characters"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:100 ../../erc.texi:405
+#, no-wrap
+msgid "Highlight pals, fools, and other keywords"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:101 ../../erc.texi:413
+#, no-wrap
+msgid "Detect netsplits"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:102
+#, no-wrap
+msgid "Complete nicknames and commands in a programmable fashion"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:103 ../../erc.texi:434
+#, no-wrap
+msgid "Make displayed lines read-only"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:104
+#, no-wrap
+msgid "Input history"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:105 ../../erc.texi:470
+#, no-wrap
+msgid "Track channel activity in the mode-line"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:112
+#, no-wrap
+msgid "settings"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:116
+msgid ""
+"The command @kbd{M-x erc} will start ERC and prompt for the server to "
+"connect to."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:119
+msgid ""
+"If you want to place ERC settings in their own file, you can place them in "
+"@file{~/.emacs.d/.ercrc.el}, creating it if necessary."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:125
+msgid ""
+"If you would rather use the Customize interface to change how ERC works, do "
+"@kbd{M-x customize-group @key{RET} erc @key{RET}}.  In particular, ERC comes "
+"with lots of modules that may be enabled or disabled; to select which ones "
+"you want, do @kbd{M-x customize-variable @key{RET} erc-modules @key{RET}}."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:138
+msgid ""
+"This is an example ERC session which shows how to connect to the #emacs "
+"channel on Freenode.  Another IRC channel on Freenode that may be of "
+"interest is #erc, which is a channel where ERC users and developers hang "
+"out."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:141
+#, no-wrap
+msgid "Connect to Freenode"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:145
+msgid ""
+"Run @kbd{M-x erc}.  Use ``irc.freenode.net'' as the IRC server, ``6667'' as "
+"the port, and choose a nickname."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:146
+#, no-wrap
+msgid "Get used to the interface"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:151
+msgid ""
+"Switch to the ``irc.freenode.net:6667'' buffer, if you're not already "
+"there.  You will see first some messages about checking for ident, and then "
+"a bunch of other messages that describe the current IRC server."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:152
+#, no-wrap
+msgid "Join the #emacs channel"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:160
+msgid ""
+"In that buffer, type ``/join @key{SPC} #emacs'' and hit @kbd{RET}.  "
+"Depending on how you've set up ERC, either a new buffer for ``#emacs'' will "
+"be displayed, or a new buffer called ``#emacs'' will be created in the "
+"background.  If the latter, switch to the ``#emacs'' buffer.  You will see "
+"the channel topic and a list of the people who are currently on the channel."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:161
+#, no-wrap
+msgid "Register your nickname with Freenode"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:168
+msgid ""
+"If you would like to be able to talk with people privately on the Freenode "
+"network, you will have to ``register'' your nickname.  To do so, switch to "
+"the ``irc.freenode.net:6667'' buffer and type ``/msg NickServ register "
+"<password>'', replacing ``<password>'' with your desired password.  It "
+"should tell you that the operation was successful."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:169
+#, no-wrap
+msgid "Talk to people in the channel"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:173
+msgid ""
+"If you switch back to the ``#emacs'' buffer, you can type a message, and "
+"everyone on the channel will see it."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:174
+#, no-wrap
+msgid "Open a query buffer to talk to someone"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:183
+msgid ""
+"If you want to talk with someone in private (this should usually not be done "
+"for technical help, only for personal questions), type ``/query <nick>'', "
+"replacing ``<nick>'' with the nickname of the person you would like to talk "
+"to.  Depending on how ERC is set up, you will either see a new buffer with "
+"the name of the person, or such a buffer will be created in the background "
+"and you will have to switch to it.  Begin typing messages, and you will be "
+"able to have a conversation."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:186
+msgid ""
+"Note that if the other person is not registered, you will not be able to "
+"talk with them."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:193
+msgid "ERC has some features that distinguish it from some IRC clients."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:196
+#, no-wrap
+msgid "multiple channels and multiple servers"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:200
+msgid ""
+"Every channel is put in a separate buffer.  Several IRC servers may be "
+"connected to at the same time."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:201
+#, no-wrap
+msgid "query buffers"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:202
+#, no-wrap
+msgid "private message separation"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:206
+msgid ""
+"Private conversations are treated as channels, and are put into separate "
+"buffers in Emacs.  We call these ``query buffers''."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:207
+#, no-wrap
+msgid "highlighting"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:211
+msgid ""
+"Some occurrences of words can be highlighted, which makes it easier to track "
+"different kinds of conversations."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:212
+#, no-wrap
+msgid "notification"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:215
+msgid "ERC can notify you that certain users are online."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:216
+#, no-wrap
+msgid "channel tracking"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:222
+msgid ""
+"Channels can be hidden and conversation continue in the background.  You are "
+"notified when something is said in such a channel that is not currently "
+"visible.  This makes it easy to get Real Work done while still maintaining "
+"an IRC presence."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:223
+#, no-wrap
+msgid "nick completion"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:227
+msgid ""
+"ERC can complete words upon hitting @kbd{TAB}, which eases the writing of "
+"nicknames in messages."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:228
+#, no-wrap
+msgid "history ring"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:229
+#, no-wrap
+msgid "history"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:234
+msgid ""
+"Past actions are kept in history rings for future use.  To navigate a "
+"history ring, hit @kbd{M-p} to go backwards and @kbd{M-n} to go forwards."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:235
+#, no-wrap
+msgid "multiple languages"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:238
+msgid "Different channels and servers may have different language encodings."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:242
+msgid ""
+"multiple languages.  Please contact the Emacs developers if you are "
+"interested in helping with the translation effort."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:243
+#, no-wrap
+msgid "user scripting"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:246
+msgid "Users can load scripts (e.g., auto greeting scripts) when ERC starts up."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:251
+msgid ""
+"It is also possible to make custom IRC commands, if you know a little Emacs "
+"Lisp.  Just make an Emacs Lisp function and call it "
+"@code{erc-cmd-NEWCOMMAND}, where @code{NEWCOMMAND} is the name of the new "
+"command in capital letters."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:252
+#, no-wrap
+msgid "auto reconnect"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:258
+msgid ""
+"If the connection goes away at some point, ERC will try to reconnect "
+"automatically.  If it fails to reconnect, and you want to try to manually "
+"reestablish the connection at some later point, switch to an ERC buffer and "
+"run the @code{/RECONNECT} command."
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:263
+#, no-wrap
+msgid "Keys Used in ERC"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:264
+#, no-wrap
+msgid "keystrokes"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:267
+msgid "This is a summary of keystrokes available in every ERC buffer."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:270
+#, no-wrap
+msgid "C-a or <home> (@code{erc-bol})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:272 ../../erc.texi:285
+msgid "Go to beginning of line or end of prompt."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:273
+#, no-wrap
+msgid "@key{RET} (@code{erc-send-current-line})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:275
+msgid "Send the current line"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:276
+#, no-wrap
+msgid "@key{TAB} (@code{erc-complete-word})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:279
+msgid ""
+"If at prompt, complete the current word.  Otherwise, move to the next link "
+"or button."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:280
+#, no-wrap
+msgid "M-@key{TAB} (@code{ispell-complete-word})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:282
+msgid "Complete the given word, using ispell."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:283
+#, no-wrap
+msgid "C-c C-a (@code{erc-bol})"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:286
+#, no-wrap
+msgid "C-c C-b (@code{erc-switch-to-buffer})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:288
+msgid "Use @code{read-buffer} to prompt for a ERC buffer to switch to."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:289
+#, no-wrap
+msgid "C-c C-c (@code{erc-toggle-interpret-controls})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:291
+msgid "Toggle interpretation of control sequences in messages."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:292
+#, no-wrap
+msgid "C-c C-d (@code{erc-input-action})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:294
+msgid "Interactively input a user action and send it to IRC."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:295
+#, no-wrap
+msgid "C-c C-e (@code{erc-toggle-ctcp-autoresponse})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:297
+msgid "Toggle automatic CTCP replies (like VERSION and PING)."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:298
+#, no-wrap
+msgid "C-c C-f (@code{erc-toggle-flood-control})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:300
+msgid "Toggle use of flood control on sent messages."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:301
+#, no-wrap
+msgid "C-c @key{TAB} (@code{erc-invite-only-mode})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:303
+msgid "Turn on the invite only mode (+i) for the current channel."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:304
+#, no-wrap
+msgid "C-c C-j (@code{erc-join-channel})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:307
+msgid ""
+"Join channel.  If point is at the beginning of a channel name, use that as "
+"default."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:308
+#, no-wrap
+msgid "C-c C-k (@code{erc-go-to-log-matches-buffer})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:310
+msgid "Interactively open an erc-log-matches buffer"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:311
+#, no-wrap
+msgid "C-c C-l (@code{erc-save-buffer-in-logs})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:313
+msgid "Append buffer contents to the log file, if logging is enabled."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:314
+#, no-wrap
+msgid "C-c C-n (@code{erc-channel-names})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:316
+msgid "Run \"/names #channel\" in the current channel."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:317
+#, no-wrap
+msgid "C-c C-o (@code{erc-get-channel-mode-from-keypress})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:320
+msgid ""
+"Read a key sequence and call the corresponding channel mode function.  After "
+"doing @kbd{C-c C-o}, type in a channel mode letter."
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:326
+msgid ""
+"@kbd{C-g} means quit.  @kbd{RET} lets you type more than one mode at a "
+"time.  If @kbd{l} is pressed, @code{erc-set-channel-limit} gets called.  If "
+"@kbd{k} is pressed, @code{erc-set-channel-key} gets called.  Anything else "
+"will be sent to @code{erc-toggle-channel-mode}."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:327
+#, no-wrap
+msgid "C-c C-p (@code{erc-part-from-channel})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:329
+msgid "Part from the current channel and prompt for a reason."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:330
+#, no-wrap
+msgid "C-c C-q (@code{erc-quit-server})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:332
+msgid "Disconnect from current server after prompting for reason."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:333
+#, no-wrap
+msgid "C-c C-r (@code{erc-remove-text-properties-region})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:335
+msgid "Clears the region (start,end) in object from all colors, etc."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:336
+#, no-wrap
+msgid "C-c C-t (@code{erc-set-topic})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:338
+msgid "Prompt for a topic for the current channel."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:339
+#, no-wrap
+msgid "C-c C-u (@code{erc-kill-input})"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:341
+msgid "Kill current input line using @code{erc-bol} followed by @code{kill-line}."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:347
+#, no-wrap
+msgid "modules"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:351
+msgid ""
+"One way to add functionality to ERC is to customize which of its many "
+"modules are loaded."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:356
+msgid ""
+"There is a spiffy customize interface, which may be reached by typing "
+"@kbd{M-x customize-option @key{RET} erc-modules @key{RET}}.  Alternatively, "
+"set @code{erc-modules} manually and then call @code{erc-update-modules}."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:358
+msgid "The following is a list of available modules."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:361
+#, no-wrap
+msgid "modules, autoaway"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:362
+#, no-wrap
+msgid "autoaway"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:364
+msgid "Set away status automatically"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:365
+#, no-wrap
+msgid "modules, autojoin"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:366
+#, no-wrap
+msgid "autojoin"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:369
+#, no-wrap
+msgid "modules, bbdb"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:370
+#, no-wrap
+msgid "bbdb"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:372
+msgid "Integrate with the Big Brother Database"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:373
+#, no-wrap
+msgid "modules, button"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:374
+#, no-wrap
+msgid "button"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:377
+#, no-wrap
+msgid "modules, capab-identify"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:378
+#, no-wrap
+msgid "capab-identify"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:380
+msgid "Mark unidentified users on freenode and other servers supporting CAPAB."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:381
+#, no-wrap
+msgid "modules, completion"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:382
+#, no-wrap
+msgid "modules, pcomplete"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:383
+#, no-wrap
+msgid "completion (aka pcomplete)"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:385
+msgid "Complete nicknames and commands (programmable)"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:386
+#, no-wrap
+msgid "modules, fill"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:387
+#, no-wrap
+msgid "fill"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:390
+#, no-wrap
+msgid "modules, identd"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:391
+#, no-wrap
+msgid "identd"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:393
+msgid "Launch an identd server on port 8113"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:394
+#, no-wrap
+msgid "modules, irccontrols"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:395
+#, no-wrap
+msgid "irccontrols"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:398
+#, no-wrap
+msgid "modules, log"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:399
+#, no-wrap
+msgid "log"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:401
+msgid "Save buffers in logs"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:402
+#, no-wrap
+msgid "modules, match"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:403
+#, no-wrap
+msgid "match"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:406
+#, no-wrap
+msgid "modules, menu"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:407
+#, no-wrap
+msgid "menu"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:409
+msgid "Display a menu in ERC buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:410
+#, no-wrap
+msgid "modules, netsplit"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:411
+#, no-wrap
+msgid "netsplit"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:414
+#, no-wrap
+msgid "modules, noncommands"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:415
+#, no-wrap
+msgid "noncommands"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:417
+msgid "Don't display non-IRC commands after evaluation"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:418
+#, no-wrap
+msgid "modules, notify"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:419
+#, no-wrap
+msgid "notify"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:421
+msgid "Notify when the online status of certain users changes"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:422
+#, no-wrap
+msgid "modules, notifications"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:423
+#, no-wrap
+msgid "notifications"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:426
+msgid ""
+"Send you a notification when you get a private message, or your nickname is "
+"mentioned"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:427
+#, no-wrap
+msgid "modules, page"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:428
+#, no-wrap
+msgid "page"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:430
+msgid "Process CTCP PAGE requests from IRC"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:431
+#, no-wrap
+msgid "modules, readonly"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:432
+#, no-wrap
+msgid "readonly"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:435
+#, no-wrap
+msgid "modules, replace"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:436
+#, no-wrap
+msgid "replace"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:438
+msgid "Replace text in messages"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:439
+#, no-wrap
+msgid "modules, ring"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:440
+#, no-wrap
+msgid "ring"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:442
+msgid "Enable an input history"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:443
+#, no-wrap
+msgid "modules, scrolltobottom"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:444
+#, no-wrap
+msgid "scrolltobottom"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:446
+msgid "Scroll to the bottom of the buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:447
+#, no-wrap
+msgid "modules, services"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:448
+#, no-wrap
+msgid "services"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:450
+msgid "Identify to Nickserv (IRC Services) automatically"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:451
+#, no-wrap
+msgid "modules, smiley"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:452
+#, no-wrap
+msgid "smiley"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:454
+msgid "Convert smileys to pretty icons"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:455
+#, no-wrap
+msgid "modules, sound"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:456
+#, no-wrap
+msgid "sound"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:458
+msgid "Play sounds when you receive CTCP SOUND requests"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:459
+#, no-wrap
+msgid "modules, spelling"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:460
+#, no-wrap
+msgid "spelling"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:462
+msgid "Check spelling of messages"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:463
+#, no-wrap
+msgid "modules, stamp"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:464
+#, no-wrap
+msgid "stamp"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:466
+msgid "Add timestamps to messages"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:467
+#, no-wrap
+msgid "modules, track"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:468
+#, no-wrap
+msgid "track"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:471
+#, no-wrap
+msgid "modules, truncate"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:472
+#, no-wrap
+msgid "truncate"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:474
+msgid "Truncate buffers to a certain size"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:475
+#, no-wrap
+msgid "modules, unmorse"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:476
+#, no-wrap
+msgid "unmorse"
+msgstr ""
+
+#. type: table
+#: ../../erc.texi:478
+msgid "Translate morse code in messages"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:486
+#, no-wrap
+msgid "advanced topics"
+msgstr ""
+
+#. type: section
+#: ../../erc.texi:495
+#, no-wrap
+msgid "Connecting to an IRC Server"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:496
+#, no-wrap
+msgid "connecting"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:501
+msgid ""
+"The easiest way to connect to an IRC server is to call @kbd{M-x erc}.  If "
+"you want to assign this function to a keystroke, the following will help you "
+"figure out its parameters."
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:502
+#, no-wrap
+msgid "erc"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:505
+msgid ""
+"Select connection parameters and run ERC@.  Non-interactively, it takes the "
+"following keyword arguments."
+msgstr ""
+
+#. type: var{#1}
+#: ../../erc.texi:507
+#, no-wrap
+msgid "server"
+msgstr ""
+
+#. type: var{#1}
+#: ../../erc.texi:508
+#, no-wrap
+msgid "port"
+msgstr ""
+
+#. type: var{#1}
+#: ../../erc.texi:509
+#, no-wrap
+msgid "nick"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:510 ../../erc.texi:615
+#, no-wrap
+msgid "password"
+msgstr ""
+
+#. type: var{#1}
+#: ../../erc.texi:511
+#, no-wrap
+msgid "full-name"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:519
+msgid ""
+"That is, if called with the following arguments, @var{server} and "
+"@var{full-name} will be set to those values, whereas "
+"@code{erc-compute-port}, @code{erc-compute-nick} and "
+"@code{erc-compute-full-name} will be invoked for the values of the other "
+"parameters."
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:522
+#, no-wrap
+msgid "(erc :server \"irc.freenode.net\" :full-name \"Harry S Truman\")\n"
+msgstr ""
+
+#. type: subheading
+#: ../../erc.texi:525
+#, no-wrap
+msgid "Server"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:527
+#, no-wrap
+msgid "erc-compute-server &optional server"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:529
+msgid "Return an IRC server name."
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:532 ../../erc.texi:553 ../../erc.texi:575 ../../erc.texi:645
+msgid ""
+"This tries a number of increasingly more default methods until a "
+"non-@code{nil} value is found."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:534
+#, no-wrap
+msgid "@var{server} (the argument passed to this function)"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:535
+#, no-wrap
+msgid "The @code{erc-server} option"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:536
+#, no-wrap
+msgid "The value of the IRCSERVER environment variable"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:537
+#, no-wrap
+msgid "The @code{erc-default-server} variable"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:542
+#, no-wrap
+msgid "erc-server"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:544
+msgid "IRC server to use if one is not provided."
+msgstr ""
+
+#. type: subheading
+#: ../../erc.texi:546
+#, no-wrap
+msgid "Port"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:548
+#, no-wrap
+msgid "erc-compute-port &optional port"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:550
+msgid "Return a port for an IRC server."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:555
+#, no-wrap
+msgid "@var{port} (the argument passed to this function)"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:556
+#, no-wrap
+msgid "The @code{erc-port} option"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:557
+#, no-wrap
+msgid "The @code{erc-default-port} variable"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:562
+#, no-wrap
+msgid "erc-port"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:564
+msgid "IRC port to use if not specified."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:566
+msgid "This can be either a string or a number."
+msgstr ""
+
+#. type: subheading
+#: ../../erc.texi:568
+#, no-wrap
+msgid "Nick"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:570
+#, no-wrap
+msgid "erc-compute-nick &optional nick"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:572
+msgid "Return user's IRC nick."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:577
+#, no-wrap
+msgid "@var{nick} (the argument passed to this function)"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:578
+#, no-wrap
+msgid "The @code{erc-nick} option"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:579
+#, no-wrap
+msgid "The value of the IRCNICK environment variable"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:580
+#, no-wrap
+msgid "The result from the @code{user-login-name} function"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:585
+#, no-wrap
+msgid "erc-nick"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:587
+msgid "Nickname to use if one is not provided."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:591
+msgid ""
+"This can be either a string, or a list of strings.  In the latter case, if "
+"the first nick in the list is already in use, other nicks are tried in the "
+"list order."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:593
+#, no-wrap
+msgid "erc-format-nick-function"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:595
+msgid "A function to format a nickname for message display"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:597
+msgid "You can set this to @code{erc-format-@@nick} to display user mode prefix"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:601
+#, no-wrap
+msgid "(setq erc-format-nick-function 'erc-format-@@nick)\n"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:603
+#, no-wrap
+msgid "erc-nick-uniquifier"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:605
+msgid "The string to append to the nick if it is already in use."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:607
+#, no-wrap
+msgid "erc-try-new-nick-p"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:610
+msgid ""
+"If the nickname you chose isn't available, and this option is "
+"non-@code{nil}, ERC should automatically attempt to connect with another "
+"nickname."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:612
+msgid "You can manually set another nickname with the /NICK command."
+msgstr ""
+
+#. type: subheading
+#: ../../erc.texi:614
+#, no-wrap
+msgid "Password"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:617
+#, no-wrap
+msgid "erc-prompt-for-password"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:619
+msgid "If non-@code{nil} (the default), @kbd{M-x erc} prompts for a password."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:625
+msgid ""
+"If you prefer, you can set this option to @code{nil} and use the "
+"@code{auth-source} mechanism to store your password.  For instance, if you "
+"use @file{~/.authinfo} as your auth-source backend, then put something like "
+"the following in that file:"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:628
+#, no-wrap
+msgid "machine irc.example.net login \"#fsf\" password sEcReT\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:634
+msgid ""
+"ERC also consults @code{auth-source} to find any channel keys required for "
+"the channels that you wish to autojoin, as specified by the variable "
+"@code{erc-autojoin-channels-alist}."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:636
+msgid "For more details, @pxref{Top,,auth-source, auth, Emacs auth-source Library}."
+msgstr ""
+
+#. type: subheading
+#: ../../erc.texi:638
+#, no-wrap
+msgid "Full name"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:640
+#, no-wrap
+msgid "erc-compute-full-name &optional full-name"
+msgstr ""
+
+#. type: defun
+#: ../../erc.texi:642
+msgid "Return user's full name."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:647
+#, no-wrap
+msgid "@var{full-name} (the argument passed to this function)"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:648
+#, no-wrap
+msgid "The @code{erc-user-full-name} option"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:649
+#, no-wrap
+msgid "The value of the IRCNAME environment variable"
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:650
+#, no-wrap
+msgid "The result from the @code{user-full-name} function"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:655
+#, no-wrap
+msgid "erc-user-full-name"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:657
+msgid "User full name."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:659
+msgid "This can be either a string or a function to call."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:663
+#, no-wrap
+msgid "configuration, sample"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:668
+msgid ""
+"Here is an example of configuration settings for ERC@.  This can go into "
+"your Emacs configuration file.  Everything after the @code{(require 'erc)} "
+"command can optionally go into @file{~/.emacs.d/.ercrc.el}."
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:671
+#, no-wrap
+msgid ""
+";;; Sample ERC configuration\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:675
+#, no-wrap
+msgid ""
+";; Load authentication info from an external source.  Put sensitive\n"
+";; passwords and the like in here.\n"
+"(load \"~/.emacs.d/.erc-auth\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:693
+#, no-wrap
+msgid ""
+";; This is an example of how to make a new command.  Type \"/uptime\" to\n"
+";; use it.\n"
+"(defun erc-cmd-UPTIME (&rest ignore)\n"
+"  \"Display the uptime of the system, as well as some load-related\n"
+"stuff, to the current ERC buffer.\"\n"
+"  (let ((uname-output\n"
+"         (replace-regexp-in-string\n"
+"          \", load average: \" \"] @{Load average@} [\"\n"
+"          ;; Collapse spaces, remove\n"
+"          (replace-regexp-in-string\n"
+"           \" +\" \" \"\n"
+"           ;; Remove beginning and trailing whitespace\n"
+"           (replace-regexp-in-string\n"
+"            \"^ +\\\\|[ \\n]+$\" \"\"\n"
+"            (shell-command-to-string \"uptime\"))))))\n"
+"    (erc-send-message\n"
+"     (concat \"@{Uptime@} [\" uname-output \"]\"))))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:699
+#, no-wrap
+msgid ""
+";; This causes ERC to connect to the Freenode network upon hitting\n"
+";; C-c e f.  Replace MYNICK with your IRC nick.\n"
+"(global-set-key \"\\C-cef\" (lambda () (interactive)\n"
+"                           (erc :server \"irc.freenode.net\" :port "
+"\"6667\"\n"
+"                                :nick \"MYNICK\")))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:708
+#, no-wrap
+msgid ""
+";; This causes ERC to connect to the IRC server on your own machine (if\n"
+";; you have one) upon hitting C-c e b.  Replace MYNICK with your IRC\n"
+";; nick.  Often, people like to run bitlbee (https://bitlbee.org/) as an\n"
+";; AIM/Jabber/MSN to IRC gateway, so that they can use ERC to chat with\n"
+";; people on those networks.\n"
+"(global-set-key \"\\C-ceb\" (lambda () (interactive)\n"
+"                           (erc :server \"localhost\" :port \"6667\"\n"
+"                                :nick \"MYNICK\")))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:714
+#, no-wrap
+msgid ""
+";; Make C-c RET (or C-c C-RET) send messages instead of RET.  This has\n"
+";; been commented out to avoid confusing new users.\n"
+";; (define-key erc-mode-map (kbd \"RET\") nil)\n"
+";; (define-key erc-mode-map (kbd \"C-c RET\") 'erc-send-current-line)\n"
+";; (define-key erc-mode-map (kbd \"C-c C-RET\") 'erc-send-current-line)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:716
+#, no-wrap
+msgid ""
+";;; Options\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:719
+#, no-wrap
+msgid ""
+";; Join the #emacs and #erc channels whenever connecting to Freenode.\n"
+"(setq erc-autojoin-channels-alist '((\"freenode.net\" \"#emacs\" "
+"\"#erc\")))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:725
+#, no-wrap
+msgid ""
+";; Rename server buffers to reflect the current network name instead\n"
+";; of SERVER:PORT (e.g., \"freenode\" instead of "
+"\"irc.freenode.net:6667\").\n"
+";; This is useful when using a bouncer like ZNC where you have multiple\n"
+";; connections to the same server.\n"
+"(setq erc-rename-buffers t)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:728
+#, no-wrap
+msgid ""
+";; Interpret mIRC-style color commands in IRC chats\n"
+"(setq erc-interpret-mirc-color t)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../erc.texi:737
+#, no-wrap
+msgid ""
+";; The following are commented out by default, but users of other\n"
+";; non-Emacs IRC clients might find them useful.\n"
+";; Kill buffers for channels after /part\n"
+";; (setq erc-kill-buffer-on-part t)\n"
+";; Kill buffers for private queries after quitting the server\n"
+";; (setq erc-kill-queries-on-quit t)\n"
+";; Kill buffers for server messages after quitting the server\n"
+";; (setq erc-kill-server-buffer-on-quit t)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:741
+#, no-wrap
+msgid "options"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:749
+msgid ""
+"This section is extremely incomplete.  For now, the easiest way to check out "
+"all the available options for ERC is to do @kbd{M-x customize-group "
+"@key{RET} erc @key{RET}}."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:750
+#, no-wrap
+msgid "erc-hide-list"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:752
+msgid "If non, @code{nil}, this is a list of IRC message types to hide, e.g.:"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:755
+#, no-wrap
+msgid "(setq erc-hide-list '(\"JOIN\" \"PART\" \"QUIT\"))\n"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:758
+#, no-wrap
+msgid "erc-network-hide-list"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:761
+msgid ""
+"If non, @code{nil}, this is a list of IRC networks and message types to "
+"hide, e.g.:"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:765
+#, no-wrap
+msgid ""
+"(setq erc-network-hide-list ((\"freenode\" \"JOIN\" \"PART\" \"QUIT\")\n"
+"(\"OFTC\" \"JOIN\" \"PART\"\"))\n"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:768
+#, no-wrap
+msgid "erc-channel-hide-list"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:771
+msgid ""
+"If non, @code{nil}, this is a list of IRC channels and message types to "
+"hide, e.g.:"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:775
+#, no-wrap
+msgid ""
+"(setq erc-channel-hide-list ((\"#erc\" \"JOIN\" \"PART\" \"QUIT\")\n"
+"(\"#emacs\" \"NICK\"))\n"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:778
+#, no-wrap
+msgid "erc-lurker-hide-list"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:782
+msgid ""
+"Like @code{erc-hide-list}, but only applies to messages sent by lurkers.  "
+"The function @code{erc-lurker-p} determines whether a given nickname is "
+"considered a lurker."
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:784
+#, no-wrap
+msgid "erc-rename-buffers"
+msgstr ""
+
+#. type: defopt
+#: ../../erc.texi:787
+msgid ""
+"If non, @code{nil}, this will rename server buffers to reflect the current "
+"network name instead of IP:PORT"
+msgstr ""
+
+#. type: example
+#: ../../erc.texi:790
+#, no-wrap
+msgid "(setq erc-rename-buffers t)\n"
+msgstr ""
+
+#. type: chapter
+#: ../../erc.texi:793 ../../erc.texi:794
+#, no-wrap
+msgid "Getting Help and Reporting Bugs"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:795
+#, no-wrap
+msgid "help, getting"
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:796
+#, no-wrap
+msgid "bugs, reporting"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:800
+msgid ""
+"After you have read this guide, if you still have questions about ERC, or if "
+"you have bugs to report, there are several places you can go."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:806
+msgid ""
+"@uref{https://www.emacswiki.org/emacs/ERC} is the emacswiki.org page for "
+"ERC@.  Anyone may add tips, hints, etc.@: to it."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:810
+msgid ""
+"You can ask questions about using ERC on the Emacs mailing list, "
+"@uref{https://lists.gnu.org/mailman/listinfo/help-gnu-emacs}."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:815
+msgid ""
+"You can visit the IRC Freenode channel @samp{#emacs}. Many of the "
+"contributors are frequently around and willing to answer your questions."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:818
+msgid "To report a bug in ERC, use @kbd{M-x report-emacs-bug}."
+msgstr ""
+
+#. type: cindex
+#: ../../erc.texi:824
+#, no-wrap
+msgid "history, of ERC"
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:830
+msgid ""
+"ERC was originally written by Alexander L. Belikoff and Sergey Berezin.  "
+"They stopped development around December 1999.  Their last released version "
+"was ERC 2.0."
+msgstr ""
+
+#. type: Plain text
+#: ../../erc.texi:834
+msgid ""
+"P.S.: If one of the original developers of ERC reads this, we'd like to "
+"receive additional information for this file and hear comments in general."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:836
+#, no-wrap
+msgid "2001"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:842
+msgid ""
+"In June 2001, Mario Lang and Alex Schroeder took over development and "
+"created a ERC Project at @uref{https://sourceforge.net/projects/erc}."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:848
+msgid ""
+"In reaction to a mail about the new ERC development effort, Sergey Berezin "
+"said, ``First of all, I'm glad that my version of ERC is being used out "
+"there.  The thing is, I do not have free time and enough incentive anymore "
+"to work on ERC, so I would be happy if you guys take over the project "
+"entirely.''"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:851
+msgid ""
+"So we happily hacked away on ERC, and soon after (September 2001)  released "
+"the next \"stable\" version, 2.1."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:855
+msgid ""
+"Most of the development of the new ERC happened on #emacs on "
+"irc.openprojects.net.  Over time, many people contributed code, ideas, "
+"bugfixes, and a lot of alpha/beta/gamma testing."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:857
+msgid "See the @file{CREDITS} file for a list of contributors."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:858
+#, no-wrap
+msgid "2003"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:861
+msgid "ERC 3.0 was released."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:862
+#, no-wrap
+msgid "2004"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:865
+msgid "ERC 4.0 was released."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:866
+#, no-wrap
+msgid "2005"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:871
+msgid ""
+"ERC 5.0 was released.  Michael Olson became the release manager and "
+"eventually the maintainer."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:874
+msgid ""
+"After some discussion between him and the Emacs developers, it was decided "
+"to include ERC in Emacs."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:875
+#, no-wrap
+msgid "2006"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:878
+msgid "ERC 5.1 was released.  It was subsequently included in Emacs 22."
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:882
+msgid ""
+"ERC became an official GNU project, and development moved to "
+"@uref{https://sv.gnu.org/projects/erc}.  We switched to using GNU Arch as "
+"our revision control system.  Our mailing list address changed as well."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:883
+#, no-wrap
+msgid "2007"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:886
+msgid "We switched to using git for our version control system."
+msgstr ""
+
+#. type: item
+#: ../../erc.texi:887
+#, no-wrap
+msgid "2009+"
+msgstr ""
+
+#. type: itemize
+#: ../../erc.texi:891
+msgid ""
+"Since about 2009, ERC is no longer developed as a separate project, but is "
+"maintained as part of Emacs."
+msgstr ""
+
+#. type: include
+#: ../../erc.texi:896
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../erc.texi:899
+#, no-wrap
+msgid "Index"
+msgstr ""
