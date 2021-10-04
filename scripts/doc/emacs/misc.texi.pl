@@ -1,0 +1,55 @@
+#!/usr/bin/perl
+# This script requires libintl-perl(>=1.09).
+use Locale::TextDomain ("/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/doc/emacs/misc.texi" => "/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/po/gettext/doc/emacs");
+my ($en, $ja);
+while (<>) {
+	($en, $ja) = (quotemeta('@chapter Miscellaneous Commands'), __ '@chapter Miscellaneous Commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Email and Usenet News with Gnus'), __ '@section Email and Usenet News with Gnus'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Gnus Buffers'), __ '@subsection Gnus Buffers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection When Gnus Starts Up'), __ '@subsection When Gnus Starts Up'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Using the Gnus Group Buffer'), __ '@subsection Using the Gnus Group Buffer'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Using the Gnus Summary Buffer'), __ '@subsection Using the Gnus Summary Buffer'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Host Security'), __ '@section Host Security'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Network Security'), __ '@section Network Security'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Document Viewing'), __ '@section Document Viewing'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection DocView Navigation'), __ '@subsection DocView Navigation'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection DocView Searching'), __ '@subsection DocView Searching'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection DocView Slicing'), __ '@subsection DocView Slicing'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection DocView Conversion'), __ '@subsection DocView Conversion'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Running Shell Commands from Emacs'), __ '@section Running Shell Commands from Emacs'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Single Shell Commands'), __ '@subsection Single Shell Commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Interactive Subshell'), __ '@subsection Interactive Subshell'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Shell Mode'), __ '@subsection Shell Mode'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Shell Prompts'), __ '@subsection Shell Prompts'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Shell Command History'), __ '@subsection Shell Command History'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsubsection Shell History Ring'), __ '@subsubsection Shell History Ring'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsubsection Shell History Copying'), __ '@subsubsection Shell History Copying'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsubsection Shell History References'), __ '@subsubsection Shell History References'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Directory Tracking'), __ '@subsection Directory Tracking'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Shell Mode Options'), __ '@subsection Shell Mode Options'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Emacs Terminal Emulator'), __ '@subsection Emacs Terminal Emulator'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Term Mode'), __ '@subsection Term Mode'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Remote Host Shell'), __ '@subsection Remote Host Shell'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Serial Terminal'), __ '@subsection Serial Terminal'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Using Emacs as a Server'), __ '@section Using Emacs as a Server'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection TCP Emacs server'), __ '@subsection TCP Emacs server'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Invoking @code{emacsclient}'), __ '@subsection Invoking @code{emacsclient}'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection @code{emacsclient} Options'), __ '@subsection @code{emacsclient} Options'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Printing Hard Copies'), __ '@section Printing Hard Copies'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection PostScript Hardcopy'), __ '@subsection PostScript Hardcopy'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Variables for PostScript Hardcopy'), __ '@subsection Variables for PostScript Hardcopy'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Printing Package'), __ '@subsection Printing Package'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Sorting Text'), __ '@section Sorting Text'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Editing Binary Files'), __ '@section Editing Binary Files'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Saving Emacs Sessions'), __ '@section Saving Emacs Sessions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Recursive Editing Levels'), __ '@section Recursive Editing Levels'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Emulation'), __ '@section Emulation'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Hyperlinking and Web Navigation Features'), __ '@section Hyperlinking and Web Navigation Features'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Web Browsing with EWW'), __ '@subsection Web Browsing with EWW'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Embedded WebKit Widgets'), __ '@subsection Embedded WebKit Widgets'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection  Following URLs'), __ '@subsection  Following URLs'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Activating URLs'), __ '@subsection Activating URLs'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Finding Files and URLs at Point'), __ '@subsection Finding Files and URLs at Point'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Games and Other Amusements'), __ '@section Games and Other Amusements'); s/$en/$ja/;
+	print;
+}

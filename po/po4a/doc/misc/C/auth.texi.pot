@@ -1,0 +1,1389 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-04 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/auth.texi:6
+#, no-wrap
+msgid "Emacs auth-source Library @value{VERSION}"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/auth.texi:7
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/auth.texi:11
+msgid "This file describes the Emacs auth-source library."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/auth.texi:13
+msgid "Copyright @copyright{} 2008--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/auth.texi:21
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/auth.texi:24
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/auth.texi:27
+#, no-wrap
+msgid "Emacs lisp libraries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:30
+msgid "Auth-source: (auth)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:30
+msgid "The Emacs auth-source library."
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/auth.texi:34
+#, no-wrap
+msgid "Emacs auth-source Library (DEVELOPMENT VERSION)"
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/auth.texi:37
+#, no-wrap
+msgid "Emacs auth-source Library"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/auth.texi:39
+#, no-wrap
+msgid "by Ted Zlatanov"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/auth.texi:48
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/auth.texi:49
+#, no-wrap
+msgid "Emacs auth-source"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/auth.texi:51
+msgid "This manual describes the Emacs auth-source library."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/auth.texi:54
+msgid ""
+"It is a way for multiple applications to share a single configuration (in "
+"Emacs and in files) for user convenience."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:69 ../../../../../doc/misc/auth.texi:72 ../../../../../doc/misc/auth.texi:73
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Overview of the auth-source library."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Help for users::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Multiple GMail accounts with Gnus::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Secret Service API::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "The Unix password store::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Help for developers::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "GnuPG and EasyPG Assistant Configuration::"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/auth.texi:69 ../../../../../doc/misc/auth.texi:670 ../../../../../doc/misc/auth.texi:671
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Index::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/auth.texi:69
+msgid "Function Index::"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/auth.texi:69 ../../../../../doc/misc/auth.texi:682 ../../../../../doc/misc/auth.texi:683
+#, no-wrap
+msgid "Variable Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:78
+msgid ""
+"The auth-source library is simply a way for Emacs and Gnus, among others, to "
+"answer the old burning question ``What are my user name and password?''"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:81
+msgid ""
+"(This is different from the old question about burning ``Where is the fire "
+"extinguisher, please?''.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:84
+msgid ""
+"The auth-source library supports more than just the user name or the "
+"password (known as the secret)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:90
+msgid ""
+"Similarly, the auth-source library supports multiple storage backend, "
+"currently either the classic ``netrc'' backend, examples of which you can "
+"see later in this document, JSON files, the Secret Service API, and pass, "
+"the standard unix password manager.  This is done with EIEIO-based backends "
+"and you can write your own if you want."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:91 ../../../../../doc/misc/auth.texi:92
+#, no-wrap
+msgid "Help for users"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:95
+msgid "``Netrc'' files are a de facto standard.  They look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:98
+#, no-wrap
+msgid ""
+"machine @var{mymachine} login @var{myloginname} password @var{mypassword} "
+"port @var{myport}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:102
+msgid ""
+"The @code{machine} is the server (either a DNS name or an IP address).  It's "
+"known as @var{:host} in @code{auth-source-search} queries."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:105
+msgid ""
+"The @code{port} is the connection port or protocol.  It's known as "
+"@var{:port} in @code{auth-source-search} queries."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:109
+msgid ""
+"The @code{user} is the user name.  It's known as @var{:user} in "
+"@code{auth-source-search} queries.  You can also use @code{login} and "
+"@code{account}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:112
+msgid ""
+"You can also use this file to specify client certificates to use when "
+"setting up TLS connections.  The format is:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:115
+#, no-wrap
+msgid "machine @var{mymachine} port @var{myport} key @var{key} cert @var{cert}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:122
+msgid ""
+"@var{key} and @var{cert} are filenames containing the key and certificate to "
+"use respectively.  In order to make network connections use them "
+"automatically, either pass @code{:client-certificate t} to "
+"@code{open-network-stream}, or customize "
+"@code{network-stream-use-client-certificates} to @code{t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:125
+msgid ""
+"You can use spaces inside a password or other token by surrounding the token "
+"with either single or double quotes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:131
+msgid ""
+"You can use apostrophes inside a password or other token by surrounding it "
+"with double quotes, e.g., @code{\"he'llo\"}. Similarly you can use double "
+"quotes inside a password or other token by surrounding it with apostrophes, "
+"e.g., @code{'he\"llo'}. You can't mix both (so a password or other token "
+"can't have both apostrophes and double quotes)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:134
+msgid ""
+"All this is optional. You could just say (but we don't recommend it, we're "
+"just showing that it's possible)"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:137
+#, no-wrap
+msgid "password @var{mypassword}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:141
+msgid ""
+"to use the same password everywhere.  Again, @emph{DO NOT DO THIS} or you "
+"will be pwned as the kids say."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:146
+msgid ""
+"``Netrc'' files are usually called @file{.authinfo} or @file{.netrc}; "
+"nowadays @file{.authinfo} seems to be more popular and the auth-source "
+"library encourages this confusion by accepting both, as you'll see later."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:153
+msgid ""
+"If you have problems with the search, set @code{auth-source-debug} to "
+"@code{'trivia} and see what host, port, and user the library is checking in "
+"the @file{*Messages*} buffer.  Ditto for any other problems, your first step "
+"is always to see what's being checked.  The second step, of course, is to "
+"write a blog entry about it and wait for the answer in the comments."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:157
+msgid ""
+"You can customize the variable @code{auth-sources}.  The following may be "
+"needed if you are using an older version of Emacs or if the auth-source "
+"library is not loaded for some other reason."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/auth.texi:161
+#, no-wrap
+msgid ""
+"(require 'auth-source)             ;; probably not necessary\n"
+"(customize-variable 'auth-sources) ;; optional, do it once\n"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:163
+#, no-wrap
+msgid "auth-sources"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:169
+msgid ""
+"The @code{auth-sources} variable tells the auth-source library where your "
+"netrc files, Secret Service API collection items, or your password store "
+"live for a particular host and protocol.  While you can get fancy, the "
+"default and simplest configuration is:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/auth.texi:186
+#, no-wrap
+msgid ""
+";;; old default: required :host and :port, not needed anymore\n"
+"(setq auth-sources '((:source \"~/.authinfo.gpg\" :host t :port t)))\n"
+";;; mostly equivalent (see below about fallbacks) but shorter:\n"
+"(setq auth-sources '((:source \"~/.authinfo.gpg\")))\n"
+";;; even shorter and the @emph{default}:\n"
+"(setq auth-sources '(\"~/.authinfo.gpg\" \"~/.authinfo\" \"~/.netrc\"))\n"
+";;; use the Secrets API @var{Login} collection\n"
+";;; (@pxref{Secret Service API})\n"
+"(setq auth-sources '(\"secrets:Login\"))\n"
+";;; use pass (@file{~/.password-store})\n"
+";;; (@pxref{The Unix password store})\n"
+"(setq auth-sources '(password-store))\n"
+";;; JSON data in format [@{ \"machine\": \"SERVER\",\n"
+";;; \"login\": \"USER\", \"password\": \"PASSWORD\" @}...]\n"
+"(setq auth-sources '(\"~/.authinfo.json.gpg\"))\n"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:193
+msgid ""
+"By adding multiple entries to @code{auth-sources} with a particular host or "
+"protocol, you can have specific netrc files for that host or protocol.  "
+"Usually this is unnecessary but may make sense if you have shared netrc "
+"files or some other unusual setup (90% of Emacs users have unusual setups "
+"and the remaining 10% are @emph{really} unusual)."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:195
+msgid "Here's a mixed example using two sources:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/auth.texi:200
+#, no-wrap
+msgid ""
+"(setq auth-sources '((:source (:secrets default)\n"
+"                      :host \"myserver\" :user \"joe\")\n"
+"                     \"~/.authinfo.gpg\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:207
+msgid ""
+"If you don't customize @code{auth-sources}, you'll have to live with the "
+"defaults: the unencrypted netrc file @file{~/.authinfo} will be used for any "
+"host and any port."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:211
+msgid ""
+"If that fails, any host and any port are looked up in the netrc file "
+"@file{~/.authinfo.gpg}, which is a GnuPG encrypted file (@pxref{GnuPG and "
+"EasyPG Assistant Configuration})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:214
+msgid ""
+"Finally, the unencrypted netrc file @file{~/.netrc} will be used for any "
+"host and any port."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:216
+msgid "The typical netrc line example is without a port."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:219
+#, no-wrap
+msgid "machine YOURMACHINE login YOU password YOURPASSWORD\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:224
+msgid ""
+"This will match any authentication port.  Simple, right? But what if there's "
+"a SMTP server on port 433 of that machine that needs a different password "
+"from the IMAP server?"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:228
+#, no-wrap
+msgid ""
+"machine YOURMACHINE login YOU password SMTPPASSWORD port 433\n"
+"machine YOURMACHINE login YOU password GENERALPASSWORD\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:232
+msgid ""
+"For url-auth authentication (HTTP/HTTPS), you need to put this in your netrc "
+"file:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:235
+#, no-wrap
+msgid "machine yourmachine.com:80 port http login testuser password testpass\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:240
+msgid ""
+"This will match any realm and authentication method (basic or digest)  over "
+"HTTP@.  HTTPS is set up similarly.  If you want finer controls, explore the "
+"url-auth source code and variables."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:242
+msgid "For Tramp authentication, use:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:245
+#, no-wrap
+msgid "machine yourmachine.com port scp login testuser password testpass\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:251
+msgid ""
+"Note that the port denotes the Tramp connection method.  When you don't use "
+"a port entry, you match any Tramp method, as explained earlier.  Since Tramp "
+"has about 88 connection methods, this may be necessary if you have an "
+"unusual (see earlier comment on those) setup."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:254
+msgid ""
+"The netrc format is directly translated into JSON, if you are into that sort "
+"of thing. Just point to a JSON file with entries like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:260
+#, no-wrap
+msgid ""
+"[\n"
+" @{ \"machine\": \"yourmachine.com\", \"port\": \"http\",\n"
+"    \"login\": \"testuser\", \"password\": \"testpass\" @}\n"
+"]\n"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:262 ../../../../../doc/misc/auth.texi:263
+#, no-wrap
+msgid "Multiple GMail accounts with Gnus"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:268
+msgid ""
+"For multiple GMail accounts with Gnus, you have to make two nnimap entries "
+"in your @code{gnus-secondary-select-methods} with distinct names:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:274
+#, no-wrap
+msgid ""
+"(setq gnus-secondary-select-methods '((nnimap \"gmail\"\n"
+"                                         (nnimap-address "
+"\"imap.gmail.com\"))\n"
+"                                      (nnimap \"gmail2\"\n"
+"                                         (nnimap-address "
+"\"imap.gmail.com\"))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:277
+msgid "Your netrc entries will then be:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:281
+#, no-wrap
+msgid ""
+"machine gmail login account@@gmail.com password \"account password\" port "
+"imap\n"
+"machine gmail2 login account2@@gmail.com password \"account2 password\" port "
+"imap\n"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:283 ../../../../../doc/misc/auth.texi:284
+#, no-wrap
+msgid "Secret Service API"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:292
+msgid ""
+"The @dfn{Secret Service API} is a standard from "
+"@uref{https://www.freedesktop.org/wiki/Specifications/secret-storage-spec/,,freedesktop.org} "
+"to securely store passwords and other confidential information.  This API is "
+"implemented by system daemons such as the GNOME Keyring and the KDE Wallet "
+"(these are GNOME and KDE packages respectively and should be available on "
+"most modern GNU/Linux systems)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:296
+msgid ""
+"The auth-source library uses the @file{secrets.el} library to connect "
+"through the Secret Service API@.  You can also use that library in other "
+"packages, it's not exclusive to auth-source."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:297
+#, no-wrap
+msgid "secrets-enabled"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:301
+msgid ""
+"After loading @file{secrets.el}, a non-@code{nil} value of this variable "
+"indicates the existence of a daemon providing the Secret Service API."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/auth.texi:303
+#, no-wrap
+msgid "Command secrets-show-secrets"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/auth.texi:305
+msgid "This command shows all collections, items, and their attributes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:313
+msgid ""
+"The atomic objects managed by the Secret Service API are @dfn{secret items}, "
+"which contain things an application wishes to store securely, like a "
+"password.  Secret items have a label (a name), the @dfn{secret} (which is "
+"the string we want, like a password), and a set of lookup attributes.  The "
+"attributes can be used to search and retrieve a secret item at a later date."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:318
+msgid ""
+"Secret items are grouped in @dfn{collections}.  A collection is sometimes "
+"called a @samp{keyring} or @samp{wallet} in GNOME Keyring and KDE Wallet but "
+"it's the same thing, a group of secrets.  Collections are personal and "
+"protected so only the owner can open them."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:320
+msgid "The most common collection is called @code{\"login\"}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:326
+msgid ""
+"A collection can have an alias.  The alias @code{\"default\"} is commonly "
+"used so the clients don't have to know the specific name of the collection "
+"they open.  Other aliases are not supported yet.  Since aliases are globally "
+"accessible, set the @code{\"default\"} alias only when you're sure it's "
+"appropriate."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:327
+#, no-wrap
+msgid "secrets-list-collections"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:329
+msgid "This function returns all the collection names as a list."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:331
+#, no-wrap
+msgid "secrets-set-alias collection alias"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:334
+msgid ""
+"Set @var{alias} as alias of collection labeled @var{collection}.  Currently "
+"only the alias @code{\"default\"} is supported."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:336
+#, no-wrap
+msgid "secrets-get-alias alias"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:339
+msgid ""
+"Return the collection name @var{alias} is referencing to.  Currently only "
+"the alias @code{\"default\"} is supported."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:345
+msgid ""
+"Collections can be created and deleted by the functions "
+"@code{secrets-create-collection} and @code{secrets-delete-collection}.  "
+"Usually, this is not done from within Emacs.  Do not delete standard "
+"collections such as @code{\"login\"}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:355
+msgid ""
+"The special collection @code{\"session\"} exists for the lifetime of the "
+"corresponding client session (in our case, Emacs's lifetime).  It is created "
+"automatically when Emacs uses the Secret Service interface and it is deleted "
+"when Emacs is killed.  Therefore, it can be used to store and retrieve "
+"secret items temporarily.  The @code{\"session\"} collection is better than "
+"a persistent collection when the secret items should not live longer than "
+"Emacs.  The session collection can be specified either by the string "
+"@code{\"session\"}, or by @code{nil}, whenever a collection parameter is "
+"needed in the following functions."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:356
+#, no-wrap
+msgid "secrets-list-items collection"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:358
+msgid "Returns all the item labels of @var{collection} as a list."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:360
+#, no-wrap
+msgid "secrets-create-item collection item password &rest attributes"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:366
+msgid ""
+"This function creates a new item in @var{collection} with label @var{item} "
+"and password @var{password}.  The label @var{item} does not have to be "
+"unique in @var{collection}.  @var{attributes} are key-value pairs set for "
+"the created item.  The keys are keyword symbols, starting with a colon.  "
+"Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:372
+#, no-wrap
+msgid ""
+";;; The session is \"session\", the label is \"my item\"\n"
+";;; and the secret (password) is \"geheim\".\n"
+"(secrets-create-item \"session\" \"my item\" \"geheim\"\n"
+" :method \"sudo\" :user \"joe\" :host \"remote-host\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:380
+msgid ""
+"The key @code{:xdg:schema} determines the scope of the item to be generated, "
+"i.e.@: for which applications the item is intended for.  This is just a "
+"string like \"org.freedesktop.NetworkManager.Mobile\" or "
+"\"org.gnome.OnlineAccounts\", the other required keys are determined by "
+"this.  If no @code{:xdg:schema} is given, \"org.freedesktop.Secret.Generic\" "
+"is used by default."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:382
+#, no-wrap
+msgid "secrets-get-secret collection item"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:386
+msgid ""
+"Return the secret of item labeled @var{item} in @var{collection}.  If there "
+"are several items labeled @var{item}, it is undefined which one is "
+"returned.  If there is no such item, return @code{nil}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:388
+#, no-wrap
+msgid "secrets-delete-item collection item"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:392
+msgid ""
+"This function deletes item @var{item} in @var{collection}.  If there are "
+"several items labeled @var{item}, it is undefined which one is deleted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:398
+msgid ""
+"The lookup attributes, which are specified during creation of a secret item, "
+"must be a key-value pair.  Keys are keyword symbols, starting with a colon; "
+"values are strings.  They can be retrieved from a given secret item and they "
+"can be used for searching of items."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:399
+#, no-wrap
+msgid "secrets-get-attribute collection item attribute"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:404
+msgid ""
+"Returns the value of key @var{attribute} of item labeled @var{item} in "
+"@var{collection}.  If there are several items labeled @var{item}, it is "
+"undefined which one is returned.  If there is no such item, or the item "
+"doesn't own this key, the function returns @code{nil}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:406
+#, no-wrap
+msgid "secrets-get-attributes collection item"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:411
+msgid ""
+"Return the lookup attributes of item labeled @var{item} in "
+"@var{collection}.  If there are several items labeled @var{item}, it is "
+"undefined which one is returned.  If there is no such item, or the item has "
+"no attributes, it returns @code{nil}.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:415
+#, no-wrap
+msgid ""
+"(secrets-get-attributes \"session\" \"my item\")\n"
+"     @result{} ((:user . \"joe\") (:host . \"remote-host\"))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:418
+#, no-wrap
+msgid "secrets-search-items collection &rest attributes"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:422
+msgid ""
+"Search for the items in @var{collection} with matching @var{attributes}.  "
+"The @var{attributes} are key-value pairs, as used in "
+"@code{secrets-create-item}.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:426
+#, no-wrap
+msgid ""
+"(secrets-search-items \"session\" :user \"joe\")\n"
+"     @result{} (\"my item\" \"another item\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:439
+msgid ""
+"The auth-source library uses the @file{secrets.el} library and thus the "
+"Secret Service API when you specify a source matching "
+"@code{\"secrets:COLLECTION\"}.  For instance, you could use "
+"@code{\"secrets:session\"} to use the @code{\"session\"} collection, open "
+"only for the lifetime of Emacs.  Or you could use @code{\"secrets:Login\"} "
+"to open the @code{\"Login\"} collection.  As a special case, you can use the "
+"symbol @code{default} in @code{auth-sources} (not a string, but a symbol) to "
+"specify the @code{\"default\"} alias.  Here is a contrived example that sets "
+"@code{auth-sources} to search three collections and then fall back to "
+"@file{~/.authinfo.gpg}."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:445
+#, no-wrap
+msgid ""
+"(setq auth-sources '(default\n"
+"                     \"secrets:session\"\n"
+"                     \"secrets:Login\"\n"
+"                     \"~/.authinfo.gpg\"))\n"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:447 ../../../../../doc/misc/auth.texi:448
+#, no-wrap
+msgid "The Unix password store"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:456
+msgid ""
+"@uref{https://www.passwordstore.org,,The standard unix password manager} (or "
+"just @code{pass}) stores your passwords in @code{gpg}-protected files "
+"following the Unix philosophy.  The store location (any directory) must be "
+"specified in the @code{auth-source-pass-filename} variable which defaults to "
+"@file{~/.password-store}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:462
+msgid ""
+"Emacs integration of @code{pass} follows the approach suggested by the pass "
+"project itself for data organization to find data.  In particular, to store "
+"a password for the user @code{rms} on the host @code{gnu.org} and port "
+"@code{22}, you should use one of the following filenames."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:464
+#, no-wrap
+msgid "gnu.org.gpg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/auth.texi:467
+msgid ""
+"No username or port in the filename means that any username and port will "
+"match."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:468
+#, no-wrap
+msgid "gnu.org/rms.gpg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/auth.texi:472
+msgid ""
+"The username to match can be expressed as filename inside a directory whose "
+"name matches the host.  This is useful if the store has passwords for "
+"several users on the same host."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:473
+#, no-wrap
+msgid "rms@@gnu.org.gpg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/auth.texi:476
+msgid ""
+"The username can also be expressed as a prefix, separated from the host with "
+"an at-sign (@code{@@})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:477
+#, no-wrap
+msgid "gnu.org:22.gpg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/auth.texi:479
+msgid ""
+"The port (aka. service) to match can only be expressed after the host and "
+"separated with a colon (@code{:}).  The separator can be changed through the "
+"@code{auth-source-pass-port-separator} variable."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:480
+#, no-wrap
+msgid "gnu.org:22/rms.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:482
+#, no-wrap
+msgid "rms@@gnu.org:22.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:484
+#, no-wrap
+msgid "a/b/gnu.org.gpg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/auth.texi:486
+msgid "Entries can be stored in arbitrary directories."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:487
+#, no-wrap
+msgid "a/b/gnu.org/rms.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:489
+#, no-wrap
+msgid "a/b/rms@@gnu.org.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:491
+#, no-wrap
+msgid "a/b/gnu.org:22.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:493
+#, no-wrap
+msgid "a/b/gnu.org:22/rms.gpg"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:495
+#, no-wrap
+msgid "a/b/rms@@gnu.org:22.gpg"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:503
+msgid ""
+"If several entries match, the one matching the most items (where an ``item'' "
+"is one of username, port or host) is preferred.  For example, while "
+"searching for an entry matching the @code{rms} user on host @code{gnu.org} "
+"and port @code{22}, then the entry @file{gnu.org:22/rms.gpg} is preferred "
+"over @file{gnu.org.gpg}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:506
+msgid ""
+"Users of @code{pass} may also be interested in functionality provided by "
+"other Emacs packages:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:510
+msgid ""
+"@uref{https://git.zx2c4.com/password-store/tree/contrib/emacs/password-store.el,,password-store}: "
+"library wrapping @code{pass};"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:512
+msgid ""
+"@uref{https://github.com/NicolasPetton/pass,,pass}: major mode to manipulate "
+"the store and edit entries;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:514
+msgid ""
+"@uref{https://github.com/jabranham/helm-pass,,helm-pass}: helm interface for "
+"pass."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:516
+#, no-wrap
+msgid "auth-source-pass-filename"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:519
+msgid ""
+"Set this variable to a string locating the password store on the disk.  "
+"Defaults to @file{~/.password-store}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:521
+#, no-wrap
+msgid "auth-source-pass-port-separator"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:524
+msgid ""
+"Set this variable to a string that should separate an host name from a port "
+"in an entry.  Defaults to @samp{:}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/auth.texi:526 ../../../../../doc/misc/auth.texi:527
+#, no-wrap
+msgid "Help for developers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:530
+msgid "The auth-source library lets you control logging output easily."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:531
+#, no-wrap
+msgid "auth-source-debug"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/auth.texi:535
+msgid ""
+"Set this variable to @code{'trivia} to see lots of output in "
+"@file{*Messages*}, or set it to a function that behaves like @code{message} "
+"to do your own logging."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:538
+msgid "The auth-source library only has a few functions for external use."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:539
+#, no-wrap
+msgid ""
+"auth-source-search &rest spec &key type max host user port secret require "
+"create delete &allow-other-keys"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:543
+msgid ""
+"This function searches (or modifies) authentication backends according to "
+"@var{spec}.  See the function's doc-string for details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:547
+msgid ""
+"Let's take a look at an example of using @code{auth-source-search} from "
+"Gnus's @code{nnimap.el}."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:566
+#, no-wrap
+msgid ""
+"(defun nnimap-credentials (address ports)\n"
+"  (let* ((auth-source-creation-prompts\n"
+"          '((user  . \"IMAP user at %h: \")\n"
+"            (secret . \"IMAP password for %u@@%h: \")))\n"
+"         (found (nth 0 (auth-source-search :max 1\n"
+"                                           :host address\n"
+"                                           :port ports\n"
+"                                           :require '(:user :secret)\n"
+"                                           :create t))))\n"
+"    (if found\n"
+"        (list (plist-get found :user)\n"
+"              (let ((secret (plist-get found :secret)))\n"
+"                (if (functionp secret)\n"
+"                    (funcall secret)\n"
+"                  secret))\n"
+"              (plist-get found :save-function))\n"
+"      nil)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:574
+msgid ""
+"This call requires the user and password (secret) to be in the results.  It "
+"also requests that an entry be created if it doesn't exist already.  While "
+"the created entry is being assembled, the shown prompts will be used to "
+"interact with the user.  The caller can also pass data in "
+"@code{auth-source-creation-defaults} to supply defaults for any of the "
+"prompts."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:577
+msgid ""
+"Note that the password needs to be evaluated if it's a function.  It's "
+"wrapped in a function to provide some security."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:580
+msgid ""
+"Later, after a successful login, @code{nnimap.el} calls the "
+"@code{:save-function} like so:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/auth.texi:584
+#, no-wrap
+msgid ""
+"(when (functionp (nth 2 credentials))\n"
+"   (funcall (nth 2 credentials)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:590
+msgid ""
+"This will work whether the @code{:save-function} was provided or not.  "
+"@code{:save-function} will be provided only when a new entry was created, so "
+"this effectively says ``after a successful login, save the authentication "
+"information we just used, if it was newly created.''"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:597
+msgid ""
+"After the first time it's called, the @code{:save-function} will not run "
+"again (but it will log something if you have set @code{auth-source-debug} to "
+"@code{'trivia}).  This is so it won't ask the same question again, which is "
+"annoying.  This is so it won't ask the same question again, which is "
+"annoying.  This is so it won't ask the same question again, which is "
+"annoying."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:600
+msgid ""
+"So the responsibility of the API user that specified @code{:create t} is to "
+"call the @code{:save-function} if it's provided."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:601
+#, no-wrap
+msgid "auth-source-delete &rest spec &key delete &allow-other-keys"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:605
+msgid ""
+"This function deletes entries matching @var{spec} from the authentication "
+"backends.  It returns the entries that were deleted.  The backend may not "
+"actually delete the entries."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:607
+#, no-wrap
+msgid "auth-source-forget spec"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:611
+msgid ""
+"This function forgets any cached data that exactly matches @var{spec}.  It "
+"returns @code{t} if it forget some data, and @code{nil} if no matching data "
+"was found."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:613
+#, no-wrap
+msgid "auth-source-forget+ &rest spec &allow-other-keys"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/auth.texi:616
+msgid ""
+"This function forgets any cached data matching @var{spec}.  It returns the "
+"number of items forgotten."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/auth.texi:618 ../../../../../doc/misc/auth.texi:619
+#, no-wrap
+msgid "GnuPG and EasyPG Assistant Configuration"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:625
+msgid ""
+"If the @code{auth-sources} variable contains @file{~/.authinfo.gpg} before "
+"@file{~/.authinfo}, the auth-source library will try to read the GnuPG "
+"encrypted @file{.gpg} file first, before the unencrypted file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:629
+msgid ""
+"In Emacs 23 or later there is an option @code{auto-encryption-mode} to "
+"automatically decrypt @file{*.gpg} files.  It is enabled by default.  If you "
+"are using earlier versions of Emacs, you will need:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/auth.texi:633
+#, no-wrap
+msgid ""
+"(require 'epa-file)\n"
+"(epa-file-enable)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:638
+msgid ""
+"If you want your GnuPG passwords to be cached, set up @code{gpg-agent} or "
+"EasyPG Assistant (@pxref{Caching Passphrases, , Caching Passphrases, epa})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:640
+msgid "To quick start, here are some questions:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:644
+msgid "Do you use GnuPG version 2 instead of GnuPG version 1?"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:646
+msgid "Do you use symmetric encryption rather than public key encryption?"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/auth.texi:648
+msgid "Do you want to use gpg-agent?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:651
+msgid "Here are configurations depending on your answers:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:653
+#, no-wrap
+msgid "@b{1} @tab @b{2} @tab @b{3} @tab Configuration"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:654
+#, no-wrap
+msgid "Yes @tab Yes @tab Yes @tab Set up gpg-agent."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:655
+#, no-wrap
+msgid "Yes @tab Yes @tab No @tab You can't, without gpg-agent."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:656
+#, no-wrap
+msgid "Yes @tab No @tab Yes @tab Set up gpg-agent."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:657
+#, no-wrap
+msgid "Yes @tab No @tab No @tab You can't, without gpg-agent."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:658
+#, no-wrap
+msgid "No @tab Yes @tab Yes @tab Set up elisp passphrase cache."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:659
+#, no-wrap
+msgid "No @tab Yes @tab No @tab Set up elisp passphrase cache."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:660
+#, no-wrap
+msgid "No @tab No @tab Yes @tab Set up gpg-agent."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/auth.texi:661
+#, no-wrap
+msgid "No @tab No @tab No @tab You can't, without gpg-agent."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:666
+msgid ""
+"To set up gpg-agent, follow the instruction in GnuPG manual (@pxref{Invoking "
+"GPG-AGENT, , Invoking GPG-AGENT, gnupg})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/auth.texi:669
+msgid ""
+"To set up elisp passphrase cache, set "
+"@code{epa-file-cache-passphrase-for-symmetric-encryption}."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/auth.texi:672
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/auth.texi:674 ../../../../../doc/misc/auth.texi:675
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/auth.texi:678 ../../../../../doc/misc/auth.texi:679
+#, no-wrap
+msgid "Function Index"
+msgstr ""

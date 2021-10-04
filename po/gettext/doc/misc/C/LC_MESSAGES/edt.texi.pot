@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:14\n"
+"PO-Revision-Date: 2021-10-04 20:14\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Overview of the EDT Package"
+msgstr ""
+
+msgid "@section How to Begin Using EDT"
+msgstr ""
+
+msgid "@section What's New in Version 4.0"
+msgstr ""
+
+msgid "@section The Aims of this Package"
+msgstr ""
+
+msgid "@chapter Terminals/Keyboards that are Supported"
+msgstr ""
+
+msgid "@chapter How to Get Started"
+msgstr ""
+
+msgid "@chapter Notes Specific to Certain Platforms"
+msgstr ""
+
+msgid "@section Sun Workstations Running X"
+msgstr ""
+
+msgid "@section PC Users Running MS-DOS"
+msgstr ""
+
+msgid "@section PC Users Running GNU/Linux"
+msgstr ""
+
+msgid "@section General Notes on Using @key{NumLock} for the @key{PF1} Key on Unix Systems"
+msgstr ""
+
+msgid "@chapter How Does this EDT Emulation Differ from Real EDT?"
+msgstr ""
+
+msgid "@chapter Some Highlights, and Comparisons to the Original Emacs EDT Emulation"
+msgstr ""
+
+msgid "@chapter Customizing Emulation"
+msgstr ""
+
+msgid "@section Creating your own @file{edt-user.el} File"
+msgstr ""
+
+msgid "@section Specifying Word Entities"
+msgstr ""
+
+msgid "@section Enabling EDT Control Key Sequence Bindings"
+msgstr ""
+
+msgid "@section Setting Scroll Margins"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

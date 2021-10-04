@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:14\n"
+"PO-Revision-Date: 2021-10-04 20:14\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Processing Source Files"
+msgstr ""
+
+msgid "@section Specifying Input Files"
+msgstr ""
+
+msgid "@section Changing the Output File Name"
+msgstr ""
+
+msgid "@section Structs and Unions"
+msgstr ""
+
+msgid "@section Regular Expressions"
+msgstr ""
+
+msgid "@section Verbose Mode"
+msgstr ""
+
+msgid "@chapter Starting to Browse"
+msgstr ""
+
+msgid "@chapter Tree Buffers"
+msgstr ""
+
+msgid "@section Viewing and Finding Class Declarations"
+msgstr ""
+
+msgid "@section Displaying Members"
+msgstr ""
+
+msgid "@section Finding a Class"
+msgstr ""
+
+msgid "@section Burying a Tree Buffer"
+msgstr ""
+
+msgid "@section Displaying File Names"
+msgstr ""
+
+msgid "@section Expanding and Collapsing a Tree"
+msgstr ""
+
+msgid "@section Changing the Tree Indentation"
+msgstr ""
+
+msgid "@section Removing Classes from the Tree"
+msgstr ""
+
+msgid "@section Saving a Tree"
+msgstr ""
+
+msgid "@section Statistics"
+msgstr ""
+
+msgid "@section Marking Classes"
+msgstr ""
+
+msgid "@chapter Member Buffers"
+msgstr ""
+
+msgid "@section Switching Member Lists"
+msgstr ""
+
+msgid "@section Finding and Viewing Member Source"
+msgstr ""
+
+msgid "@section Display of Inherited Members"
+msgstr ""
+
+msgid "@section Searching Members"
+msgstr ""
+
+msgid "@section Switching to Tree Buffer"
+msgstr ""
+
+msgid "@section Filters"
+msgstr ""
+
+msgid "@section Displaying Member Attributes"
+msgstr ""
+
+msgid "@section Long and Short Member Display"
+msgstr ""
+
+msgid "@section Display of Regular Expressions"
+msgstr ""
+
+msgid "@section Displaying Another Class"
+msgstr ""
+
+msgid "@section Burying a Member Buffer"
+msgstr ""
+
+msgid "@section Setting the Column Width"
+msgstr ""
+
+msgid "@section Forced Redisplay"
+msgstr ""
+
+msgid "@section Getting Help"
+msgstr ""
+
+msgid "@chapter Tags-like Functions"
+msgstr ""
+
+msgid "@section Finding and Viewing Members"
+msgstr ""
+
+msgid "@section The Position Stack"
+msgstr ""
+
+msgid "@section Searching and Replacing"
+msgstr ""
+
+msgid "@section Members in Files"
+msgstr ""
+
+msgid "@section Member Apropos"
+msgstr ""
+
+msgid "@section Symbol Completion"
+msgstr ""
+
+msgid "@section Quick Member Display"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

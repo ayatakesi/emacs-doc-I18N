@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:20\n"
+"PO-Revision-Date: 2021-10-04 20:20\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter User Interface"
+msgstr ""
+
+msgid "@section Editable Text Fields"
+msgstr ""
+
+msgid "@section Buttons"
+msgstr ""
+
+msgid "@section Navigation"
+msgstr ""
+
+msgid "@chapter Programming Example"
+msgstr ""
+
+msgid "@chapter Setting Up the Buffer"
+msgstr ""
+
+msgid "@chapter Basic Types"
+msgstr ""
+
+msgid "@section The @code{link} Widget"
+msgstr ""
+
+msgid "@section The @code{url-link} Widget"
+msgstr ""
+
+msgid "@section The @code{info-link} Widget"
+msgstr ""
+
+msgid "@section The @code{push-button} Widget"
+msgstr ""
+
+msgid "@section The @code{editable-field} Widget"
+msgstr ""
+
+msgid "@section The @code{text} Widget"
+msgstr ""
+
+msgid "@section The @code{menu-choice} Widget"
+msgstr ""
+
+msgid "@section The @code{radio-button-choice} Widget"
+msgstr ""
+
+msgid "@section The @code{item} Widget"
+msgstr ""
+
+msgid "@section The @code{choice-item} Widget"
+msgstr ""
+
+msgid "@section The @code{toggle} Widget"
+msgstr ""
+
+msgid "@section The @code{checkbox} Widget"
+msgstr ""
+
+msgid "@section The @code{checklist} Widget"
+msgstr ""
+
+msgid "@section The @code{editable-list} Widget"
+msgstr ""
+
+msgid "@section The @code{group} Widget"
+msgstr ""
+
+msgid "@chapter Sexp Types"
+msgstr ""
+
+msgid "@section The Constant Widgets"
+msgstr ""
+
+msgid "@section Generic Sexp Widget"
+msgstr ""
+
+msgid "@section Atomic Sexp Widgets"
+msgstr ""
+
+msgid "@section Composite Sexp Widgets"
+msgstr ""
+
+msgid "@chapter Properties"
+msgstr ""
+
+msgid "@chapter Defining New Widgets"
+msgstr ""
+
+msgid "@chapter Widget Browser"
+msgstr ""
+
+msgid "@chapter Widget Minor Mode"
+msgstr ""
+
+msgid "@chapter Utilities"
+msgstr ""
+
+msgid "@chapter Wishlist"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

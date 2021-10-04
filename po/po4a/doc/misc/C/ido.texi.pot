@@ -1,0 +1,1528 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-04 20:16+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/ido.texi:3 ../../../../../doc/misc/ido.texi:34 ../../../../../doc/misc/ido.texi:51
+#, no-wrap
+msgid "Interactive Do"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ido.texi:4
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ido.texi:5
+#, no-wrap
+msgid "emacsver.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ido.texi:9
+msgid "This file documents the Ido package for GNU Emacs."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ido.texi:11
+msgid "Copyright @copyright{} 2013--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ido.texi:19
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ido.texi:22
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/ido.texi:25
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:28
+msgid "Ido: (ido)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:28
+msgid "Interactively do things with buffers and files."
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/ido.texi:36
+#, no-wrap
+msgid "For GNU Emacs"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/ido.texi:38
+#, no-wrap
+msgid "as distributed with Emacs @value{EMACSVER}"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/ido.texi:40
+#, no-wrap
+msgid "Kim F. Storm"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/ido.texi:41
+#, no-wrap
+msgid "storm@@cua.dk"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ido.texi:50
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:75 ../../../../../doc/misc/ido.texi:102 ../../../../../doc/misc/ido.texi:103
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63
+msgid "Basics, activation."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:80 ../../../../../doc/misc/ido.texi:191 ../../../../../doc/misc/ido.texi:192
+#, no-wrap
+msgid "Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204
+msgid "Interactivity, matching, scrolling."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:431 ../../../../../doc/misc/ido.texi:432
+#, no-wrap
+msgid "Highlighting"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63
+msgid "Highlighting of matching items."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:443 ../../../../../doc/misc/ido.texi:444
+#, no-wrap
+msgid "Hidden Buffers and Files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63
+msgid "Hidden buffers, files, and directories."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:87 ../../../../../doc/misc/ido.texi:460 ../../../../../doc/misc/ido.texi:461
+#, no-wrap
+msgid "Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63
+msgid "Change the Ido functionality."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ido.texi:63 ../../../../../doc/misc/ido.texi:713
+#, no-wrap
+msgid "Misc"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:63
+msgid "Various other features."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:66
+msgid "Appendices"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/ido.texi:66 ../../../../../doc/misc/ido.texi:803 ../../../../../doc/misc/ido.texi:804
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:66
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:70
+msgid "Indexes"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ido.texi:70 ../../../../../doc/misc/ido.texi:807 ../../../../../doc/misc/ido.texi:808
+#, no-wrap
+msgid "Function Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:70
+msgid "An entry for each documented function."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ido.texi:70 ../../../../../doc/misc/ido.texi:812 ../../../../../doc/misc/ido.texi:813
+#, no-wrap
+msgid "Variable Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:70
+msgid "An entry for each documented variable."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:73
+msgid "--- The Detailed Node Listing ---"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:78 ../../../../../doc/misc/ido.texi:124 ../../../../../doc/misc/ido.texi:126 ../../../../../doc/misc/ido.texi:127
+#, no-wrap
+msgid "Activation"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:78 ../../../../../doc/misc/ido.texi:124
+msgid "How to use this package."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:78 ../../../../../doc/misc/ido.texi:124 ../../../../../doc/misc/ido.texi:147 ../../../../../doc/misc/ido.texi:148
+#, no-wrap
+msgid "Working Directories"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:78 ../../../../../doc/misc/ido.texi:124
+msgid "Where files have most recently been opened."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204 ../../../../../doc/misc/ido.texi:206 ../../../../../doc/misc/ido.texi:207
+#, no-wrap
+msgid "Interactive Substring Matching"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204 ../../../../../doc/misc/ido.texi:360 ../../../../../doc/misc/ido.texi:361
+#, no-wrap
+msgid "Prefix Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204
+msgid "Standard completion."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204 ../../../../../doc/misc/ido.texi:384 ../../../../../doc/misc/ido.texi:385
+#, no-wrap
+msgid "Flexible Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204
+msgid "More flexible matching."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204 ../../../../../doc/misc/ido.texi:410
+#, no-wrap
+msgid "Regexp Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:85 ../../../../../doc/misc/ido.texi:204
+msgid "Matching using regular expression."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497 ../../../../../doc/misc/ido.texi:499 ../../../../../doc/misc/ido.texi:500
+#, no-wrap
+msgid "Changing List Order"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497
+msgid "Changing the list of files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497 ../../../../../doc/misc/ido.texi:521 ../../../../../doc/misc/ido.texi:522
+#, no-wrap
+msgid "Find File At Point"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497
+msgid "Make Ido guess the context."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497 ../../../../../doc/misc/ido.texi:548
+#, no-wrap
+msgid "Ignoring"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497
+msgid "Ignorance is bliss."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497 ../../../../../doc/misc/ido.texi:597
+#, no-wrap
+msgid "Misc Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:92 ../../../../../doc/misc/ido.texi:497
+msgid "Miscellaneous customization for Ido."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ido.texi:94 ../../../../../doc/misc/ido.texi:714
+#, no-wrap
+msgid "Miscellaneous"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746 ../../../../../doc/misc/ido.texi:748 ../../../../../doc/misc/ido.texi:749
+#, no-wrap
+msgid "All Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746
+msgid "Seeing all the matching buffers or files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746 ../../../../../doc/misc/ido.texi:772 ../../../../../doc/misc/ido.texi:773
+#, no-wrap
+msgid "Replacement"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746
+msgid "Replacement for @code{read-buffer} and @code{read-file-name}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746 ../../../../../doc/misc/ido.texi:786 ../../../../../doc/misc/ido.texi:787
+#, no-wrap
+msgid "Other Packages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ido.texi:98 ../../../../../doc/misc/ido.texi:746
+msgid "Don't want to depend on @code{ido-everywhere}?"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:104
+#, no-wrap
+msgid "overview"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:110
+msgid ""
+"This document describes a set of features that can interactively do things "
+"with buffers and files.  All the features are described here in detail."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:115
+msgid ""
+"The @dfn{Ido} package lets you switch between buffers and visit files and "
+"directories with a minimum of keystrokes.  It is a superset of Iswitchb, the "
+"interactive buffer switching package by Stephen Eglen."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:116
+#, no-wrap
+msgid "author of Ido"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:117
+#, no-wrap
+msgid "Iswitchb"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:120
+msgid ""
+"This package was originally written by Kim F. Storm, based on the "
+"@file{iswitchb.el} package by Stephen Eglen."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:128
+#, no-wrap
+msgid "activation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:129
+#, no-wrap
+msgid "installation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:135
+msgid ""
+"This package is distributed with Emacs, so there is no need to install any "
+"additional files in order to start using it.  To activate, use @kbd{M-x "
+"ido-mode}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:141
+msgid ""
+"You may wish to add the following expressions to your initialization file "
+"(@pxref{Init File,,The Emacs Initialization File, emacs, GNU Emacs Manual}), "
+"if you make frequent use of features from this package."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:145
+#, no-wrap
+msgid ""
+"(require 'ido)\n"
+"(ido-mode t)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:149
+#, no-wrap
+msgid "working directories"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ido.texi:151
+#, no-wrap
+msgid "ido-work-directory-list"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:157
+msgid ""
+"@dfn{Working directories} are directories where files have most recently "
+"been opened.  The current directory is inserted at the front of this "
+"@code{ido-work-directory-list} whenever a file is opened with "
+"@code{ido-find-file} and other file-related functions."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:173
+#, no-wrap
+msgid "ido-max-work-directory-list"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:176
+msgid "This user option specifies maximum number of working directories to record."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:179
+#, no-wrap
+msgid "ido-reread-directory"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:180
+#, no-wrap
+msgid "ido-max-dir-file-cache"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:189
+msgid ""
+"This user option specifies maximum number of working directories to be "
+"cached.  This is the size of the cache of @code{file-name-all-completions} "
+"results.  Each cache entry is time stamped with the modification time of the "
+"directory.  Some systems, like MS-Windows, have unreliable directory "
+"modification times, so you may choose to disable caching on such systems, or "
+"explicitly refresh the cache contents using the command "
+"@code{ido-reread-directory} (usually @kbd{C-l}) in the minibuffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:193
+#, no-wrap
+msgid "matching"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:198
+msgid ""
+"This section describes features of this package that have to do with various "
+"kinds of @emph{matching}: among buffers, files, and directories."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:208
+#, no-wrap
+msgid "interactive substring matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:209
+#, no-wrap
+msgid "substring, interactive matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:210
+#, no-wrap
+msgid "matching, using substring"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:217
+msgid ""
+"As you type in a substring, the list of buffers or files currently matching "
+"the substring is displayed as you type.  The list is ordered so that the "
+"most recent buffers or files visited come at the start of the list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:224
+msgid ""
+"The buffer or file at the start of the list will be the one visited when you "
+"press @key{RET}.  By typing more of the substring, the list is narrowed down "
+"so that gradually the buffer or file you want will be at the top of the "
+"list.  Alternatively, you can use @kbd{C-s} and @kbd{C-r} (or the right and "
+"left arrow keys) to rotate buffer or file names in the list until the one "
+"you want is at the top of the list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:227
+msgid ""
+"Completion is also available so that you can see what is common to all of "
+"the matching buffers or files as you type."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:232
+msgid ""
+"For example, if there are two buffers called @file{123456} and @file{123}, "
+"with @file{123456} the most recent, when using @code{ido-switch-buffer}, you "
+"first of all get presented with the list of all the buffers"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:235
+#, no-wrap
+msgid "Buffer: @{123456 | 123@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:238
+msgid "If you then press @kbd{2}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:241
+#, no-wrap
+msgid "Buffer: 2[3]@{123456 | 123@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:250
+msgid ""
+"The items listed in @{...@} are the matching buffers, most recent first "
+"(buffers visible in the current frame are put at the end of the list by "
+"default).  At any time you can select the item at the head of the list by "
+"pressing @key{RET}.  You can also put the first element at the end of the "
+"list by pressing @kbd{C-s} or @key{RIGHT}, or bring the last element to the "
+"head of the list by pressing @kbd{C-r} or @key{LEFT}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:251
+#, no-wrap
+msgid "ido-complete"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:255
+msgid ""
+"The item in [...] indicates what can be added to your input by pressing "
+"@key{TAB} (@code{ido-complete}).  In this case, you will get \"3\" added to "
+"your input."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:257
+msgid "So, press @key{TAB}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:260
+#, no-wrap
+msgid "Buffer: 23@{123456 | 123@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:266
+msgid ""
+"At this point, you still have two matching buffers.  If you want the first "
+"buffer in the list, you can simply press @key{RET}.  If you want the second "
+"in the list, you can press @kbd{C-s} to move it to the top of the list and "
+"then press @key{RET} to select it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:268
+msgid "However, if you type @kbd{4}, you'll only have one match left:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:271
+#, no-wrap
+msgid "Buffer: 234[123456]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:276
+msgid ""
+"Since there is only one matching buffer left, it is given in [] and it is "
+"shown in the @code{ido-only-match} face (ForestGreen).  You can now press "
+"@key{TAB} or @key{RET} to go to that buffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:277
+#, no-wrap
+msgid "ido-select-text"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:280
+msgid ""
+"If you want to create a new buffer named @file{234}, you can press @kbd{C-j} "
+"(@code{ido-select-text}) instead of @key{TAB} or @key{RET}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:282
+msgid "If instead, you type @kbd{a}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:285
+#, no-wrap
+msgid "Buffer: 234a [No match]\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:289
+msgid ""
+"There are no matching buffers.  If you press @key{RET} or @key{TAB}, you can "
+"be prompted to create a new buffer called @file{234a}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:295
+msgid ""
+"Of course, where this function really comes in handy is when you can specify "
+"the buffer using only a few keystrokes.  In the above example, the quickest "
+"way to get to the @file{123456} file would be just to type @kbd{4} and then "
+"@key{RET} (assuming there isn't any newer buffer with @kbd{4} in its name)."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:296
+#, no-wrap
+msgid "ido-find-file"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:303
+msgid ""
+"Likewise, if you use @kbd{C-x C-f} (@code{ido-find-file}), the list of files "
+"and directories in the current directory is provided in the same fashion as "
+"the buffers above.  The files and directories are normally sorted in "
+"alphabetical order, but the most recently visited directory is placed first "
+"to speed up navigating to directories that you have visited recently."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:307
+msgid ""
+"In addition to scrolling through the list using @kbd{<right>} and "
+"@kbd{<left>}, you can use @kbd{<up>} and @kbd{<down>} to quickly scroll the "
+"list to the next or previous subdirectory."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:311
+msgid ""
+"To go down into a subdirectory and continue the file selection on the files "
+"in that directory, simply move the directory to the head of the list and hit "
+"@key{RET}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:314
+msgid ""
+"To go up to the parent directory, delete any partial file name already "
+"specified (e.g., using @key{DEL}) and hit @key{DEL}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:317
+#, no-wrap
+msgid "root directory"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:318
+#, no-wrap
+msgid "home directory"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:324
+msgid ""
+"To go to the root directory (on the current drive), enter two slashes.  On "
+"MS-DOS or Windows, to select the root of another drive, enter @samp{X:/} "
+"where @samp{X} is the drive letter.  To go to the home directory, enter "
+"@samp{~/}.  To enter Dired for this directory, use @kbd{C-d}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:326
+#, no-wrap
+msgid "ftp hosts"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:334
+msgid ""
+"You can also visit files on other hosts using the ange-ftp notations "
+"@samp{/host:} and @samp{/user@@host:}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:338
+msgid ""
+"You can type @kbd{M-p} and @kbd{M-n} to change to previous/next directories "
+"from the history, @kbd{M-s} to search for a file matching your input, and "
+"@kbd{M-k} to remove the current directory from the history."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:343
+msgid ""
+"If for some reason you cannot specify the proper file using "
+"@code{ido-find-file}, you can press @kbd{C-f} to enter the normal "
+"@code{find-file}.  You can also press @kbd{C-b} to drop into "
+"@code{ido-switch-buffer}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:362
+#, no-wrap
+msgid "prefix matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:363
+#, no-wrap
+msgid "matching, using prefix"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:364
+#, no-wrap
+msgid "standard way of completion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:374
+msgid ""
+"The standard way of completion with *nix shells and Emacs is to insert a "
+"@dfn{prefix} and then hitting @key{TAB} (or another completion key).  "
+"Because this behavior has become second nature to a lot of Emacs users, Ido "
+"offers, in addition to the default substring matching method (see above), "
+"also the prefix matching method.  The kind of matching is the only "
+"difference to the description of the substring matching above."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:375
+#, no-wrap
+msgid "ido-toggle-prefix"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:376
+#, no-wrap
+msgid "toggle prefix matching"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:379
+msgid "You can toggle prefix matching with @kbd{C-p} (@code{ido-toggle-prefix})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:383
+msgid ""
+"For example, if you have two buffers @file{123456} and @file{123} then "
+"hitting @kbd{2} does not match because @kbd{2} is not a prefix in any of the "
+"buffer names."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:386
+#, no-wrap
+msgid "flexible matching"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:388
+#, no-wrap
+msgid "ido-enable-flex-matching"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:393
+msgid ""
+"If non-@code{nil}, Ido will do flexible string matching.  Flexible matching "
+"means that if the entered string does not match any item, any item "
+"containing the entered characters in the given sequence will match."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:400
+msgid ""
+"If @code{ido-enable-flex-matching} is non-@code{nil}, Ido will do a more "
+"flexible matching (unless regexp matching is active) to find possible "
+"matches among the available buffer or file names if no matches are found "
+"using the normal prefix or substring matching."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:403
+msgid ""
+"The flexible matching implies that any item which simply contains all of the "
+"entered characters in the specified sequence will match."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:409
+msgid ""
+"For example, if you have four files @file{alpha}, @file{beta}, @file{gamma}, "
+"and @file{delta}, entering @samp{aa} will match @file{alpha} and "
+"@file{gamma}, while @samp{ea} matches @file{beta} and @file{delta}.  If "
+"prefix matching is also active, @samp{aa} only matches @file{alpha}, while "
+"@samp{ea} does not match any files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:411
+#, no-wrap
+msgid "Regular Expression Matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:412
+#, no-wrap
+msgid "regexp matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:413
+#, no-wrap
+msgid "matching, using regular expression"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:420
+msgid ""
+"There is limited provision for regexp matching within Ido, enabled through "
+"@code{ido-enable-regexp} (toggle with @kbd{C-t}).  This allows you to type "
+"@samp{[ch]$} for example and see all file names ending in @samp{c} or "
+"@samp{h}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:421
+#, no-wrap
+msgid "ido-enable-regexp"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:422
+#, no-wrap
+msgid "ido-toggle-regexp"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:426
+msgid ""
+"If the value of this user option is non-@code{nil}, Ido will do regexp "
+"matching.  The value of this user option can be toggled within ido-mode "
+"using @code{ido-toggle-regexp}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:430
+msgid ""
+"@strong{Please note:} Ido-style completion is inhibited when you enable "
+"regexp matching."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:433
+#, no-wrap
+msgid "highlighting"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ido.texi:436
+#, no-wrap
+msgid "ido-use-faces"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:440
+msgid ""
+"The highlighting of matching items is controlled via @code{ido-use-faces}.  "
+"The faces used are @code{ido-first-match}, @code{ido-only-match} and "
+"@code{ido-subdir}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:442
+msgid "Coloring of the matching items was suggested by Carsten Dominik."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:445
+#, no-wrap
+msgid "hidden buffers and files"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:453
+msgid ""
+"Normally, Ido does not include hidden buffers (whose names start with a "
+"space) and hidden files and directories (whose names start with @file{.}) in "
+"the list of possible completions.  However, if the substring you enter does "
+"not match any of the visible buffers or files, Ido will automatically look "
+"for completions among the hidden buffers or files."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ido.texi:454
+#, no-wrap
+msgid "ido-toggle-ignore"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:457
+msgid ""
+"You can toggle the display of hidden buffers and files with @kbd{C-a} "
+"(@code{ido-toggle-ignore})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:462
+#, no-wrap
+msgid "customization"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:466
+msgid "You can customize the @code{ido} group to change Ido functionality:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:469
+#, no-wrap
+msgid "M-x customize-group @key{RET} ido @key{RET}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:473
+msgid "or customize a certain variable:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:476
+#, no-wrap
+msgid "M-x customize-variable @key{RET} ido-xxxxx @key{RET}\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ido.texi:478
+#, no-wrap
+msgid "ido-setup-hook"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:480
+msgid "To modify the keybindings, use the @code{ido-setup-hook}.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:483
+#, no-wrap
+msgid ""
+"(add-hook 'ido-setup-hook 'ido-my-keys)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:487
+#, no-wrap
+msgid ""
+"(defun ido-my-keys ()\n"
+" \"Add my keybindings for Ido.\"\n"
+" (define-key ido-completion-map \" \" 'ido-next-match))\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:501
+#, no-wrap
+msgid "changing order of the list"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:508
+msgid ""
+"By default, the list of current files is most recent first, oldest last, "
+"with the exception that the files visible in the current frame are put at "
+"the end of the list.  A hook exists to allow other functions to order the "
+"list.  For example, if you add:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:511
+#, no-wrap
+msgid "(add-hook 'ido-make-buffer-list-hook 'ido-summary-buffers-to-end)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:520
+msgid ""
+"then all files matching \"Summary\" are moved to the end of the list.  (I "
+"find this handy for keeping the INBOX Summary and so on out of the way.)  It "
+"also moves files matching @samp{output\\*$} to the end of the list (these "
+"are created by AUCTeX when compiling.)  Other functions could be made "
+"available which alter the list of matching files (either deleting or "
+"rearranging elements.)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:523
+#, no-wrap
+msgid "find file at point"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:524
+#, no-wrap
+msgid "ffap"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:529
+msgid ""
+"Find File At Point, also known generally as ``ffap'', is an intelligent "
+"system for opening files and URLs."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:531
+msgid "The following expression will make Ido guess the context:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:534
+#, no-wrap
+msgid "(setq ido-use-filename-at-point 'guess)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:542
+msgid "You can disable URL ffap support by toggling @code{ido-use-url-at-point}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:543
+#, no-wrap
+msgid "ido-use-url-at-point"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:546
+msgid ""
+"If the value of this user option is non-@code{nil}, Ido will look for a URL "
+"at point.  If found, call @code{find-file-at-point} to visit it."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:549
+#, no-wrap
+msgid "Ignoring Buffers and Files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:550
+#, no-wrap
+msgid "ignoring"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:551
+#, no-wrap
+msgid "regexp, ignore buffers and files"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:556
+msgid ""
+"Ido is capable of ignoring buffers, directories, files and extensions using "
+"regular expressions."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:557
+#, no-wrap
+msgid "ido-ignore-buffers"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:560
+msgid ""
+"This variable takes a list of regular expressions for buffers to ignore in "
+"@code{ido-switch-buffer}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:562
+#, no-wrap
+msgid "ido-ignore-directories"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:565
+msgid ""
+"This variable takes a list of regular expressions for (sub)directories names "
+"to ignore in @code{ido-dired} and @code{ido-find-file}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:567
+#, no-wrap
+msgid "ido-ignore-files"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:570
+msgid ""
+"This variable takes a list of regular expressions for files to ignore in "
+"@code{ido-find-file}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:572
+#, no-wrap
+msgid "ido-ignore-unc-host-regexps"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:576
+msgid ""
+"This variable takes a list of regular expressions matching UNC hosts to "
+"ignore.  The letter case will be ignored if @code{ido-downcase-unc-hosts} is "
+"non-@code{nil}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:583
+msgid "To make Ido use @code{completion-ignored-extensions} you need to enable it:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:586
+#, no-wrap
+msgid "(setq ido-ignore-extensions t)\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ido.texi:588
+#, no-wrap
+msgid "completion-ignored-extensions"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:592
+msgid ""
+"Now you can customize @code{completion-ignored-extensions} as well.  Go "
+"ahead and add all the useless object files, backup files, shared library "
+"files and other computing flotsam you don't want Ido to show."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:596
+msgid ""
+"@strong{Note:} Ido will still complete the ignored elements if it would "
+"otherwise not show any other matches.  So if you type out the name of an "
+"ignored file, Ido will still let you open it just fine."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ido.texi:598
+#, no-wrap
+msgid "Miscellaneous Customization"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:599
+#, no-wrap
+msgid "miscellaneous customization for Ido"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:604
+#, no-wrap
+msgid "ido-mode"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:607
+msgid ""
+"This user option determines for which functional group (buffer and files) "
+"Ido behavior should be enabled."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:609
+#, no-wrap
+msgid "ido-case-fold"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:612
+msgid ""
+"If the value of this user option is non-@code{nil}, searching of buffer and "
+"file names should ignore case."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:614
+#, no-wrap
+msgid "ido-show-dot-for-dired"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:618
+msgid ""
+"If the value of this user option is non-@code{nil}, always put @samp{.} as "
+"the first item in file name lists.  This allows the current directory to be "
+"opened immediately with Dired"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:620
+#, no-wrap
+msgid "ido-enable-dot-prefix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:625
+msgid ""
+"If the value of this user option is non-@code{nil}, Ido will match leading "
+"dot as prefix.  I.e., hidden files and buffers will match only if you type a "
+"dot as first char (even if @code{ido-enable-prefix} is @code{nil})."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:627
+#, no-wrap
+msgid "ido-confirm-unique-completion"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:632
+msgid ""
+"If the value of this user option is non-@code{nil}, even a unique completion "
+"must be confirmed.  This means that @code{ido-complete} (@key{TAB}) must "
+"always be followed by @code{ido-exit-minibuffer} (@key{RET}) even when there "
+"is only one unique completion."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:634
+#, no-wrap
+msgid "ido-cannot-complete-command"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:640
+msgid ""
+"When @code{ido-complete} can't complete any more, it will run the command "
+"specified by this user option.  The most useful values are "
+"@code{ido-completion-help}, which pops up a window with completion "
+"alternatives, or @code{ido-next-match} or @code{ido-prev-match}, which cycle "
+"the buffer list."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:642
+#, no-wrap
+msgid "ido-max-file-prompt-width"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:647
+msgid ""
+"This user option specifies the upper limit of the prompt string.  If its "
+"value is an integer, it specifies the number of characters of the string.  "
+"If its value is a floating point number, it specifies a fraction of the "
+"frame width."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:649
+#, no-wrap
+msgid "ido-max-window-height"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:656
+msgid ""
+"If the value of this user option is non-@code{nil}, its value will override "
+"the variable @code{max-mini-window-height}, which is the maximum height for "
+"resizing mini-windows (the minibuffer and the echo area).  If it's a "
+"floating point number, it specifies a fraction of the mini-window frame's "
+"height.  If it's an integer, it specifies the number of lines."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:658
+#, no-wrap
+msgid "ido-record-commands"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:662
+msgid ""
+"If the value of this user option is non-@code{nil}, Ido will record commands "
+"in the variable @code{command-history}.  Note that non-Ido equivalent is "
+"recorded."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:664
+#, no-wrap
+msgid "ido-all-frames"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:669
+msgid ""
+"This user option will be passed to @code{walk-windows} as its "
+"@var{all-frames} argument when Ido is finding buffers.  @xref{Cyclic Window "
+"Ordering, , Cyclic Ordering of Windows, elisp, GNU Emacs Lisp Reference "
+"Manual}."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:671
+#, no-wrap
+msgid "ido-minibuffer-setup-hook"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/ido.texi:676
+msgid ""
+"This hook variable contains Ido-specific customization of minibuffer setup.  "
+"It is run during minibuffer setup if Ido is active, and is intended for use "
+"in customizing ido for interoperation with other packages."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:715
+#, no-wrap
+msgid "miscellaneous"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:722
+msgid ""
+"After @kbd{C-x b} (@code{ido-switch-buffer}), the buffer at the head of the "
+"list can be killed by pressing @kbd{C-k}.  If the buffer needs saving, you "
+"will be queried before the buffer is killed.  @kbd{C-S-b} buries the buffer "
+"at the end of the list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:726
+msgid ""
+"Likewise, after @kbd{C-x C-f}, you can delete (i.e., physically remove) the "
+"file at the head of the list with @kbd{C-k}.  You will always be asked for "
+"confirmation before deleting the file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:731
+msgid ""
+"If you enter @kbd{C-x b} to switch to a buffer visiting a given file, and "
+"you find that the file you are after is not in any buffer, you can press "
+"@kbd{C-f} to immediately drop into @code{ido-find-file}.  You can switch "
+"back to buffer selection with @kbd{C-b}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:736
+msgid "You can also use Ido in your Emacs Lisp programs:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ido.texi:740
+#, no-wrap
+msgid ""
+"(setq my-pkgs (list \"CEDET\" \"Gnus\" \"Rcirc\" \"Tramp\" \"Org\" "
+"\"all-of-them\"))\n"
+"(ido-completing-read \"What's your favorite package? \" my-pkgs)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:750
+#, no-wrap
+msgid "all matching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:751
+#, no-wrap
+msgid "seeing all the matching buffers or files"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:760
+msgid ""
+"If you have many matching files, they may not all fit onto one line of the "
+"minibuffer.  Normally, the minibuffer window will grow to show you more of "
+"the matching files (depending on the value of the variables "
+"@code{resize-mini-windows} and @code{max-mini-window-height}).  If you want "
+"Ido to behave differently from the default minibuffer resizing behavior, set "
+"the variable @code{ido-max-window-height}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:764
+msgid ""
+"Also, to improve the responsiveness of Ido, the maximum number of matching "
+"items is limited to 12, but you can increase or remove this limit via the "
+"@code{ido-max-prospects} user option."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:771
+msgid ""
+"To see a full list of all matching buffers in a separate buffer, hit @kbd{?} "
+"or press @key{TAB} when there are no further completions to the substring.  "
+"Repeated @key{TAB} presses will scroll you through this separate buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:779
+msgid ""
+"@code{ido-read-buffer} and @code{ido-read-file-name} have been written to be "
+"drop-in replacements for the normal buffer and file name reading functions "
+"@code{read-buffer} and @code{read-file-name}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:782
+msgid ""
+"To use ido for all buffer and file selections in Emacs, customize the "
+"variable @code{ido-everywhere}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:788
+#, no-wrap
+msgid "other packages"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ido.texi:789
+#, no-wrap
+msgid "used by other packages"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ido.texi:796
+msgid ""
+"If you don't want to rely on the @code{ido-everywhere} functionality, "
+"@code{ido-read-buffer}, @code{ido-read-file-name}, and "
+"@code{ido-read-directory-name} can be used by other packages to read a "
+"buffer name, a file name, or a directory name in the @emph{Ido} way."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ido.texi:805
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

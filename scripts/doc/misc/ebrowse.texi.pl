@@ -1,0 +1,51 @@
+#!/usr/bin/perl
+# This script requires libintl-perl(>=1.09).
+use Locale::TextDomain ("/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/doc/misc/ebrowse.texi" => "/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/po/gettext/doc/misc");
+my ($en, $ja);
+while (<>) {
+	($en, $ja) = (quotemeta('@chapter Introduction'), __ '@chapter Introduction'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Processing Source Files'), __ '@chapter Processing Source Files'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Specifying Input Files'), __ '@section Specifying Input Files'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Changing the Output File Name'), __ '@section Changing the Output File Name'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Structs and Unions'), __ '@section Structs and Unions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Regular Expressions'), __ '@section Regular Expressions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Verbose Mode'), __ '@section Verbose Mode'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Starting to Browse'), __ '@chapter Starting to Browse'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Tree Buffers'), __ '@chapter Tree Buffers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Viewing and Finding Class Declarations'), __ '@section Viewing and Finding Class Declarations'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Displaying Members'), __ '@section Displaying Members'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Finding a Class'), __ '@section Finding a Class'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Burying a Tree Buffer'), __ '@section Burying a Tree Buffer'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Displaying File Names'), __ '@section Displaying File Names'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Expanding and Collapsing a Tree'), __ '@section Expanding and Collapsing a Tree'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Changing the Tree Indentation'), __ '@section Changing the Tree Indentation'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Removing Classes from the Tree'), __ '@section Removing Classes from the Tree'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Saving a Tree'), __ '@section Saving a Tree'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Statistics'), __ '@section Statistics'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Marking Classes'), __ '@section Marking Classes'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Member Buffers'), __ '@chapter Member Buffers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Switching Member Lists'), __ '@section Switching Member Lists'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Finding and Viewing Member Source'), __ '@section Finding and Viewing Member Source'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Display of Inherited Members'), __ '@section Display of Inherited Members'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Searching Members'), __ '@section Searching Members'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Switching to Tree Buffer'), __ '@section Switching to Tree Buffer'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Filters'), __ '@section Filters'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Displaying Member Attributes'), __ '@section Displaying Member Attributes'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Long and Short Member Display'), __ '@section Long and Short Member Display'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Display of Regular Expressions'), __ '@section Display of Regular Expressions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Displaying Another Class'), __ '@section Displaying Another Class'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Burying a Member Buffer'), __ '@section Burying a Member Buffer'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Setting the Column Width'), __ '@section Setting the Column Width'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Forced Redisplay'), __ '@section Forced Redisplay'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Getting Help'), __ '@section Getting Help'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Tags-like Functions'), __ '@chapter Tags-like Functions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Finding and Viewing Members'), __ '@section Finding and Viewing Members'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section The Position Stack'), __ '@section The Position Stack'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Searching and Replacing'), __ '@section Searching and Replacing'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Members in Files'), __ '@section Members in Files'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Member Apropos'), __ '@section Member Apropos'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Symbol Completion'), __ '@section Symbol Completion'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Quick Member Display'), __ '@section Quick Member Display'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@appendix GNU Free Documentation License'), __ '@appendix GNU Free Documentation License'); s/$en/$ja/;
+	print;
+}

@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:17\n"
+"PO-Revision-Date: 2021-10-04 20:17\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Completion"
+msgstr ""
+
+msgid "@chapter Inserting end-tags"
+msgstr ""
+
+msgid "@chapter Paragraphs"
+msgstr ""
+
+msgid "@chapter Outlining"
+msgstr ""
+
+msgid "@chapter Locating a schema"
+msgstr ""
+
+msgid "@section Commands for locating a schema"
+msgstr ""
+
+msgid "@section Schema locating files"
+msgstr ""
+
+msgid "@subsection Schema locating file syntax basics"
+msgstr ""
+
+msgid "@subsection Using the document's URI to locate a schema"
+msgstr ""
+
+msgid "@subsection Using the document element to locate a schema"
+msgstr ""
+
+msgid "@subsection Using type identifiers in schema locating files"
+msgstr ""
+
+msgid "@subsection Using multiple schema locating files"
+msgstr ""
+
+msgid "@chapter DTDs"
+msgstr ""
+
+msgid "@chapter Limitations"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

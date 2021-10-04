@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:15\n"
+"PO-Revision-Date: 2021-10-04 20:15\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Gnus Coding Style"
+msgstr ""
+
+msgid "@section Dependencies"
+msgstr ""
+
+msgid "@subsection General purpose libraries"
+msgstr ""
+
+msgid "@subsection Encryption and security"
+msgstr ""
+
+msgid "@subsection Networking"
+msgstr ""
+
+msgid "@subsection Mail and News related RFCs"
+msgstr ""
+
+msgid "@subsection message"
+msgstr ""
+
+msgid "@subsection Emacs @acronym{MIME}"
+msgstr ""
+
+msgid "@subsection Gnus backends"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:18\n"
+"PO-Revision-Date: 2021-10-04 20:18\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter About PCL-CVS"
+msgstr ""
+
+msgid "@section Contributors to PCL-CVS"
+msgstr ""
+
+msgid "@chapter Getting started"
+msgstr ""
+
+msgid "@chapter Buffer contents"
+msgstr ""
+
+msgid "@chapter Selected files"
+msgstr ""
+
+msgid "@chapter Commands"
+msgstr ""
+
+msgid "@section Entering PCL-CVS"
+msgstr ""
+
+msgid "@section Setting flags for CVS commands"
+msgstr ""
+
+msgid "@section Updating the @file{*cvs*} buffer"
+msgstr ""
+
+msgid "@section Movement Commands"
+msgstr ""
+
+msgid "@section Marking files"
+msgstr ""
+
+msgid "@section Committing changes"
+msgstr ""
+
+msgid "@section Editing files"
+msgstr ""
+
+msgid "@section Getting info about files"
+msgstr ""
+
+msgid "@section Adding and removing files"
+msgstr ""
+
+msgid "@section Undoing changes"
+msgstr ""
+
+msgid "@section Removing handled entries"
+msgstr ""
+
+msgid "@section Ignoring files"
+msgstr ""
+
+msgid "@section Viewing differences"
+msgstr ""
+
+msgid "@section Running ediff"
+msgstr ""
+
+msgid "@section Updating files"
+msgstr ""
+
+msgid "@section Tagging files"
+msgstr ""
+
+msgid "@section Miscellaneous commands"
+msgstr ""
+
+msgid "@chapter Editing a Log Message"
+msgstr ""
+
+msgid "@chapter Browsing a Log of Changes"
+msgstr ""
+
+msgid "@chapter Customization"
+msgstr ""
+
+msgid "@section Customizing Faces"
+msgstr ""
+
+msgid "@chapter Bugs (known and unknown)"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

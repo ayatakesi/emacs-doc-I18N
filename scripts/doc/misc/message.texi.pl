@@ -1,0 +1,58 @@
+#!/usr/bin/perl
+# This script requires libintl-perl(>=1.09).
+use Locale::TextDomain ("/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/doc/misc/message.texi" => "/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/po/gettext/doc/misc");
+my ($en, $ja);
+while (<>) {
+	($en, $ja) = (quotemeta('@chapter Interface'), __ '@chapter Interface'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section New Mail Message'), __ '@section New Mail Message'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section New News Message'), __ '@section New News Message'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Reply'), __ '@section Reply'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Wide Reply'), __ '@section Wide Reply'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Followup'), __ '@section Followup'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Canceling News'), __ '@section Canceling News'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Superseding'), __ '@section Superseding'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Forwarding'), __ '@section Forwarding'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Resending'), __ '@section Resending'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Bouncing'), __ '@section Bouncing'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Mailing Lists'), __ '@section Mailing Lists'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection  Composing a correct MFT header automagically'), __ '@subsection  Composing a correct MFT header automagically'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Honoring an MFT post'), __ '@subsection Honoring an MFT post'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Commands'), __ '@chapter Commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Buffer Entry'), __ '@section Buffer Entry'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Header Commands'), __ '@section Header Commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Commands for moving to headers'), __ '@subsection Commands for moving to headers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection  Commands to change headers'), __ '@subsection  Commands to change headers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Movement'), __ '@section Movement'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Insertion'), __ '@section Insertion'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section MIME'), __ '@section MIME'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section IDNA'), __ '@section IDNA'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Security'), __ '@section Security'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Signing and encrypting commands'), __ '@subsection Signing and encrypting commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Using S/MIME'), __ '@subsection Using S/MIME'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Using OpenPGP'), __ '@subsection Using OpenPGP'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Passphrase caching'), __ '@subsection Passphrase caching'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Compatibility with older implementations'), __ '@subsection Compatibility with older implementations'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection Encrypt-to-self'), __ '@subsection Encrypt-to-self'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@subsection BCC Warning'), __ '@subsection BCC Warning'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Various Commands'), __ '@section Various Commands'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Sending'), __ '@section Sending'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Mail Aliases'), __ '@section Mail Aliases'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Spelling'), __ '@section Spelling'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Variables'), __ '@chapter Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Message Headers'), __ '@section Message Headers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Mail Headers'), __ '@section Mail Headers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Mail Variables'), __ '@section Mail Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section News Headers'), __ '@section News Headers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section News Variables'), __ '@section News Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Insertion Variables'), __ '@section Insertion Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Various Message Variables'), __ '@section Various Message Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Sending Variables'), __ '@section Sending Variables'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Message Buffers'), __ '@section Message Buffers'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Message Actions'), __ '@section Message Actions'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Appendices'), __ '@chapter Appendices'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@section Responses'), __ '@section Responses'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter GNU Free Documentation License'), __ '@chapter GNU Free Documentation License'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Index'), __ '@chapter Index'); s/$en/$ja/;
+	($en, $ja) = (quotemeta('@chapter Key Index'), __ '@chapter Key Index'); s/$en/$ja/;
+	print;
+}

@@ -1,0 +1,12 @@
+--- doc/misc/org.texi.orig	2021-09-20 05:40:47.621990344 +0900
++++ doc/misc/org.texi	2021-09-20 05:45:55.601990226 +0900
+@@ -7371,8 +7371,7 @@ formats:
+ @tab a relative month
+ @item @samp{thisyear}, @samp{lastyear}, @samp{thisyear-N}
+ @tab a relative year
+-@item @samp{untilnow}@footnote{When using @code{:step}, @code{untilnow} starts from the beginning of
+-2003, not the beginning of time.}
++@item @samp{untilnow}@footnote{When using @code{:step}, @code{untilnow} starts from the beginning of 2003, not the beginning of time.}
+ @tab all clocked time ever
+ @end multitable
+ 

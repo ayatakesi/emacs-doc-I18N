@@ -1,0 +1,2045 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-04 20:15+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: titlefont{#1}
+#: ../../../../../doc/misc/forms.texi:7 ../../../../../doc/misc/forms.texi:46
+#, no-wrap
+msgid "Forms Mode User's Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/forms.texi:8
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/forms.texi:21
+msgid "This file documents Forms mode, a form-editing major mode for GNU Emacs."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/forms.texi:24
+msgid "Copyright @copyright{} 1989, 1997, 2001--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/forms.texi:32
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/forms.texi:35
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/forms.texi:38
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:42
+msgid "Forms: (forms)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:42
+msgid "Emacs package for editing data bases by filling in forms."
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/forms.texi:48
+#, no-wrap
+msgid "Forms-Mode version 2"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/forms.texi:50
+#, no-wrap
+msgid "for GNU Emacs 22.1"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/forms.texi:52
+#, no-wrap
+msgid "April 2007"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/forms.texi:54
+#, no-wrap
+msgid "Johan Vromans"
+msgstr ""
+
+#. type: i{#1}
+#: ../../../../../doc/misc/forms.texi:55
+#, no-wrap
+msgid "jvromans@@squirrel.nl"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/forms.texi:64
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/forms.texi:65
+#, no-wrap
+msgid "Forms Mode"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/forms.texi:72
+msgid ""
+"Forms mode is an Emacs major mode for working with simple textual data bases "
+"in a forms-oriented manner.  In Forms mode, the information in these files "
+"is presented in an Emacs window in a user-defined format, one record at a "
+"time.  The user can view records or modify their contents."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/forms.texi:77
+msgid ""
+"Forms mode is not a simple major mode, but requires two files to do its job: "
+"a control file and a data file.  The data file holds the actual data to be "
+"presented.  The control file describes how to present it."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:98 ../../../../../doc/misc/forms.texi:99
+#, no-wrap
+msgid "Forms Example"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "An example: editing the password data base."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:134 ../../../../../doc/misc/forms.texi:135
+#, no-wrap
+msgid "Entering and Exiting Forms Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "How to visit a file in Forms mode."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:186 ../../../../../doc/misc/forms.texi:187
+#, no-wrap
+msgid "Forms Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "Special commands to use while in Forms mode."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:360 ../../../../../doc/misc/forms.texi:361
+#, no-wrap
+msgid "Data File Format"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "How to format the data file."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:394 ../../../../../doc/misc/forms.texi:395
+#, no-wrap
+msgid "Control File Format"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "How to control forms mode."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:545
+#, no-wrap
+msgid "Format Description"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "How to define the forms layout."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:650
+#, no-wrap
+msgid "Modifying Forms Contents"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "How to modify."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:707 ../../../../../doc/misc/forms.texi:708
+#, no-wrap
+msgid "Miscellaneous"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "Forms mode messages and other remarks."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:746 ../../../../../doc/misc/forms.texi:747
+#, no-wrap
+msgid "Error Messages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "List of error messages forms mode can produce."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:861 ../../../../../doc/misc/forms.texi:862
+#, no-wrap
+msgid "Long Example"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "A more complex control file example."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:950 ../../../../../doc/misc/forms.texi:951
+#, no-wrap
+msgid "Credits"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "Thanks everyone."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:971 ../../../../../doc/misc/forms.texi:972
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/forms.texi:95 ../../../../../doc/misc/forms.texi:975 ../../../../../doc/misc/forms.texi:976
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/forms.texi:95
+msgid "Index to this manual."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:103
+msgid ""
+"Let's illustrate Forms mode with an example.  Suppose you are looking at the "
+"@file{/etc/passwd} file, and the screen looks like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:106
+#, no-wrap
+msgid ""
+"====== /etc/passwd ======\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:108
+#, no-wrap
+msgid ""
+"User : root   Uid: 0   Gid: 1\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:110
+#, no-wrap
+msgid ""
+"Name : Super User\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:112
+#, no-wrap
+msgid ""
+"Home : /\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:114
+#, no-wrap
+msgid "Shell: /bin/sh\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:119
+msgid ""
+"As you can see, the familiar fields from the entry for the super user are "
+"all there, but instead of being colon-separated on one single line, they "
+"make up a forms."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:123
+msgid ""
+"The contents of the forms consist of the contents of the fields of the "
+"record (e.g., @samp{root}, @samp{0}, @samp{1}, @samp{Super User})  "
+"interspersed with normal text (e.g., @samp{User : }, @samp{Uid: })."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:129
+msgid ""
+"If you modify the contents of the fields, Forms mode will analyze your "
+"changes and update the file appropriately.  You cannot modify the "
+"interspersed explanatory text (unless you go to some trouble about it), "
+"because that is marked read-only (@pxref{Text Properties,,, elisp, The Emacs "
+"Lisp Reference Manual})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:133
+msgid ""
+"The Forms mode control file specifies the relationship between the format of "
+"@file{/etc/passwd} and what appears on the screen in Forms mode.  "
+"@xref{Control File Format}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:138
+#, no-wrap
+msgid "forms-find-file"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:139
+#, no-wrap
+msgid "M-x forms-find-file @key{RET} @var{control-file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:142
+msgid ""
+"Visit a database using Forms mode.  Specify the name of the @strong{control "
+"file}, not the data file!"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:143
+#, no-wrap
+msgid "forms-find-file-other-window"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:144
+#, no-wrap
+msgid "M-x forms-find-file-other-window @key{RET} @var{control-file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:146
+msgid "Similar, but displays the file in another window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:156
+msgid ""
+"The command @code{forms-find-file} evaluates the file @var{control-file}, "
+"and also visits it in Forms mode.  What you see in its buffer is not the "
+"contents of this file, but rather a single record of the corresponding data "
+"file that is visited in its own buffer.  So there are two buffers involved "
+"in Forms mode: the @dfn{forms buffer} that is initially used to visit the "
+"control file and that shows the records being browsed, and the @dfn{data "
+"buffer} that holds the data file being visited.  The latter buffer is "
+"normally not visible."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:163
+msgid ""
+"Initially, the first record is displayed in the forms buffer.  The mode line "
+"displays the major mode name @samp{Forms}, followed by the minor mode "
+"@samp{View} if the data base is read-only.  The number of the current record "
+"(@var{n}) and the total number of records in the file(@var{t}) are shown in "
+"the mode line as @samp{@var{n}/@var{t}}.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:166
+#, no-wrap
+msgid "--%%-Emacs: passwd-demo          (Forms View 1/54)----All-------\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:173
+msgid ""
+"If the buffer is not read-only, you may change the buffer to modify the "
+"fields in the record.  When you move to a different record, the contents of "
+"the buffer are parsed using the specifications in @code{forms-format-list}, "
+"and the data file is updated.  If the record has fields that aren't included "
+"in the display, they are not changed."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/forms.texi:174
+#, no-wrap
+msgid "forms-mode-hook"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:177
+msgid ""
+"Entering Forms mode runs the normal hook @code{forms-mode-hook} to perform "
+"user-defined customization."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:181
+msgid ""
+"To save any modified data, you can use @kbd{C-x C-s} "
+"(@code{forms-save-buffer}).  This does not save the forms buffer (which "
+"would be rather useless), but instead saves the buffer visiting the data "
+"file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:185
+msgid ""
+"To terminate Forms mode, you can use @kbd{C-x C-s} "
+"(@code{forms-save-buffer})  and then kill the forms buffer.  However, the "
+"data buffer will still remain.  If this is not desired, you have to kill "
+"this buffer too."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:195
+msgid ""
+"The commands of Forms mode belong to the @kbd{C-c} prefix, with one "
+"exception: @key{TAB}, which moves to the next field.  Forms mode uses "
+"different key maps for normal mode and read-only mode.  In read-only Forms "
+"mode, you can access most of the commands without the @kbd{C-c} prefix, but "
+"you must type ordinary letters instead of control characters; for example, "
+"type @kbd{n} instead of @kbd{C-c C-n}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:198
+msgid ""
+"If your Emacs has been built with X-toolkit support, Forms mode will provide "
+"its own menu with a number of Forms mode commands."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:200 ../../../../../doc/misc/forms.texi:341
+#, no-wrap
+msgid "forms-next-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:201 ../../../../../doc/misc/forms.texi:202
+#, no-wrap
+msgid "C-c C-n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:205
+msgid ""
+"Show the next record (@code{forms-next-record}).  With a numeric argument "
+"@var{n}, show the @var{n}th next record."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:206 ../../../../../doc/misc/forms.texi:345
+#, no-wrap
+msgid "forms-prev-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:207 ../../../../../doc/misc/forms.texi:208
+#, no-wrap
+msgid "C-c C-p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:211
+msgid ""
+"Show the previous record (@code{forms-prev-record}).  With a numeric "
+"argument @var{n}, show the @var{n}th previous record."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:212
+#, no-wrap
+msgid "forms-jump-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:213 ../../../../../doc/misc/forms.texi:214
+#, no-wrap
+msgid "C-c C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:217
+msgid ""
+"Jump to a record by number (@code{forms-jump-record}).  Specify the record "
+"number with a numeric argument."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:218 ../../../../../doc/misc/forms.texi:349
+#, no-wrap
+msgid "forms-first-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:219 ../../../../../doc/misc/forms.texi:220
+#, no-wrap
+msgid "C-c <"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:222
+msgid "Jump to the first record (@code{forms-first-record})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:223 ../../../../../doc/misc/forms.texi:353
+#, no-wrap
+msgid "forms-last-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:224 ../../../../../doc/misc/forms.texi:225
+#, no-wrap
+msgid "C-c >"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:228
+msgid ""
+"Jump to the last record (@code{forms-last-record}).  This command also "
+"recalculates the number of records in the data file."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:229
+#, no-wrap
+msgid "forms-next-field"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/forms.texi:230 ../../../../../doc/misc/forms.texi:231
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/forms.texi:232
+#, no-wrap
+msgid "C-c TAB"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/forms.texi:233
+#, no-wrap
+msgid "C-c @key{TAB}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:237
+msgid ""
+"Jump to the next field in the current record (@code{forms-next-field}).  "
+"With a numeric argument @var{n}, jump forward @var{n} fields.  If this "
+"command would move past the last field, it wraps around to the first field."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:238
+#, no-wrap
+msgid "forms-toggle-read-only"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:239 ../../../../../doc/misc/forms.texi:240
+#, no-wrap
+msgid "C-c C-q"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:248
+msgid ""
+"Toggles read-only mode (@code{forms-toggle-read-only}).  In read-only Forms "
+"mode, you cannot edit the fields; most Forms mode commands can be accessed "
+"without the prefix @kbd{C-c} if you use the normal letter instead (for "
+"example, type @kbd{n} instead of @kbd{C-c C-n}).  In edit mode, you can edit "
+"the fields and thus change the contents of the data base; you must begin "
+"Forms mode commands with @code{C-c}.  Switching to edit mode is allowed only "
+"if you have write access to the data file."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:249
+#, no-wrap
+msgid "forms-insert-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:250 ../../../../../doc/misc/forms.texi:251
+#, no-wrap
+msgid "C-c C-o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:258
+msgid ""
+"Create a new record and insert it before the current record "
+"(@code{forms-insert-record}).  It starts out with empty (or default)  "
+"contents for its fields; you can then edit the fields.  With a numeric "
+"argument, the new record is created @emph{after} the current one.  See also "
+"@code{forms-modified-record-filter} in @ref{Modifying Forms Contents}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:259
+#, no-wrap
+msgid "forms-delete-record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:260 ../../../../../doc/misc/forms.texi:261
+#, no-wrap
+msgid "C-c C-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:265
+msgid ""
+"Delete the current record (@code{forms-delete-record}).  You are prompted "
+"for confirmation before the record is deleted unless a numeric argument has "
+"been provided."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:266
+#, no-wrap
+msgid "forms-search-forward"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/forms.texi:267
+#, no-wrap
+msgid "C-c C-s @var{regexp} RET"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:268
+#, no-wrap
+msgid "C-c C-s @var{regexp} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:272
+msgid ""
+"Search forward for @var{regexp} in all records following this one "
+"(@code{forms-search-forward}).  If found, this record is shown.  If you give "
+"an empty argument, the previous regexp is used again."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:273
+#, no-wrap
+msgid "forms-search-backward"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/forms.texi:274
+#, no-wrap
+msgid "C-c C-r @var{regexp} RET"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:275
+#, no-wrap
+msgid "C-c C-r @var{regexp} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:279
+msgid ""
+"Search backward for @var{regexp} in all records following this one "
+"(@code{forms-search-backward}).  If found, this record is shown.  If you "
+"give an empty argument, the previous regexp is used again."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:281
+#, no-wrap
+msgid "forms-exit"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:282 ../../../../../doc/misc/forms.texi:283
+#, no-wrap
+msgid "C-c C-x"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:287
+#, no-wrap
+msgid "forms-exit-no-save"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:288
+#, no-wrap
+msgid "M-x forms-exit-no-save"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:292 ../../../../../doc/misc/forms.texi:355 ../../../../../doc/misc/forms.texi:358
+#, no-wrap
+msgid "forms-prev-field"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:293
+#, no-wrap
+msgid "M-x forms-prev-field"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:295
+msgid "Similar to @code{forms-next-field} but moves backwards."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:296
+#, no-wrap
+msgid "forms-save-buffer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:297
+#, no-wrap
+msgid "M-x forms-save-buffer"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/forms.texi:298 ../../../../../doc/misc/forms.texi:299
+#, no-wrap
+msgid "C-x C-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:303
+msgid ""
+"Forms mode replacement for @code{save-buffer}. When executed in the forms "
+"buffer it will save the contents of the (modified) data buffer instead. In "
+"Forms mode this function will be bound to @kbd{C-x C-s}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:304
+#, no-wrap
+msgid "forms-print"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:305
+#, no-wrap
+msgid "M-x forms-print"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:308
+msgid ""
+"This command can be used to make a formatted print of the contents of the "
+"data file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:313
+msgid ""
+"In addition the command @kbd{M-x revert-buffer} is useful in Forms mode just "
+"as in other modes."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:315 ../../../../../doc/misc/forms.texi:478 ../../../../../doc/misc/forms.texi:479
+#, no-wrap
+msgid "forms-forms-scroll"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:316
+#, no-wrap
+msgid "scroll-up"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:317
+#, no-wrap
+msgid "scroll-down"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:325 ../../../../../doc/misc/forms.texi:482 ../../../../../doc/misc/forms.texi:483
+#, no-wrap
+msgid "forms-forms-jump"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:326
+#, no-wrap
+msgid "beginning-of-buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:327
+#, no-wrap
+msgid "end-of-buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:336
+msgid ""
+"The following function key definitions are set up in Forms mode (whether "
+"read-only or not):"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/forms.texi:338 ../../../../../doc/misc/forms.texi:339
+#, no-wrap
+msgid "NEXT"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/forms.texi:342 ../../../../../doc/misc/forms.texi:343
+#, no-wrap
+msgid "PRIOR"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/forms.texi:346 ../../../../../doc/misc/forms.texi:347
+#, no-wrap
+msgid "BEGIN"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/forms.texi:350 ../../../../../doc/misc/forms.texi:351
+#, no-wrap
+msgid "END"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/forms.texi:354
+#, no-wrap
+msgid "S-TAB"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:356
+#, no-wrap
+msgid "S-@key{TAB}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/forms.texi:363
+#, no-wrap
+msgid "record"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/forms.texi:364
+#, no-wrap
+msgid "field"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:365 ../../../../../doc/misc/forms.texi:442 ../../../../../doc/misc/forms.texi:443
+#, no-wrap
+msgid "forms-field-sep"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:370
+msgid ""
+"Files for use with Forms mode are very simple---each @dfn{record} (usually "
+"one line) forms the contents of one form.  Each record consists of a number "
+"of @dfn{fields}, which are separated by the value of the string "
+"@code{forms-field-sep}, which is @code{\"\\t\"} (a Tab) by default."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:371 ../../../../../doc/misc/forms.texi:487 ../../../../../doc/misc/forms.texi:488
+#, no-wrap
+msgid "forms-read-file-filter"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:372 ../../../../../doc/misc/forms.texi:502 ../../../../../doc/misc/forms.texi:503
+#, no-wrap
+msgid "forms-write-file-filter"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:382
+msgid ""
+"If the format of the data file is not suitable enough you can define the "
+"filter functions @code{forms-read-file-filter} and "
+"@code{forms-write-file-filter}. @code{forms-read-file-filter} is called when "
+"the data file is read from disk into the data buffer. It operates on the "
+"data buffer, ignoring read-only protections. When the data file is saved to "
+"disk @code{forms-write-file-filter} is called to cancel the effects of "
+"@code{forms-read-file-filter}. After being saved, "
+"@code{forms-read-file-filter} is called again to prepare the data buffer for "
+"further processing."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/forms.texi:383
+#, no-wrap
+msgid "pseudo-newline"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:384 ../../../../../doc/misc/forms.texi:462 ../../../../../doc/misc/forms.texi:463
+#, no-wrap
+msgid "forms-multi-line"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:391
+msgid ""
+"Fields may contain text which shows up in the forms in multiple lines.  "
+"These lines are separated in the field using a ``pseudo-newline'' character "
+"which is defined by the value of the string @code{forms-multi-line}.  Its "
+"default value is @code{\"\\^k\"} (a Control-K character).  If it is set to "
+"@code{nil}, multiple line fields are prohibited."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:393
+msgid "If the data file does not exist, it is automatically created."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/forms.texi:397
+#, no-wrap
+msgid "control file"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:401
+msgid ""
+"The Forms mode @dfn{control file} serves two purposes.  First, it names the "
+"data file to use, and defines its format and properties.  Second, the Emacs "
+"buffer it occupies is used by Forms mode to display the forms."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:404
+msgid ""
+"The contents of the control file are evaluated as a Lisp program.  It should "
+"set the following Lisp variables to suitable values:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:406 ../../../../../doc/misc/forms.texi:407
+#, no-wrap
+msgid "forms-file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:409
+msgid "This variable specifies the name of the data file.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:412
+#, no-wrap
+msgid "(setq forms-file \"my/data-file\")\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:416
+msgid ""
+"If the control file doesn't set @code{forms-file}, Forms mode reports an "
+"error."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/forms.texi:417 ../../../../../doc/misc/forms.texi:418 ../../../../../doc/misc/forms.texi:548
+#, no-wrap
+msgid "forms-format-list"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:421
+msgid ""
+"This variable describes the way the fields of the record are formatted on "
+"the screen.  For details, see @ref{Format Description}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:422 ../../../../../doc/misc/forms.texi:423
+#, no-wrap
+msgid "forms-number-of-fields"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:426
+msgid ""
+"This variable holds the number of fields in each record of the data file.  "
+"Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:429
+#, no-wrap
+msgid "(setq forms-number-of-fields 10)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:436
+msgid ""
+"If the control file does not set @code{forms-format-list} a default format "
+"is used.  In this situation, Forms mode will deduce the number of fields "
+"from the data file providing this file exists and "
+"@code{forms-number-of-fields} has not been set in the control file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:440
+msgid ""
+"The control file can optionally set the following additional Forms mode "
+"variables.  Most of them have default values that are good for most "
+"applications."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:447
+msgid ""
+"This variable may be used to designate the string which separates the fields "
+"in the records of the data file.  If not set, it defaults to the string "
+"@code{\"\\t\"} (a Tab character).  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:450
+#, no-wrap
+msgid "(setq forms-field-sep \"\\t\")\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:452 ../../../../../doc/misc/forms.texi:453
+#, no-wrap
+msgid "forms-read-only"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:457
+msgid ""
+"If the value is non-@code{nil}, the data file is treated read-only.  (Forms "
+"mode also treats the data file as read-only if you don't have access to "
+"write it.)  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:460
+#, no-wrap
+msgid "(set forms-read-only t)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:470
+msgid ""
+"This variable specifies the @dfn{pseudo newline} separator that allows "
+"multi-line fields.  This separator goes between the ``lines'' within a "
+"field---thus, the field doesn't really contain multiple lines, but it "
+"appears that way when displayed in Forms mode.  If the value is @code{nil}, "
+"multi-line text fields are prohibited.  The pseudo newline must not be a "
+"character contained in @code{forms-field-sep}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:472
+msgid "The default value is @code{\"\\^k\"}, the character Control-K@.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:475
+#, no-wrap
+msgid "(setq forms-multi-line \"\\^k\")\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:494
+msgid ""
+"This variable holds the name of a function to be called after the data file "
+"has been read in. This can be used to transform the contents of the data "
+"file into a format more suitable for forms processing.  If it is @code{nil}, "
+"no function is called.  For example, to maintain a gzipped database:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:500
+#, no-wrap
+msgid ""
+"(defun gzip-read-file-filter ()\n"
+"  (shell-command-on-region (point-min) (point-max)\n"
+"                           \"gzip -d\" t t))\n"
+"(setq forms-read-file-filter 'gzip-read-file-filter)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:508
+msgid ""
+"This variable holds the name of a function to be called before writing out "
+"the contents of the data file.  This can be used to undo the effects of "
+"@code{forms-read-file-filter}.  If it is @code{nil}, no function is called.  "
+"Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:516
+#, no-wrap
+msgid ""
+"(defun gzip-write-file-filter ()\n"
+"  (make-variable-buffer-local 'require-final-newline)\n"
+"  (setq require-final-newline nil)\n"
+"  (shell-command-on-region (point-min) (point-max)\n"
+"                           \"gzip\" t t))\n"
+"(setq forms-write-file-filter 'gzip-write-file-filter)\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:518 ../../../../../doc/misc/forms.texi:519
+#, no-wrap
+msgid "forms-new-record-filter"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:524
+msgid ""
+"This variable holds a function to be called whenever a new record is created "
+"to supply default values for fields.  If it is @code{nil}, no function is "
+"called.  @xref{Modifying Forms Contents}, for details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:525 ../../../../../doc/misc/forms.texi:526
+#, no-wrap
+msgid "forms-modified-record-filter"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:531
+msgid ""
+"This variable holds a function to be called whenever a record is modified, "
+"just before updating the Forms data file.  If it is @code{nil}, no function "
+"is called.  @xref{Modifying Forms Contents}, for details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:532 ../../../../../doc/misc/forms.texi:533
+#, no-wrap
+msgid "forms-insert-after"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:537
+msgid ""
+"If this variable is not @code{nil}, new records are created @emph{after} the "
+"current record. Also, upon visiting a file, the initial position will be at "
+"the last record instead of the first one."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:538 ../../../../../doc/misc/forms.texi:539
+#, no-wrap
+msgid "forms-check-number-of-fields"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:543
+msgid ""
+"Normally each record is checked to contain the correct number of fields.  "
+"Under certain circumstances, this can be undesirable.  If this variable is "
+"set to @code{nil}, these checks will be bypassed."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:546
+#, no-wrap
+msgid "The Format Description"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:555
+msgid ""
+"The variable @code{forms-format-list} specifies the format of the data in "
+"the data file, and how to convert the data for display in Forms mode.  Its "
+"value must be a list of Forms mode @dfn{formatting elements}, each of which "
+"can be a string, a number, a Lisp list, or a Lisp symbol that evaluates to "
+"one of those.  The formatting elements are processed in the order they "
+"appear in the list."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:557
+#, no-wrap
+msgid "string"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:560
+msgid ""
+"A string formatting element is inserted in the forms ``as is,'' as text that "
+"the user cannot alter."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:561
+#, no-wrap
+msgid "number"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:565
+msgid ""
+"A number element selects a field of the record.  The contents of this field "
+"are inserted in the display at this point.  Field numbers count starting "
+"from 1 (one)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:566
+#, no-wrap
+msgid "list"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:571
+msgid ""
+"A formatting element that is a list specifies a function call.  This "
+"function is called every time a record is displayed, and its result, which "
+"must be a string, is inserted in the display text.  The function should do "
+"nothing but returning a string."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/forms.texi:572
+#, no-wrap
+msgid "forms-fields"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:576
+msgid ""
+"The function you call can access the fields of the record as a list in the "
+"variable @code{forms-fields}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:577
+#, no-wrap
+msgid "symbol"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:581
+msgid ""
+"A symbol used as a formatting element should evaluate to a string, number, "
+"or list; the value is interpreted as a formatting element, as described "
+"above."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:586
+msgid ""
+"If a record does not contain the number of fields as specified in "
+"@code{forms-number-of-fields}, a warning message will be printed.  Excess "
+"fields are ignored, missing fields are set to empty."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:589
+msgid ""
+"The control file which displays @file{/etc/passwd} file as demonstrated in "
+"the beginning of this manual might look as follows:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:592
+#, no-wrap
+msgid ""
+";; @r{This demo visits @file{/etc/passwd}.}\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:599
+#, no-wrap
+msgid ""
+"(setq forms-file \"/etc/passwd\")\n"
+"(setq forms-number-of-fields 7)\n"
+"(setq forms-read-only t)                 ; @r{to make sure}\n"
+"(setq forms-field-sep \":\")\n"
+";; @r{Don't allow multi-line fields.}\n"
+"(setq forms-multi-line nil)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:613
+#, no-wrap
+msgid ""
+"(setq forms-format-list\n"
+"      (list\n"
+"       \"====== /etc/passwd ======\\n\\n\"\n"
+"       \"User : \"    1\n"
+"       \"   Uid: \"   3\n"
+"       \"   Gid: \"   4\n"
+"       \"\\n\\n\"\n"
+"       \"Name : \"    5\n"
+"       \"\\n\\n\"\n"
+"       \"Home : \"    6\n"
+"       \"\\n\\n\"\n"
+"       \"Shell: \"    7\n"
+"       \"\\n\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:617
+msgid ""
+"When you construct the value of @code{forms-format-list}, you should usually "
+"either quote the whole value, like this,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:626
+#, no-wrap
+msgid ""
+"(setq forms-format-list\n"
+"     '(\n"
+"       \"====== \" forms-file \" ======\\n\\n\"\n"
+"       \"User : \"    1\n"
+"       (make-string 20 ?-)\n"
+"       @dots{}\n"
+"      ))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:630
+msgid "or quote the elements which are lists, like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:639
+#, no-wrap
+msgid ""
+"(setq forms-format-list\n"
+"      (list\n"
+"       \"====== \" forms-file \" ======\\n\\n\"\n"
+"       \"User : \"    1\n"
+"       '(make-string 20 ?-)\n"
+"       @dots{}\n"
+"      ))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:645
+msgid ""
+"Forms mode validates the contents of @code{forms-format-list} when you visit "
+"a database.  If there are errors, processing is aborted with an error "
+"message which includes a descriptive text.  @xref{Error Messages}, for a "
+"detailed list of error messages."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:649
+msgid ""
+"If no @code{forms-format-list} is specified, Forms mode will supply a "
+"default format list.  This list contains the name of the file being visited, "
+"and a simple label for each field indicating the field number."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/forms.texi:651
+#, no-wrap
+msgid "Modifying The Forms Contents"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:655
+msgid ""
+"If @code{forms-read-only} is @code{nil}, the user can modify the fields and "
+"records of the database."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:660
+msgid ""
+"All normal editing commands are available for editing the contents of the "
+"displayed record.  You cannot delete or modify the fixed, explanatory text "
+"that comes from string formatting elements, but you can modify the actual "
+"field contents."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:674
+msgid ""
+"If the variable @code{forms-modified-record-filter} is non-@code{nil}, it is "
+"called as a function before the new data is written to the data file.  The "
+"function receives one argument, a vector that contains the contents of the "
+"fields of the record."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:680
+msgid ""
+"The function can refer to fields with @code{aref} and modify them with "
+"@code{aset}.  The first field has number 1 (one); thus, element 0 of the "
+"vector is not used.  The function should return the same vector it was "
+"passed; the (possibly modified) contents of the vector determine what is "
+"actually written in the file.  Here is an example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:687
+#, no-wrap
+msgid ""
+"(defun my-modified-record-filter (record)\n"
+"  ;; @r{Modify second field.}\n"
+"  (aset record 2 (current-time-string))\n"
+"  ;; @r{Return the field vector.}\n"
+"  record)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:689
+#, no-wrap
+msgid "(setq forms-modified-record-filter 'my-modified-record-filter)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:697
+msgid ""
+"If the variable @code{forms-new-record-filter} is non-@code{nil}, its value "
+"is a function to be called to fill in default values for the fields of a new "
+"record.  The function is passed a vector of empty strings, one for each "
+"field; it should return the same vector, with the desired field values "
+"stored in it.  Fields are numbered starting from 1 (one).  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:703
+#, no-wrap
+msgid ""
+"(defun my-new-record-filter (fields)\n"
+"  (aset fields 5 (login-name))\n"
+"  (aset fields 1 (current-time-string))\n"
+"  fields)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:705
+#, no-wrap
+msgid "(setq forms-new-record-filter 'my-new-record-filter)\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/forms.texi:710
+#, no-wrap
+msgid "forms-version"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:713
+msgid ""
+"The global variable @code{forms-version} holds the version information of "
+"the Forms mode software."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:714
+#, no-wrap
+msgid "forms-enumerate"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:720
+msgid ""
+"It is very convenient to use symbolic names for the fields in a record.  The "
+"function @code{forms-enumerate} provides an elegant means to define a series "
+"of variables whose values are consecutive integers.  The function returns "
+"the highest number used, so it can be used to set "
+"@code{forms-number-of-fields} also.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:725
+#, no-wrap
+msgid ""
+"(setq forms-number-of-fields\n"
+"      (forms-enumerate\n"
+"       '(field1 field2 field3 @dots{})))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:728
+msgid "This sets @code{field1} to 1, @code{field2} to 2, and so on."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:732
+msgid ""
+"Care has been taken to keep the Forms mode variables buffer-local, so it is "
+"possible to visit multiple files in Forms mode simultaneously, even if they "
+"have different properties."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/forms.texi:733
+#, no-wrap
+msgid "forms-mode"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:740
+msgid ""
+"If you have visited the control file in normal fashion with @code{find-file} "
+"or a like command, you can switch to Forms mode with the command @code{M-x "
+"forms-mode}.  If you put @samp{-*- forms -*-} in the first line of the "
+"control file, then visiting it enables Forms mode automatically.  But this "
+"makes it hard to edit the control file itself, so you'd better think twice "
+"before using this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:745
+msgid ""
+"The default format for the data file, using @code{\"\\t\"} to separate "
+"fields and @code{\"\\^k\"} to separate lines within a field, matches the "
+"file format of some popular database programs, e.g., FileMaker.  So "
+"@code{forms-mode} can decrease the need to use proprietary software."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:754
+msgid ""
+"This section describes all error messages which can be generated by forms "
+"mode.  Error messages that result from parsing the control file all start "
+"with the text @samp{Forms control file error}.  Messages generated while "
+"analyzing the definition of @code{forms-format-list} start with @samp{Forms "
+"format error}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:756
+#, no-wrap
+msgid "Forms control file error: `forms-file' has not been set"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:758
+msgid "The variable @code{forms-file} was not set by the control file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:759
+#, no-wrap
+msgid "Forms control file error: `forms-number-of-fields' has not been set"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:762
+msgid "The variable @code{forms-number-of-fields} was not set by the control file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:763
+#, no-wrap
+msgid "Forms control file error: `forms-number-of-fields' must be a number > 0"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:766
+msgid ""
+"The variable @code{forms-number-of-fields} did not contain a positive "
+"number."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:767
+#, no-wrap
+msgid "Forms control file error: `forms-field-sep' is not a string"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/forms.texi:768
+#, no-wrap
+msgid ""
+"Forms control file error: `forms-multi-line' must be nil or a one-character "
+"string"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:771
+msgid ""
+"The variable @code{forms-multi-line} was set to something other than "
+"@code{nil} or a single-character string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:772
+#, no-wrap
+msgid "Forms control file error: `forms-multi-line' is equal to 'forms-field-sep'"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:776
+msgid ""
+"The variable @code{forms-multi-line} may not be equal to "
+"@code{forms-field-sep} for this would make it impossible to distinguish "
+"fields and the lines in the fields."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:777
+#, no-wrap
+msgid "Forms control file error: `forms-new-record-filter' is not a function"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/forms.texi:778
+#, no-wrap
+msgid "Forms control file error: `forms-modified-record-filter' is not a function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:780
+msgid "The variable has been set to something else than a function."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:781
+#, no-wrap
+msgid "Forms control file error: `forms-format-list' is not a list"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:784
+msgid ""
+"The variable @code{forms-format-list} was not set to a Lisp list by the "
+"control file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:785
+#, no-wrap
+msgid "Forms format error: field number @var{xx} out of range 1..@var{nn}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:789
+msgid ""
+"A field number was supplied in @code{forms-format-list} with a value of "
+"@var{xx}, which was not greater than zero and smaller than or equal to the "
+"number of fields in the forms, @var{nn}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:790
+#, no-wrap
+msgid "Forms format error: @var{fun} is not a function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:793
+msgid ""
+"The first element of a list which is an element of @code{forms-format-list} "
+"was not a valid Lisp function."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:794
+#, no-wrap
+msgid "Forms format error: invalid element @var{xx}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:797
+msgid ""
+"A list element was supplied in @code{forms-format-list} which was not a "
+"string, number or list."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:802
+#, no-wrap
+msgid "Parse error: not looking at `...'"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:806
+#, no-wrap
+msgid "Parse error: cannot find `...'"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:810
+#, no-wrap
+msgid "Parse error: cannot parse adjacent fields @var{xx} and @var{yy}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:815
+#, no-wrap
+msgid "Warning: this record has @var{xx} fields instead of @var{yy}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:818
+msgid ""
+"The number of fields in this record in the data file did not match "
+"@code{forms-number-of-fields}.  Missing fields will be made empty."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:819
+#, no-wrap
+msgid "Multi-line fields in this record - update refused!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:823
+msgid ""
+"The current record contains newline characters, hence can not be written "
+"back to the data file, for it would corrupt it.  Probably you inserted a "
+"newline in a field, while @code{forms-multi-line} was @code{nil}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:824
+#, no-wrap
+msgid "Field separator occurs in record - update refused!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:828
+msgid ""
+"The current record contains the field separator string inside one of the "
+"fields. It can not be written back to the data file, for it would corrupt "
+"it. Probably you inserted the field separator string in a field."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:829
+#, no-wrap
+msgid "Record number @var{xx} out of range 1..@var{yy}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:832
+msgid ""
+"A jump was made to non-existing record @var{xx}.  @var{yy} denotes the "
+"number of records in the file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:833
+#, no-wrap
+msgid "Stuck at record @var{xx}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:835
+msgid "An internal error prevented a specific record from being retrieved."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:836
+#, no-wrap
+msgid "No write access to @code{\"}@var{file}@code{\"}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:839
+msgid ""
+"An attempt was made to enable edit mode on a file that has been write "
+"protected."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:840
+#, no-wrap
+msgid "Search failed: @var{regexp}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:847
+msgid ""
+"The @var{regexp} could not be found in the data file. Forward searching is "
+"done from the current location until the end of the file, then retrying from "
+"the beginning of the file until the current location.  Backward searching is "
+"done from the current location until the beginning of the file, then "
+"retrying from the end of the file until the current location."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:848
+#, no-wrap
+msgid "Wrapped"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:850
+msgid "A search completed successfully after wrapping around."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:851
+#, no-wrap
+msgid "Warning: number of records changed to @var{nn}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:854
+msgid ""
+"Forms mode's idea of the number of records has been adjusted to the number "
+"of records actually present in the data file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/forms.texi:855
+#, no-wrap
+msgid "Problem saving buffers?"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/forms.texi:859
+msgid ""
+"An error occurred while saving the data file buffer. Most likely, Emacs did "
+"ask to confirm deleting the buffer because it had been modified, and you "
+"said ``no''."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:866
+msgid ""
+"The following example exploits most of the features of Forms mode.  This "
+"example is included in the distribution as file "
+"@file{etc/forms/forms-d2.el}."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:869
+#, no-wrap
+msgid ""
+";; demo2 -- demo forms-mode     -*- emacs-lisp -*-\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:871
+#, no-wrap
+msgid ""
+";; @r{This sample forms exploit most of the features of forms mode.}\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:875
+#, no-wrap
+msgid ""
+";; @r{Set the name of the data file.}\n"
+"(setq forms-file\n"
+"       (expand-file-name \"forms/forms-d2.dat\" data-directory))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:890
+#, no-wrap
+msgid ""
+";; @r{Use @code{forms-enumerate} to set field names and number thereof.}\n"
+"(setq forms-number-of-fields\n"
+"      (forms-enumerate\n"
+"       '(arch-newsgroup                 ; 1\n"
+"         arch-volume                    ; 2\n"
+"         arch-issue                     ; and ...\n"
+"         arch-article                   ; ... so\n"
+"         arch-shortname                 ; ... ... on\n"
+"         arch-parts\n"
+"         arch-from\n"
+"         arch-longname\n"
+"         arch-keywords\n"
+"         arch-date\n"
+"         arch-remarks)))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:910
+#, no-wrap
+msgid ""
+";; @r{The following functions are used by this form for layout purposes.}\n"
+";;\n"
+"(defun arch-tocol (target &optional fill)\n"
+"  \"Produces a string to skip to column TARGET.\n"
+"Prepends newline if needed.\n"
+"The optional FILL should be a character, used to fill to the column.\"\n"
+"  (if (null fill)\n"
+"      (setq fill ? ))\n"
+"  (if (< target (current-column))\n"
+"      (concat \"\\n\" (make-string target fill))\n"
+"    (make-string (- target (current-column)) fill)))\n"
+";;\n"
+"(defun arch-rj (target field &optional fill)\n"
+"  \"Produces a string to skip to column TARGET\\\n"
+" minus the width of field FIELD.\n"
+"Prepends newline if needed.\n"
+"The optional FILL should be a character,\n"
+"used to fill to the column.\"\n"
+"  (arch-tocol (- target (length (nth field forms-fields))) fill))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:919
+#, no-wrap
+msgid ""
+";; @r{Record filters.}\n"
+";;\n"
+"(defun new-record-filter (the-record)\n"
+"  \"Form a new record with some defaults.\"\n"
+"  (aset the-record arch-from (user-full-name))\n"
+"  (aset the-record arch-date (current-time-string))\n"
+"  the-record)                           ; return it\n"
+"(setq forms-new-record-filter 'new-record-filter)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:946
+#, no-wrap
+msgid ""
+";; @r{The format list.}\n"
+"(setq forms-format-list\n"
+"     (list\n"
+"       \"====== Public Domain Software Archive ======\\n\\n\"\n"
+"       arch-shortname\n"
+"       \" - \"                    arch-longname\n"
+"       \"\\n\\n\"\n"
+"       \"Article: \"              arch-newsgroup\n"
+"       \"/\"                      arch-article\n"
+"       \" \"\n"
+"       '(arch-tocol 40)\n"
+"       \"Issue: \"                arch-issue\n"
+"       \" \"\n"
+"       '(arch-rj 73 10)\n"
+"       \"Date: \"                 arch-date\n"
+"       \"\\n\\n\"\n"
+"       \"Submitted by: \"         arch-from\n"
+"       \"\\n\"\n"
+"       '(arch-tocol 79 ?-)\n"
+"       \"\\n\"\n"
+"       \"Keywords: \"             arch-keywords\n"
+"       \"\\n\\n\"\n"
+"       \"Parts: \"                arch-parts\n"
+"       \"\\n\\n====== Remarks ======\\n\\n\"\n"
+"       arch-remarks\n"
+"     ))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/forms.texi:948
+#, no-wrap
+msgid ";; @r{That's all, folks!}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:963
+msgid ""
+"Bug fixes and other useful suggestions were supplied by Harald Hanche-Olsen "
+"(@code{hanche@@imf.unit.no}), @code{cwitty@@portia.stanford.edu}, Jonathan "
+"I. Kamens, Per Cederqvist (@code{ceder@@signum.se}), Michael Lipka "
+"(@code{lipka@@lip.hanse.de}), Andy Piper (@code{ajp@@eng.cam.ac.uk}), "
+"Frederic Pierresteguy (@code{F.Pierresteguy@@frcl.bull.fr}), Ignatios "
+"Souvatzis and Richard Stallman (@code{rms@@gnu.org})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:967
+msgid ""
+"This documentation was slightly inspired by the documentation of ``rolo "
+"mode'' by Paul Davis at Schlumberger Cambridge Research "
+"(@code{davis%scrsu1%sdr.slb.com@@relay.cs.net})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/forms.texi:970
+msgid ""
+"None of this would have been possible without GNU Emacs of the Free Software "
+"Foundation.  Thanks, Richard!"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/forms.texi:973
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

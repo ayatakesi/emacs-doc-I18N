@@ -1,0 +1,904 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-04 20:19+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/remember.texi:4
+#, no-wrap
+msgid "Remember Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/remember.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/remember.texi:11
+msgid "This manual is for Remember Mode, version 2.0"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/remember.texi:14
+msgid ""
+"Copyright @copyright{} 2001, 2004--2005, 2007--2021 Free Software "
+"Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/remember.texi:22
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/remember.texi:25
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/remember.texi:28
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:31
+msgid "Remember: (remember)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:31
+msgid "Simple information manager for Emacs."
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/remember.texi:34
+#, no-wrap
+msgid "Guide to Remember Mode"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/remember.texi:35
+#, no-wrap
+msgid "a simple information manager"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/remember.texi:36
+#, no-wrap
+msgid "for Emacs"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:48
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/remember.texi:49
+#, no-wrap
+msgid "Remember"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:79 ../../../../../doc/misc/remember.texi:80
+#, no-wrap
+msgid "Preface"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "About the documentation."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:89 ../../../../../doc/misc/remember.texi:90
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "What is Remember Mode?"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:131 ../../../../../doc/misc/remember.texi:132
+#, no-wrap
+msgid "Implementation"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "How Remember came into existence."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:172 ../../../../../doc/misc/remember.texi:173
+#, no-wrap
+msgid "Quick Start"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "Get started using Remember."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:250 ../../../../../doc/misc/remember.texi:251
+#, no-wrap
+msgid "Function Reference"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "Interactive functions in remember.el."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:312
+#, no-wrap
+msgid "Keystrokes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "Keystrokes bound in Remember Mode."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:69 ../../../../../doc/misc/remember.texi:328 ../../../../../doc/misc/remember.texi:329
+#, no-wrap
+msgid "Backends"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "Backends for saving notes."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:436 ../../../../../doc/misc/remember.texi:437
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:64 ../../../../../doc/misc/remember.texi:440
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:64
+msgid "Search for terms."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:67
+msgid "--- The Detailed Node Listing ---"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339 ../../../../../doc/misc/remember.texi:341
+#, no-wrap
+msgid "Text File"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339
+msgid "Saving to a text file."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339 ../../../../../doc/misc/remember.texi:362
+#, no-wrap
+msgid "Separate Text Files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339
+msgid "Saving to separate text files."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339 ../../../../../doc/misc/remember.texi:385
+#, no-wrap
+msgid "Diary"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339
+msgid "Saving to a Diary file."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339 ../../../../../doc/misc/remember.texi:402
+#, no-wrap
+msgid "Mailbox"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339
+msgid "Saving to a mailbox."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339 ../../../../../doc/misc/remember.texi:422
+#, no-wrap
+msgid "Org"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/remember.texi:75 ../../../../../doc/misc/remember.texi:339
+msgid "Saving to an Org Mode file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:85
+msgid ""
+"This document describes remember.el, which was written by John Wiegley, was "
+"once maintained by Sacha Chua, and is now maintained by the Emacs "
+"developers."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:88
+msgid ""
+"This document is a work in progress, and your contribution will be greatly "
+"appreciated."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:95
+msgid ""
+"Todo lists, schedules, phone databases... everything we use databases for is "
+"really just a way to extend the power of our memory, to be able to remember "
+"what our conscious mind may not currently have access to."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:104
+msgid ""
+"There are many different databases out there---and good ones---which this "
+"mode is not trying to replace.  Rather, it's how that data gets there that's "
+"the question.  Most of the time, we just want to say ``Remember so-and-so's "
+"phone number, or that I have to buy dinner for the cats tonight.'' That's "
+"the FACT@.  How it's stored is really the computer's problem.  But at this "
+"point in time, it's most definitely also the user's problem, and sometimes "
+"so laboriously so that people just let data slip, rather than expend the "
+"effort to record it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:113
+msgid ""
+"``Remember'' is a mode for remembering data.  It uses whatever back-end is "
+"appropriate to record and correlate the data, but its main intention is to "
+"allow you to express as @emph{little} structure as possible up front.  If "
+"you later want to express more powerful relationships between your data, or "
+"state assumptions that were at first too implicit to be recognized, you can "
+"``study'' the data later and rearrange it.  But the initial ``just remember "
+"this'' impulse should be as close to simply throwing the data at Emacs as "
+"possible."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:122
+msgid ""
+"Have you ever noticed that having a laptop to write on doesn't "
+"@emph{actually} increase the amount of quality material that you turn out, "
+"in the long run? Perhaps it's because the time we save electronically in one "
+"way, we're losing electronically in another; the tool should never dominate "
+"one's focus.  As the mystic Farīd ud-Dīn ʿAṭṭār wrote: ``Be occupied as "
+"little as possible with things of the outer world but much with things of "
+"the inner world; then right action will overcome inaction.''"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:130
+msgid ""
+"If Emacs could become a more intelligent data store, where brainstorming "
+"would focus on the @emph{ideas} involved---rather than the structuring and "
+"format of those ideas, or having to stop your current flow of work in order "
+"to record them---it would map much more closely to how the mind (well, at "
+"least mine) works, and hence would eliminate that very manual-ness which "
+"computers from the very beginning have been championed as being able to "
+"reduce."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:141
+msgid ""
+"Hyperbole, as a data presentation tool, always struck me as being very "
+"powerful, but it seemed to require a lot of ``front-end'' work before that "
+"data was really available.  The problem with BBDB, or keeping up a Bibl-mode "
+"file, is that you have to use different functions to record the data, and it "
+"always takes time to stop what you're doing, format the data in the manner "
+"expected by that particular data interface, and then resume your work."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:146
+msgid ""
+"With ``remember'', you just hit @kbd{M-x remember} (you'd probably want to "
+"bind this to an easily accessible keystroke, like @kbd{C-x M-r}), slam in "
+"your text however you like, and then hit @kbd{C-c C-c}.  It will file the "
+"data away for later retrieval, and possibly indexing."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:155
+msgid ""
+"Indexing is to data what ``studying'' is in the real world.  What you do "
+"when you study (or lucubrate, for some of us) is to realize certain "
+"relationships implicit in the data, so that you can make use of those "
+"relationships.  Expressing that a certain quote you remembered was a "
+"literary quote, and that you want the ability to pull up all quotes of a "
+"literary nature, is what studying does.  This is a more labor intensive task "
+"than the original remembering of the data, and it's typical in real life to "
+"set aside a special period of time for doing this work."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:165
+msgid ""
+"``Remember'' works in the same way.  When you enter data, either by typing "
+"it into a buffer, or using the contents of the selected region, it will "
+"store that data---unindexed, uninterpreted---in a data pool.  It will also "
+"try to remember as much context information as possible (any text properties "
+"that were set, where you copied it from, when, how, etc.).  Later, you can "
+"walk through your accumulated set of data (both organized, and unorganized) "
+"and easily begin moving things around, and making annotations that will "
+"express the full meaning of that data, as far as you know it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:171
+msgid ""
+"Obviously this latter stage is more user-interface intensive, and it would "
+"be nice if ``remember'' could do it as elegantly as possible, rather than "
+"requiring a billion keystrokes to reorganize your hierarchy.  Well, as the "
+"future arrives, hopefully experience and user feedback will help to make "
+"this as intuitive a tool as possible."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/remember.texi:180
+msgid "Type @kbd{M-x remember}.  The @file{*Remember*} buffer should be displayed."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/remember.texi:185
+msgid ""
+"Type in what you want to remember.  The first line will be treated as the "
+"headline, and the rest of the buffer will contain the body of the note."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/remember.texi:189
+msgid ""
+"Type @kbd{C-c C-c} (@code{remember-finalize}) to save the note and close the "
+"@file{*Remember*} buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:195
+msgid ""
+"By default, @code{remember-finalize} saves the note in "
+"@file{~/emacs.d/notes}.  You can edit it now to see the remembered and "
+"timestamped note.  You can edit this file however you want.  New entries "
+"will always be added to the end."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:199
+msgid ""
+"To remember a region of text, use the universal prefix.  @kbd{C-u M-x "
+"remember} displays a @file{*Remember*} buffer with the region as the initial "
+"contents."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:205
+msgid ""
+"As a simple beginning, you can start by using the Text File backend, keeping "
+"your @file{~/.emacs.d/notes} file in outline-mode format, with a final entry "
+"called @samp{* Raw data}.  Remembered data will be added to the end of the "
+"file.  Every so often, you can move the data that gets appended there into "
+"other files, or reorganize your document."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:207
+msgid "You can also store remembered data in other backends.  @xref{Backends}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:211
+msgid ""
+"Here is one way to map the remember functions in your init file (@pxref{Init "
+"File, , The Emacs Initialization File, emacs, GNU Emacs Manual}) to very "
+"accessible keystrokes facilities using the mode:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:215
+#, no-wrap
+msgid ""
+"(define-key global-map (kbd \"<f9> r\") 'remember)\n"
+"(define-key global-map (kbd \"<f9> R\") 'remember-region)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:217
+#, no-wrap
+msgid "annotation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:222
+msgid ""
+"By default, remember uses the first annotation returned by "
+"@code{remember-annotation-functions}.  To include all of the annotations, "
+"set @code{remember-run-all-annotation-functions-flag} to a non-@code{nil} "
+"value."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:223
+#, no-wrap
+msgid "remember-run-all-annotation-functions-flag"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:226
+msgid ""
+"Non-@code{nil} means use all annotations returned by "
+"@code{remember-annotation-functions}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:230
+msgid ""
+"You can write custom functions that use a different set of "
+"remember-annotation-functions.  For example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:237
+#, no-wrap
+msgid ""
+"(defun my/remember-with-filename ()\n"
+" \"Always use the filename.\"\n"
+" (interactive)\n"
+" (let ((remember-annotation-functions '(buffer-file-name)))\n"
+"  (call-interactively 'remember)))\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:239
+#, no-wrap
+msgid "notes"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:248
+msgid ""
+"The @code{remember-notes} command creates a @dfn{notes} buffer that visits "
+"the file specified by the option @code{remember-data-file}.  The option "
+"@code{remember-notes-buffer-name} specifies the name of the buffer.  The "
+"buffer uses @code{remember-notes-initial-major-mode} and "
+"@code{remember-notes-mode} minor mode.  Use @kbd{C-c C-c} to save and bury "
+"the buffer.  The command @code{save-some-buffers} saves this buffer without "
+"asking.  This function is a suitable setting for "
+"@code{initial-buffer-choice}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:254
+msgid "@file{remember.el} defines the following interactive functions:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:255
+#, no-wrap
+msgid "remember &optional initial"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:258
+msgid ""
+"Remember an arbitrary piece of data.  With a prefix, it will use the region "
+"as @var{initial}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:260
+#, no-wrap
+msgid "remember-other-frame &optional initial"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:262
+msgid "Like @code{remember}, but uses a new frame."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:264
+#, no-wrap
+msgid "remember-region &optional beg end"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:269
+msgid ""
+"If called from within the remember buffer, @var{beg} and @var{end} are "
+"ignored, and the entire buffer will be remembered.  If called from any other "
+"buffer, that region, plus any context information specific to that region, "
+"will be remembered."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:271
+#, no-wrap
+msgid "remember-clipboard"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:274
+msgid ""
+"Remember the contents of the current clipboard.  This is most useful for "
+"remembering things from a web browser or other X Windows applications."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:276
+#, no-wrap
+msgid "remember-finalize"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:278
+msgid "Remember the contents of the current buffer."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:280
+#, no-wrap
+msgid "remember-destroy"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:282
+msgid "Destroy the current remember buffer."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:284
+#, no-wrap
+msgid "remember-mode"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:290
+msgid ""
+"This enters the major mode (@pxref{Major Modes, , Major Modes, emacs, GNU "
+"Emacs Manual}) for output from @code{remember}.  This buffer is used to "
+"collect data that you want remember.  Just hit @kbd{C-c C-c} when you're "
+"done entering, and it will go ahead and file the data for latter retrieval, "
+"and possible indexing."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:292
+#, no-wrap
+msgid "remember-notes &optional switch-to"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:299
+msgid ""
+"This returns the notes buffer, creating it if needed, and switches to it if "
+"called interactively (or if @var{switch-to} is non-@code{nil}).  The notes "
+"buffer visits @code{remember-data-file}, and is named "
+"@code{remember-notes-buffer-name}.  It uses "
+"@code{remember-notes-initial-major-mode} and @code{remember-notes-mode} "
+"minor mode."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:301
+#, no-wrap
+msgid "remember-notes-mode &optional arg"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:306
+msgid ""
+"This is a minor mode for the notes buffer.  It sets "
+"@code{buffer-save-without-query} so that @code{save-some-buffers} will save "
+"the notes buffer without asking.  Use @kbd{C-c C-c} to run the command "
+"@code{remember-notes-save-and-bury-buffer}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:308
+#, no-wrap
+msgid "remember-notes-save-and-bury-buffer"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/remember.texi:310
+msgid "Save (if it is modified) and bury the current buffer."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/remember.texi:313
+#, no-wrap
+msgid "Keystroke Reference"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:316
+msgid "@file{remember.el} defines the following keybindings by default:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/remember.texi:319
+#, no-wrap
+msgid "C-c C-c"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/remember.texi:320
+#, no-wrap
+msgid "C-x C-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/remember.texi:322
+msgid "Remember the contents of the current buffer (@code{remember-finalize})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/remember.texi:323
+#, no-wrap
+msgid "C-c C-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/remember.texi:325
+msgid "Destroy the current @file{*Remember*} buffer (@code{remember-destroy})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:332
+msgid "You can save remembered notes to a variety of backends."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/remember.texi:342
+#, no-wrap
+msgid "Saving to a Text File"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:343
+#, no-wrap
+msgid "text file, saving to"
+msgstr ""
+
+#. type: subheading
+#: ../../../../../doc/misc/remember.texi:345 ../../../../../doc/misc/remember.texi:366 ../../../../../doc/misc/remember.texi:389 ../../../../../doc/misc/remember.texi:406
+#, no-wrap
+msgid "Insinuation"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:349
+#, no-wrap
+msgid "(setq remember-handler-functions '(remember-append-to-file))\n"
+msgstr ""
+
+#. type: subheading
+#: ../../../../../doc/misc/remember.texi:351 ../../../../../doc/misc/remember.texi:372 ../../../../../doc/misc/remember.texi:395 ../../../../../doc/misc/remember.texi:412
+#, no-wrap
+msgid "Options"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:353
+#, no-wrap
+msgid "remember-data-file"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:355
+msgid "The file in which to store unprocessed data."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:357
+#, no-wrap
+msgid "remember-leader-text"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:359
+msgid "The text used to begin each remember item."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/remember.texi:363
+#, no-wrap
+msgid "Saving to Separate Text Files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:364
+#, no-wrap
+msgid "text files, saving to separate"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:370
+#, no-wrap
+msgid "(setq remember-handler-functions '(remember-store-in-files))\n"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:374
+#, no-wrap
+msgid "remember-data-directory"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:376
+msgid "The directory in which to store remember data as files."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:378
+#, no-wrap
+msgid "remember-directory-file-name-format"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:382
+msgid ""
+"A format string to use for naming files in the remember directory.  File "
+"names are formed by calling @code{format-time-string} at the time of saving, "
+"using this format string."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/remember.texi:386
+#, no-wrap
+msgid "Saving to a Diary file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:387
+#, no-wrap
+msgid "diary, integration"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:393
+#, no-wrap
+msgid "(add-to-list 'remember-handler-functions 'remember-diary-extract-entries)\n"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:397
+#, no-wrap
+msgid "remember-diary-file"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:400
+msgid ""
+"File for extracted diary entries.  If this is @code{nil}, then "
+"@code{diary-file} will be used instead."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/remember.texi:403
+#, no-wrap
+msgid "Saving to a Mailbox"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:404
+#, no-wrap
+msgid "mailbox, saving to"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/remember.texi:410
+#, no-wrap
+msgid "(add-to-list 'remember-handler-functions 'remember-store-in-mailbox)\n"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:414
+#, no-wrap
+msgid "remember-mailbox"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:416
+msgid "The file in which to store remember data as mail."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:418
+#, no-wrap
+msgid "remember-default-priority"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/remember.texi:420
+msgid "The default priority for remembered mail messages."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/remember.texi:423
+#, no-wrap
+msgid "Saving to an Org Mode file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/remember.texi:424
+#, no-wrap
+msgid "org mode, integration"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/remember.texi:435
+msgid ""
+"For instructions on how to integrate Remember with Org Mode, consult "
+"@ref{Capture, , , org}."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/remember.texi:438
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/remember.texi:441
+#, no-wrap
+msgid "Index"
+msgstr ""

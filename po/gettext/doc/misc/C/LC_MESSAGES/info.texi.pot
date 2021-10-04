@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-04 20:16\n"
+"PO-Revision-Date: 2021-10-04 20:16\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Getting Started"
+msgstr ""
+
+msgid "@section Starting Info on a Small Screen"
+msgstr ""
+
+msgid "@section How to use Info"
+msgstr ""
+
+msgid "@section Returning to the Previous node"
+msgstr ""
+
+msgid "@section The Space, DEL, B and ^L commands"
+msgstr ""
+
+msgid "@section Invisible text in Emacs Info"
+msgstr ""
+
+msgid "@subsection The @kbd{]} and @kbd{[} commands"
+msgstr ""
+
+msgid "@section Menus and the @kbd{m} command"
+msgstr ""
+
+msgid "@subsection The @kbd{u} command"
+msgstr ""
+
+msgid "@section Following Cross-References"
+msgstr ""
+
+msgid "@subsection The node reached by the cross reference in Info"
+msgstr ""
+
+msgid "@section Some intermediate Info commands"
+msgstr ""
+
+msgid "@section Quitting Info"
+msgstr ""
+
+msgid "@chapter Advanced Info Commands"
+msgstr ""
+
+msgid "@section @kbd{s} searches Info documents"
+msgstr ""
+
+msgid "@section @kbd{i} searches the indices for specific subjects"
+msgstr ""
+
+msgid "@section @kbd{g} goes to a node by name"
+msgstr ""
+
+msgid "@section @kbd{1}--@kbd{9} choose a menu subtopic by its number"
+msgstr ""
+
+msgid "@section @kbd{M-n} creates a new independent Info buffer in Emacs"
+msgstr ""
+
+msgid "@section Emacs Info-mode Variables"
+msgstr ""
+
+msgid "@chapter Further Reading"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
