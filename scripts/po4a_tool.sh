@@ -37,113 +37,90 @@ function main () {
 
     PO_ROOT=${REPOSITORY_ROOT}/po;
     PO4A_ROOT=${PO_ROOT}/po4a;
-    GETTEXT_ROOT=${PO_ROOT}/gettext;
 
     cd ${REPOSITORY_ROOT};
     while read TEXI_FOLDER
     do
 	for TEXI_FILE in ${REPOSITORY_ROOT}/${TEXI_FOLDER}/*.texi
 	do
-	    case ${COMMAND} in
-		"gettextize")
-		    # po4a
-		    POT_DIRECTORY=${PO4A_ROOT}/${TEXI_FOLDER}/C;
-		    [ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
-		    cd ${POT_DIRECTORY};
-		    ORIGINAL_TEXI=$(realpath --relative-to . ${TEXI_FILE});
-		    POT_FILE=$(basename ${TEXI_FILE}).pot;
-		    
-		    echo -n "Generating ${POT_DIRECTORY}/${POT_FILE} ... ";
-		    po4a-gettextize -M utf8 -L utf8 -f texinfo -d -v -m ${ORIGINAL_TEXI} -p ./${POT_FILE};
-		    echo "done.";
-		    cd ${REPOSITORY_ROOT};
+	    if [ ${COMMAND} == "gettextize" ]
+	    then
+		POT_DIRECTORY=${PO4A_ROOT}/${TEXI_FOLDER}/C;
+		[ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
+		cd ${POT_DIRECTORY};
+		ORIGINAL_TEXI=$(realpath --relative-to . ${TEXI_FILE});
+		POT_FILE=$(basename ${TEXI_FILE}).pot;
+		
+		echo -n "Generating ${POT_DIRECTORY}/${POT_FILE} ... ";
+		po4a-gettextize -M utf8 \
+				-L utf8 \
+				-f texinfo \
+				-d -v \
+				-m ${ORIGINAL_TEXI} \
+				-p ./${POT_FILE};
+		echo "done.";
+		cd ${REPOSITORY_ROOT};
+		
+	    else
+		while read LINGUA
+		do
+		    case ${COMMAND} in
+			"msginit")
+			    TEXI_NAME=$(basename ${TEXI_FILE});
+			    POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.pot;
+			    PO_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA}/${TEXI_NAME}.po;
+			    echo -n "Copying ${POT_FILE} to ${PO_FILE} ... "
+			    [ -d ${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA} ] ||
+				mkdir -p ${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA};
+			    cp -pf ${POT_FILE} ${PO_FILE};
+			    echo "done.";
+			    ;;
 
-		    # gettext
-		    GREP_STRING='^@((chapter)|((sub)*(section))|(appendix)(sub)*(sec)?)';
-		    
-		    TEXTDOMAIN_DIRECTORY=${GETTEXT_ROOT}/${TEXI_FOLDER};
-		    POT_DIRECTORY=${TEXTDOMAIN_DIRECTORY}/C/LC_MESSAGES;
-		    SCRIPT_DIRECTORY=${SCRIPT_ROOT}/${TEXI_FOLDER};
+			"translate")
+			    TRANSLATED_ROOT=${REPOSITORY_ROOT}/translated;
+			    TRANSLATED_DIRECTORY=${TRANSLATED_ROOT}/${TEXI_FOLDER};
 
-		    generate_gettext_pot ${TEXI_FILE} \
-					 ${POT_DIRECTORY} \
-					 ${GREP_STRING};
-		    
-		    generate_gettext_filter ${TEXI_FILE} \
-					    ${SCRIPT_DIRECTORY} \
-					    ${GREP_STRING} \
-					    ${TEXTDOMAIN_DIRECTORY};
-		    
-		    cd ${REPOSITORY_ROOT};
-		    ;;
+			    TEXI_STEM=$(basename ${TEXI_FILE} .texi);
+			    PO_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA}/${TEXI_STEM}.texi.po;
+			    TRANSLATED_TEXINAME=${TEXI_STEM}-${LINGUA}.texi;
 
-	    esac
+			    echo -n "Translating ${TEXI_FILE} to ${TRANSLATED_TEXINAME} with ${PO_FILE} ... ";
+			    po4a-translate -f texinfo \
+					   -k 0 \
+					   -M utf8 \
+					   -m ${TEXI_FILE} \
+					   -p ${PO_FILE} \
+					   -l ${TRANSLATED_DIRECTORY}/${TRANSLATED_TEXINAME};
+			    echo "done.";
+			    ;;
+
+			"msgmerge")
+			    # Precisely, update pot that contains new msgid
+			    #  with po that contains translated msgstr
+			    #  for existing msgid.
+			    TEXI_NAME=$(basename ${TEXI_FILE});
+			    NEW_POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.pot;
+			    OLD_PO_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA}/${TEXI_NAME}.po;
+			    MERGED_PO=$(mktemp);
+
+			    echo -n "UPDATE ${OLD_PO_FILE} with msgid of ${NEW_POT_FILE} and msgstr of ${OLD_PO_FILE} ... "
+			    msgmerge --previous \
+				     --compendium ${OLD_PO_FILE} \
+				     --output - \
+				     /dev/null ${NEW_POT_FILE} |
+				msgcat --no-wrap - > ${MERGED_PO};
+			    
+			    cp -pf ${MERGED_PO} ${OLD_PO_FILE};
+			    rm -f ${MERGED_PO};
+			    echo "done.";
+			    ;;
+			
+		    esac
+		    
+		done <"./LINGUAS"
+	    fi
 	done
     done <"./TEXI_FOLDERS"
 }    
-
-function generate_gettext_filter () {
-    TEXI_FILE=${1};
-    SCRIPT_DIRECTORY=${2};
-    GREP_STRING=${3};
-    TEXTDOMAIN_DIRECTORY=${4};
-    
-    TEXI_NAME=$(basename ${TEXI_FILE});
-    SCRIPT_NAME=${TEXI_NAME}.pl;
-    SCRIPT_FILE=${SCRIPT_DIRECTORY}/${SCRIPT_NAME};
-
-    echo -n "Generating ${SCRIPT_FILE} ... ";
-    [ -d ${SCRIPT_DIRECTORY} ] || mkdir -p ${SCRIPT_DIRECTORY};
-    cat <<EOT >${SCRIPT_FILE}
-#!/usr/bin/perl
-# This script requires libintl-perl(>=1.09).
-use Locale::TextDomain ("${TEXI_FILE}" => "${TEXTDOMAIN_DIRECTORY}");
-my (\$en, \$ja);
-while (<>) {
-EOT
-    grep -E ${GREP_STRING} ${TEXI_FILE} |
- 	sed -r "s/'/\\\'/g" |
-	sed -r "s|(.+)$|\t\(\$en, \$ja\) = \(quotemeta\('&'\), __ '&'\); s/\$en/\$ja/;|" >>${SCRIPT_FILE};
-    printf "\tprint;\n}" >>${SCRIPT_FILE};
-    chmod a+x ${SCRIPT_FILE};
-    echo "done";
-    
-    return;
-}
-
-function generate_gettext_pot () {
-    TEXI_FILE=${1};
-    POT_DIRECTORY=${2};
-    GREP_STRING=${3};
-    
-    TEXI_NAME=$(basename ${TEXI_FILE});
-    POT_NAME=${TEXI_NAME}.pot;
-    POT_FILE=${POT_DIRECTORY}/${POT_NAME};
-    
-    DATE_STRING=$(date '+%Y-%m-%d %H:%M');
-
-    echo -n "Generating ${POT_FILE} ... ";
-    [ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
-    cat <<EOT > ${POT_FILE}
-msgid ""
-msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: ${DATE_STRING}\n"
-"PO-Revision-Date: ${DATE_STRING}\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-EOT
-    grep -E ${GREP_STRING} ${TEXI_FILE} |
-	perl -pe 's/\"/\\\"/g' |
-	perl -ne 'chomp; print "msgid \"$_\"\nmsgstr \"\"\n\n";' >>${POT_FILE};
-    echo "done";
-    
-    return;
-}
 
 main "$@";
