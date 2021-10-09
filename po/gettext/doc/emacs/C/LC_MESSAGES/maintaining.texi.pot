@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:02\n"
-"PO-Revision-Date: 2021-10-04 20:02\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,135 +13,135 @@ msgstr ""
 msgid "@chapter Maintaining Large Programs"
 msgstr ""
 
-msgid "@section Version Control"
-msgstr ""
-
-msgid "@subsection Introduction to Version Control"
-msgstr ""
-
-msgid "@subsubsection Understanding the Problems it Addresses"
-msgstr ""
-
-msgid "@subsubsection Supported Version Control Systems"
-msgstr ""
-
-msgid "@subsubsection Concepts of Version Control"
-msgstr ""
-
-msgid "@subsubsection Merge-based vs Lock-based Version Control"
-msgstr ""
-
-msgid "@subsubsection Changeset-based vs File-based Version Control"
-msgstr ""
-
-msgid "@subsubsection Decentralized vs Centralized Repositories"
-msgstr ""
-
-msgid "@subsubsection Types of Log File"
-msgstr ""
-
-msgid "@subsection Version Control and the Mode Line"
-msgstr ""
-
-msgid "@subsection Basic Editing under Version Control"
-msgstr ""
-
-msgid "@subsubsection Basic Version Control with Merging"
-msgstr ""
-
-msgid "@subsubsection Basic Version Control with Locking"
-msgstr ""
-
-msgid "@subsubsection Advanced Control in @kbd{C-x v v}"
-msgstr ""
-
-msgid "@subsection Features of the Log Entry Buffer"
-msgstr ""
-
-msgid "@subsection Registering a File for Version Control"
-msgstr ""
-
-msgid "@subsection Examining And Comparing Old Revisions"
-msgstr ""
-
-msgid "@subsection VC Change Log"
-msgstr ""
-
-msgid "@subsection Undoing Version Control Actions"
-msgstr ""
-
-msgid "@subsection Ignore Version Control Files"
-msgstr ""
-
-msgid "@subsection VC Directory Mode"
-msgstr ""
-
-msgid "@subsubsection The VC Directory Buffer"
-msgstr ""
-
-msgid "@subsubsection VC Directory Commands"
-msgstr ""
-
-msgid "@subsection Version Control Branches"
-msgstr ""
-
-msgid "@subsubsection Switching between Branches"
-msgstr ""
-
-msgid "@subsubsection Pulling/Pushing Changes into/from a Branch"
-msgstr ""
-
-msgid "@subsubsection Merging Branches"
-msgstr ""
-
-msgid "@subsubsection Creating New Branches"
-msgstr ""
-
-msgid "@section Working with Projects"
-msgstr ""
-
 msgid "@section Change Logs"
 msgstr ""
 
-msgid "@subsection Change Log Commands"
-msgstr ""
-
-msgid "@subsection Format of ChangeLog"
+msgid "@section Emacs Development Environment"
 msgstr ""
 
 msgid "@section Find Identifier References"
 msgstr ""
 
+msgid "@section Version Control"
+msgstr ""
+
+msgid "@section Working with Projects"
+msgstr ""
+
+msgid "@subsection Basic Editing under Version Control"
+msgstr ""
+
+msgid "@subsection Change Log Commands"
+msgstr ""
+
+msgid "@subsection Examining And Comparing Old Revisions"
+msgstr ""
+
+msgid "@subsection Features of the Log Entry Buffer"
+msgstr ""
+
 msgid "@subsection Find Identifiers"
 msgstr ""
 
-msgid "@subsubsection Looking Up Identifiers"
+msgid "@subsection Format of ChangeLog"
 msgstr ""
 
-msgid "@subsubsection Commands Available in the @file{*xref*} Buffer"
+msgid "@subsection Ignore Version Control Files"
 msgstr ""
 
-msgid "@subsubsection Searching and Replacing with Identifiers"
+msgid "@subsection Introduction to Version Control"
 msgstr ""
 
-msgid "@subsubsection Identifier Inquiries"
-msgstr ""
-
-msgid "@subsection Tags Tables"
-msgstr ""
-
-msgid "@subsubsection Source File Tag Syntax"
-msgstr ""
-
-msgid "@subsubsection Creating Tags Tables"
-msgstr ""
-
-msgid "@subsubsection Etags Regexps"
+msgid "@subsection Registering a File for Version Control"
 msgstr ""
 
 msgid "@subsection Selecting a Tags Table"
 msgstr ""
 
-msgid "@section Emacs Development Environment"
+msgid "@subsection Tags Tables"
+msgstr ""
+
+msgid "@subsection Undoing Version Control Actions"
+msgstr ""
+
+msgid "@subsection VC Change Log"
+msgstr ""
+
+msgid "@subsection VC Directory Mode"
+msgstr ""
+
+msgid "@subsection Version Control Branches"
+msgstr ""
+
+msgid "@subsection Version Control and the Mode Line"
+msgstr ""
+
+msgid "@subsubsection Advanced Control in @kbd{C-x v v}"
+msgstr ""
+
+msgid "@subsubsection Basic Version Control with Locking"
+msgstr ""
+
+msgid "@subsubsection Basic Version Control with Merging"
+msgstr ""
+
+msgid "@subsubsection Changeset-based vs File-based Version Control"
+msgstr ""
+
+msgid "@subsubsection Commands Available in the @file{*xref*} Buffer"
+msgstr ""
+
+msgid "@subsubsection Concepts of Version Control"
+msgstr ""
+
+msgid "@subsubsection Creating New Branches"
+msgstr ""
+
+msgid "@subsubsection Creating Tags Tables"
+msgstr ""
+
+msgid "@subsubsection Decentralized vs Centralized Repositories"
+msgstr ""
+
+msgid "@subsubsection Etags Regexps"
+msgstr ""
+
+msgid "@subsubsection Identifier Inquiries"
+msgstr ""
+
+msgid "@subsubsection Looking Up Identifiers"
+msgstr ""
+
+msgid "@subsubsection Merge-based vs Lock-based Version Control"
+msgstr ""
+
+msgid "@subsubsection Merging Branches"
+msgstr ""
+
+msgid "@subsubsection Pulling/Pushing Changes into/from a Branch"
+msgstr ""
+
+msgid "@subsubsection Searching and Replacing with Identifiers"
+msgstr ""
+
+msgid "@subsubsection Source File Tag Syntax"
+msgstr ""
+
+msgid "@subsubsection Supported Version Control Systems"
+msgstr ""
+
+msgid "@subsubsection Switching between Branches"
+msgstr ""
+
+msgid "@subsubsection The VC Directory Buffer"
+msgstr ""
+
+msgid "@subsubsection Types of Log File"
+msgstr ""
+
+msgid "@subsubsection Understanding the Problems it Addresses"
+msgstr ""
+
+msgid "@subsubsection VC Directory Commands"
 msgstr ""
 

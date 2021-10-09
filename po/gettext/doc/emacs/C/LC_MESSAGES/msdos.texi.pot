@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:02\n"
-"PO-Revision-Date: 2021-10-04 20:02\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,28 +13,25 @@ msgstr ""
 msgid "@appendix Emacs and Microsoft Windows/MS-DOS"
 msgstr ""
 
-msgid "@section How to Start Emacs on MS-Windows"
-msgstr ""
-
-msgid "@section Text Files and Binary Files"
+msgid "@section Emulation of @code{ls} on MS-Windows"
 msgstr ""
 
 msgid "@section File Names on MS-Windows"
 msgstr ""
 
-msgid "@section Emulation of @code{ls} on MS-Windows"
+msgid "@section HOME and Startup Directories on MS-Windows"
 msgstr ""
 
-msgid "@section HOME and Startup Directories on MS-Windows"
+msgid "@section How to Start Emacs on MS-Windows"
 msgstr ""
 
 msgid "@section Keyboard Usage on MS-Windows"
 msgstr ""
 
-msgid "@section Mouse Usage on MS-Windows"
+msgid "@section Miscellaneous Windows-specific features"
 msgstr ""
 
-msgid "@section Subprocesses on Windows 9X/ME and Windows NT/2K/XP/Vista/7/8/10"
+msgid "@section Mouse Usage on MS-Windows"
 msgstr ""
 
 msgid "@section Printing and MS-Windows"
@@ -43,6 +40,9 @@ msgstr ""
 msgid "@section Specifying Fonts on MS-Windows"
 msgstr ""
 
-msgid "@section Miscellaneous Windows-specific features"
+msgid "@section Subprocesses on Windows 9X/ME and Windows NT/2K/XP/Vista/7/8/10"
+msgstr ""
+
+msgid "@section Text Files and Binary Files"
 msgstr ""
 

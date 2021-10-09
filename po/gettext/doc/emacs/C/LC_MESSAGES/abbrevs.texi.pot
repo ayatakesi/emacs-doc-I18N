@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 19:59\n"
-"PO-Revision-Date: 2021-10-04 19:59\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -16,21 +16,21 @@ msgstr ""
 msgid "@section Abbrev Concepts"
 msgstr ""
 
+msgid "@section Controlling Abbrev Expansion"
+msgstr ""
+
+msgid "@section Customizing Dynamic Abbreviation"
+msgstr ""
+
 msgid "@section Defining Abbrevs"
 msgstr ""
 
-msgid "@section Controlling Abbrev Expansion"
+msgid "@section Dynamic Abbrev Expansion"
 msgstr ""
 
 msgid "@section Examining and Editing Abbrevs"
 msgstr ""
 
 msgid "@section Saving Abbrevs"
-msgstr ""
-
-msgid "@section Dynamic Abbrev Expansion"
-msgstr ""
-
-msgid "@section Customizing Dynamic Abbreviation"
 msgstr ""
 

@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-08 00:12\n"
+"PO-Revision-Date: 2021-10-08 00:12\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Overview"
+msgstr ""
+
+msgid "@section Levels of Organization"
+msgstr ""
+
+msgid "@section Todo Items as Diary Entries"
+msgstr ""
+
+msgid "@chapter Todo Mode Entry Points"
+msgstr ""
+
+msgid "@chapter Key Binding Conventions"
+msgstr ""
+
+msgid "@chapter Navigation"
+msgstr ""
+
+msgid "@chapter Editing"
+msgstr ""
+
+msgid "@section File Editing and Todo Edit Mode"
+msgstr ""
+
+msgid "@section Category Editing"
+msgstr ""
+
+msgid "@section Item Editing"
+msgstr ""
+
+msgid "@subsection Inserting New Items"
+msgstr ""
+
+msgid "@subsection Editing Item Headers and Text"
+msgstr ""
+
+msgid "@subsection Relocating and Removing Items"
+msgstr ""
+
+msgid "@subsubsection Reprioritizing Items"
+msgstr ""
+
+msgid "@subsubsection Moving and Deleting Items"
+msgstr ""
+
+msgid "@subsubsection Done Items"
+msgstr ""
+
+msgid "@chapter Todo Archives"
+msgstr ""
+
+msgid "@section Creating and Visiting Archives"
+msgstr ""
+
+msgid "@section Todo Archive Mode"
+msgstr ""
+
+msgid "@chapter Marked Items"
+msgstr ""
+
+msgid "@chapter Todo Categories Mode"
+msgstr ""
+
+msgid "@section Table of Item Counts"
+msgstr ""
+
+msgid "@section Reordering Categories"
+msgstr ""
+
+msgid "@chapter Searching for Items"
+msgstr ""
+
+msgid "@chapter Todo Filtered Items Mode"
+msgstr ""
+
+msgid "@section Filtering Items"
+msgstr ""
+
+msgid "@section Todo Filtered Items Mode Commands"
+msgstr ""
+
+msgid "@section Files of Filtered Items"
+msgstr ""
+
+msgid "@chapter Todo Display Features"
+msgstr ""
+
+msgid "@section Faces"
+msgstr ""
+
+msgid "@section Item Prefix"
+msgstr ""
+
+msgid "@section Other Display Commands and Options"
+msgstr ""
+
+msgid "@chapter Printing Todo Buffers"
+msgstr ""
+
+msgid "@chapter Legacy Todo Mode Files"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

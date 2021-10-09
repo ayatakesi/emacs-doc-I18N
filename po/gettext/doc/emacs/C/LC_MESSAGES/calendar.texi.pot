@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:00\n"
-"PO-Revision-Date: 2021-10-04 20:00\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,78 +13,78 @@ msgstr ""
 msgid "@chapter The Calendar and the Diary"
 msgstr ""
 
-msgid "@section Movement in the Calendar"
-msgstr ""
-
-msgid "@subsection Motion by Standard Lengths of Time"
-msgstr ""
-
-msgid "@subsection Beginning or End of Week, Month or Year"
-msgstr ""
-
-msgid "@subsection Specified Dates"
-msgstr ""
-
-msgid "@section Scrolling in the Calendar"
+msgid "@section Conversion To and From Other Calendars"
 msgstr ""
 
 msgid "@section Counting Days"
 msgstr ""
 
-msgid "@section Miscellaneous Calendar Commands"
-msgstr ""
-
-msgid "@section Writing Calendar Files"
+msgid "@section Daylight Saving Time"
 msgstr ""
 
 msgid "@section Holidays"
 msgstr ""
 
-msgid "@section Times of Sunrise and Sunset"
+msgid "@section Miscellaneous Calendar Commands"
+msgstr ""
+
+msgid "@section Movement in the Calendar"
 msgstr ""
 
 msgid "@section Phases of the Moon"
 msgstr ""
 
-msgid "@section Conversion To and From Other Calendars"
+msgid "@section Scrolling in the Calendar"
 msgstr ""
 
-msgid "@subsection Supported Calendar Systems"
-msgstr ""
-
-msgid "@subsection Converting To Other Calendars"
-msgstr ""
-
-msgid "@subsection Converting From Other Calendars"
+msgid "@section Summing Time Intervals"
 msgstr ""
 
 msgid "@section The Diary"
 msgstr ""
 
-msgid "@subsection The Diary File"
+msgid "@section Times of Sunrise and Sunset"
 msgstr ""
 
-msgid "@subsection Displaying the Diary"
-msgstr ""
-
-msgid "@subsection Date Formats"
-msgstr ""
-
-msgid "@subsection Commands to Add to the Diary"
-msgstr ""
-
-msgid "@subsection Special Diary Entries"
+msgid "@section Writing Calendar Files"
 msgstr ""
 
 msgid "@subsection Appointments"
 msgstr ""
 
+msgid "@subsection Beginning or End of Week, Month or Year"
+msgstr ""
+
+msgid "@subsection Commands to Add to the Diary"
+msgstr ""
+
+msgid "@subsection Converting From Other Calendars"
+msgstr ""
+
+msgid "@subsection Converting To Other Calendars"
+msgstr ""
+
+msgid "@subsection Date Formats"
+msgstr ""
+
+msgid "@subsection Displaying the Diary"
+msgstr ""
+
 msgid "@subsection Importing and Exporting Diary Entries"
 msgstr ""
 
-msgid "@section Daylight Saving Time"
+msgid "@subsection Motion by Standard Lengths of Time"
 msgstr ""
 
-msgid "@section Summing Time Intervals"
+msgid "@subsection Special Diary Entries"
+msgstr ""
+
+msgid "@subsection Specified Dates"
+msgstr ""
+
+msgid "@subsection Supported Calendar Systems"
+msgstr ""
+
+msgid "@subsection The Diary File"
 msgstr ""
 

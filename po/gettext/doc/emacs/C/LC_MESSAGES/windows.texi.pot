@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:03\n"
-"PO-Revision-Date: 2021-10-04 20:03\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -16,13 +16,7 @@ msgstr ""
 msgid "@section Concepts of Emacs Windows"
 msgstr ""
 
-msgid "@section Splitting Windows"
-msgstr ""
-
-msgid "@section Using Other Windows"
-msgstr ""
-
-msgid "@section Displaying in Another Window"
+msgid "@section Convenience Features for Window Handling"
 msgstr ""
 
 msgid "@section Deleting and Resizing Windows"
@@ -31,15 +25,21 @@ msgstr ""
 msgid "@section Displaying a Buffer in a Window"
 msgstr ""
 
-msgid "@subsection How @code{display-buffer} works"
+msgid "@section Displaying in Another Window"
+msgstr ""
+
+msgid "@section Splitting Windows"
+msgstr ""
+
+msgid "@section Using Other Windows"
+msgstr ""
+
+msgid "@section Window Tab Line"
 msgstr ""
 
 msgid "@subsection Displaying non-editable buffers."
 msgstr ""
 
-msgid "@section Convenience Features for Window Handling"
-msgstr ""
-
-msgid "@section Window Tab Line"
+msgid "@subsection How @code{display-buffer} works"
 msgstr ""
 

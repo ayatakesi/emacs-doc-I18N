@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:03\n"
-"PO-Revision-Date: 2021-10-04 20:03\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,58 +13,22 @@ msgstr ""
 msgid "@chapter Dealing with Common Problems"
 msgstr ""
 
-msgid "@section Quitting and Aborting"
+msgid "@section Contributing to Emacs Development"
 msgstr ""
 
 msgid "@section Dealing with Emacs Trouble"
 msgstr ""
 
-msgid "@subsection If @key{DEL} Fails to Delete"
+msgid "@section How To Get Help with GNU Emacs"
 msgstr ""
 
-msgid "@subsection Recursive Editing Levels"
-msgstr ""
-
-msgid "@subsection Garbage on the Screen"
-msgstr ""
-
-msgid "@subsection Garbage in the Text"
-msgstr ""
-
-msgid "@subsection Running out of Memory"
-msgstr ""
-
-msgid "@subsection When Emacs Crashes"
-msgstr ""
-
-msgid "@subsection Recovery After a Crash"
-msgstr ""
-
-msgid "@subsection Emergency Escape"
-msgstr ""
-
-msgid "@subsection Long Lines"
+msgid "@section Quitting and Aborting"
 msgstr ""
 
 msgid "@section Reporting Bugs"
 msgstr ""
 
-msgid "@subsection Reading Existing Bug Reports and Known Problems"
-msgstr ""
-
-msgid "@subsection When Is There a Bug"
-msgstr ""
-
-msgid "@subsection Understanding Bug Reporting"
-msgstr ""
-
 msgid "@subsection Checklist for Bug Reports"
-msgstr ""
-
-msgid "@subsection Sending Patches for GNU Emacs"
-msgstr ""
-
-msgid "@section Contributing to Emacs Development"
 msgstr ""
 
 msgid "@subsection Coding Standards"
@@ -73,6 +37,42 @@ msgstr ""
 msgid "@subsection Copyright Assignment"
 msgstr ""
 
-msgid "@section How To Get Help with GNU Emacs"
+msgid "@subsection Emergency Escape"
+msgstr ""
+
+msgid "@subsection Garbage in the Text"
+msgstr ""
+
+msgid "@subsection Garbage on the Screen"
+msgstr ""
+
+msgid "@subsection If @key{DEL} Fails to Delete"
+msgstr ""
+
+msgid "@subsection Long Lines"
+msgstr ""
+
+msgid "@subsection Reading Existing Bug Reports and Known Problems"
+msgstr ""
+
+msgid "@subsection Recovery After a Crash"
+msgstr ""
+
+msgid "@subsection Recursive Editing Levels"
+msgstr ""
+
+msgid "@subsection Running out of Memory"
+msgstr ""
+
+msgid "@subsection Sending Patches for GNU Emacs"
+msgstr ""
+
+msgid "@subsection Understanding Bug Reporting"
+msgstr ""
+
+msgid "@subsection When Emacs Crashes"
+msgstr ""
+
+msgid "@subsection When Is There a Bug"
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:00\n"
-"PO-Revision-Date: 2021-10-04 20:00\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,46 +13,10 @@ msgstr ""
 msgid "@chapter Dired, the Directory Editor"
 msgstr ""
 
-msgid "@section Entering Dired"
-msgstr ""
-
-msgid "@section Navigation in the Dired Buffer"
-msgstr ""
-
 msgid "@section Deleting Files with Dired"
 msgstr ""
 
-msgid "@section Flagging Many Files at Once"
-msgstr ""
-
-msgid "@section Visiting Files in Dired"
-msgstr ""
-
 msgid "@section Dired Marks vs.@: Flags"
-msgstr ""
-
-msgid "@section Operating on Files"
-msgstr ""
-
-msgid "@section Shell Commands in Dired"
-msgstr ""
-
-msgid "@section Transforming File Names in Dired"
-msgstr ""
-
-msgid "@section File Comparison with Dired"
-msgstr ""
-
-msgid "@section Subdirectories in Dired"
-msgstr ""
-
-msgid "@section Moving Over Subdirectories"
-msgstr ""
-
-msgid "@section Hiding Subdirectories"
-msgstr ""
-
-msgid "@section Updating the Dired Buffer"
 msgstr ""
 
 msgid "@section Dired and @code{find}"
@@ -61,9 +25,45 @@ msgstr ""
 msgid "@section Editing the Dired Buffer"
 msgstr ""
 
-msgid "@section Viewing Image Thumbnails in Dired"
+msgid "@section Entering Dired"
+msgstr ""
+
+msgid "@section File Comparison with Dired"
+msgstr ""
+
+msgid "@section Flagging Many Files at Once"
+msgstr ""
+
+msgid "@section Hiding Subdirectories"
+msgstr ""
+
+msgid "@section Moving Over Subdirectories"
+msgstr ""
+
+msgid "@section Navigation in the Dired Buffer"
+msgstr ""
+
+msgid "@section Operating on Files"
 msgstr ""
 
 msgid "@section Other Dired Features"
+msgstr ""
+
+msgid "@section Shell Commands in Dired"
+msgstr ""
+
+msgid "@section Subdirectories in Dired"
+msgstr ""
+
+msgid "@section Transforming File Names in Dired"
+msgstr ""
+
+msgid "@section Updating the Dired Buffer"
+msgstr ""
+
+msgid "@section Viewing Image Thumbnails in Dired"
+msgstr ""
+
+msgid "@section Visiting Files in Dired"
 msgstr ""
 

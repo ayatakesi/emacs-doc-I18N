@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:01\n"
-"PO-Revision-Date: 2021-10-04 20:01\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -16,10 +16,7 @@ msgstr ""
 msgid "@section Basic Use"
 msgstr ""
 
-msgid "@section The Keyboard Macro Ring"
-msgstr ""
-
-msgid "@section The Keyboard Macro Counter"
+msgid "@section Editing a Keyboard Macro"
 msgstr ""
 
 msgid "@section Executing Macros with Variations"
@@ -28,9 +25,12 @@ msgstr ""
 msgid "@section Naming and Saving Keyboard Macros"
 msgstr ""
 
-msgid "@section Editing a Keyboard Macro"
+msgid "@section Stepwise Editing a Keyboard Macro"
 msgstr ""
 
-msgid "@section Stepwise Editing a Keyboard Macro"
+msgid "@section The Keyboard Macro Counter"
+msgstr ""
+
+msgid "@section The Keyboard Macro Ring"
 msgstr ""
 

@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-08 00:12\n"
+"PO-Revision-Date: 2021-10-08 00:12\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Usage & Examples"
+msgstr ""
+
+msgid "@section Interactive"
+msgstr ""
+
+msgid "@section Non-interactive"
+msgstr ""
+
+msgid "@section Variables"
+msgstr ""
+
+msgid "@section Data Structures"
+msgstr ""
+
+msgid "@section Examples"
+msgstr ""
+
+msgid "@chapter Customization"
+msgstr ""
+
+msgid "@chapter Requirements"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

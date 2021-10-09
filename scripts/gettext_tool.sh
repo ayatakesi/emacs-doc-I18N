@@ -36,7 +36,6 @@ function main () {
     SCRIPT_ROOT=${REPOSITORY_ROOT}/scripts;
 
     PO_ROOT=${REPOSITORY_ROOT}/po;
-    PO4A_ROOT=${PO_ROOT}/po4a;
     GETTEXT_ROOT=${PO_ROOT}/gettext;
 
     cd ${REPOSITORY_ROOT};
@@ -44,40 +43,87 @@ function main () {
     do
 	for TEXI_FILE in ${REPOSITORY_ROOT}/${TEXI_FOLDER}/*.texi
 	do
-	    case ${COMMAND} in
-		"gettextize")
-		    # po4a
-		    POT_DIRECTORY=${PO4A_ROOT}/${TEXI_FOLDER}/C;
-		    [ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
-		    cd ${POT_DIRECTORY};
-		    ORIGINAL_TEXI=$(realpath --relative-to . ${TEXI_FILE});
-		    POT_FILE=$(basename ${TEXI_FILE}).pot;
-		    
-		    echo -n "Generating ${POT_DIRECTORY}/${POT_FILE} ... ";
-		    po4a-gettextize -M utf8 -L utf8 -f texinfo -d -v -m ${ORIGINAL_TEXI} -p ./${POT_FILE};
-		    echo "done.";
-		    cd ${REPOSITORY_ROOT};
+	    if [ ${COMMAND} == "gettextize" ]
+	    then
+		GREP_STRING='^@((chapter)|((sub)*(section))|(appendix)(sub)*(sec)?)';
+		TEXI_FILE=$(realpath --relative-to ${REPOSITORY_ROOT} ${TEXI_FILE});
+		TEXTDOMAIN_DIRECTORY=$(realpath --relative-to ${REPOSITORY_ROOT} ${GETTEXT_ROOT}/${TEXI_FOLDER});
+		POT_DIRECTORY=${TEXTDOMAIN_DIRECTORY}/C/LC_MESSAGES;
+		SCRIPT_DIRECTORY=$(realpath --relative-to ${REPOSITORY_ROOT} ${SCRIPT_ROOT}/${TEXI_FOLDER});
 
-		    # gettext
-		    GREP_STRING='^@((chapter)|((sub)*(section))|(appendix)(sub)*(sec)?)';
-		    
-		    TEXTDOMAIN_DIRECTORY=${GETTEXT_ROOT}/${TEXI_FOLDER};
-		    POT_DIRECTORY=${TEXTDOMAIN_DIRECTORY}/C/LC_MESSAGES;
-		    SCRIPT_DIRECTORY=${SCRIPT_ROOT}/${TEXI_FOLDER};
+		generate_gettext_pot ${TEXI_FILE} \
+				     ${POT_DIRECTORY} \
+				     ${GREP_STRING};
+		
+		generate_gettext_filter ${TEXI_FILE} \
+					${SCRIPT_DIRECTORY} \
+					${GREP_STRING} \
+					${TEXTDOMAIN_DIRECTORY};
 
-		    generate_gettext_pot ${TEXI_FILE} \
-					 ${POT_DIRECTORY} \
-					 ${GREP_STRING};
-		    
-		    generate_gettext_filter ${TEXI_FILE} \
-					    ${SCRIPT_DIRECTORY} \
-					    ${GREP_STRING} \
-					    ${TEXTDOMAIN_DIRECTORY};
-		    
-		    cd ${REPOSITORY_ROOT};
-		    ;;
+	    else
+		while read LINGUA
+		do
+		    case ${COMMAND} in
+			"msginit")
+			    TEXI_NAME=$(basename ${TEXI_FILE});
+			    POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.pot;
+			    PO_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES/${TEXI_NAME}.po;
+			    echo -n "Copying ${POT_FILE} to ${PO_FILE} ... "
+			    [ -d ${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES ] ||
+				mkdir -p ${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES;
+			    cp -pf ${POT_FILE} ${PO_FILE};
+			    echo "done.";
+			    ;;
 
-	    esac
+			"translate")
+			    TEXI_PATH=$(dirname ${TEXI_FILE});
+			    TEXI_NAME=$(basename ${TEXI_FILE});
+			    TEXI_STEM=$(basename ${TEXI_FILE} .texi);
+			    PO_DIRECTORY=${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES;
+			    PO_FILE=${PO_DIRECTORY}/${TEXI_NAME}.po;
+			    TRANSLATED_ROOT=${REPOSITORY_ROOT}/translated;
+			    TRANSLATED_FOLDER=${TRANSLATED_ROOT}/${TEXI_FOLDER};
+			    [ -d  ${TRANSLATED_FOLDER} ] || mkdir -p ${TRANSLATED_FOLDER};
+			    TRANSLATED_TEXI=${TRANSLATED_FOLDER}/${TEXI_STEM}-${LINGUA}.texi;
+			    SCRIPT_DIRECTORY=$(realpath --relative-to ${REPOSITORY_ROOT} ${SCRIPT_ROOT}/${TEXI_FOLDER});
+			    PERL_FILTER=${SCRIPT_DIRECTORY}/${TEXI_NAME}.pl;
+
+			    echo -n "Translate ${TEXI_FILE} to ${TRANSLATED_TEXI} ... ";
+			    msgfmt -o ${PO_DIRECTORY}/${TEXI_NAME}.mo ${PO_FILE};
+			    TEMP_TEXI=$(mktemp);
+			    
+			    cat ${TEXI_FILE} |
+				LANGUAGE=${LINGUA} ${PERL_FILTER} >${TEMP_TEXI};
+			    cat ${TEMP_TEXI} >${TRANSLATED_TEXI};
+			    rm -f ${TEMP_TEXI};
+			    echo "done.";
+			    ;;
+
+			"msgmerge")
+			    # Precisely, update pot that contains new msgid
+			    #  with po that contains translated msgstr
+			    #  for existing msgid.
+			    TEXI_NAME=$(basename ${TEXI_FILE});
+			    NEW_POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.pot;
+			    OLD_PO_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES/${TEXI_NAME}.po;
+			    MERGED_PO=$(mktemp);
+
+			    echo -n "UPDATE ${OLD_PO_FILE} with msgid of ${NEW_POT_FILE} and msgstr of ${OLD_PO_FILE} ... "
+			    msgmerge --previous \
+				     --compendium ${OLD_PO_FILE} \
+				     --output - \
+				     /dev/null ${NEW_POT_FILE} |
+				msgcat --no-wrap - > ${MERGED_PO};
+			    
+			    cp -pf ${MERGED_PO} ${OLD_PO_FILE};
+			    rm -f ${MERGED_PO};
+			    echo "done.";
+			    ;;
+			
+		    esac
+		    
+		done <"./LINGUAS"
+	    fi
 	done
     done <"./TEXI_FOLDERS"
 }    
@@ -87,7 +133,7 @@ function generate_gettext_filter () {
     SCRIPT_DIRECTORY=${2};
     GREP_STRING=${3};
     TEXTDOMAIN_DIRECTORY=${4};
-    
+
     TEXI_NAME=$(basename ${TEXI_FILE});
     SCRIPT_NAME=${TEXI_NAME}.pl;
     SCRIPT_FILE=${SCRIPT_DIRECTORY}/${SCRIPT_NAME};
@@ -97,11 +143,11 @@ function generate_gettext_filter () {
     cat <<EOT >${SCRIPT_FILE}
 #!/usr/bin/perl
 # This script requires libintl-perl(>=1.09).
-use Locale::TextDomain ("${TEXI_FILE}" => "${TEXTDOMAIN_DIRECTORY}");
+use Locale::TextDomain ("${TEXI_NAME}" => "./${TEXTDOMAIN_DIRECTORY}");
 my (\$en, \$ja);
 while (<>) {
 EOT
-    grep -E ${GREP_STRING} ${TEXI_FILE} |
+    grep -E ${GREP_STRING} ${TEXI_FILE} | sort | uniq |
  	sed -r "s/'/\\\'/g" |
 	sed -r "s|(.+)$|\t\(\$en, \$ja\) = \(quotemeta\('&'\), __ '&'\); s/\$en/\$ja/;|" >>${SCRIPT_FILE};
     printf "\tprint;\n}" >>${SCRIPT_FILE};
@@ -139,7 +185,7 @@ msgstr ""
 
 EOT
     grep -E ${GREP_STRING} ${TEXI_FILE} |
-	perl -pe 's/\"/\\\"/g' |
+	perl -pe 's/\"/\\\"/g' | sort | uniq |
 	perl -ne 'chomp; print "msgid \"$_\"\nmsgstr \"\"\n\n";' >>${POT_FILE};
     echo "done";
     

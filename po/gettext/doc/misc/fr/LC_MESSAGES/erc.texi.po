@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-08 00:11\n"
+"PO-Revision-Date: 2021-10-08 00:11\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Getting Started"
+msgstr ""
+
+msgid "@section Sample Session"
+msgstr ""
+
+msgid "@section Special Features"
+msgstr ""
+
+msgid "@chapter Keys Used in ERC"
+msgstr ""
+
+msgid "@chapter Modules"
+msgstr ""
+
+msgid "@chapter Advanced Usage"
+msgstr ""
+
+msgid "@section Connecting to an IRC Server"
+msgstr ""
+
+msgid "@section Sample Configuration"
+msgstr ""
+
+msgid "@section Options"
+msgstr ""
+
+msgid "@chapter Getting Help and Reporting Bugs"
+msgstr ""
+
+msgid "@chapter History"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

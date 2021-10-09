@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-08 00:11\n"
+"PO-Revision-Date: 2021-10-08 00:11\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Overview of the Manual"
+msgstr ""
+
+msgid "@chapter Getting Started"
+msgstr ""
+
+msgid "@chapter Commands"
+msgstr ""
+
+msgid "@section Indentation Commands"
+msgstr ""
+
+msgid "@section Comment Commands"
+msgstr ""
+
+msgid "@section Movement Commands"
+msgstr ""
+
+msgid "@section Filling and Line Breaking Commands"
+msgstr ""
+
+msgid "@section Minor Modes"
+msgstr ""
+
+msgid "@section Electric Keys and Keywords"
+msgstr ""
+
+msgid "@section Auto-newline Insertion"
+msgstr ""
+
+msgid "@section Hungry Deletion of Whitespace"
+msgstr ""
+
+msgid "@section Subword Movement and Editing"
+msgstr ""
+
+msgid "@section Other Commands"
+msgstr ""
+
+msgid "@chapter Font Locking"
+msgstr ""
+
+msgid "@section Font Locking Preliminaries"
+msgstr ""
+
+msgid "@section Faces"
+msgstr ""
+
+msgid "@section Documentation Comments"
+msgstr ""
+
+msgid "@section Marking ``Wrong'' style comments"
+msgstr ""
+
+msgid "@section Miscellaneous Font Locking"
+msgstr ""
+
+msgid "@section AWK Mode Font Locking"
+msgstr ""
+
+msgid "@chapter Configuration Basics"
+msgstr ""
+
+msgid "@section Hooks"
+msgstr ""
+
+msgid "@section Style Variables"
+msgstr ""
+
+msgid "@section Styles"
+msgstr ""
+
+msgid "@subsection Built-in Styles"
+msgstr ""
+
+msgid "@subsection Choosing a Style"
+msgstr ""
+
+msgid "@subsection Adding and Amending Styles"
+msgstr ""
+
+msgid "@subsection Guessing the Style"
+msgstr ""
+
+msgid "@subsection File Styles"
+msgstr ""
+
+msgid "@chapter Customizing Filling and Line Breaking"
+msgstr ""
+
+msgid "@chapter Customizing Auto-newlines"
+msgstr ""
+
+msgid "@section Hanging Braces"
+msgstr ""
+
+msgid "@subsection Custom Brace Hanging"
+msgstr ""
+
+msgid "@section Hanging Colons"
+msgstr ""
+
+msgid "@section Hanging Semicolons and Commas"
+msgstr ""
+
+msgid "@chapter Clean-ups"
+msgstr ""
+
+msgid "@chapter Indentation Engine Basics"
+msgstr ""
+
+msgid "@section Syntactic Analysis"
+msgstr ""
+
+msgid "@section Syntactic Symbols"
+msgstr ""
+
+msgid "@subsection Function Symbols"
+msgstr ""
+
+msgid "@subsection Class related Symbols"
+msgstr ""
+
+msgid "@subsection Conditional Construct Symbols"
+msgstr ""
+
+msgid "@subsection Switch Statement Symbols"
+msgstr ""
+
+msgid "@subsection Brace List Symbols"
+msgstr ""
+
+msgid "@subsection External Scope Symbols"
+msgstr ""
+
+msgid "@subsection Parenthesis (Argument) List Symbols"
+msgstr ""
+
+msgid "@subsection Comment String Label and Macro Symbols"
+msgstr ""
+
+msgid "@subsection Multiline Macro Symbols"
+msgstr ""
+
+msgid "@subsection Objective-C Method Symbols"
+msgstr ""
+
+msgid "@subsection Java Symbols"
+msgstr ""
+
+msgid "@subsection Statement Block Symbols"
+msgstr ""
+
+msgid "@subsection K&R Symbols"
+msgstr ""
+
+msgid "@section Indentation Calculation"
+msgstr ""
+
+msgid "@chapter Customizing Indentation"
+msgstr ""
+
+msgid "@section c-offsets-alist"
+msgstr ""
+
+msgid "@section Interactive Customization"
+msgstr ""
+
+msgid "@section Line-Up Functions"
+msgstr ""
+
+msgid "@subsection Brace and Parenthesis Line-Up Functions"
+msgstr ""
+
+msgid "@subsection List Line-Up Functions"
+msgstr ""
+
+msgid "@subsection Operator Line-Up Functions"
+msgstr ""
+
+msgid "@subsection Comment Line-Up Functions"
+msgstr ""
+
+msgid "@subsection Miscellaneous Line-Up Functions"
+msgstr ""
+
+msgid "@section Custom Line-Up Functions"
+msgstr ""
+
+msgid "@section Other Special Indentations"
+msgstr ""
+
+msgid "@chapter Customizing Macros"
+msgstr ""
+
+msgid "@section Customizing Macro Backslashes"
+msgstr ""
+
+msgid "@section Macros with semicolons"
+msgstr ""
+
+msgid "@section Noise Macros"
+msgstr ""
+
+msgid "@chapter Odds and Ends"
+msgstr ""
+
+msgid "@appendix Sample Init File"
+msgstr ""
+
+msgid "@appendix Performance Issues"
+msgstr ""
+
+msgid "@appendix Limitations and Known Bugs"
+msgstr ""
+
+msgid "@appendix Frequently Asked Questions"
+msgstr ""
+
+msgid "@appendix Getting the Latest CC Mode Release"
+msgstr ""
+
+msgid "@appendix Mailing Lists and Submitting Bug Reports"
+msgstr ""
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+

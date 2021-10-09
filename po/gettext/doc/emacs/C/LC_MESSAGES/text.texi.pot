@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:03\n"
-"PO-Revision-Date: 2021-10-04 20:03\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -13,103 +13,103 @@ msgstr ""
 msgid "@chapter Commands for Human Languages"
 msgstr ""
 
-msgid "@section Words"
-msgstr ""
-
-msgid "@section Sentences"
-msgstr ""
-
-msgid "@section Paragraphs"
-msgstr ""
-
-msgid "@section Pages"
-msgstr ""
-
-msgid "@section Quotation Marks"
-msgstr ""
-
-msgid "@section Filling Text"
-msgstr ""
-
-msgid "@subsection Auto Fill Mode"
-msgstr ""
-
-msgid "@subsection Explicit Fill Commands"
-msgstr ""
-
-msgid "@subsection The Fill Prefix"
-msgstr ""
-
-msgid "@subsection Adaptive Filling"
+msgid "@section @TeX{} Mode"
 msgstr ""
 
 msgid "@section Case Conversion Commands"
 msgstr ""
 
-msgid "@section Text Mode"
-msgstr ""
-
-msgid "@section Outline Mode"
-msgstr ""
-
-msgid "@subsection Format of Outlines"
-msgstr ""
-
-msgid "@subsection Outline Motion Commands"
-msgstr ""
-
-msgid "@subsection Outline Visibility Commands"
-msgstr ""
-
-msgid "@subsection Viewing One Outline in Multiple Views"
-msgstr ""
-
-msgid "@subsection Folding Editing"
-msgstr ""
-
-msgid "@section Org Mode"
-msgstr ""
-
-msgid "@subsection Org as an organizer"
-msgstr ""
-
-msgid "@subsection Org as an authoring system"
-msgstr ""
-
-msgid "@section @TeX{} Mode"
-msgstr ""
-
-msgid "@subsection @TeX{} Editing Commands"
-msgstr ""
-
-msgid "@subsection @LaTeX{} Editing Commands"
-msgstr ""
-
-msgid "@subsection @TeX{} Printing Commands"
-msgstr ""
-
-msgid "@subsection @TeX{} Mode Miscellany"
-msgstr ""
-
-msgid "@section SGML and HTML Modes"
-msgstr ""
-
-msgid "@section Nroff Mode"
+msgid "@section Editing Text-based Tables"
 msgstr ""
 
 msgid "@section Enriched Text"
 msgstr ""
 
-msgid "@subsection Enriched Mode"
+msgid "@section Filling Text"
 msgstr ""
 
-msgid "@subsection Hard and Soft Newlines"
+msgid "@section Nroff Mode"
+msgstr ""
+
+msgid "@section Org Mode"
+msgstr ""
+
+msgid "@section Outline Mode"
+msgstr ""
+
+msgid "@section Pages"
+msgstr ""
+
+msgid "@section Paragraphs"
+msgstr ""
+
+msgid "@section Quotation Marks"
+msgstr ""
+
+msgid "@section SGML and HTML Modes"
+msgstr ""
+
+msgid "@section Sentences"
+msgstr ""
+
+msgid "@section Text Mode"
+msgstr ""
+
+msgid "@section Two-Column Editing"
+msgstr ""
+
+msgid "@section Words"
+msgstr ""
+
+msgid "@subsection @LaTeX{} Editing Commands"
+msgstr ""
+
+msgid "@subsection @TeX{} Editing Commands"
+msgstr ""
+
+msgid "@subsection @TeX{} Mode Miscellany"
+msgstr ""
+
+msgid "@subsection @TeX{} Printing Commands"
+msgstr ""
+
+msgid "@subsection Adaptive Filling"
+msgstr ""
+
+msgid "@subsection Auto Fill Mode"
+msgstr ""
+
+msgid "@subsection Cell Justification"
+msgstr ""
+
+msgid "@subsection Commands for Table Cells"
+msgstr ""
+
+msgid "@subsection Converting Between Plain Text and Tables"
+msgstr ""
+
+msgid "@subsection Creating a Table"
 msgstr ""
 
 msgid "@subsection Editing Format Information"
 msgstr ""
 
+msgid "@subsection Enriched Mode"
+msgstr ""
+
+msgid "@subsection Explicit Fill Commands"
+msgstr ""
+
 msgid "@subsection Faces in Enriched Text"
+msgstr ""
+
+msgid "@subsection Folding Editing"
+msgstr ""
+
+msgid "@subsection Format of Outlines"
+msgstr ""
+
+msgid "@subsection Hard and Soft Newlines"
 msgstr ""
 
 msgid "@subsection Indentation in Enriched Text"
@@ -118,36 +118,36 @@ msgstr ""
 msgid "@subsection Justification in Enriched Text"
 msgstr ""
 
+msgid "@subsection Org as an authoring system"
+msgstr ""
+
+msgid "@subsection Org as an organizer"
+msgstr ""
+
+msgid "@subsection Outline Motion Commands"
+msgstr ""
+
+msgid "@subsection Outline Visibility Commands"
+msgstr ""
+
 msgid "@subsection Setting Other Text Properties"
-msgstr ""
-
-msgid "@section Editing Text-based Tables"
-msgstr ""
-
-msgid "@subsection What is a Text-based Table?"
-msgstr ""
-
-msgid "@subsection Creating a Table"
-msgstr ""
-
-msgid "@subsection Table Recognition"
-msgstr ""
-
-msgid "@subsection Commands for Table Cells"
-msgstr ""
-
-msgid "@subsection Cell Justification"
-msgstr ""
-
-msgid "@subsection Table Rows and Columns"
-msgstr ""
-
-msgid "@subsection Converting Between Plain Text and Tables"
 msgstr ""
 
 msgid "@subsection Table Miscellany"
 msgstr ""
 
-msgid "@section Two-Column Editing"
+msgid "@subsection Table Recognition"
+msgstr ""
+
+msgid "@subsection Table Rows and Columns"
+msgstr ""
+
+msgid "@subsection The Fill Prefix"
+msgstr ""
+
+msgid "@subsection Viewing One Outline in Multiple Views"
+msgstr ""
+
+msgid "@subsection What is a Text-based Table?"
 msgstr ""
 

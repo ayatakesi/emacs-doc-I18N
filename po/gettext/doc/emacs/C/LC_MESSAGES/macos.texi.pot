@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-04 20:01\n"
-"PO-Revision-Date: 2021-10-04 20:01\n"
+"POT-Creation-Date: 2021-10-09 15:33\n"
+"PO-Revision-Date: 2021-10-09 15:33\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -16,27 +16,27 @@ msgstr ""
 msgid "@section Basic Emacs usage under macOS and GNUstep"
 msgstr ""
 
-msgid "@subsection Grabbing environment variables"
+msgid "@section GNUstep Support"
 msgstr ""
 
 msgid "@section Mac / GNUstep Customization"
 msgstr ""
 
-msgid "@subsection Modifier keys"
-msgstr ""
-
-msgid "@subsection Frame Variables"
-msgstr ""
-
-msgid "@subsection macOS Trackpad/Mousewheel Variables"
+msgid "@section Windowing System Events under macOS / GNUstep"
 msgstr ""
 
 msgid "@subsection Font Panel"
 msgstr ""
 
-msgid "@section Windowing System Events under macOS / GNUstep"
+msgid "@subsection Frame Variables"
 msgstr ""
 
-msgid "@section GNUstep Support"
+msgid "@subsection Grabbing environment variables"
+msgstr ""
+
+msgid "@subsection Modifier keys"
+msgstr ""
+
+msgid "@subsection macOS Trackpad/Mousewheel Variables"
 msgstr ""
 

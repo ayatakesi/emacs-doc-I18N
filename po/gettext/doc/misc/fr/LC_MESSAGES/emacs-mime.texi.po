@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-08 00:11\n"
+"PO-Revision-Date: 2021-10-08 00:11\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Decoding and Viewing"
+msgstr ""
+
+msgid "@section Dissection"
+msgstr ""
+
+msgid "@section Non-MIME"
+msgstr ""
+
+msgid "@section Handles"
+msgstr ""
+
+msgid "@section Display"
+msgstr ""
+
+msgid "@section Display Customization"
+msgstr ""
+
+msgid "@section Files and Directories"
+msgstr ""
+
+msgid "@section New Viewers"
+msgstr ""
+
+msgid "@chapter Composing"
+msgstr ""
+
+msgid "@section Simple MML Example"
+msgstr ""
+
+msgid "@section MML Definition"
+msgstr ""
+
+msgid "@section Advanced MML Example"
+msgstr ""
+
+msgid "@section Encoding Customization"
+msgstr ""
+
+msgid "@section Charset Translation"
+msgstr ""
+
+msgid "@section Conversion"
+msgstr ""
+
+msgid "@section Flowed text"
+msgstr ""
+
+msgid "@chapter Interface Functions"
+msgstr ""
+
+msgid "@chapter Basic Functions"
+msgstr ""
+
+msgid "@section rfc2045"
+msgstr ""
+
+msgid "@section rfc2231"
+msgstr ""
+
+msgid "@section ietf-drums"
+msgstr ""
+
+msgid "@section rfc2047"
+msgstr ""
+
+msgid "@section time-date"
+msgstr ""
+
+msgid "@section qp"
+msgstr ""
+
+msgid "@section base64"
+msgstr ""
+
+msgid "@section binhex"
+msgstr ""
+
+msgid "@section uudecode"
+msgstr ""
+
+msgid "@section yenc"
+msgstr ""
+
+msgid "@section rfc1843"
+msgstr ""
+
+msgid "@section mailcap"
+msgstr ""
+
+msgid "@chapter Standards"
+msgstr ""
+
+msgid "@chapter GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Index"
+msgstr ""
+

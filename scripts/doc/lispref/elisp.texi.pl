@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # This script requires libintl-perl(>=1.09).
-use Locale::TextDomain ("/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/doc/lispref/elisp.texi" => "/data/data/com.termux/files/home/gitroot/emacs-doc-I18N/po/gettext/doc/lispref");
+use Locale::TextDomain ("elisp.texi" => "./po/gettext/doc/lispref");
 my ($en, $ja);
 while (<>) {
 	($en, $ja) = (quotemeta('@appendix GNU Free Documentation License'), __ '@appendix GNU Free Documentation License'); s/$en/$ja/;
