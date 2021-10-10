@@ -1,5 +1,5 @@
---- doc/emacs/docstyle.texi	2021-03-19 16:16:54.000000000 +0900
-+++ doc/emacs/docstyle.texi.I18N	2021-10-11 01:51:51.934996101 +0900
+--- doc/emacs/docstyle.texi.orig	2021-03-19 16:16:54.000000000 +0900
++++ doc/emacs/docstyle.texi	2021-10-11 01:51:51.934996101 +0900
 @@ -1,5 +1,6 @@
  @c Emacs documentation style settings
  @documentencoding UTF-8
