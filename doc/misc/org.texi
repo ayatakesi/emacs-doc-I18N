@@ -7371,7 +7371,8 @@ formats:
 @tab a relative month
 @item @samp{thisyear}, @samp{lastyear}, @samp{thisyear-N}
 @tab a relative year
-@item @samp{untilnow}@footnote{When using @code{:step}, @code{untilnow} starts from the beginning of 2003, not the beginning of time.}
+@item @samp{untilnow}@footnote{When using @code{:step}, @code{untilnow} starts from the beginning of
+2003, not the beginning of time.}
 @tab all clocked time ever
 @end multitable
 
