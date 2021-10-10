@@ -47,8 +47,13 @@ function main () {
 	    then
 		GREP_STRING='^@((chapter)|((sub)*(section))|(appendix)(sub)*(sec)?)';
 		TEXI_FILE=$(realpath --relative-to ${REPOSITORY_ROOT} ${TEXI_FILE});
+		[ -d ${GETTEXT_ROOT}/${TEXI_FOLDER} ] || mkdir -p ${GETTEXT_ROOT}/${TEXI_FOLDER};
 		TEXTDOMAIN_DIRECTORY=$(realpath --relative-to ${REPOSITORY_ROOT} ${GETTEXT_ROOT}/${TEXI_FOLDER});
+		
 		POT_DIRECTORY=${TEXTDOMAIN_DIRECTORY}/C/LC_MESSAGES;
+		[ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
+		
+		[ -d ${SCRIPT_ROOT}/${TEXI_FOLDER} ] || mkdir -p ${SCRIPT_ROOT}/${TEXI_FOLDER};
 		SCRIPT_DIRECTORY=$(realpath --relative-to ${REPOSITORY_ROOT} ${SCRIPT_ROOT}/${TEXI_FOLDER});
 
 		generate_gettext_pot ${TEXI_FILE} \
@@ -139,7 +144,6 @@ function generate_gettext_filter () {
     SCRIPT_FILE=${SCRIPT_DIRECTORY}/${SCRIPT_NAME};
 
     echo -n "Generating ${SCRIPT_FILE} ... ";
-    [ -d ${SCRIPT_DIRECTORY} ] || mkdir -p ${SCRIPT_DIRECTORY};
     cat <<EOT >${SCRIPT_FILE}
 #!/usr/bin/perl
 # This script requires libintl-perl(>=1.09).
@@ -169,7 +173,6 @@ function generate_gettext_pot () {
     DATE_STRING=$(date '+%Y-%m-%d %H:%M');
 
     echo -n "Generating ${POT_FILE} ... ";
-    [ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
     cat <<EOT > ${POT_FILE}
 msgid ""
 msgstr ""
