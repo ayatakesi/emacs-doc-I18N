@@ -1,0 +1,3356 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-11 03:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/ses.texi:4 ../../../../../doc/misc/ses.texi:55
+#, no-wrap
+msgid "@acronym{SES}: Simple Emacs Spreadsheet"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ses.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ses.texi:14
+msgid "This file documents @acronym{SES}: the Simple Emacs Spreadsheet."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ses.texi:16
+msgid "Copyright @copyright{} 2002--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ses.texi:24
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License.''"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ses.texi:27
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/ses.texi:30
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:33
+msgid "@acronym{SES}: (ses)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:33
+msgid "Simple Emacs Spreadsheet."
+msgstr ""
+
+#. type: acronym{#1}
+#: ../../../../../doc/misc/ses.texi:38
+#, no-wrap
+msgid "SES"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/ses.texi:39
+#, no-wrap
+msgid "Simple Emacs Spreadsheet"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/ses.texi:40
+#, no-wrap
+msgid "Jonathan A. Yavner"
+msgstr ""
+
+#. type: email{#1}
+#: ../../../../../doc/misc/ses.texi:41
+#, no-wrap
+msgid "jyavner@@member.fsf.org"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ses.texi:53
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: display
+#: ../../../../../doc/misc/ses.texi:61
+#, no-wrap
+msgid ""
+"@acronym{SES} is a major mode for GNU Emacs to edit spreadsheet files, "
+"which\n"
+"contain a rectangular grid of cells.  The cells' values are specified\n"
+"by formulas that can refer to the values of other cells.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:65
+msgid "To report bugs, use @kbd{M-x report-emacs-bug}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:81 ../../../../../doc/misc/ses.texi:83
+#, no-wrap
+msgid "Sales Pitch"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "Why use @acronym{SES}?"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:103 ../../../../../doc/misc/ses.texi:104
+#, no-wrap
+msgid "Quick Tutorial"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "A quick introduction"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:200 ../../../../../doc/misc/ses.texi:202
+#, no-wrap
+msgid "The Basics"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "Basic spreadsheet commands"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:762 ../../../../../doc/misc/ses.texi:763
+#, no-wrap
+msgid "Advanced Features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "Want to know more?"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:1132 ../../../../../doc/misc/ses.texi:1133
+#, no-wrap
+msgid "For Gurus"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "Want to know @emph{even more}?"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:1310 ../../../../../doc/misc/ses.texi:1311
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "Concept, Function and Variable Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:1317 ../../../../../doc/misc/ses.texi:1318
+#, no-wrap
+msgid "Acknowledgments"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/ses.texi:77 ../../../../../doc/misc/ses.texi:1382 ../../../../../doc/misc/ses.texi:1383
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:77
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:84
+#, no-wrap
+msgid "features"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:87
+#, no-wrap
+msgid "Create and edit simple spreadsheets with a minimum of fuss."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:88
+#, no-wrap
+msgid "Full undo/redo/autosave."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:89
+#, no-wrap
+msgid "Immune to viruses in spreadsheet files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:90
+#, no-wrap
+msgid "Cell formulas are straight Emacs Lisp."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:91
+#, no-wrap
+msgid "Printer functions for control of cell appearance."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:92
+#, no-wrap
+msgid "Intuitive keystroke commands: C-o = insert row, M-o = insert column, etc."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:93
+#, no-wrap
+msgid "``Spillover'' of lengthy cell values into following blank cells."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:94
+#, no-wrap
+msgid "Header line shows column letters or a selected row."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:95
+#, no-wrap
+msgid "Completing-read for entering symbols as cell values."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:96
+#, no-wrap
+msgid "Cut, copy, and paste can transfer formulas and printer functions."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:97
+#, no-wrap
+msgid "Import and export of tab-separated values or tab-separated formulas."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:98
+#, no-wrap
+msgid "Plaintext, easily-hacked file format."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:105
+#, no-wrap
+msgid "introduction"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:106
+#, no-wrap
+msgid "tutorial"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:111
+msgid ""
+"If you want to get started quickly and think that you know what to expect "
+"from a simple spreadsheet, this chapter may be all that you need."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:114
+msgid ""
+"First, visit a new file with the @file{.ses} extension.  Emacs presents you "
+"with an empty spreadsheet containing a single cell."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:118
+msgid ""
+"Begin by inserting a headline: @kbd{\"Income\"@key{RET}}.  The double quotes "
+"indicate that this is a text cell.  (Notice that Emacs automatically inserts "
+"the closing quotation mark.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:123
+msgid ""
+"To insert your first income value, you must first resize the spreadsheet.  "
+"Press @key{TAB} to add a new cell and navigate back up to it.  Enter a "
+"number, such as @samp{2.23}.  Then proceed to add a few more income entries, "
+"e.g.:"
+msgstr ""
+
+#. type: group
+#: ../../../../../doc/misc/ses.texi:132
+#, no-wrap
+msgid ""
+"A\n"
+" Income\n"
+"   2.23\n"
+"   0.02\n"
+"  15.76\n"
+"  -4.00\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:136
+msgid "To add up the values, enter a Lisp expression:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ses.texi:139
+#, no-wrap
+msgid "(+ A2 A3 A4 A5)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:144
+msgid ""
+"Perhaps you want to add a cell to the right of cell A4 to explain why you "
+"have a negative entry.  Pressing @kbd{TAB} in that cell adds an entire new "
+"column @samp{B}, where you can add such a note."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:148
+msgid ""
+"The column is fairly narrow by default, but pressing @kbd{w} allows you to "
+"resize it as needed.  Make it 20 characters wide.  You can now add "
+"descriptive legends for all the entries, e.g.:"
+msgstr ""
+
+#. type: group
+#: ../../../../../doc/misc/ses.texi:158
+#, no-wrap
+msgid ""
+"A       B\n"
+" Income\n"
+"   2.23       Consulting fee\n"
+"   0.02     Informed opinion\n"
+"  15.76       Lemonade stand\n"
+"     -4          Loan to Joe\n"
+"  14.01                Total\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:165
+msgid ""
+"By default, the labels in column B are right-justified.  To change that, you "
+"can enter a printer function for the whole column, using e.g., @kbd{M-p "
+"(\"%s\")}.  You can override a column's printer function in any individual "
+"cell using @kbd{p}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:174
+msgid ""
+"If Joe pays back his loan, you might blank that entry; e.g., by positioning "
+"the cursor in cell A5 and pressing @kbd{C-d} twice.  If you do that, the "
+"total cell will display @samp{######}.  That is because the regular @code{+} "
+"operator does not handle a range that contains some empty cells.  Instead of "
+"emptying the cell, you could enter a literal @samp{0}, or delete the entire "
+"row using @kbd{C-k}.  An alternative is to use the special function "
+"@code{ses+} instead of the regular @code{+}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ses.texi:177
+#, no-wrap
+msgid "(ses+ A2 A3 A4 A5)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:182
+msgid ""
+"To make a formula robust against changes in the spreadsheet geometry, you "
+"can use the @code{ses-range} macro to refer to a range of cells by the "
+"end-points, e.g.:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ses.texi:185
+#, no-wrap
+msgid "(apply 'ses+ (ses-range A2 A5))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:189
+msgid ""
+"(The @code{apply} is necessary because @code{ses-range} produces a "
+"@emph{list} of values.  This allows for more complex possibilities.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:193
+msgid ""
+"Alternatively you can use the @code{!} modifier of @code{ses-range} to "
+"remove blank cells from the returned list, which allows to use @code{+} "
+"instead of @code{ses+}:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:196
+#, no-wrap
+msgid "(apply '+ (ses-range A2 A5 !))\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:203
+#, no-wrap
+msgid "basic commands"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:204
+#, no-wrap
+msgid "ses-jump"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:205
+#, no-wrap
+msgid "ses-mark-row"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:206
+#, no-wrap
+msgid "ses-mark-column"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:207
+#, no-wrap
+msgid "ses-mark-whole-buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:208
+#, no-wrap
+msgid "set-mark-command"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:209
+#, no-wrap
+msgid "keyboard-quit"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:213
+msgid ""
+"To create a new spreadsheet, visit a nonexistent file whose name ends with "
+"\".ses\".  For example, @kbd{C-x C-f test.ses @key{RET}}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:220
+msgid ""
+"A @dfn{cell identifier} is a symbol with a column letter and a row number.  "
+"Cell B7 is the 2nd column of the 7th row.  For very wide spreadsheets, there "
+"are two column letters: cell AB7 is the 28th column of the 7th row. Super "
+"wide spreadsheets get AAA1, etc.  You move around with the regular Emacs "
+"movement commands."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:222
+#, no-wrap
+msgid "j"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:224
+msgid "Moves point to cell, specified by identifier (@code{ses-jump})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:232
+msgid ""
+"Point is always at the left edge of a cell, or at the empty endline.  When "
+"mark is inactive, the current cell is underlined.  When mark is active, the "
+"range is the highlighted rectangle of cells (@acronym{SES} always uses "
+"transient mark mode).  Drag the mouse from A1 to A3 to create the range "
+"A1-A2.  Many @acronym{SES} commands operate only on single cells, not "
+"ranges."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:234
+#, no-wrap
+msgid "C-@key{SPC}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:235
+#, no-wrap
+msgid "C-@@"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:237
+msgid "Set mark at point (@code{set-mark-command})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:238
+#, no-wrap
+msgid "C-g"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:240
+msgid "Turn off the mark (@code{keyboard-quit})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:241
+#, no-wrap
+msgid "M-h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:243
+msgid "Highlight current row (@code{ses-mark-row})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:244
+#, no-wrap
+msgid "S-M-h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:246
+msgid "Highlight current column (@code{ses-mark-column})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:247
+#, no-wrap
+msgid "C-x h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:249
+msgid "Highlight all cells (@code{mark-whole-buffer})."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:258
+msgid "Formulas::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:258
+msgid "Resizing::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:258
+msgid "Printer functions::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:258
+msgid "Clearing cells::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:258
+msgid "Copy/cut/paste::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:258 ../../../../../doc/misc/ses.texi:725 ../../../../../doc/misc/ses.texi:726
+#, no-wrap
+msgid "Customizing @acronym{SES}"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ses.texi:260
+#, no-wrap
+msgid "Formulas"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:261
+#, no-wrap
+msgid "Cell formulas"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:262
+#, no-wrap
+msgid "formulas"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:263
+#, no-wrap
+msgid "formulas, entering"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:264
+#, no-wrap
+msgid "values"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:265
+#, no-wrap
+msgid "cell values"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:266
+#, no-wrap
+msgid "editing cells"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:267
+#, no-wrap
+msgid "ses-read-cell"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:268
+#, no-wrap
+msgid "ses-read-symbol"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:269
+#, no-wrap
+msgid "ses-edit-cell"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:270 ../../../../../doc/misc/ses.texi:1004
+#, no-wrap
+msgid "ses-recalculate-cell"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:271
+#, no-wrap
+msgid "ses-recalculate-all"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:275
+msgid ""
+"To insert a value into a cell, simply type a numeric expression, "
+"@samp{\"double-quoted text\"}, or a Lisp expression."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:277
+#, no-wrap
+msgid "0..9"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:279
+msgid "Self-insert a digit (@code{ses-read-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:280
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:282
+msgid "Self-insert a negative number (@code{ses-read-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:283
+#, no-wrap
+msgid "."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:285
+msgid "Self-insert a fractional number (@code{ses-read-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:286
+#, no-wrap
+msgid "\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:289
+msgid ""
+"Self-insert a quoted string.  The ending double-quote is inserted for you "
+"(@code{ses-read-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:290
+#, no-wrap
+msgid "("
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:296
+msgid ""
+"Self-insert an expression.  The right-parenthesis is inserted for you "
+"(@code{ses-read-cell}).  To access another cell's value, just use its "
+"identifier in your expression.  Whenever the other cell is changed, this "
+"cell's formula will be reevaluated.  While typing in the expression, you can "
+"use the following keys:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:297
+#, no-wrap
+msgid "M-@key{TAB}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:299
+msgid "to complete symbol names, and"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:299
+#, no-wrap
+msgid "C-h C-n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:301
+msgid "to list the named cells symbols in a help buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:303
+#, no-wrap
+msgid "' @r{(apostrophe)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:307
+msgid ""
+"Enter a symbol (ses-read-symbol).  @acronym{SES} remembers all symbols that "
+"have been used as formulas, so you can type just the beginning of a symbol "
+"and use @kbd{@key{SPC}}, @kbd{@key{TAB}}, and @kbd{?} to complete it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:311
+msgid ""
+"To enter something else (e.g., a vector), begin with a digit, then erase the "
+"digit and type whatever you want."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ses.texi:313
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:315
+msgid "Edit the existing formula in the current cell (@code{ses-edit-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:316
+#, no-wrap
+msgid "C-c C-c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:318
+msgid ""
+"Force recalculation of the current cell or range "
+"(@code{ses-recalculate-cell})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:319
+#, no-wrap
+msgid "C-c C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:321
+msgid "Recalculate the entire spreadsheet (@code{ses-recalculate-all})."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ses.texi:323
+#, no-wrap
+msgid "Resizing"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:324
+#, no-wrap
+msgid "Resizing the spreadsheet"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:325
+#, no-wrap
+msgid "resizing spreadsheets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:326
+#, no-wrap
+msgid "dimensions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:327
+#, no-wrap
+msgid "row, adding or removing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:328
+#, no-wrap
+msgid "column, adding or removing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:329
+#, no-wrap
+msgid "adding rows or columns"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:330
+#, no-wrap
+msgid "inserting rows or columns"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:331
+#, no-wrap
+msgid "removing rows or columns"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:332
+#, no-wrap
+msgid "deleting rows or columns"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:333
+#, no-wrap
+msgid "ses-insert-row"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:334
+#, no-wrap
+msgid "ses-insert-column"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:335
+#, no-wrap
+msgid "ses-delete-row"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:336
+#, no-wrap
+msgid "ses-delete-column"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:337
+#, no-wrap
+msgid "ses-set-column-width"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:338
+#, no-wrap
+msgid "ses-forward-or-insert"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:339
+#, no-wrap
+msgid "ses-append-row-jump-first-column"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:343
+msgid "Basic commands:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:345
+#, no-wrap
+msgid "C-o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:347
+msgid "(@code{ses-insert-row})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:348
+#, no-wrap
+msgid "M-o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:350
+msgid "(@code{ses-insert-column})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:351
+#, no-wrap
+msgid "C-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:353
+msgid "(@code{ses-delete-row})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:354
+#, no-wrap
+msgid "M-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:356
+msgid "(@code{ses-delete-column})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:357
+#, no-wrap
+msgid "w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:359
+msgid "(@code{ses-set-column-width})"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ses.texi:360 ../../../../../doc/misc/ses.texi:477
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:364
+msgid ""
+"Moves point to the next rightward cell, or inserts a new column if already "
+"at last cell on line, or inserts a new row if at endline "
+"(@code{ses-forward-or-insert})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:365
+#, no-wrap
+msgid "C-j"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:368
+msgid ""
+"Linefeed inserts below the current row and moves to column A "
+"(@code{ses-append-row-jump-first-column})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:374
+msgid ""
+"Resizing the spreadsheet (unless you're just changing a column width)  "
+"relocates all the cell-references in formulas so they still refer to the "
+"same cells.  If a formula mentioned B1 and you insert a new first row, the "
+"formula will now mention B2."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:378
+msgid ""
+"If you delete a cell that a formula refers to, the cell-symbol is deleted "
+"from the formula, so @code{(+ A1 B1 C1)} after deleting the third column "
+"becomes @code{(+ A1 B1)}.  In case this is not what you wanted:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:380
+#, no-wrap
+msgid "C-_"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:381
+#, no-wrap
+msgid "C-x u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:383
+msgid "Undo previous action (@code{(undo)})."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:386 ../../../../../doc/misc/ses.texi:387
+#, no-wrap
+msgid "Printer functions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:388
+#, no-wrap
+msgid "printer functions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:389
+#, no-wrap
+msgid "cell formatting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:390
+#, no-wrap
+msgid "formatting cells"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:394
+msgid ""
+"Printer functions convert binary cell values into the print forms that Emacs "
+"will display on the screen."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:401
+msgid "Various kinds of printer functions::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:401
+msgid "Configuring what printer function applies::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:401
+msgid "Standard printer functions::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:401
+msgid "Local printer functions::"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/ses.texi:401 ../../../../../doc/misc/ses.texi:554 ../../../../../doc/misc/ses.texi:555
+#, no-wrap
+msgid "Writing a lambda printer function"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/ses.texi:403 ../../../../../doc/misc/ses.texi:404
+#, no-wrap
+msgid "Various kinds of printer functions"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:409
+msgid ""
+"When configuring what printer function applies (@pxref{Configuring what "
+"printer function applies}), you can enter a printer function as one of the "
+"following:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:415
+msgid ""
+"A format string, like @samp{\"$%.2f\"}.  The result string is right-aligned "
+"within the print cell.  To get left-alignment, use parentheses: "
+"@samp{(\"$%.2f\")}."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:419
+msgid ""
+"A printer can also be a one-argument function, the result of which is a "
+"string (right-aligned) or list of one string (left-aligned). Such a function "
+"can be in turn configured as:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:422
+msgid "A lambda expression, for instance:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:429
+#, no-wrap
+msgid ""
+"(lambda (x)\n"
+"  (cond\n"
+"     ((null x) \"\")\n"
+"     ((numberp x) (format \"%.2f\" x))\n"
+"     (t (ses-center-span x ?# 'ses-prin1))))\n"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:433
+msgid ""
+"While typing in a lambda, you can use @kbd{M-@key{TAB}} to complete the "
+"names of symbols."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:436
+msgid ""
+"A symbol referring to a standard printer function (@pxref{Standard printer "
+"functions})."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:439
+msgid ""
+"A symbol referring to a local printer function (@pxref{Local printer "
+"functions})."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/ses.texi:445 ../../../../../doc/misc/ses.texi:446
+#, no-wrap
+msgid "Configuring what printer function applies"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:451
+msgid ""
+"Each cell has a printer.  If @code{nil}, the column-printer for the cell's "
+"column is used.  If that is also @code{nil}, the default-printer for the "
+"spreadsheet is used."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:453
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:454
+#, no-wrap
+msgid "ses-read-cell-printer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:456
+msgid "Enter a printer for current cell or range (@code{ses-read-cell-printer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:457
+#, no-wrap
+msgid "M-p"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:458
+#, no-wrap
+msgid "ses-read-column-printer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:460
+msgid "Enter a printer for the current column (@code{ses-read-column-printer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:461
+#, no-wrap
+msgid "C-c C-p"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:462
+#, no-wrap
+msgid "ses-read-default-printer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:465
+msgid ""
+"Enter the default printer for the spreadsheet "
+"(@code{ses-read-default-printer})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:468
+msgid ""
+"The @code{ses-read-@var{xxx}-printer} allows the following commands during "
+"editing:"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ses.texi:470
+#, no-wrap
+msgid "arrow-up"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ses.texi:471
+#, no-wrap
+msgid "arrow-down"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:477
+msgid ""
+"To browse history: the @code{ses-read-@var{xxx}-printer} commands have their "
+"own minibuffer history, which is preloaded with the set of all printers used "
+"in this spreadsheet, plus the standard printers (@pxref{Standard printer "
+"functions}) and the local printers (@pxref{Local printer functions})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:479
+msgid "To complete the local printer symbols, and"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:479
+#, no-wrap
+msgid "C-h C-p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:481
+msgid "To list the local printers in a help buffer."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/ses.texi:484 ../../../../../doc/misc/ses.texi:485
+#, no-wrap
+msgid "Standard printer functions"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:492
+msgid ""
+"Except for @code{ses-prin1}, the other standard printers are suitable only "
+"for cells, not columns or default, because they format the value using the "
+"column-printer (or default-printer if @code{nil}) and then center the "
+"result:"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:494
+msgid "@ftable @code"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:494
+#, no-wrap
+msgid "ses-center"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:496
+msgid "Just centering."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:497
+#, no-wrap
+msgid "ses-center-span"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:499
+msgid "Centering with spill-over to following blank cells."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:500
+#, no-wrap
+msgid "ses-dashfill"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:502
+msgid "Centering using dashes (-) instead of spaces."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:503
+#, no-wrap
+msgid "ses-dashfill-span"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:505
+msgid "Centering with dashes and spill-over."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:506
+#, no-wrap
+msgid "ses-tildefill-span"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:508
+msgid "Centering with tildes (~) and spill-over."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:509 ../../../../../doc/misc/ses.texi:1040
+#, no-wrap
+msgid "ses-prin1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:512
+msgid ""
+"This is the fallback printer, used when calling the configured printer "
+"throws some error."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/ses.texi:514 ../../../../../doc/misc/ses.texi:515
+#, no-wrap
+msgid "Local printer functions"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:517
+#, no-wrap
+msgid "ses-define-local-printer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:525
+msgid ""
+"You can define printer function local to a sheet with the command "
+"@code{ses-define-local-printer}.  For instance, define a printer @samp{foo} "
+"to @code{\"%.2f\"}, and then use symbol @samp{foo} as a printer function.  "
+"Then, if you call again @code{ses-define-local-printer} on @samp{foo} to "
+"redefine it as @code{\"%.3f\"}, all the cells using printer @samp{foo} will "
+"be reprinted accordingly."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:533
+msgid ""
+"Sometimes there are local printers that you want to define or re-define "
+"automatically every time you open a sheet. For instance imagine that you "
+"want to define/re-define automatically a local printer @code{euro} to "
+"display a number like an amount of euros, that is to say number @code{3.1} "
+"would be displayed as @code{3.10@dmn{}@euro{}}. To do so in any non "
+"read-only SES buffer, you can add some code like this to your @file{.emacs} "
+"init file:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:545
+#, no-wrap
+msgid ""
+"(defun my-ses-mode-hook ()\n"
+"  (unless buffer-read-only\n"
+"    (ses-define-local-printer\n"
+"     'euro\n"
+"     (lambda (x)\n"
+"       (cond\n"
+"\t((null x) \"\")\n"
+"\t((numberp x) (format \"%.2f€\" x))\n"
+"\t(t (ses-center-span x ?# 'ses-prin1)))))))\n"
+"(add-hook 'ses-mode-hook 'my-ses-mode-hook)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:549
+msgid ""
+"If you replace command @code{ses-define-local-printer} by function "
+"@code{ses-define-if-new-local-printer}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:549
+#, no-wrap
+msgid "ses-define-if-new-local-printer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:552
+msgid ""
+"the definition will occur only if a local printer with the same name in not "
+"already defined."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:559
+msgid ""
+"You can write a printer function with a lambda expression taking one "
+"argument in two cases:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:563
+msgid "when you configure the printer function applying to a cell or column, or"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:566
+msgid ""
+"when you define a local printer function with command "
+"@code{ses-define-local-printer}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:571
+msgid ""
+"When doing so, please take care that the returned value is a string, or a "
+"list containing a string, even when the input argument has an unexpected "
+"value. Here is an example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ses.texi:578
+#, no-wrap
+msgid ""
+"(lambda (val)\n"
+"   (cond\n"
+"      ((null val) \"\")\n"
+"      ((and (numberp val) (>= val 0)) (format \"%.1f\" val))\n"
+"      (t (ses-center-span val ?# 'ses-prin1))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:581
+msgid "This example will:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:586
+msgid ""
+"When the cell is empty (ie.@: when @code{val} is @code{nil}), print an empty "
+"string @code{\"\"}"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:589
+msgid ""
+"When the cell value is a non negative number, format the value in "
+"fixed-point notation with one decimal after point"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:593
+msgid ""
+"Otherwise, handle the value as erroneous by printing it as an s-expression "
+"(using @code{ses-prin1}), centered and surrounded by @code{#} filling."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:603
+msgid ""
+"Another precaution to take is to avoid stack overflow due to a printer "
+"function calling itself indefinitely.  This mistake can happen when you use "
+"a local printer as a column printer, and this local printer implicitly calls "
+"the current column printer, so it will call itself recursively.  Imagine for "
+"instance that you want to create some local printer @code{=fill} that would "
+"center the content of a cell and surround it by equal signs @code{=}, and "
+"you do it this way:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:609
+#, no-wrap
+msgid ""
+"(lambda (x)\n"
+"  (cond\n"
+"   ((null x) \"\")\n"
+"   (t (ses-center x 0 ?=))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:618
+msgid ""
+"Because @code{=fill} uses the standard printer @code{ses-center} without "
+"explicitly passing any printer to it, @code{ses-center} will call the "
+"current column printer if any, or the spreadsheet default printer "
+"otherwise.  So using @code{=fill} as a column printer will result in a stack "
+"overflow in this column.  SES does not check for that; you just have to be "
+"careful.  For instance, re-write @code{=fill} like this:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:625
+#, no-wrap
+msgid ""
+"(lambda (x)\n"
+"  (cond\n"
+"   ((null x) \"\")\n"
+"   ((stringp x) (ses-center x 0 ?= \" %s \"))\n"
+"   (t (ses-center-span x ?# 'ses-prin1))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:632
+msgid ""
+"The code above applies the @code{=} filling only to strings; it also "
+"surrounds the string by one space on each side before filling with @code{=} "
+"signs.  So the string @samp{Foo} will be displayed like @samp{@w{=== Foo "
+"===}} in an 11 character wide column.  Anything other than an empty cell or "
+"a non-string is displayed as an error by using @code{#} filling."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:633 ../../../../../doc/misc/ses.texi:634
+#, no-wrap
+msgid "Clearing cells"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:635
+#, no-wrap
+msgid "clearing commands"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:636
+#, no-wrap
+msgid "ses-clear-cell-backward"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:637
+#, no-wrap
+msgid "ses-clear-cell-forward"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:640
+msgid "These commands set both formula and printer to @code{nil}:"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ses.texi:642
+#, no-wrap
+msgid "DEL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:644
+msgid "Clear cell and move left (@code{ses-clear-cell-backward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:645
+#, no-wrap
+msgid "C-d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:647
+msgid "Clear cell and move right (@code{ses-clear-cell-forward})."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ses.texi:650
+#, no-wrap
+msgid "Copy/cut/paste"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:651
+#, no-wrap
+msgid "Copy, cut, and paste"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:652
+#, no-wrap
+msgid "copy"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:653
+#, no-wrap
+msgid "cut"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:654
+#, no-wrap
+msgid "paste"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:655
+#, no-wrap
+msgid "kill-ring-save"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:656
+#, no-wrap
+msgid "mouse-set-region"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:657
+#, no-wrap
+msgid "mouse-set-secondary"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:658
+#, no-wrap
+msgid "ses-kill-override"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:659 ../../../../../doc/misc/ses.texi:1288 ../../../../../doc/misc/ses.texi:1302
+#, no-wrap
+msgid "yank"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:660
+#, no-wrap
+msgid "clipboard-yank"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:661
+#, no-wrap
+msgid "mouse-yank-at-click"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:662
+#, no-wrap
+msgid "mouse-yank-at-secondary"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:663
+#, no-wrap
+msgid "ses-yank-pop"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:667
+msgid ""
+"The copy functions work on rectangular regions of cells.  You can paste the "
+"copies into non-@acronym{SES} buffers to export the print text."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:669
+#, no-wrap
+msgid "M-w"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:670
+#, no-wrap
+msgid "[copy]"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:671
+#, no-wrap
+msgid "[C-insert]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:674
+msgid ""
+"Copy the highlighted cells to kill ring and primary clipboard "
+"(@code{kill-ring-save})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:675
+#, no-wrap
+msgid "[drag-mouse-1]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:678
+msgid ""
+"Mark a region and copy it to kill ring and primary clipboard "
+"(@code{mouse-set-region})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:679
+#, no-wrap
+msgid "[M-drag-mouse-1]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:682
+msgid ""
+"Mark a region and copy it to kill ring and secondary clipboard "
+"(@code{mouse-set-secondary})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:683
+#, no-wrap
+msgid "C-w"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:684
+#, no-wrap
+msgid "[cut]"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:685
+#, no-wrap
+msgid "[S-delete]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:688
+msgid ""
+"The cut functions do not actually delete rows or columns---they copy and "
+"then clear (@code{ses-kill-override})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:689
+#, no-wrap
+msgid "C-y"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:690
+#, no-wrap
+msgid "[S-insert]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:693
+msgid ""
+"Paste from kill ring (@code{yank}).  The paste functions behave differently "
+"depending on the format of the text being inserted:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:698
+msgid ""
+"When pasting cells that were cut from a @acronym{SES} buffer, the print text "
+"is ignored and only the attached formula and printer are inserted; cell "
+"references in the formula are relocated unless you use @kbd{C-u}."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:702
+msgid ""
+"The pasted text overwrites a rectangle of cells whose top left corner is the "
+"current cell.  If part of the rectangle is beyond the edges of the "
+"spreadsheet, you must confirm the increase in spreadsheet size."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:707
+msgid ""
+"Non-@acronym{SES} text is usually inserted as a replacement formula for the "
+"current cell.  If the formula would be a symbol, it's treated as a string "
+"unless you use @kbd{C-u}.  Pasted formulas with syntax errors are always "
+"treated as strings."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:709
+#, no-wrap
+msgid "[paste]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:711
+msgid "Paste from primary clipboard or kill ring (@code{clipboard-yank})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:712
+#, no-wrap
+msgid "[mouse-2]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:714
+msgid "Set point and paste from primary clipboard (@code{mouse-yank-at-click})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:715
+#, no-wrap
+msgid "[M-mouse-2]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:717
+msgid "Set point and paste from secondary clipboard (@code{mouse-yank-secondary})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:718
+#, no-wrap
+msgid "M-y"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:723
+msgid ""
+"Immediately after a paste, you can replace the text with a preceding element "
+"from the kill ring (@code{ses-yank-pop}).  Unlike the standard Emacs "
+"yank-pop, the @acronym{SES} version uses @code{undo} to delete the old "
+"yank.  This doesn't make any difference?"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:727
+#, no-wrap
+msgid "customizing"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:728 ../../../../../doc/misc/ses.texi:731
+#, no-wrap
+msgid "enable-local-eval"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:729
+#, no-wrap
+msgid "ses-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:730
+#, no-wrap
+msgid "safe-functions"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:737
+msgid ""
+"By default, a newly-created spreadsheet has 1 row and 1 column.  The column "
+"width is 7 and the default printer is @samp{\"%.7g\"}.  Each of these can be "
+"customized.  Look in group ``ses''."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:742
+msgid ""
+"After entering a cell value, point normally moves right to the next cell.  "
+"You can customize @code{ses-after-entry-functions} to move left or up or "
+"down.  For diagonal movement, select two functions from the list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:745
+msgid ""
+"@code{ses-mode-hook} is a normal mode hook (list of functions to execute "
+"when starting @acronym{SES} mode for a buffer)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:758
+msgid ""
+"The variable @code{safe-functions} is a list of possibly-unsafe functions to "
+"be treated as safe when analyzing formulas and printers.  @xref{Virus "
+"protection}.  Before customizing @code{safe-functions}, think about how much "
+"you trust the person who's suggesting this change.  The value @code{t} turns "
+"off all anti-virus protection.  A list-of-functions value might enable a "
+"``gee whiz'' spreadsheet, but it also creates trapdoors in your anti-virus "
+"armor.  In order for virus protection to work, you must always press @kbd{n} "
+"when presented with a virus warning, unless you understand what the "
+"questionable code is trying to do.  Do not listen to those who tell you to "
+"customize @code{enable-local-eval}---this variable is for people who don't "
+"wear safety belts!"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:764 ../../../../../doc/misc/ses.texi:1134
+#, no-wrap
+msgid "advanced features"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:765
+#, no-wrap
+msgid "ses-read-header-row"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ses.texi:769 ../../../../../doc/misc/ses.texi:772
+#, no-wrap
+msgid "C-c M-C-h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:771
+msgid "(@code{ses-set-header-row})."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:771
+#, no-wrap
+msgid "ses-set-header-row"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:779
+msgid ""
+"The header line at the top of the @acronym{SES} window normally shows the "
+"column letter for each column.  You can set it to show a copy of some row, "
+"such as a row of column titles, so that row will always be visible.  Default "
+"is to set the current row as the header; use C-u to prompt for header row.  "
+"Set the header to row 0 to show column letters again."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:779
+#, no-wrap
+msgid "[header-line mouse-3]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:782
+msgid ""
+"Pops up a menu to set the current row as the header, or revert to column "
+"letters."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:782
+#, no-wrap
+msgid "M-x ses-rename-cell"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:783 ../../../../../doc/misc/ses.texi:1187
+#, no-wrap
+msgid "ses-rename-cell"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:786
+msgid ""
+"Rename a cell from a standard A1-like name to any string that can be a valid "
+"local variable name (See also @ref{Nonrelocatable references})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:786
+#, no-wrap
+msgid "M-x ses-repair-cell-reference-all"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:787
+#, no-wrap
+msgid "ses-repair-cell-reference-all"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:792
+msgid ""
+"When you interrupt a cell formula update by clicking @kbd{C-g}, then the "
+"cell reference link may be broken, which will jeopardize automatic cell "
+"update when any other cell on which it depends is changed. To repair that "
+"use function @code{ses-repair-cell-reference-all}"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "The print area::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "Ranges in formulas::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "Sorting by column::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "Standard formula functions::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "More on cell printing::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "Import and export::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:803
+msgid "Virus protection::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:803 ../../../../../doc/misc/ses.texi:1096 ../../../../../doc/misc/ses.texi:1097
+#, no-wrap
+msgid "Spreadsheets with details and summary"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:805 ../../../../../doc/misc/ses.texi:806
+#, no-wrap
+msgid "The print area"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:807
+#, no-wrap
+msgid "print area"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:808
+#, no-wrap
+msgid "widen"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:809
+#, no-wrap
+msgid "ses-renarrow-buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:810
+#, no-wrap
+msgid "ses-reprint-all"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:817
+msgid ""
+"A @acronym{SES} file consists of a print area and a data area.  Normally the "
+"buffer is narrowed to show only the print area.  The print area is read-only "
+"except for special @acronym{SES} commands; it contains cell values formatted "
+"by printer functions.  The data area records the formula and printer "
+"functions, etc."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:819
+#, no-wrap
+msgid "C-x n w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:821
+msgid "Show print and data areas (@code{widen})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:822
+#, no-wrap
+msgid "C-c C-n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:824
+msgid "Show only print area (@code{ses-renarrow-buffer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:825
+#, no-wrap
+msgid "S-C-l"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ses.texi:826
+#, no-wrap
+msgid "M-C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:829
+msgid ""
+"Recreate print area by reevaluating printer functions for all cells "
+"(@code{ses-reprint-all})."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:831 ../../../../../doc/misc/ses.texi:832
+#, no-wrap
+msgid "Ranges in formulas"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:833
+#, no-wrap
+msgid "ranges"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:834
+#, no-wrap
+msgid "ses-insert-range-click"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:835
+#, no-wrap
+msgid "ses-insert-range"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:836
+#, no-wrap
+msgid "ses-insert-ses-range-click"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:837
+#, no-wrap
+msgid "ses-insert-ses-range"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:838
+#, no-wrap
+msgid "from"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:839
+#, no-wrap
+msgid "to"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:842
+msgid "A formula like"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:844
+#, no-wrap
+msgid "(+ A1 A2 A3)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:847
+msgid ""
+"is the sum of three specific cells.  If you insert a new second row, the "
+"formula becomes"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:849
+#, no-wrap
+msgid "(+ A1 A3 A4)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:851
+msgid "and the new row is not included in the sum."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:854
+msgid ""
+"The macro @code{(ses-range @var{from} @var{to})} evaluates to a list of the "
+"values in a rectangle of cells.  If your formula is"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:856
+#, no-wrap
+msgid "(apply '+ (ses-range A1 A3))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:858
+msgid "and you insert a new second row, it becomes"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:860
+#, no-wrap
+msgid "(apply '+ (ses-range A1 A4))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:862
+msgid "and the new row is included in the sum."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:867
+msgid ""
+"While entering or editing a formula in the minibuffer, you can select a "
+"range in the spreadsheet (using mouse or keyboard), then paste a "
+"representation of that range into your formula.  Suppose you select A1-C1:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:869
+#, no-wrap
+msgid "[S-mouse-3]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:871
+msgid "Inserts \"A1 B1 C1\" @code{(ses-insert-range-click})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:872
+#, no-wrap
+msgid "C-c C-r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:874
+msgid "Keyboard version (@code{ses-insert-range})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:875
+#, no-wrap
+msgid "[C-S-mouse-3]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:877
+msgid "Inserts \"(ses-range A1 C1)\" (@code{ses-insert-ses-range-click})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:878
+#, no-wrap
+msgid "C-c C-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:880
+msgid "Keyboard version (@code{ses-insert-ses-range})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:885
+msgid ""
+"If you delete the @var{from} or @var{to} cell for a range, the nearest "
+"still-existing cell is used instead.  If you delete the entire range, the "
+"formula relocator will delete the ses-range from the formula."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:889
+msgid ""
+"If you insert a new row just beyond the end of a one-column range, or a new "
+"column just beyond a one-row range, the new cell is included in the range.  "
+"New cells inserted just before a range are not included."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:892
+msgid "Flags can be added to @code{ses-range} immediately after the @var{to} cell."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:893
+#, no-wrap
+msgid "!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:899
+msgid ""
+"Empty cells in range can be removed by adding the @code{!} flag. An empty "
+"cell is a cell the value of which is one of symbols @code{nil} or "
+"@code{*skip*}. For instance @code{(ses-range A1 A4 !)} will do the same as "
+"@code{(list A1 A3)} when cells @code{A2} and @code{A4} are empty."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:899
+#, no-wrap
+msgid "_"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:906
+msgid ""
+"Empty cell values are replaced by the argument following flag @code{_}, or "
+"@code{0} when flag @code{_} is last in argument list. For instance "
+"@code{(ses-range A1 A4 _ \"empty\")} will do the same as @code{(list A1 "
+"\"empty\" A3 \"empty\")} when cells @code{A2} and @code{A4} are "
+"empty. Similarly, @code{(ses-range A1 A4 _ )} will do the same as "
+"@code{(list A1 0 A3 0)}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:906
+#, no-wrap
+msgid ">v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:910
+msgid ""
+"When order matters, list cells by reading cells row-wise from top left to "
+"bottom right. This flag is provided for completeness only as it is the "
+"default reading order."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:910
+#, no-wrap
+msgid "<v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:912
+msgid "List cells by reading cells row-wise from top right to bottom left."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:912
+#, no-wrap
+msgid "v>"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:914
+msgid "List cells by reading cells column-wise from top left to bottom right."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:914
+#, no-wrap
+msgid "v<"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:916
+msgid "List cells by reading cells column-wise from top right to bottom left."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:916
+#, no-wrap
+msgid "v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:918
+msgid "A short hand for @code{v>}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:918
+#, no-wrap
+msgid "^"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:920
+msgid "A short hand for @code{^>}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:920
+#, no-wrap
+msgid ">"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:922
+msgid "A short hand for @code{>v}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:922
+#, no-wrap
+msgid "<"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:924
+msgid "A short hand for @code{>^}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:924
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:928
+msgid ""
+"Instead of listing cells, it makes a Calc vector or matrix of it "
+"(@pxref{Top,,,calc,GNU Emacs Calc Manual}). If the range contains only one "
+"row or one column a vector is made, otherwise a matrix is made."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:928
+#, no-wrap
+msgid "*2"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:931
+msgid ""
+"Same as @code{*} except that a matrix is always made even when there is only "
+"one row or column in the range."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:931
+#, no-wrap
+msgid "*1"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:935
+msgid ""
+"Same as @code{*} except that a vector is always made even when there is only "
+"one row or column in the range, that is to say the corresponding matrix is "
+"flattened."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:937 ../../../../../doc/misc/ses.texi:938
+#, no-wrap
+msgid "Sorting by column"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:939
+#, no-wrap
+msgid "sorting"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:940
+#, no-wrap
+msgid "ses-sort-column"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:941
+#, no-wrap
+msgid "ses-sort-column-click"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:944
+#, no-wrap
+msgid "C-c M-C-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:949
+msgid ""
+"Sort the cells of a range using one of the columns "
+"(@code{ses-sort-column}).  The rows (or partial rows if the range doesn't "
+"include all columns) are rearranged so the chosen column will be in order."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:950
+#, no-wrap
+msgid "[header-line mouse-2]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:953
+msgid ""
+"The easiest way to sort is to click mouse-2 on the chosen column's header "
+"row (@code{ses-sort-column-click})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:957
+msgid ""
+"The sort comparison uses @code{string<}, which works well for "
+"right-justified numbers and left-justified strings."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:959
+msgid "With prefix arg, sort is in descending order."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:964
+msgid ""
+"Rows are moved one at a time, with relocation of formulas.  This works well "
+"if formulas refer to other cells in their row, not so well for formulas that "
+"refer to other rows in the range or to cells outside the range."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:966 ../../../../../doc/misc/ses.texi:967
+#, no-wrap
+msgid "Standard formula functions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:968
+#, no-wrap
+msgid "standard formula functions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:969
+#, no-wrap
+msgid "*skip*"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:970
+#, no-wrap
+msgid "*error*"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:971
+#, no-wrap
+msgid "ses-delete-blanks"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:972
+#, no-wrap
+msgid "ses-average"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:973
+#, no-wrap
+msgid "ses+"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:977
+msgid ""
+"Oftentimes you want a calculation to exclude the blank cells.  Here are some "
+"useful functions to call from your formulas:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:979
+#, no-wrap
+msgid "(ses-delete-blanks &rest @var{args})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:984
+msgid ""
+"Returns a list from which all blank cells (value is either @code{nil} or "
+"'*skip*) have been deleted. Order of args is reverted. Please note that "
+"@code{ses-range} has a @code{!} modifier that allows to remove blanks, so it "
+"is possible to write:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:986
+#, no-wrap
+msgid "(ses-range A1 A5 !)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:988
+msgid "instead of"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:990
+#, no-wrap
+msgid "(apply 'ses-delete-blanks (ses-range A1 A5 <))\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:992
+#, no-wrap
+msgid "(ses+ &rest @var{args})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:994
+msgid "Sum of non-blank arguments."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:995
+#, no-wrap
+msgid "(ses-average @var{list})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:998
+msgid ""
+"Average of non-blank elements in @var{list}.  Here the list is passed as a "
+"single argument, since you'll probably use it with @code{ses-range}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1000 ../../../../../doc/misc/ses.texi:1001
+#, no-wrap
+msgid "More on cell printing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1002
+#, no-wrap
+msgid "cell printing, more"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:1003
+#, no-wrap
+msgid "ses-truncate-cell"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1007
+msgid "Special cell values:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1008
+#, no-wrap
+msgid "nil prints the same as \"\", but allows previous cell to spill over."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1009
+#, no-wrap
+msgid "'*skip* replaces nil when the previous cell actually does spill over;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:1011
+msgid "nothing is printed for it."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1011
+#, no-wrap
+msgid "'*error* indicates that the formula signaled an error instead of"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ses.texi:1013
+msgid "producing a value: the print cell is filled with hash marks (#)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1021
+msgid ""
+"If the result from the printer function is too wide for the cell and the "
+"following cell is @code{nil}, the result will spill over into the following "
+"cell.  Very wide results can spill over several cells.  If the result is too "
+"wide for the available space (up to the end of the row or the next "
+"non-@code{nil} cell), the result is truncated if the cell's value is a "
+"string, or replaced with hash marks otherwise."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1024
+msgid ""
+"@acronym{SES} could get confused by printer results that contain newlines or "
+"tabs, so these are replaced with question marks."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1026
+#, no-wrap
+msgid "t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1031
+msgid ""
+"Confine a cell to its own column (@code{ses-truncate-cell}).  This allows "
+"you to move point to a rightward cell that would otherwise be covered by a "
+"spill-over.  If you don't change the rightward cell, the confined cell will "
+"spill over again the next time it is reprinted."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1032
+#, no-wrap
+msgid "c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1037
+msgid ""
+"When applied to a single cell, this command displays in the echo area any "
+"formula error or printer error that occurred during recalculation/reprinting "
+"(@code{ses-recalculate-cell}).  You can use this to undo the effect of "
+"@kbd{t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1040
+msgid "When a printer function signals an error, the fallback printer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1047
+msgid ""
+"@code{ses-prin1} is substituted.  This is useful when your column printer is "
+"numeric-only and you use a string as a cell value.  Note that the standard "
+"default printer is @samp{\"%.7g\"} which is numeric-only, so cells that are "
+"empty of contain strings will use the fallback printer.  @kbd{c} on such "
+"cells will display ``Format specifier doesn't match argument type''."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1049 ../../../../../doc/misc/ses.texi:1050
+#, no-wrap
+msgid "Import and export"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1051
+#, no-wrap
+msgid "import and export"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1052
+#, no-wrap
+msgid "export, and import"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:1053
+#, no-wrap
+msgid "ses-export-tsv"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:1054
+#, no-wrap
+msgid "ses-export-tsf"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1057
+#, no-wrap
+msgid "x t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1059
+msgid "Export a range of cells as tab-separated values (@code{ses-export-tsv})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1059
+#, no-wrap
+msgid "x T"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1061
+msgid "Export a range of cells as tab-separated formulas (@code{ses-export-tsf})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1065
+msgid ""
+"The exported text goes to the kill ring; you can paste it into another "
+"buffer.  Columns are separated by tabs, rows by newlines."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1068
+msgid ""
+"To import text, use any of the yank commands where the text to paste "
+"contains tabs and/or newlines.  Imported formulas are not relocated."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1069 ../../../../../doc/misc/ses.texi:1070
+#, no-wrap
+msgid "Virus protection"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1071
+#, no-wrap
+msgid "virus protection"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1080
+msgid ""
+"Whenever a formula or printer is read from a file or is pasted into the "
+"spreadsheet, it receives a ``needs safety check'' marking.  Later, when the "
+"formula or printer is evaluated for the first time, it is checked for safety "
+"using the @code{unsafep} predicate; if found to be ``possibly unsafe'', the "
+"questionable formula or printer is displayed and you must press Y to approve "
+"it or N to use a substitute.  The substitute always signals an error."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1084
+msgid ""
+"Formulas or printers that you type in are checked immediately for safety.  "
+"If found to be possibly unsafe and you press N to disapprove, the action is "
+"canceled and the old formula or printer will remain."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1089
+msgid ""
+"Besides viruses (which try to copy themselves to other files), "
+"@code{unsafep} can also detect all other kinds of Trojan horses, such as "
+"spreadsheets that delete files, send email, flood Web sites, alter your "
+"Emacs settings, etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1095
+msgid ""
+"Generally, spreadsheet formulas and printers are simple things that don't "
+"need to do any fancy computing, so all potentially-dangerous parts of the "
+"Emacs Lisp environment can be excluded without cramping your style as a "
+"formula-writer.  See the documentation in @file{unsafep.el} for more info on "
+"how Lisp forms are classified as safe or unsafe."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1098
+#, no-wrap
+msgid "details and summary"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1099
+#, no-wrap
+msgid "summary, and details"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1106
+msgid ""
+"A common organization for spreadsheets is to have a bunch of ``detail'' "
+"rows, each perhaps describing a transaction, and then a set of ``summary'' "
+"rows that each show reduced data for some subset of the details.  "
+"@acronym{SES} supports this organization via the @code{ses-select} function."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1108
+#, no-wrap
+msgid "(ses-select @var{fromrange} @var{test} @var{torange})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1112
+msgid ""
+"Returns a subset of @var{torange}.  For each member in @var{fromrange} that "
+"is equal to @var{test}, the corresponding member of @var{torange} is "
+"included in the result."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1115
+msgid "Example of use:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:1117
+#, no-wrap
+msgid "(ses-average (ses-select (ses-range A1 A5) 'Smith (ses-range B1 B5)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1120
+msgid ""
+"This computes the average of the B column values for those rows whose A "
+"column value is the symbol 'Smith."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1125
+msgid ""
+"Arguably one could specify only @var{fromrange} plus @var{to-row-offset} and "
+"@var{to-column-offset}.  The @var{torange} is stated explicitly to ensure "
+"that the formula will be recalculated if any cell in either range is "
+"changed."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1128
+msgid ""
+"File @file{etc/ses-example.el} in the Emacs distribution is an example of a "
+"details-and-summary spreadsheet."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:1142
+msgid "Deferred updates::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:1142
+msgid "Nonrelocatable references::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:1142
+msgid "The data area::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ses.texi:1142
+msgid "Buffer-local variables in spreadsheets::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1142 ../../../../../doc/misc/ses.texi:1283 ../../../../../doc/misc/ses.texi:1284
+#, no-wrap
+msgid "Uses of defadvice in @acronym{SES}"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1144 ../../../../../doc/misc/ses.texi:1145
+#, no-wrap
+msgid "Deferred updates"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1146
+#, no-wrap
+msgid "deferred updates"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1147
+#, no-wrap
+msgid "updates, deferred"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ses.texi:1148
+#, no-wrap
+msgid "run-with-idle-timer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1160
+msgid ""
+"To save time by avoiding redundant computations, cells that need "
+"recalculation due to changes in other cells are added to a set.  At the end "
+"of the command, each cell in the set is recalculated once.  This can create "
+"a new set of cells that need recalculation.  The process is repeated until "
+"either the set is empty or it stops changing (due to circular references "
+"among the cells).  In extreme cases, you might see progress messages of the "
+"form ``Recalculating... (@var{nnn} cells left)''.  If you interrupt the "
+"calculation using @kbd{C-g}, the spreadsheet will be left in an inconsistent "
+"state, so use @kbd{C-_} or @kbd{C-c C-l} to fix it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1168
+msgid ""
+"To save even more time by avoiding redundant writes, cells that have changes "
+"are added to a set instead of being written immediately to the data area.  "
+"Each cell in the set is written once, at the end of the command.  If you "
+"change vast quantities of cells, you might see a progress message of the "
+"form ``Writing... (@var{nnn} cells left)''.  These deferred cell-writes "
+"cannot be interrupted by @kbd{C-g}, so you'll just have to wait."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1174
+msgid ""
+"@acronym{SES} uses @code{run-with-idle-timer} to move the cell underline "
+"when Emacs will be scrolling the buffer after the end of a command, and also "
+"to narrow and underline after @kbd{C-x C-v}.  This is visible as a momentary "
+"glitch after C-x C-v and certain scrolling commands.  You can type ahead "
+"without worrying about the glitch."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1176 ../../../../../doc/misc/ses.texi:1177
+#, no-wrap
+msgid "Nonrelocatable references"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1178
+#, no-wrap
+msgid "nonrelocatable references"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1179
+#, no-wrap
+msgid "references, nonrelocatable"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1184
+msgid ""
+"@kbd{C-y} relocates all cell-references in a pasted formula, while @kbd{C-u "
+"C-y} relocates none of the cell-references.  What about mixed cases?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1187
+msgid ""
+"The best way is to rename cells that you do not want to be relocatable by "
+"using @code{ses-rename-cell}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1195
+msgid ""
+"Cells that do not have an A1-like name style are not relocated on "
+"yank. Using this method, the concerned cells won't be relocated whatever "
+"formula they appear in. Please note however that when a formula contains "
+"some range @code{(ses-range @var{cell1} @var{cell2})} then in the yanked "
+"formula each range bound @var{cell1} and @var{cell2} are relocated, or not, "
+"independently, depending on whether they are A1-like or renamed."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1197
+msgid "An alternative method is to use"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:1199
+#, no-wrap
+msgid "(symbol-value 'B3)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1206
+msgid ""
+"to make an @dfn{absolute reference}.  The formula relocator skips over "
+"quoted things, so this will not be relocated when pasted or when "
+"rows/columns are inserted/deleted.  However, B3 will not be recorded as a "
+"dependency of this cell, so this cell will not be updated automatically when "
+"B3 is changed, this is why using @code{ses-rename-cell} is most of the time "
+"preferable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1209
+msgid ""
+"The variables @code{row} and @code{col} are dynamically bound while a cell "
+"formula is being evaluated.  You can use"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:1211
+#, no-wrap
+msgid "(ses-cell-value row 0)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1214
+msgid ""
+"to get the value from the leftmost column in the current row.  This kind of "
+"dependency is also not recorded."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1216 ../../../../../doc/misc/ses.texi:1217
+#, no-wrap
+msgid "The data area"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1218
+#, no-wrap
+msgid "data area"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:1219
+#, no-wrap
+msgid "ses-reconstruct-all"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1227
+msgid ""
+"Begins with an 014 character, followed by sets of cell-definition macros for "
+"each row, followed by the set of local printer definitions, followed by "
+"column-widths, column-printers, default-printer, and header-row.  Then "
+"there's the global parameters (file-format ID, row count, column count, "
+"local printer count) and the local variables (specifying @acronym{SES} mode "
+"for the buffer, etc.)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1231
+msgid ""
+"When a @acronym{SES} file is loaded, first the global parameters are loaded, "
+"then the entire data area is @code{eval}ed, and finally the local variables "
+"are processed."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1237
+msgid ""
+"You can edit the data area, but don't insert or delete any newlines except "
+"in the local-variables part, since @acronym{SES} locates things by counting "
+"newlines.  Use @kbd{C-x C-e} at the end of a line to install your edits into "
+"the spreadsheet data structures (this does not update the print area, use, "
+"e.g., @kbd{C-c C-l} for that)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1242
+msgid ""
+"The data area is maintained as an image of spreadsheet data structures that "
+"area stored in buffer-local variables.  If the data area gets messed up, you "
+"can try reconstructing the data area from the data structures:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1244
+#, no-wrap
+msgid "C-c M-C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1246
+msgid "(@code{ses-reconstruct-all})."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ses.texi:1249 ../../../../../doc/misc/ses.texi:1250
+#, no-wrap
+msgid "Buffer-local variables in spreadsheets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1251
+#, no-wrap
+msgid "buffer-local variables"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ses.texi:1252
+#, no-wrap
+msgid "variables, buffer-local"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1257
+msgid ""
+"You can add additional local variables to the list at the bottom of the data "
+"area, such as hidden constants you want to refer to in your formulas."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1262
+msgid ""
+"You can override the variable @code{ses--symbolic-formulas} to be a list of "
+"symbols (as parenthesized strings) to show as completions for the @kbd{'} "
+"command.  This initial completions list is used instead of the actual set of "
+"symbols-as-formulas in the spreadsheet."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1264
+msgid "For an example of this, see file @file{etc/ses-example.ses}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1268
+msgid ""
+"If (for some reason) you want your formulas or printers to save data into "
+"variables, you must declare these variables as buffer-locals in order to "
+"avoid a virus warning."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1274
+msgid ""
+"You can define functions by making them values for the fake local variable "
+"@code{eval}.  Such functions can then be used in your formulas and printers, "
+"but usually each @code{eval} is presented to the user during file loading as "
+"a potential virus.  This can get annoying."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1279
+msgid ""
+"You can define functions in your @file{.emacs} file.  Other people can still "
+"read the print area of your spreadsheet, but they won't be able to "
+"recalculate or reprint anything that depends on your functions.  To avoid "
+"virus warnings, each function used in a formula needs"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ses.texi:1281
+#, no-wrap
+msgid "(put 'your-function-name 'safe-function t)\n"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ses.texi:1285
+#, no-wrap
+msgid "defadvice"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1286 ../../../../../doc/misc/ses.texi:1291
+#, no-wrap
+msgid "undo-more"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ses.texi:1287 ../../../../../doc/misc/ses.texi:1297
+#, no-wrap
+msgid "copy-region-as-kill"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1296
+msgid ""
+"Defines a new undo element format (@var{fun} . @var{args}), which means "
+"``undo by applying @var{fun} to @var{args}''.  For spreadsheet buffers, it "
+"allows undos in the data area even though that's outside the narrowing."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1301
+msgid ""
+"When copying from the print area of a spreadsheet, treat the region as a "
+"rectangle and attach each cell's formula and printer as 'ses properties."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ses.texi:1307
+msgid ""
+"When yanking into the print area of a spreadsheet, first try to yank as "
+"cells (if the yank text has 'ses properties), then as tab-separated "
+"formulas, then (if all else fails) as a single formula for the current cell."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1321
+msgid "Coding by:"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ses.texi:1328
+msgid "Jonathan Yavner, Stefan Monnier, Shigeru Fukaya"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1332
+msgid "Texinfo manual by:"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ses.texi:1337
+msgid "Jonathan Yavner, Brad Collins"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ses.texi:1341
+msgid "Ideas from:"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ses.texi:1378
+msgid ""
+"Christoph Conrad, CyberBob, Syver Enstad, Ami Fischman, Thomas Gehrlein, "
+"Chris F.A. Johnson, Yusong Li, Juri Linkov, Harald Maier, Alan Nash, "
+"François Pinard, Pedro Pinto, Stefan Reichör, Oliver Scholz, Richard "
+"M. Stallman, Luc Teirlinck, J. Otto Tennant, Jean-Philippe Theberge"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ses.texi:1384
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

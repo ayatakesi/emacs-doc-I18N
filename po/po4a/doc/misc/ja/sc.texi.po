@@ -1,0 +1,4370 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-11 03:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: title
+#: ../../../../../doc/misc/sc.texi:5 ../../../../../doc/misc/sc.texi:42
+#, no-wrap
+msgid "Supercite User's Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/sc.texi:6
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/sc.texi:17
+msgid ""
+"This document describes Supercite, an Emacs package for citing and "
+"attributing replies to mail and news messages."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/sc.texi:19
+msgid "Copyright @copyright{} 1993, 2001--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/sc.texi:27
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/sc.texi:30
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/sc.texi:35
+#, no-wrap
+msgid "Emacs network features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:39
+msgid "SC: (sc)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:39
+msgid ""
+"Supercite lets you cite parts of messages you're replying to, in flexible "
+"ways."
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/sc.texi:43
+#, no-wrap
+msgid "cite and attribute mail and"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/sc.texi:44
+#, no-wrap
+msgid "news, in flexible ways"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/sc.texi:55
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/sc.texi:56
+#, no-wrap
+msgid "Supercite"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/sc.texi:62
+msgid "The manual is divided into the following chapters."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Introduction::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Citations::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Information Keys and the Info Alist::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Reference Headers::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Getting Connected::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Replying and Yanking::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Selecting an Attribution::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Configuring the Citation Engine::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Post-yank Formatting Commands::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:75
+msgid "Hints to MUA Authors::"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:75 ../../../../../doc/misc/sc.texi:1844 ../../../../../doc/misc/sc.texi:1845
+#, no-wrap
+msgid "Thanks and History"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:81
+msgid "GNU Free Documentation License::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:81
+msgid "Concept Index::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:81
+msgid "Command Index::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:81
+msgid "Key Index::"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sc.texi:81 ../../../../../doc/misc/sc.texi:1904 ../../../../../doc/misc/sc.texi:1905
+#, no-wrap
+msgid "Variable Index"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:85 ../../../../../doc/misc/sc.texi:86
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:88
+#, no-wrap
+msgid "MUA"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:89
+#, no-wrap
+msgid "NUA"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:97
+msgid ""
+"Supercite is a GNU Emacs package written entirely in Emacs Lisp.  It "
+"interfaces to most of the commonly used Emacs mail user agents (@dfn{MUAs}) "
+"and news user agents (@dfn{NUAs}), and provides sophisticated facilities for "
+"the citing and attributing of message replies.  Supercite has a very "
+"specific and limited role in the process of composing replies to both USENET "
+"network news and electronic mail."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:100
+msgid ""
+"The preferred way to spell Supercite is with a capital @samp{S}, lowercase "
+"@samp{upercite}."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:105
+msgid "Usage Overview::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:105
+msgid "What Supercite Does Not Do::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:105 ../../../../../doc/misc/sc.texi:162 ../../../../../doc/misc/sc.texi:163
+#, no-wrap
+msgid "What Supercite Does"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:113
+msgid ""
+"Supercite is only useful in conjunction with MUAs and NUAs such as VM, Gnus, "
+"RMAIL, MH-E, etc.  Supercite is typically called by the MUA after a reply "
+"buffer has been setup.  Thereafter, Supercite's many commands and formatting "
+"styles are available in that reply buffer until the reply is sent.  "
+"Supercite is re-initialized in each new reply buffer."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:115 ../../../../../doc/misc/sc.texi:116
+#, no-wrap
+msgid "Usage Overview"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:117
+#, no-wrap
+msgid "r"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:118
+#, no-wrap
+msgid "f"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:119
+#, no-wrap
+msgid "C-c C-y"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:120
+#, no-wrap
+msgid "yank"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:121
+#, no-wrap
+msgid "cite, citing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:122
+#, no-wrap
+msgid "attribute, attributing"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:140
+msgid ""
+"Typical usage is as follows.  You want to reply or followup to a message in "
+"your MUA@.  You will probably hit @kbd{r} (i.e., ``reply'')  or @kbd{f} "
+"(i.e., ``forward'') to begin composing the reply.  In response, the MUA will "
+"create a reply buffer and initialize the outgoing mail headers "
+"appropriately.  The body of the reply will usually be empty at this point.  "
+"You now decide that you would like to include part of the original message "
+"in your reply.  To do this, you @dfn{yank} the original message into the "
+"reply buffer, typically with a key stroke such as @kbd{C-c C-y}.  This "
+"sequence will invoke an MUA-specific function which fills the body of the "
+"reply with the original message and then @dfn{attributes} this text to its "
+"author.  This is called @dfn{citing} and its effect is to prefix every line "
+"from the original message with a special text tag.  Most MUAs provide some "
+"default style of citing; by using Supercite you gain a wider flexibility in "
+"the look and style of citations.  Supercite's only job is to cite the "
+"original message."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/sc.texi:141
+#, no-wrap
+msgid "What Supercite Does Not Do"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:142
+#, no-wrap
+msgid "What Supercite Doesn't Do"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:151
+msgid ""
+"Because of this clear division of labor, there are useful features which are "
+"the sole responsibility of the MUA, even though it might seem that Supercite "
+"should provide them.  For example, many people would like to be able to yank "
+"(and cite) only a portion of the original message.  Since Supercite only "
+"modifies the text it finds in the reply buffer as set up by the MUA, it is "
+"the MUA's responsibility to do partial yanking.  @xref{Reply Buffer "
+"Initialization}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:152
+#, no-wrap
+msgid "mail-header-separator"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:161
+msgid ""
+"Another potentially useful thing would be for Supercite to set up the "
+"outgoing mail headers with information it gleans from the reply buffer.  But "
+"by previously agreed upon convention, any text above the "
+"@code{mail-header-separator} which separates mail headers from message "
+"bodies cannot be modified by Supercite.  Supercite, in fact, doesn't know "
+"anything about the meaning of these headers, and never ventures outside the "
+"designated region. @xref{Hints to MUA Authors}, for more details."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:164 ../../../../../doc/misc/sc.texi:749 ../../../../../doc/misc/sc.texi:791
+#, no-wrap
+msgid "sc-cite-original"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:173
+msgid ""
+"Supercite is invoked for the first time on a reply buffer via your MUA's "
+"reply or forward command.  This command will actually perform citations by "
+"calling a hook variable to which Supercite's top-level function "
+"@code{sc-cite-original} has been added.  When @code{sc-cite-original} is "
+"executed, the original message must be set up in a very specific way, but "
+"this is handled automatically by the MUA@.  @xref{Hints to MUA Authors}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:174
+#, no-wrap
+msgid "info alist"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:180
+msgid ""
+"The first thing Supercite does, via @code{sc-cite-original}, is to parse "
+"through the original message's mail headers.  It saves this data in an "
+"@dfn{information association list}, or @dfn{info alist}.  The information in "
+"this list is used in a number of places throughout Supercite.  "
+"@xref{Information Keys and the Info Alist}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:181
+#, no-wrap
+msgid "nuking mail headers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:182
+#, no-wrap
+msgid "reference header"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:187
+msgid ""
+"After the mail header info is extracted, the headers are optionally removed "
+"(@dfn{nuked}) from the reply.  Supercite then writes a @dfn{reference "
+"header} into the buffer.  This reference header is a string carrying details "
+"about the citation it is about to perform."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:188 ../../../../../doc/misc/sc.texi:831
+#, no-wrap
+msgid "modeline"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:198
+msgid ""
+"Next, Supercite visits each line in the reply, transforming the line "
+"according to a customizable ``script''.  Lines which were not previously "
+"cited in the original message are given a citation, while already cited "
+"lines remain untouched, or are coerced to your preferred style.  Finally, "
+"Supercite installs a keymap into the reply buffer so that you have access to "
+"Supercite's post-yank formatting and reciting commands as you subsequently "
+"edit your reply.  You can tell that Supercite has been installed into the "
+"reply buffer because that buffer's modeline will display the minor mode "
+"string @samp{SC}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:199 ../../../../../doc/misc/sc.texi:952
+#, no-wrap
+msgid "filladapt"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:200 ../../../../../doc/misc/sc.texi:953
+#, no-wrap
+msgid "gin-mode"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:201 ../../../../../doc/misc/sc.texi:981
+#, no-wrap
+msgid "fill-prefix"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:202
+#, no-wrap
+msgid "fill-paragraph"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:212
+msgid ""
+"When the original message is cited by @code{sc-cite-original}, it will "
+"(optionally) be filled by Supercite.  However, if you manually edit the "
+"cited text and want to re-fill it, you must use an add-on package such as "
+"@cite{filladapt} or @cite{gin-mode}.  These packages can recognize "
+"Supercited text and will fill them appropriately.  Emacs's built-in filling "
+"routines, e.g., @code{fill-paragraph}, do not recognize cited text and will "
+"not re-fill them properly because it cannot guess the @code{fill-prefix} "
+"being used.  @xref{Post-yank Formatting Commands}, for details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:221
+msgid ""
+"As mentioned above, Supercite provides commands to recite or uncite regions "
+"of text in the reply buffer, and commands to perform other beautifications "
+"on the cited original text, maintaining consistent and informative citations "
+"throughout.  Supercite tries to be as configurable as possible to allow for "
+"a wide range of personalized citation styles, but it is also immediately "
+"useful with the default configuration, once it has been properly connected "
+"to your MUA@.  @xref{Getting Connected}, for more details."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:222 ../../../../../doc/misc/sc.texi:223
+#, no-wrap
+msgid "Citations"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:224
+#, no-wrap
+msgid "nested citations"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:225
+#, no-wrap
+msgid "citation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:237
+msgid ""
+"A @dfn{citation} is the acknowledgment of the original author of a mail "
+"message in the body of the reply.  There are two basic citation styles which "
+"Supercite supports.  The first, called @dfn{nested citations} is an "
+"anonymous form of citation; in other words, an indication is made that the "
+"cited line was written by someone @emph{other} that the current message "
+"author (i.e., other than you, the person composing the reply), but no "
+"reference is made as to the identity of the original author.  This style "
+"should look familiar since its use on the net is widespread.  Here's an "
+"example of what a message buffer would look like using nested citations "
+"after multiple replies:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:244
+#, no-wrap
+msgid ""
+">> John originally wrote this\n"
+">> and this as well\n"
+"> Jane said that John didn't know\n"
+"> what he was talking about\n"
+"And that's what I think too.\n"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:249
+msgid "Citation Elements::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:249 ../../../../../doc/misc/sc.texi:341 ../../../../../doc/misc/sc.texi:342
+#, no-wrap
+msgid "Recognizing Citations"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:257
+msgid ""
+"Note that multiple inclusions of the original messages result in a nesting "
+"of the @samp{>} characters.  This can sometimes be quite confusing when many "
+"levels of citations are included since it may be difficult or impossible to "
+"figure out who actually participated in the thread, and multiple nesting of "
+"@samp{>} characters can sometimes make the message very difficult for the "
+"eye to scan."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:258
+#, no-wrap
+msgid "non-nested citations"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:264
+msgid ""
+"In @dfn{non-nested citations}, each cited line begins with an informative "
+"string attributing that line to the original author.  Only the first level "
+"of attribution will be shown; subsequent citations don't nest the citation "
+"strings.  The above dialog might look like this when non-nested citations "
+"are used:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:271
+#, no-wrap
+msgid ""
+"John> John originally wrote this\n"
+"John> and this as well\n"
+"Jane> Jane said that John didn't know\n"
+"Jane> what he was talking about\n"
+"And that's what I think too.\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:275
+msgid ""
+"Notice here that my inclusion of Jane's inclusion of John's original message "
+"did not result in a line cited with @samp{Jane>John>}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:276
+#, no-wrap
+msgid "sc-nested-citation-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:277
+#, no-wrap
+msgid "nested-citation-p @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:283
+msgid ""
+"Supercite supports both styles of citation, and the variable "
+"@code{sc-nested-citation-p} controls which style it will use when citing "
+"previously uncited text.  When this variable is @code{nil} (the default), "
+"non-nested citations are used.  When non-@code{nil}, nested citations are "
+"used."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:285 ../../../../../doc/misc/sc.texi:286
+#, no-wrap
+msgid "Citation Elements"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:287
+#, no-wrap
+msgid "citation string"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:293
+msgid ""
+"@dfn{Citation strings} are composed of one or more elements.  Non-nested "
+"citations are composed of four elements, three of which are directly user "
+"definable.  The elements are concatenated together, in this order:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:294
+#, no-wrap
+msgid "citation leader"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:295
+#, no-wrap
+msgid "citation-leader @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:296
+#, no-wrap
+msgid "sc-citation-leader"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:302
+msgid ""
+"The @dfn{citation leader}.  The citation leader is contained in the variable "
+"@code{sc-citation-leader}, and has the default value of a string containing "
+"four spaces."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:303
+#, no-wrap
+msgid "attribution string"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:309
+msgid ""
+"The @dfn{attribution string}.  This element is supplied automatically by "
+"Supercite, based on your preferences and the original message's mail "
+"headers, though you may be asked to confirm Supercite's choice.  "
+"@xref{Selecting an Attribution}, for more details."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:310
+#, no-wrap
+msgid "citation delimiter"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:311
+#, no-wrap
+msgid "sc-citation-delimiter"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:312
+#, no-wrap
+msgid "citation-delimiter @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:318
+msgid ""
+"The @dfn{citation delimiter}.  This string, contained in the variable "
+"@code{sc-citation-delimiter} visually separates the citation from the text "
+"of the line.  This variable has a default value of @code{\">\"} and for best "
+"results, the string should consist of only a single character."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:319
+#, no-wrap
+msgid "citation separator"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:320
+#, no-wrap
+msgid "citation-separator @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:321
+#, no-wrap
+msgid "sc-citation-separator"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:326
+msgid ""
+"The @dfn{citation separator}.  The citation separator is contained in the "
+"variable @code{sc-citation-separator}, and has the default value of a string "
+"containing a single space."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:335
+msgid ""
+"For example, suppose you were using the default values for the above "
+"variables, and Supercite provided the attribution string @samp{Jane}.  In "
+"this case, the composed, non-nested citation string used might be something "
+"like @code{@asis{\" Jane> \"}}.  This citation string will be inserted in "
+"front of every line in the original message that is not already cited."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:340
+msgid ""
+"Nested citations, being simpler than non-nested citations, are composed of "
+"the same elements, sans the attribution string.  Supercite is smart enough "
+"to not put additional spaces between citation delimiters for multi-level "
+"nested citations."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:349
+msgid ""
+"Supercite also recognizes citations in the original article, and can "
+"transform these already cited lines in a number of ways.  This is how "
+"Supercite suppresses the multiple citing of non-nested citations.  "
+"Recognition of cited lines is controlled by variables analogous to those "
+"that make up the citation string as mentioned previously."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:350
+#, no-wrap
+msgid "sc-citation-leader-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:351
+#, no-wrap
+msgid "citation-leader-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:352
+#, no-wrap
+msgid "sc-citation-delimiter-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:353
+#, no-wrap
+msgid "citation-delimiter-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:354
+#, no-wrap
+msgid "sc-citation-separator-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:355
+#, no-wrap
+msgid "citation-separator-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:356
+#, no-wrap
+msgid "sc-citation-root-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:357
+#, no-wrap
+msgid "citation-root-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:358
+#, no-wrap
+msgid "sc-citation-nonnested-root-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:359
+#, no-wrap
+msgid "citation-nonnested-root-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:366
+msgid ""
+"The variable @code{sc-citation-leader-regexp} describes how citation leaders "
+"can look, by default it matches any number of spaces or tabs.  Note that "
+"since the lisp function @code{looking-at} is used to do the matching, if you "
+"change this variable it need not start with a leading @code{\"^\"}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:371
+msgid ""
+"Similarly, the variables @code{sc-citation-delimiter-regexp} and "
+"@code{sc-citation-separator-regexp} respectively describe how citation "
+"delimiters and separators can look.  They follow the same rule as "
+"@code{sc-citation-leader-regexp} above."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:384
+msgid ""
+"When Supercite composes a citation string, it provides the attribution "
+"automatically.  The analogous variable which handles recognition of the "
+"attribution part of citation strings is @code{sc-citation-root-regexp}.  "
+"This variable describes the attribution root for both nested and non-nested "
+"citations.  By default it can match zero-to-many alphanumeric characters "
+"(also ``.'', ``-'', and ``_'').  But in some situations, Supercite has to "
+"determine whether it is looking at a nested or non-nested citation.  Thus "
+"the variable @code{sc-citation-nonnested-root-regexp} is used to describe "
+"only non-nested citation roots.  It is important to remember that if you "
+"change @code{sc-citation-root-regexp} you should always also change "
+"@code{sc-citation-nonnested-root-regexp}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:385 ../../../../../doc/misc/sc.texi:386
+#, no-wrap
+msgid "Information Keys and the Info Alist"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:387
+#, no-wrap
+msgid "information keys"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:388
+#, no-wrap
+msgid "Info Alist"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:389
+#, no-wrap
+msgid "information extracted from mail fields"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:390 ../../../../../doc/misc/sc.texi:1134 ../../../../../doc/misc/sc.texi:1486
+#, no-wrap
+msgid "sc-mail-field"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:391 ../../../../../doc/misc/sc.texi:1135
+#, no-wrap
+msgid "mail-field @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:405
+msgid ""
+"@dfn{Mail header information keys} are nuggets of information that Supercite "
+"extracts from the various mail headers of the original message, placed in "
+"the reply buffer by the MUA@.  Information is kept in the @dfn{Info Alist} "
+"as key-value pairs, and can be retrieved for use in various places within "
+"Supercite, such as in header rewrite functions and attribution selection.  "
+"Other bits of data, composed and created by Supercite, are also kept as "
+"key-value pairs in this alist.  In the case of mail fields, the key is the "
+"name of the field, omitting the trailing colon.  Info keys are always case "
+"insensitive (as are mail headers), and the value for a corresponding key can "
+"be retrieved from the alist with the @code{sc-mail-field} function.  Thus, "
+"if the following fields were present in the original article:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:409
+#, no-wrap
+msgid ""
+"Date:@: 08 April 1991, 17:32:09 EST\n"
+"Subject:@: Better get out your asbestos suit\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:411
+#, no-wrap
+msgid "sc-mumble"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:412
+#, no-wrap
+msgid "mumble @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:415
+msgid "then, the following lisp constructs return:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:419
+#, no-wrap
+msgid ""
+"(sc-mail-field \"date\")\n"
+"==> \"08 April 1991, 17:32:09 EST\"\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:422
+#, no-wrap
+msgid ""
+"(sc-mail-field \"subject\")\n"
+"==> \"Better get out your asbestos suit\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:429
+msgid ""
+"Since the argument to @code{sc-mail-field} can be any string, it is possible "
+"that the mail field will not be present on the info alist (possibly because "
+"the mail header was not present in the original message).  In this case, "
+"@code{sc-mail-field} will return the value of the variable @code{sc-mumble}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:433
+msgid ""
+"Supercite always places all mail fields found in the yanked original article "
+"into the info alist.  If possible, Supercite will also places the following "
+"keys into the info alist:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:435
+#, no-wrap
+msgid "sc-attribution info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:436
+#, no-wrap
+msgid "attribution info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:437
+#, no-wrap
+msgid "\"sc-attribution\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:439
+msgid "the selected attribution string."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:440
+#, no-wrap
+msgid "sc-citation info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:441
+#, no-wrap
+msgid "citation info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:442
+#, no-wrap
+msgid "\"sc-citation\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:444
+msgid "the non-nested citation string."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:445
+#, no-wrap
+msgid "sc-from-address info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:446
+#, no-wrap
+msgid "from-address info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:447
+#, no-wrap
+msgid "\"sc-from-address\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:449
+msgid "email address extracted from the @samp{From:@:} field."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:450
+#, no-wrap
+msgid "sc-reply-address info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:451
+#, no-wrap
+msgid "reply-address info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:452
+#, no-wrap
+msgid "\"sc-reply-address\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:454
+msgid "email address extracted from the @samp{Reply-To:@:} field."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:455
+#, no-wrap
+msgid "sc-sender-address info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:456
+#, no-wrap
+msgid "sender-address info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:457
+#, no-wrap
+msgid "\"sc-sender-address\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:459
+msgid "email address extracted from the @samp{Sender:@:} field."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:460
+#, no-wrap
+msgid "sc-emailname info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:461
+#, no-wrap
+msgid "emailname info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:462
+#, no-wrap
+msgid "\"sc-emailname\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:464
+msgid "email terminus extracted from the @samp{From:@:} field."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:465
+#, no-wrap
+msgid "sc-initials info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:466
+#, no-wrap
+msgid "initials info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:467
+#, no-wrap
+msgid "\"sc-initials\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:469 ../../../../../doc/misc/sc.texi:1068
+msgid "the author's initials."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:470
+#, no-wrap
+msgid "sc-author info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:471
+#, no-wrap
+msgid "author info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:472
+#, no-wrap
+msgid "\"sc-author\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:474
+msgid "the author's full name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:475
+#, no-wrap
+msgid "sc-firstname info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:476
+#, no-wrap
+msgid "firstname info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:477
+#, no-wrap
+msgid "\"sc-firstname\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:479 ../../../../../doc/misc/sc.texi:1071
+msgid "the author's first name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:480
+#, no-wrap
+msgid "sc-lastname info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:481
+#, no-wrap
+msgid "lastname info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:482
+#, no-wrap
+msgid "\"sc-lastname\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:484 ../../../../../doc/misc/sc.texi:1074
+msgid "the author's last name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:485
+#, no-wrap
+msgid "sc-middlename-1 info field"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:486
+#, no-wrap
+msgid "middlename-1 info field (sc-)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:487
+#, no-wrap
+msgid "\"sc-middlename-1\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:489 ../../../../../doc/misc/sc.texi:1077
+msgid "the author's first middle name."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:494
+msgid ""
+"If the author's name has more than one middle name, they will appear as info "
+"keys with the appropriate index (e.g., @code{\"sc-middlename-2\"}, "
+"@dots{}).  @xref{Selecting an Attribution}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:495 ../../../../../doc/misc/sc.texi:496
+#, no-wrap
+msgid "Reference Headers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:497
+#, no-wrap
+msgid "reference headers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:508
+msgid ""
+"Supercite will insert an informative @dfn{reference header} at the beginning "
+"of the cited body of text, which display more detail about the original "
+"article and provides the mapping between the attribution and the original "
+"author in non-nested citations.  Whereas the citation string usually only "
+"contains a portion of the original author's name, the reference header can "
+"contain such information as the author's full name, email address, the "
+"original article's subject, etc.  In fact any information contained in the "
+"info alist can be inserted into a reference header."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:512
+msgid "The Built-in Header Rewrite Functions::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:512 ../../../../../doc/misc/sc.texi:613 ../../../../../doc/misc/sc.texi:614
+#, no-wrap
+msgid "Electric References"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:514
+#, no-wrap
+msgid "header rewrite functions"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:515
+#, no-wrap
+msgid "sc-rewrite-header-list"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:516
+#, no-wrap
+msgid "rewrite-header-list @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:524
+msgid ""
+"There are a number of built-in @dfn{header rewrite functions} supplied by "
+"Supercite, but you can write your own custom header rewrite functions "
+"(perhaps using the built-in ones as examples).  The variable "
+"@code{sc-rewrite-header-list} contains the list of such header rewrite "
+"functions.  This list is consulted both when inserting the initial reference "
+"header, and when displaying @dfn{electric references}.  @xref{Electric "
+"References}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:525 ../../../../../doc/misc/sc.texi:1598
+#, no-wrap
+msgid "sc-preferred-header-style"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:526 ../../../../../doc/misc/sc.texi:1599
+#, no-wrap
+msgid "preferred-header-style @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:533
+msgid ""
+"When Supercite is initially run on a reply buffer (via "
+"@code{sc-cite-original}), it will automatically call one of these "
+"functions.  The one it uses is defined in the variable "
+"@code{sc-preferred-header-style}.  The value of this variable is an integer "
+"which is an index into the @code{sc-rewrite-header-list}, beginning at zero."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:534 ../../../../../doc/misc/sc.texi:535
+#, no-wrap
+msgid "The Built-in Header Rewrite Functions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:536
+#, no-wrap
+msgid "header rewrite functions, built-in"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:545
+msgid ""
+"Below are examples of the various built-in header rewrite functions.  Please "
+"note the following: first, the text which appears in the examples below as "
+"@var{infokey} indicates that the corresponding value of the info key from "
+"the info alist will be inserted there.  (@pxref{Information Keys and the "
+"Info Alist}).  For example, in @code{sc-header-on-said} below, @var{date} "
+"and @var{from} correspond to the values of the @samp{Date:@:} and "
+"@samp{From:@:} mail headers respectively."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:546
+#, no-wrap
+msgid "sc-reference-tag-string"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:547
+#, no-wrap
+msgid "reference-tag-string @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:552
+msgid ""
+"Also, the string @code{\">>>>>\"} below is really the value of the variable "
+"@code{sc-reference-tag-string}.  This variable is used in all built-in "
+"header rewrite functions, and you can customize its value to change the tag "
+"string globally."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:559
+msgid ""
+"Finally, the references headers actually written may omit certain parts of "
+"the header if the info key associated with @var{infokey} is not present in "
+"the info alist.  In fact, for all built-in headers, if the @samp{From:@:} "
+"field is not present in the mail headers, the entire reference header will "
+"be omitted (but this usually signals a serious problem either in your MUA or "
+"in Supercite's installation)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:561 ../../../../../doc/misc/sc.texi:563
+#, no-wrap
+msgid "sc-no-header"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:562
+#, no-wrap
+msgid "no-header @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:567
+msgid ""
+"This function produces no header.  It should be used instead of @code{nil} "
+"to produce a blank header.  This header can possibly contain a blank line "
+"after the @code{mail-header-separator} line."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:568 ../../../../../doc/misc/sc.texi:569
+#, no-wrap
+msgid "sc-no-blank-line-or-header"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:570
+#, no-wrap
+msgid "no-blank-line-or-header @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:573
+msgid ""
+"This function is similar to @code{sc-no-header} except that any blank line "
+"after the @code{mail-header-separator} line will be removed."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:574 ../../../../../doc/misc/sc.texi:575
+#, no-wrap
+msgid "sc-header-on-said"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:576
+#, no-wrap
+msgid "header-on-said @r{(sc-)}"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/sc.texi:578
+msgid ">>>>> On @var{date}, @var{from} said:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:579 ../../../../../doc/misc/sc.texi:580
+#, no-wrap
+msgid "sc-header-inarticle-writes"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:581
+#, no-wrap
+msgid "header-inarticle-writes @r{(sc-)}"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/sc.texi:583
+msgid ">>>>> In article @var{message-id}, @var{from} writes:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:584 ../../../../../doc/misc/sc.texi:585
+#, no-wrap
+msgid "sc-header-regarding-adds"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:586
+#, no-wrap
+msgid "header-regarding-adds @r{(sc-)}"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/sc.texi:588
+msgid ">>>>> Regarding @var{subject}; @var{from} adds:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:589 ../../../../../doc/misc/sc.texi:590
+#, no-wrap
+msgid "sc-header-attributed-writes"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:591
+#, no-wrap
+msgid "header-attributed-writes @r{(sc-)}"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/sc.texi:593
+msgid ""
+">>>>> \"@var{sc-attribution}\" == @var{sc-author} <@var{sc-reply-address}> "
+"writes:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:594 ../../../../../doc/misc/sc.texi:595
+#, no-wrap
+msgid "sc-header-author-writes"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:596
+#, no-wrap
+msgid "header-author-writes @r{(sc-)}"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/sc.texi:598
+msgid ">>>>> @var{sc-author} writes:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:599 ../../../../../doc/misc/sc.texi:600
+#, no-wrap
+msgid "sc-header-verbose"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:601
+#, no-wrap
+msgid "header-verbose @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:611
+msgid ""
+"@code{>>>>> On @var{date},}@* @code{>>>>> @var{sc-author}}@* @code{>>>>> "
+"from the organization of @var{organization}}@* @code{>>>>> who can be "
+"reached at:@: @var{sc-reply-address}}@* @code{>>>>> (whose comments are "
+"cited below with:@: \"@var{sc-cite}\")}@* @code{>>>>> had this to say in "
+"article @var{message-id}}@* @code{>>>>> in newsgroups @var{newsgroups}}@* "
+"@code{>>>>> concerning the subject of @var{subject}}@* @code{>>>>> see "
+"@var{references} for more details}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:615
+#, no-wrap
+msgid "electric references"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:625
+msgid ""
+"By default, when Supercite cites the original message for the first time, it "
+"just goes ahead and inserts the reference header indexed by "
+"@code{sc-preferred-header-style}.  However, you may want to select different "
+"reference headers based on the type of reply or forwarding you are doing.  "
+"You may also want to preview the reference header before deciding whether to "
+"insert it into the reply buffer or not. Supercite provides an optional "
+"@dfn{electric reference} mode which you can drop into to give you this "
+"functionality."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:626
+#, no-wrap
+msgid "sc-electric-references-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:627
+#, no-wrap
+msgid "electric-references-p @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:635
+msgid ""
+"If the variable @code{sc-electric-references-p} is non-@code{nil}, Supercite "
+"will bring up an electric reference mode buffer and place you into a "
+"recursive edit.  The electric reference buffer is read-only, so you cannot "
+"directly modify the reference text until you exit electric references and "
+"insert the text into the reply buffer.  But you can cycle through all the "
+"reference header rewrite functions in your @code{sc-rewrite-header-list}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:640
+msgid ""
+"You can also set a new preferred header style, jump to any header, or jump "
+"to the preferred header.  The header will be shown in the electric reference "
+"buffer and the header index and function name will appear in the echo area."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:643
+msgid ""
+"The following commands are available while in electric reference mode (shown "
+"here with their default key bindings):"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:645
+#, no-wrap
+msgid "@code{sc-eref-next} (@kbd{n})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:646
+#, no-wrap
+msgid "sc-eref-next"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:647
+#, no-wrap
+msgid "eref-next @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:648
+#, no-wrap
+msgid "n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:649
+#, no-wrap
+msgid "sc-electric-circular-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:650
+#, no-wrap
+msgid "electric-circular-p @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:655
+msgid ""
+"Displays the next reference header in the electric reference buffer.  If the "
+"variable @code{sc-electric-circular-p} is non-@code{nil}, invoking "
+"@code{sc-eref-next} while viewing the last reference header in the list will "
+"wrap around to the first header."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:656
+#, no-wrap
+msgid "@code{sc-eref-prev} (@kbd{p})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:657
+#, no-wrap
+msgid "sc-eref-prev"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:658
+#, no-wrap
+msgid "eref-prev @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:659
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:663
+msgid ""
+"Displays the previous reference header in the electric reference buffer.  If "
+"the variable @code{sc-electric-circular-p} is non-@code{nil}, invoking "
+"@code{sc-eref-prev} will wrap around to the last header."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:664
+#, no-wrap
+msgid "@code{sc-eref-goto} (@kbd{g})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:665
+#, no-wrap
+msgid "sc-eref-goto"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:666
+#, no-wrap
+msgid "eref-goto @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:667
+#, no-wrap
+msgid "g"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:672
+msgid ""
+"Goes to a specified reference header.  The index (into the "
+"@code{sc-rewrite-header-list}) can be specified as a numeric argument to the "
+"command.  Otherwise, Supercite will query you for the index in the "
+"minibuffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:673
+#, no-wrap
+msgid "@code{sc-eref-jump} (@kbd{j})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:674
+#, no-wrap
+msgid "sc-eref-jump"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:675
+#, no-wrap
+msgid "eref-jump @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:676
+#, no-wrap
+msgid "j"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:679
+msgid ""
+"Display the preferred reference header, i.e., the one indexed by the current "
+"value of @code{sc-preferred-header-style}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:680
+#, no-wrap
+msgid "@code{sc-eref-setn} (@kbd{s})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:681
+#, no-wrap
+msgid "sc-eref-setn"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:682
+#, no-wrap
+msgid "eref-setn @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:683
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:686
+msgid ""
+"Set the preferred reference header (i.e., @code{sc-preferred-header-style}) "
+"to the currently displayed header."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:687
+#, no-wrap
+msgid "@code{sc-eref-exit} (@kbd{C-j}, @key{RET}, and @kbd{@key{ESC} C-c})"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:688
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:689
+#, no-wrap
+msgid "C-j"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:690
+#, no-wrap
+msgid "q"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:691
+#, no-wrap
+msgid "sc-eref-exit"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:692
+#, no-wrap
+msgid "eref-exit @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:695
+msgid ""
+"Exit from electric reference mode and insert the current header into the "
+"reply buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:696
+#, no-wrap
+msgid "@code{sc-eref-abort} (@kbd{q}, @kbd{x})"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:697
+#, no-wrap
+msgid "sc-eref-abort"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:698
+#, no-wrap
+msgid "eref-abort @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:699
+#, no-wrap
+msgid "x"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:701
+msgid "Exit from electric reference mode without inserting the current header."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:703
+#, no-wrap
+msgid "sc-electric-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:704
+#, no-wrap
+msgid "electric-mode-hook @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:708
+msgid ""
+"Supercite will execute the hook @code{sc-electric-mode-hook} before entering "
+"electric reference mode."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:709 ../../../../../doc/misc/sc.texi:710
+#, no-wrap
+msgid "Getting Connected"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:711
+#, no-wrap
+msgid "citation interface specification"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:713 ../../../../../doc/misc/sc.texi:1792
+#, no-wrap
+msgid "mail-citation-hook"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:714 ../../../../../doc/misc/sc.texi:748
+#, no-wrap
+msgid ".emacs file"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:717
+msgid ""
+"In most cases, all that is necessary to begin using Supercite is to add the "
+"following to @file{~.emacs}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:720
+#, no-wrap
+msgid "(add-hook 'mail-citation-hook 'sc-cite-original)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:734
+msgid ""
+"Hitting @kbd{C-c C-y} in your MUA's reply buffer yanks and cites the "
+"original message into the reply buffer.  In reality, the citation of the "
+"original message is performed via a call through a configurable hook "
+"variable.  The name of this variable has been agreed to in advance as part "
+"of the @dfn{citation interface specification}.  By default this hook "
+"variable has a @code{nil} value, which the MUA recognizes to mean, ``use "
+"your default citation function.'' When you add Supercite's citation function "
+"to the hook, thereby giving the variable a non-@code{nil} value, it tells "
+"the MUA to run the hook via @code{run-hooks} instead of using the default "
+"citation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:741
+msgid ""
+"Early in Supercite's development, the Supercite author, a few MUA authors, "
+"and some early Supercite users got together and agreed upon a standard "
+"interface between MUAs and citation packages (of which Supercite is "
+"currently the only known add-on @t{:-)}.  Supercite can probably be used "
+"with most Emacs MUAs, with a greater or lesser degree of effort."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:746
+msgid ""
+"To learn exactly how to connect Supercite to the software systems you are "
+"using, read the appropriate following sections.  For details on the "
+"interface specifications, or if you are writing or maintaining an MUA, "
+"@pxref{Hints to MUA Authors}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:747
+#, no-wrap
+msgid "autoload"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:750 ../../../../../doc/misc/sc.texi:792
+#, no-wrap
+msgid "cite-original @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:755
+msgid ""
+"The first thing that everyone should do, regardless of the MUA you are using "
+"is to set up Emacs so it will load Supercite at the appropriate time.  This "
+"happens automatically if Supercite is distributed with your Emacs version.  "
+"If not, you can set up an @dfn{autoload} for Supercite."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:757
+msgid "To do the latter, put the following in your @file{.emacs} file:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:760
+#, no-wrap
+msgid "(autoload 'sc-cite-original \"supercite\" nil t)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:762
+#, no-wrap
+msgid "point"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:763
+#, no-wrap
+msgid "mark"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:772
+msgid ""
+"The function @code{sc-cite-original} is the top-level Supercite function "
+"designed to be run from the citation hook.  It expects @samp{point} and "
+"@samp{mark} to be set around the region to cite, and it expects the original "
+"article's mail headers to be present within this region.  Note that "
+"Supercite @emph{never} touches any text outside this region.  Note further "
+"that the region need not be active for @code{sc-cite-original} to do its "
+"job.  @xref{Hints to MUA Authors}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:777
+msgid ""
+"The other step in the getting connected process is to make sure your MUA "
+"calls @code{sc-cite-original} at the right time.  As mentioned above, some "
+"MUAs handle this differently.  Read the sections that follow pertaining to "
+"the MUAs you are using."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:778 ../../../../../doc/misc/sc.texi:779
+#, no-wrap
+msgid "Replying and Yanking"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:783
+msgid ""
+"This chapter explains what happens when you reply and yank an original "
+"message from an MUA."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:787
+msgid "Reply Buffer Initialization::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:787 ../../../../../doc/misc/sc.texi:947 ../../../../../doc/misc/sc.texi:948
+#, no-wrap
+msgid "Filling Cited Text"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:789 ../../../../../doc/misc/sc.texi:790
+#, no-wrap
+msgid "Reply Buffer Initialization"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:796
+msgid ""
+"Executing @code{sc-cite-original} performs the following steps as it "
+"initializes the reply buffer:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:799
+#, no-wrap
+msgid "sc-pre-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:800
+#, no-wrap
+msgid "pre-hook @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:807
+msgid ""
+"@emph{Runs @code{sc-pre-hook}.} This hook variable is run before "
+"@code{sc-cite-original} does any other work.  You could conceivably use this "
+"hook to set certain Supercite variables based on the reply buffer's mode or "
+"name (i.e., to do something different based on whether you are replying or "
+"following up to an article)."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:810
+msgid "Inserts Supercite's keymap."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:810 ../../../../../doc/misc/sc.texi:1500
+#, no-wrap
+msgid "sc-mode-map-prefix"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:811 ../../../../../doc/misc/sc.texi:1501
+#, no-wrap
+msgid "mode-map-prefix @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:812 ../../../../../doc/misc/sc.texi:1502
+#, no-wrap
+msgid "C-c C-p"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:813
+#, no-wrap
+msgid "keymap prefix"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:823
+msgid ""
+"Supercite provides a number of commands for performing post-yank "
+"modifications to the reply buffer.  These commands are installed on "
+"Supercite's top-level keymap.  Since Supercite has to interface with a wide "
+"variety of MUAs, it does not install all of its commands directly into the "
+"reply buffer's keymap.  Instead, it puts its commands on a keymap prefix, "
+"then installs this prefix onto the buffer's keymap.  What this means is that "
+"you typically have to type more characters to invoke a Supercite command, "
+"but Supercite's key bindings can be made much more consistent across MUAs."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:828
+msgid ""
+"You can control what key Supercite uses as its keymap prefix by changing the "
+"variable @code{sc-mode-map-prefix}.  By default, this variable is set to "
+"@code{C-c C-p}; a finger twister perhaps, but unfortunately the best default "
+"due to the scarcity of available key bindings in many MUAs."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:831
+msgid "Turns on Supercite minor mode."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:834
+msgid ""
+"The modeline of the reply buffer should indicate that Supercite is active in "
+"that buffer by displaying the string @samp{SC}."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:837
+msgid "Sets the ``Undo Boundary.''"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:837
+#, no-wrap
+msgid "undo boundary"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:841
+msgid ""
+"Supercite sets an undo boundary before it begins to modify the original "
+"yanked text.  This allows you to easily undo Supercite's changes to affect "
+"alternative citing styles."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:844
+msgid "Processes the mail headers."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:844 ../../../../../doc/misc/sc.texi:1202 ../../../../../doc/misc/sc.texi:1548 ../../../../../doc/misc/sc.texi:1582
+#, no-wrap
+msgid "sc-confirm-always-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:845 ../../../../../doc/misc/sc.texi:1203 ../../../../../doc/misc/sc.texi:1583
+#, no-wrap
+msgid "confirm-always-p @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:846
+#, no-wrap
+msgid "sc-mail-warn-if-non-rfc822-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:847
+#, no-wrap
+msgid "mail-warn-if-non-rfc822-p @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:858
+msgid ""
+"All previously retrieved info key-value pairs are deleted from the info "
+"alist, then the mail headers in the body of the yanked message are scanned.  "
+"Info key-value pairs are created for each header found.  Also, such useful "
+"information as the author's name and email address are extracted.  If the "
+"variable @code{sc-mail-warn-if-non-rfc822-p} is non-@code{nil}, then "
+"Supercite will warn you if it finds a mail header that does not conform to "
+"RFC 822 (or later).  This is rare and indicates a problem either with your "
+"MUA or the original author's MUA, or some MTA (mail transport agent) along "
+"the way."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:859
+#, no-wrap
+msgid "sc-nuke-mail-headers"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:860
+#, no-wrap
+msgid "sc-nuke-mail-header-list"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:861
+#, no-wrap
+msgid "nuke-mail-headers @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:862
+#, no-wrap
+msgid "nuke-mail-header-list @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:866
+msgid ""
+"Once the info keys have been extracted from the mail headers, the headers "
+"are nuked from the reply buffer.  You can control exactly which headers are "
+"removed or kept, but by default, all headers are removed."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:875
+msgid ""
+"There are two variables which control mail header nuking.  The variable "
+"@code{sc-nuke-mail-headers} controls the overall behavior of the header "
+"nuking routines.  By setting this variable to @code{'all}, you automatically "
+"nuke all mail headers.  Likewise, setting this variable to @code{'none} "
+"inhibits nuking of any mail headers.  In between these extremes, you can "
+"tell Supercite to nuke only a specified list of mail headers by setting this "
+"variable to @code{'specified}, or to keep only a specified list of headers "
+"by setting it to @code{'keep}."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:883
+msgid ""
+"If @code{sc-nuke-mail-headers} is set to @code{'specified} or @code{'keep}, "
+"then the variable @code{sc-nuke-mail-header-list} is consulted for the list "
+"of headers to nuke or keep.  This variable contains a list of regular "
+"expressions.  If the mail header line matches a regular expression in this "
+"list, the header will be nuked or kept.  The line is matched against the "
+"regexp using @code{looking-at} rooted at the beginning of the line."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:884
+#, no-wrap
+msgid "sc-blank-lines-after-headers"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:885
+#, no-wrap
+msgid "blank-lines-after-headers @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:889
+msgid ""
+"If the variable @code{sc-blank-lines-after-headers} is non-@code{nil}, it "
+"contains the number of blank lines remaining in the buffer after mail "
+"headers are nuked.  By default, only one blank line is left in the buffer."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:895
+msgid ""
+"@emph{Selects the attribution and citation strings.} Once the mail headers "
+"have been processed, Supercite selects a attribution string and a citation "
+"string which it will use to cite the original message.  @xref{Selecting an "
+"Attribution}, for details."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:898
+msgid "Cites the message body."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:898 ../../../../../doc/misc/sc.texi:1528
+#, no-wrap
+msgid "sc-cite-region-limit"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:899
+#, no-wrap
+msgid "cite-region-limit @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:914
+msgid ""
+"After the selection of the attribution and citation strings, Supercite cites "
+"the original message by inserting the citation string prefix in front of "
+"every uncited line.  You may not want Supercite to automatically cite very "
+"long messages however.  For example, some email could contain a smaller "
+"header section followed by a huge uuencoded message.  It wouldn't make sense "
+"to cite the uuencoded message part when responding to the original author's "
+"short preface.  For this reason, Supercite provides a variable which limits "
+"the automatic citation of long messages to a certain maximum number of "
+"lines.  The variable is called @code{sc-cite-region-limit}.  If this "
+"variable contains an integer, messages with more lines that this will not be "
+"cited at all, and a warning message will be displayed.  Supercite has "
+"performed everything necessary, though, for you to manually cite only the "
+"small portion of the original message that you want to use."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:920
+msgid ""
+"If @code{sc-cite-region-limit} contains a non-@code{nil} value, the original "
+"message will always be cited, regardless of its size.  If the variable "
+"contains the value @code{nil}, the region will never be cited "
+"automatically.  Use this if you always want to be able to edit and cite the "
+"message manually."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:921
+#, no-wrap
+msgid "sc-cite-blank-lines-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:922
+#, no-wrap
+msgid "cite-blank-lines-p @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:927
+msgid ""
+"The variable @code{sc-cite-blank-lines-p} controls whether blank lines in "
+"the original message should be cited or not.  If this variable is "
+"non-@code{nil}, blank lines will be cited just like non-blank lines.  "
+"Otherwise, blank lines will be treated as paragraph separators."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:936
+msgid ""
+"Citing of the original message is highly configurable.  Supercite's default "
+"setup does a pretty good job of citing many common forms of previously cited "
+"messages.  But there are as many citation styles out there as people on the "
+"net, or just about! It would be impossible for Supercite to anticipate every "
+"style in existence, and you probably wouldn't encounter them all anyway.  "
+"But you can configure Supercite to recognize those styles you see often.  "
+"@xref{Configuring the Citation Engine}, for details."
+msgstr ""
+
+#. type: emph{#1}
+#: ../../../../../doc/misc/sc.texi:939
+msgid "Runs @code{sc-post-hook}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:939
+#, no-wrap
+msgid "sc-post-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:940
+#, no-wrap
+msgid "post-hook @r{(sc-)}"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:945
+msgid ""
+"This variable is very similar to @code{sc-pre-hook}, except that it runs "
+"after @code{sc-cite-original} is finished.  This hook is provided mostly for "
+"completeness and backward compatibility.  Perhaps it could be used to reset "
+"certain variables set in @code{sc-pre-hook}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:949
+#, no-wrap
+msgid "filling paragraphs"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:950
+#, no-wrap
+msgid "sc-auto-fill-region-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:951
+#, no-wrap
+msgid "auto-fill-region-p @r{(sc-)}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:954
+#, no-wrap
+msgid "sc-setup-filladapt"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:955
+#, no-wrap
+msgid "setup-filladapt @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:961
+msgid ""
+"Supercite will automatically fill newly cited text from the original message "
+"unless the variable @code{sc-auto-fill-region-p} has a @code{nil} value.  "
+"Supercite will also re-fill paragraphs when you manually cite or re-cite "
+"text."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:973
+msgid ""
+"However, during normal editing, Supercite itself cannot be used to fill "
+"paragraphs.  This is a change from version 2.  There are other add-on lisp "
+"packages which do filling much better than Supercite ever did.  The two best "
+"known are @dfn{filladapt} and @dfn{gin-mode}.  Both work well with Supercite "
+"and both are available at the normal Emacs Lisp archive sites.  "
+"@dfn{gin-mode} works pretty well out of the box, but if you use "
+"@dfn{filladapt}, you may want to run the function @code{sc-setup-filladapt} "
+"after loading @file{supercite} (e.g., using @code{with-eval-after-load}).  "
+"This simply makes @dfn{filladapt} a little more Supercite savvy than its "
+"default setup."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:974
+#, no-wrap
+msgid "sc-fixup-whitespace-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:975
+#, no-wrap
+msgid "fixup-whitespace-p @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:980
+msgid ""
+"Also, Supercite will collapse leading whitespace between the citation string "
+"and the text on a line when the variable @code{sc-fixup-whitespace-p} is "
+"non-@code{nil}.  The default value for this variable is @code{nil}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:991
+msgid ""
+"Its important to understand that Supercite's automatic filling (during the "
+"initial citation of the reply) is very fragile.  That is because figuring "
+"out the @code{fill-prefix} for a particular paragraph is a really hard thing "
+"to do automatically.  This is especially the case when the original message "
+"contains code or some other text where leading whitespace is important to "
+"preserve.  For this reason, many Supercite users typically run with "
+"@code{sc-auto-fill-region-p} (and possibly also "
+"@code{sc-fixup-whitespace-p}) set to @code{nil}.  They then manually fill "
+"each cited paragraph in the reply buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:998
+msgid ""
+"I usually run with both these variables containing their default values.  "
+"When Supercite's automatic filling breaks on a particular message, I will "
+"use Emacs's undo feature to undo back before the citation was applied to the "
+"original message.  Then I'll toggle the variables and manually cite those "
+"paragraphs that I don't want to fill or collapse whitespace on.  "
+"@xref{Variable Toggling Shortcuts}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:999 ../../../../../doc/misc/sc.texi:1687
+#, no-wrap
+msgid "C-c C-p C-p"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1006
+msgid ""
+"If you find that Supercite's automatic filling is just too fragile for your "
+"tastes, you might consider one of these alternate approaches.  Also, to make "
+"life easier, a shortcut function to toggle the state of both of these "
+"variables is provided on the key binding @kbd{C-c C-p C-p} (with the default "
+"value of @code{sc-mode-map-prefix}; @pxref{Post-yank Formatting Commands})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1018
+msgid ""
+"You will noticed that the minor mode string will show the state of these "
+"variables as qualifier characters.  When both variables are @code{nil}, the "
+"Supercite minor mode string will display @samp{SC}.  When just "
+"@code{sc-auto-fill-region-p} is non-@code{nil}, the string will display "
+"@samp{SC:f}, and when just @code{sc-fixup-whitespace-p} is non-@code{nil}, "
+"the string will display @samp{SC:w}.  When both variables are "
+"non-@code{nil}, the string will display @samp{SC:fw}.  Note that the "
+"qualifiers chosen are mnemonics for the default bindings of the toggling "
+"function for each respective variable.  @xref{Variable Toggling Shortcuts}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1024
+msgid ""
+"Why are these variables not set to @code{nil} by default? It is because many "
+"users won't manually fill paragraphs that are Supercited, and there have "
+"been widespread complaints on the net about mail and news messages "
+"containing lines greater than about 72 characters.  So the default is to "
+"fill cited text."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:1025 ../../../../../doc/misc/sc.texi:1026
+#, no-wrap
+msgid "Selecting an Attribution"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1027
+#, no-wrap
+msgid "attribution list"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1028
+#, no-wrap
+msgid "sc-preferred-attribution-list"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1029
+#, no-wrap
+msgid "preferred-attribution-list @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1040
+msgid ""
+"As you know, the attribution string is the part of the author's name that "
+"will be used to composed a non-nested citation string.  Supercite scans the "
+"various mail headers present in the original article and uses a number of "
+"heuristics to extract strings which it puts into the @dfn{attribution "
+"association list} or @dfn{attribution alist}.  This is analogous, but "
+"different from, the info alist previously mentioned.  Each element in the "
+"attribution alist is a key-value pair containing such information as the "
+"author's first name, middle names, and last name, the author's initials, and "
+"the author's email terminus."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1045
+msgid "Attribution Preferences::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1045
+msgid "Anonymous Attributions::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1045 ../../../../../doc/misc/sc.texi:1238 ../../../../../doc/misc/sc.texi:1239
+#, no-wrap
+msgid "Author Names"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1047 ../../../../../doc/misc/sc.texi:1048
+#, no-wrap
+msgid "Attribution Preferences"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1058
+msgid ""
+"When you cite an original message, you can tell Supercite which part of the "
+"author's name you would prefer it to use as the attribution.  The variable "
+"@code{sc-preferred-attribution-list} controls this; it contains keys which "
+"are matched against the attribution alist in the given order.  The first "
+"value of a key that produces a non-@code{nil}, non-empty string match is "
+"used as the attribution string, and if no keys match, a secondary mechanism "
+"is used to generate the attribution.  @xref{Anonymous Attributions}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1061
+msgid ""
+"The following preferences are always available in the attribution alist "
+"(barring error):"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1063
+#, no-wrap
+msgid "\"emailname\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1065
+msgid "the author's email terminus."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1066
+#, no-wrap
+msgid "\"initials\""
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1069
+#, no-wrap
+msgid "\"firstname\""
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1072
+#, no-wrap
+msgid "\"lastname\""
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1075
+#, no-wrap
+msgid "\"middlename-1\""
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1078
+#, no-wrap
+msgid "\"sc-lastchoice\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1081
+msgid ""
+"the last attribution string you have selected.  This is useful when you "
+"recite paragraphs in the reply."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1082
+#, no-wrap
+msgid "\"sc-consult\""
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1083 ../../../../../doc/misc/sc.texi:1117
+#, no-wrap
+msgid "sc-attrib-selection-list"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1084 ../../../../../doc/misc/sc.texi:1118
+#, no-wrap
+msgid "attrib-selection-list @r{(sc-)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1088
+msgid ""
+"consults the customizable list @code{sc-attrib-selection-list} which can be "
+"used to select special attributions based on the value of any info key.  See "
+"below for details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1089
+#, no-wrap
+msgid "\"x-attribution\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1092
+msgid ""
+"the original author's suggestion for attribution string choice.  See below "
+"for details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1097
+msgid ""
+"Middle name indexes can be any positive integer greater than zero, though it "
+"is unlikely that many authors will have more than one middle name, if that "
+"many."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1105
+msgid ""
+"At this point, let me digress into a discussion of etiquette.  It is my "
+"belief that while the style of the citations is a reflection of the personal "
+"tastes of the replier (i.e., you), the attribution selection is ultimately "
+"the personal choice of the original author.  In a sense it is his or her "
+"``net nickname'', and therefore the author should have some say in the "
+"selection of attribution string.  Imagine how you would feel if someone gave "
+"you a nickname that you didn't like?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1116
+msgid ""
+"For this reason, Supercite recognizes a special mail header, "
+"@samp{X-Attribution:}, which if present, tells Supercite the attribution "
+"string preferred by the original author.  It is the value of this header "
+"that is associated with the @code{\"x-attribution\"} key in the attribution "
+"alist.  Currently, you can override the preference of this key by changing "
+"@code{sc-preferred-attribution-list}, but that isn't polite, and in the "
+"future Supercite may hard-code this.  For now, it is suggested that if you "
+"change the order of the keys in this list, that @code{\"x-attribution\"} "
+"always be first, or possible second behind only @code{\"sc-lastchoice\"}.  "
+"This latter is the default."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1124
+msgid ""
+"The value @code{\"sc-consult\"} in @code{sc-preferred-attribution-list} has "
+"a special meaning during attribution selection.  When Supercite encounters "
+"this preference, it begins processing a customizable list of attributions, "
+"contained in the variable @code{sc-attrib-selection-list}.  Each element in "
+"this list contains lists of the following form:"
+msgstr ""
+
+#. type: group
+#: ../../../../../doc/misc/sc.texi:1130
+#, no-wrap
+msgid ""
+"(@var{infokey} ((@var{regexp} . @var{attribution})\n"
+"         (@var{regexp} . @var{attribution})\n"
+"         (@dots{})))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1142
+msgid ""
+"where @var{infokey} is a key for @code{sc-mail-field} and @var{regexp} is a "
+"regular expression to match against the @var{infokey}'s value.  If "
+"@var{regexp} matches the @var{infokey}'s value, the @var{attribution} is "
+"used as the attribution string.  Actually, @var{attribution} can be a string "
+"or a list; if it is a list, it is @code{eval}uated and the return value "
+"(which must be a string), is used as the attribution."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1148
+msgid ""
+"This can be very useful for when you are replying to net acquaintances who "
+"do not use the @samp{X-Attribution:@:} mail header.  You may know what "
+"nickname they would prefer to use, and you can set up this list to match "
+"against a specific mail field, e.g., @samp{From:@:}, allowing you to cite "
+"your friend's message with the appropriate attribution."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1149 ../../../../../doc/misc/sc.texi:1150
+#, no-wrap
+msgid "Anonymous Attributions"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1151
+#, no-wrap
+msgid "sc-default-author-name"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1152
+#, no-wrap
+msgid "default-author-name @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1153
+#, no-wrap
+msgid "sc-default-attribution"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1154
+#, no-wrap
+msgid "default-attribution @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1165
+msgid ""
+"When the author's name cannot be found in the @samp{From:@:} mail header, a "
+"fallback author name and attribution string must be supplied.  The fallback "
+"author name is contained in the variable @code{sc-default-author-name} and "
+"the fallback attribution string is contained in the variable "
+"@code{sc-default-attribution}.  Default values for these variables are "
+"@code{\"Anonymous\"} and @code{\"Anon\"}, respectively.  Note that in most "
+"circumstances, getting the default author name or attribution is a sign that "
+"something is set up incorrectly."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1166
+#, no-wrap
+msgid "sc-use-only-preference-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1167
+#, no-wrap
+msgid "use-only-preference-p @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1177
+msgid ""
+"Also, if the preferred attribution, which you specified in your "
+"@code{sc-preferred-attribution-list} variable cannot be found, a secondary "
+"method can be employed to find a valid attribution string.  The variable "
+"@code{sc-use-only-preference-p} controls what happens in this case.  If the "
+"variable's value is non-@code{nil}, then @code{sc-default-author-name} and "
+"@code{sc-default-attribution} are used, otherwise, the following steps are "
+"taken to find a valid attribution string, and the first step to return a "
+"non-@code{nil}, non-empty string becomes the attribution:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1181
+msgid "Use the last selected attribution, if there is one."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1184
+msgid "Use the value of the @code{\"x-attribution\"} key."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1187
+msgid "Use the author's first name."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1190
+msgid "Use the author's last name."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1193
+msgid "Use the author's initials."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1197
+msgid ""
+"Find the first non-@code{nil}, non-empty attribution string in the "
+"attribution alist."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1200
+msgid "@code{sc-default-attribution} is used."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1212
+msgid ""
+"Once the attribution string has been automatically selected, a number of "
+"things can happen.  If the variable @code{sc-confirm-always-p} is "
+"non-@code{nil}, you are queried for confirmation of the chosen attribution "
+"string.  The possible values for completion are those strings in the "
+"attribution alist, however you are not limited to these choices.  You can "
+"type any arbitrary string at the confirmation prompt.  The string you enter "
+"becomes the value associated with the @code{\"sc-lastchoice\"} key in the "
+"attribution alist."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1213
+#, no-wrap
+msgid "sc-downcase-p"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1214
+#, no-wrap
+msgid "downcase-p @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1218
+msgid ""
+"Once an attribution string has been selected, Supercite will force the "
+"string to lower case if the variable @code{sc-downcase-p} is non-@code{nil}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1219
+#, no-wrap
+msgid "sc-attribs-preselect-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1220
+#, no-wrap
+msgid "attribs-preselect-hook @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1221
+#, no-wrap
+msgid "sc-attribs-postselect-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1222
+#, no-wrap
+msgid "attribs-postselect-hook @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1237
+msgid ""
+"Two hook variables provide even greater control of the attribution selection "
+"process.  The hook @code{sc-attribs-preselect-hook} is run before any "
+"attribution is selected.  Likewise, the hook "
+"@code{sc-attribs-postselect-hook} is run after the attribution is selected "
+"(and the corresponding citation string is built), but before these values "
+"are committed for use by Supercite.  During the post-selection hook, the "
+"local variables @code{attribution} and @code{citation} are bound to the "
+"appropriate strings.  By changing these variables in your hook functions, "
+"you change the attribution and citation strings used by Supercite.  One "
+"possible use of this would be to override any automatically derived "
+"attribution string when it is only one character long; e.g., you prefer to "
+"use @code{\"initials\"} but the author only has one name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1240
+#, no-wrap
+msgid "author names"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1247
+msgid ""
+"Supercite employs a number of heuristics to decipher the author's name based "
+"on value of the @samp{From:@:} mail field of the original message.  "
+"Supercite can recognize almost all of the common @samp{From:@:} field "
+"formats in use.  If you encounter a @samp{From:@:} field that Supercite "
+"cannot parse, please report this bug using @kbd{M-x report-emacs-bug}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1248
+#, no-wrap
+msgid "sc-titlecue-regexp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1249
+#, no-wrap
+msgid "titlecue-regexp @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1253
+msgid ""
+"There are a number of Supercite variables that control how author names are "
+"extracted from the @samp{From:@:} header.  Some headers may contain a "
+"descriptive title as in:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1256
+#, no-wrap
+msgid "From:@: computer!speedy!doe (John Xavier-Doe -- Decent Hacker)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1265
+msgid ""
+"Supercite knows which part of the @samp{From:@:} header is email address and "
+"which part is author name, but in this case the string @code{\"Decent "
+"Hacker\"} is not part of the author's name.  You can tell Supercite to "
+"ignore the title, while still recognizing hyphenated names through the use "
+"of a regular expression in the variable @code{sc-titlecue-regexp}.  This "
+"variable has the default value of @code{\"\\\\\\\\s +-+\\\\\\\\s +\"}.  Any "
+"text after this regexp is encountered is ignored as noise."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1266
+#, no-wrap
+msgid "sc-name-filter-alist"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1267
+#, no-wrap
+msgid "name-filter-alist @r{(sc-)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1277
+msgid ""
+"Some @samp{From:@:} headers may contain extra titles in the name fields not "
+"separated by a title cue, but which are nonetheless not part of the author's "
+"name proper.  Examples include the titles ``Dr.'', ``Mr.'', ``Ms.'', "
+"``Jr.'', ``Sr.'', and ``III'' (e.g., Thurston Howe, the Third).  Also, some "
+"companies prepend or append the name of the division, organization, or "
+"project on the author's name.  All of these titles are noise which should be "
+"ignored.  The variable @code{sc-name-filter-alist} is used for this "
+"purpose.  As implied by its name, this variable is an association list, "
+"where each element is a cons cell of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1280
+#, no-wrap
+msgid "(@var{regexp} . @var{position})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1288
+msgid ""
+"where @var{regexp} is a regular expression that is matched (using "
+"@code{string-match}) against each element of the @samp{From:@:} field's "
+"author name.  @var{position} is a position indicator, starting at zero.  "
+"Thus to strip out all titles of ``Dr.'', ``Mr.'', etc.  from the name, "
+"@code{sc-name-filter-alist} would have an entry such as:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1291
+#, no-wrap
+msgid "(\"^\\\\(Mr\\\\|Mrs\\\\|Ms\\\\|Dr\\\\)[.]?$\" . 0)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1299
+msgid ""
+"which only removes them if they appear as the first word in the name.  The "
+"position indicator is an integer, or one of the two special symbols "
+"@code{last} or @code{any}.  @code{last} always matches against the last word "
+"in the name field, while @code{any} matches against every word in the name "
+"field."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:1300 ../../../../../doc/misc/sc.texi:1301
+#, no-wrap
+msgid "Configuring the Citation Engine"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1302
+#, no-wrap
+msgid "Regi"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1303
+#, no-wrap
+msgid "frames (Regi)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1304
+#, no-wrap
+msgid "entries (Regi)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1316
+msgid ""
+"At the heart of Supercite is a regular expression interpreting engine called "
+"@dfn{Regi}.  Regi operates by interpreting a data structure called a "
+"Regi-frame (or just @dfn{frame}), which is a list of Regi-entries (or just "
+"@dfn{entry}).  Each entry contains a predicate, typically a regular "
+"expression, which is matched against a line of text in the current buffer.  "
+"If the predicate matches true, an associated expression is "
+"@code{eval}uated.  In this way, an entire region of text can be transformed "
+"in an @emph{awk}-like manner.  Regi is used throughout Supercite, from mail "
+"header information extraction, to header nuking, to citing text."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1320
+msgid "Using Regi::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1320 ../../../../../doc/misc/sc.texi:1434 ../../../../../doc/misc/sc.texi:1435
+#, no-wrap
+msgid "Frames You Can Customize"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1335
+msgid ""
+"While the details of Regi are discussed below (@pxref{Using Regi}), only "
+"those who wish to customize certain aspects of Supercite need concern "
+"themselves with it.  It is important to understand though, that any "
+"conceivable citation style that can be described by a regular expression can "
+"be recognized by Supercite.  This leads to some interesting applications.  "
+"For example, if you regularly receive email from a co-worker that uses an "
+"uncommon citation style (say one that employs a @samp{|} or @samp{@}} "
+"character at the front of the line), it is possible for Supercite to "
+"recognize this and @emph{coerce} the citation to your preferred style, for "
+"consistency.  In theory, it is possible for Supercite to recognize such "
+"things as uuencoded messages or C code and cite or fill those differently "
+"from normal text.  None of this is currently part of Supercite, but "
+"contributions are welcome!"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1336 ../../../../../doc/misc/sc.texi:1337
+#, no-wrap
+msgid "Using Regi"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1338
+#, no-wrap
+msgid "regi-interpret"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1339
+#, no-wrap
+msgid "eval"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1340
+#, no-wrap
+msgid "looking-at"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1345
+msgid ""
+"Regi works by interpreting frames with the function @code{regi-interpret}.  "
+"A frame is a list of arbitrary size where each element is an entry of the "
+"following form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1348
+#, no-wrap
+msgid "(@var{pred} @var{func} [@var{negate-p} [@var{case-fold-search}]])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1359
+msgid ""
+"Regi starts with the first entry in a frame, evaluating the @var{pred} of "
+"that entry against the beginning of the line that @samp{point} is on.  If "
+"the @var{pred} evaluates to true (or false if the optional @var{negate-p} is "
+"non-@code{nil}), then the @var{func} for that entry is @code{eval}uated.  "
+"How processing continues is determined by the return value for @var{func}, "
+"and is described below.  If @var{pred} was false the next entry in the frame "
+"is checked until all entries have been matched against the current line.  If "
+"no entry matches, @samp{point} is moved forward one line and the frame is "
+"reset to the first entry."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1369
+msgid ""
+"@var{pred} can be a string, a variable, a list or one of the following "
+"symbols: @code{t}, @code{begin}, @code{end}, or @code{every}.  If @var{pred} "
+"is a string, or a variable or list that @code{eval}uates to a string, it is "
+"interpreted as a regular expression.  This regexp is matched against the "
+"current line, from the beginning, using @code{looking-at}.  This match folds "
+"case if the optional @var{case-fold-search} is non-@code{nil}.  If "
+"@var{pred} is not a string, or does not @code{eval}uate to a string, it is "
+"interpreted as a binary value (@code{nil} or non-@code{nil})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1371
+msgid "The four special symbol values for @var{pred} are recognized:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1373
+#, no-wrap
+msgid "t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1375
+msgid "Always produces a true outcome."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1375
+#, no-wrap
+msgid "begin"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1378
+msgid ""
+"Always executed before the frame is interpreted.  This can be used to "
+"initialize some global variables for example."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1378
+#, no-wrap
+msgid "end"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1381
+msgid ""
+"Always executed after frame interpreting is completed.  This can be used to "
+"perform any necessary post-processing."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1381
+#, no-wrap
+msgid "every"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1384
+msgid ""
+"Executes whenever the frame is reset, usually after the entire frame has "
+"been matched against the current line."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1391
+msgid ""
+"Note that @var{negate-p} and @var{case-fold-search} are ignored if "
+"@var{pred} is one of these special symbols.  Only the first occurrence of "
+"each symbol in a frame is used; any duplicates are ignored.  Also note that "
+"for performance reasons, the entries associated with these symbols are "
+"removed from the frame during the main interpreting loop."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1398
+msgid ""
+"Your @var{func} can return certain values which control continued Regi "
+"processing.  By default, if your @var{func} returns @code{nil} (as it should "
+"be careful to do explicitly), Regi will reset the frame to the first entry, "
+"and advance @samp{point} to the beginning of the next line.  If a list is "
+"returned from your function, it can contain any combination of the following "
+"elements:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1400
+#, no-wrap
+msgid "the symbol @code{continue}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1405
+msgid ""
+"This tells Regi to continue processing entries after a match, instead of "
+"resetting the frame and moving @samp{point}.  In this way, lines of text can "
+"have multiple matches, but you have to be careful to avoid entering infinite "
+"loops."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1406
+#, no-wrap
+msgid "the symbol @code{abort}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1409
+msgid ""
+"This tells Regi to terminate frame processing.  However, any @code{end} "
+"entry is still processed."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1410
+#, no-wrap
+msgid "the list @code{(frame . @var{newframe})}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1415
+msgid ""
+"This tells Regi to substitute @var{newframe} as the frame it is "
+"interpreting.  In other words, your @var{func} can modify the Regi frame on "
+"the fly.  @var{newframe} can be a variable containing a frame, or it can be "
+"the frame in-lined."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1416
+#, no-wrap
+msgid "the list @code{(step . @var{step})}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1420
+msgid ""
+"Tells Regi to move @var{step} number of lines forward as it continues "
+"processing.  By default, Regi moves forward one line.  @var{step} can be "
+"zero or negative of course, but watch out for infinite loops."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1424
+msgid ""
+"During execution of your @var{func}, the following variables will be "
+"temporarily bound to some useful information:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1426
+#, no-wrap
+msgid "curline"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1428
+msgid "The current line in the buffer that Regi is @code{looking-at}, as a string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1428
+#, no-wrap
+msgid "curframe"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1430
+msgid "The current frame being interpreted."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1430
+#, no-wrap
+msgid "curentry"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1432
+msgid "The current frame entry being interpreted."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1436
+#, no-wrap
+msgid "sc-nuke-mail-header"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1443
+msgid ""
+"As mentioned earlier, Supercite uses various frames to perform certain jobs "
+"such as mail header information extraction and mail header nuking.  However, "
+"these frames are not available for you to customize, except through abstract "
+"interfaces such as @code{sc-nuke-mail-header}, et al."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1444
+#, no-wrap
+msgid "sc-default-cite-frame"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1455
+msgid ""
+"However, the citation frames Supercite uses provide a lot of customizing "
+"power and are thus available to you to change to suit your needs.  The "
+"workhorse of citation is the frame contained in the variable "
+"@code{sc-default-cite-frame}.  This frame recognizes many situations, such "
+"as blank lines, which it interprets as paragraph separators.  It also "
+"recognizes previously cited nested and non-nested citations in the original "
+"message.  By default it will coerce non-nested citations into your preferred "
+"citation style, and it will add a level of citation to nested citations.  It "
+"will also simply cite uncited lines in your preferred style."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1456
+#, no-wrap
+msgid "unciting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1457
+#, no-wrap
+msgid "reciting"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1458
+#, no-wrap
+msgid "sc-default-uncite-frame"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1459
+#, no-wrap
+msgid "sc-default-recite-frame"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1464
+msgid ""
+"In a similar vein, there are default frames for @dfn{unciting} and "
+"@dfn{reciting}, contained in the variables @code{sc-default-uncite-frame} "
+"and @code{sc-default-recite-frame} respectively."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1471
+msgid ""
+"As mentioned earlier (@pxref{Recognizing Citations}), citations are "
+"recognized through the values of the regular expressions "
+"@code{sc-citation-root-regexp}, et al.  To recognize odd styles, you could "
+"modify these variables, or you could modify the default citing frame.  "
+"Alternatively, you could set up association lists of frames for recognizing "
+"specific alternative forms."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1472
+#, no-wrap
+msgid "sc-cite-frame-alist"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1473
+#, no-wrap
+msgid "sc-uncite-frame-alist"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1474
+#, no-wrap
+msgid "sc-recite-frame-alist"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1479
+msgid ""
+"For each of the actions---citing, unciting, and reciting---an alist is "
+"consulted to find the frame to use (@code{sc-cite-frame-alist}, "
+"@code{sc-uncite-frame-alist}, and @code{sc-recite-frame-alist} "
+"respectively).  These frames can contain alists of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1484
+#, no-wrap
+msgid ""
+"((@var{infokey} (@var{regexp} . @var{frame}) (@var{regexp} . @var{frame}) "
+"@dots{})\n"
+" (@var{infokey} (@var{regexp} . @var{frame}) (@var{regexp} . @var{frame}) "
+"@dots{})\n"
+" (@dots{}))\n"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1487
+#, no-wrap
+msgid "string-match"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1493
+msgid ""
+"Where @var{infokey} is a key suitable for @code{sc-mail-field}, @var{regexp} "
+"is a regular expression which is @code{string-match}'d against the value of "
+"the @code{sc-mail-field} key, and @var{frame} is the frame to use if a match "
+"occurred.  @var{frame} can be a variable containing a frame or a frame "
+"in-lined."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1497
+msgid ""
+"When Supercite is about to cite, uncite, or recite a region, it consults the "
+"appropriate alist and attempts to find a frame to use.  If one is not found "
+"from the alist, then the appropriate default frame is used."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:1498 ../../../../../doc/misc/sc.texi:1499
+#, no-wrap
+msgid "Post-yank Formatting Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1517
+msgid ""
+"Once the original message has been yanked into the reply buffer, and "
+"@code{sc-cite-original} has had a chance to do its thing, a number of useful "
+"Supercite commands will be available to you.  Since there is wide variety in "
+"the keymaps that MUAs set up in their reply buffers, it is next to "
+"impossible for Supercite to properly sprinkle its commands into the existing "
+"keymap.  For this reason Supercite places its commands on a separate keymap, "
+"putting this keymap onto a prefix key in the reply buffer.  You can "
+"customize the prefix key Supercite uses by changing the variable "
+"@code{sc-mode-map-prefix}.  By default, the @code{sc-mode-map-prefix} is "
+"@kbd{C-c C-p}; granted, not a great choice, but unfortunately the best "
+"general solution so far.  In the rest of this chapter, we'll assume you've "
+"installed Supercite's keymap on the default prefix."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1524
+msgid "Citing Commands::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1524
+msgid "Insertion Commands::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1524
+msgid "Variable Toggling Shortcuts::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sc.texi:1524
+msgid "Mail Field Commands::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1524 ../../../../../doc/misc/sc.texi:1748 ../../../../../doc/misc/sc.texi:1749
+#, no-wrap
+msgid "Miscellaneous Commands"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/sc.texi:1526
+#, no-wrap
+msgid "Citing Commands"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1527
+#, no-wrap
+msgid "Commands to Manually Cite, Recite, and Uncite"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1539
+msgid ""
+"Probably the three most common post-yank formatting operations that you will "
+"perform will be the manual citing, reciting, and unciting of regions of text "
+"in the reply buffer.  Often you may want to recite a paragraph to use a "
+"nickname, or manually cite a message when setting "
+"@code{sc-cite-region-limit} to @code{nil}.  The following commands perform "
+"these functions on the region of text between @samp{point} and @samp{mark}.  "
+"Each of them sets the @dfn{undo boundary} before modifying the region so "
+"that the command can be undone in the standard Emacs way."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1541
+msgid "Here is the list of Supercite citing commands:"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1543
+#, no-wrap
+msgid "sc-cite-region"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1544
+#, no-wrap
+msgid "cite-region @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1545
+#, no-wrap
+msgid "C-c C-p c"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1546
+#, no-wrap
+msgid "sc-pre-cite-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1547
+#, no-wrap
+msgid "pre-cite-hook @r{(sc-)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1549
+#, no-wrap
+msgid "confirm-always-p"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1550
+#, no-wrap
+msgid "C-u"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1551
+#, no-wrap
+msgid "@code{sc-cite-region} (@kbd{C-c C-p c})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1560
+msgid ""
+"This command cites each line in the region of text by interpreting the "
+"selected frame from @code{sc-cite-frame-alist}, or the default citing frame "
+"@code{sc-default-cite-frame}.  It runs the hook @code{sc-pre-cite-hook} "
+"before interpreting the frame.  With an optional universal argument "
+"(@kbd{C-u}), it temporarily sets @code{sc-confirm-always-p} to @code{t} so "
+"you can confirm the attribution string for a single manual citing.  "
+"@xref{Configuring the Citation Engine}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1561
+#, no-wrap
+msgid "sc-uncite-region"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1562
+#, no-wrap
+msgid "uncite-region @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1563
+#, no-wrap
+msgid "C-c C-p u"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1564
+#, no-wrap
+msgid "@code{sc-uncite-region} (@kbd{C-c C-p u})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1571
+msgid ""
+"This command removes any citation strings from the beginning of each cited "
+"line in the region by interpreting the selected frame from "
+"@code{sc-uncite-frame-alist}, or the default unciting frame "
+"@code{sc-default-uncite-frame}.  It runs the hook @code{sc-pre-uncite-hook} "
+"before interpreting the frame.  @xref{Configuring the Citation Engine}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1572
+#, no-wrap
+msgid "sc-recite-region"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1573
+#, no-wrap
+msgid "recite-region @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1574
+#, no-wrap
+msgid "C-c C-p r"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1575
+#, no-wrap
+msgid "@code{sc-recite-region} (@kbd{C-c C-p r})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1581
+msgid ""
+"This command recites each line the region by interpreting the selected frame "
+"from @code{sc-recite-frame-alist}, or the default reciting frame "
+"@code{sc-default-recite-frame}.  It runs the hook @code{sc-pre-recite-hook} "
+"before interpreting the frame.  @xref{Configuring the Citation Engine}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1586
+msgid ""
+"Supercite will always ask you to confirm the attribution when reciting a "
+"region, regardless of the value of @code{sc-confirm-always-p}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1588 ../../../../../doc/misc/sc.texi:1589
+#, no-wrap
+msgid "Insertion Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1592
+msgid "These two functions insert various strings into the reply buffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1594
+#, no-wrap
+msgid "sc-insert-reference"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1595
+#, no-wrap
+msgid "insert-reference @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1596
+#, no-wrap
+msgid "C-c C-p w"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1597
+#, no-wrap
+msgid "@code{sc-insert-reference} (@kbd{C-c C-p w})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1605
+msgid ""
+"Inserts a reference header into the reply buffer at @samp{point}.  With no "
+"arguments, the header indexed by @code{sc-preferred-header-style} is "
+"inserted.  An optional numeric argument is the index into "
+"@code{sc-rewrite-header-list} indicating which reference header to write."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1608
+msgid ""
+"With just the universal argument (@kbd{C-u}), electric reference mode is "
+"entered, regardless of the value of @code{sc-electric-references-p}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1609
+#, no-wrap
+msgid "sc-insert-citation"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1610
+#, no-wrap
+msgid "insert-citation @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1611
+#, no-wrap
+msgid "C-c C-p i"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1612
+#, no-wrap
+msgid "@code{sc-insert-citation} (@kbd{C-c C-p i})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1616
+msgid ""
+"Inserts the current citation string at the beginning of the line that "
+"@samp{point} is on.  If the line is already cited, Supercite will issue an "
+"error and will not cite the line."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1618 ../../../../../doc/misc/sc.texi:1619
+#, no-wrap
+msgid "Variable Toggling Shortcuts"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1620
+#, no-wrap
+msgid "toggling variables"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1627
+msgid ""
+"Supercite defines a number of commands that make it easier for you to toggle "
+"and set various Supercite variables as you are editing the reply buffer.  "
+"For example, you may want to turn off filling or whitespace cleanup, but "
+"only temporarily.  These toggling shortcut commands make this easy to do."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1628
+#, no-wrap
+msgid "C-c C-p C-t"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1633
+msgid ""
+"Like Supercite commands in general, the toggling commands are placed on a "
+"keymap prefix within the greater Supercite keymap.  For the default value of "
+"@code{sc-mode-map-prefix}, this will be @kbd{C-c C-p C-t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1636
+msgid ""
+"The following commands toggle the value of certain Supercite variables which "
+"take only a binary value:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1638
+#, no-wrap
+msgid "C-c C-p C-t b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1640
+msgid "Toggles the variable @code{sc-mail-nuke-blank-lines-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1641
+#, no-wrap
+msgid "C-c C-p C-t c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1643
+msgid "Toggles the variable @code{sc-confirm-always-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1644
+#, no-wrap
+msgid "C-c C-p C-t d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1646
+msgid "Toggles the variable @code{sc-downcase-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1647
+#, no-wrap
+msgid "C-c C-p C-t e"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1649
+msgid "Toggles the variable @code{sc-electric-references-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1650
+#, no-wrap
+msgid "C-c C-p C-t f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1652
+msgid "Toggles the variable @code{sc-auto-fill-region-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1653
+#, no-wrap
+msgid "C-c C-p C-t o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1655
+msgid "Toggles the variable @code{sc-electric-circular-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1656
+#, no-wrap
+msgid "C-c C-p C-t s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1658
+msgid "Toggles the variable @code{sc-nested-citation-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1659
+#, no-wrap
+msgid "C-c C-p C-t u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1661
+msgid "Toggles the variable @code{sc-use-only-preferences-p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1662
+#, no-wrap
+msgid "C-c C-p C-t w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1664
+msgid "Toggles the variable @code{sc-fixup-whitespace-p}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1666
+#, no-wrap
+msgid "set-variable"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1669
+msgid ""
+"The following commands let you set the value of multi-value variables, in "
+"the same way that Emacs's @code{set-variable} does:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1671
+#, no-wrap
+msgid "C-c C-p C-t a"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1673
+msgid "Sets the value of the variable @code{sc-preferred-attribution-list}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1674
+#, no-wrap
+msgid "C-c C-p C-t l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1676
+msgid "Sets the value of the variable @code{sc-cite-region-limit}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1677
+#, no-wrap
+msgid "C-c C-p C-t n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1679
+msgid "Sets the value of the variable @code{sc-mail-nuke-mail-headers}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1680
+#, no-wrap
+msgid "C-c C-p C-t N"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1682
+msgid "Sets the value of the variable @code{sc-mail-header-nuke-list}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1683
+#, no-wrap
+msgid "C-c C-p C-t p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1685
+msgid "Sets the value of the variable @code{sc-preferred-header-style}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1693
+msgid ""
+"One special command is provided to toggle both @code{sc-auto-fill-region-p} "
+"and @code{sc-fixup-whitespace-p} together.  This is because you typically "
+"want to run Supercite with either variable as @code{nil} or non-@code{nil}.  "
+"The command to toggle these variables together is bound on @kbd{C-c C-p "
+"C-p}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1696
+msgid ""
+"Finally, the command @kbd{C-c C-p C-t h} (also @kbd{C-c C-p C-t ?})  brings "
+"up a Help message on the toggling keymap."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sc.texi:1698 ../../../../../doc/misc/sc.texi:1699
+#, no-wrap
+msgid "Mail Field Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1704
+msgid ""
+"These commands allow you to view, modify, add, and delete various bits of "
+"information from the info alist.  @xref{Information Keys and the Info "
+"Alist}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1706 ../../../../../doc/misc/sc.texi:1709
+#, no-wrap
+msgid "C-c C-p f"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1707
+#, no-wrap
+msgid "sc-mail-field-query"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1708
+#, no-wrap
+msgid "mail-field-query @r{(sc-)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1710
+#, no-wrap
+msgid "@code{sc-mail-field-query} (@kbd{C-c C-p f})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1717
+msgid ""
+"Allows you to interactively view, modify, add, and delete info alist "
+"key-value pairs.  With no argument, you are prompted (with completion)  for "
+"an info key.  The value associated with that key is displayed in the "
+"minibuffer.  With an argument, this command will first ask if you want to "
+"view, modify, add, or delete an info key.  Viewing is identical to running "
+"the command with no arguments."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1723
+msgid ""
+"If you want to modify the value of a key, Supercite will first prompt you "
+"(with completion) for the key of the value you want to change.  It will then "
+"put you in the minibuffer with the key's current value so you can edit the "
+"value as you wish.  When you hit @key{RET}, the key's value is changed.  "
+"Minibuffer history is kept for the values."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1726
+msgid ""
+"If you choose to delete a key-value pair, Supercite will prompt you (with "
+"completion) for the key to delete."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1734
+msgid ""
+"If you choose to add a new key-value pair, Supercite firsts prompts you for "
+"the key to add.  Note that completion is turned on for this prompt, but you "
+"can type any key name here, even one that does not yet exist.  After "
+"entering the key, Supercite prompts you for the key's value.  It is not an "
+"error to enter a key that already exists, but the new value will override "
+"any old value.  It will not replace it though; if you subsequently delete "
+"the key-value pair, the old value will reappear."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1735
+#, no-wrap
+msgid "sc-mail-process-headers"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1736
+#, no-wrap
+msgid "mail-process-headers @r{(sc-)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1737
+#, no-wrap
+msgid "C-c C-p g"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1738
+#, no-wrap
+msgid "@code{sc-mail-process-headers} (@kbd{C-c C-p g})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1746
+msgid ""
+"This command lets you re-initialize Supercite's info alist from any set of "
+"mail headers in the region between @samp{point} and @samp{mark}.  This "
+"function is especially useful for replying to digest messages where "
+"Supercite will initially set up its information for the digest originator, "
+"but you want to cite each component article with the real message author.  "
+"Note that unless an error during processing occurs, any old information is "
+"lost."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1752
+#, no-wrap
+msgid "sc-open-line"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1753
+#, no-wrap
+msgid "open-line @r{(sc-)}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1754
+#, no-wrap
+msgid "open-line"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/sc.texi:1755
+#, no-wrap
+msgid "C-c C-p o"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/sc.texi:1756
+#, no-wrap
+msgid "@code{sc-open-line} (@kbd{C-c C-p o})"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/sc.texi:1760
+msgid ""
+"Similar to Emacs's standard @code{open-line} commands, but inserts the "
+"citation string in front of the new line.  As with @code{open-line}, an "
+"optional numeric argument inserts that many new lines."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sc.texi:1762 ../../../../../doc/misc/sc.texi:1763
+#, no-wrap
+msgid "Hints to MUA Authors"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1771
+msgid ""
+"In June of 1989, some discussion was held between the various MUA authors, "
+"the Supercite author, and other Supercite users.  These discussions centered "
+"around the need for a standard interface between MUAs and Supercite (or any "
+"future Supercite-like packages).  This interface was formally proposed by "
+"Martin Neitzel on Fri, 23 Jun 89, in a mail message to the Supercite mailing "
+"list:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1775
+#, no-wrap
+msgid ""
+"        Martin> Each news/mail-reader should provide a form of\n"
+"        Martin> mail-yank-original that\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1780
+#, no-wrap
+msgid ""
+"        Martin> 1: inserts the original message incl. header into the\n"
+"        Martin>    reply buffer; no indentation/prefixing is done, the "
+"header\n"
+"        Martin>    tends to be a \"full blown\" version rather than to be\n"
+"        Martin>    stripped down.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1783
+#, no-wrap
+msgid ""
+"        Martin> 2: 'point' is at the start of the header, 'mark' at the\n"
+"        Martin>    end of the message body.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1785
+#, no-wrap
+msgid ""
+"        Martin> 3: (run-hooks 'mail-yank-hooks)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sc.texi:1790
+#, no-wrap
+msgid ""
+"        Martin> [Supercite] should be run as such a hook and merely\n"
+"        Martin> rewrite the message.  This way it isn't anymore\n"
+"        Martin> [Supercite]'s job to gather the original from obscure\n"
+"        Martin> sources. [@dots{}]\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/sc.texi:1793
+#, no-wrap
+msgid "mail-yank-hooks"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/sc.texi:1794
+#, no-wrap
+msgid "sendmail.el"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1795
+#, no-wrap
+msgid "mail-yank-original"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/sc.texi:1796
+#, no-wrap
+msgid "defvar"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1803
+msgid ""
+"This specification was adopted, but underwent a slight modification with the "
+"release of Emacs 19.  Instead of the variable @code{mail-yank-hooks}, the "
+"hook variable that the MUA should provide is @code{mail-citation-hook}.  "
+"Richard Stallman suggests that the MUAs should @code{defvar} "
+"@code{mail-citation-hook} to @code{nil} and perform some default citing when "
+"that is the case."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1809
+msgid ""
+"If you are writing a new MUA package, or maintaining an existing MUA "
+"package, you should make it conform to this interface so that your users "
+"will be able to link Supercite easily and seamlessly.  To do this, when "
+"setting up a reply or forward buffer, your MUA should follow these steps:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1819
+msgid ""
+"Insert the original message, including the mail headers into the reply "
+"buffer.  At this point you should not modify the raw text in any way (except "
+"for any necessary decoding, e.g., of quoted-printable text), and you should "
+"place all the original headers into the body of the reply.  This means that "
+"many of the mail headers will be duplicated, one copy above the "
+"@code{mail-header-separator} line and one copy below, however there will "
+"probably be more headers below this line."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1828
+msgid ""
+"Set @samp{point} to the beginning of the line containing the first mail "
+"header in the body of the reply.  Set @samp{mark} at the end of the message "
+"text.  It is very important that the region be set around the text Supercite "
+"is to modify and that the mail headers are within this region.  Supercite "
+"will not venture outside the region for any reason, and anything within the "
+"region is fair game, so don't put anything that @strong{must} remain "
+"unchanged inside the region."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/sc.texi:1839
+msgid ""
+"Run the hook @code{mail-citation-hook}.  You will probably want to provide "
+"some kind of default citation functions in cases where the user does not "
+"have Supercite installed.  By default, your MUA should @code{defvar} "
+"@code{mail-citation-hook} to @code{nil}, and in your yanking function, check "
+"its value.  If it finds @code{mail-citation-hook} to be @code{nil}, it "
+"should perform some default citing behavior.  User who want to connect to "
+"Supercite then need only add @code{sc-cite-original} to this list of hooks "
+"using @code{add-hook}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1843
+msgid ""
+"If you do all this your MUA will join the ranks of those that conform to "
+"this interface ``out of the box.''"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1855
+msgid ""
+"The Supercite package was derived from its predecessor Superyank 1.11 which "
+"was inspired by various bits of code and ideas from Martin Neitzel and "
+"Ashwin Ram.  They were the folks who came up with the idea of non-nested "
+"citations and implemented some rough code to provide this style.  Superyank "
+"and Supercite version 2 evolved to the point where much of the attribution "
+"selection mechanism was automatic, and features have been continuously added "
+"through the comments and suggestions of the Supercite mailing list "
+"participants."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1866
+msgid ""
+"With version 3, Supercite underwent an almost complete rewrite, benefiting "
+"in a number of ways, including vast improvements in the speed of "
+"performance, a big reduction in size of the code and in the use of Emacs "
+"resources, and a much cleaner and flexible internal architecture.  Most of "
+"this work was internal and not of very great importance to the casual user.  "
+"There were some changes at the user-visible level, but for the most part, "
+"the Supercite configuration variables from version 2 should still be "
+"relevant to version 3.  Hopefully Supercite version 3 is faster, smaller, "
+"and much more flexible than its predecessors."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1876
+msgid ""
+"In the version 2 manual I thanked some specific people for their help in "
+"developing Supercite 2.  You folks know who you are and your continued "
+"support is greatly appreciated.  I wish to thank everyone on the Supercite "
+"mailing list, especially the brave alpha testers, who helped considerably in "
+"testing out the concepts and implementation of Supercite version 3.  Special "
+"thanks go out to the MUA and Emacs authors Kyle Jones, Stephen Gildea, "
+"Richard Stallman, and Jamie Zawinski for coming to a quick agreement on the "
+"new @code{mail-citation-hook} interface, and for adding the magic lisp to "
+"their code to support this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1878
+msgid "All who have helped and contributed have been greatly appreciated."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1880
+msgid "Supercite was written by Barry Warsaw."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/sc.texi:1881 ../../../../../doc/misc/sc.texi:1882
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/sc.texi:1883
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sc.texi:1885 ../../../../../doc/misc/sc.texi:1886
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sc.texi:1889 ../../../../../doc/misc/sc.texi:1890
+#, no-wrap
+msgid "Command Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1895
+msgid ""
+"Since all supercite commands are prepended with the string ``@code{sc-}'', "
+"each appears under its @code{sc-}@var{command} name and its @var{command} "
+"name."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sc.texi:1900 ../../../../../doc/misc/sc.texi:1901
+#, no-wrap
+msgid "Key Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sc.texi:1910
+msgid ""
+"Since all supercite variables are prepended with the string ``@code{sc-}'', "
+"each appears under its @code{sc-}@var{variable} name and its @var{variable} "
+"name."
+msgstr ""

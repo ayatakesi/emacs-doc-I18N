@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-11 03:19\n"
+"PO-Revision-Date: 2021-10-11 03:19\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter  Customizing Indentation"
+msgstr ""
+
+msgid "@chapter  Frequently Asked Questions"
+msgstr ""
+
+msgid "@chapter  Getting Connected"
+msgstr ""
+
+msgid "@chapter  Getting the latest VHDL Mode release"
+msgstr ""
+
+msgid "@chapter  Indentation Commands"
+msgstr ""
+
+msgid "@chapter  Introduction"
+msgstr ""
+
+msgid "@chapter  Limitations and Known Bugs"
+msgstr ""
+
+msgid "@chapter  Mailing Lists and Submitting Bug Reports"
+msgstr ""
+
+msgid "@chapter  New Indentation Engine"
+msgstr ""
+
+msgid "@chapter  Sample Init File"
+msgstr ""
+
+msgid "@chapter  Syntactic Symbols"
+msgstr ""
+
+msgid "@section  Advanced Customizations"
+msgstr ""
+
+msgid "@section  Indentation Calculation"
+msgstr ""
+
+msgid "@section  Interactive Customization"
+msgstr ""
+
+msgid "@section  Permanent Indentation"
+msgstr ""
+
+msgid "@section  Styles"
+msgstr ""
+
+msgid "@section  Syntactic Analysis"
+msgstr ""
+
+msgid "@subsection  Adding Styles"
+msgstr ""
+
+msgid "@subsection  Built-in Styles"
+msgstr ""
+
+msgid "@subsection  Custom Indentation Functions"
+msgstr ""
+
+msgid "@subsection  File Styles"
+msgstr ""
+
+msgid "@subsection  Other Special Indentations"
+msgstr ""
+

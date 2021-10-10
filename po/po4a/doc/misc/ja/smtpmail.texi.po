@@ -1,0 +1,910 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-11 03:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/smtpmail.texi:3 ../../../../../doc/misc/smtpmail.texi:28 ../../../../../doc/misc/smtpmail.texi:40
+#, no-wrap
+msgid "Emacs SMTP Library"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/smtpmail.texi:4
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/smtpmail.texi:8
+msgid "Copyright @copyright{} 2003--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/smtpmail.texi:16
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/smtpmail.texi:19
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/smtpmail.texi:22
+#, no-wrap
+msgid "Emacs lisp libraries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:25
+msgid "SMTP: (smtpmail)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:25
+msgid "Emacs library for sending mail via SMTP."
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/smtpmail.texi:29
+#, no-wrap
+msgid "An Emacs package for sending mail via SMTP"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/smtpmail.texi:30
+#, no-wrap
+msgid "Simon Josefsson, Alex Schroeder"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/smtpmail.texi:39
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:60 ../../../../../doc/misc/smtpmail.texi:61
+#, no-wrap
+msgid "How Mail Works"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Brief introduction to mail concepts."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:122 ../../../../../doc/misc/smtpmail.texi:123
+#, no-wrap
+msgid "Emacs Speaks SMTP"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "How to use the SMTP library in Emacs."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:214 ../../../../../doc/misc/smtpmail.texi:215
+#, no-wrap
+msgid "Authentication"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Authenticating yourself to the server."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:275 ../../../../../doc/misc/smtpmail.texi:276
+#, no-wrap
+msgid "Encryption"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Protecting your connection to the server."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:334 ../../../../../doc/misc/smtpmail.texi:335
+#, no-wrap
+msgid "Queued delivery"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Sending mail without an internet connection."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:367 ../../../../../doc/misc/smtpmail.texi:368
+#, no-wrap
+msgid "Server workarounds"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Mail servers with special requirements."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:413 ../../../../../doc/misc/smtpmail.texi:414
+#, no-wrap
+msgid "Debugging"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "Tracking down problems."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:54 ../../../../../doc/misc/smtpmail.texi:443 ../../../../../doc/misc/smtpmail.texi:444
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:54
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:56
+msgid "Indices"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/smtpmail.texi:58 ../../../../../doc/misc/smtpmail.texi:447 ../../../../../doc/misc/smtpmail.texi:448
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/smtpmail.texi:58
+msgid "Index over variables and functions."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:63
+#, no-wrap
+msgid "SMTP"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:64
+#, no-wrap
+msgid "MTA"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:72
+msgid ""
+"On the internet, mail is sent from mail host to mail host using the simple "
+"mail transfer protocol (SMTP).  To send and receive mail, you must get it "
+"from and send it to a mail host.  Every mail host runs a mail transfer agent "
+"(MTA) such as Exim that accepts mails and passes them on.  The communication "
+"between a mail host and other clients does not necessarily involve SMTP, "
+"however.  Here is short overview of what is involved."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:73
+#, no-wrap
+msgid "MUA"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:80
+msgid ""
+"The mail program---also called a mail user agent (MUA)---usually sends "
+"outgoing mail to a mail host.  When your computer is permanently connected "
+"to the internet, it might even be a mail host itself.  In this case, the MUA "
+"will pipe mail to the @file{/usr/lib/sendmail} application.  It will take "
+"care of your mail and pass it on to the next mail host."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:81
+#, no-wrap
+msgid "ISP"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:88
+msgid ""
+"When you are only connected to the internet from time to time, your internet "
+"service provider (ISP) has probably told you which mail host to use.  You "
+"must configure your MUA to use that mail host.  Since you are reading this "
+"manual, you probably want to configure Emacs to use SMTP to send mail to "
+"that mail host.  More on that in the next section."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:89
+#, no-wrap
+msgid "MDA"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:98
+msgid ""
+"Things are different when reading mail.  The mail host responsible for your "
+"mail keeps it in a file somewhere.  The messages get into the file by way of "
+"a mail delivery agent (MDA) such as procmail.  These delivery agents often "
+"allow you to filter and munge your mails before you get to see it.  When "
+"your computer is that mail host, this file is called a spool, and sometimes "
+"located in the directory @file{/var/spool/mail/}.  All your MUA has to do is "
+"read mail from the spool, then."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:99
+#, no-wrap
+msgid "POP3"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:100
+#, no-wrap
+msgid "IMAP"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:107
+msgid ""
+"When your computer is not always connected to the internet, you must get the "
+"mail from the remote mail host using a protocol such as POP3 or IMAP@.  POP3 "
+"essentially downloads all your mail from the mail host to your computer.  "
+"The mail is stored in some file on your computer, and again, all your MUA "
+"has to do is read mail from the spool."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:113
+msgid ""
+"When you read mail from various machines, downloading mail from the mail "
+"host to your current machine is not convenient.  In that case, you will "
+"probably want to use the IMAP protocol.  Your mail is kept on the mail host, "
+"and you can read it while you are connected via IMAP to the mail host."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:114
+#, no-wrap
+msgid "Webmail"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:121
+msgid ""
+"So how does reading mail via the web work, you ask.  In that case, the web "
+"interface just allows you to remote-control a MUA on the web host.  Whether "
+"the web host is also a mail host, and how all the pieces interact is "
+"completely irrelevant.  You usually cannot use Emacs to read mail via the "
+"web, unless you use software that parses the ever-changing HTML of the web "
+"interface."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:130
+msgid ""
+"Emacs includes a package for sending your mail to a SMTP server and have it "
+"take care of delivering it to the final destination, rather than letting the "
+"MTA on your local system take care of it.  This can be useful if you don't "
+"have a MTA set up on your host, or if your machine is often disconnected "
+"from the internet."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:137
+msgid ""
+"Sending mail via SMTP requires configuring your mail user agent (@pxref{Mail "
+"Methods,,,emacs}) to use the SMTP library.  If you have not configured "
+"anything, then in Emacs 24.1 and later the first time you try to send a mail "
+"Emacs will ask how you want to send mail.  To use this library, answer "
+"@samp{smtp} when prompted.  Emacs then asks for the name of the SMTP server."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:142
+msgid ""
+"If you prefer, or if you are using a non-standard mail user agent, you can "
+"configure this yourself.  The normal way to do this is to set the variable "
+"@code{send-mail-function} (@pxref{Mail Sending,,,emacs}) to the value you "
+"want to use.  To use this library:"
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/smtpmail.texi:145
+#, no-wrap
+msgid "(setq send-mail-function 'smtpmail-send-it)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:150
+msgid ""
+"The default value for this variable is @code{sendmail-query-once}, which "
+"interactively asks how you want to send mail."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:156
+msgid ""
+"Your mail user agent might use a different variable for this purpose.  It "
+"should inherit from @code{send-mail-function}, but if it does not, or if you "
+"prefer, you can set that variable directly.  Consult your mail user agent's "
+"documentation for more details.  For example, (@pxref{Mail "
+"Variables,,,message})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:163
+msgid ""
+"Before using SMTP you must find out the hostname of the SMTP server to use.  "
+"Your system administrator or mail service provider should supply this "
+"information.  Often it is some variant of the server you receive mail from.  "
+"If your email address is @samp{yourname@@example.com}, then the name of the "
+"SMTP server is may be something like @samp{smtp.example.com}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:165 ../../../../../doc/misc/smtpmail.texi:166
+#, no-wrap
+msgid "smtpmail-smtp-server"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:167
+#, no-wrap
+msgid "SMTPSERVER"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:173
+msgid ""
+"The variable @code{smtpmail-smtp-server} controls the hostname of the server "
+"to use.  It is a string with an IP address or hostname.  It defaults to the "
+"contents of the @env{SMTPSERVER} environment variable, or, if empty, the "
+"contents of @code{smtpmail-default-smtp-server}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:174 ../../../../../doc/misc/smtpmail.texi:175
+#, no-wrap
+msgid "smtpmail-default-smtp-server"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:182
+msgid ""
+"The variable @code{smtpmail-default-smtp-server} controls the default "
+"hostname of the server to use.  It is a string with an IP address or "
+"hostname.  It must be set before the SMTP library is loaded.  It has no "
+"effect if set after the SMTP library has been loaded, or if "
+"@code{smtpmail-smtp-server} is defined.  It is usually set by system "
+"administrators in a site wide initialization file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:186
+msgid ""
+"The following example illustrates what you could put in @file{~/.emacs} to "
+"set the SMTP server name."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/smtpmail.texi:190
+#, no-wrap
+msgid ""
+";; Send mail using SMTP via mail.example.org.\n"
+"(setq smtpmail-smtp-server \"mail.example.org\")\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:192
+#, no-wrap
+msgid "Mail Submission"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:197
+msgid ""
+"SMTP is normally used on the registered ``smtp'' TCP service port 25.  Some "
+"environments use SMTP in ``Mail Submission'' mode, which uses port 587.  "
+"Using other ports is not uncommon, either for security by obscurity "
+"purposes, port forwarding, or otherwise."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:199 ../../../../../doc/misc/smtpmail.texi:200
+#, no-wrap
+msgid "smtpmail-smtp-service"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:204
+msgid ""
+"The variable @code{smtpmail-smtp-service} controls the port on the server to "
+"contact.  It is either a string, in which case it will be translated into an "
+"integer using system calls, or an integer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:208
+msgid ""
+"The following example illustrates what you could put in @file{~/.emacs} to "
+"set the SMTP service port."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/smtpmail.texi:212
+#, no-wrap
+msgid ""
+";; Send mail using SMTP on the mail submission port 587.\n"
+"(setq smtpmail-smtp-service 587)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:217
+#, no-wrap
+msgid "password"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:218
+#, no-wrap
+msgid "user name"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:222
+msgid ""
+"Most SMTP servers require clients to authenticate themselves before they are "
+"allowed to send mail.  Authentication usually involves supplying a user name "
+"and password."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:229
+msgid ""
+"If you have not configured anything, then the first time you try to send "
+"mail via a server and the SMTP server reports back that it requires "
+"authentication, Emacs (version 24.1 and later) prompts you for the user name "
+"and password to use, and then offers to save the information.  By default, "
+"Emacs stores authentication information in a file @file{~/.authinfo}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:230
+#, no-wrap
+msgid "smtpmail-servers-requiring-authorization"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:236
+msgid ""
+"Some SMTP servers may bandwidth-limit (or deny) requests from clients that "
+"try to post without authorization---even if they later do supply that "
+"information.  To make this library supply that information on first attempt, "
+"set @code{smtpmail-servers-requiring-authorization} to a regexp that match "
+"the server name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:237
+#, no-wrap
+msgid "authinfo"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:241
+msgid ""
+"The basic format of the @file{~/.authinfo} file is one line for each set of "
+"credentials.  Each line consists of pairs of variables and values.  A simple "
+"example would be:"
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/smtpmail.texi:244
+#, no-wrap
+msgid "machine mail.example.org port 25 login myuser password mypassword\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:253
+msgid ""
+"This specifies that when using the SMTP server called "
+"@samp{mail.example.org} on port 25, Emacs should send the user name "
+"@samp{myuser} and the password @samp{mypassword}.  Either or both of the "
+"login and password fields may be absent, in which case Emacs prompts for the "
+"information when you try to send mail.  (This replaces the old "
+"@code{smtpmail-auth-credentials} variable used prior to Emacs 24.1.)"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:254
+#, no-wrap
+msgid "smtpmail-smtp-user"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:262
+msgid ""
+"When the SMTP library connects to a host on a certain port, it searches the "
+"@file{~/.authinfo} file for a matching entry.  If an entry is found, the "
+"authentication process is invoked and the credentials are used.  If the "
+"variable @code{smtpmail-smtp-user} is set to a non-@code{nil} value, then "
+"only entries for that user are considered.  For more information on the "
+"@file{~/.authinfo} file, @pxref{Top,,auth-source, auth, Emacs auth-source "
+"Library}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:263
+#, no-wrap
+msgid "SASL"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:264
+#, no-wrap
+msgid "CRAM-MD5"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:265
+#, no-wrap
+msgid "PLAIN"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:266
+#, no-wrap
+msgid "LOGIN"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:273
+msgid ""
+"The process by which the SMTP library authenticates you to the server is "
+"known as ``Simple Authentication and Security Layer'' (SASL).  There are "
+"various SASL mechanisms, and this library supports three of them: CRAM-MD5, "
+"PLAIN, and LOGIN@.  It tries each of them, in that order, until one "
+"succeeds.  The first uses a form of encryption to obscure your password, "
+"while the other two do not."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:278
+#, no-wrap
+msgid "STARTTLS"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:279
+#, no-wrap
+msgid "TLS"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:280
+#, no-wrap
+msgid "SSL"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:283
+msgid ""
+"For greater security, you can encrypt your connection to the SMTP server.  "
+"If this is to work, both Emacs and the server must support it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:289
+msgid ""
+"The SMTP library supports the ``Transport Layer Security'' (TLS), and the "
+"older ``Secure Sockets Layer'' (SSL) encryption mechanisms.  It also "
+"supports STARTTLS, which is a variant of TLS in which the initial connection "
+"to the server is made in plain text, requesting a switch to an encrypted "
+"channel for the rest of the process."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:290
+#, no-wrap
+msgid "smtpmail-stream-type"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:297
+msgid ""
+"The variable @code{smtpmail-stream-type} controls what form of connection "
+"the SMTP library uses.  The default value is @code{nil}, which means to use "
+"a plain connection, but try to switch to a STARTTLS encrypted connection if "
+"the server supports it.  Other possible values are: @code{starttls} to "
+"insist on STARTTLS; @code{ssl} to use TLS/SSL; and @code{plain} for no "
+"encryption."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:307
+msgid ""
+"Use of any form of TLS/SSL requires support in Emacs.  You can either use "
+"the built-in support (in Emacs 24.1 and later), or the @file{starttls.el} "
+"Lisp library.  The built-in support uses the GnuTLS "
+"@footnote{@url{https://www.gnu.org/software/gnutls/}} library.  If your "
+"Emacs has GnuTLS support built-in, the function @code{gnutls-available-p} is "
+"defined and returns non-@code{nil}.  Otherwise, you must use the "
+"@file{starttls.el} library (see that file for more information on "
+"customization options, etc.).  The Lisp library requires one of the "
+"following external tools to be installed:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/smtpmail.texi:313
+msgid ""
+"The GnuTLS command line tool @samp{gnutls-cli}, which you can get from "
+"@url{https://www.gnu.org/software/gnutls/}.  This is the recommended tool, "
+"mainly because it can verify server certificates."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/smtpmail.texi:317
+msgid ""
+"The @samp{starttls} external program, which you can get from "
+"@file{starttls-*.tar.gz} from @uref{ftp://ftp.opaopa.org/pub/elisp/}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:319
+#, no-wrap
+msgid "certificates"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:320
+#, no-wrap
+msgid "keys"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:324
+msgid ""
+"The SMTP server may also request that you verify your identity by sending a "
+"certificate and the associated encryption key to the server.  If you need to "
+"do this, you can use an @file{~/.authinfo} entry like this:"
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/smtpmail.texi:327
+#, no-wrap
+msgid ""
+"machine mail.example.org port 25 key \"~/.my_smtp_tls.key\" cert "
+"\"~/.my_smtp_tls.cert\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:332
+msgid ""
+"(This replaces the old @code{smtpmail-starttls-credentials} variable used "
+"prior to Emacs 24.1.)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/smtpmail.texi:337
+#, no-wrap
+msgid "Dialup connection"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:342
+msgid ""
+"If you connect to the internet via a dialup connection, or for some other "
+"reason don't have permanent internet connection, sending mail will fail when "
+"you are not connected.  The SMTP library implements queued delivery, and the "
+"following variable control its behavior."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:344 ../../../../../doc/misc/smtpmail.texi:345
+#, no-wrap
+msgid "smtpmail-queue-mail"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:353
+msgid ""
+"The variable @code{smtpmail-queue-mail} controls whether a simple off line "
+"mail sender is active.  This variable is a boolean, and defaults to "
+"@code{nil} (disabled).  If this is non-@code{nil}, mail is not sent "
+"immediately but rather queued in the directory @code{smtpmail-queue-dir} and "
+"can be later sent manually by invoking @code{smtpmail-send-queued-mail} "
+"(typically when you connect to the internet)."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:354 ../../../../../doc/misc/smtpmail.texi:355
+#, no-wrap
+msgid "smtpmail-queue-dir"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:359
+msgid ""
+"The variable @code{smtpmail-queue-dir} specifies the name of the directory "
+"to hold queued messages.  It defaults to @file{~/Mail/queued-mail/}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/smtpmail.texi:361
+#, no-wrap
+msgid "smtpmail-send-queued-mail"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:366
+msgid ""
+"The function @code{smtpmail-send-queued-mail} can be used to send any queued "
+"mail when @code{smtpmail-queue-mail} is enabled.  It is typically invoked "
+"interactively with @kbd{M-x smtpmail-send-queued-mail @key{RET}} when you "
+"are connected to the internet."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:372
+msgid ""
+"Some SMTP servers have special requirements.  The following variables "
+"implement support for common requirements."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:375 ../../../../../doc/misc/smtpmail.texi:376
+#, no-wrap
+msgid "smtpmail-retries"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:381
+msgid ""
+"An SMTP server may return an error code saying that there's a transient "
+"error (a @samp{4xx} code).  In that case, smtpmail will try to resend the "
+"message automatically, and the number of times it tries before giving up is "
+"determined by this variable, which defaults to 10."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:382 ../../../../../doc/misc/smtpmail.texi:383
+#, no-wrap
+msgid "smtpmail-local-domain"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:389
+msgid ""
+"The variable @code{smtpmail-local-domain} controls the hostname sent in the "
+"first @code{EHLO} or @code{HELO} command sent to the server.  It should be "
+"set only if the @code{system-name} function returns a name that isn't "
+"accepted by the server.  Do not set this variable unless your server "
+"complains."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:390 ../../../../../doc/misc/smtpmail.texi:391
+#, no-wrap
+msgid "smtpmail-sendto-domain"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:397
+msgid ""
+"The variable @code{smtpmail-sendto-domain} makes the SMTP library add "
+"@samp{@@} and the specified value to recipients specified in the message "
+"when they are sent using the @code{RCPT TO} command.  Some configurations of "
+"sendmail requires this behavior.  Don't bother to set this unless you have "
+"get an error like:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/smtpmail.texi:400
+#, no-wrap
+msgid "        Sending failed; SMTP protocol error\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:404
+msgid ""
+"when sending mail, and the debug buffer (@pxref{Debugging})) contains an "
+"error such as:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/smtpmail.texi:408
+#, no-wrap
+msgid ""
+"        RCPT TO: @var{someone}\n"
+"        501 @var{someone}: recipient address must contain a domain\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/smtpmail.texi:420
+msgid ""
+"Sometimes delivery fails, often with the generic error message @samp{Sending "
+"failed; SMTP protocol error}.  Enabling one or both of the following "
+"variables and inspecting a trace buffer will often give clues to the reason "
+"for the error."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:423 ../../../../../doc/misc/smtpmail.texi:424
+#, no-wrap
+msgid "smtpmail-debug-info"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:430
+msgid ""
+"The variable @code{smtpmail-debug-info} controls whether to print the SMTP "
+"protocol exchange in the minibuffer, and retain the entire exchange in a "
+"buffer @file{*trace of SMTP session to @var{server}*}, where @var{server} is "
+"the name of the mail server to which you send mail."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/smtpmail.texi:431 ../../../../../doc/misc/smtpmail.texi:432
+#, no-wrap
+msgid "smtpmail-debug-verb"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/smtpmail.texi:440
+msgid ""
+"The variable @code{smtpmail-debug-verb} controls whether to send the "
+"@code{VERB} token to the server.  The @code{VERB} server instructs the "
+"server to be more verbose, and often also to attempt final delivery while "
+"your SMTP session is still running.  It is usually only useful together with "
+"@code{smtpmail-debug-info}.  Note that this may cause mail delivery to take "
+"considerable time if the final destination cannot accept mail."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/smtpmail.texi:445
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/smtpmail.texi:450
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/smtpmail.texi:454
+#, no-wrap
+msgid "Function and Variable Index"
+msgstr ""

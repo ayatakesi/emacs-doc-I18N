@@ -1,0 +1,5065 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-11 02:57+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: title
+#: ../../../../../doc/misc/ediff.texi:12 ../../../../../doc/misc/ediff.texi:51
+#, no-wrap
+msgid "Ediff User's Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ediff.texi:13
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ediff.texi:28
+msgid ""
+"This file documents Ediff, a comprehensive visual interface to Unix diff and "
+"patch utilities."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ediff.texi:30
+msgid "Copyright @copyright{} 1995--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ediff.texi:38
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ediff.texi:41
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/ediff.texi:44
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:48
+msgid "Ediff: (ediff)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:48
+msgid "A visual interface for comparing and merging programs."
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/ediff.texi:53
+#, no-wrap
+msgid "Ediff version 2.81.2"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/ediff.texi:55
+#, no-wrap
+msgid "November 2008"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/ediff.texi:57
+#, no-wrap
+msgid "Michael Kifer"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ediff.texi:66
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/ediff.texi:67
+#, no-wrap
+msgid "Ediff"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:84 ../../../../../doc/misc/ediff.texi:85
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "About Ediff."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:133 ../../../../../doc/misc/ediff.texi:134
+#, no-wrap
+msgid "Major Entry Points"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "How to use Ediff."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:401 ../../../../../doc/misc/ediff.texi:402
+#, no-wrap
+msgid "Session Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "Ediff commands used within a session."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:985 ../../../../../doc/misc/ediff.texi:986
+#, no-wrap
+msgid "Registry of Ediff Sessions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "Keeping track of multiple Ediff sessions."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:1016 ../../../../../doc/misc/ediff.texi:1017
+#, no-wrap
+msgid "Session Groups"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "Comparing and merging directories."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:1135 ../../../../../doc/misc/ediff.texi:1136
+#, no-wrap
+msgid "Remote and Compressed Files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "You may want to know about this."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:1158 ../../../../../doc/misc/ediff.texi:1159
+#, no-wrap
+msgid "Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "How to make Ediff work the way YOU want."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:2415 ../../../../../doc/misc/ediff.texi:2416
+#, no-wrap
+msgid "Credits"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "Thanks to those who helped."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:2533 ../../../../../doc/misc/ediff.texi:2534
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:82
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ediff.texi:82 ../../../../../doc/misc/ediff.texi:2538 ../../../../../doc/misc/ediff.texi:2539
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:87
+#, no-wrap
+msgid "Comparing files and buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:88
+#, no-wrap
+msgid "Merging files and buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:89
+#, no-wrap
+msgid "Patching files and buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:90
+#, no-wrap
+msgid "Finding differences"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:100
+msgid ""
+"Ediff provides a convenient way for simultaneous browsing through the "
+"differences between a pair (or a triple) of files or buffers (which are "
+"called @samp{variants} for our purposes).  The files being compared, file-A, "
+"file-B, and file-C (if applicable) are shown in separate windows (side by "
+"side, one above the another, or in separate frames), and the differences are "
+"highlighted as you step through them.  You can also copy difference regions "
+"from one buffer to another (and recover old differences if you change your "
+"mind)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:107
+msgid ""
+"Another powerful feature is the ability to merge a pair of files into a "
+"third buffer.  Merging with an ancestor file, (a.k.a. 3way merges)  is also "
+"supported.  Furthermore, Ediff is equipped with directory-level capabilities "
+"that allow the user to conveniently launch browsing or merging sessions on "
+"groups of files in two (or three) different directories."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:116
+msgid ""
+"In addition, Ediff can apply a patch to a file and then let you step through "
+"both files, the patched and the original one, simultaneously, "
+"difference-by-difference.  You can even apply a patch right out of a mail "
+"buffer, i.e., patches received by mail don't even have to be saved.  Since "
+"Ediff lets you copy differences between variants, you can, in effect, apply "
+"patches selectively (i.e., you can copy a difference region from "
+"@file{file.orig} to @file{file}, thereby undoing any particular patch that "
+"you don't like)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:122
+msgid ""
+"Ediff even understands multi-file patches and can apply them interactively! "
+"(Ediff can recognize multi-file patches only if they are in the context "
+"format or GNU unified format.  All other patches are treated as 1-file "
+"patches.  Ediff is [hopefully] using the same algorithm as @code{patch} to "
+"determine which files need to be patched.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:127
+msgid ""
+"Ediff is aware of version control, which lets you compare files with their "
+"older versions.  Ediff also works with remote and compressed files, "
+"automatically ftp'ing them over and uncompressing them.  @xref{Remote and "
+"Compressed Files}, for details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:132
+msgid ""
+"This package builds upon ideas borrowed from Emerge, and several of Ediff's "
+"functions are adaptations from Emerge.  Although Ediff subsumes and greatly "
+"extends Emerge, much of the functionality in Ediff is influenced by Emerge.  "
+"The architecture and the interface are, of course, drastically different."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:144
+msgid ""
+"When Ediff starts up, it displays a small control window, which accepts the "
+"Ediff commands, and two or three windows displaying the files to be compared "
+"or merged. The control window can be in its own small frame or it can be "
+"part of a bigger frame that displays other buffers. In any case, it is "
+"important that the control window be active (i.e., be the one receiving the "
+"keystrokes) when you use Ediff. You can switch to other Emacs buffers at "
+"will and even edit the files currently being compared with Ediff and then "
+"switch back to Ediff at any time by activating the appropriate Emacs "
+"windows."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:149
+msgid ""
+"Ediff can be invoked interactively using the following functions, which can "
+"be run either from the minibuffer or from the menu bar.  In the menu bar, "
+"all Ediff's entry points belong to three submenus of the Tools menu: "
+"Compare, Merge, and Apply Patch."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:151 ../../../../../doc/misc/ediff.texi:153
+#, no-wrap
+msgid "ediff-files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:152 ../../../../../doc/misc/ediff.texi:154
+#, no-wrap
+msgid "ediff"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:156
+msgid "Compare two files."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:157 ../../../../../doc/misc/ediff.texi:158
+#, no-wrap
+msgid "ediff-backup"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:162
+msgid ""
+"Compare a file with its backup. If there are several numerical backups, use "
+"the latest. If the file is itself a backup, then compare it with its "
+"original."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:163 ../../../../../doc/misc/ediff.texi:164
+#, no-wrap
+msgid "ediff-current-file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:167
+msgid ""
+"Compare the buffer with its file on disk. This function can be used as a "
+"safe version of @code{revert-buffer}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:168 ../../../../../doc/misc/ediff.texi:169
+#, no-wrap
+msgid "ediff-buffers"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:171
+msgid "Compare two buffers."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:172 ../../../../../doc/misc/ediff.texi:174
+#, no-wrap
+msgid "ediff-files3"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:173 ../../../../../doc/misc/ediff.texi:175
+#, no-wrap
+msgid "ediff3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:177
+msgid "Compare three files."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:178 ../../../../../doc/misc/ediff.texi:179
+#, no-wrap
+msgid "ediff-buffers3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:181
+msgid "Compare three buffers."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:182 ../../../../../doc/misc/ediff.texi:184
+#, no-wrap
+msgid "edirs"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:183 ../../../../../doc/misc/ediff.texi:185
+#, no-wrap
+msgid "ediff-directories"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:187
+msgid "Compare files common to two directories."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:187 ../../../../../doc/misc/ediff.texi:189
+#, no-wrap
+msgid "edirs3"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:188 ../../../../../doc/misc/ediff.texi:190
+#, no-wrap
+msgid "ediff-directories3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:192
+msgid "Compare files common to three directories."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:192 ../../../../../doc/misc/ediff.texi:195
+#, no-wrap
+msgid "edir-revisions"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:193 ../../../../../doc/misc/ediff.texi:194
+#, no-wrap
+msgid "ediff-directory-revisions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:198
+msgid ""
+"Compare versions of files in a given directory.  Ediff selects only the "
+"files that are under version control."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:198 ../../../../../doc/misc/ediff.texi:200
+#, no-wrap
+msgid "edir-merge-revisions"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:199 ../../../../../doc/misc/ediff.texi:201
+#, no-wrap
+msgid "ediff-merge-directory-revisions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:204
+msgid ""
+"Merge versions of files in a given directory.  Ediff selects only the files "
+"that are under version control."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:204 ../../../../../doc/misc/ediff.texi:206
+#, no-wrap
+msgid "edir-merge-revisions-with-ancestor"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:205 ../../../../../doc/misc/ediff.texi:207
+#, no-wrap
+msgid "ediff-merge-directory-revisions-with-ancestor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:210
+msgid ""
+"Merge versions of files in a given directory using other versions as "
+"ancestors.  Ediff selects only the files that are under version control."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:211 ../../../../../doc/misc/ediff.texi:212
+#, no-wrap
+msgid "ediff-windows-wordwise"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:214
+msgid "Compare text visible in 2 windows word-by-word."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:215 ../../../../../doc/misc/ediff.texi:216
+#, no-wrap
+msgid "ediff-windows-linewise"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:218
+msgid "Compare text visible in 2 windows line-by-line."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:219 ../../../../../doc/misc/ediff.texi:220
+#, no-wrap
+msgid "ediff-regions-wordwise"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:226
+msgid ""
+"Compare regions word-by-word.  The regions can come from the same buffer and "
+"they can even overlap.  You will be asked to specify the buffers that "
+"contain the regions, which you want to compare. For each buffer, you will "
+"also be asked to mark the regions to be compared. Pay attention to the "
+"messages that appear in the minibuffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:227 ../../../../../doc/misc/ediff.texi:228
+#, no-wrap
+msgid "ediff-regions-linewise"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:231
+msgid ""
+"Similar to @code{ediff-windows-linewise}, but compares the regions "
+"line-by-line. See @code{ediff-windows-linewise} for more details."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:232 ../../../../../doc/misc/ediff.texi:233
+#, no-wrap
+msgid "ediff-revision"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:236
+msgid ""
+"Compare versions of the current buffer, if the buffer is visiting a file "
+"under version control."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:237 ../../../../../doc/misc/ediff.texi:239
+#, no-wrap
+msgid "ediff-patch-file"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:238 ../../../../../doc/misc/ediff.texi:240
+#, no-wrap
+msgid "epatch"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:247
+msgid ""
+"Patch a file or multiple files, then compare.  If the patch applies to just "
+"one file, Ediff will invoke a regular comparison session.  If it is a "
+"multi-file patch, then a session group interface will be used and the user "
+"will be able to patch the files selectively.  @xref{Session Groups}, for "
+"more details."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:252 ../../../../../doc/misc/ediff.texi:286
+msgid ""
+"Since the patch might be in a buffer or a file, you will be asked which is "
+"the case. To avoid this extra prompt, you can invoke this command with a "
+"prefix argument.  With an odd prefix argument, Ediff assumes the patch is in "
+"a file; with an even argument, a buffer is assumed."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:260
+msgid ""
+"Note that @code{ediff-patch-file} will actually use the @code{patch} utility "
+"to change the original files on disk.  This is not that dangerous, since you "
+"will always have the original contents of the file saved in another file "
+"that has the extension @file{.orig}.  Furthermore, if the file is under "
+"version control, then you can always back out to one of the previous "
+"versions (see the section on Version Control in the Emacs manual)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:265
+msgid ""
+"@code{ediff-patch-file} is careful about versions control: if the file to be "
+"patched is checked in, then Ediff will offer to check it out, because "
+"failing to do so may result in the loss of the changes when the file is "
+"checked out the next time."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:269
+msgid ""
+"If you don't intend to modify the file via the patch and just want to see "
+"what the patch is all about (and decide later), then "
+"@code{ediff-patch-buffer} might be a better choice."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:270 ../../../../../doc/misc/ediff.texi:272
+#, no-wrap
+msgid "ediff-patch-buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:271 ../../../../../doc/misc/ediff.texi:273
+#, no-wrap
+msgid "epatch-buffer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:277
+msgid ""
+"Patch a buffer, then compare.  The buffer being patched and the file visited "
+"by that buffer (if any) is @emph{not} modified.  The result of the patch "
+"appears in some other buffer that has the name ending with @emph{_patched}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:281
+msgid ""
+"This function would refuse to apply a multifile patch to a buffer.  Use "
+"@code{ediff-patch-file} for that (and when you want the original file to be "
+"modified by the @code{patch} utility)."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:287 ../../../../../doc/misc/ediff.texi:289
+#, no-wrap
+msgid "ediff-merge-files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:288 ../../../../../doc/misc/ediff.texi:290
+#, no-wrap
+msgid "ediff-merge"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:292
+msgid "Merge two files."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:293 ../../../../../doc/misc/ediff.texi:295
+#, no-wrap
+msgid "ediff-merge-files-with-ancestor"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:294 ../../../../../doc/misc/ediff.texi:296
+#, no-wrap
+msgid "ediff-merge-with-ancestor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:298
+msgid "Like @code{ediff-merge}, but with a third ancestor file."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:299 ../../../../../doc/misc/ediff.texi:300
+#, no-wrap
+msgid "ediff-merge-buffers"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:302
+msgid "Merge two buffers."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:303 ../../../../../doc/misc/ediff.texi:304
+#, no-wrap
+msgid "ediff-merge-buffers-with-ancestor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:306 ../../../../../doc/misc/ediff.texi:328
+msgid "Same but with ancestor."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:308 ../../../../../doc/misc/ediff.texi:310
+#, no-wrap
+msgid "edirs-merge"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:309 ../../../../../doc/misc/ediff.texi:311
+#, no-wrap
+msgid "ediff-merge-directories"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:313
+msgid "Merge files common to two directories."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:313 ../../../../../doc/misc/ediff.texi:315
+#, no-wrap
+msgid "edirs-merge-with-ancestor"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:314 ../../../../../doc/misc/ediff.texi:316
+#, no-wrap
+msgid "ediff-merge-directories-with-ancestor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:320
+msgid ""
+"Same but using files in a third directory as ancestors.  If a pair of files "
+"doesn't have an ancestor in the ancestor-directory, you will still be able "
+"to merge them without the ancestor."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:321 ../../../../../doc/misc/ediff.texi:322
+#, no-wrap
+msgid "ediff-merge-revisions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:324
+msgid "Merge two versions of the file visited by the current buffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:325 ../../../../../doc/misc/ediff.texi:326
+#, no-wrap
+msgid "ediff-merge-revisions-with-ancestor"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:329 ../../../../../doc/misc/ediff.texi:330
+#, no-wrap
+msgid "ediff-documentation"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:332
+msgid "Brings up this manual."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:333 ../../../../../doc/misc/ediff.texi:927 ../../../../../doc/misc/ediff.texi:929
+#, no-wrap
+msgid "ediff-show-registry"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:334 ../../../../../doc/misc/ediff.texi:926 ../../../../../doc/misc/ediff.texi:928
+#, no-wrap
+msgid "eregistry"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:337
+msgid ""
+"Brings up Ediff session registry.  This feature enables you to quickly find "
+"and restart active Ediff sessions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:348
+msgid ""
+"When the above functions are invoked, the user is prompted for all the "
+"necessary information---typically the files or buffers to compare, merge, or "
+"patch.  Ediff tries to be smart about these prompts.  For instance, in "
+"comparing/merging files, it will offer the visible buffers as defaults.  In "
+"prompting for files, if the user enters a directory, the previously input "
+"file name will be appended to that directory.  In addition, if the variable "
+"@code{ediff-use-last-dir} is not @code{nil}, Ediff will offer previously "
+"entered directories as defaults (which will be maintained separately for "
+"each type of file, A, B, or C)."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:348 ../../../../../doc/misc/ediff.texi:2275 ../../../../../doc/misc/ediff.texi:2276
+#, no-wrap
+msgid "ediff-use-last-dir"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:355
+msgid ""
+"All the above functions use the POSIX @code{diff} or @code{diff3} programs "
+"to find differences between two files.  They process the @code{diff} output "
+"and display it in a convenient form.  At present, Ediff understands only the "
+"plain output from diff.  Options such as @samp{-c} are not supported, nor is "
+"the format produced by incompatible file comparison programs."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:361
+msgid ""
+"The functions @code{ediff-files}, @code{ediff-buffers}, @code{ediff-files3}, "
+"@code{ediff-buffers3} first display the coarse, line-based difference "
+"regions, as reported by the @code{diff} program.  The total number of "
+"difference regions and the current difference number are always displayed in "
+"the mode line of the control window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:367
+msgid ""
+"Since @code{diff} may report fairly large chunks of text as being different, "
+"even though the difference may be localized to just a few words or even to "
+"the white space or line breaks, Ediff further @emph{refines} the regions to "
+"indicate which exact words differ.  If the only difference is in the white "
+"space and line breaks, Ediff says so."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:371
+msgid ""
+"On a color display, fine differences are highlighted with color; on a "
+"monochrome display, they are underlined.  @xref{Highlighting Difference "
+"Regions}, for information on how to customize this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:379
+msgid ""
+"The commands @code{ediff-windows-wordwise}, @code{ediff-windows-linewise}, "
+"@code{ediff-regions-wordwise} and @code{ediff-regions-linewise} do "
+"comparison on parts of existing Emacs buffers.  The commands "
+"@code{ediff-windows-wordwise} and @code{ediff-regions-wordwise} could be "
+"slow on very large buffers, as they perform comparison on the basis of words "
+"rather than lines.  (Word-wise comparison of large chunks of text is "
+"relatively expensive.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:383
+msgid ""
+"To compare very large regions, use @code{ediff-regions-linewise}.  This "
+"command displays differences much like @code{ediff-files} and "
+"@code{ediff-buffers}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:387
+msgid ""
+"The functions @code{ediff-patch-file} and @code{ediff-patch-buffer} apply a "
+"patch to a file or a buffer and then run Ediff on the appropriate "
+"files/buffers, displaying the difference regions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:392
+msgid ""
+"The entry points @code{ediff-directories}, @code{ediff-merge-directories}, "
+"etc., provide a convenient interface for comparing and merging files in "
+"different directories.  The user is presented with Dired-like interface from "
+"which one can run a group of related Ediff sessions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:400
+msgid ""
+"For files under version control, @code{ediff-revision} lets you compare the "
+"file visited by the current buffer to one of its checked-in versions.  You "
+"can also compare two checked-in versions of the visited file.  Moreover, the "
+"functions @code{ediff-directory-revisions}, "
+"@code{ediff-merge-directory-revisions}, etc., let you run a group of related "
+"Ediff sessions by taking a directory and comparing (or merging)  versions of "
+"files in that directory."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:407
+msgid ""
+"All Ediff commands are displayed in a Quick Help window, unless you type "
+"@kbd{?} to shrink the window to just one line.  You can redisplay the help "
+"window by typing @kbd{?} again.  The Quick Help commands are detailed below."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:415
+msgid ""
+"Many Ediff commands take numeric prefix arguments.  For instance, if you "
+"type a number, say 3, and then @kbd{j} (@code{ediff-jump-to-difference}), "
+"Ediff moves to the third difference region.  Typing 3 and then @kbd{a} "
+"(@code{ediff-diff-to-diff}) copies the 3rd difference region from variant A "
+"to variant B@.  Likewise, 4 followed by @kbd{ra} restores the 4th difference "
+"region in buffer A (if it was previously written over via the command "
+"@kbd{a})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:420
+msgid ""
+"Some commands take negative prefix arguments as well.  For instance, typing "
+"@kbd{-} and then @kbd{j} will make the last difference region current.  "
+"Typing @kbd{-2} then @kbd{j} makes the penultimate difference region "
+"current, etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:424
+msgid ""
+"Without the prefix argument, all commands operate on the currently selected "
+"difference region.  You can make any difference region current using the "
+"various commands explained below."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:428
+msgid ""
+"For some commands, the actual value of the prefix argument is immaterial.  "
+"However, if supplied, the prefix argument may modify the command (see "
+"@kbd{ga}, @kbd{gb}, and @kbd{gc})."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:432 ../../../../../doc/misc/ediff.texi:434 ../../../../../doc/misc/ediff.texi:435
+#, no-wrap
+msgid "Quick Help Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:432
+msgid "Frequently used commands."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:432 ../../../../../doc/misc/ediff.texi:919 ../../../../../doc/misc/ediff.texi:920
+#, no-wrap
+msgid "Other Session Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:432
+msgid "Commands that are not bound to keys."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:436
+#, no-wrap
+msgid "command help"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:437
+#, no-wrap
+msgid "important commands"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:440 ../../../../../doc/misc/ediff.texi:441
+#, no-wrap
+msgid "?"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:443
+msgid "Toggles the Ediff Quick Help window ON and OFF."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:443 ../../../../../doc/misc/ediff.texi:444
+#, no-wrap
+msgid "G"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:446
+msgid ""
+"Prepares a mail buffer for sending a praise or a curse to the Ediff "
+"maintainer."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:447 ../../../../../doc/misc/ediff.texi:448
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:452
+msgid ""
+"Brings up the top node of this manual, where you can find further "
+"information on the various Ediff functions and advanced issues, such as "
+"customization, session groups, etc."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:453 ../../../../../doc/misc/ediff.texi:454
+#, no-wrap
+msgid "v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:457
+msgid ""
+"Scrolls up buffers A and B (and buffer C where appropriate) in a coordinated "
+"fashion."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:457 ../../../../../doc/misc/ediff.texi:458
+#, no-wrap
+msgid "V"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:460
+msgid "Scrolls the buffers down."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:461 ../../../../../doc/misc/ediff.texi:462
+#, no-wrap
+msgid "<"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:464
+msgid "Scrolls the buffers to the left simultaneously."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:464 ../../../../../doc/misc/ediff.texi:465
+#, no-wrap
+msgid ">"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:467
+msgid "Scrolls buffers to the right."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:468 ../../../../../doc/misc/ediff.texi:469
+#, no-wrap
+msgid "wd"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:471
+msgid "Saves the output from the diff utility, for further reference."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:477
+msgid ""
+"With prefix argument, saves the plain output from @code{diff} (see "
+"@code{ediff-diff-program} and @code{ediff-diff-options}).  Without the "
+"argument, it saves customized @code{diff} output (see "
+"@code{ediff-custom-diff-program} and @code{ediff-custom-diff-options}), if "
+"it is available."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:478 ../../../../../doc/misc/ediff.texi:479
+#, no-wrap
+msgid "wa"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:481
+msgid "Saves buffer A, if it was modified."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:481 ../../../../../doc/misc/ediff.texi:482
+#, no-wrap
+msgid "wb"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:484
+msgid "Saves buffer B, if it was modified."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:484 ../../../../../doc/misc/ediff.texi:485
+#, no-wrap
+msgid "wc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:488
+msgid ""
+"Saves buffer C, if it was modified (if you are in a session that compares "
+"three files simultaneously)."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:489 ../../../../../doc/misc/ediff.texi:490
+#, no-wrap
+msgid "a"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:496
+msgid ""
+"@emph{In comparison sessions:} Copies the current difference region (or the "
+"region specified as the prefix to this command) from buffer A to buffer B@.  "
+"Ediff saves the old contents of buffer B's region; it can be restored via "
+"the command @kbd{rb}, which see."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:501
+msgid ""
+"@emph{In merge sessions:} Copies the current difference region (or the "
+"region specified as the prefix to this command) from buffer A to the merge "
+"buffer.  The old contents of this region in buffer C can be restored via the "
+"command @kbd{r}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:502 ../../../../../doc/misc/ediff.texi:503
+#, no-wrap
+msgid "b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:507
+msgid ""
+"Works similarly, but copies the current difference region from buffer B to "
+"buffer A (in @emph{comparison sessions}) or the merge buffer (in @emph{merge "
+"sessions})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:511
+msgid ""
+"Ediff saves the old contents of the difference region copied over; it can be "
+"reinstated via the command @kbd{ra} in comparison sessions and @kbd{r} in "
+"merge sessions."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:512 ../../../../../doc/misc/ediff.texi:513
+#, no-wrap
+msgid "ab"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:519
+msgid ""
+"Copies the current difference region (or the region specified as the prefix "
+"to this command) from buffer A to buffer B@.  This (and the next five)  "
+"command is enabled only in sessions that compare three files "
+"simultaneously.  The old region in buffer B is saved and can be restored via "
+"the command @kbd{rb}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:519 ../../../../../doc/misc/ediff.texi:520
+#, no-wrap
+msgid "ac"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:524
+msgid ""
+"Copies the difference region from buffer A to buffer C@.  The old region in "
+"buffer C is saved and can be restored via the command @kbd{rc}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:524 ../../../../../doc/misc/ediff.texi:525
+#, no-wrap
+msgid "ba"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:529
+msgid ""
+"Copies the difference region from buffer B to buffer A@.  The old region in "
+"buffer A is saved and can be restored via the command @kbd{ra}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:529 ../../../../../doc/misc/ediff.texi:530
+#, no-wrap
+msgid "bc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:533
+msgid ""
+"Copies the difference region from buffer B to buffer C@.  The command "
+"@kbd{rc} undoes this."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:533 ../../../../../doc/misc/ediff.texi:534
+#, no-wrap
+msgid "ca"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:537
+msgid ""
+"Copies the difference region from buffer C to buffer A@.  The command "
+"@kbd{ra} undoes this."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:537 ../../../../../doc/misc/ediff.texi:538
+#, no-wrap
+msgid "cb"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:541
+msgid ""
+"Copies the difference region from buffer C to buffer B@.  The command "
+"@kbd{rb} undoes this."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:542 ../../../../../doc/misc/ediff.texi:544
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:543 ../../../../../doc/misc/ediff.texi:545
+#, no-wrap
+msgid "DEL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:547
+msgid "Makes the previous difference region current."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:547 ../../../../../doc/misc/ediff.texi:549
+#, no-wrap
+msgid "n"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:548 ../../../../../doc/misc/ediff.texi:550
+#, no-wrap
+msgid "SPC"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:552
+msgid "Makes the next difference region current."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:553 ../../../../../doc/misc/ediff.texi:556
+#, no-wrap
+msgid "j"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ediff.texi:554
+#, no-wrap
+msgid "-j"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/ediff.texi:555
+#, no-wrap
+msgid "Nj"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:558
+msgid "Makes the very first difference region current."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:562
+msgid ""
+"@kbd{-j} makes the last region current.  Typing a number, N, and then "
+"@kbd{j} makes the difference region N current.  Typing @minus{}N (a negative "
+"number) then @kbd{j} makes current the region Last @minus{} N."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:563 ../../../../../doc/misc/ediff.texi:564
+#, no-wrap
+msgid "ga"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:567
+msgid ""
+"Makes current the difference region closest to the position of the point in "
+"buffer A."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:575
+msgid ""
+"However, with a prefix argument, Ediff would position all variants around "
+"the area indicated by the current point in buffer A: if the point is inside "
+"a difference region, then the variants will be positioned at this difference "
+"region.  If the point is not in any difference region, then it is in an area "
+"where all variants agree with each other.  In this case, the variants will "
+"be positioned so that each would display this area (of agreement)."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:575 ../../../../../doc/misc/ediff.texi:576
+#, no-wrap
+msgid "gb"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:579
+msgid ""
+"Makes current the difference region closest to the position of the point in "
+"buffer B."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:581
+msgid "With a prefix argument, behaves like @kbd{ga}, but with respect to buffer B."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:581 ../../../../../doc/misc/ediff.texi:582
+#, no-wrap
+msgid "gc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:585
+msgid ""
+"@emph{In merge sessions:} makes current the difference region closest to the "
+"point in the merge buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:588
+msgid ""
+"@emph{In 3-file comparison sessions:} makes current the region closest to "
+"the point in buffer C."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:590
+msgid "With a prefix argument, behaves like @kbd{ga}, but with respect to buffer C."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:591 ../../../../../doc/misc/ediff.texi:592
+#, no-wrap
+msgid "!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:597
+msgid ""
+"Recomputes the difference regions, bringing them up to date.  This is often "
+"needed because it is common to do all sorts of editing during Ediff "
+"sessions, so after a while, the highlighted difference regions may no longer "
+"reflect the actual differences among the buffers."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:598 ../../../../../doc/misc/ediff.texi:599
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:603
+msgid ""
+"Forces refinement of the current difference region, which highlights the "
+"exact words of disagreement among the buffers.  With a negative prefix "
+"argument, unhighlights the current region."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:611
+msgid ""
+"Forceful refinement may be needed if Ediff encounters a difference region "
+"that is larger than @code{ediff-auto-refine-limit}.  In this situation, "
+"Ediff doesn't do automatic refinement in order to improve response time.  "
+"(Ediff doesn't auto-refine on dumb terminals as well, but @kbd{*} still "
+"works there.  However, the only useful piece of information it can tell you "
+"is whether or not the difference regions disagree only in the amount of "
+"white space.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:614
+msgid ""
+"This command is also useful when the highlighted fine differences are no "
+"longer current, due to user editing."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:615 ../../../../../doc/misc/ediff.texi:616
+#, no-wrap
+msgid "m"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:620
+msgid ""
+"Displays the current Ediff session in a frame as wide as the physical "
+"display.  This is useful when comparing files side-by-side.  Typing @kbd{m} "
+"again restores the original size of the frame."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:621 ../../../../../doc/misc/ediff.texi:622
+#, no-wrap
+msgid "|"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:627
+msgid ""
+"Toggles the horizontal/vertical split of the Ediff display.  Horizontal "
+"split is convenient when it is possible to compare files side-by-side.  If "
+"the frame in which files are displayed is too narrow and lines are cut off, "
+"typing @kbd{m} may help some."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:628 ../../../../../doc/misc/ediff.texi:629
+#, no-wrap
+msgid "@@"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:633
+msgid ""
+"Toggles auto-refinement of difference regions (i.e., automatic highlighting "
+"of the exact words that differ among the variants).  Auto-refinement is "
+"turned off on devices where Emacs doesn't support highlighting."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:637
+msgid ""
+"On slow machines, it may be advantageous to turn auto-refinement off.  The "
+"user can always forcefully refine specific difference regions by typing "
+"@kbd{*}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:638 ../../../../../doc/misc/ediff.texi:639
+#, no-wrap
+msgid "h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:643
+msgid ""
+"Cycles between full highlighting, the mode where fine differences are not "
+"highlighted (but computed), and the mode where highlighting is done with "
+"@acronym{ASCII} strings.  The latter is not really recommended, unless on a "
+"dumb TTY."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:644 ../../../../../doc/misc/ediff.texi:645
+#, no-wrap
+msgid "r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:650
+msgid ""
+"Restores the old contents of the region in the merge buffer.  (If you copied "
+"a difference region from buffer A or B into the merge buffer using the "
+"commands @kbd{a} or @kbd{b}, Ediff saves the old contents of the region in "
+"case you change your mind.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:652
+msgid "This command is enabled in merge sessions only."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:653 ../../../../../doc/misc/ediff.texi:654
+#, no-wrap
+msgid "ra"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:659
+msgid ""
+"Restores the old contents of the current difference region in buffer A, "
+"which was previously saved when the user invoked one of these commands: "
+"@kbd{b}, @kbd{ba}, @kbd{ca}, which see.  This command is enabled in "
+"comparison sessions only."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:659 ../../../../../doc/misc/ediff.texi:660
+#, no-wrap
+msgid "rb"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:665
+msgid ""
+"Restores the old contents of the current difference region in buffer B, "
+"which was previously saved when the user invoked one of these commands: "
+"@kbd{a}, @kbd{ab}, @kbd{cb}, which see.  This command is enabled in "
+"comparison sessions only."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:665 ../../../../../doc/misc/ediff.texi:666
+#, no-wrap
+msgid "rc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:671
+msgid ""
+"Restores the old contents of the current difference region in buffer C, "
+"which was previously saved when the user invoked one of these commands: "
+"@kbd{ac}, @kbd{bc}, which see.  This command is enabled in 3-file comparison "
+"sessions only."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:672 ../../../../../doc/misc/ediff.texi:673
+#, no-wrap
+msgid "##"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:676
+msgid ""
+"Tell Ediff to skip over regions that disagree among themselves only in the "
+"amount of white space and line breaks."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:680
+msgid ""
+"Even though such regions will be skipped over, you can still jump to any one "
+"of them by typing the region number and then @kbd{j}.  Typing @kbd{##} again "
+"puts Ediff back in the original state."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:681 ../../../../../doc/misc/ediff.texi:682
+#, no-wrap
+msgid "#c"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:683 ../../../../../doc/misc/ediff.texi:1598
+#, no-wrap
+msgid "ediff-ignore-case-option"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:684 ../../../../../doc/misc/ediff.texi:1599
+#, no-wrap
+msgid "ediff-ignore-case-option3"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:685 ../../../../../doc/misc/ediff.texi:1600
+#, no-wrap
+msgid "ediff-ignore-case"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:690
+msgid ""
+"Toggle case sensitivity in the diff program. All diffs are recomputed.  Case "
+"sensitivity is controlled by the variables @code{ediff-ignore-case-option}, "
+"@code{ediff-ignore-case-option3}, and @code{ediff-ignore-case}, which are "
+"explained elsewhere."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:691 ../../../../../doc/misc/ediff.texi:694
+#, no-wrap
+msgid "#h"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:692 ../../../../../doc/misc/ediff.texi:693
+#, no-wrap
+msgid "#f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:696
+msgid "Ediff works hard to ameliorate the effects of boredom in the workplace..."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:704
+msgid ""
+"Quite often differences are due to identical replacements (e.g., the word "
+"``foo'' is replaced with the word ``bar'' everywhere).  If the number of "
+"regions with such boring differences exceeds your tolerance threshold, you "
+"may be tempted to tell Ediff to skip these regions altogether (you will "
+"still be able to jump to them via the command @kbd{j}).  The above commands, "
+"@kbd{#h} and @kbd{#f}, may well save your day!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:710
+msgid ""
+"@kbd{#h} prompts you to specify regular expressions for each variant.  "
+"Difference regions where each variant's region matches the corresponding "
+"regular expression will be skipped from then on.  (You can also tell Ediff "
+"to skip regions where at least one variant matches its regular expression.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:714
+msgid ""
+"@kbd{#f} does dual job: it focuses on regions that match the corresponding "
+"regular expressions.  All other regions will be skipped over.  "
+"@xref{Selective Browsing}, for more."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:715 ../../../../../doc/misc/ediff.texi:716
+#, no-wrap
+msgid "A"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:720
+msgid ""
+"Toggles the read-only property in buffer A@.  If file A is under version "
+"control and is checked in, it is checked out (with your permission)."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:720 ../../../../../doc/misc/ediff.texi:721
+#, no-wrap
+msgid "B"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:724
+msgid ""
+"Toggles the read-only property in buffer B@.  If file B is under version "
+"control and is checked in, it is checked out."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:724 ../../../../../doc/misc/ediff.texi:725
+#, no-wrap
+msgid "C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:728
+msgid ""
+"Toggles the read-only property in buffer C (in 3-file comparison sessions).  "
+"If file C is under version control and is checked in, it is checked out."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:729 ../../../../../doc/misc/ediff.texi:730
+#, no-wrap
+msgid "~"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:734
+msgid ""
+"Swaps the windows where buffers A and B are displayed.  If you are comparing "
+"three buffers at once, then this command would rotate the windows among "
+"buffers A, B, and C."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:735 ../../../../../doc/misc/ediff.texi:736
+#, no-wrap
+msgid "i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:738
+msgid "Displays all kinds of useful data about the current Ediff session."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:738 ../../../../../doc/misc/ediff.texi:739
+#, no-wrap
+msgid "D"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:743
+msgid ""
+"Runs @code{ediff-custom-diff-program} on the variants and displays the "
+"buffer containing the output.  This is useful when you must send the output "
+"to your Mom."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:746
+msgid ""
+"With a prefix argument, displays the plain @code{diff} output.  @xref{Patch "
+"and Diff Programs}, for details."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:747 ../../../../../doc/misc/ediff.texi:748
+#, no-wrap
+msgid "R"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:752
+msgid ""
+"Displays a list of currently active Ediff sessions---the Ediff Registry.  "
+"You can then restart any of these sessions by either clicking on a session "
+"record or by putting the cursor over it and then typing the return key."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:756
+msgid ""
+"(Some poor souls leave so many active Ediff sessions around that they lose "
+"track of them completely...  The @kbd{R} command is designed to save these "
+"people from the recently discovered Ediff Proficiency Syndrome.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:760
+msgid ""
+"Typing @kbd{R} brings up Ediff Registry only if it is typed into an Ediff "
+"Control Panel.  If you don't have a control panel handy, type this in the "
+"minibuffer: @kbd{M-x eregistry}.  @xref{Registry of Ediff Sessions}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:761 ../../../../../doc/misc/ediff.texi:762
+#, no-wrap
+msgid "M"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:765
+msgid ""
+"Shows the session group buffer that invoked the current Ediff session.  "
+"@xref{Session Groups}, for more information on session groups."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:766 ../../../../../doc/misc/ediff.texi:767
+#, no-wrap
+msgid "z"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:772
+msgid ""
+"Suspends the current Ediff session.  (If you develop a condition known as "
+"Repetitive Ediff Injury---a serious but curable illness---you must change "
+"your current activity.  This command tries hard to hide all Ediff-related "
+"buffers.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:775
+msgid ""
+"The easiest way to resume a suspended Ediff session is through the registry "
+"of active sessions.  @xref{Registry of Ediff Sessions}, for details."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:775 ../../../../../doc/misc/ediff.texi:776
+#, no-wrap
+msgid "q"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:780
+msgid ""
+"Terminates this Ediff session.  With a prefix argument (e.g.,@kbd{1q}), asks "
+"if you also want to delete the buffers of the variants.  Modified files and "
+"the results of merges are never deleted."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:781 ../../../../../doc/misc/ediff.texi:782
+#, no-wrap
+msgid "%"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:786
+msgid ""
+"Toggles narrowing in Ediff buffers.  Ediff buffers may be narrowed if you "
+"are comparing only parts of these buffers via the commands "
+"@code{ediff-windows-*} and @code{ediff-regions-*}, which see."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:787 ../../../../../doc/misc/ediff.texi:788
+#, no-wrap
+msgid "C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:792
+msgid ""
+"Restores the usual Ediff window setup.  This is the quickest way to resume "
+"an Ediff session, but it works only if the control panel of that session is "
+"visible."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:793 ../../../../../doc/misc/ediff.texi:794
+#, no-wrap
+msgid "$$"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:803
+msgid ""
+"While merging with an ancestor file, Ediff is determined to reduce user's "
+"wear and tear by saving him and her much of unproductive, repetitive "
+"typing.  If it notices that, say, file A's difference region is identical to "
+"the same difference region in the ancestor file, then the merge buffer will "
+"automatically get the difference region taken from buffer B@.  The rationale "
+"is that this difference region in buffer A is as old as that in the ancestor "
+"buffer, so the contents of that region in buffer B represents real change."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:808
+msgid ""
+"You may want to ignore such ``obvious'' merges and concentrate on difference "
+"regions where both files ``clash'' with the ancestor, since this means that "
+"two different people have been changing this region independently and they "
+"had different ideas on how to do this."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:812
+msgid ""
+"The above command does this for you by skipping the regions where only one "
+"of the variants clashes with the ancestor but the other variant agrees with "
+"it.  Typing @kbd{$$} again undoes this setting."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:813 ../../../../../doc/misc/ediff.texi:814
+#, no-wrap
+msgid "$*"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:819
+msgid ""
+"When merging files with large number of differences, it is sometimes "
+"convenient to be able to skip the difference regions for which you already "
+"decided which variant is most appropriate. Typing @kbd{$*} will accomplish "
+"precisely this."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:828
+msgid ""
+"To be more precise, this toggles the check for whether the current merge is "
+"identical to its default setting, as originally decided by Ediff.  For "
+"instance, if Ediff is merging according to the ``combined'' policy, then the "
+"merge region is skipped over if it is different from the combination of the "
+"regions in buffers A and B@.  (Warning: swapping buffers A and B will "
+"confuse things in this respect.)  If the merge region is marked as "
+"``prefer-A'' then this region will be skipped if it differs from the current "
+"difference region in buffer A, etc."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:829 ../../../../../doc/misc/ediff.texi:830
+#, no-wrap
+msgid "/"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:831
+#, no-wrap
+msgid "ediff-show-ancestor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:835
+msgid ""
+"Toggle to display the ancestor file in 3way merges.  You can enable "
+"permanently this setting customizing the variable "
+"@code{ediff-show-ancestor}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:835 ../../../../../doc/misc/ediff.texi:836
+#, no-wrap
+msgid "&"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:840
+msgid ""
+"In some situations, such as when one of the files agrees with the ancestor "
+"file on a difference region and the other doesn't, Ediff knows what to do: "
+"it copies the current difference region from the second buffer into the "
+"merge buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:847
+msgid ""
+"In other cases, the right course of action is not that clearcut, and Ediff "
+"would use a default action.  The above command changes the default action.  "
+"The default action can be @samp{default-A} (choose the region from buffer "
+"A), @samp{default-B} (choose the region from buffer B), or @samp{combined} "
+"(combine the regions from the two buffers).  @xref{Merging and diff3}, for "
+"further details."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:854
+msgid ""
+"The command @kbd{&} also affects the regions in the merge buffers that have "
+"@samp{default-A}, @samp{default-B}, or @samp{combined} status, provided they "
+"weren't changed with respect to the original.  For instance, if such a "
+"region has the status @samp{default-A} then changing the default action to "
+"@samp{default-B} will also replace this merge-buffer's region with the "
+"corresponding region from buffer B."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:855 ../../../../../doc/misc/ediff.texi:856
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:860
+msgid ""
+"Causes the merge window shrink to its minimum size, thereby exposing as much "
+"of the variant buffers as possible.  Typing @kbd{s} again restores the "
+"original size of that window."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:866
+msgid ""
+"With a positive prefix argument, this command enlarges the merge window.  "
+"E.g., @kbd{4s} increases the size of the window by about 4 lines, if "
+"possible.  With a negative numeric argument, the size of the merge window "
+"shrinks by that many lines, if possible.  Thus, @kbd{-s} shrinks the window "
+"by about 1 line and @kbd{-3s} by about 3 lines."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:871
+msgid ""
+"This command is intended only for temporary viewing; therefore, Ediff "
+"restores window C to its original size whenever it makes any other change in "
+"the window configuration.  However, redisplaying (@kbd{C-l}) or jumping to "
+"another difference does not affect window C's size."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:874
+msgid ""
+"The split between the merge window and the variant windows is controlled by "
+"the variable @code{ediff-merge-window-share}, which see."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:875 ../../../../../doc/misc/ediff.texi:876
+#, no-wrap
+msgid "+"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:880
+msgid ""
+"Combines the difference regions from buffers A and B and copies the result "
+"into the merge buffer.  @xref{Merging and diff3}, and the variables "
+"@code{ediff-combine-diffs} and @code{ediff-combination-pattern}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/ediff.texi:882 ../../../../../doc/misc/ediff.texi:883
+#, no-wrap
+msgid "="
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:891
+msgid ""
+"You may run into situations when a large chunk of text in one file has been "
+"edited and then moved to a different place in another file.  In such a case, "
+"these two chunks of text are unlikely to belong to the same difference "
+"region, so the refinement feature of Ediff will not be able to tell you what "
+"exactly differs inside these chunks.  Since eyeballing large pieces of text "
+"is contrary to human nature, Ediff has a special command to help reduce the "
+"risk of developing a cataract."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:894
+msgid ""
+"In other situations, the currently highlighted region might be big and you "
+"might want to reconcile of them interactively."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:899
+msgid ""
+"All of this can be done with the above command, @kbd{=}, which compares "
+"regions within Ediff buffers.  Typing @kbd{=} creates a child Ediff session "
+"for comparing regions in buffers A, B, or C as follows."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:904
+msgid ""
+"First, you will be asked whether you want to compare the fine differences "
+"between the currently highlighted buffers on a word-by-word basis. If you "
+"accept, a child Ediff session will start using the currently highlighted "
+"regions. Ediff will let you step over the differences word-wise."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:906
+msgid "If you reject the offer, you will be asked to select regions of your choice."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:909
+msgid ""
+"@emph{If you are comparing 2 files or buffers:} Ediff will ask you to select "
+"regions in buffers A and B."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:912
+msgid ""
+"@emph{If you are comparing 3 files or buffers simultaneously:} Ediff will "
+"ask you to choose buffers and then select regions inside those buffers."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:916
+msgid ""
+"@emph{If you are merging files or buffers (with or without ancestor):} Ediff "
+"will ask you to choose which buffer (A or B) to compare with the merge "
+"buffer and then select regions in those buffers."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:924
+msgid ""
+"The following commands can be invoked from within any Ediff session, "
+"although some of them are not bound to a key."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:937
+msgid ""
+"This command brings up the registry of active Ediff sessions.  Ediff "
+"registry is a device that can be used to resume any active Ediff session "
+"(which may have been postponed because the user switched to some other "
+"activity).  This command is also useful for switching between multiple "
+"active Ediff sessions that are run at the same time.  The function "
+"@code{eregistry} is an alias for @code{ediff-show-registry}.  @xref{Registry "
+"of Ediff Sessions}, for more information on this registry."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:938 ../../../../../doc/misc/ediff.texi:939 ../../../../../doc/misc/ediff.texi:1487
+#, no-wrap
+msgid "ediff-toggle-multiframe"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:945
+msgid ""
+"Changes the display from the multi-frame mode (where the quick help window "
+"is in a separate frame) to the single-frame mode (where all Ediff buffers "
+"share the same frame), and vice versa.  See "
+"@code{ediff-window-setup-function} for details on how to make either of "
+"these modes the default one."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:949
+msgid ""
+"This function can also be invoked from the Menubar.  However, in some cases, "
+"the change will take place only after you execute one of the Ediff commands, "
+"such as going to the next difference or redisplaying."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:950 ../../../../../doc/misc/ediff.texi:951
+#, no-wrap
+msgid "ediff-toggle-use-toolbar"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:957
+msgid ""
+"Available in XEmacs only.  The Ediff toolbar provides quick access to some "
+"of the common Ediff functions.  This function toggles the display of the "
+"toolbar.  If invoked from the menubar, the function may take sometimes "
+"effect only after you execute an Ediff command, such as going to the next "
+"difference."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:958 ../../../../../doc/misc/ediff.texi:959
+#, no-wrap
+msgid "ediff-use-toolbar-p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:964
+msgid ""
+"The use of the toolbar can also be specified via the variable "
+"@code{ediff-use-toolbar-p} (default is @code{t}).  This variable can be set "
+"only in @file{.emacs}: do @strong{not} change it interactively.  Use the "
+"function @code{ediff-toggle-use-toolbar} instead."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:965 ../../../../../doc/misc/ediff.texi:966
+#, no-wrap
+msgid "ediff-revert-buffers-then-recompute-diffs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:972
+msgid ""
+"This command reverts the buffers you are comparing and recomputes their "
+"differences.  It is useful when, after making changes, you decided to make a "
+"fresh start, or if at some point you changed the files being compared but "
+"want to discard any changes to comparison buffers that were done since then."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:975
+msgid ""
+"This command normally asks for confirmation before reverting files.  With a "
+"prefix argument, it reverts files without asking."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:977 ../../../../../doc/misc/ediff.texi:978
+#, no-wrap
+msgid "ediff-profile"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:983
+msgid ""
+"Ediff has an admittedly primitive (but useful) facility for profiling "
+"Ediff's commands.  It is meant for Ediff maintenance---specifically, for "
+"making it run faster.  The function @code{ediff-profile} toggles profiling "
+"of ediff commands."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:991
+msgid ""
+"Ediff maintains a registry of all its invocations that are still "
+"@emph{active}.  This feature is very convenient for switching among active "
+"Ediff sessions or for quickly restarting a suspended Ediff session."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1003
+msgid ""
+"The focal point of this activity is a buffer called @emph{*Ediff "
+"Registry*}.  You can display this buffer by typing @kbd{R} in any Ediff "
+"Control Buffer or Session Group Buffer (@pxref{Session Groups}), or by "
+"typing @kbd{M-x eregistry} into the Minibuffer.  The latter would be the "
+"fastest way to bring up the registry buffer if no control or group buffer is "
+"displayed in any of the visible Emacs windows.  If you are in a habit of "
+"running multiple long Ediff sessions and often need to suspend, resume, or "
+"switch between them, it may be a good idea to have the registry buffer "
+"permanently displayed in a separate, dedicated window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1010
+msgid ""
+"The registry buffer has several convenient key bindings.  For instance, "
+"clicking mouse button 2 or typing @kbd{RET} or @kbd{v} over any session "
+"record resumes that session.  Session records in the registry buffer provide "
+"a fairly complete description of each session, so it is usually easy to "
+"identify the right session to resume."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1015
+msgid ""
+"Other useful commands are bound to @kbd{SPC} (next registry record)  and "
+"@kbd{DEL} (previous registry record).  There are other commands as well, but "
+"you don't need to memorize them, since they are listed at the top of the "
+"registry buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1033
+msgid ""
+"Several major entries of Ediff perform comparison and merging on "
+"directories.  On entering @code{ediff-directories}, "
+"@code{ediff-directories3}, @code{ediff-merge-directories}, "
+"@code{ediff-merge-directories-with-ancestor}, "
+"@code{ediff-directory-revisions}, @code{ediff-merge-directory-revisions}, or "
+"@code{ediff-merge-directory-revisions-with-ancestor}, the user is presented "
+"with a Dired-like buffer that lists files common to the directories involved "
+"along with their sizes.  (The list of common files can be further filtered "
+"through a regular expression, which the user is prompted for.)  We call this "
+"buffer @emph{Session Group Panel} because all Ediff sessions associated with "
+"the listed files will have this buffer as a common focal point."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1039
+msgid ""
+"Clicking button 2 or typing @kbd{RET} or @kbd{v} over a record describing "
+"files invokes Ediff in the appropriate mode on these files.  You can come "
+"back to the session group buffer associated with a particular invocation of "
+"Ediff by typing @kbd{M} in Ediff control buffer of that invocation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1044
+msgid ""
+"Many commands are available in the session group buffer; some are applicable "
+"only to certain types of work.  The relevant commands are always listed at "
+"the top of each session group buffer, so there is no need to memorize them."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1051
+msgid ""
+"In directory comparison or merging, a session group panel displays only the "
+"files common to all directories involved.  The differences are kept in a "
+"separate @emph{directory difference buffer} and are conveniently displayed "
+"by typing @kbd{D} to the corresponding session group panel.  Thus, as an "
+"added benefit, Ediff can be used to compare the contents of up to three "
+"directories."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:1052
+#, no-wrap
+msgid "Directory difference buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1061
+msgid ""
+"Sometimes it is desirable to copy some files from one directory to another "
+"without exiting Ediff. The @emph{directory difference buffer}, which is "
+"displayed by typing @kbd{D} as discussed above, can be used for this "
+"purpose. If a file is, say, in Ediff's Directory A, but is missing in "
+"Ediff's Directory B (Ediff will refuse to override existing files), then "
+"typing @kbd{C} or clicking mouse button 2 over that file (which must be "
+"displayed in directory difference buffer) will copy that file from Directory "
+"A to Directory B."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1064
+msgid ""
+"Session records in session group panels are also marked with @kbd{+}, for "
+"active sessions, and with @kbd{-}, for finished sessions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1074
+msgid ""
+"Sometimes, it is convenient to exclude certain sessions from a group.  "
+"Usually this happens when the user doesn't intend to run Ediff of certain "
+"files in the group, and the corresponding session records just add clutter "
+"to the session group buffer.  To help alleviate this problem, the user can "
+"type @kbd{h} to mark a session as a candidate for exclusion and @kbd{x} to "
+"actually hide the marked sessions.  There actions are reversible: with a "
+"prefix argument, @kbd{h} unmarks the session under the cursor, and @kbd{x} "
+"brings the hidden sessions into the view (@kbd{x} doesn't unmark them, "
+"though, so the user has to explicitly unmark the sessions of interest)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1078
+msgid ""
+"Group sessions also understand the command @kbd{m}, which marks sessions for "
+"future operations (other than hiding) on a group of sessions.  At present, "
+"the only such group-level operation is the creation of a multi-file patch."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1079 ../../../../../doc/misc/ediff.texi:1271 ../../../../../doc/misc/ediff.texi:2138
+#, no-wrap
+msgid "ediff-autostore-merges"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1092
+msgid ""
+"For group sessions created to merge files, Ediff can store all merges "
+"automatically in a directory.  The user is asked to specify such directory "
+"if the value of @code{ediff-autostore-merges} is non-@code{nil}.  If the "
+"value is @code{nil}, nothing is done to the merge buffers---it will be the "
+"user's responsibility to save them.  If the value is @code{t}, the user will "
+"be asked where to save the merge buffers in all merge jobs, even those that "
+"do not originate from a session group.  It the value is neither @code{nil} "
+"nor @code{t}, the merge buffer is saved @emph{only} if this merge session "
+"was invoked from a session group.  This behavior is implemented in the "
+"function @code{ediff-maybe-save-and-delete-merge}, which is a hook in "
+"@code{ediff-quit-merge-hook}.  The user can supply a different hook, if "
+"necessary."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1096
+msgid ""
+"The variable @code{ediff-autostore-merges} is buffer-local, so it can be set "
+"on a per-buffer basis.  Therefore, use @code{setq-default} to change this "
+"variable globally."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ediff.texi:1097
+#, no-wrap
+msgid "Multi-file patches"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1113
+msgid ""
+"A multi-file patch is a concatenated output of several runs of the Unix "
+"@code{diff} command (some versions of @code{diff} let you create a "
+"multi-file patch in just one run).  Ediff facilitates creation of multi-file "
+"patches as follows.  If you are in a session group buffer created in "
+"response to @code{ediff-directories} or @code{ediff-directory-revisions}, "
+"you can mark (by typing @kbd{m}) the desired Ediff sessions and then type "
+"@kbd{P} to create a multi-file patch of those marked sessions.  Ediff will "
+"then display a buffer containing the patch.  The patch is generated by "
+"invoking @code{diff} on all marked individual sessions (represented by "
+"files) and session groups (represented by directories).  Ediff will also "
+"recursively descend into any @emph{unmarked} session group and will search "
+"for marked sessions there.  In this way, you can create multi-file patches "
+"that span file subtrees that grow out of any given directory."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1120
+msgid ""
+"In an @code{ediff-directories} session, it is enough to just mark the "
+"requisite sessions.  In @code{ediff-directory-revisions} revisions, the "
+"marked sessions must also be active, or else Ediff will refuse to produce a "
+"multi-file patch.  This is because, in the latter-style sessions, there are "
+"many ways to create diff output, and it is easier to handle by running Ediff "
+"on the inactive sessions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1127
+msgid ""
+"Last, but not least, by typing @kbd{==}, you can quickly find out which "
+"sessions have identical entries, so you won't have to run Ediff on those "
+"sessions.  This, however, works only on local, uncompressed files.  For "
+"compressed or remote files, this command won't report anything.  Likewise, "
+"you can use @kbd{=h} to mark sessions with identical entries for hiding or, "
+"with @kbd{=m}, for further operations."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1132
+msgid ""
+"The comparison operations @kbd{==}, @kbd{=h}, and @kbd{=m} can recurse into "
+"subdirectories to see if they have identical contents (so the user will not "
+"need to descend into those subdirectories manually). These commands ask the "
+"user whether or not to do a recursive descent."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1144
+msgid ""
+"Ediff works with remote, compressed, and encrypted files.  Ediff supports "
+"@file{ange-ftp.el}, @file{jka-compr.el}, @file{uncompress.el} and "
+"@file{crypt++.el}, but it may work with other similar packages as well.  "
+"This means that you can compare files residing on another machine, or you "
+"can apply a patch to a file on another machine.  Even the patch itself can "
+"be a remote file!"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1152
+msgid ""
+"When patching compressed or remote files, Ediff does not rename the source "
+"file (unlike what the @code{patch} utility would usually do).  Instead, the "
+"source file retains its name and the result of applying the patch is placed "
+"in a temporary file that has the suffix @file{_patched} attached.  "
+"Generally, this applies to files that are handled using black magic, such as "
+"special file name handlers (ange-ftp and some compression and encryption "
+"packages also use this method)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1157
+msgid ""
+"Regular files are treated by the @code{patch} utility in the usual manner, "
+"i.e., the original is renamed into @file{source-name.orig} and the result of "
+"the patch is placed into the file source-name (@file{_orig} is used on "
+"systems like DOS, etc.)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1164
+msgid ""
+"Ediff has a rather self-explanatory interface, and in most cases you won't "
+"need to change anything.  However, should the need arise, there are "
+"extensive facilities for changing the default behavior."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1169
+msgid ""
+"Most of the customization can be done by setting various variables in the "
+"@file{.emacs} file.  Some customization (mostly window-related customization "
+"and faces) can be done by putting appropriate lines in @file{.Xdefaults}, "
+"@file{.xrdb}, or whatever X resource file is in use."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1175
+msgid ""
+"With respect to the latter, please note that the X resource for Ediff "
+"customization is ``Ediff'', @emph{not} ``emacs''.  @xref{Window and Frame "
+"Configuration}, @xref{Highlighting Difference Regions}, for further "
+"details.  Please also refer to Emacs manual for the information on how to "
+"set Emacs X resources."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1194 ../../../../../doc/misc/ediff.texi:1195
+#, no-wrap
+msgid "Hooks"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Customization via the hooks."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1345 ../../../../../doc/misc/ediff.texi:1346
+#, no-wrap
+msgid "Quick Help Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "How to customize Ediff's quick help feature."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1369 ../../../../../doc/misc/ediff.texi:1370
+#, no-wrap
+msgid "Window and Frame Configuration"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Controlling the way Ediff displays things."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1506 ../../../../../doc/misc/ediff.texi:1507
+#, no-wrap
+msgid "Selective Browsing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Advanced browsing through difference regions."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1621 ../../../../../doc/misc/ediff.texi:1622
+#, no-wrap
+msgid "Highlighting Difference Regions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Controlling highlighting."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1748 ../../../../../doc/misc/ediff.texi:1749
+#, no-wrap
+msgid "Narrowing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Comparing regions, windows, etc."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1780 ../../../../../doc/misc/ediff.texi:1781
+#, no-wrap
+msgid "Refinement of Difference Regions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "How to control the refinement process."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1852 ../../../../../doc/misc/ediff.texi:1853
+#, no-wrap
+msgid "Patch and Diff Programs"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Changing the utilities that compute differences and apply patches."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:1961 ../../../../../doc/misc/ediff.texi:1962
+#, no-wrap
+msgid "Merging and diff3"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "How to customize Ediff in its Merge Mode."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:2165 ../../../../../doc/misc/ediff.texi:2166
+#, no-wrap
+msgid "Support for Version Control"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Changing the version control package.  You are not likely to do that."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:2210 ../../../../../doc/misc/ediff.texi:2211
+#, no-wrap
+msgid "Customizing the Mode Line"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Changing the look of the mode line in Ediff."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:2229 ../../../../../doc/misc/ediff.texi:2230
+#, no-wrap
+msgid "Miscellaneous"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Other customization."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ediff.texi:1192 ../../../../../doc/misc/ediff.texi:2346 ../../../../../doc/misc/ediff.texi:2347
+#, no-wrap
+msgid "Notes on Heavy-duty Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ediff.texi:1192
+msgid "Customization for the gurus."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1198
+msgid "The bulk of customization can be done via the following hooks:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1200 ../../../../../doc/misc/ediff.texi:1201
+#, no-wrap
+msgid "ediff-load-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1203
+msgid "This hook can be used to change defaults after Ediff is loaded."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1204 ../../../../../doc/misc/ediff.texi:1205
+#, no-wrap
+msgid "ediff-before-setup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1208
+msgid ""
+"Hook that is run just before Ediff rearranges windows to its liking.  Can be "
+"used to save windows configuration."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1209 ../../../../../doc/misc/ediff.texi:1210
+#, no-wrap
+msgid "ediff-keymap-setup-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1211
+#, no-wrap
+msgid "ediff-mode-map"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1218
+msgid ""
+"This hook can be used to alter bindings in Ediff's keymap, "
+"@code{ediff-mode-map}.  These hooks are run right after the default bindings "
+"are set but before @code{ediff-load-hook}.  The regular user needs not be "
+"concerned with this hook---it is provided for implementers of other Emacs "
+"packages built on top of Ediff."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1219 ../../../../../doc/misc/ediff.texi:1221
+#, no-wrap
+msgid "ediff-before-setup-windows-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1220 ../../../../../doc/misc/ediff.texi:1222
+#, no-wrap
+msgid "ediff-after-setup-windows-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1227
+msgid ""
+"These two hooks are called before and after Ediff sets up its window "
+"configuration.  These hooks are run each time Ediff rearranges windows to "
+"its liking. This happens whenever it detects that the user changed the "
+"windows setup."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1228 ../../../../../doc/misc/ediff.texi:1230
+#, no-wrap
+msgid "ediff-suspend-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1229 ../../../../../doc/misc/ediff.texi:1231
+#, no-wrap
+msgid "ediff-quit-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1235
+msgid ""
+"These two hooks are run when you suspend or quit Ediff.  They can be used to "
+"set desired window configurations, delete files Ediff didn't want to clean "
+"up after exiting, etc."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1240
+msgid ""
+"By default, @code{ediff-quit-hook} holds one hook function, "
+"@code{ediff-cleanup-mess}, which cleans after Ediff, as appropriate in most "
+"cases.  You probably won't want to change it, but you might want to add "
+"other hook functions."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1248
+msgid ""
+"Keep in mind that hooks executing before @code{ediff-cleanup-mess} start in "
+"@code{ediff-control-buffer;} they should also leave "
+"@code{ediff-control-buffer} as the current buffer when they finish.  Hooks "
+"that are executed after @code{ediff-cleanup-mess} should expect the current "
+"buffer be either buffer A or buffer B@.  @code{ediff-cleanup-mess} doesn't "
+"kill the buffers being compared or merged (see @code{ediff-cleanup-hook}, "
+"below)."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1249 ../../../../../doc/misc/ediff.texi:1250
+#, no-wrap
+msgid "ediff-cleanup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1255
+msgid ""
+"This hook is run just before @code{ediff-quit-hook}.  This is a good place "
+"to do various cleanups, such as deleting the variant buffers.  Ediff "
+"provides a helper function, @code{ediff-janitor}, that you can invoke from a "
+"private hook function.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:1260
+#, no-wrap
+msgid ""
+"(defun my-ediff-janitor ()\n"
+"  (ediff-janitor nil nil))\n"
+"(add-hook 'ediff-cleanup-hook #'my-ediff-janitor)\n"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1262
+#, no-wrap
+msgid "ediff-janitor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1268
+msgid ""
+"This function kills buffers A, B, and, possibly, C, if these buffers aren't "
+"modified.  In merge jobs, buffer C is never deleted.  However, the side "
+"effect of using this function is that you may not be able to compare the "
+"same buffer in two separate Ediff sessions: quitting one of them will delete "
+"this buffer in another session as well."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1269 ../../../../../doc/misc/ediff.texi:1270 ../../../../../doc/misc/ediff.texi:2139
+#, no-wrap
+msgid "ediff-quit-merge-hook"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1272 ../../../../../doc/misc/ediff.texi:2140
+#, no-wrap
+msgid "ediff-maybe-save-and-delete-merge"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1277
+msgid ""
+"This hook is called when Ediff quits a merge job.  By default, the value is "
+"@code{ediff-maybe-save-and-delete-merge}, which is a function that attempts "
+"to save the merge buffer according to the value of "
+"@code{ediff-autostore-merges}, as described later."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1278 ../../../../../doc/misc/ediff.texi:1280
+#, no-wrap
+msgid "ediff-before-setup-control-frame-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1279 ../../../../../doc/misc/ediff.texi:1281
+#, no-wrap
+msgid "ediff-after-setup-control-frame-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1290
+msgid ""
+"These two hooks run before and after Ediff sets up the control frame.  They "
+"can be used to relocate Ediff control frame when Ediff runs in a multiframe "
+"mode (i.e., when the control buffer is in its own dedicated frame).  Be "
+"aware that many variables that drive Ediff are local to Ediff Control Panel "
+"(@code{ediff-control-buffer}), which requires special care in writing these "
+"hooks.  Take a look at @code{ediff-default-suspend-hook} and "
+"@code{ediff-default-quit-hook} to see what's involved."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1291 ../../../../../doc/misc/ediff.texi:1292 ../../../../../doc/misc/ediff.texi:1349 ../../../../../doc/misc/ediff.texi:2372
+#, no-wrap
+msgid "ediff-startup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1294
+msgid "This hook is run at the end of Ediff startup."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1295 ../../../../../doc/misc/ediff.texi:1296
+#, no-wrap
+msgid "ediff-select-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1298
+msgid "This hook is run after Ediff selects the next difference region."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1299 ../../../../../doc/misc/ediff.texi:1300
+#, no-wrap
+msgid "ediff-unselect-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1302
+msgid "This hook is run after Ediff unselects the current difference region."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1303 ../../../../../doc/misc/ediff.texi:1304 ../../../../../doc/misc/ediff.texi:2225
+#, no-wrap
+msgid "ediff-prepare-buffer-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1307
+msgid ""
+"This hook is run for each Ediff buffer (A, B, C) right after the buffer is "
+"arranged."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1308 ../../../../../doc/misc/ediff.texi:1309
+#, no-wrap
+msgid "ediff-display-help-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1313
+msgid ""
+"Ediff runs this hook each time after setting up the help message.  It can be "
+"used to alter the help message for custom packages that run on top of Ediff."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1314 ../../../../../doc/misc/ediff.texi:1315
+#, no-wrap
+msgid "ediff-mode-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1319
+msgid ""
+"This hook is run just after Ediff mode is set up in the control buffer.  "
+"This is done before any Ediff window is created.  You can use it to set "
+"local variables that alter the look of the display."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1320 ../../../../../doc/misc/ediff.texi:1321
+#, no-wrap
+msgid "ediff-registry-setup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1324
+msgid ""
+"Hooks run after setting up the registry for all active Ediff session.  "
+"@xref{Session Groups}, for details."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1324 ../../../../../doc/misc/ediff.texi:1325
+#, no-wrap
+msgid "ediff-before-session-group-setup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1329
+msgid ""
+"Hooks run before setting up a control panel for a group of related Ediff "
+"sessions. Can be used, for example, to save window configuration to restore "
+"later."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1329 ../../../../../doc/misc/ediff.texi:1330
+#, no-wrap
+msgid "ediff-after-session-group-setup-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1333
+msgid ""
+"Hooks run after setting up a control panel for a group of related Ediff "
+"sessions.  @xref{Session Groups}, for details."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1333 ../../../../../doc/misc/ediff.texi:1334
+#, no-wrap
+msgid "ediff-quit-session-group-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1336
+msgid "Hooks run just before exiting a session group."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1336 ../../../../../doc/misc/ediff.texi:1337
+#, no-wrap
+msgid "ediff-meta-buffer-keymap-setup-hook"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1338
+#, no-wrap
+msgid "ediff-meta-buffer-map"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1343
+msgid ""
+"Hooks run just after setting up the @code{ediff-meta-buffer-map}, the map "
+"that controls key bindings in the meta buffer.  Since "
+"@code{ediff-meta-buffer-map} is a local variable, you can set different "
+"bindings for different kinds of meta buffers."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1347
+#, no-wrap
+msgid "ediff-use-long-help-message"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1348
+#, no-wrap
+msgid "ediff-control-buffer"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1350
+#, no-wrap
+msgid "ediff-help-message"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1356
+msgid ""
+"Ediff provides quick help using its control panel window.  Since this window "
+"takes a fair share of the screen real estate, you can toggle it off by "
+"typing @kbd{?}.  The control window will then shrink to just one line and a "
+"mode line, displaying a short help message."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1363
+msgid ""
+"The variable @code{ediff-use-long-help-message} tells Ediff whether you use "
+"the short message or the long one.  By default, it is set to @code{nil}, "
+"meaning that the short message is used.  Set this to @code{t}, if you want "
+"Ediff to use the long message by default.  This property can always be "
+"changed interactively, by typing @kbd{?} into Ediff Control Buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1368
+msgid ""
+"If you want to change the appearance of the help message on a per-buffer "
+"basis, you must use @code{ediff-startup-hook} to change the value of the "
+"variable @code{ediff-help-message}, which is local to "
+"@code{ediff-control-buffer}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1377
+msgid ""
+"On a non-windowing display, Ediff sets things up in one frame, splitting it "
+"between a small control window and the windows for buffers A, B, and C@.  "
+"The split between these windows can be horizontal or vertical, which can be "
+"changed interactively by typing @kbd{|} while the cursor is in the control "
+"window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1387
+msgid ""
+"On a window display, Ediff sets up a dedicated frame for Ediff Control Panel "
+"and then it chooses windows as follows: If one of the buffers is invisible, "
+"it is displayed in the currently selected frame.  If a buffer is visible, it "
+"is displayed in the frame where it is visible.  If, according to the above "
+"criteria, the two buffers fall into the same frame, then so be it---the "
+"frame will be shared by the two.  The same algorithm works when you type "
+"@kbd{C-l} (@code{ediff-recenter}), @kbd{p} "
+"(@code{ediff-previous-difference}), @kbd{n} (@code{ediff-next-difference}), "
+"etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1391
+msgid ""
+"The above behavior also depends on whether the current frame is splittable, "
+"dedicated, etc.  Unfortunately, the margin of this book is too narrow to "
+"present the details of this remarkable algorithm."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1397
+msgid ""
+"The upshot of all this is that you can compare buffers in one frame or in "
+"different frames.  The former is done by default, while the latter can be "
+"achieved by arranging buffers A, B (and C, if applicable) to be seen in "
+"different frames.  Ediff respects these arrangements, automatically adapting "
+"itself to the multi-frame mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1400
+msgid ""
+"Ediff uses the following variables to set up its control panel (a.k.a.@: "
+"``control buffer'', a.k.a.@: ``quick help window''):"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1402 ../../../../../doc/misc/ediff.texi:1403
+#, no-wrap
+msgid "ediff-control-frame-parameters"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1412
+msgid ""
+"You can change or augment this variable including the font, color, etc.  The "
+"X resource name of Ediff Control Panel frames is @samp{Ediff}.  Under "
+"X-windows, you can use this name to set up preferences in your "
+"@file{~/.Xdefaults}, @file{~/.xrdb}, or whatever X resource file is in use.  "
+"Usually this is preferable to changing @code{ediff-control-frame-parameters} "
+"directly.  For instance, you can specify in @file{~/.Xdefaults} the color of "
+"the control frame using the resource @samp{Ediff*background}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1415
+msgid ""
+"In general, any X resource pertaining the control frame can be reached via "
+"the prefix @code{Ediff*}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1416 ../../../../../doc/misc/ediff.texi:1417
+#, no-wrap
+msgid "ediff-control-frame-position-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1424
+msgid ""
+"The preferred way of specifying the position of the control frame is by "
+"setting the variable @code{ediff-control-frame-position-function} to an "
+"appropriate function.  The default value of this variable is "
+"@code{ediff-make-frame-position}.  This function places the control frame in "
+"the vicinity of the North-East corner of the frame displaying buffer A."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1425
+#, no-wrap
+msgid "ediff-make-frame-position"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1430
+msgid ""
+"The following variables can be used to adjust the location produced by "
+"@code{ediff-make-frame-position} and for related customization."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1432 ../../../../../doc/misc/ediff.texi:1433
+#, no-wrap
+msgid "ediff-narrow-control-frame-leftward-shift"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1437
+msgid ""
+"Specifies the number of characters for shifting the control frame from the "
+"rightmost edge of frame A when the control frame is displayed as a small "
+"window."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1438 ../../../../../doc/misc/ediff.texi:1439
+#, no-wrap
+msgid "ediff-wide-control-frame-rightward-shift"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1443
+msgid ""
+"Specifies the rightward shift of the control frame from the left edge of "
+"frame A when the control frame shows the full menu of options."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1444 ../../../../../doc/misc/ediff.texi:1445
+#, no-wrap
+msgid "ediff-control-frame-upward-shift"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1448
+msgid "Specifies the number of pixels for the upward shift of the control frame."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1449 ../../../../../doc/misc/ediff.texi:1450
+#, no-wrap
+msgid "ediff-prefer-iconified-control-frame"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1455
+msgid ""
+"If this variable is @code{t}, the control frame becomes iconified "
+"automatically when you toggle the quick help message off.  This saves "
+"valuable real estate on the screen.  Toggling help back will deiconify the "
+"control frame."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1461
+msgid ""
+"To start Ediff with an iconified Control Panel, you should set this variable "
+"to @code{t} and @code{ediff-prefer-long-help-message} to @code{nil} "
+"(@pxref{Quick Help Customization}).  This behavior is useful only if icons "
+"are allowed to accept keyboard input (which depends on the window manager "
+"and other factors)."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1463
+#, no-wrap
+msgid "ediff-setup-windows"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1471
+msgid ""
+"To make more creative changes in the way Ediff sets up windows, you can "
+"rewrite the function @code{ediff-setup-windows}.  However, we believe that "
+"detaching Ediff Control Panel from the rest and making it into a separate "
+"frame offers an important opportunity by allowing you to iconify that "
+"frame.  The icon will usually accept all of the Ediff commands, but will "
+"free up valuable real estate on your screen (this may depend on your window "
+"manager, though)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1473
+msgid "The following variable controls how windows are set up:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1475 ../../../../../doc/misc/ediff.texi:1476
+#, no-wrap
+msgid "ediff-window-setup-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1485
+msgid ""
+"The multiframe setup is done by the @code{ediff-setup-windows-multiframe} "
+"function, which is the default on windowing displays.  The plain setup, one "
+"where all windows are always in one frame, is done by "
+"@code{ediff-setup-windows-plain}, which is the default on a non-windowing "
+"display (or in an xterm window).  In fact, under Emacs, you can switch "
+"freely between these two setups by executing the command "
+"@code{ediff-toggle-multiframe} using the Minibuffer of the Menubar."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1485
+#, no-wrap
+msgid "ediff-setup-windows-multiframe"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1486
+#, no-wrap
+msgid "ediff-setup-windows-plain"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1494
+msgid ""
+"If you don't like any of these setups, write your own function.  See the "
+"documentation for @code{ediff-window-setup-function} for the basic "
+"guidelines.  However, writing window setups is not easy, so you should first "
+"take a close look at @code{ediff-setup-windows-plain} and "
+"@code{ediff-setup-windows-multiframe}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1499
+msgid ""
+"You can run multiple Ediff sessions at once, by invoking Ediff several times "
+"without exiting previous Ediff sessions.  Different sessions may even "
+"operate on the same pair of files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1505
+msgid ""
+"Each session has its own Ediff Control Panel and all the regarding a "
+"particular session is local to the associated control panel buffer.  You can "
+"switch between sessions by suspending one session and then switching to "
+"another control panel.  (Different control panel buffers are distinguished "
+"by a numerical suffix, e.g., @samp{Ediff Control Panel<3>}.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1513
+msgid ""
+"Sometimes it is convenient to be able to step through only some difference "
+"regions, those that match certain regular expressions, and to ignore all "
+"others.  On other occasions, you may want to ignore difference regions that "
+"match some regular expressions, and to look only at the rest."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1515
+msgid "The commands @kbd{#f} and @kbd{#h} let you do precisely this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1524
+msgid ""
+"Typing @kbd{#f} lets you specify regular expressions that match difference "
+"regions you want to focus on.  We shall call these regular expressions "
+"@var{regexp-A}, @var{regexp-B} and @var{regexp-C}.  Ediff will then start "
+"stepping through only those difference regions where the region in buffer A "
+"matches @var{regexp-A} and/or the region in buffer B matches @var{regexp-B}, "
+"etc.  Whether ``and'' or ``or'' will be used depends on how you respond to a "
+"question."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1529
+msgid ""
+"When scanning difference regions for the aforesaid regular expressions, "
+"Ediff narrows the buffers to those regions.  This means that you can use the "
+"expressions @kbd{\\`} and @kbd{\\'} to tie search to the beginning or end of "
+"the difference regions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1537
+msgid ""
+"On the other hand, typing @kbd{#h} lets you specify (hide) uninteresting "
+"regions.  That is, if a difference region in buffer A matches "
+"@var{regexp-A}, the corresponding region in buffer B matches @var{regexp-B} "
+"and (if applicable) buffer C's region matches @var{regexp-C}, then the "
+"region will be ignored by the commands @kbd{n}/@key{SPC} "
+"(@code{ediff-next-difference}) and @kbd{p}/@key{DEL} "
+"(@code{ediff-previous-difference}) commands."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1539
+msgid "Typing @kbd{#f} and @kbd{#h} toggles selective browsing on and off."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1546
+msgid ""
+"Note that selective browsing affects only @code{ediff-next-difference} and "
+"@code{ediff-previous-difference}, i.e., the commands @kbd{n}/@key{SPC} and "
+"@kbd{p}/@key{DEL}.  @kbd{#f} and @kbd{#h} do not change the position of the "
+"point in the buffers.  And you can still jump directly (using @kbd{j})  to "
+"any numbered difference."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1550
+msgid ""
+"Users can supply their own functions to specify how Ediff should do "
+"selective browsing.  To change the default Ediff function, add a function to "
+"@code{ediff-load-hook} which will do the following assignments:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:1554
+#, no-wrap
+msgid ""
+"(setq ediff-hide-regexp-matches-function 'your-hide-function)\n"
+"(setq ediff-focus-on-regexp-matches-function 'your-focus-function)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1561
+msgid ""
+"@strong{Useful hint}: To specify a regexp that matches everything, don't "
+"simply type @key{RET} in response to a prompt.  Typing @key{RET} tells Ediff "
+"to accept the default value, which may not be what you want.  Instead, you "
+"should enter something like @kbd{^} or @kbd{$}.  These match every line."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1564
+msgid ""
+"You can use the status command, @kbd{i}, to find out whether selective "
+"browsing is currently in effect."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1571
+msgid ""
+"The regular expressions you specified are kept in the local variables "
+"@code{ediff-regexp-focus-A}, @code{ediff-regexp-focus-B}, "
+"@code{ediff-regexp-focus-C}, @code{ediff-regexp-hide-A}, "
+"@code{ediff-regexp-hide-B}, @code{ediff-regexp-hide-C}.  Their default value "
+"is the empty string (i.e., nothing is hidden or focused on).  To change the "
+"default, set these variables in @file{.emacs} using @code{setq-default}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1576
+msgid ""
+"In addition to the ability to ignore regions that match regular expressions, "
+"Ediff can be ordered to start skipping over certain ``uninteresting'' "
+"difference regions.  This is controlled by the following variable:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1578 ../../../../../doc/misc/ediff.texi:1579
+#, no-wrap
+msgid "ediff-ignore-similar-regions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1584
+msgid ""
+"If @code{t}, causes Ediff to skip over \"uninteresting\" difference regions, "
+"which are the regions where the variants differ only in the amount of the "
+"white space and newlines.  This feature can be toggled on/off interactively, "
+"via the command @kbd{##}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1592
+msgid ""
+"@strong{Please note:} in order for this feature to work, auto-refining of "
+"difference regions must be on, since otherwise Ediff won't know if there are "
+"fine differences between regions.  On devices where Emacs can display faces, "
+"auto-refining is a default, but it is not turned on by default on text-only "
+"terminals.  In that case, you must explicitly turn auto-refining on (such "
+"as, by typing @kbd{@@})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1597
+msgid ""
+"@strong{Reassurance:} If many such uninteresting regions appear in a row, "
+"Ediff may take a long time to skip over them because it has to compute fine "
+"differences of all intermediate regions.  This delay does not indicate any "
+"problem."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1605
+msgid ""
+"Finally, Ediff can be told to ignore the case of the letters. This behavior "
+"can be toggled with @kbd{#c} and it is controlled with three variables: "
+"@code{ediff-ignore-case-option}, @code{ediff-ignore-case-option3}, and "
+"@code{ediff-ignore-case}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1613
+msgid ""
+"The variable @code{ediff-ignore-case-option} specifies the option to pass to "
+"the diff program for comparing two files or buffers. For GNU @code{diff}, "
+"this option is @code{\"-i\"}. The variable @code{ediff-ignore-case-option3} "
+"specifies the option to pass to the @code{diff3} program in order to make it "
+"case-insensitive. GNU @code{diff3} does not have such an option, so when "
+"merging or comparing three files with this program, ignoring the letter case "
+"is not supported."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1617
+msgid ""
+"The variable @code{ediff-ignore-case} controls whether Ediff starts out by "
+"ignoring letter case or not. It can be set in @file{.emacs} using "
+"@code{setq-default}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1620
+msgid "When case sensitivity is toggled, all difference regions are recomputed."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1626
+msgid "The following variables control the way Ediff highlights difference regions:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1628 ../../../../../doc/misc/ediff.texi:1632
+#, no-wrap
+msgid "ediff-before-flag-bol"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1629 ../../../../../doc/misc/ediff.texi:1633
+#, no-wrap
+msgid "ediff-after-flag-eol"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1630 ../../../../../doc/misc/ediff.texi:1634
+#, no-wrap
+msgid "ediff-before-flag-mol"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1631 ../../../../../doc/misc/ediff.texi:1635
+#, no-wrap
+msgid "ediff-after-flag-mol"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1640
+msgid ""
+"These variables hold strings that Ediff uses to mark the beginning and the "
+"end of the differences found in files A, B, and C on devices where Emacs "
+"cannot display faces.  Ediff uses different flags to highlight regions that "
+"begin/end at the beginning/end of a line or in a middle of a line."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1641 ../../../../../doc/misc/ediff.texi:1644
+#, no-wrap
+msgid "ediff-current-diff-face-A"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1642 ../../../../../doc/misc/ediff.texi:1645
+#, no-wrap
+msgid "ediff-current-diff-face-B"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1643 ../../../../../doc/misc/ediff.texi:1646
+#, no-wrap
+msgid "ediff-current-diff-face-C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1652
+msgid ""
+"Ediff uses these faces to highlight current differences on devices where "
+"Emacs can display faces.  These and subsequently described faces can be set "
+"either in @file{.emacs} or in @file{.Xdefaults}.  The X resource for Ediff "
+"is @samp{Ediff}, @emph{not} @samp{emacs}.  Please refer to Emacs manual for "
+"the information on how to set X resources."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1652 ../../../../../doc/misc/ediff.texi:1655
+#, no-wrap
+msgid "ediff-fine-diff-face-A"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1653 ../../../../../doc/misc/ediff.texi:1656
+#, no-wrap
+msgid "ediff-fine-diff-face-B"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1654 ../../../../../doc/misc/ediff.texi:1657
+#, no-wrap
+msgid "ediff-fine-diff-face-C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1660
+msgid ""
+"Ediff uses these faces to show the fine differences between the current "
+"differences regions in buffers A, B, and C, respectively."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1661 ../../../../../doc/misc/ediff.texi:1667
+#, no-wrap
+msgid "ediff-even-diff-face-A"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1662 ../../../../../doc/misc/ediff.texi:1668
+#, no-wrap
+msgid "ediff-even-diff-face-B"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1663 ../../../../../doc/misc/ediff.texi:1669
+#, no-wrap
+msgid "ediff-even-diff-face-C"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1664 ../../../../../doc/misc/ediff.texi:1670
+#, no-wrap
+msgid "ediff-odd-diff-face-A"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1665 ../../../../../doc/misc/ediff.texi:1671
+#, no-wrap
+msgid "ediff-odd-diff-face-B"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1666 ../../../../../doc/misc/ediff.texi:1672
+#, no-wrap
+msgid "ediff-odd-diff-face-C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1677
+msgid ""
+"Non-current difference regions are displayed using these alternating faces.  "
+"The odd and the even faces are actually identical on monochrome displays, "
+"because without colors options are limited.  So, Ediff uses italics to "
+"highlight non-current differences."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1678 ../../../../../doc/misc/ediff.texi:1679
+#, no-wrap
+msgid "ediff-force-faces"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1684
+msgid ""
+"Ediff generally can detect when Emacs is running on a device where it can "
+"use highlighting with faces.  However, if it fails to determine that faces "
+"can be used, the user can set this variable to @code{t} to make sure that "
+"Ediff uses faces to highlight differences."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1685 ../../../../../doc/misc/ediff.texi:1686
+#, no-wrap
+msgid "ediff-highlight-all-diffs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1696
+msgid ""
+"Indicates whether---on a windowing display---Ediff should highlight "
+"differences using inserted strings (as on text-only terminals) or using "
+"colors and highlighting.  Normally, Ediff highlights all differences, but "
+"the selected difference is highlighted more visibly.  One can cycle through "
+"various modes of highlighting by typing @kbd{h}.  By default, Ediff starts "
+"in the mode where all difference regions are highlighted.  If you prefer to "
+"start in the mode where unselected differences are not highlighted, you "
+"should set @code{ediff-highlight-all-diffs} to @code{nil}.  Type @kbd{h} to "
+"restore highlighting for all differences."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1702
+msgid ""
+"Ediff lets you switch between the two modes of highlighting.  That is, you "
+"can switch interactively from highlighting using faces to highlighting using "
+"string flags, and back.  Of course, switching has effect only under a "
+"windowing system.  On a text-only terminal or in an xterm window, the only "
+"available option is highlighting with strings."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1708
+msgid ""
+"If you want to change the default settings for @code{ediff-force-faces} and "
+"@code{ediff-highlight-all-diffs}, you must do it @strong{before} Ediff is "
+"loaded."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1716
+msgid ""
+"You can also change the defaults for the faces used to highlight the "
+"difference regions.  There are two ways to do this.  The simplest and the "
+"preferred way is to use the customization widget accessible from the "
+"menubar.  Ediff's customization group is located under \"Tools\", which in "
+"turn is under \"Programming\".  The faces that are used to highlight "
+"difference regions are located in the \"Highlighting\" subgroup of the Ediff "
+"customization group."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1719
+msgid ""
+"The second, much more arcane, method to change default faces is to include "
+"some Lisp code in @file{~/.emacs}.  For instance,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:1723
+#, no-wrap
+msgid ""
+"(setq ediff-current-diff-face-A\n"
+"      (copy-face 'bold-italic 'ediff-current-diff-face-A))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1728
+msgid ""
+"would use the pre-defined face @code{bold-italic} to highlight the current "
+"difference region in buffer A (this face is not a good choice, by the way)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1732
+msgid ""
+"If you are unhappy with just @emph{some} of the aspects of the default "
+"faces, you can modify them when Ediff is being loaded using "
+"@code{ediff-load-hook}.  For instance:"
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/ediff.texi:1742
+#, no-wrap
+msgid ""
+"(add-hook 'ediff-load-hook\n"
+"          (lambda ()\n"
+"            (set-face-foreground\n"
+"              ediff-current-diff-face-B \"blue\")\n"
+"            (set-face-background\n"
+"              ediff-current-diff-face-B \"red\")\n"
+"            (make-face-italic\n"
+"              ediff-current-diff-face-B)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1747
+msgid ""
+"@strong{Please note:} to set Ediff's faces, use only @code{copy-face} or "
+"@code{set/make-face-@dots{}} as shown above. Emacs's low-level "
+"face-manipulation functions should be avoided."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1756
+msgid ""
+"If buffers being compared are narrowed at the time of invocation of Ediff, "
+"@code{ediff-buffers} will preserve the narrowing range.  However, if "
+"@code{ediff-files} is invoked on the files visited by these buffers, that "
+"would widen the buffers, since this command is defined to compare the entire "
+"files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1762
+msgid ""
+"Calling @code{ediff-regions-linewise} or @code{ediff-windows-linewise}, or "
+"the corresponding @samp{-wordwise} commands, narrows the variants to the "
+"particular regions being compared.  The original accessible ranges are "
+"restored when you quit Ediff.  During the command, you can toggle this "
+"narrowing on and off with the @kbd{%} command."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1764
+msgid "These two variables control this narrowing behavior:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1766 ../../../../../doc/misc/ediff.texi:1767
+#, no-wrap
+msgid "ediff-start-narrowed"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1773
+msgid ""
+"If @code{t}, Ediff narrows the display to the appropriate range when it is "
+"invoked with an @samp{ediff-regions@dots{}} or @samp{ediff-windows@dots{}} "
+"command.  If @code{nil}, these commands do not automatically narrow, but you "
+"can still toggle narrowing on and off by typing @kbd{%}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1774 ../../../../../doc/misc/ediff.texi:1775
+#, no-wrap
+msgid "ediff-quit-widened"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1778
+msgid ""
+"Controls whether on quitting Ediff should restore the accessible range that "
+"existed before the current invocation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1786
+msgid ""
+"Ediff has variables to control the way fine differences are highlighted.  "
+"This feature gives you control over the process of refinement.  Note that "
+"refinement ignores spaces, tabs, and newlines."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1788 ../../../../../doc/misc/ediff.texi:1789
+#, no-wrap
+msgid "ediff-auto-refine"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1793
+msgid ""
+"This variable controls whether fine differences within regions are "
+"highlighted automatically (``auto-refining'').  The default is yes "
+"(@samp{on})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1798
+msgid ""
+"On a slow machine, automatic refinement may be painful.  In that case, you "
+"can turn auto-refining on or off interactively by typing @kbd{@@}.  You can "
+"also turn off display of refining that has already been done."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1803
+msgid ""
+"When auto-refining is off, fine differences are shown only for regions for "
+"which these differences have been computed and saved before.  If "
+"auto-refining and display of refining are both turned off, fine differences "
+"are not shown at all."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1806
+msgid ""
+"Typing @kbd{*} computes and displays fine differences for the current "
+"difference region, regardless of whether auto-refining is turned on."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1807 ../../../../../doc/misc/ediff.texi:1808
+#, no-wrap
+msgid "ediff-auto-refine-limit"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1812
+msgid ""
+"If auto-refining is on, this variable limits the size of the regions to be "
+"auto-refined.  This guards against the possible slowdown that may be caused "
+"by extraordinary large difference regions."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1814
+msgid "You can always refine the current region by typing @kbd{*}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1815 ../../../../../doc/misc/ediff.texi:1816 ../../../../../doc/misc/ediff.texi:1822
+#, no-wrap
+msgid "ediff-forward-word-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1820
+msgid ""
+"This variable controls how fine differences are computed.  The value must be "
+"a Lisp function that determines how the current difference region should be "
+"split into words."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1821 ../../../../../doc/misc/ediff.texi:1860 ../../../../../doc/misc/ediff.texi:1863
+#, no-wrap
+msgid "ediff-diff-program"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1823
+#, no-wrap
+msgid "ediff-forward-word"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1830
+msgid ""
+"Fine differences are computed by first splitting the current difference "
+"region into words and then passing the result to @code{ediff-diff-program}.  "
+"For the default forward word function (which is @code{ediff-forward-word}), "
+"a word is a string consisting of letters, @samp{-}, or @samp{_}; a string of "
+"punctuation symbols; a string of digits, or a string consisting of symbols "
+"that are neither space, nor a letter."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1835
+msgid ""
+"This default behavior is controlled by four variables: @code{ediff-word-1}, "
+"..., @code{ediff-word-4}.  See the on-line documentation for these variables "
+"and for the function @code{ediff-forward-word} for an explanation of how to "
+"modify these variables."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1835
+#, no-wrap
+msgid "ediff-word-1"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1836
+#, no-wrap
+msgid "ediff-word-2"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1837
+#, no-wrap
+msgid "ediff-word-3"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1838
+#, no-wrap
+msgid "ediff-word-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1846
+msgid ""
+"Sometimes, when a region has too many differences between the variants, "
+"highlighting of fine differences is inconvenient, especially on color "
+"displays.  If that is the case, type @kbd{*} with a negative prefix "
+"argument.  This unhighlights fine differences for the current region."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1851
+msgid ""
+"To unhighlight fine differences in all difference regions, use the command "
+"@kbd{@@}.  Repeated typing of this key cycles through three different "
+"states: auto-refining, no-auto-refining, and no-highlighting of fine "
+"differences."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1858
+msgid ""
+"This section describes variables that specify the programs to be used for "
+"applying patches and for computing the main difference regions (not the fine "
+"difference regions):"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1861 ../../../../../doc/misc/ediff.texi:1864
+#, no-wrap
+msgid "ediff-diff3-program"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:1862 ../../../../../doc/misc/ediff.texi:1890
+#, no-wrap
+msgid "ediff-patch-program"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1867
+msgid ""
+"These variables specify the programs to use to produce differences and do "
+"patching."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1868 ../../../../../doc/misc/ediff.texi:1871
+#, no-wrap
+msgid "ediff-diff-options"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1869 ../../../../../doc/misc/ediff.texi:1872
+#, no-wrap
+msgid "ediff-diff3-options"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:1870 ../../../../../doc/misc/ediff.texi:1897
+#, no-wrap
+msgid "ediff-patch-options"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1874
+msgid "These variables specify the options to pass to the above utilities."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1879
+msgid ""
+"In @code{ediff-diff-options}, it may be useful to specify options such as "
+"@samp{-w} that ignore certain kinds of changes.  However, Ediff does not let "
+"you use the option @samp{-c}, as it doesn't recognize this format yet."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1880 ../../../../../doc/misc/ediff.texi:1881
+#, no-wrap
+msgid "ediff-coding-system-for-read"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1889
+msgid ""
+"This variable specifies the coding system to use when reading the output "
+"that the programs @code{diff3} and @code{diff} send to Emacs. The default is "
+"@code{raw-text}, and this should work fine in Unix and in most cases under "
+"Windows NT/95/98/2000. There are @code{diff} programs for which the default "
+"option doesn't work under Windows. In such cases, @code{raw-text-dos} might "
+"work. If not, you will have to experiment with other coding systems or use "
+"GNU diff."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1897
+msgid ""
+"The program to use to apply patches.  Since there are certain "
+"incompatibilities between the different versions of the patch program, the "
+"best way to stay out of trouble is to use a GNU-compatible version.  "
+"Otherwise, you may have to tune the values of the variables "
+"@code{ediff-patch-options}, @code{ediff-backup-specs}, and "
+"@code{ediff-backup-extension} as described below."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1899
+msgid "Options to pass to @code{ediff-patch-program}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1902
+msgid ""
+"Note: the @option{-b} and @option{-z} options should be specified in "
+"@code{ediff-backup-specs}, not in @code{ediff-patch-options}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1907
+msgid ""
+"It is recommended to pass the @option{-f} option to the patch program, so it "
+"won't ask questions.  However, some implementations don't accept this "
+"option, in which case the default value of this variable should be changed."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:1908
+#, no-wrap
+msgid "ediff-backup-extension"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1911
+msgid ""
+"Backup extension used by the patch program.  Must be specified, even if "
+"@code{ediff-backup-specs} is given."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:1911
+#, no-wrap
+msgid "ediff-backup-specs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1919
+msgid ""
+"Backup directives to pass to the patch program.  Ediff requires that the old "
+"version of the file (before applying the patch)  is saved in a file named "
+"@file{the-patch-file.@var{extension}}.  Usually @var{extension} is "
+"@file{.orig}, but this can be changed by the user, and may also be "
+"system-dependent.  Therefore, Ediff needs to know the backup extension used "
+"by the patch program."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1925
+msgid ""
+"Some versions of the patch program let the user specify @option{-b "
+"@var{extension}} to specify a backup file name extension.  Other versions "
+"only permit @option{-b}, which (usually) assumes the extension "
+"@file{.orig}.  Yet others force you to use @option{-z@var{extension}}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1931
+msgid ""
+"Both @code{ediff-backup-extension} and @code{ediff-backup-specs} must be "
+"properly set.  If your patch program takes the option @option{-b}, but not "
+"@option{-b @var{extension}}, the variable @code{ediff-backup-extension} must "
+"still be set so Ediff will know which extension to use."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1932 ../../../../../doc/misc/ediff.texi:1934
+#, no-wrap
+msgid "ediff-custom-diff-program"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1933 ../../../../../doc/misc/ediff.texi:1935
+#, no-wrap
+msgid "ediff-custom-diff-options"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:1936
+#, no-wrap
+msgid "ediff-save-buffer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1941
+msgid ""
+"Because Ediff limits the options you may want to pass to the @code{diff} "
+"program, it partially makes up for this drawback by letting you save the "
+"output from @code{diff} in your preferred format, which is specified via the "
+"above two variables."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1954
+msgid ""
+"The output generated by @code{ediff-custom-diff-program} (which doesn't even "
+"have to be a standard-style @code{diff}!)@: is not used by Ediff.  It is "
+"provided exclusively so that you can refer to it later, send it over email, "
+"etc.  For instance, after reviewing the differences, you may want to send "
+"context differences to a colleague.  Since Ediff ignores the @samp{-c} "
+"option in @code{ediff-diff-program}, you would have to run @code{diff -c} "
+"separately just to produce the list of differences.  Fortunately, "
+"@code{ediff-custom-diff-program} and @code{ediff-custom-diff-options} "
+"eliminate this nuisance by keeping a copy of a difference list in the "
+"desired format in a buffer that can be displayed via the command @kbd{D}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1955 ../../../../../doc/misc/ediff.texi:1956
+#, no-wrap
+msgid "ediff-patch-default-directory"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:1958
+msgid "Specifies the default directory to look for patches."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1971
+msgid ""
+"Ediff supports three-way comparison via the functions @code{ediff-files3} "
+"and @code{ediff-buffers3}.  The interface is the same as for two-way "
+"comparison.  In three-way comparison and merging, Ediff reports if any two "
+"difference regions are identical.  For instance, if the current region in "
+"buffer A is the same as the region in buffer C, then the mode line of buffer "
+"A will display @samp{[=diff(C)]} and the mode line of buffer C will display "
+"@samp{[=diff(A)]}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1973
+msgid "Merging is done according to the following algorithm."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1978
+msgid ""
+"If a difference region in one of the buffers, say B, differs from the "
+"ancestor file while the region in the other buffer, A, doesn't, then the "
+"merge buffer, C, gets B's region.  Similarly when buffer A's region differs "
+"from the ancestor and B's doesn't, A's region is used."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:1979
+#, no-wrap
+msgid "ediff-default-variant"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:1986
+msgid ""
+"If both regions in buffers A and B differ from the ancestor file, Ediff "
+"chooses the region according to the value of the variable "
+"@code{ediff-default-variant}.  If its value is @code{default-A} then A's "
+"region is chosen.  If it is @code{default-B} then B's region is chosen.  If "
+"it is @code{combined} then the region in buffer C will look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:1998
+#, no-wrap
+msgid ""
+"@value{seven-left} variant A\n"
+"the difference region from buffer A\n"
+"@value{seven-right} variant B\n"
+"the difference region from buffer B\n"
+"####### Ancestor\n"
+"the difference region from the ancestor buffer, if available\n"
+"======= end\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2003
+msgid ""
+"The above is the default template for the combined region. The user can "
+"customize this template using the variable @code{ediff-combination-pattern}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2004
+#, no-wrap
+msgid "ediff-combination-pattern"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2014
+msgid ""
+"The variable @code{ediff-combination-pattern} specifies the template that "
+"determines how the combined merged region looks like.  The template is "
+"represented as a list of the form @code{(STRING1 Symbol1 STRING2 Symbol2 "
+"STRING3 Symbol3 STRING4)}. The symbols here must be atoms of the form "
+"@code{A}, @code{B}, or @code{Ancestor}. They determine the order in which "
+"the corresponding difference regions (from buffers A, B, and the ancestor "
+"buffer) are displayed in the merged region of buffer C@.  The strings in the "
+"template determine the text that separates the aforesaid regions. The "
+"default template is"
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/ediff.texi:2018
+#, no-wrap
+msgid ""
+"(\"@value{seven-left} variant A\" A \"@value{seven-right} variant B\" B\n"
+"   \"####### Ancestor\" Ancestor \"======= end\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2027
+msgid ""
+"(this is one long line) and the corresponding combined region is shown "
+"above. The order in which the regions are shown (and the separator strings) "
+"can be changed by changing the above template. It is even possible to add or "
+"delete region specifiers in this template (although the only possibly useful "
+"such modification seems to be the deletion of the ancestor)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2038
+msgid ""
+"In addition to the state of the difference, Ediff displays the state of the "
+"merge for each region.  If a difference came from buffer A by default "
+"(because both regions A and B were different from the ancestor and "
+"@code{ediff-default-variant} was set to @code{default-A}) then "
+"@samp{[=diff(A) default-A]} is displayed in the mode line.  If the "
+"difference in buffer C came, say, from buffer B because the difference "
+"region in that buffer differs from the ancestor, but the region in buffer A "
+"does not (if merging with an ancestor) then @samp{[=diff(B) prefer-B]} is "
+"displayed.  The indicators default-A/B and prefer-A/B are inspired by Emerge "
+"and have the same meaning."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2042
+msgid ""
+"Another indicator of the state of merge is @samp{combined}.  It appears with "
+"any difference region in buffer C that was obtained by combining the "
+"difference regions in buffers A and B as explained above."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2053
+msgid ""
+"In addition to the state of merge and state of difference indicators, while "
+"merging with an ancestor file or buffer, Ediff informs the user when the "
+"current difference region in the (normally invisible) ancestor buffer is "
+"empty via the @emph{AncestorEmpty} indicator.  This helps determine if the "
+"changes made to the original in variants A and B represent pure insertion or "
+"deletion of text: if the mode line shows @emph{AncestorEmpty} and the "
+"corresponding region in buffers A or B is not empty, this means that new "
+"text was inserted.  If this indicator is not present and the difference "
+"regions in buffers A or B are non-empty, this means that text was modified.  "
+"Otherwise, the original text was deleted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2064
+msgid ""
+"Although the ancestor buffer is normally invisible, Ediff maintains "
+"difference regions there and advances the current difference region "
+"accordingly.  All highlighting of difference regions is provided in the "
+"ancestor buffer, except for the fine differences.  Therefore, if desired, "
+"the user can put the ancestor buffer in a separate frame and watch it "
+"there.  However, on a TTY, only one frame can be visible at any given time, "
+"and Ediff doesn't support any single-frame window configuration where all "
+"buffers, including the ancestor buffer, would be visible.  However, the "
+"ancestor buffer can be displayed by typing @kbd{/} to the control window.  "
+"(Type @kbd{C-l} to hide it again.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2068
+msgid ""
+"Note that the state-of-difference indicators @samp{=diff(A)} and "
+"@samp{=diff(B)} above are not redundant, even in the presence of a "
+"state-of-merge indicator.  In fact, the two serve different purposes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2077
+msgid ""
+"For instance, if the mode line displays @samp{=diff(B) prefer(B)} and you "
+"copy a difference region from buffer A to buffer C then @samp{=diff(B)} will "
+"change to @samp{diff-A} and the mode line will display @samp{=diff(A) "
+"prefer-B}.  This indicates that the difference region in buffer C is "
+"identical to that in buffer A, but originally buffer C's region came from "
+"buffer B@.  This is useful to know because you can recover the original "
+"difference region in buffer C by typing @kbd{r}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2084
+msgid ""
+"Ediff never changes the state-of-merge indicator, except in response to the "
+"@kbd{!} command (see below), in which case the indicator is lost.  On the "
+"other hand, the state-of-difference indicator is changed automatically by "
+"the copying/recovery commands, @kbd{a}, @kbd{b}, @kbd{r}, @kbd{+}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2095
+msgid ""
+"The @kbd{!} command loses the information about origins of the regions in "
+"the merge buffer (default-A, prefer-B, or combined).  This is because "
+"recomputing differences in this case means running @code{diff3} on buffers "
+"A, B, and the merge buffer, not on the ancestor buffer.  (It makes no sense "
+"to recompute differences using the ancestor file, since in the merging mode "
+"Ediff assumes that you have not edited buffers A and B, but that you may "
+"have edited buffer C, and these changes are to be preserved.)  Since some "
+"difference regions may disappear as a result of editing buffer C and others "
+"may arise, there is generally no simple way to tell where the various "
+"regions in the merge buffer came from."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2104
+msgid ""
+"In three-way comparison, Ediff tries to disregard regions that consist "
+"entirely of white space.  For instance, if, say, the current region in "
+"buffer A consists of the white space only (or if it is empty), Ediff will "
+"not take it into account for the purpose of computing fine differences.  The "
+"result is that Ediff can provide a better visual information regarding the "
+"actual fine differences in the non-white regions in buffers B and C@.  "
+"Moreover, if the regions in buffers B and C differ in the white space only, "
+"then a message to this effect will be displayed."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2105
+#, no-wrap
+msgid "ediff-merge-window-share"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2111
+msgid ""
+"In the merge mode, the share of the split between window C (the window "
+"displaying the merge-buffer) and the windows displaying buffers A and B is "
+"controlled by the variable @code{ediff-merge-window-share}.  Its default "
+"value is 0.5.  To make the merge-buffer window smaller, reduce this amount."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2116
+msgid ""
+"We don't recommend increasing the size of the merge-window to more than half "
+"the frame (i.e., to increase the value of @code{ediff-merge-window-share}) "
+"to more than 0.5, since it would be hard to see the contents of buffers A "
+"and B."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2120
+msgid ""
+"You can temporarily shrink the merge window to just one line by typing "
+"@kbd{s}.  This change is temporary, until Ediff finds a reason to redraw the "
+"screen.  Typing @kbd{s} again restores the original window size."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2125
+msgid ""
+"With a positive prefix argument, the @kbd{s} command will make the merge "
+"window slightly taller.  This change is persistent.  With ``@kbd{-}'' or "
+"with a negative prefix argument, the command @kbd{s} makes the merge window "
+"slightly shorter.  This change also persistent."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2126
+#, no-wrap
+msgid "ediff-show-clashes-only"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2130
+msgid ""
+"Ediff lets you automatically ignore the regions where only one of the "
+"buffers A and B disagrees with the ancestor.  To do this, set the variable "
+"@code{ediff-show-clashes-only} to non-@code{nil}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2132
+msgid "You can toggle this feature interactively by typing @kbd{$$}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2137
+msgid ""
+"Note that this variable affects only the show next/previous difference "
+"commands.  You can still jump directly to any difference region directly "
+"using the command @kbd{j} (with a prefix argument specifying the difference "
+"number)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2154
+msgid ""
+"The variable @code{ediff-autostore-merges} controls what happens to the "
+"merge buffer when Ediff quits.  If the value is @code{nil}, nothing is done "
+"to the merge buffer---it will be the user's responsibility to save it.  If "
+"the value is @code{t}, the user will be asked where to save the buffer and "
+"whether to delete it afterwards.  It the value is neither @code{nil} nor "
+"@code{t}, the merge buffer is saved @emph{only} if this merge session was "
+"invoked from a group of related Ediff session, such as those that result "
+"from @code{ediff-merge-directories}, @code{ediff-merge-directory-revisions}, "
+"etc.  @xref{Session Groups}.  This behavior is implemented in the function "
+"@code{ediff-maybe-save-and-delete-merge}, which is a hook in "
+"@code{ediff-quit-merge-hook}.  The user can supply a different hook, if "
+"necessary."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2158
+msgid ""
+"The variable @code{ediff-autostore-merges} is buffer-local, so it can be set "
+"in a per-buffer manner.  Therefore, use @code{setq-default} to globally "
+"change this variable."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2159
+#, no-wrap
+msgid "ediff-merge-filename-prefix"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2164
+msgid ""
+"When merge buffers are saved automatically as directed by "
+"@code{ediff-autostore-merges}, Ediff attaches a prefix to each file, as "
+"specified by the variable @code{ediff-merge-filename-prefix}. The default is "
+"@code{merge_}, but this can be changed by the user."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2172
+msgid ""
+"Ediff supports version control and lets you compare versions of files "
+"visited by Emacs buffers via the function @code{ediff-revision}.  This "
+"feature is controlled by the following variables:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2174 ../../../../../doc/misc/ediff.texi:2175
+#, no-wrap
+msgid "ediff-version-control-package"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2177
+msgid "A symbol.  The default is @samp{vc}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2180
+msgid ""
+"If you are like most Emacs users, Ediff will use VC as the version control "
+"package.  This is the standard Emacs interface to RCS, CVS, and SCCS."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2183
+msgid ""
+"However, if your needs are better served by other interfaces, you will have "
+"to tell Ediff which version control package you are using, e.g.,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:2185
+#, no-wrap
+msgid "(setq ediff-version-control-package 'rcs)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2191
+msgid ""
+"Apart from the standard @file{vc.el}, Ediff supports three other interfaces "
+"to version control: @file{rcs.el}, @file{pcl-cvs.el} (recently renamed "
+"pcvs.el), and @file{generic-sc.el}.  The package @file{rcs.el} is written by "
+"Sebastian Kremer <sk@@thp.Uni-Koeln.DE> and is available as"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:2194
+#, no-wrap
+msgid ""
+"@file{ftp.cs.buffalo.edu:pub/Emacs/rcs.tar.Z}\n"
+"@file{ftp.uni-koeln.de:/pub/gnu/emacs/rcs.tar.Z}\n"
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2195
+#, no-wrap
+msgid "vc.el"
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2196
+#, no-wrap
+msgid "rcs.el"
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2197
+#, no-wrap
+msgid "pcl-cvs.el"
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2198
+#, no-wrap
+msgid "generic-sc.el"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2205
+msgid ""
+"Ediff's interface to the above packages allows the user to compare the "
+"versions of the current buffer or to merge them (with or without an "
+"ancestor-version).  These operations can also be performed on directories "
+"containing files under version control."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2209
+msgid ""
+"In case of @file{pcl-cvs.el}, Ediff can also be invoked via the function "
+"@code{run-ediff-from-cvs-buffer}---see the documentation string for this "
+"function."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2216
+msgid ""
+"When Ediff is running, the mode line of @samp{Ediff Control Panel} buffer "
+"shows the current difference number and the total number of difference "
+"regions in the two files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2225
+msgid ""
+"The mode line of the buffers being compared displays the type of the buffer "
+"(@samp{A:}, @samp{B:}, or @samp{C:}) and (usually) the file name.  Ediff "
+"tries to be intelligent in choosing the mode line buffer identification.  In "
+"particular, it works well with the @file{uniquify.el} and "
+"@file{mode-line.el} packages (which improve on the default way in which "
+"Emacs displays buffer identification).  If you don't like the way Ediff "
+"changes the mode line, you can use @code{ediff-prepare-buffer-hook} to "
+"modify the mode line."
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2226
+#, no-wrap
+msgid "uniquify.el"
+msgstr ""
+
+#. type: file{#1}
+#: ../../../../../doc/misc/ediff.texi:2227
+#, no-wrap
+msgid "mode-line.el"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2233
+msgid "Here are a few other variables for customizing Ediff:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2235 ../../../../../doc/misc/ediff.texi:2236
+#, no-wrap
+msgid "ediff-split-window-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2243
+msgid ""
+"Controls the way you want the window be split between file-A and file-B (and "
+"file-C, if applicable).  It defaults to the vertical split "
+"(@code{split-window-vertically}, but you can set it to "
+"@code{split-window-horizontally}, if you so wish.  Ediff also lets you "
+"switch from vertical to horizontal split and back interactively."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2249
+msgid ""
+"Note that if Ediff detects that all the buffers it compares are displayed in "
+"separate frames, it assumes that the user wants them to be so displayed and "
+"stops splitting windows.  Instead, it arranges for each buffer to be "
+"displayed in a separate frame.  You can switch to the one-frame mode by "
+"hiding one of the buffers A/B/C."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2252
+msgid "You can also swap the windows where buffers are displayed by typing @kbd{~}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2253 ../../../../../doc/misc/ediff.texi:2254
+#, no-wrap
+msgid "ediff-merge-split-window-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2260
+msgid ""
+"Controls how windows are split between buffers A and B in the merge mode.  "
+"This variable is like @code{ediff-split-window-function}, but it defaults to "
+"@code{split-window-horizontally} instead of @code{split-window-vertically}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2261 ../../../../../doc/misc/ediff.texi:2262
+#, no-wrap
+msgid "ediff-make-wide-display-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2268
+msgid ""
+"The value is a function to be called to widen the frame for displaying the "
+"Ediff buffers.  See the on-line documentation for "
+"@code{ediff-make-wide-display-function} for details.  It is also recommended "
+"to look into the source of the default function "
+"@code{ediff-make-wide-display}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2274
+msgid ""
+"You can toggle wide/regular display by typing @kbd{m}.  In the wide display "
+"mode, buffers A, B (and C, when applicable) are displayed in a single frame "
+"that is as wide as the entire workstation screen.  This is useful when files "
+"are compared side-by-side.  By default, the display is widened without "
+"changing its height."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2283
+msgid ""
+"Controls the way Ediff presents the default directory when it prompts the "
+"user for files to compare.  If @code{nil}, Ediff uses the default directory "
+"of the current buffer when it prompts the user for file names.  Otherwise, "
+"it will use the directories it had previously used for files A, B, or C, "
+"respectively."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2284 ../../../../../doc/misc/ediff.texi:2285
+#, no-wrap
+msgid "ediff-no-emacs-help-in-control-buffer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2291
+msgid ""
+"If @code{t}, makes @kbd{C-h} behave like the @key{DEL} key, i.e., it will "
+"move you back to the previous difference rather than invoking help.  This is "
+"useful when, in an xterm window or a text-only terminal, the Backspace key "
+"is bound to @kbd{C-h} and is positioned more conveniently than the @key{DEL} "
+"key."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2292 ../../../../../doc/misc/ediff.texi:2293
+#, no-wrap
+msgid "ediff-toggle-read-only-function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2296
+msgid ""
+"This variable's value is a function that Ediff uses to toggle the read-only "
+"property in its buffers."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2300
+msgid ""
+"The default function that Ediff uses simply toggles the read-only property, "
+"unless the file is under version control.  For a checked-in file under "
+"version control, Ediff first tries to check the file out."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2301
+#, no-wrap
+msgid "ediff-make-buffers-readonly-at-startup nil"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2302
+#, no-wrap
+msgid "ediff-make-buffers-readonly-at-startup"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2304
+msgid "If @code{t}, all variant buffers are made read-only at Ediff startup."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2305 ../../../../../doc/misc/ediff.texi:2306
+#, no-wrap
+msgid "ediff-keep-variants"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2314
+msgid ""
+"The default is @code{t}, meaning that the buffers being compared or merged "
+"will be preserved when Ediff quits.  Setting this to @code{nil} causes Ediff "
+"to offer the user a chance to delete these buffers (if they are not "
+"modified).  Supplying a prefix argument to the quit command (@code{q}) "
+"temporarily reverses the meaning of this variable.  This is convenient when "
+"the user prefers one of the behaviors most of the time, but occasionally "
+"needs the other behavior."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2320
+msgid ""
+"However, Ediff temporarily resets this variable to @code{t} if it is invoked "
+"via one of the \"buffer\" jobs, such as @code{ediff-buffers}.  This is "
+"because it is all too easy to lose a day's work otherwise.  Besides, in a "
+"\"buffer\" job, the variant buffers have already been loaded prior to "
+"starting Ediff, so Ediff just preserves status quo here."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2323
+msgid ""
+"Using @code{ediff-cleanup-hook}, one can make Ediff delete the variants "
+"unconditionally (e.g., by making @code{ediff-janitor} into one of these "
+"hooks)."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2324 ../../../../../doc/misc/ediff.texi:2325
+#, no-wrap
+msgid "ediff-keep-tmp-versions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2330
+msgid ""
+"Default is @code{nil}. If @code{t}, the versions of the files being compared "
+"or merged using operations such as @code{ediff-revision} or "
+"@code{ediff-merge-revisions} are not deleted on exit. The normal action is "
+"to clean up and delete these version files."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2331 ../../../../../doc/misc/ediff.texi:2332
+#, no-wrap
+msgid "ediff-grab-mouse"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2343
+msgid ""
+"Default is @code{t}.  Normally, Ediff grabs mouse and puts it in its control "
+"frame.  This is useful since the user can be sure that when he needs to type "
+"an Ediff command the focus will be in an appropriate Ediff's frame.  "
+"However, some users prefer to move the mouse by themselves.  The above "
+"variable, if set to @code{maybe}, will prevent Ediff from grabbing the mouse "
+"in many situations, usually after commands that may take more time than "
+"usual.  In other situation, Ediff will continue grabbing the mouse and "
+"putting it where it believes is appropriate.  If the value is @code{nil}, "
+"then mouse is entirely user's responsibility.  Try different settings and "
+"see which one is for you."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2356
+msgid ""
+"Some users need to customize Ediff in rather sophisticated ways, which "
+"requires different defaults for different kinds of files (e.g., SGML, "
+"etc.).  Ediff supports this kind of customization in several ways.  First, "
+"most customization variables are buffer-local.  Those that aren't are "
+"usually accessible from within Ediff Control Panel, so one can make them "
+"local to the panel by calling make-local-variable from within "
+"@code{ediff-startup-hook}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2364
+msgid ""
+"Second, the function @code{ediff-setup} accepts an optional sixth argument "
+"which has the form @code{((@var{var-name-1} .@: @var{val-1})  "
+"(@var{var-name-2} .@: @var{val-2}) @dots{})}.  The function "
+"@code{ediff-setup} sets the variables in the list to the respective values, "
+"locally in the Ediff control buffer.  This is an easy way to throw in custom "
+"variables (which usually should be buffer-local) that can then be tested in "
+"various hooks."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2367
+msgid ""
+"Make sure the variable @code{ediff-job-name} and @code{ediff-word-mode} are "
+"set properly in this case, as some things in Ediff depend on this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2372
+msgid ""
+"Finally, if you want custom-tailored help messages, you can set the "
+"variables @code{ediff-brief-help-message-function} and "
+"@code{ediff-long-help-message-function} to functions that return help "
+"strings."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ediff.texi:2373
+#, no-wrap
+msgid "ediff-setup"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2374
+#, no-wrap
+msgid "ediff-job-name"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2375
+#, no-wrap
+msgid "ediff-word-mode"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2376
+#, no-wrap
+msgid "ediff-brief-help-message-function"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/ediff.texi:2377
+#, no-wrap
+msgid "ediff-long-help-message-function"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2385
+msgid ""
+"When customizing Ediff, some other variables are useful, although they are "
+"not user-definable.  They are local to the Ediff control buffer, so this "
+"buffer must be current when you access these variables.  The control buffer "
+"is accessible via the variable @code{ediff-control-buffer}, which is also "
+"local to that buffer.  It is usually used for checking if the current buffer "
+"is also the control buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2387
+msgid "Other variables of interest are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2388
+#, no-wrap
+msgid "ediff-buffer-A"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2390
+msgid "The first of the data buffers being compared."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2391
+#, no-wrap
+msgid "ediff-buffer-B"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2393
+msgid "The second of the data buffers being compared."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2394
+#, no-wrap
+msgid "ediff-buffer-C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2398
+msgid ""
+"In three-way comparisons, this is the third buffer being compared.  In "
+"merging, this is the merge buffer.  In two-way comparison, this variable is "
+"@code{nil}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2399
+#, no-wrap
+msgid "ediff-window-A"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2402
+msgid ""
+"The window displaying buffer A@.  If buffer A is not visible, this variable "
+"is @code{nil} or it may be a dead window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2403
+#, no-wrap
+msgid "ediff-window-B"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2405
+msgid "The window displaying buffer B."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2406
+#, no-wrap
+msgid "ediff-window-C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2408
+msgid "The window displaying buffer C, if any."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ediff.texi:2409
+#, no-wrap
+msgid "ediff-control-frame"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ediff.texi:2413
+msgid ""
+"A dedicated frame displaying the control buffer, if it exists.  It is "
+"non-@code{nil} only if Ediff uses the multiframe display, i.e., when the "
+"control buffer is in its own frame."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2426
+msgid ""
+"Ediff was written by Michael Kifer <kifer@@cs.stonybrook.edu>.  It was "
+"inspired by emerge.el written by Dale R. Worley <drw@@math.mit.edu>.  An "
+"idea due to Boris Goldowsky <boris@@cs.rochester.edu> made it possible to "
+"highlight fine differences in Ediff buffers.  Alastair Burt "
+"<burt@@dfki.uni-kl.de> ported Ediff to XEmacs, Eric Freudenthal "
+"<freudent@@jan.ultra.nyu.edu> made it work with VC, Marc Paquette "
+"<marcpa@@cam.org> wrote the toolbar support package for Ediff, and Hrvoje "
+"Nikšić <hniksic@@xemacs.org> adapted it to the Emacs customization package."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ediff.texi:2430
+msgid ""
+"Many people provided help with bug reports, feature suggestions, and "
+"advice.  Without them, Ediff would not be nearly as useful as it is today.  "
+"Here is a hopefully full list of contributors:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ediff.texi:2531
+#, no-wrap
+msgid ""
+"Adrian Aichner (aichner at ecf.teradyne.com),\n"
+"Drew Adams (drew.adams at oracle.com),\n"
+"Steve Baur (steve at xemacs.org),\n"
+"Neal Becker (neal at ctd.comsat.com),\n"
+"E. Jay Berkenbilt (ejb at ql.org),\n"
+"Lennart Borgman (ennart.borgman at gmail.com)\n"
+"Alastair Burt (burt at dfki.uni-kl.de),\n"
+"Paul Bibilo (peb at delcam.co.uk),\n"
+"Kevin Broadey (KevinB at bartley.demon.co.uk),\n"
+"Harald Boegeholz (hwb at machnix.mathematik.uni-stuttgart.de),\n"
+"Bradley A. Bosch (brad at lachman.com),\n"
+"Michael D. Carney (carney at ltx-tr.com),\n"
+"Jin S. Choi (jin at atype.com),\n"
+"Scott Cummings (cummings at adc.com),\n"
+"Albert Dvornik (bert at mit.edu),\n"
+"Eric Eide (eeide at asylum.cs.utah.edu),\n"
+"Paul Eggert (eggert at twinsun.com),\n"
+"Urban Engberg (ue at cci.dk),\n"
+"Kevin Esler (esler at ch.hp.com),\n"
+"Robert Estes (estes at ece.ucdavis.edu),\n"
+"Jay Finger (jayf at microsoft.com),\n"
+"Xavier Fornari (xavier at europe.cma.fr),\n"
+"Eric Freudenthal (freudent at jan.ultra.nyu.edu),\n"
+"Job Ganzevoort (Job.Ganzevoort at cwi.nl),\n"
+"Felix Heinrich Gatzemeier (felix.g at tzemeier.info),\n"
+"Boris Goldowsky (boris at cs.rochester.edu),\n"
+"Allan Gottlieb (gottlieb at allan.ultra.nyu.edu),\n"
+"Aaron Gross (aaron at bfr.co.il),\n"
+"Thorbjoern Hansen (thorbjoern.hansen at mchp.siemens.de),\n"
+"Marcus Harnisch (marcus_harnisch at mint-tech.com),\n"
+"Steven E. Harris (seh at panix.com),\n"
+"Aaron S. Hawley (Aaron.Hawley at uvm.edu),\n"
+"Xiaoli Huang (hxl at epic.com),\n"
+"Andreas Jaeger (aj at suse.de),\n"
+"Lars Magne Ingebrigtsen (larsi at ifi.uio.no),\n"
+"Larry Gouge (larry at itginc.com),\n"
+"Karl Heuer (kwzh at gnu.org),\n"
+"(irvine at lks.csi.com),\n"
+"(jaffe at chipmunk.cita.utoronto.ca),\n"
+"David Karr (dkarr at nmo.gtegsc.com),\n"
+"Norbert Kiesel (norbert at i3.informatik.rwth-aachen.de),\n"
+"Steffen Kilb (skilb at gmx.net),\n"
+"Leigh L Klotz (klotz at adoc.xerox.com),\n"
+"Fritz Knabe (Fritz.Knabe at ecrc.de),\n"
+"Heinz Knutzen (hk at informatik.uni-kiel.d400.de),\n"
+"Andrew Koenig (ark at research.att.com),\n"
+"Hannu Koivisto (azure at iki.fi),\n"
+"Ken Laprade (laprade at dw3f.ess.harris.com),\n"
+"Will C Lauer (wcl at cadre.com),\n"
+"Richard Levitte (levitte at e.kth.se),\n"
+"Mike Long (mike.long at analog.com),\n"
+"Dave Love (d.love at dl.ac.uk),\n"
+"Martin Maechler (maechler at stat.math.ethz.ch),\n"
+"Simon Marshall (simon at gnu.org),\n"
+"Paul C. Meuse (pmeuse at delcomsys.com),\n"
+"Richard Mlynarik (mly at adoc.xerox.com),\n"
+"Stefan Monnier (monnier at cs.yale.edu),\n"
+"Chris Murphy (murphycm at sun.aston.ac.uk),\n"
+"Erik Naggum (erik at naggum.no),\n"
+"Eyvind Ness (Eyvind.Ness at hrp.no),\n"
+"Ray Nickson (nickson at cs.uq.oz.au),\n"
+"Dan Nicolaescu (dann at ics.uci.edu),\n"
+"David Petchey (petchey_david at jpmorgan.com),\n"
+"Benjamin Pierce (benjamin.pierce at cl.cam.ac.uk),\n"
+"François Pinard (pinard at iro.umontreal.ca),\n"
+"Tibor Polgar (tlp00 at spg.amdahl.com),\n"
+"David Prince (dave0d at fegs.co.uk),\n"
+"Paul Raines (raines at slac.stanford.edu),\n"
+"Stefan Reicher (xsteve at riic.at),\n"
+"Charles Rich (rich at merl.com),\n"
+"Bill Richter (richter at math.nwu.edu),\n"
+"C.S. Roberson (roberson at aur.alcatel.com),\n"
+"Kevin Rodgers (kevin.rodgers at ihs.com),\n"
+"Sandy Rutherford (sandy at ibm550.sissa.it),\n"
+"Heribert Schuetz (schuetz at ecrc.de),\n"
+"Andy Scott (ascott at pcocd2.intel.com),\n"
+"Axel Seibert (axel at tumbolia.ppp.informatik.uni-muenchen.de),\n"
+"Vin Shelton (acs at xemacs.org),\n"
+"Scott O. Sherman (Scott.Sherman at mci.com),\n"
+"Nikolaj Schumacher (n_schumacher at web.de),\n"
+"Richard Stallman (rms at gnu.org),\n"
+"Richard Stanton (stanton at haas.berkeley.edu),\n"
+"Sam Steingold (sds at goems.com),\n"
+"Ake Stenhoff (etxaksf at aom.ericsson.se),\n"
+"Stig (stig at hackvan.com),\n"
+"Peter Stout (Peter_Stout at cs.cmu.edu),\n"
+"Chuck Thompson (cthomp at cs.uiuc.edu),\n"
+"Ray Tomlinson (tomlinso at bbn.com),\n"
+"Raymond Toy (toy at rtp.ericsson.se),\n"
+"Stephen J. Turnbull  (stephen at xemacs.org),\n"
+"Jan Vroonhof (vroonhof at math.ethz.ch),\n"
+"Colin Walters (walters at cis.ohio-state.edu),\n"
+"Philippe Waroquiers (philippe.waroquiers at eurocontrol.be),\n"
+"Klaus Weber (gizmo at zork.north.de),\n"
+"Ben Wing (ben at xemacs.org),\n"
+"Tom Wurgler (twurgler at goodyear.com),\n"
+"Steve Youngs (youngs at xemacs.org),\n"
+"Ilya Zakharevich (ilya at math.ohio-state.edu),\n"
+"Eli Zaretskii (eliz at is.elta.co.il)\n"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ediff.texi:2535
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

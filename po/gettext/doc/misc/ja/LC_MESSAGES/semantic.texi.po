@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-11 03:19\n"
+"PO-Revision-Date: 2021-10-11 03:19\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@appendix Glossary"
+msgstr ""
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Semantic Internals"
+msgstr ""
+
+msgid "@chapter Using Semantic"
+msgstr ""
+
+msgid "@section Analyzer Internals"
+msgstr ""
+
+msgid "@section Parser code"
+msgstr ""
+
+msgid "@section Semantic Components"
+msgstr ""
+
+msgid "@section Semanticdb Internals"
+msgstr ""
+
+msgid "@section Tag handling"
+msgstr ""
+
+msgid "@section Tests"
+msgstr ""
+
+msgid "@section Tools"
+msgstr ""
+
