@@ -49,7 +49,7 @@ function main () {
 		[ -d ${POT_DIRECTORY} ] || mkdir -p ${POT_DIRECTORY};
 		cd ${POT_DIRECTORY};
 		ORIGINAL_TEXI=$(realpath --relative-to . ${TEXI_FILE});
-		POT_FILE=$(basename ${TEXI_FILE}).pot;
+		POT_FILE=$(basename ${TEXI_FILE}).po;
 		
 		echo -n "Generating ${POT_DIRECTORY}/${POT_FILE} ... ";
 		po4a-gettextize -M utf8 \
@@ -67,7 +67,7 @@ function main () {
 		    case ${COMMAND} in
 			"msginit")
 			    TEXI_NAME=$(basename ${TEXI_FILE});
-			    POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.pot;
+			    POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.po;
 			    PO_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA}/${TEXI_NAME}.po;
 			    echo -n "Copying ${POT_FILE} to ${PO_FILE} ... "
 			    [ -d ${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA} ] ||
@@ -99,7 +99,7 @@ function main () {
 			    #  with po that contains translated msgstr
 			    #  for existing msgid.
 			    TEXI_NAME=$(basename ${TEXI_FILE});
-			    NEW_POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.pot;
+			    NEW_POT_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/C/${TEXI_NAME}.po;
 			    OLD_PO_FILE=${PO4A_ROOT}/${TEXI_FOLDER}/${LINGUA}/${TEXI_NAME}.po;
 			    MERGED_PO=$(mktemp);
 
