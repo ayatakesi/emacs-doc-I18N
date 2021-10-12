@@ -1,16 +1,22 @@
-#, fuzzy
+# 
+# Translators:
+# Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-12 15:30+0000\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/emacs-doc-i18n-1/teams/126037/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "@subsection Customizing VC"
+msgstr "@subsection VCのカスタマイズ"
 
 msgid "@subsection Miscellaneous Commands and Features of VC"
 msgstr "@subsection VCのその他のコマンドと機能"
@@ -21,20 +27,17 @@ msgstr "@subsubsection 変更ログとVC"
 msgid "@subsubsection Deleting and Renaming Version-Controlled Files"
 msgstr "@subsubsection バージョンコントロールされたファイルの削除とリネーム"
 
-msgid "@subsubsection Revision Tags"
-msgstr "@subsubsection リビジョンタグ"
+msgid "@subsubsection General Options"
+msgstr "@subsubsection 一般的なオプション"
 
 msgid "@subsubsection Inserting Version Control Headers"
 msgstr "@subsubsection バージョンコントロールヘッダーの挿入"
-
-msgid "@subsection Customizing VC"
-msgstr "@subsection VCのカスタマイズ"
-
-msgid "@subsubsection General Options"
-msgstr "@subsubsection 一般的なオプション"
 
 msgid "@subsubsection Options for RCS and SCCS"
 msgstr "@subsubsection RCSとSCCSにたいするオプション"
 
 msgid "@subsubsection Options specific for CVS"
 msgstr "@subsubsection CVSに特有のオプション"
+
+msgid "@subsubsection Revision Tags"
+msgstr "@subsubsection リビジョンタグ"
