@@ -1,22 +1,46 @@
-#, fuzzy
+# 
+# Translators:
+# Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-12 15:29+0000\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/emacs-doc-i18n-1/teams/126037/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "@chapter Killing and Moving Text"
 msgstr "@chapter テキストのkillと移動"
 
+msgid "@section Accumulating Text"
+msgstr "@section テキストの追加"
+
+msgid "@section CUA Bindings"
+msgstr "@section CUAバインド"
+
 msgid "@section Deletion and Killing"
 msgstr "@section 削除とkill"
+
+msgid "@section Rectangles"
+msgstr "@section 矩形領域(Rectangles)"
+
+msgid "@section Yanking"
+msgstr "@section yank"
+
+msgid "@section ``Cut and Paste'' Operations on Graphical Displays"
+msgstr "@section グラフィカルなディスプレーでのカットアンドペースト"
+
+msgid "@subsection Appending Kills"
+msgstr "@subsection killしたテキストの追加"
+
+msgid "@subsection Cut and Paste with Other Window Applications"
+msgstr "@subsection 他のウィンドウアプリケーションにたいするカットアンドペースト"
 
 msgid "@subsection Deletion"
 msgstr "@subsection 削除"
@@ -24,41 +48,20 @@ msgstr "@subsection 削除"
 msgid "@subsection Killing by Lines"
 msgstr "@subsection 行のkill"
 
-msgid "@subsection Other Kill Commands"
-msgstr "@subsection その他のkillコマンド"
-
 msgid "@subsection Options for Killing"
 msgstr "@subsection killのオプション"
 
-msgid "@section Yanking"
-msgstr "@section yank"
-
-msgid "@subsection The Kill Ring"
-msgstr "@subsection killリング"
-
-msgid "@subsection Yanking Earlier Kills"
-msgstr "@subsection 過去にkillしたテキストをyankする"
-
-msgid "@subsection Appending Kills"
-msgstr "@subsection killしたテキストの追加"
-
-msgid "@section ``Cut and Paste'' Operations on Graphical Displays"
-msgstr "@section グラフィカルなディスプレーでのカットアンドペースト"
-
-msgid "@subsection Using the Clipboard"
-msgstr "@subsection クリップボードを使う"
-
-msgid "@subsection Cut and Paste with Other Window Applications"
-msgstr "@subsection 他のウィンドウアプリケーションにたいするカットアンドペースト"
+msgid "@subsection Other Kill Commands"
+msgstr "@subsection その他のkillコマンド"
 
 msgid "@subsection Secondary Selection"
 msgstr "@subsection セカンダリー選択"
 
-msgid "@section Accumulating Text"
-msgstr "@section テキストの追加"
+msgid "@subsection The Kill Ring"
+msgstr "@subsection killリング"
 
-msgid "@section Rectangles"
-msgstr "@section 矩形領域(Rectangles)"
+msgid "@subsection Using the Clipboard"
+msgstr "@subsection クリップボードを使う"
 
-msgid "@section CUA Bindings"
-msgstr "@section CUAバインド"
+msgid "@subsection Yanking Earlier Kills"
+msgstr "@subsection 過去にkillしたテキストをyankする"
