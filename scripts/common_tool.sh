@@ -13,6 +13,12 @@ function main () {
 		patch -p0 <${PATCH};
 	    done
 	    ;;
+	
+	"initialize_tx")
+	    which tx || pip install transifex-client;
+	    tx --debug --traceback \
+	       init --force-save --skipsetup --no-interactive;
+	    ;;
     esac
 }
 
