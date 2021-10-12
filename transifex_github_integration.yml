@@ -1,0 +1,7 @@
+filters:
+- filter_type: dir
+  file_format: PO
+  source_file_extension: pot
+  source_language: en
+  source_file_dir: po/*/doc/*/C/LC_MESSAGES/
+  translation_files_expression: 'po/po4a/doc/*/<lang>/LC_MESSAGES/'
