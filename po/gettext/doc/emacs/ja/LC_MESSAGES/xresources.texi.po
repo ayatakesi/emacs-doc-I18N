@@ -1,25 +1,25 @@
-#, fuzzy
+# 
+# Translators:
+# Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-12 15:30+0000\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/emacs-doc-i18n-1/teams/126037/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "@appendix X Options and Resources"
 msgstr "@appendix Xのオプションとリソース"
 
-msgid "@appendixsec X Resources"
-msgstr "@appendixsec Xリソース"
-
-msgid "@appendixsec Table of X Resources for Emacs"
-msgstr "@appendixsec EmacsにたいするXリソースの表"
+msgid "@appendixsec GTK+ resources"
+msgstr "@appendixsec GTK+リソース"
 
 msgid "@appendixsec Lucid Menu And Dialog X Resources"
 msgstr "@appendixsec Lucidのメニューとダイアログ"
@@ -27,17 +27,20 @@ msgstr "@appendixsec Lucidのメニューとダイアログ"
 msgid "@appendixsec Motif Menu X Resources"
 msgstr "@appendixsec MotifメニューのXリソース"
 
-msgid "@appendixsec GTK+ resources"
-msgstr "@appendixsec GTK+リソース"
+msgid "@appendixsec Table of X Resources for Emacs"
+msgstr "@appendixsec EmacsにたいするXリソースの表"
+
+msgid "@appendixsec X Resources"
+msgstr "@appendixsec Xリソース"
 
 msgid "@appendixsubsec GTK+ Resource Basics"
 msgstr "@appendixsubsec GTK+ Resource Basics"
-
-msgid "@appendixsubsec GTK+ widget names"
-msgstr "@appendixsubsec GTK+ウィジェット名"
 
 msgid "@appendixsubsec GTK+ Widget Names in Emacs"
 msgstr "@appendixsubsec EmacsでのGTK+ウィジェット名"
 
 msgid "@appendixsubsec GTK+ styles"
 msgstr "@appendixsubsec GTK+スタイル"
+
+msgid "@appendixsubsec GTK+ widget names"
+msgstr "@appendixsubsec GTK+ウィジェット名"
