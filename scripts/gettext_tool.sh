@@ -173,7 +173,8 @@ function generate_gettext_pot () {
     DATE_STRING=$(date '+%Y-%m-%d %H:%M');
 
     echo -n "Generating ${POT_FILE} ... ";
-    cat <<EOT > ${POT_FILE}
+    POT_TEMP=$(mktemp);
+    cat <<EOT > ${POT_TEMP}
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
@@ -189,7 +190,9 @@ msgstr ""
 EOT
     grep -E ${GREP_STRING} ${TEXI_FILE} |
 	perl -pe 's/\"/\\\"/g' | sort | uniq |
-	perl -ne 'chomp; print "msgid \"$_\"\nmsgstr \"\"\n\n";' >>${POT_FILE};
+	perl -ne 'chomp; print "msgid \"$_\"\nmsgstr \"\"\n\n";' >>${POT_TEMP};
+    
+    msguniq --output-file=${POT_TEMP} ${POT_FILE} && rm ${POT_TEMP};
     echo "done";
     
     return;
