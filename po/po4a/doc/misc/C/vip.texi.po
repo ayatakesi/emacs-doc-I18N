@@ -1,0 +1,5519 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-13 00:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/vip.texi:3 ../../../../../doc/misc/vip.texi:24 ../../../../../doc/misc/vip.texi:45
+#, no-wrap
+msgid "VIP"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/vip.texi:4
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/vip.texi:8
+msgid "Copyright @copyright{} 1987, 2001--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/vip.texi:16
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/vip.texi:19
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/vip.texi:26
+#, no-wrap
+msgid "A Vi Package for GNU Emacs"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/vip.texi:27
+#, no-wrap
+msgid "(Version 3.5, September 15, 1987)"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/vip.texi:29
+#, no-wrap
+msgid "Masahiko Sato"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/vip.texi:38
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:41
+msgid "VIP: (vip)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:41
+msgid "An obsolete VI-emulation for Emacs."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:44
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/vip.texi:54
+msgid ""
+"VIP is a Vi emulating package written in Emacs Lisp.  VIP implements most Vi "
+"commands including Ex commands.  It is therefore hoped that this package "
+"will enable you to do Vi style editing under the powerful GNU Emacs "
+"environment.  This info file describes the usage of VIP assuming that you "
+"are fairly accustomed to Vi but not so much with Emacs.  Also we will "
+"concentrate mainly on differences from Vi, especially features unique to "
+"VIP."
+msgstr ""
+
+#. type: iftex
+#: ../../../../../doc/misc/vip.texi:57 ../../../../../doc/misc/vip.texi:90
+msgid ""
+"VIP is obsolete since Emacs 24.5---consider using Viper instead.  @xref{Top, "
+"Viper,, viper, The Viper VI-emulation mode for Emacs}."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/vip.texi:60
+msgid ""
+"It is recommended that you read nodes on survey and on customization before "
+"you start using VIP@.  Other nodes may be visited as needed."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/vip.texi:64
+msgid ""
+"Comments and bug reports are welcome.  Please send messages to "
+"@code{ms@@Sail.Stanford.Edu} if you are outside of Japan and to "
+"@code{masahiko@@sato.riec.tohoku.junet} if you are in Japan."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:75 ../../../../../doc/misc/vip.texi:100
+#, no-wrap
+msgid "Survey"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:75
+msgid "A survey of VIP."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/vip.texi:75 ../../../../../doc/misc/vip.texi:692 ../../../../../doc/misc/vip.texi:693
+#, no-wrap
+msgid "Vi Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:75
+msgid "Details of Vi commands."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/vip.texi:75 ../../../../../doc/misc/vip.texi:1685 ../../../../../doc/misc/vip.texi:1686
+#, no-wrap
+msgid "Ex Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:75
+msgid "Details of Ex commands."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/vip.texi:75 ../../../../../doc/misc/vip.texi:1868 ../../../../../doc/misc/vip.texi:1869
+#, no-wrap
+msgid "Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:75
+msgid "How to customize VIP."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/vip.texi:75 ../../../../../doc/misc/vip.texi:1940 ../../../../../doc/misc/vip.texi:1941
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:75
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/vip.texi:78
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: iftex
+#: ../../../../../doc/misc/vip.texi:87
+msgid ""
+"VIP is a Vi emulating package written in Emacs Lisp.  VIP implements most Vi "
+"commands including Ex commands.  It is therefore hoped that this package "
+"will enable you to do Vi style editing under the powerful GNU Emacs "
+"environment.  This manual describes the usage of VIP assuming that you are "
+"fairly accustomed to Vi but not so much with Emacs.  Also we will "
+"concentrate mainly on differences from Vi, especially features unique to "
+"VIP."
+msgstr ""
+
+#. type: iftex
+#: ../../../../../doc/misc/vip.texi:94
+msgid ""
+"It is recommended that you read chapters on survey and on customization "
+"before you start using VIP@.  Other chapters may be used as future "
+"references."
+msgstr ""
+
+#. type: iftex
+#: ../../../../../doc/misc/vip.texi:98
+msgid ""
+"Comments and bug reports are welcome.  Please send messages to "
+"@code{ms@@Sail.Stanford.Edu} if you are outside of Japan and to "
+"@code{masahiko@@unsun.riec.tohoku.junet} if you are in Japan."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/vip.texi:101
+#, no-wrap
+msgid "A Survey of VIP"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:105
+msgid ""
+"In this chapter we describe basics of VIP with emphasis on the features not "
+"found in Vi and on how to use VIP under GNU Emacs."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:112 ../../../../../doc/misc/vip.texi:114 ../../../../../doc/misc/vip.texi:115
+#, no-wrap
+msgid "Basic Concepts"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:112
+msgid "Basic concepts in Emacs."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:112 ../../../../../doc/misc/vip.texi:160 ../../../../../doc/misc/vip.texi:161
+#, no-wrap
+msgid "Loading VIP"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:112
+msgid "How to load VIP automatically."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:112 ../../../../../doc/misc/vip.texi:186 ../../../../../doc/misc/vip.texi:187
+#, no-wrap
+msgid "Modes in VIP"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:112
+msgid "VIP has three modes, which are orthogonal to modes in Emacs."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:112 ../../../../../doc/misc/vip.texi:307 ../../../../../doc/misc/vip.texi:308
+#, no-wrap
+msgid "Differences from Vi"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:112
+msgid "Differences of VIP from Vi is explained."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:119
+msgid ""
+"We begin by explaining some basic concepts of Emacs.  These concepts are "
+"explained in more detail in the GNU Emacs Manual."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:120 ../../../../../doc/misc/vip.texi:787
+#, no-wrap
+msgid "buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:121
+#, no-wrap
+msgid "point"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:122
+#, no-wrap
+msgid "mark"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:123
+#, no-wrap
+msgid "text"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:124
+#, no-wrap
+msgid "looking at"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:125
+#, no-wrap
+msgid "end (of buffer)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:126 ../../../../../doc/misc/vip.texi:436
+#, no-wrap
+msgid "region"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:139
+msgid ""
+"Conceptually, a @dfn{buffer} is just a string of @acronym{ASCII} characters "
+"and two special characters @key{PNT} (@dfn{point}) and @key{MRK} "
+"(@dfn{mark}) such that the character @key{PNT} occurs exactly once and "
+"@key{MRK} occurs at most once.  The @dfn{text} of a buffer is obtained by "
+"deleting the occurrences of @key{PNT} and @key{MRK}.  If, in a buffer, there "
+"is a character following @key{PNT} then we say that point is @dfn{looking "
+"at} the character; otherwise we say that point is @dfn{at the end of "
+"buffer}.  @key{PNT} and @key{MRK} are used to indicate positions in a buffer "
+"and they are not part of the text of the buffer.  If a buffer contains a "
+"@key{MRK} then the text between @key{MRK} and @key{PNT} is called the "
+"@dfn{region} of the buffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:140 ../../../../../doc/misc/vip.texi:795
+#, no-wrap
+msgid "window"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:145
+msgid ""
+"Emacs provides (multiple) @dfn{windows} on the screen, and you can see the "
+"content of a buffer through the window associated with the buffer.  The "
+"cursor of the screen is always positioned on the character after @key{PNT}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:146
+#, no-wrap
+msgid "mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:147
+#, no-wrap
+msgid "keymap"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:148 ../../../../../doc/misc/vip.texi:1919
+#, no-wrap
+msgid "local keymap"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:149
+#, no-wrap
+msgid "global keymap"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:159
+msgid ""
+"A @dfn{keymap} is a table that records the bindings between characters and "
+"command functions.  There is the @dfn{global keymap} common to all the "
+"buffers.  Each buffer has its @dfn{local keymap} that determines the "
+"@dfn{mode} of the buffer.  Local keymap overrides global keymap, so that if "
+"a function is bound to some key in the local keymap then that function will "
+"be executed when you type the key.  If no function is bound to a key in the "
+"local map, however, the function bound to the key in the global map becomes "
+"in effect."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:164
+msgid "The recommended way to load VIP automatically is to include the line:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:166
+#, no-wrap
+msgid "(load \"vip\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:172
+msgid ""
+"in your @file{.emacs} file.  The @file{.emacs} file is placed in your home "
+"directory and it will be executed every time you invoke Emacs.  If you wish "
+"to be in vi mode whenever Emacs starts up, you can include the following "
+"line in your @file{.emacs} file instead of the above line:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:174
+#, no-wrap
+msgid "(add-hook 'emacs-startup-hook 'vip-mode)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:177
+msgid "(@xref{Vi Mode}, for the explanation of vi mode.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:181
+msgid ""
+"Even if your @file{.emacs} file does not contain any of the above lines, you "
+"can load VIP and enter vi mode by typing the following from within Emacs."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:183
+#, no-wrap
+msgid "M-x vip-mode\n"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:189 ../../../../../doc/misc/vip.texi:269
+#, no-wrap
+msgid "032 C-z @r{(}@code{vip-change-mode-to-vi}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:190
+#, no-wrap
+msgid "0301 C-x C-z @r{(}@code{suspend-emacs}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:197
+msgid ""
+"Loading VIP has the effect of globally binding @kbd{C-z} (@kbd{Control-z})  "
+"to the function @code{vip-change-mode-to-vi}. The default binding of "
+"@kbd{C-z} in GNU Emacs is @code{suspend-emacs}, but, you can also call "
+"@code{suspend-emacs} by typing @kbd{C-x C-z}.  Other than this, all the key "
+"bindings of Emacs remain the same after loading VIP."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:198
+#, no-wrap
+msgid "vi mode"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:208
+msgid ""
+"Now, if you hit @kbd{C-z}, the function @code{vip-change-mode-to-vi} will be "
+"called and you will be in @dfn{vi mode}.  (Some major modes may locally bind "
+"@kbd{C-z} to some special functions.  In such cases, you can call "
+"@code{vip-change-mode-to-vi} by @code{execute-extended-command} which is "
+"invoked by @kbd{M-x}.  Here @kbd{M-x} means @kbd{Meta-x}, and if your "
+"terminal does not have a @key{META} key you can enter it by typing "
+"@kbd{@key{ESC} x}.  The same effect can also be achieve by typing @kbd{M-x "
+"vip-mode}.)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:209
+#, no-wrap
+msgid "mode line"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:213
+msgid ""
+"You can observe the change of mode by looking at the @dfn{mode line}.  For "
+"instance, if the mode line is:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:215
+#, no-wrap
+msgid "-----Emacs: *scratch*              (Lisp Interaction)----All------------\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:218
+msgid "then it will change to:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:220
+#, no-wrap
+msgid "-----Vi:    *scratch*              (Lisp Interaction)----All------------\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:223
+msgid "Thus the word @samp{Emacs} in the mode line will change to @samp{Vi}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:224
+#, no-wrap
+msgid "insert mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:225
+#, no-wrap
+msgid "emacs mode"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:229
+msgid ""
+"You can go back to the original @dfn{emacs mode} by typing @kbd{C-z} in vi "
+"mode.  Thus @kbd{C-z} toggles between these two modes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:232
+msgid ""
+"Note that modes in VIP exist orthogonally to modes in Emacs.  This means "
+"that you can be in vi mode and at the same time, say, shell mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:236
+msgid ""
+"Vi mode corresponds to Vi's command mode.  From vi mode you can enter "
+"@dfn{insert mode} (which corresponds to Vi's insert mode) by usual Vi "
+"command keys like @kbd{i}, @kbd{a}, @kbd{o} @dots{} etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:238
+msgid "In insert mode, the mode line will look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:240
+#, no-wrap
+msgid "-----Insert *scratch*              (Lisp Interaction)----All------------\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:243
+msgid "You can exit from insert mode by hitting @key{ESC} key as you do in Vi."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:247
+msgid ""
+"That VIP has three modes may seem very complicated, but in fact it is not "
+"so.  VIP is implemented so that you can do most editing remaining only in "
+"the two modes for Vi (that is vi mode and insert mode)."
+msgstr ""
+
+#. type: ifinfo
+#: ../../../../../doc/misc/vip.texi:250
+msgid "The figure below shows the transition of three modes in VIP."
+msgstr ""
+
+#. type: display
+#: ../../../../../doc/misc/vip.texi:256
+#, no-wrap
+msgid ""
+"           === C-z ==>          == i,o ... ==>\n"
+"emacs mode             vi mode                 insert mode\n"
+"           <== X-z ===          <=== ESC ====\n"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:264 ../../../../../doc/misc/vip.texi:266 ../../../../../doc/misc/vip.texi:267
+#, no-wrap
+msgid "Emacs Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:264
+msgid "This is the mode you should know better."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:264 ../../../../../doc/misc/vip.texi:276 ../../../../../doc/misc/vip.texi:277
+#, no-wrap
+msgid "Vi Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:264
+msgid "Vi commands are executed in this mode."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:264 ../../../../../doc/misc/vip.texi:283 ../../../../../doc/misc/vip.texi:284 ../../../../../doc/misc/vip.texi:1618
+#, no-wrap
+msgid "Insert Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:264
+msgid ""
+"You can enter text, and also can do editing if you know enough Emacs "
+"commands."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:275
+msgid ""
+"You will be in this mode just after you loaded VIP@.  You can do all normal "
+"Emacs editing in this mode.  Note that the key @kbd{C-z} is globally bound "
+"to @code{vip-change-mode-to-vi}.  So, if you type @kbd{C-z} in this mode "
+"then you will be in vi mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:282
+msgid ""
+"This mode corresponds to Vi's command mode.  Most Vi commands work as they "
+"do in Vi.  You can go back to emacs mode by typing @kbd{C-z}.  You can enter "
+"insert mode, just as in Vi, by typing @kbd{i}, @kbd{a} etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:289
+msgid ""
+"The key bindings in this mode is the same as in the emacs mode except for "
+"the following 4 keys.  So, you can move around in the buffer and change its "
+"content while you are in insert mode."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/vip.texi:291 ../../../../../doc/misc/vip.texi:471 ../../../../../doc/misc/vip.texi:756 ../../../../../doc/misc/vip.texi:1658
+#, no-wrap
+msgid "ESC"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:292 ../../../../../doc/misc/vip.texi:1659
+#, no-wrap
+msgid "033 ESC @r{(}@code{vip-change-mode-to-vi}@r{) (insert mode)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:294
+msgid "This key will take you back to vi mode."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:294 ../../../../../doc/misc/vip.texi:1661
+#, no-wrap
+msgid "C-h"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:295
+#, no-wrap
+msgid "010 C-h @r{(}@code{vip-delete-backward-char}@r{) (insert mode)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:297
+msgid "Delete previous character."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:297 ../../../../../doc/misc/vip.texi:1610 ../../../../../doc/misc/vip.texi:1664
+#, no-wrap
+msgid "C-w"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:298 ../../../../../doc/misc/vip.texi:1665
+#, no-wrap
+msgid "027 C-w @r{(}@code{vip-delete-backward-word}@r{) (insert mode)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:300
+msgid "Delete previous word."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:300 ../../../../../doc/misc/vip.texi:1667
+#, no-wrap
+msgid "C-z"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:301 ../../../../../doc/misc/vip.texi:1668
+#, no-wrap
+msgid "032 C-z @r{(}@code{vip-ESC}@r{) (insert mode)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:305
+msgid ""
+"Typing this key has the same effect as typing @key{ESC} in emacs mode.  Thus "
+"typing @kbd{C-z x} in insert mode will have the same effect as typing "
+"@kbd{ESC x} in emacs mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:311
+msgid "The major differences from Vi are explained below."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:332 ../../../../../doc/misc/vip.texi:333
+#, no-wrap
+msgid "Undoing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "You can undo more in VIP."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:343 ../../../../../doc/misc/vip.texi:344
+#, no-wrap
+msgid "Changing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Commands for changing the text."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:356 ../../../../../doc/misc/vip.texi:357
+#, no-wrap
+msgid "Searching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Search commands."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:372 ../../../../../doc/misc/vip.texi:373
+#, no-wrap
+msgid "z Command"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "You can now use zH, zM and zL as well as z- etc."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:387 ../../../../../doc/misc/vip.texi:388
+#, no-wrap
+msgid "Counts"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Some Vi commands which do not accept a count now accept one."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:413 ../../../../../doc/misc/vip.texi:414
+#, no-wrap
+msgid "Marking"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "You can now mark the current point, beginning of the buffer etc."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:433 ../../../../../doc/misc/vip.texi:434
+#, no-wrap
+msgid "Region Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "You can now give a region as an argument for delete commands etc."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:447
+#, no-wrap
+msgid "New Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Some new commands not available in Vi are added."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:539
+#, no-wrap
+msgid "New Bindings"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid ""
+"Bindings of some keys are changed for the convenience of editing under "
+"Emacs."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:599 ../../../../../doc/misc/vip.texi:600
+#, no-wrap
+msgid "Window Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Commands for moving among windows etc."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:623 ../../../../../doc/misc/vip.texi:624
+#, no-wrap
+msgid "Buffer Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Commands for selecting buffers etc."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:644 ../../../../../doc/misc/vip.texi:645
+#, no-wrap
+msgid "File Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Commands for visiting files etc."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:330 ../../../../../doc/misc/vip.texi:665
+#, no-wrap
+msgid "Misc Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:330
+msgid "Other useful commands."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:335 ../../../../../doc/misc/vip.texi:1484
+#, no-wrap
+msgid "165 u @r{(}@code{vip-undo}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:336 ../../../../../doc/misc/vip.texi:1490
+#, no-wrap
+msgid "056 . @r{(}@code{vip-repeat}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:342
+msgid ""
+"You can repeat undoing by the @kbd{.} key.  So, @kbd{u} will undo a single "
+"change, while @kbd{u .@: .@: .@:}, for instance, will undo 4 previous "
+"changes.  Undo is undoable as in Vi.  So the content of the buffer will be "
+"the same before and after @kbd{u u}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:353
+msgid ""
+"Some commands which change a small number of characters are executed "
+"slightly differently.  Thus, if point is at the beginning of a word "
+"@samp{foo} and you wished to change it to @samp{bar} by typing @w{@kbd{c "
+"w}}, then VIP will prompt you for a new word in the minibuffer by the prompt "
+"@samp{foo => }.  You can then enter @samp{bar} followed by @key{RET} or "
+"@key{ESC} to complete the command.  Before you enter @key{RET} or @key{ESC} "
+"you can abort the command by typing @kbd{C-g}.  In general,"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:353
+#, no-wrap
+msgid "007 C-g @r{(}@code{vip-keyboard-quit})"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:355
+msgid "you can abort a partially formed command by typing @kbd{C-g}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:359 ../../../../../doc/misc/vip.texi:408 ../../../../../doc/misc/vip.texi:1231
+#, no-wrap
+msgid "057 / @r{(}@code{vip-search-forward}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:360 ../../../../../doc/misc/vip.texi:409 ../../../../../doc/misc/vip.texi:1241
+#, no-wrap
+msgid "077 ? @r{(}@code{vip-search-backward}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:371
+msgid ""
+"As in Vi, searching is done by @kbd{/} and @kbd{?}.  The string will be "
+"searched literally by default.  To invoke a regular expression search, first "
+"execute the search command @kbd{/} (or @kbd{?}) with empty search string.  "
+"(I.e., type @kbd{/} followed by @key{RET}.)  A search for empty string will "
+"toggle the search mode between vanilla search and regular expression "
+"search.  You cannot give an offset to the search string.  (It is a "
+"limitation.)  By default, search will wrap around the buffer as in Vi.  You "
+"can change this by rebinding the variable @code{vip-search-wrap-around}.  "
+"@xref{Customization}, for how to do this."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:375 ../../../../../doc/misc/vip.texi:977
+#, no-wrap
+msgid "1723 z H @r{(}@code{vip-line-to-top}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:376 ../../../../../doc/misc/vip.texi:978
+#, no-wrap
+msgid "1721 z RET @r{(}@code{vip-line-to-top}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:377 ../../../../../doc/misc/vip.texi:984
+#, no-wrap
+msgid "1723 z M @r{(}@code{vip-line-to-middle}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:378 ../../../../../doc/misc/vip.texi:985
+#, no-wrap
+msgid "1722 z . @r{(}@code{vip-line-to-middle}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:379 ../../../../../doc/misc/vip.texi:991
+#, no-wrap
+msgid "1723 z L @r{(}@code{vip-line-to-bottom}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:380 ../../../../../doc/misc/vip.texi:992
+#, no-wrap
+msgid "1722 z - @r{(}@code{vip-line-to-bottom}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:386
+msgid ""
+"For those of you who cannot remember which of @kbd{z} followed by @key{RET}, "
+"@kbd{.}@: and @kbd{-} do what.  You can also use @kbd{z} followed by "
+"@kbd{H}, @kbd{M} and @kbd{L} to place the current line in the Home (Middle, "
+"and Last) line of the window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:391
+msgid "Some Vi commands which do not accept a count now accept one"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:393 ../../../../../doc/misc/vip.texi:1418
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:394 ../../../../../doc/misc/vip.texi:1426
+#, no-wrap
+msgid "P"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:395 ../../../../../doc/misc/vip.texi:1419
+#, no-wrap
+msgid "160 p @r{(}@code{vip-put-back}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:396 ../../../../../doc/misc/vip.texi:1427
+#, no-wrap
+msgid "120 P @r{(}@code{vip-Put-back}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:399
+msgid ""
+"Given counts, text will be yanked (in Vi's sense) that many times.  Thus "
+"@kbd{3 p} is the same as @kbd{p p p}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:399 ../../../../../doc/misc/vip.texi:1640
+#, no-wrap
+msgid "o"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:400 ../../../../../doc/misc/vip.texi:1644
+#, no-wrap
+msgid "O"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:401 ../../../../../doc/misc/vip.texi:1641
+#, no-wrap
+msgid "157 o @r{(}@code{vip-open-line}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:402 ../../../../../doc/misc/vip.texi:1645
+#, no-wrap
+msgid "117 O @r{(}@code{vip-Open-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:406
+msgid ""
+"Given counts, that many copies of text will be inserted. Thus @kbd{o a b c "
+"@key{ESC}} will insert 3 lines of @samp{abc} below the current line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:406
+#, no-wrap
+msgid "/"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:407
+#, no-wrap
+msgid "?"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:411
+msgid "Given a count @var{n}, @var{n}-th occurrence will be searched."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:419
+msgid ""
+"Typing an @kbd{m} followed by a lower-case character @var{ch} marks the "
+"point to the register named @var{ch} as in Vi.  In addition to these, we "
+"have following key bindings for marking."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:420 ../../../../../doc/misc/vip.texi:1007
+#, no-wrap
+msgid "155 m @r{(}@code{vip-mark-point}@r{)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:423 ../../../../../doc/misc/vip.texi:1010
+#, no-wrap
+msgid "m <"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:425
+msgid "Set mark at the beginning of buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:425 ../../../../../doc/misc/vip.texi:1012
+#, no-wrap
+msgid "m >"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:427
+msgid "Set mark at the end of buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:427 ../../../../../doc/misc/vip.texi:1014
+#, no-wrap
+msgid "m ."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:429
+msgid "Set mark at point (and push old mark on mark ring)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:429 ../../../../../doc/misc/vip.texi:1016
+#, no-wrap
+msgid "m ,"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:431 ../../../../../doc/misc/vip.texi:1018
+msgid "Jump to mark (and pop mark off the mark ring)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:446
+msgid ""
+"Vi operators like @kbd{d}, @kbd{c} etc.@: are usually used in combination "
+"with motion commands.  It is now possible to use current region as the "
+"argument to these operators.  (A @dfn{region} is a part of buffer delimited "
+"by point and mark.)  The key @kbd{r} is used for this purpose.  Thus @kbd{d "
+"r} will delete the current region.  If @kbd{R} is used instead of @kbd{r} "
+"the region will first be enlarged so that it will become the smallest region "
+"containing the original region and consisting of whole lines.  Thus @kbd{m "
+".@: d R} will have the same effect as @kbd{d d}."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:448
+#, no-wrap
+msgid "Some New Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:451
+msgid "Note that the keys below (except for @kbd{R}) are not used in Vi."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:453
+#, no-wrap
+msgid "C-a"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:454
+#, no-wrap
+msgid "001 C-a @r{(}@code{vip-beginning-of-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:456
+msgid "Move point to the beginning of line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:456 ../../../../../doc/misc/vip.texi:606 ../../../../../doc/misc/vip.texi:812
+#, no-wrap
+msgid "C-n"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:457 ../../../../../doc/misc/vip.texi:607 ../../../../../doc/misc/vip.texi:813
+#, no-wrap
+msgid "016 C-n @r{(}@code{vip-next-window}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:460
+msgid ""
+"If you have two or more windows in the screen, this key will move point to "
+"the next window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:460 ../../../../../doc/misc/vip.texi:1648
+#, no-wrap
+msgid "C-o"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:461 ../../../../../doc/misc/vip.texi:1649
+#, no-wrap
+msgid "017 C-o @r{(}@code{vip-open-line-at-point}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:463
+msgid "Insert a newline and leave point before it, and then enter insert mode."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:463 ../../../../../doc/misc/vip.texi:1256 ../../../../../doc/misc/vip.texi:1594
+#, no-wrap
+msgid "C-r"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:464 ../../../../../doc/misc/vip.texi:1257 ../../../../../doc/misc/vip.texi:1595
+#, no-wrap
+msgid "022 C-r @r{(}@code{isearch-backward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:466
+msgid "Backward incremental search."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:466 ../../../../../doc/misc/vip.texi:1252 ../../../../../doc/misc/vip.texi:1597
+#, no-wrap
+msgid "C-s"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:467 ../../../../../doc/misc/vip.texi:1253 ../../../../../doc/misc/vip.texi:1598
+#, no-wrap
+msgid "023 C-s @r{(}@code{isearch-forward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:469
+msgid "Forward incremental search."
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:469 ../../../../../doc/misc/vip.texi:755
+#, no-wrap
+msgid "C-c"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:470 ../../../../../doc/misc/vip.texi:754
+#, no-wrap
+msgid "C-x"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:472 ../../../../../doc/misc/vip.texi:757
+#, no-wrap
+msgid "003 C-c @r{(}@code{vip-ctl-c}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:473 ../../../../../doc/misc/vip.texi:758
+#, no-wrap
+msgid "0300 C-x @r{(}@code{vip-ctl-x}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:474 ../../../../../doc/misc/vip.texi:759
+#, no-wrap
+msgid "033 ESC @r{(}@code{vip-ESC}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:480
+msgid ""
+"These keys will exit from vi mode and return to emacs mode temporarily.  If "
+"you hit one of these keys, Emacs will be in emacs mode and will believe that "
+"you hit that key in emacs mode. For example, if you hit @kbd{C-x} followed "
+"by @kbd{2}, then the current window will be split into 2 and you will be in "
+"vi mode again."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:480 ../../../../../doc/misc/vip.texi:775
+#, no-wrap
+msgid "\\"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:481 ../../../../../doc/misc/vip.texi:776
+#, no-wrap
+msgid "134 \\ @r{(}@code{vip-escape-to-emacs}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:488
+msgid ""
+"Escape to emacs mode.  Hitting @kbd{\\} will take you to emacs mode, and you "
+"can execute a single Emacs command.  After executing the Emacs command you "
+"will be in vi mode again.  You can give a count before typing @kbd{\\}.  "
+"Thus @kbd{5 \\ *}, as well as @kbd{\\ C-u 5 *}, will insert @samp{*****} "
+"before point.  Similarly @kbd{1 0 \\ C-p} will move the point 10 lines above "
+"the current line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:488 ../../../../../doc/misc/vip.texi:635 ../../../../../doc/misc/vip.texi:832
+#, no-wrap
+msgid "K"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:489 ../../../../../doc/misc/vip.texi:636 ../../../../../doc/misc/vip.texi:833
+#, no-wrap
+msgid "113 K @r{(}@code{vip-kill-buffer}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:492
+msgid ""
+"Kill current buffer if it is not modified.  Useful when you selected a "
+"buffer which you did not want."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:492 ../../../../../doc/misc/vip.texi:686
+#, no-wrap
+msgid "Q"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:493 ../../../../../doc/misc/vip.texi:688
+#, no-wrap
+msgid "R"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:494 ../../../../../doc/misc/vip.texi:1273
+#, no-wrap
+msgid "121 Q @r{(}@code{vip-query-replace}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:495 ../../../../../doc/misc/vip.texi:1262
+#, no-wrap
+msgid "122 R @r{(}@code{vip-replace-string}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:501
+msgid ""
+"@kbd{Q} is for query replace and @kbd{R} is for replace.  By default, string "
+"to be replaced are treated literally.  If you wish to do a regular "
+"expression replace, first do replace with empty string as the string to be "
+"replaced.  In this way, you can toggle between vanilla and regular "
+"expression replacement."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:501 ../../../../../doc/misc/vip.texi:648
+#, no-wrap
+msgid "v"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:502 ../../../../../doc/misc/vip.texi:651
+#, no-wrap
+msgid "V"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:503 ../../../../../doc/misc/vip.texi:649 ../../../../../doc/misc/vip.texi:859
+#, no-wrap
+msgid "166 v @r{(}@code{vip-find-file}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:504 ../../../../../doc/misc/vip.texi:652 ../../../../../doc/misc/vip.texi:862
+#, no-wrap
+msgid "126 V @r{(}@code{vip-find-file-other-window}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:508
+msgid ""
+"These keys are used to Visit files.  @kbd{v} will switch to a buffer "
+"visiting file whose name can be entered in the minibuffer. @kbd{V} is "
+"similar, but will use window different from the current window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:508 ../../../../../doc/misc/vip.texi:1542
+#, no-wrap
+msgid "#"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:509
+#, no-wrap
+msgid "0430 # @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:514
+msgid ""
+"If followed by a certain character @var{ch}, it becomes an operator whose "
+"argument is the region determined by the motion command that follows.  "
+"Currently, @var{ch} can be one of @kbd{c}, @kbd{C}, @kbd{g}, @kbd{q} and "
+"@kbd{s}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:514
+#, no-wrap
+msgid "# c"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:515
+#, no-wrap
+msgid "0432 # c @r{(}@code{downcase-region}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:518
+msgid ""
+"Change upper-case characters in the region to lower case "
+"(@code{downcase-region})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:518
+#, no-wrap
+msgid "# C"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:519
+#, no-wrap
+msgid "0431 # C @r{(}@code{upcase-region}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:523
+msgid ""
+"Change lower-case characters in the region to upper case. For instance, "
+"@kbd{# C 3 w} will capitalize 3 words from the current point "
+"(@code{upcase-region})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:523
+#, no-wrap
+msgid "# g"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:524
+#, no-wrap
+msgid "0432 # g @r{(}@code{vip-global-execute}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:527
+msgid ""
+"Execute last keyboard macro for each line in the region "
+"(@code{vip-global-execute})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:527
+#, no-wrap
+msgid "# q"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:528
+#, no-wrap
+msgid "0432 # q @r{(}@code{vip-quote-region}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:531
+msgid ""
+"Insert specified string at the beginning of each line in the region "
+"(@code{vip-quote-region})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:531
+#, no-wrap
+msgid "# s"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:532
+#, no-wrap
+msgid "0432 # s @r{(}@code{spell-region}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:534
+msgid "Check spelling of words in the region (@code{spell-region})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:534 ../../../../../doc/misc/vip.texi:677 ../../../../../doc/misc/vip.texi:1539
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:535 ../../../../../doc/misc/vip.texi:678 ../../../../../doc/misc/vip.texi:1540
+#, no-wrap
+msgid "052 * @r{(}@code{vip-call-last-kbd-macro}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:537
+msgid "Call last keyboard macro."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:540
+#, no-wrap
+msgid "New Key Bindings"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:547
+msgid ""
+"In VIP the meanings of some keys are entirely different from Vi.  These key "
+"bindings are done deliberately in the hope that editing under Emacs will "
+"become easier.  It is however possible to rebind these keys to functions "
+"which behave similarly as in Vi.  @xref{Customizing Key Bindings}, for "
+"details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:549 ../../../../../doc/misc/vip.texi:741
+#, no-wrap
+msgid "C-g"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:550 ../../../../../doc/misc/vip.texi:875
+#, no-wrap
+msgid "g"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:551
+#, no-wrap
+msgid "007 C-g @r{(}@code{vip-keyboard-quit}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:552 ../../../../../doc/misc/vip.texi:876
+#, no-wrap
+msgid "147 g @r{(}@code{vip-info-on-file}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:556
+msgid ""
+"In Vi, @kbd{C-g} is used to get information about the file associated to the "
+"current buffer.  Here, @kbd{g} will do that, and @kbd{C-g} is used to abort "
+"a command (this is for compatibility with emacs mode.)"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/vip.texi:556 ../../../../../doc/misc/vip.texi:941
+#, no-wrap
+msgid "SPC"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/vip.texi:557 ../../../../../doc/misc/vip.texi:947
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:558 ../../../../../doc/misc/vip.texi:943
+#, no-wrap
+msgid "040 SPC @r{(}@code{vip-scroll}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:559 ../../../../../doc/misc/vip.texi:949
+#, no-wrap
+msgid "015 RET @r{(}@code{vip-scroll-back}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:562
+msgid ""
+"Now these keys will scroll up and down the text of current window.  "
+"Convenient for viewing the text."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:562 ../../../../../doc/misc/vip.texi:627
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:563 ../../../../../doc/misc/vip.texi:631
+#, no-wrap
+msgid "S"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:564 ../../../../../doc/misc/vip.texi:628 ../../../../../doc/misc/vip.texi:826
+#, no-wrap
+msgid "163 s @r{(}@code{vip-switch-to-buffer}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:565 ../../../../../doc/misc/vip.texi:632 ../../../../../doc/misc/vip.texi:829
+#, no-wrap
+msgid "123 S @r{(}@code{vip-switch-to-buffer-other-window}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:571
+msgid ""
+"They are used to switch to a specified buffer.  Useful for switching to "
+"already existing buffer since buffer name completion is provided.  Also a "
+"default buffer will be given as part of the prompt, to which you can switch "
+"by just typing @key{RET} key.  @kbd{s} is used to select buffer in the "
+"current window, while @kbd{S} selects buffer in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:571 ../../../../../doc/misc/vip.texi:765
+#, no-wrap
+msgid "C"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:572 ../../../../../doc/misc/vip.texi:766
+#, no-wrap
+msgid "X"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:573 ../../../../../doc/misc/vip.texi:767
+#, no-wrap
+msgid "103 C @r{(}@code{vip-ctl-c-equivalent}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:574 ../../../../../doc/misc/vip.texi:768
+#, no-wrap
+msgid "1300 X @r{(}@code{vip-ctl-x-equivalent}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:587
+msgid ""
+"These keys will exit from vi mode and return to emacs mode temporarily.  If "
+"you type @kbd{C} (@kbd{X}), Emacs will be in emacs mode and will believe "
+"that you have typed @kbd{C-c} (@kbd{C-x}) in emacs mode. Moreover, if the "
+"following character you type is an upper-case letter, then Emacs will "
+"believe that you have typed the corresponding control character.  You will "
+"be in vi mode again after the command is executed.  For example, typing "
+"@kbd{X S} in vi mode is the same as typing @kbd{C-x C-s} in emacs mode.  You "
+"get the same effect by typing @kbd{C-x C-s} in vi mode, but the idea here is "
+"that you can execute useful Emacs commands without typing control "
+"characters. For example, if you hit @kbd{X} (or @kbd{C-x}) followed by "
+"@kbd{2}, then the current window will be split into 2 and you will be in vi "
+"mode again."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:590
+msgid "In addition to these, @code{ctl-x-map} is slightly modified:"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:591 ../../../../../doc/misc/vip.texi:619 ../../../../../doc/misc/vip.texi:823
+#, no-wrap
+msgid "1301 X 3 @r{(}@code{vip-buffer-in-two-windows}@r{)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:594 ../../../../../doc/misc/vip.texi:617 ../../../../../doc/misc/vip.texi:822
+#, no-wrap
+msgid "X 3"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:595 ../../../../../doc/misc/vip.texi:618
+#, no-wrap
+msgid "C-x 3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:597
+msgid "This is equivalent to @kbd{C-x 1 C-x 2} (1 + 2 = 3)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:604
+msgid ""
+"In this and following subsections, we give a summary of key bindings for "
+"basic functions related to windows, buffers and files."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:609
+msgid "Switch to next window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:609 ../../../../../doc/misc/vip.texi:815
+#, no-wrap
+msgid "X 1"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:610
+#, no-wrap
+msgid "C-x 1"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:611 ../../../../../doc/misc/vip.texi:816
+#, no-wrap
+msgid "1301 X 1 @r{(}@code{delete-other-windows}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:613
+msgid "Delete other windows."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:613 ../../../../../doc/misc/vip.texi:819
+#, no-wrap
+msgid "X 2"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:614
+#, no-wrap
+msgid "C-x 2"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:615 ../../../../../doc/misc/vip.texi:820
+#, no-wrap
+msgid "1301 X 2 @r{(}@code{split-window-vertically}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:617
+msgid "Split current window into two windows."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:621 ../../../../../doc/misc/vip.texi:825
+msgid "Show current buffer in two windows."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:631
+msgid ""
+"Switch to the specified buffer in the current window "
+"(@code{vip-switch-to-buffer})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:635
+msgid ""
+"Switch to the specified buffer in another window "
+"(@code{vip-switch-to-buffer-other-window})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:638
+msgid "Kill the current buffer if it is not modified."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:638 ../../../../../doc/misc/vip.texi:864
+#, no-wrap
+msgid "X S"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:639
+#, no-wrap
+msgid "C-x C-s"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:640 ../../../../../doc/misc/vip.texi:865
+#, no-wrap
+msgid "1302 X S @r{(}@code{save-buffer}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:642
+msgid "Save the current buffer in the file associated to the buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:651
+msgid "Visit specified file in the current window."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:654
+msgid "Visit specified file in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:654
+#, no-wrap
+msgid "X W"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:655
+#, no-wrap
+msgid "C-x C-w"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:656 ../../../../../doc/misc/vip.texi:870
+#, no-wrap
+msgid "1302 X W @r{(}@code{write-file}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:658
+msgid "Write current buffer into the specified file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:658
+#, no-wrap
+msgid "X I"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:659
+#, no-wrap
+msgid "C-x C-i"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:660 ../../../../../doc/misc/vip.texi:873
+#, no-wrap
+msgid "1302 X I @r{(}@code{insert-file}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:663
+msgid "Insert specified file at point."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:666
+#, no-wrap
+msgid "Miscellaneous Commands"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:669
+#, no-wrap
+msgid "X ("
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:670
+#, no-wrap
+msgid "C-x ("
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:671
+#, no-wrap
+msgid "1301 X ( @r{(}@code{start-kbd-macro}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:673
+msgid "Start remembering keyboard macro."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:673
+#, no-wrap
+msgid "X )"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:674
+#, no-wrap
+msgid "C-x )"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:675
+#, no-wrap
+msgid "1301 X ) @r{(}@code{end-kbd-macro}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:677
+msgid "Finish remembering keyboard macro."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:680 ../../../../../doc/misc/vip.texi:1542
+msgid "Call last remembered keyboard macro."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:680
+#, no-wrap
+msgid "X Z"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:681
+#, no-wrap
+msgid "C-x C-z"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:682
+#, no-wrap
+msgid "1302 X Z @r{(}@code{suspend-emacs}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:684 ../../../../../doc/misc/vip.texi:1815
+msgid "Suspend Emacs."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:684 ../../../../../doc/misc/vip.texi:1502
+#, no-wrap
+msgid "Z Z"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:686
+msgid "Exit Emacs."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:688
+msgid "Query replace."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:690
+msgid "Replace."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:698
+msgid ""
+"This chapter describes Vi commands other than Ex commands implemented in "
+"VIP@.  Except for the last section which discusses insert mode, all the "
+"commands described in this chapter are to be used in vi mode."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:713 ../../../../../doc/misc/vip.texi:714
+#, no-wrap
+msgid "Numeric Arguments"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Many commands accept numeric arguments"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:734 ../../../../../doc/misc/vip.texi:735
+#, no-wrap
+msgid "Important Keys"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Some very important keys."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:784 ../../../../../doc/misc/vip.texi:785
+#, no-wrap
+msgid "Buffers and Windows"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for handling buffers and windows."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:851 ../../../../../doc/misc/vip.texi:852
+#, no-wrap
+msgid "Files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for handling files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:932 ../../../../../doc/misc/vip.texi:933
+#, no-wrap
+msgid "Viewing the Buffer"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "How you can view the current buffer."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1000 ../../../../../doc/misc/vip.texi:1001
+#, no-wrap
+msgid "Mark Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Marking positions in a buffer."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1028 ../../../../../doc/misc/vip.texi:1029
+#, no-wrap
+msgid "Motion Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for moving point."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1222 ../../../../../doc/misc/vip.texi:1223
+#, no-wrap
+msgid "Searching and Replacing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for searching and replacing."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1286 ../../../../../doc/misc/vip.texi:1287
+#, no-wrap
+msgid "Modifying Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for modifying the buffer."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1496 ../../../../../doc/misc/vip.texi:1497
+#, no-wrap
+msgid "Other Vi Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Miscellaneous Commands."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/vip.texi:711 ../../../../../doc/misc/vip.texi:1617
+#, no-wrap
+msgid "Commands in Insert Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:711
+msgid "Commands for entering insert mode."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:716
+#, no-wrap
+msgid "numeric arguments"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:717
+#, no-wrap
+msgid "count"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:718
+#, no-wrap
+msgid "061 1 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:719
+#, no-wrap
+msgid "062 2 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:720
+#, no-wrap
+msgid "063 3 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:721
+#, no-wrap
+msgid "064 4 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:722
+#, no-wrap
+msgid "065 5 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:723
+#, no-wrap
+msgid "066 6 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:724
+#, no-wrap
+msgid "067 7 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:725
+#, no-wrap
+msgid "068 8 @r{(numeric argument)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:726
+#, no-wrap
+msgid "069 9 @r{(numeric argument)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:733
+msgid ""
+"Most Vi commands accept a @dfn{numeric argument} which can be supplied as a "
+"prefix to the commands.  A numeric argument is also called a @dfn{count}.  "
+"In many cases, if a count is given, the command is executed that many "
+"times.  For instance, @kbd{5 d d} deletes 5 lines while simple @kbd{d d} "
+"deletes a line.  In this manual the metavariable @var{n} will denote a "
+"count."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:739
+msgid ""
+"The keys @kbd{C-g} and @kbd{C-l} are unique in that their associated "
+"functions are the same in any of emacs, vi and insert mode."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:742
+#, no-wrap
+msgid "007 C-g (@code{vip-keyboard-quit}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:744
+msgid "Quit.  Cancel running or partially typed command (@code{keyboard-quit})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:744 ../../../../../doc/misc/vip.texi:996 ../../../../../doc/misc/vip.texi:1583
+#, no-wrap
+msgid "C-l"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:745 ../../../../../doc/misc/vip.texi:1584
+#, no-wrap
+msgid "014 C-l @r{(}@code{recenter}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:747 ../../../../../doc/misc/vip.texi:1586
+msgid "Clear the screen and reprint everything (@code{recenter})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:752
+msgid ""
+"In Emacs many commands are bound to the key strokes that start with "
+"@kbd{C-x}, @kbd{C-c} and @key{ESC}.  These commands can be accessed from vi "
+"mode as easily as from emacs mode."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:765
+msgid ""
+"Typing one of these keys have the same effect as typing it in emacs mode.  "
+"Appropriate command will be executed according as the keys you type after "
+"it.  You will be in vi mode again after the execution of the command.  For "
+"instance, if you type @kbd{@key{ESC} <} (in vi mode) then the cursor will "
+"move to the beginning of the buffer and you will still be in vi mode."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:775
+msgid ""
+"Typing one of these keys have the effect of typing the corresponding control "
+"character in emacs mode.  Moreover, if you type an upper-case character "
+"following it, that character will also be translated to the corresponding "
+"control character.  Thus typing @kbd{X W} in vi mode is the same as typing "
+"@kbd{C-x C-w} in emacs mode.  You will be in vi mode again after the "
+"execution of a command."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:782
+msgid ""
+"Escape to emacs mode.  Hitting the @kbd{\\} key will take you to emacs mode, "
+"and you can execute a single Emacs command.  After executing the Emacs "
+"command you will be in vi mode again.  You can give a count before typing "
+"@kbd{\\}.  Thus @kbd{5 \\ +}, as well as @kbd{\\ C-u 5 +}, will insert "
+"@samp{+++++} before point."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:788
+#, no-wrap
+msgid "selected buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:789
+#, no-wrap
+msgid "current buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:794
+msgid ""
+"In Emacs the text you edit is stored in a @dfn{buffer}.  See GNU Emacs "
+"Manual, for details.  There is always one @dfn{current} buffer, also called "
+"the @dfn{selected buffer}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:796
+#, no-wrap
+msgid "modified (buffer)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:808
+msgid ""
+"You can see the contents of buffers through @dfn{windows} created by Emacs.  "
+"When you have multiple windows on the screen only one of them is selected.  "
+"Each buffer has a unique name, and each window has a mode line which shows "
+"the name of the buffer associated with the window and other information "
+"about the status of the buffer.  You can change the format of the mode line, "
+"but normally if you see @samp{**} at the beginning of a mode line it means "
+"that the buffer is @dfn{modified}.  If you write out the content of the "
+"buffer to a file, then the buffer will become not modified.  Also if you see "
+"@samp{%%} at the beginning of the mode line, it means that the file "
+"associated with the buffer is write protected."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:810
+msgid "We have the following commands related to windows and buffers."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:815
+msgid "Move cursor to the next-window (@code{vip-next-window})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:819
+msgid ""
+"Delete other windows and make the selected window fill the screen "
+"@*(@code{delete-other-windows})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:822
+msgid "Split current window into two windows (@code{split-window-vertically})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:825
+#, no-wrap
+msgid "s @var{buffer} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:828
+msgid "Select or create a buffer named @var{buffer} (@code{vip-switch-to-buffer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:828
+#, no-wrap
+msgid "S @var{buffer} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:832
+msgid ""
+"Similar but select a buffer named @var{buffer} in another window "
+"@*(@code{vip-switch-to-buffer-other-window})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:836
+msgid ""
+"Kill the current buffer if it is not modified or if it is not associated "
+"with a file @*(@code{vip-kill-buffer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:836
+#, no-wrap
+msgid "X B"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:837
+#, no-wrap
+msgid "1302 X B @r{(}@code{list-buffers}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:839
+msgid "List the existing buffers (@code{list-buffers})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:841
+#, no-wrap
+msgid "buffer name completion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:850
+msgid ""
+"As @dfn{buffer name completion} is provided, you have only to type in "
+"initial substring of the buffer name which is sufficient to identify it "
+"among names of existing buffers.  After that, if you hit @key{TAB} the rest "
+"of the buffer name will be supplied by the system, and you can confirm it by "
+"@key{RET}.  The default buffer name to switch to will also be prompted, and "
+"you can select it by giving a simple @key{RET}.  See GNU Emacs Manual for "
+"details of completion."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:856
+msgid ""
+"We have the following commands related to files.  They are used to visit, "
+"save and insert files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:858
+#, no-wrap
+msgid "v @var{file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:861
+msgid "Visit specified file in the current window (@code{vip-find-file})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:861
+#, no-wrap
+msgid "V @var{file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:864
+msgid "Visit specified file in another window (@code{vip-find-file-other-window})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:869
+msgid ""
+"Save current buffer to the file associated with the buffer.  If no file is "
+"associated with the buffer, the name of the file to write out the content of "
+"the buffer will be asked in the minibuffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:869
+#, no-wrap
+msgid "X W @var{file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:872
+msgid "Write current buffer into a specified file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:872
+#, no-wrap
+msgid "X I @var{file} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:875
+msgid "Insert a specified file at point."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:882
+msgid ""
+"Give information on the file associated with the current buffer.  Tell you "
+"the name of the file associated with the buffer, the line number of the "
+"current point and total line numbers in the buffer.  If no file is "
+"associated with the buffer, this fact will be indicated by the null file "
+"name @samp{\"\"}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:884
+#, no-wrap
+msgid "visiting (a file)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:885
+#, no-wrap
+msgid "default directory"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:893
+msgid ""
+"In Emacs, you can edit a file by @dfn{visiting} it.  If you wish to visit a "
+"file in the current window, you can just type @kbd{v}.  Emacs maintains the "
+"@dfn{default directory} which is specific to each buffer.  Suppose, for "
+"instance, that the default directory of the current buffer is "
+"@file{/usr/masahiko/lisp/}.  Then you will get the following prompt in the "
+"minibuffer."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:895
+#, no-wrap
+msgid "visit file: /usr/masahiko/lisp/\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:897
+#, no-wrap
+msgid "file name completion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:914
+msgid ""
+"If you wish to visit, say, @file{vip.el} in this directory, then you can "
+"just type @samp{vip.el} followed by @key{RET}.  If the file @file{vip.el} "
+"already exists in the directory, Emacs will visit that file, and if not, the "
+"file will be created.  Emacs will use the file name (@file{vip.el}, in this "
+"case) as the name of the buffer visiting the file.  In order to make the "
+"buffer name unique, Emacs may add a suffix (@pxref{Uniquify,,, emacs, The "
+"GNU Emacs Manual}).  As @dfn{file name completion} is provided here, you can "
+"sometimes save typing.  For instance, suppose there is only one file in the "
+"default directory whose name starts with @samp{v}, that is @samp{vip.el}.  "
+"Then if you just type @kbd{v @key{TAB}} then it will be completed to "
+"@samp{vip.el}.  Thus, in this case, you just have to type @kbd{v v @key{TAB} "
+"@key{RET}} to visit @file{/usr/masahiko/lisp/vip.el}.  Continuing the "
+"example, let us now suppose that you wished to visit the file "
+"@file{/usr/masahiko/man/vip.texinfo}.  Then to the same prompt which you get "
+"after you typed @kbd{v}, you can enter @samp{/usr/masahiko/man/vip.texinfo} "
+"or @samp{../man/vip.texinfo} followed by @key{RET}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:917
+msgid ""
+"Use @kbd{V} instead of @kbd{v}, if you wish to visit a file in another "
+"window."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:921
+msgid ""
+"You can verify which file you are editing by typing @kbd{g}.  (You can also "
+"type @kbd{X B} to get information on other buffers too.)  If you type "
+"@kbd{g} you will get an information like below in the echo area:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:923
+#, no-wrap
+msgid "\"/usr/masahiko/man/vip.texinfo\" line 921 of 1949\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:931
+msgid ""
+"After you edited the buffer (@samp{vip.texinfo}, in our example) for a "
+"while, you may wish to save it in a file.  If you wish to save it in the "
+"file associated with the buffer (@file{/usr/masahiko/man/vip.texinfo}, in "
+"this case), you can just say @kbd{X S}.  If you wish to save it in another "
+"file, you can type @kbd{X W}.  You will then get a similar prompt as you get "
+"for @kbd{v}, to which you can enter the file name."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:939
+msgid ""
+"In this and next section we discuss commands for moving around in the "
+"buffer.  These command do not change the content of the buffer.  The "
+"following commands are useful for viewing the content of the current buffer."
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:942
+#, no-wrap
+msgid "C-f"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:944
+#, no-wrap
+msgid "006 C-f @r{(}@code{vip-scroll-back}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:947
+msgid ""
+"Scroll text of current window upward almost full screen.  You can go "
+"@i{forward} in the buffer by this command (@code{vip-scroll})."
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:948
+#, no-wrap
+msgid "C-b"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:950
+#, no-wrap
+msgid "002 C-b @r{(}@code{vip-scroll-back}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:953
+msgid ""
+"Scroll text of current window downward almost full screen.  You can go "
+"@i{backward} in the buffer by this command (@code{vip-scroll-back})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:953
+#, no-wrap
+msgid "C-d"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:954
+#, no-wrap
+msgid "004 C-d @r{(}@code{vip-scroll-up}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:957
+msgid ""
+"Scroll text of current window upward half screen.  You can go @i{down} in "
+"the buffer by this command (@code{vip-scroll-down})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:957
+#, no-wrap
+msgid "C-u"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:958
+#, no-wrap
+msgid "025 C-u @r{(}@code{vip-scroll-down}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:961
+msgid ""
+"Scroll text of current window downward half screen.  You can go @i{up} in "
+"the buffer by this command (@code{vip-scroll-up})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:961
+#, no-wrap
+msgid "C-y"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:962
+#, no-wrap
+msgid "031 C-y @r{(}@code{vip-scroll-down-one}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:964
+msgid ""
+"Scroll text of current window upward by one line "
+"(@code{vip-scroll-down-one})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:964
+#, no-wrap
+msgid "C-e"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:965
+#, no-wrap
+msgid "005 C-e @r{(}@code{vip-scroll-up-one}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:967
+msgid ""
+"Scroll text of current window downward by one line "
+"(@code{vip-scroll-up-one})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:971
+msgid ""
+"You can repeat these commands by giving a count.  Thus, @kbd{2 @key{SPC}} "
+"has the same effect as @kbd{@key{SPC} @key{SPC}}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:973
+msgid "The following commands reposition point in the window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:975
+#, no-wrap
+msgid "z H"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:976
+#, no-wrap
+msgid "z @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:982
+msgid ""
+"Put point on the top (@i{home}) line in the window.  So the current line "
+"becomes the top line in the window.  Given a count @var{n}, point will be "
+"placed in the @var{n}-th line from top (@code{vip-line-to-top})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:982
+#, no-wrap
+msgid "z M"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:983
+#, no-wrap
+msgid "z ."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:989
+msgid ""
+"Put point on the @i{middle} line in the window.  Given a count @var{n}, "
+"point will be placed in the @var{n}-th line from the middle line "
+"(@code{vip-line-to-middle})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:989
+#, no-wrap
+msgid "z L"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:990
+#, no-wrap
+msgid "z -"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:996
+msgid ""
+"Put point on the @i{bottom} line in the window.  Given a count @var{n}, "
+"point will be placed in the @var{n}-th line from bottom "
+"(@code{vip-line-to-bottom})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:998
+msgid "Center point in window and redisplay screen (@code{recenter})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1004
+msgid "The following commands are used to mark positions in the buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1006
+#, no-wrap
+msgid "m @var{ch}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1010
+msgid ""
+"Store current point in the register @var{ch}.  @var{ch} must be a lower-case "
+"@acronym{ASCII} letter."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1012
+msgid "Set mark at the beginning of current buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1014
+msgid "Set mark at the end of current buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1016
+msgid "Set mark at point."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1020
+#, no-wrap
+msgid "mark ring"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1027
+msgid ""
+"Emacs uses the @dfn{mark ring} to store marked positions.  The commands "
+"@kbd{m <}, @kbd{m >} and @kbd{m .}@: not only set mark but also add it as "
+"the latest element of the mark ring (replacing the oldest one).  By "
+"repeating the command @kbd{m ,} you can visit older and older marked "
+"positions.  You will eventually be in a loop as the mark ring is a ring."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1034
+msgid ""
+"Commands for moving around in the current buffer are collected here.  These "
+"commands are used as an ``argument'' for the delete, change and yank "
+"commands to be described in the next section."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1036
+#, no-wrap
+msgid "h"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1037
+#, no-wrap
+msgid "150 h @r{(}@code{vip-backward-char}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1041
+msgid ""
+"Move point backward by one character.  Signal error if point is at the "
+"beginning of buffer, but (unlike Vi) do not complain otherwise "
+"(@code{vip-backward-char})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1041
+#, no-wrap
+msgid "l"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1042
+#, no-wrap
+msgid "154 l @r{(}@code{vip-forward-char}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1046
+msgid ""
+"Move point backward by one character.  Signal error if point is at the end "
+"of buffer, but (unlike Vi) do not complain otherwise "
+"(@code{vip-forward-char})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1046
+#, no-wrap
+msgid "j"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1047
+#, no-wrap
+msgid "152 j @r{(}@code{vip-next-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1051
+msgid ""
+"Move point to the next line keeping the current column.  If point is on the "
+"last line of the buffer, a new line will be created and point will move to "
+"that line (@code{vip-next-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1051
+#, no-wrap
+msgid "k"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1052
+#, no-wrap
+msgid "153 k @r{(}@code{vip-previous-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1055
+msgid ""
+"Move point to the previous line keeping the current column "
+"(@code{vip-next-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1055
+#, no-wrap
+msgid "+"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1056
+#, no-wrap
+msgid "053 + @r{(}@code{vip-next-line-at-bol}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1060
+msgid ""
+"Move point to the next line at the first non-white character.  If point is "
+"on the last line of the buffer, a new line will be created and point will "
+"move to the beginning of that line (@code{vip-next-line-at-bol})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1060
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1061
+#, no-wrap
+msgid "055 - @r{(}@code{vip-previous-line-at-bol}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1064
+msgid ""
+"Move point to the previous line at the first non-white character "
+"(@code{vip-previous-line-at-bol})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1068
+msgid ""
+"If a count is given to these commands, the commands will be repeated that "
+"many times."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1070
+#, no-wrap
+msgid "0"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1071
+#, no-wrap
+msgid "060 0 @r{(}@code{vip-beginning-of-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1073
+msgid "Move point to the beginning of line (@code{vip-beginning-of-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1073
+#, no-wrap
+msgid "^"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1074
+#, no-wrap
+msgid "136 ^ @r{(}@code{vip-bol-and-skip-white}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1077
+msgid ""
+"Move point to the first non-white character on the line "
+"(@code{vip-bol-and-skip-white})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1077
+#, no-wrap
+msgid "$"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1078
+#, no-wrap
+msgid "044 $ @r{(}@code{vip-goto-eol}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1080
+msgid "Move point to the end of line (@code{vip-goto-eol})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1080
+#, no-wrap
+msgid "@var{n} |"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1081
+#, no-wrap
+msgid "174 | @r{(}@code{vip-goto-col}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1083
+msgid "Move point to the @var{n}-th column on the line (@code{vip-goto-col})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1086
+msgid "Except for the @kbd{|} command, these commands neglect a count."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1087
+#, no-wrap
+msgid "word"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1090
+#, no-wrap
+msgid "w"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1091
+#, no-wrap
+msgid "167 w @r{(}@code{vip-forward-word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1094
+msgid ""
+"Move point forward to the beginning of the next word "
+"(@code{vip-forward-word})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1094
+#, no-wrap
+msgid "W"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1095
+#, no-wrap
+msgid "127 W @r{(}@code{vip-forward-Word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1098
+msgid ""
+"Move point forward to the beginning of the next word, where a @dfn{word} is "
+"considered as a sequence of non-white characters (@code{vip-forward-Word})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1098
+#, no-wrap
+msgid "b"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1099
+#, no-wrap
+msgid "142 b @r{(}@code{vip-backward-word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1101
+msgid "Move point backward to the beginning of a word (@code{vip-backward-word})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1101
+#, no-wrap
+msgid "B"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1102
+#, no-wrap
+msgid "102 B @r{(}@code{vip-backward-Word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1105
+msgid ""
+"Move point backward to the beginning of a word, where a @i{word} is "
+"considered as a sequence of non-white characters (@code{vip-forward-Word})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1105
+#, no-wrap
+msgid "e"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1106
+#, no-wrap
+msgid "145 e @r{(}@code{vip-end-of-word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1108
+msgid "Move point forward to the end of a word (@code{vip-end-of-word})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1108
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1109
+#, no-wrap
+msgid "105 E @r{(}@code{vip-end-of-Word}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1112
+msgid ""
+"Move point forward to the end of a word, where a @i{word} is considered as a "
+"sequence of non-white characters (@code{vip-end-of-Word})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1114
+#, no-wrap
+msgid "syntax table"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1120
+msgid ""
+"Here the meaning of the word ``word'' for the @kbd{w}, @kbd{b} and @kbd{e} "
+"commands is determined by the @dfn{syntax table} effective in the current "
+"buffer.  Each major mode has its syntax mode, and therefore the meaning of a "
+"word also changes as the major mode changes.  See GNU Emacs Manual for "
+"details of syntax table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1122
+#, no-wrap
+msgid "H"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1123
+#, no-wrap
+msgid "110 H @r{(}@code{vip-window-top}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1127
+msgid ""
+"Move point to the beginning of the @i{home} (top) line of the window.  Given "
+"a count @var{n}, go to the @var{n}-th line from top (@code{vip-window-top})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1127
+#, no-wrap
+msgid "M"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1128
+#, no-wrap
+msgid "115 M @r{(}@code{vip-window-middle}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1132
+msgid ""
+"Move point to the beginning of the @i{middle} line of the window.  Given a "
+"count @var{n}, go to the @var{n}-th line from the middle line "
+"(@code{vip-window-middle})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1132
+#, no-wrap
+msgid "L"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1133
+#, no-wrap
+msgid "114 L @r{(}@code{vip-window-bottom}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1137
+msgid ""
+"Move point to the beginning of the @i{lowest} (bottom) line of the window.  "
+"Given count, go to the @var{n}-th line from bottom "
+"(@code{vip-window-bottom})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1140
+msgid "These commands can be used to go to the desired line visible on the screen."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1142
+#, no-wrap
+msgid "("
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1143
+#, no-wrap
+msgid "050 ( @r{(}@code{vip-backward-sentence}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1146
+msgid ""
+"Move point backward to the beginning of the sentence "
+"(@code{vip-backward-sentence})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1146
+#, no-wrap
+msgid ")"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1147
+#, no-wrap
+msgid "051 ) @r{(}@code{vip-forward-sentence}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1150
+msgid "Move point forward to the end of the sentence (@code{vip-forward-sentence})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1150
+#, no-wrap
+msgid "@{"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1151
+#, no-wrap
+msgid "173 @{ @r{(}@code{vip-backward-paragraph}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1154
+msgid ""
+"Move point backward to the beginning of the paragraph "
+"(@code{vip-backward-paragraph})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1154
+#, no-wrap
+msgid "@}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1155
+#, no-wrap
+msgid "175 @} @r{(}@code{vip-forward-paragraph}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1158
+msgid ""
+"Move point forward to the end of the paragraph "
+"(@code{vip-forward-paragraph})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1161
+msgid "A count repeats the effect for these commands."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1163
+#, no-wrap
+msgid "G"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1164
+#, no-wrap
+msgid "107 G @r{(}@code{vip-goto-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1168
+msgid ""
+"Given a count @var{n}, move point to the @var{n}-th line in the buffer on "
+"the first non-white character.  Without a count, go to the end of the buffer "
+"(@code{vip-goto-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1168
+#, no-wrap
+msgid "` `"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1169
+#, no-wrap
+msgid "140 ` @r{(}@code{vip-goto-mark}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1171
+msgid "Exchange point and mark (@code{vip-goto-mark})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1171
+#, no-wrap
+msgid "` @var{ch}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1174
+msgid ""
+"Move point to the position stored in the register @var{ch}.  @var{ch} must "
+"be a lower-case letter."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1174
+#, no-wrap
+msgid "' '"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1175
+#, no-wrap
+msgid "047 ' @r{(}@code{vip-goto-mark-and-skip-white}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1178
+msgid ""
+"Exchange point and mark, and then move point to the first non-white "
+"character on the line (@code{vip-goto-mark-and-skip-white})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1178
+#, no-wrap
+msgid "' @var{ch}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1181
+msgid ""
+"Move point to the position stored in the register @var{ch} and skip to the "
+"first non-white character on the line.  @var{ch} must be a lower-case "
+"letter."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1181
+#, no-wrap
+msgid "%"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1182
+#, no-wrap
+msgid "045 % @r{(}@code{vip-paren-match}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1186
+msgid ""
+"Move point to the matching parenthesis if point is looking at @kbd{(}, "
+"@kbd{)}, @kbd{@{}, @kbd{@}}, @kbd{[} or @kbd{]} @*(@code{vip-paren-match})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1191
+msgid ""
+"The command @kbd{G} mark point before move, so that you can return to the "
+"original point by @kbd{` `}.  The original point will also be stored in the "
+"mark ring."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1194
+msgid ""
+"The following commands are useful for moving points on the line.  A count "
+"will repeat the effect."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1196
+#, no-wrap
+msgid "f @var{ch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1197
+#, no-wrap
+msgid "146 f @r{(}@code{vip-find-char-forward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1200
+msgid ""
+"Move point forward to the character @var{ch} on the line.  Signal error if "
+"@var{ch} could not be found (@code{vip-find-char-forward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1200
+#, no-wrap
+msgid "F @var{ch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1201
+#, no-wrap
+msgid "106 F @r{(}@code{vip-find-char-backward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1204
+msgid ""
+"Move point backward to the character @var{ch} on the line.  Signal error if "
+"@var{ch} could not be found (@code{vip-find-char-backward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1204
+#, no-wrap
+msgid "t @var{ch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1205
+#, no-wrap
+msgid "164 t @r{(}@code{vip-goto-char-forward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1208
+msgid ""
+"Move point forward upto the character @var{ch} on the line.  Signal error if "
+"@var{ch} could not be found (@code{vip-goto-char-forward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1208
+#, no-wrap
+msgid "T @var{ch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1209
+#, no-wrap
+msgid "124 T @r{(}@code{vip-goto-char-backward}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1212
+msgid ""
+"Move point backward upto the character @var{ch} on the line.  Signal error "
+"if @var{ch} could not be found (@code{vip-goto-char-backward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1212
+#, no-wrap
+msgid ";"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1213
+#, no-wrap
+msgid "073 ; @r{(}@code{vip-repeat-find}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1216
+msgid ""
+"Repeat previous @kbd{f}, @kbd{t}, @kbd{F} or @kbd{T} command "
+"(@code{vip-repeat-find})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1216
+#, no-wrap
+msgid ","
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1217
+#, no-wrap
+msgid "054 , @r{(}@code{vip-repeat-find-opposite}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1220
+msgid ""
+"Repeat previous @kbd{f}, @kbd{t}, @kbd{F} or @kbd{T} command, in the "
+"opposite direction (@code{vip-repeat-find-opposite})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1226
+msgid "Following commands are available for searching and replacing."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1227
+#, no-wrap
+msgid "regular expression (search)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1230
+#, no-wrap
+msgid "/ @var{string} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1240
+msgid ""
+"Search the first occurrence of the string @var{string} forward starting from "
+"point.  Given a count @var{n}, the @var{n}-th occurrence of @var{string} "
+"will be searched.  If the variable @code{vip-re-search} has value @code{t} "
+"then @dfn{regular expression} search is done and the string matching the "
+"regular expression @var{string} is found.  If you give an empty string as "
+"@var{string} then the search mode will change from vanilla search to regular "
+"expression search and vice versa (@code{vip-search-forward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1240
+#, no-wrap
+msgid "? @var{string} @key{RET}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1244
+msgid ""
+"Same as @kbd{/}, except that search is done backward "
+"(@code{vip-search-backward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1244
+#, no-wrap
+msgid "n"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1245
+#, no-wrap
+msgid "156 n @r{(}@code{vip-search-next}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1248
+msgid ""
+"Search the previous search pattern in the same direction as before "
+"(@code{vip-search-next})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1248
+#, no-wrap
+msgid "N"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1249
+#, no-wrap
+msgid "116 N @r{(}@code{vip-search-Next}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1252
+msgid ""
+"Search the previous search pattern in the opposite direction "
+"(@code{vip-search-Next})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1256
+msgid ""
+"Search forward incrementally.  See GNU Emacs Manual for details "
+"(@code{isearch-forward})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1259 ../../../../../doc/misc/vip.texi:1597
+msgid "Search backward incrementally (@code{isearch-backward})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1259
+#, no-wrap
+msgid "vanilla (replacement)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1260
+#, no-wrap
+msgid "regular expression (replacement)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1261
+#, no-wrap
+msgid "R @var{string} @key{RET} @var{newstring}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1272
+msgid ""
+"There are two modes of replacement, @dfn{vanilla} and @dfn{regular "
+"expression}.  If the mode is @i{vanilla} you will get a prompt @samp{Replace "
+"string:}, and if the mode is @i{regular expression} you will ge a prompt "
+"@samp{Replace regexp:}.  The mode is initially @i{vanilla}, but you can "
+"toggle these modes by giving a null string as @var{string}.  If the mode is "
+"vanilla, this command replaces every occurrence of @var{string} with "
+"@var{newstring}.  If the mode is regular expression, @var{string} is treated "
+"as a regular expression and every string matching the regular expression is "
+"replaced with @var{newstring} (@code{vip-replace-string})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1272
+#, no-wrap
+msgid "Q @var{string} @key{RET} @var{newstring}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1277
+msgid ""
+"Same as @kbd{R} except that you will be asked form confirmation before each "
+"replacement @*(@code{vip-query-replace})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1277
+#, no-wrap
+msgid "r @var{ch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1278
+#, no-wrap
+msgid "162 r @r{(}@code{vip-replace-char}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1281
+msgid ""
+"Replace the character point is looking at by the character @var{ch}.  Give "
+"count, replace that many characters by @var{ch} (@code{vip-replace-char})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1285
+msgid ""
+"The commands @kbd{/} and @kbd{?} mark point before move, so that you can "
+"return to the original point by @w{@kbd{` `}}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1292
+msgid ""
+"In this section, commands for modifying the content of a buffer are "
+"described.  These commands affect the region determined by a motion command "
+"which is given to the commands as their argument."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1293
+#, no-wrap
+msgid "point commands"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1294
+#, no-wrap
+msgid "line commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1298
+msgid ""
+"We classify motion commands into @dfn{point commands} and @dfn{line "
+"commands}.  The point commands are as follows:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1300
+#, no-wrap
+msgid ""
+"@kbd{h}, @kbd{l}, @kbd{0}, @kbd{^}, @kbd{$}, @kbd{w}, @kbd{W}, @kbd{b}, "
+"@kbd{B}, @kbd{e}, @kbd{E}, @kbd{(}, @kbd{)}, @kbd{/}, @kbd{?}, @kbd{`}, "
+"@kbd{f}, @kbd{F}, @kbd{t}, @kbd{T}, @kbd{%}, @kbd{;}, @kbd{,}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1303
+msgid "The line commands are as follows:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1305
+#, no-wrap
+msgid ""
+"@kbd{j}, @kbd{k}, @kbd{+}, @kbd{-}, @kbd{H}, @kbd{M}, @kbd{L}, @kbd{@{}, "
+"@kbd{@}}, @kbd{G}, @kbd{'}\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1307
+#, no-wrap
+msgid "expanding (region)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1316
+msgid ""
+"If a point command is given as an argument to a modifying command, the "
+"region determined by the point command will be affected by the modifying "
+"command. On the other hand, if a line command is given as an argument to a "
+"modifying command, the region determined by the line command will be "
+"enlarged so that it will become the smallest region properly containing the "
+"region and consisting of whole lines (we call this process @dfn{expanding "
+"the region}), and then the enlarged region will be affected by the modifying "
+"command."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:1323 ../../../../../doc/misc/vip.texi:1324 ../../../../../doc/misc/vip.texi:1325
+#, no-wrap
+msgid "Delete Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1323
+msgid "Commands for deleting text."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:1323 ../../../../../doc/misc/vip.texi:1376 ../../../../../doc/misc/vip.texi:1377
+#, no-wrap
+msgid "Yank Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1323
+msgid "Commands for yanking text in Vi's sense."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:1323 ../../../../../doc/misc/vip.texi:1412 ../../../../../doc/misc/vip.texi:1413
+#, no-wrap
+msgid "Put Back Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1323
+msgid "Commands for putting back deleted/yanked text."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:1323 ../../../../../doc/misc/vip.texi:1443 ../../../../../doc/misc/vip.texi:1444
+#, no-wrap
+msgid "Change Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1323
+msgid "Commands for changing text."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/vip.texi:1323 ../../../../../doc/misc/vip.texi:1476 ../../../../../doc/misc/vip.texi:1477
+#, no-wrap
+msgid "Repeating and Undoing Modifications"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1328
+#, no-wrap
+msgid "d @var{motion-command}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1329
+#, no-wrap
+msgid "1440 d @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1331
+msgid "Delete the region determined by the motion command @var{motion-command}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1339
+msgid ""
+"For example, @kbd{d $} will delete the region between point and end of "
+"current line since @kbd{$} is a point command that moves point to end of "
+"line.  @kbd{d G} will delete the region between the beginning of current "
+"line and end of the buffer, since @kbd{G} is a line command.  A count given "
+"to the command above will become the count for the associated motion "
+"command.  Thus, @kbd{3 d w} will delete three words."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1340
+#, no-wrap
+msgid "042 \" @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1350
+msgid ""
+"It is also possible to save the deleted text into a register you specify.  "
+"For example, you can say @kbd{\" t 3 d w} to delete three words and save it "
+"to register @kbd{t}.  The name of a register is a lower-case letter between "
+"@kbd{a} and @kbd{z}.  If you give an upper-case letter as an argument to a "
+"delete command, then the deleted text will be appended to the content of the "
+"register having the corresponding lower-case letter as its name.  So, "
+"@kbd{\" T d w} will delete a word and append it to register @kbd{t}.  Other "
+"modifying commands also accept a register name as their argument, and we "
+"will not repeat similar explanations."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1352
+msgid "We have more delete commands as below."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1354
+#, no-wrap
+msgid "d d"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1355
+#, no-wrap
+msgid "1442 d d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1357
+msgid "Delete a line.  Given a count @var{n}, delete @var{n} lines."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1357
+#, no-wrap
+msgid "d r"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1358
+#, no-wrap
+msgid "1442 d r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1360
+msgid "Delete current region."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1360
+#, no-wrap
+msgid "d R"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1361
+#, no-wrap
+msgid "1441 d R"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1363
+msgid "Expand current region and delete it."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1363
+#, no-wrap
+msgid "D"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1364
+#, no-wrap
+msgid "104 D @r{(}@code{vip-kill-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1366
+msgid "Delete to the end of a line (@code{vip-kill-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1366
+#, no-wrap
+msgid "x"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1367
+#, no-wrap
+msgid "170 x @r{(}@code{vip-delete-char}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1370
+msgid ""
+"Delete a character after point.  Given @var{n}, delete @var{n} characters "
+"(@code{vip-delete-char})."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/vip.texi:1370
+#, no-wrap
+msgid "DEL"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1371
+#, no-wrap
+msgid "177 DEL @r{(}@code{vip-delete-backward-char}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1374
+msgid ""
+"Delete a character before point.  Given @var{n}, delete @var{n} characters "
+"(@code{vip-delete-backward-char})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1379
+#, no-wrap
+msgid "yank"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1385
+msgid ""
+"Yank commands @dfn{yank} a text of buffer into a (usually anonymous) "
+"register.  Here the word ``yank'' is used in Vi's sense.  Thus yank commands "
+"do not alter the content of the buffer, and useful only in combination with "
+"commands that put back the yanked text into the buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1387
+#, no-wrap
+msgid "y @var{motion-command}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1388
+#, no-wrap
+msgid "1710 y @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1390
+msgid "Yank the region determined by the motion command @var{motion-command}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1395
+msgid ""
+"For example, @kbd{y $} will yank the text between point and the end of line "
+"into an anonymous register, while @kbd{\"c y $} will yank the same text into "
+"register @kbd{c}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1397
+msgid "Use the following command to yank consecutive lines of text."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1399
+#, no-wrap
+msgid "y y"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1400
+#, no-wrap
+msgid "Y"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1401
+#, no-wrap
+msgid "131 Y @r{(}@code{vip-yank-line}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1402
+#, no-wrap
+msgid "1712 y y @r{(}@code{vip-yank-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1404
+msgid "Yank a line.  Given @var{n}, yank @var{n} lines (@code{vip-yank-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1404
+#, no-wrap
+msgid "y r"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1405
+#, no-wrap
+msgid "1712 y r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1407
+msgid "Yank current region."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1407
+#, no-wrap
+msgid "y R"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1408
+#, no-wrap
+msgid "1711 y R"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1410
+msgid "Expand current region and yank it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1416
+msgid ""
+"Deleted or yanked texts can be put back into the buffer by the command "
+"below."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1426
+msgid ""
+"Insert, after the character point is looking at, most recently "
+"deleted/yanked text from anonymous register. Given a register name argument, "
+"the content of the named register will be put back.  Given a count, the "
+"command will be repeated that many times. This command also checks if the "
+"text to put back ends with a new line character, and if so the text will be "
+"put below the current line (@code{vip-put-back})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1434
+msgid ""
+"Insert at point most recently deleted/yanked text from anonymous register.  "
+"Given a register name argument, the content of the named register will be "
+"put back.  Given a count, the command will be repeated that many times.  "
+"This command also checks if the text to put back ends with a new line "
+"character, and if so the text will be put above the current line rather than "
+"at point (@code{vip-Put-back})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1436
+#, no-wrap
+msgid "number register"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1442
+msgid ""
+"Thus, @kbd{\" c p} will put back the content of the register @kbd{c} into "
+"the buffer.  It is also possible to specify @dfn{number register} which is a "
+"numeral between @kbd{1} and @kbd{9}.  If the number register @var{n} is "
+"specified, @var{n}-th previously deleted/yanked text will be put back.  It "
+"is an error to specify a number register for the delete/yank commands."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1447
+msgid "Most commonly used change command takes the following form."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1449
+#, no-wrap
+msgid "c @var{motion-command}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1450
+#, no-wrap
+msgid "1430 c @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1456
+msgid ""
+"Replace the content of the region determined by the motion command "
+"@var{motion-command} by the text you type.  If the motion command is a point "
+"command then you will type the text into minibuffer, and if the motion "
+"command is a line command then the region will be deleted first and you can "
+"insert the text in @var{insert mode}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1463
+msgid ""
+"For example, if point is at the beginning of a word @samp{foo} and you wish "
+"to change it to @samp{bar}, you can type @kbd{c w}.  Then, as @kbd{w} is a "
+"point command, you will get the prompt @samp{foo =>} in the minibuffer, for "
+"which you can type @kbd{b a r @key{RET}} to complete the change command."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1465
+#, no-wrap
+msgid "c c"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1466
+#, no-wrap
+msgid "1432 c c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1468
+msgid "Change a line.  Given a count, that many lines are changed."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1468
+#, no-wrap
+msgid "c r"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1469
+#, no-wrap
+msgid "1432 c r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1471
+msgid "Change current region."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1471
+#, no-wrap
+msgid "c R"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1472
+#, no-wrap
+msgid "1431 c R"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1474
+msgid "Expand current region and change it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1481
+msgid ""
+"VIP records the previous modifying command, so that it is easy to repeat "
+"it.  It is also very easy to undo changes made by modifying commands."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1483
+#, no-wrap
+msgid "u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1489
+msgid ""
+"Undo the last change.  You can undo more by repeating undo by the repeat "
+"command @samp{.}.  For example, you can undo 5 previous changes by typing "
+"@samp{u....}.  If you type @samp{uu}, then the second @samp{u} undoes the "
+"first undo command (@code{vip-undo})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1489
+#, no-wrap
+msgid "."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1494
+msgid ""
+"Repeat the last modifying command.  Given count @var{n} it becomes the new "
+"count for the repeated command.  Otherwise, the count for the last modifying "
+"command is used again (@code{vip-repeat})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1500
+msgid "Miscellaneous Vi commands are collected here."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1503
+#, no-wrap
+msgid "132 Z Z @r{(}@code{save-buffers-kill-emacs}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1506
+msgid ""
+"Exit Emacs.  If modified buffers exist, you will be asked whether you wish "
+"to save them or not (@code{save-buffers-kill-emacs})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1506
+#, no-wrap
+msgid "!@: @var{motion-command} @var{format-command}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1507
+#, no-wrap
+msgid "@var{n} !@: !@: @var{format-command}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1508
+#, no-wrap
+msgid "041 ! @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1516
+msgid ""
+"The region determined by the motion command @var{motion-command} will be "
+"given to the shell command @var{format-command} and the region will be "
+"replaced by its output.  If a count is given, it will be passed to "
+"@var{motion-command}.  For example, @samp{3!Gsort} will sort the region "
+"between point and the 3rd line.  If @kbd{!} is used instead of "
+"@var{motion-command} then @var{n} lines will be processed by "
+"@var{format-command} (@code{vip-command-argument})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1516
+#, no-wrap
+msgid "J"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1517
+#, no-wrap
+msgid "112 J @r{(}@code{vip-join-lines}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1520
+msgid ""
+"Join two lines.  Given count, join that many lines.  A space will be "
+"inserted at each junction (@code{vip-join-lines})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1520
+#, no-wrap
+msgid "< @var{motion-command}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1521
+#, no-wrap
+msgid "@var{n} < <"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1522
+#, no-wrap
+msgid "074 < @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1527
+msgid ""
+"Shift region determined by the motion command @var{motion-command} to left "
+"by @var{shift-width} (default is 8).  If @kbd{<} is used instead of "
+"@var{motion-command} then shift @var{n} lines "
+"@*(@code{vip-command-argument})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1527
+#, no-wrap
+msgid "> @var{motion-command}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1528
+#, no-wrap
+msgid "@var{n} > >"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1529
+#, no-wrap
+msgid "076 > @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1534
+msgid ""
+"Shift region determined by the motion command @var{motion-command} to right "
+"by @var{shift-width} (default is 8).  If @kbd{<} is used instead of "
+"@var{motion-command} then shift @var{n} lines "
+"@*(@code{vip-command-argument})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1534
+#, no-wrap
+msgid "= @var{motion-command}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1535
+#, no-wrap
+msgid "075 = @r{(}@code{vip-command-argument}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1539
+msgid ""
+"Indent region determined by the motion command @var{motion-command}.  If "
+"@kbd{=} is used instead of @var{motion-command} then indent @var{n} lines "
+"(@code{vip-command-argument})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1544
+msgid "A new vi operator. @xref{New Commands}, for more details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1548
+msgid ""
+"The following keys are reserved for future extensions, and currently "
+"assigned to a function that just beeps (@code{vip-nil})."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1549
+#, no-wrap
+msgid "046 & @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1550
+#, no-wrap
+msgid "100 @@ @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1551
+#, no-wrap
+msgid "125 U @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1552
+#, no-wrap
+msgid "133 [ @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1553
+#, no-wrap
+msgid "135 ] @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1554
+#, no-wrap
+msgid "137 _ @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1555
+#, no-wrap
+msgid "161 q @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1556
+#, no-wrap
+msgid "176 ~ @r{(}@code{vip-nil}@r{)}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1560
+#, no-wrap
+msgid "&, @@, U, [, ], _, q, ~\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1567
+msgid ""
+"VIP uses a special local keymap to interpret key strokes you enter in vi "
+"mode.  The following keys are bound to @code{nil} in the keymap.  Therefore, "
+"these keys are interpreted by the global keymap of Emacs.  We give below a "
+"short description of the functions bound to these keys in the global "
+"keymap.  See GNU Emacs Manual for details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1569
+#, no-wrap
+msgid "C-@@"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1570
+#, no-wrap
+msgid "000 C-@@ @r{(}@code{set-mark-command}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1572
+msgid "Set mark and push previous mark on mark ring (@code{set-mark-command})."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/vip.texi:1572
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1573
+#, no-wrap
+msgid "011 TAB @r{(}@code{indent-for-tab-command}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1575
+msgid "Indent line for current major mode (@code{indent-for-tab-command})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1575
+#, no-wrap
+msgid "C-j"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1576
+#, no-wrap
+msgid "012 C-j @r{(}@code{electric-newline-and-maybe-indent}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1578
+msgid "Insert a newline, and maybe indent according to mode."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1578
+#, no-wrap
+msgid "C-k"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1579
+#, no-wrap
+msgid "013 C-k @r{(}@code{kill-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1583
+msgid ""
+"Kill the rest of the current line; before a newline, kill the newline.  With "
+"a numeric argument, kill that many lines from point.  Negative arguments "
+"kill lines backward (@code{kill-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1586
+#, no-wrap
+msgid "@var{n} C-p"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1587
+#, no-wrap
+msgid "020 C-p @r{(}@code{previous-line}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1589
+msgid "Move cursor vertically up @var{n} lines (@code{previous-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1589
+#, no-wrap
+msgid "C-q"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1590
+#, no-wrap
+msgid "021 C-q @r{(}@code{quoted-insert}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1594
+msgid ""
+"Read next input character and insert it.  Useful for inserting control "
+"characters @*(@code{quoted-insert})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1600
+msgid "Search forward incrementally (@code{isearch-forward})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1600
+#, no-wrap
+msgid "@var{n} C-t"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1601
+#, no-wrap
+msgid "024 C-t @r{(}@code{transpose-chars}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1606
+msgid ""
+"Interchange characters around point, moving forward one character.  With "
+"count @var{n}, take character before point and drag it forward past @var{n} "
+"other characters.  If no argument and at end of line, the previous two "
+"characters are exchanged (@code{transpose-chars})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1606
+#, no-wrap
+msgid "@var{n} C-v"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1607
+#, no-wrap
+msgid "026 C-v @r{(}@code{scroll-up}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1610
+msgid ""
+"Scroll text upward @var{n} lines.  If @var{n} is not given, scroll near full "
+"screen (@code{scroll-up})."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1611
+#, no-wrap
+msgid "027 C-w @r{(}@code{kill-region}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1615
+msgid ""
+"Kill between point and mark.  The text is save in the kill ring.  The "
+"command @kbd{P} or @kbd{p} can retrieve it from kill ring "
+"(@code{kill-region})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1624
+msgid ""
+"You can enter insert mode by one of the following commands.  In addition to "
+"these, you will enter insert mode if you give a change command with a line "
+"command as the motion command.  Insert commands are also modifying commands "
+"and you can repeat them by the repeat command @kbd{.} (@code{vip-repeat})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1626
+#, no-wrap
+msgid "i"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1627
+#, no-wrap
+msgid "151 i @r{(}@code{vip-insert}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1629
+msgid "Enter insert mode at point (@code{vip-insert})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1629
+#, no-wrap
+msgid "I"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1630
+#, no-wrap
+msgid "111 I @r{(}@code{vip-Insert}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1633
+msgid ""
+"Enter insert mode at the first non white character on the line "
+"(@code{vip-Insert})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1633
+#, no-wrap
+msgid "a"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1634
+#, no-wrap
+msgid "141 a @r{(}@code{vip-append}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1637
+msgid ""
+"Move point forward by one character and then enter insert mode "
+"(@code{vip-append})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1637
+#, no-wrap
+msgid "A"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1638
+#, no-wrap
+msgid "101 A @r{(}@code{vip-Append}@r{)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1640
+msgid "Enter insert mode at end of line (@code{vip-Append})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1644
+msgid ""
+"Open a new line below the current line and enter insert mode "
+"(@code{vip-open-line})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1648
+msgid ""
+"Open a new line above the current line and enter insert mode "
+"(@code{vip-Open-line})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1652
+msgid ""
+"Insert a newline and leave point before it, and then enter insert mode "
+"@*(@code{vip-open-line-at-point})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1656
+msgid ""
+"Insert mode is almost like emacs mode.  Only the following 4 keys behave "
+"differently from emacs mode."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1661
+msgid "This key will take you back to vi mode (@code{vip-change-mode-to-vi})."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1662
+#, no-wrap
+msgid "010 C-h @r{(}@code{delete-backward-char}@r{) (insert mode)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1664
+msgid "Delete previous character (@code{delete-backward-char})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1667
+msgid "Delete previous word (@code{vip-delete-backward-word})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1672
+msgid ""
+"This key simulates @key{ESC} key in emacs mode.  For instance, typing "
+"@kbd{C-z x} in insert mode is the same as typing @kbd{ESC x} in emacs mode "
+"(@code{vip-ESC})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1678
+msgid ""
+"You can also bind @kbd{C-h} to @code{help-command} if you like.  "
+"(@xref{Customizing Key Bindings}, for details.)  Binding @kbd{C-h} to "
+"@code{help-command} has the effect of making the meaning of @kbd{C-h} "
+"uniform among emacs, vi and insert modes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1684
+msgid ""
+"When you enter insert mode, VIP records point as the start point of "
+"insertion, and when you leave insert mode the region between point and start "
+"point is saved for later use by repeat command etc.  Therefore, repeat "
+"command will not really repeat insertion if you move point by emacs commands "
+"while in insert mode."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/vip.texi:1688
+#, no-wrap
+msgid "072 : @r{(}@code{vip-ex}@r{)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1691
+msgid "In vi mode, you can execute an Ex command @var{ex-command} by typing:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1693
+#, no-wrap
+msgid "@kbd{:@: @var{ex-command} @key{RET}}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1695
+msgid "Every Ex command follows the following pattern:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1697
+#, no-wrap
+msgid "@var{address command} @kbd{!}@: @var{parameters count flags}\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1699
+#, no-wrap
+msgid "address"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1702
+msgid ""
+"where all parts are optional.  For the syntax of @dfn{address}, the reader "
+"is referred to the reference manual of Ex."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1703
+#, no-wrap
+msgid "magic"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1704
+#, no-wrap
+msgid "regular expression"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1715
+msgid ""
+"In the current version of VIP, searching by Ex commands is always "
+"@dfn{magic}.  That is, search patterns are always treated as @dfn{regular "
+"expressions}.  For example, a typical forward search would be invoked by "
+"@kbd{:/@var{pat}/}.  If you wish to include @samp{/} as part of @var{pat} "
+"you must preceded it by @samp{\\}.  VIP strips off these @kbd{\\}'s before "
+"@kbd{/} and the resulting @var{pat} becomes the actual search pattern.  "
+"Emacs provides a different and richer class or regular expressions than "
+"Vi/Ex, and VIP uses Emacs's regular expressions.  See GNU Emacs Manual for "
+"details of regular expressions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1718
+msgid ""
+"Several Ex commands can be entered in a line by separating them by a pipe "
+"character @samp{|}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:1721 ../../../../../doc/misc/vip.texi:1722 ../../../../../doc/misc/vip.texi:1723
+#, no-wrap
+msgid "Ex Command Reference"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1721
+msgid "Explain all the Ex commands available in VIP."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1728
+msgid ""
+"In this section we briefly explain all the Ex commands supported by VIP@.  "
+"Most Ex commands expect @var{address} as their argument, and they use "
+"default addresses if they are not explicitly given.  In the following, such "
+"default addresses will be shown in parentheses."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1733
+msgid ""
+"Most command names can and preferably be given in abbreviated forms.  In the "
+"following, optional parts of command names will be enclosed in brackets.  "
+"For example, @samp{co[py]} will mean that copy command can be give as "
+"@samp{co} or @samp{cop} or @samp{copy}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1737
+msgid ""
+"If @var{command} is empty, point will move to the beginning of the line "
+"specified by the @var{address}.  If @var{address} is also empty, point will "
+"move to the beginning of the current line."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1738
+#, no-wrap
+msgid "flag"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1747
+msgid ""
+"Some commands accept @dfn{flags} which are one of @kbd{p}, @kbd{l} and "
+"@kbd{#}.  If @var{flags} are given, the text affected by the commands will "
+"be displayed on a temporary window, and you will be asked to hit return to "
+"continue.  In this way, you can see the text affected by the commands before "
+"the commands will be executed.  If you hit @kbd{C-g} instead of @key{RET} "
+"then the commands will be aborted.  Note that the meaning of @var{flags} is "
+"different in VIP from that in Vi/Ex."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1749
+#, no-wrap
+msgid "(.,.@:) co[py] @var{addr} @var{flags}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1750
+#, no-wrap
+msgid "(.,.@:) t @var{addr} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1753
+msgid ""
+"Place a copy of specified lines after @var{addr}.  If @var{addr} is @kbd{0}, "
+"it will be placed before the first line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1753
+#, no-wrap
+msgid "(.,.@:) d[elete] @var{register} @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1757
+msgid ""
+"Delete specified lines.  Text will be saved in a named @var{register} if a "
+"lower-case letter is given, and appended to a register if a capital letter "
+"is given."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1757
+#, no-wrap
+msgid "e[dit] !@: +@var{addr} @var{file}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1758
+#, no-wrap
+msgid "e[x] !@: +@var{addr} @var{file}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1759
+#, no-wrap
+msgid "vi[sual] !@: +@var{addr} @var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1763
+msgid ""
+"Edit a new file @var{file} in the current window.  The command will abort if "
+"current buffer is modified, which you can override by giving @kbd{!}.  If "
+"@kbd{+}@var{addr} is given, @var{addr} becomes the current line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1763
+#, no-wrap
+msgid "file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1765
+msgid "Give information about the current file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1765
+#, no-wrap
+msgid "(1,$) g[lobal] !@: /@var{pat}/ @var{cmds}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1766
+#, no-wrap
+msgid "(1,$) v /@var{pat}/ @var{cmds}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1771
+msgid ""
+"Among specified lines first mark each line which matches the regular "
+"expression @var{pat}, and then execute @var{cmds} on each marked line.  If "
+"@kbd{!}@: is given, @var{cmds} will be executed on each line not matching "
+"@var{pat}.  @kbd{v} is same as @kbd{g!}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1771
+#, no-wrap
+msgid "(.,.+1) j[oin] !@: @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1774
+msgid ""
+"Join specified lines into a line.  Without @kbd{!}, a space character will "
+"be inserted at each junction."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1774
+#, no-wrap
+msgid "(.@:) k @var{ch}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1775
+#, no-wrap
+msgid "(.@:) mar[k] @var{ch}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1780
+msgid ""
+"Mark specified line by a lower-case character @var{ch}.  Then the addressing "
+"form @kbd{'}@var{ch} will refer to this line.  No white space is required "
+"between @kbd{k} and @var{ch}.  A white space is necessary between @kbd{mark} "
+"and @var{ch}, however."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1780
+#, no-wrap
+msgid "map @var{ch} @var{rhs}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1783
+msgid ""
+"Define a macro for vi mode.  After this command, the character @var{ch} will "
+"be expanded to @var{rhs} in vi mode."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1783
+#, no-wrap
+msgid "(.,.@:) m[ove] @var{addr}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1785
+msgid "Move specified lines after @var{addr}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1785
+#, no-wrap
+msgid "(.@:) pu[t] @var{register}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1789
+msgid ""
+"Put back previously deleted or yanked text.  If @var{register} is given, the "
+"text saved in the register will be put back; otherwise, last deleted or "
+"yanked text will be put back."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1789
+#, no-wrap
+msgid "q[uit] !"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1794
+msgid ""
+"Quit from Emacs.  If modified buffers with associated files exist, you will "
+"be asked whether you wish to save each of them.  At this point, you may "
+"choose not to quit, by hitting @kbd{C-g}.  If @kbd{!}@: is given, exit from "
+"Emacs without saving modified buffers."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1794
+#, no-wrap
+msgid "(.@:) r[ead] @var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1796
+msgid "Read in the content of the file @var{file} after the specified line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1796
+#, no-wrap
+msgid "(.@:) r[ead] !@: @var{command}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1799
+msgid ""
+"Read in the output of the shell command @var{command} after the specified "
+"line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1799
+#, no-wrap
+msgid "se[t]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1802
+msgid ""
+"Set a variable's value.  @xref{Customizing Constants}, for the list of "
+"variables you can set."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1802
+#, no-wrap
+msgid "sh[ell]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1804
+msgid "Run a subshell in a window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1804
+#, no-wrap
+msgid ""
+"(.,.@:) s[ubstitute] /@var{pat}/@var{repl}/ @var{options} @var{count} "
+"@var{flags}"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/vip.texi:1805
+#, no-wrap
+msgid "(.,.@:) & @var{options} @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1813
+msgid ""
+"On each specified line, the first occurrence of string matching regular "
+"expression @var{pat} is replaced by replacement pattern @var{repl}.  Option "
+"characters are @kbd{g} and @kbd{c}.  If global option character @kbd{g} "
+"appears as part of @var{options}, all occurrences are substituted.  If "
+"confirm option character @kbd{c} appears, you will be asked to give "
+"confirmation before each substitution.  If @kbd{/@var{pat}/@var{repl}/} is "
+"missing, the last substitution is repeated."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1813
+#, no-wrap
+msgid "st[op]"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1815
+#, no-wrap
+msgid "ta[g] @var{tag}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1816
+#, no-wrap
+msgid "tag"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/vip.texi:1817
+#, no-wrap
+msgid "selected tags table"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1823
+msgid ""
+"Find first definition of @var{tag}.  If no @var{tag} is given, previously "
+"given @var{tag} is used and next alternate definition is find.  By default, "
+"the file @file{TAGS} in the current directory becomes the @dfn{selected tags "
+"table}.  You can select another tags table by @kbd{set} command.  "
+"@xref{Customizing Constants}, for details."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1823
+#, no-wrap
+msgid "und[o]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1825
+msgid "Undo the last change."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1825
+#, no-wrap
+msgid "unm[ap] @var{ch}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1827
+msgid "The macro expansion associated with @var{ch} is removed."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1827
+#, no-wrap
+msgid "ve[rsion]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1829
+msgid "Tell the version number of VIP."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1829
+#, no-wrap
+msgid "(1,$) w[rite] !@: @var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1836
+msgid ""
+"Write out specified lines into file @var{file}.  If no @var{file} is given, "
+"text will be written to the file associated to the current buffer.  Unless "
+"@kbd{!}@: is given, if @var{file} is different from the file associated to "
+"the current buffer and if the file @var{file} exists, the command will not "
+"be executed.  Unlike Ex, @var{file} becomes the file associated to the "
+"current buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1836
+#, no-wrap
+msgid "(1,$) w[rite]>> @var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1839
+msgid ""
+"Write out specified lines at the end of file @var{file}.  @var{file} becomes "
+"the file associated to the current buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1839
+#, no-wrap
+msgid "(1,$) wq !@: @var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1842
+msgid ""
+"Same as @kbd{write} and then @kbd{quit}.  If @kbd{!}@: is given, same as "
+"@kbd{write !}@: then @kbd{quit}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1842
+#, no-wrap
+msgid "(.,.) y[ank] @var{register} @var{count}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1845
+msgid ""
+"Save specified lines into register @var{register}.  If no register is "
+"specified, text will be saved in an anonymous register."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1845
+#, no-wrap
+msgid "@var{addr} !@: @var{command}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1849
+msgid ""
+"Execute shell command @var{command}.  The output will be shown in a new "
+"window.  If @var{addr} is given, specified lines will be used as standard "
+"input to @var{command}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1849
+#, no-wrap
+msgid "($) ="
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1851
+msgid "Print the line number of the addressed line."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1851
+#, no-wrap
+msgid "(.,.) > @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1854
+msgid ""
+"Shift specified lines to the right.  The variable @code{vip-shift-width} "
+"(default value is 8) determines the amount of shift."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1854
+#, no-wrap
+msgid "(.,.) < @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1857
+msgid ""
+"Shift specified lines to the left.  The variable @code{vip-shift-width} "
+"(default value is 8) determines the amount of shift."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1857
+#, no-wrap
+msgid "(.,.@:) ~ @var{options} @var{count} @var{flags}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1860
+msgid ""
+"Repeat the previous @kbd{substitute} command using previous search pattern "
+"as @var{pat} for matching."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1863
+msgid "The following Ex commands are available in Vi, but not implemented in VIP."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1866
+#, no-wrap
+msgid ""
+"@kbd{abbreviate}, @kbd{list}, @kbd{next}, @kbd{print}, @kbd{preserve}, "
+"@kbd{recover}, @kbd{rewind}, @kbd{source},\n"
+"@kbd{unabbreviate}, @kbd{xit}, @kbd{z}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1874
+msgid ""
+"If you have a file called @file{~/.emacs.d/vip} (or @file{~/.vip}), then it "
+"will also be loaded when VIP is loaded.  This file is thus useful for "
+"customizing VIP."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:1878 ../../../../../doc/misc/vip.texi:1880 ../../../../../doc/misc/vip.texi:1881
+#, no-wrap
+msgid "Customizing Constants"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1878
+msgid "How to change values of constants."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/vip.texi:1878 ../../../../../doc/misc/vip.texi:1916 ../../../../../doc/misc/vip.texi:1917
+#, no-wrap
+msgid "Customizing Key Bindings"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/vip.texi:1878
+msgid "How to change key bindings."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1885
+msgid ""
+"An easy way to customize VIP is to change the values of constants used in "
+"VIP@.  Here is the list of the constants used in VIP and their default "
+"values."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1887
+#, no-wrap
+msgid "vip-shift-width 8"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1889
+msgid "The number of columns shifted by @kbd{>} and @kbd{<} command."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1889
+#, no-wrap
+msgid "vip-re-replace nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1891
+msgid "If @code{t} then do regexp replace, if @code{nil} then do string replace."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1891
+#, no-wrap
+msgid "vip-search-wrap-around t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1893
+msgid "If @code{t}, search wraps around the buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1893
+#, no-wrap
+msgid "vip-re-search nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1896
+msgid ""
+"If @code{t} then search is reg-exp search, if @code{nil} then vanilla "
+"search."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1896
+#, no-wrap
+msgid "vip-case-fold-search nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1898
+msgid "If @code{t} search ignores cases."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1898
+#, no-wrap
+msgid "vip-re-query-replace nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1900
+msgid "If @code{t} then do reg-exp replace in query replace."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1900
+#, no-wrap
+msgid "vip-open-with-indent nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1903
+msgid ""
+"If @code{t} then indent to the previous current line when open a new line by "
+"@kbd{o} or @kbd{O} command."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1903
+#, no-wrap
+msgid "vip-tags-file-name \"TAGS\""
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1905
+msgid "The name of the file used as the tags table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/vip.texi:1905
+#, no-wrap
+msgid "vip-help-in-insert-mode nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/vip.texi:1908
+msgid ""
+"If @code{t} then @kbd{C-h} is bound to @code{help-command} in insert mode, "
+"if @code{nil} then it sis bound to @code{delete-backward-char}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1912
+msgid ""
+"You can reset these constants in VIP by the Ex command @kbd{set}.  Or you "
+"can include a line like this in your @file{~/.emacs.d/vip} file:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1914
+#, no-wrap
+msgid "(setq vip-case-fold-search t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/vip.texi:1926
+msgid ""
+"VIP uses @code{vip-command-mode-map} as the @dfn{local keymap} for vi mode.  "
+"For example, in vi mode, @key{SPC} is bound to the function "
+"@code{vip-scroll}.  But, if you wish to make @key{SPC} and some other keys "
+"behave like Vi, you can include the following lines in your "
+"@file{~/.emacs.d/vip} file."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/vip.texi:1938
+#, no-wrap
+msgid ""
+"(define-key vip-command-mode-map \"\\C-g\" 'vip-info-on-file)\n"
+"(define-key vip-command-mode-map \"\\C-h\" 'vip-backward-char)\n"
+"(define-key vip-command-mode-map \"\\C-m\" 'vip-next-line-at-bol)\n"
+"(define-key vip-command-mode-map \" \" 'vip-forward-char)\n"
+"(define-key vip-command-mode-map \"g\" 'vip-keyboard-quit)\n"
+"(define-key vip-command-mode-map \"s\" 'vip-substitute)\n"
+"(define-key vip-command-mode-map \"C\" 'vip-change-to-eol)\n"
+"(define-key vip-command-mode-map \"R\" 'vip-change-to-eol)\n"
+"(define-key vip-command-mode-map \"S\" 'vip-substitute-line)\n"
+"(define-key vip-command-mode-map \"X\" 'vip-delete-backward-char)\n"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/vip.texi:1942
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/vip.texi:1945
+#, no-wrap
+msgid "Key Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/vip.texi:1949
+#, no-wrap
+msgid "Concept Index"
+msgstr ""

@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-13 00:09\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Extending Flymake"
+msgstr ""
+
+msgid "@chapter The legacy ``Proc'' backend"
+msgstr ""
+
+msgid "@chapter Using Flymake"
+msgstr ""
+
+msgid "@section Adding support for a new syntax check tool"
+msgstr ""
+
+msgid "@section Backend exceptions"
+msgstr ""
+
+msgid "@section Backend functions"
+msgstr ""
+
+msgid "@section Customizable variables"
+msgstr ""
+
+msgid "@section Customization variables for the Proc backend"
+msgstr ""
+
+msgid "@section Customizing Flymake error types"
+msgstr ""
+
+msgid "@section Getting the include directories"
+msgstr ""
+
+msgid "@section Implementation overview"
+msgstr ""
+
+msgid "@section Interaction with other modes"
+msgstr ""
+
+msgid "@section Locating a master file"
+msgstr ""
+
+msgid "@section Locating the buildfile"
+msgstr ""
+
+msgid "@section Making a temporary copy"
+msgstr ""
+
+msgid "@section Parsing the output"
+msgstr ""
+
+msgid "@section Starting the syntax check process"
+msgstr ""
+
+msgid "@section Syntax check statuses"
+msgstr ""
+
+msgid "@subsection An annotated example backend"
+msgstr ""
+
+msgid "@subsection Example---Configuring a tool called directly"
+msgstr ""
+
+msgid "@subsection Example---Configuring a tool called via make"
+msgstr ""
+
+msgid "@subsection Flymake utility functions"
+msgstr ""

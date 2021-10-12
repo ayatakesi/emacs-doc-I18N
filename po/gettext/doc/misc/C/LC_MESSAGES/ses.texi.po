@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:10\n"
+"PO-Revision-Date: 2021-10-13 00:10\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Advanced Features"
+msgstr ""
+
+msgid "@chapter For Gurus"
+msgstr ""
+
+msgid "@chapter Quick Tutorial"
+msgstr ""
+
+msgid "@chapter Sales Pitch"
+msgstr ""
+
+msgid "@chapter The Basics"
+msgstr ""
+
+msgid "@section Buffer-local variables in spreadsheets"
+msgstr ""
+
+msgid "@section Cell formulas"
+msgstr ""
+
+msgid "@section Clearing cells"
+msgstr ""
+
+msgid "@section Copy, cut, and paste"
+msgstr ""
+
+msgid "@section Customizing @acronym{SES}"
+msgstr ""
+
+msgid "@section Deferred updates"
+msgstr ""
+
+msgid "@section Import and export"
+msgstr ""
+
+msgid "@section More on cell printing"
+msgstr ""
+
+msgid "@section Nonrelocatable references"
+msgstr ""
+
+msgid "@section Printer functions"
+msgstr ""
+
+msgid "@section Ranges in formulas"
+msgstr ""
+
+msgid "@section Resizing the spreadsheet"
+msgstr ""
+
+msgid "@section Sorting by column"
+msgstr ""
+
+msgid "@section Spreadsheets with details and summary"
+msgstr ""
+
+msgid "@section Standard formula functions"
+msgstr ""
+
+msgid "@section The data area"
+msgstr ""
+
+msgid "@section The print area"
+msgstr ""
+
+msgid "@section Uses of defadvice in @acronym{SES}"
+msgstr ""
+
+msgid "@section Virus protection"
+msgstr ""
+
+msgid "@subsection Configuring what printer function applies"
+msgstr ""
+
+msgid "@subsection Local printer functions"
+msgstr ""
+
+msgid "@subsection Standard printer functions"
+msgstr ""
+
+msgid "@subsection Various kinds of printer functions"
+msgstr ""
+
+msgid "@subsection Writing a lambda printer function"
+msgstr ""

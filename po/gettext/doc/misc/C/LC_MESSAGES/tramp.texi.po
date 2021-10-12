@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:10\n"
+"PO-Revision-Date: 2021-10-13 00:10\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter An overview of @value{tramp}"
+msgstr ""
+
+msgid "@chapter Configuring @value{tramp}"
+msgstr ""
+
+msgid "@chapter Frequently Asked Questions"
+msgstr ""
+
+msgid ""
+"@chapter How file names, directories and localnames are mangled and managed"
+msgstr ""
+
+msgid "@chapter How to Customize Traces"
+msgstr ""
+
+msgid "@chapter Obtaining @value{tramp}"
+msgstr ""
+
+msgid "@chapter Reporting Bugs and Problems"
+msgstr ""
+
+msgid "@chapter Short introduction how to use @value{tramp}"
+msgstr ""
+
+msgid "@chapter Using @value{tramp}"
+msgstr ""
+
+msgid "@section @acronym{GVFS}-based external methods"
+msgstr ""
+
+msgid "@section @value{tramp} file name conventions"
+msgstr ""
+
+msgid "@section Alternative file name syntax"
+msgstr ""
+
+msgid "@section Android shell setup hints"
+msgstr ""
+
+msgid "@section Archive file names"
+msgstr ""
+
+msgid "@section Auto-save and Backup configuration"
+msgstr ""
+
+msgid "@section Cleanup remote connections"
+msgstr ""
+
+msgid ""
+"@section Combining @option{ssh} or @option{plink} with @option{su} or "
+"@option{sudo}"
+msgstr ""
+
+msgid "@section Connecting to a remote host using multiple hops"
+msgstr ""
+
+msgid "@section Declaring multiple hops in the file name"
+msgstr ""
+
+msgid "@section External methods"
+msgstr ""
+
+msgid "@section File name completion"
+msgstr ""
+
+msgid "@section File name syntax"
+msgstr ""
+
+msgid "@section How @value{tramp} finds and uses programs on the remote host"
+msgstr ""
+
+msgid "@section Inline methods"
+msgstr ""
+
+msgid "@section Integrating with external Lisp packages"
+msgstr ""
+
+msgid "@section Integration with other Emacs packages"
+msgstr ""
+
+msgid "@section Issues with Cygwin ssh"
+msgstr ""
+
+msgid "@section Passing firewalls"
+msgstr ""
+
+msgid "@section Remote shell setup hints"
+msgstr ""
+
+msgid "@section Renaming remote files"
+msgstr ""
+
+msgid "@section Reusing connection related information"
+msgstr ""
+
+msgid "@section Reusing passwords for several connections"
+msgstr ""
+
+msgid "@section Selecting a default host"
+msgstr ""
+
+msgid "@section Selecting a default method"
+msgstr ""
+
+msgid "@section Selecting a default user"
+msgstr ""
+
+msgid "@section Selecting config files for user/host name completion"
+msgstr ""
+
+msgid "@section Setting own connection related information"
+msgstr ""
+
+msgid "@section Splitting a localname into its component parts"
+msgstr ""
+
+msgid "@section Types of connections to remote hosts"
+msgstr ""
+
+msgid "@section Using @acronym{GNOME} Online Accounts based methods"
+msgstr ""
+
+msgid "@section Using @acronym{GVFS}-based methods"
+msgstr ""
+
+msgid "@section Using @command{rclone}"
+msgstr ""
+
+msgid "@section Using @command{smbclient}"
+msgstr ""
+
+msgid "@section Using @command{sudoedit}"
+msgstr ""
+
+msgid "@section Using @option{ssh} and @option{plink}"
+msgstr ""
+
+msgid "@section Using @option{su}, @option{sudo} and @option{sg}"
+msgstr ""
+
+msgid "@section Using Android"
+msgstr ""
+
+msgid "@section Using Non-Standard Methods"
+msgstr ""
+
+msgid "@subsection Caching passwords"
+msgstr ""
+
+msgid "@subsection Changing the default remote or local shell"
+msgstr ""
+
+msgid "@subsection File attributes cache."
+msgstr ""
+
+msgid "@subsection File name completion."
+msgstr ""
+
+msgid "@subsection Other remote shell setup hints"
+msgstr ""
+
+msgid "@subsection Relevant connection properties to override"
+msgstr ""
+
+msgid "@subsection Running @code{eshell} on a remote host"
+msgstr ""
+
+msgid "@subsection Running @code{shell-command} on a remote host"
+msgstr ""
+
+msgid "@subsection Running @code{shell} on a remote host"
+msgstr ""
+
+msgid "@subsection Running a debugger on a remote host"
+msgstr ""
+
+msgid "@subsection Running remote processes on MS Windows hosts"
+msgstr ""
+
+msgid "@subsection Running remote programs that create local X11 windows"
+msgstr ""
+
+msgid "@subsection Tunneling with PuTTY"
+msgstr ""
+
+msgid "@subsection Tunneling with ssh"
+msgstr ""
+
+msgid "@subsection Using an authentication file"
+msgstr ""
+
+msgid "@subsection Which method to use?"
+msgstr ""

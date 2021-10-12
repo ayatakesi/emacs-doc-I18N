@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-13 00:09\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter The Minibuffer"
+msgstr ""
+
+msgid "@section Completion"
+msgstr ""
+
+msgid "@section Editing in the Minibuffer"
+msgstr ""
+
+msgid "@section Entering passwords"
+msgstr ""
+
+msgid "@section Minibuffer History"
+msgstr ""
+
+msgid "@section Minibuffers for File Names"
+msgstr ""
+
+msgid "@section Repeating Minibuffer Commands"
+msgstr ""
+
+msgid "@section Using the Minibuffer"
+msgstr ""
+
+msgid "@section Yes or No Prompts"
+msgstr ""
+
+msgid "@subsection Completion Commands"
+msgstr ""
+
+msgid "@subsection Completion Example"
+msgstr ""
+
+msgid "@subsection Completion Exit"
+msgstr ""
+
+msgid "@subsection Completion Options"
+msgstr ""
+
+msgid "@subsection How Completion Alternatives Are Chosen"
+msgstr ""

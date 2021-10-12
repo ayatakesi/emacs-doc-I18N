@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:10\n"
+"PO-Revision-Date: 2021-10-13 00:10\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@section Analyzer"
+msgstr ""
+
+msgid "@section Highlight Func Mode"
+msgstr ""
+
+msgid "@section Idle Scheduler"
+msgstr ""
+
+msgid "@section MRU Bookmarks mode"
+msgstr ""
+
+msgid "@section Semantic Database"
+msgstr ""
+
+msgid "@section Semantic mode"
+msgstr ""
+
+msgid "@section Speedbar"
+msgstr ""
+
+msgid "@section Sticky Function mode"
+msgstr ""
+
+msgid "@section Symbol References"
+msgstr ""
+
+msgid "@section Tag Decoration Mode"
+msgstr ""
+
+msgid "@subsection Changing Backends"
+msgstr ""
+
+msgid "@subsection Create System Databases"
+msgstr ""
+
+msgid "@subsection Creating New Decoration Modes"
+msgstr ""
+
+msgid "@subsection Debugging Idle Time Issues"
+msgstr ""
+
+msgid "@subsection Debugging the Semantic Analyzer"
+msgstr ""
+
+msgid "@subsection Idle Completions Mode"
+msgstr ""
+
+msgid "@subsection Idle Summary Mode"
+msgstr ""
+
+msgid "@subsection Idle Working Options"
+msgstr ""
+
+msgid "@subsection Reparsing Options"
+msgstr ""
+
+msgid "@subsection Semantic mode user commands"
+msgstr ""
+
+msgid "@subsection Semanticdb Search Configuration"
+msgstr ""
+
+msgid "@subsection Semanticdb Tag Storage"
+msgstr ""
+
+msgid "@subsection Smart Completion"
+msgstr ""
+
+msgid "@subsection Smart Jump"
+msgstr ""
+
+msgid "@subsection Smart Summary"
+msgstr ""
+
+msgid "@subsubsection Include Paths"
+msgstr ""
+
+msgid "@subsubsection SemanticDB Search Throttle"
+msgstr ""
+
+msgid "@subsubsection SemanticDB project roots"
+msgstr ""
+
+msgid "@subsubsection Semanticdb search debugging commands"
+msgstr ""
+
+msgid "@subsubsection Step 1: Check the context"
+msgstr ""
+
+msgid "@subsubsection Step 2 : Check your include path"
+msgstr ""
+
+msgid "@subsubsection Step 3: Check the local scope"
+msgstr ""
+
+msgid "@subsubsection Step 4: Check the typecache"
+msgstr ""
+
+msgid "@subsubsection Step 5: Check the parser"
+msgstr ""

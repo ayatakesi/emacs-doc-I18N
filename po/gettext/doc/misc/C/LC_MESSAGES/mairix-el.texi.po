@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-13 00:09\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter About mairix and mairix.el"
+msgstr ""
+
+msgid "@chapter Configuring mairix"
+msgstr ""
+
+msgid "@chapter Extending mairix.el"
+msgstr ""
+
+msgid "@chapter Setting up the mairix interface"
+msgstr ""
+
+msgid "@chapter Using mairix.el"
+msgstr ""

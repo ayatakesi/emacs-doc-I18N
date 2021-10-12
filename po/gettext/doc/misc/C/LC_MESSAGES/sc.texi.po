@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:10\n"
+"PO-Revision-Date: 2021-10-13 00:10\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Citations"
+msgstr ""
+
+msgid "@chapter Configuring the Citation Engine"
+msgstr ""
+
+msgid "@chapter Getting Connected"
+msgstr ""
+
+msgid "@chapter Hints to MUA Authors"
+msgstr ""
+
+msgid "@chapter Information Keys and the Info Alist"
+msgstr ""
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Post-yank Formatting Commands"
+msgstr ""
+
+msgid "@chapter Reference Headers"
+msgstr ""
+
+msgid "@chapter Replying and Yanking"
+msgstr ""
+
+msgid "@chapter Selecting an Attribution"
+msgstr ""
+
+msgid "@chapter Thanks and History"
+msgstr ""
+
+msgid "@section Anonymous Attributions"
+msgstr ""
+
+msgid "@section Attribution Preferences"
+msgstr ""
+
+msgid "@section Author Names"
+msgstr ""
+
+msgid "@section Citation Elements"
+msgstr ""
+
+msgid "@section Commands to Manually Cite, Recite, and Uncite"
+msgstr ""
+
+msgid "@section Electric References"
+msgstr ""
+
+msgid "@section Filling Cited Text"
+msgstr ""
+
+msgid "@section Frames You Can Customize"
+msgstr ""
+
+msgid "@section Insertion Commands"
+msgstr ""
+
+msgid "@section Mail Field Commands"
+msgstr ""
+
+msgid "@section Miscellaneous Commands"
+msgstr ""
+
+msgid "@section Recognizing Citations"
+msgstr ""
+
+msgid "@section Reply Buffer Initialization"
+msgstr ""
+
+msgid "@section The Built-in Header Rewrite Functions"
+msgstr ""
+
+msgid "@section Usage Overview"
+msgstr ""
+
+msgid "@section Using Regi"
+msgstr ""
+
+msgid "@section Variable Toggling Shortcuts"
+msgstr ""
+
+msgid "@section What Supercite Does"
+msgstr ""
+
+msgid "@section What Supercite Doesn't Do"
+msgstr ""

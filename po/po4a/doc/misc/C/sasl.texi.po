@@ -1,0 +1,564 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-13 00:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: title
+#: ../../../../../doc/misc/sasl.texi:6 ../../../../../doc/misc/sasl.texi:38
+#, no-wrap
+msgid "Emacs SASL Library @value{VERSION}"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/sasl.texi:7
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/sasl.texi:11
+msgid "This file describes the Emacs SASL library, version @value{VERSION}."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/sasl.texi:13
+msgid "Copyright @copyright{} 2000, 2004--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/sasl.texi:21
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/sasl.texi:24
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/sasl.texi:27
+#, no-wrap
+msgid "Emacs network features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:30
+msgid "SASL: (sasl)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:30
+msgid "The Emacs SASL library."
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/sasl.texi:35
+#, no-wrap
+msgid "Emacs SASL Library @value{VERSION} (DEVELOPMENT VERSION)"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/sasl.texi:41
+#, no-wrap
+msgid "by Daiki Ueno"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/sasl.texi:49
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/sasl.texi:50
+#, no-wrap
+msgid "Emacs SASL"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:54
+msgid ""
+"SASL is a common interface to share several authentication mechanisms "
+"between applications using different protocols."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sasl.texi:68 ../../../../../doc/misc/sasl.texi:70 ../../../../../doc/misc/sasl.texi:71
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "What Emacs SASL library is."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sasl.texi:68 ../../../../../doc/misc/sasl.texi:85 ../../../../../doc/misc/sasl.texi:86
+#, no-wrap
+msgid "How to use"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "Adding authentication support to your applications."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "Data types::"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sasl.texi:68 ../../../../../doc/misc/sasl.texi:248 ../../../../../doc/misc/sasl.texi:249
+#, no-wrap
+msgid "Back end drivers"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "Writing your own drivers."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/sasl.texi:68 ../../../../../doc/misc/sasl.texi:253 ../../../../../doc/misc/sasl.texi:254
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "Index::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:68
+msgid "Function Index::"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sasl.texi:68 ../../../../../doc/misc/sasl.texi:265 ../../../../../doc/misc/sasl.texi:266
+#, no-wrap
+msgid "Variable Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:76
+msgid ""
+"@sc{sasl} is short for @dfn{Simple Authentication and Security Layer}.  This "
+"standard is documented in RFC2222.  It provides a simple method for adding "
+"authentication support to various application protocols."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:80
+msgid ""
+"The toplevel interface of this library is inspired by Java @sc{sasl} "
+"Application Program Interface.  It defines an abstraction over a series of "
+"authentication mechanism drivers (@ref{Back end drivers})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:84
+msgid ""
+"Back end drivers are designed to be close as possible to the authentication "
+"mechanism.  You can access the additional configuration information anywhere "
+"from the implementation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:89 ../../../../../doc/misc/sasl.texi:252
+msgid "(Not yet written)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:92
+msgid ""
+"To use Emacs SASL library, please evaluate following expression at the "
+"beginning of your application program."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/sasl.texi:95
+#, no-wrap
+msgid "(require 'sasl)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:99
+msgid ""
+"If you want to check existence of sasl.el at runtime, instead you can list "
+"autoload settings for functions you want."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/sasl.texi:100 ../../../../../doc/misc/sasl.texi:101
+#, no-wrap
+msgid "Data types"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:106
+msgid ""
+"There are three data types to be used for carrying a negotiated security "
+"layer---a mechanism, a client parameter and an authentication step."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:111
+msgid "Mechanisms::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/sasl.texi:111
+msgid "Clients::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sasl.texi:111 ../../../../../doc/misc/sasl.texi:207 ../../../../../doc/misc/sasl.texi:208
+#, no-wrap
+msgid "Steps"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sasl.texi:113 ../../../../../doc/misc/sasl.texi:114
+#, no-wrap
+msgid "Mechanisms"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:118
+msgid ""
+"A mechanism (@code{sasl-mechanism} object) is a schema of the @sc{sasl} "
+"authentication mechanism driver."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/sasl.texi:119
+#, no-wrap
+msgid "sasl-mechanisms"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/sasl.texi:121
+msgid "A list of mechanism names."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:123
+#, no-wrap
+msgid "sasl-find-mechanism mechanisms"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:128
+msgid ""
+"Retrieve an appropriate mechanism.  This function compares @var{mechanisms} "
+"and @code{sasl-mechanisms} then returns appropriate @code{sasl-mechanism} "
+"object."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sasl.texi:132
+#, no-wrap
+msgid ""
+"(let ((sasl-mechanisms '(\"CRAM-MD5\" \"DIGEST-MD5\")))\n"
+"  (setq mechanism (sasl-find-mechanism server-supported-mechanisms)))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:136
+#, no-wrap
+msgid "sasl-mechanism-name mechanism"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:138
+msgid "Return name of mechanism, a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:143
+msgid ""
+"If you want to write an authentication mechanism driver (@ref{Back end "
+"drivers}), use @code{sasl-make-mechanism} and modify @code{sasl-mechanisms} "
+"and @code{sasl-mechanism-alist} correctly."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:144
+#, no-wrap
+msgid "sasl-make-mechanism name steps"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:148
+msgid ""
+"Allocate a @code{sasl-mechanism} object.  This function takes two "
+"parameters---name of the mechanism, and a list of authentication functions."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sasl.texi:153
+#, no-wrap
+msgid ""
+"(defconst sasl-anonymous-steps\n"
+"  '(identity                            ;no initial response\n"
+"    sasl-anonymous-response))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sasl.texi:156
+#, no-wrap
+msgid ""
+"(put 'sasl-anonymous 'sasl-mechanism\n"
+"     (sasl-make-mechanism \"ANONYMOUS\" sasl-anonymous-steps))\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/sasl.texi:160 ../../../../../doc/misc/sasl.texi:161
+#, no-wrap
+msgid "Clients"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:166
+msgid ""
+"A client (@code{sasl-client} object) initialized with four parameters---a "
+"mechanism, a user name, name of the service and name of the server."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:167
+#, no-wrap
+msgid "sasl-make-client mechanism name service server"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:169
+msgid "Prepare a @code{sasl-client} object."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:171
+#, no-wrap
+msgid "sasl-client-mechanism client"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:173
+msgid "Return the mechanism (@code{sasl-mechanism} object) of client."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:175
+#, no-wrap
+msgid "sasl-client-name client"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:177
+msgid "Return the authorization name of client, a string."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:179
+#, no-wrap
+msgid "sasl-client-service client"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:181
+msgid "Return the service name of client, a string."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:183
+#, no-wrap
+msgid "sasl-client-server client"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:185
+msgid "Return the server name of client, a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:189
+msgid ""
+"If you want to specify additional configuration properties, please use "
+"@code{sasl-client-set-property}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:190
+#, no-wrap
+msgid "sasl-client-set-property client property value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:192
+msgid "Add the given property/value to client."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:194
+#, no-wrap
+msgid "sasl-client-property client property"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:196
+msgid "Return the value of the property of client."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:198
+#, no-wrap
+msgid "sasl-client-set-properties client plist"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:201
+msgid ""
+"Destructively set the properties of client.  The second argument is the new "
+"property list."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:203
+#, no-wrap
+msgid "sasl-client-properties client"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:205
+msgid "Return the whole property list of client configuration."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:213
+msgid ""
+"A step (@code{sasl-step} object) is an abstraction of authentication "
+"``step'' which holds the response value and the next entry point for the "
+"authentication process (the latter is not accessible)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:214
+#, no-wrap
+msgid "sasl-step-data step"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:216
+msgid "Return the data which @var{step} holds, a string."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:218
+#, no-wrap
+msgid "sasl-step-set-data step data"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:220
+msgid "Store @var{data} string to @var{step}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:224
+msgid ""
+"To get the initial response, you should call the function "
+"@code{sasl-next-step} with the second argument @code{nil}."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sasl.texi:227
+#, no-wrap
+msgid "(setq name (sasl-mechanism-name mechanism))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:231
+msgid ""
+"At this point we could send the command which starts a SASL authentication "
+"protocol exchange.  For example,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/sasl.texi:238
+#, no-wrap
+msgid ""
+"(process-send-string\n"
+" process\n"
+" (if (sasl-step-data step)              ;initial response\n"
+"     (format \"AUTH %s %s\\r\\n\" name (base64-encode-string (sasl-step-data "
+"step) t))\n"
+"   (format \"AUTH %s\\r\\n\" name)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/sasl.texi:242
+msgid ""
+"To go on with the authentication process, all you have to do is call "
+"@code{sasl-next-step} consecutively."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:243
+#, no-wrap
+msgid "sasl-next-step client step"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/sasl.texi:246
+msgid ""
+"Perform the authentication step.  At the first time @var{step} should be set "
+"to @code{nil}."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/sasl.texi:255
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sasl.texi:257 ../../../../../doc/misc/sasl.texi:258
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/sasl.texi:261 ../../../../../doc/misc/sasl.texi:262
+#, no-wrap
+msgid "Function Index"
+msgstr ""

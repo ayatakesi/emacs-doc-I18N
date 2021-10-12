@@ -1,0 +1,4056 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-13 00:03+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/dbus.texi:4
+#, no-wrap
+msgid "Using of D-Bus"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/dbus.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/dbus.texi:14
+msgid "Copyright @copyright{} 2007--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/dbus.texi:22
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/dbus.texi:25
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/dbus.texi:28
+#, no-wrap
+msgid "Emacs lisp libraries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:31
+msgid "D-Bus: (dbus)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:31
+msgid "Using D-Bus in Emacs."
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/dbus.texi:34
+#, no-wrap
+msgid "Using D-Bus in Emacs"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:44
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:44 ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:72
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:44
+#, no-wrap
+msgid "(dir)"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/dbus.texi:45
+#, no-wrap
+msgid "D-Bus integration in Emacs"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:51
+msgid ""
+"This manual documents an API for usage of D-Bus in Emacs.  D-Bus is a "
+"message bus system, a simple way for applications to talk to one another.  "
+"An overview of D-Bus can be found at @uref{https://dbus.freedesktop.org/}."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:67
+msgid "An overview of D-Bus."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:122
+#, no-wrap
+msgid "Inspection"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:123
+#, no-wrap
+msgid "Inspection of D-Bus services."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:963
+#, no-wrap
+msgid "Type Conversion"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:964
+#, no-wrap
+msgid "Mapping Lisp types and D-Bus types."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1193
+#, no-wrap
+msgid "Synchronous Methods"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1194
+#, no-wrap
+msgid "Calling methods in a blocking way."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1295
+#, no-wrap
+msgid "Asynchronous Methods"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1296
+#, no-wrap
+msgid "Calling methods non-blocking."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1343
+#, no-wrap
+msgid "Receiving Method Calls"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1344
+#, no-wrap
+msgid "Offering own methods."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1657
+#, no-wrap
+msgid "Signals"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1658
+#, no-wrap
+msgid "Sending and receiving signals."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1789
+#, no-wrap
+msgid "Alternative Buses"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1790
+#, no-wrap
+msgid "Alternative buses and environments."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1900
+#, no-wrap
+msgid "Errors and Events"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:1901
+#, no-wrap
+msgid "Errors and events."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/dbus.texi:67 ../../../../../doc/misc/dbus.texi:2033 ../../../../../doc/misc/dbus.texi:2034
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:67
+msgid "Index including concepts, functions, variables."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/dbus.texi:69 ../../../../../doc/misc/dbus.texi:2039 ../../../../../doc/misc/dbus.texi:2040
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:69
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/dbus.texi:73
+#, no-wrap
+msgid "An overview of D-Bus"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:74
+#, no-wrap
+msgid "overview"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:80
+msgid ""
+"D-Bus is an inter-process communication mechanism for applications residing "
+"on the same host.  The communication is based on @dfn{messages}.  Data in "
+"the messages is carried in a structured way, it is not just a byte stream."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:87
+msgid ""
+"The communication is connection oriented to two kinds of message buses: a so "
+"called @dfn{system bus}, and a @dfn{session bus}.  On a given machine, there "
+"is always one single system bus for miscellaneous system-wide communication, "
+"like changing of hardware configuration.  On the other hand, the session bus "
+"is always related to a single user's session."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:92
+msgid ""
+"Every client application, which is connected to a bus, registers under a "
+"@dfn{unique name} at the bus.  This name is used for identifying the client "
+"application.  Such a unique name starts always with a colon, and looks like "
+"@samp{:1.42}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:100
+msgid ""
+"Additionally, a client application can register itself to a so called "
+"@dfn{known name}, which is a series of identifiers separated by dots, as in "
+"@samp{org.gnu.Emacs}.  If several applications register to the same known "
+"name, these registrations are queued, and only the first application which "
+"has registered for the known name is reachable via this name.  If this "
+"application disconnects from the bus, the next queued unique name becomes "
+"the owner of this known name."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:105
+msgid ""
+"An application can install one or several objects under its name.  Such "
+"objects are identified by an @dfn{object path}, which looks similar to paths "
+"in a filesystem.  An example of such an object path could be "
+"@samp{/org/gnu/Emacs/}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:110
+msgid ""
+"Applications might send a request to an object, that means sending a message "
+"with some data as input parameters, and receiving a message from that object "
+"with the result of this message, the output parameters.  Such a request is "
+"called @dfn{method} in D-Bus."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:114
+msgid ""
+"The other form of communication are @dfn{signals}.  The underlying message "
+"is emitted from an object and will be received by all other applications "
+"which have registered for such a signal."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:120
+msgid ""
+"All methods and signals an object supports are called @dfn{interface} of the "
+"object.  Interfaces are specified under a hierarchical name in D-Bus; an "
+"object can support several interfaces.  Such an interface name could be "
+"@samp{org.gnu.Emacs.TextEditor} or @samp{org.gnu.Emacs.FileManager}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:124
+#, no-wrap
+msgid "inspection"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:137
+#, no-wrap
+msgid "Version"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:134
+msgid "Determining the D-Bus version."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:156
+#, no-wrap
+msgid "Bus names"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/dbus.texi:134
+msgid "Discovering D-Bus names."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:264
+#, no-wrap
+msgid "Introspection"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:265
+#, no-wrap
+msgid "Knowing the details of D-Bus services."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:480
+#, no-wrap
+msgid "Nodes and Interfaces"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:481
+#, no-wrap
+msgid "Detecting object paths and interfaces."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:590
+#, no-wrap
+msgid "Methods and Signal"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:591
+#, no-wrap
+msgid "Applying the functionality."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:670
+#, no-wrap
+msgid "Properties and Annotations"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:671
+#, no-wrap
+msgid "What else to know about interfaces."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:895
+#, no-wrap
+msgid "Arguments and Signatures"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:134 ../../../../../doc/misc/dbus.texi:896
+#, no-wrap
+msgid "The final details."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:138
+#, no-wrap
+msgid "D-Bus version."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:143
+msgid ""
+"D-Bus has evolved over the years.  New features have been added with new "
+"D-Bus versions.  There are two variables, which allow the determination of "
+"the D-Bus version used."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:144
+#, no-wrap
+msgid "dbus-compiled-version"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:147
+msgid ""
+"This variable, a string, determines the version of D-Bus Emacs is compiled "
+"against.  If it cannot be determined the value is @code{nil}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:149
+#, no-wrap
+msgid "dbus-runtime-version"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:153
+msgid ""
+"The other D-Bus version to be checked is the version of D-Bus Emacs runs "
+"with.  This string can be different from @code{dbus-compiled-version}.  It "
+"is also @code{nil}, if it cannot be determined at runtime."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:157
+#, no-wrap
+msgid "Bus names."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:162
+msgid ""
+"There are several basic functions which inspect the buses for registered "
+"names.  Internally they use the basic interface @samp{org.freedesktop.DBus}, "
+"which is supported by all objects of a bus."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:163
+#, no-wrap
+msgid "dbus-list-activatable-names &optional bus"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:171
+msgid ""
+"This function returns the D-Bus service names, which can be activated for "
+"@var{bus}.  It must be either the symbol @code{:system} (the default) or the "
+"symbol @code{:session}.  An activatable service is described in a service "
+"registration file.  Under GNU/Linux, such files are located at "
+"@file{/usr/share/dbus-1/system-services/} (for the @code{:system} bus) or "
+"@file{/usr/share/dbus-1/services/}.  An activatable service is not "
+"necessarily registered at @var{bus} already."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:174
+msgid ""
+"The result is a list of strings, which is @code{nil} when there are no "
+"activatable service names at all.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:179
+#, no-wrap
+msgid ""
+";; Check, whether the document viewer can be accessed via D-Bus.\n"
+"(member \"org.gnome.evince.Daemon\"\n"
+"        (dbus-list-activatable-names :session))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:182
+#, no-wrap
+msgid "dbus-list-names bus"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:188
+msgid ""
+"This function returns all service names, which are registered at D-Bus "
+"@var{bus}.  The result is a list of strings, which is @code{nil} when there "
+"are no registered service names at all.  Well known names are strings like "
+"@samp{org.freedesktop.DBus}.  Names starting with @samp{:} are unique names "
+"for services."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:191 ../../../../../doc/misc/dbus.texi:201 ../../../../../doc/misc/dbus.texi:261
+msgid ""
+"@var{bus} must be either the symbol @code{:system} or the symbol "
+"@code{:session}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:193
+#, no-wrap
+msgid "dbus-list-known-names bus"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:198
+msgid ""
+"This function retrieves all registered services which correspond to a known "
+"name in @var{bus}.  A service has a known name if it doesn't start with "
+"@samp{:}.  The result is a list of strings, which is @code{nil} when there "
+"are no known names at all."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:203
+#, no-wrap
+msgid "dbus-list-queued-owners bus service"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:208
+msgid ""
+"For a given service, registered at D-Bus @var{bus} under the name "
+"@var{service}, this function returns all queued unique names.  The result is "
+"a list of strings, or @code{nil} when there are no queued names for "
+"@var{service} at all."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:212 ../../../../../doc/misc/dbus.texi:223
+msgid ""
+"@var{bus} must be either the symbol @code{:system} or the symbol "
+"@code{:session}.  @var{service} must be a known service name as string."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:214
+#, no-wrap
+msgid "dbus-get-name-owner bus service"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:219
+msgid ""
+"For a given service, registered at D-Bus @var{bus} under the name "
+"@var{service}, this function returns the unique name of the name owner.  The "
+"result is a string, or @code{nil} when there is no name owner of "
+"@var{service}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:225
+#, no-wrap
+msgid "dbus-ping bus service &optional timeout"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:230
+msgid ""
+"This function checks whether the service name @var{service} is registered at "
+"D-Bus @var{bus}.  If @var{service} has not yet started, it is autostarted if "
+"possible.  The result is either @code{t} or @code{nil}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:236
+msgid ""
+"@var{bus} must be either the symbol @code{:system} or the symbol "
+"@code{:session}.  @var{service} must be a string.  @var{timeout}, a "
+"nonnegative integer, specifies the maximum number of milliseconds before "
+"@code{dbus-ping} must return.  The default value is 25,000.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:244
+#, no-wrap
+msgid ""
+"(message\n"
+" \"%s screensaver on board.\"\n"
+" (cond\n"
+"  ((dbus-ping :session \"org.gnome.ScreenSaver\" 100) \"Gnome\")\n"
+"  ((dbus-ping :session \"org.freedesktop.ScreenSaver\" 100) \"KDE\")\n"
+"  (t \"No\")))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:248
+msgid ""
+"To check whether @var{service} is already running without autostarting it, "
+"you can instead write:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:251
+#, no-wrap
+msgid "(member service (dbus-list-known-names bus))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:254
+#, no-wrap
+msgid "dbus-get-unique-name bus"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/dbus.texi:258
+msgid "dbus-get-unique-name"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:258
+msgid ""
+"This function returns the unique name, under which Emacs is registered at "
+"D-Bus @var{bus}, as a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:270
+msgid ""
+"D-Bus services publish their interfaces.  This can be retrieved and analyzed "
+"during runtime, in order to understand the used implementation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:275
+msgid ""
+"The resulting introspection data are in XML format.  The root introspection "
+"element is always a @code{node} element.  It might have a @code{name} "
+"attribute, which denotes the (absolute) object path an interface is "
+"introspected."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:280
+msgid ""
+"The root @code{node} element may have @code{node} and @code{interface} "
+"children.  A child @code{node} element must have a @code{name} attribute, "
+"this case it is the relative object path to the root @code{node} element."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:284
+msgid ""
+"An @code{interface} element has just one attribute, @code{name}, which is "
+"the full name of that interface.  The default interface "
+"@samp{org.freedesktop.DBus.Introspectable} is always present.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:304
+#, no-wrap
+msgid ""
+"<node name=\"/org/bluez\">\n"
+"  <interface name=\"org.freedesktop.DBus.Introspectable\">\n"
+"    @dots{}\n"
+"  </interface>\n"
+"  <interface name=\"org.bluez.Manager\">\n"
+"    @dots{}\n"
+"  </interface>\n"
+"  <interface name=\"org.bluez.Database\">\n"
+"    @dots{}\n"
+"  </interface>\n"
+"  <interface name=\"org.bluez.Security\">\n"
+"    @dots{}\n"
+"  </interface>\n"
+"  <node name=\"service_audio\"/>\n"
+"  <node name=\"service_input\"/>\n"
+"  <node name=\"service_network\"/>\n"
+"  <node name=\"service_serial\"/>\n"
+"</node>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:311
+msgid ""
+"Children of an @code{interface} element can be @code{method}, @code{signal} "
+"and @code{property} elements.  A @code{method} element stands for a D-Bus "
+"method of the surrounding interface.  The element itself has a @code{name} "
+"attribute, showing the method name.  Children elements @code{arg} stand for "
+"the arguments of a method.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:326
+#, no-wrap
+msgid ""
+"<method name=\"ResolveHostName\">\n"
+"  <arg name=\"interface\" type=\"i\" direction=\"in\"/>\n"
+"  <arg name=\"protocol\" type=\"i\" direction=\"in\"/>\n"
+"  <arg name=\"name\" type=\"s\" direction=\"in\"/>\n"
+"  <arg name=\"aprotocol\" type=\"i\" direction=\"in\"/>\n"
+"  <arg name=\"flags\" type=\"u\" direction=\"in\"/>\n"
+"  <arg name=\"interface\" type=\"i\" direction=\"out\"/>\n"
+"  <arg name=\"protocol\" type=\"i\" direction=\"out\"/>\n"
+"  <arg name=\"name\" type=\"s\" direction=\"out\"/>\n"
+"  <arg name=\"aprotocol\" type=\"i\" direction=\"out\"/>\n"
+"  <arg name=\"address\" type=\"s\" direction=\"out\"/>\n"
+"  <arg name=\"flags\" type=\"u\" direction=\"out\"/>\n"
+"</method>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:338
+msgid ""
+"@code{arg} elements can have the attributes @code{name}, @code{type} and "
+"@code{direction}.  The @code{name} attribute is optional.  The @code{type} "
+"attribute stands for the @dfn{signature} of the argument in D-Bus.  For a "
+"discussion of D-Bus types and their Lisp representation see @ref{Type "
+"Conversion}.@footnote{D-Bus signatures are explained in the D-Bus "
+"specification "
+"@uref{https://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-signatures}.} "
+"The @code{direction} attribute of an @code{arg} element can be only "
+"@samp{in} or @samp{out}; in case it is omitted, it defaults to @samp{in}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:343
+msgid ""
+"A @code{signal} element of an @code{interface} has a similar structure.  The "
+"@code{direction} attribute of an @code{arg} child element can be only "
+"@samp{out} here; which is also the default value.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:349
+#, no-wrap
+msgid ""
+"<signal name=\"StateChanged\">\n"
+"  <arg name=\"state\" type=\"i\"/>\n"
+"  <arg name=\"error\" type=\"s\"/>\n"
+"</signal>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:356
+msgid ""
+"A @code{property} element has no @code{arg} child element.  It just has the "
+"attributes @code{name}, @code{type} and @code{access}, which are all "
+"mandatory.  The @code{access} attribute allows the values @samp{readwrite}, "
+"@samp{read}, and @samp{write}.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:359
+#, no-wrap
+msgid "<property name=\"Status\" type=\"u\" direction=\"read\"/>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:366
+msgid ""
+"@code{annotation} elements can be children of @code{interface}, "
+"@code{method}, @code{signal}, and @code{property} elements.  Unlike "
+"properties, which can change their values during lifetime of a D-Bus object, "
+"annotations are static.  Often they are used for code generators of D-Bus "
+"language bindings.  Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:369
+#, no-wrap
+msgid "<annotation name=\"de.berlios.Pinot.GetStatistics\" value=\"pinotDBus\"/>\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:373
+msgid ""
+"Annotations have just @code{name} and @code{value} attributes, both must be "
+"strings."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:374
+#, no-wrap
+msgid "dbus-introspect bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:377
+msgid ""
+"This function returns all interfaces and sub-nodes of @var{service}, "
+"registered at object path @var{path} at bus @var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:383
+msgid ""
+"@var{bus} must be either the symbol @code{:system} or the symbol "
+"@code{:session}.  @var{service} must be a known service name, and @var{path} "
+"must be a valid object path.  The last two parameters are strings.  The "
+"result, the introspection data, is a string in XML format.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:388
+#, no-wrap
+msgid ""
+"(dbus-introspect\n"
+" :system \"org.freedesktop.Hal\"\n"
+" \"/org/freedesktop/Hal/devices/computer\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:405
+#, no-wrap
+msgid ""
+"@result{} \"<!DOCTYPE node PUBLIC\n"
+"    \"-//freedesktop//DTD D-BUS Object Introspection 1.0//EN\"\n"
+"    \"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd\">\n"
+"    <node>\n"
+"      <interface name=\"org.freedesktop.Hal.Device\">\n"
+"        <method name=\"GetAllProperties\">\n"
+"          <arg name=\"properties\" direction=\"out\" type=\"a@{sv@}\"/>\n"
+"        </method>\n"
+"        @dots{}\n"
+"        <signal name=\"PropertyModified\">\n"
+"          <arg name=\"num_updates\" type=\"i\"/>\n"
+"          <arg name=\"updates\" type=\"a(sbb)\"/>\n"
+"        </signal>\n"
+"      </interface>\n"
+"      @dots{}\n"
+"    </node>\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:414
+msgid ""
+"This example informs us, that the service @samp{org.freedesktop.Hal} at "
+"object path @samp{/org/freedesktop/Hal/devices/computer} offers the "
+"interface @samp{org.freedesktop.Hal.Device} (and 2 other interfaces not "
+"documented here).  This interface contains the method "
+"@samp{GetAllProperties}, which needs no input parameters, but returns as "
+"output parameter an array of dictionary entries (key-value pairs).  Every "
+"dictionary entry has a string as key, and a variant as value."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:423
+msgid ""
+"The interface offers also a signal, which returns 2 parameters: an integer, "
+"and an array consisting of elements which are a struct of a string and 2 "
+"boolean values.@footnote{ The interfaces of the service "
+"@samp{org.freedesktop.Hal} are described in "
+"@uref{https://people.freedesktop.org/~dkukawka/hal-spec-git/hal-spec.html#interfaces, "
+"the HAL specification}.}"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:425
+#, no-wrap
+msgid "dbus-introspect-xml bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:429
+msgid ""
+"This function serves a similar purpose to the function "
+"@code{dbus-introspect}.  The returned value is a parsed XML tree, which can "
+"be used for further analysis.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:434
+#, no-wrap
+msgid ""
+"(dbus-introspect-xml\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:455
+#, no-wrap
+msgid ""
+"@result{} (node ((name . \"/org/freedesktop/xesam/searcher/main\"))\n"
+"    (interface ((name . \"org.freedesktop.xesam.Search\"))\n"
+"      (method ((name . \"GetHitData\"))\n"
+"        (arg ((name . \"search\")\n"
+"              (type . \"s\")\n"
+"              (direction . \"in\")))\n"
+"        (arg ((name . \"hit_ids\")\n"
+"              (type . \"au\")\n"
+"              (direction . \"in\")))\n"
+"        (arg ((name . \"fields\")\n"
+"              (type . \"as\")\n"
+"              (direction . \"in\")))\n"
+"        (arg ((name . \"hit_data\")\n"
+"              (type . \"aav\")\n"
+"              (direction . \"out\"))))\n"
+"      @dots{}\n"
+"      (signal ((name . \"HitsAdded\"))\n"
+"        (arg ((name . \"search\") (type . \"s\")))\n"
+"        (arg ((name . \"count\") (type . \"u\")))))\n"
+"    @dots{})\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:458
+#, no-wrap
+msgid "dbus-introspect-get-attribute object attribute"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:464
+msgid ""
+"This function returns the @var{attribute} value of a D-Bus introspection "
+"@var{object}.  The value of @var{object} can be any subtree of a parsed XML "
+"tree as retrieved with @code{dbus-introspect-xml}.  @var{attribute} must be "
+"a string according to the attribute names in the D-Bus specification.  "
+"Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:471
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-attribute\n"
+" (dbus-introspect-xml\n"
+"  :system \"org.freedesktop.SystemToolsBackends\"\n"
+"  \"/org/freedesktop/SystemToolsBackends/UsersConfig\")\n"
+" \"name\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:473
+#, no-wrap
+msgid "@result{} \"/org/freedesktop/SystemToolsBackends/UsersConfig\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:477
+msgid "If @var{object} has no @var{attribute}, the function returns @code{nil}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:485
+msgid ""
+"The first elements, to be introspected for a D-Bus object, are further "
+"object paths and interfaces."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:486
+#, no-wrap
+msgid "dbus-introspect-get-node-names bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:489
+msgid ""
+"This function returns all node names of @var{service} in D-Bus @var{bus} at "
+"object path @var{path} as a list of strings.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:493
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-node-names\n"
+" :session \"org.gnome.seahorse\" \"/org/gnome/seahorse\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:495
+#, no-wrap
+msgid "@result{} (\"crypto\" \"keys\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:501
+msgid ""
+"The node names stand for further object paths of the D-Bus @var{service}, "
+"relative to @var{path}.  In the example, @samp{/org/gnome/seahorse/crypto} "
+"and @samp{/org/gnome/seahorse/keys} are also object paths of the D-Bus "
+"service @samp{org.gnome.seahorse}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:503
+#, no-wrap
+msgid "dbus-introspect-get-all-nodes bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:508
+msgid ""
+"This function returns all node names of @var{service} in D-Bus @var{bus} at "
+"object path @var{path}.  It returns a list of strings with all object paths "
+"of @var{service}, starting at @var{path}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:511
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-all-nodes :session \"org.gnome.seahorse\" \"/\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:519
+#, no-wrap
+msgid ""
+"@result{} (\"/\" \"/org\" \"/org/gnome\" \"/org/gnome/seahorse\"\n"
+"    \"/org/gnome/seahorse/crypto\"\n"
+"    \"/org/gnome/seahorse/keys\"\n"
+"    \"/org/gnome/seahorse/keys/openpgp\"\n"
+"    \"/org/gnome/seahorse/keys/openpgp/local\"\n"
+"    \"/org/gnome/seahorse/keys/openssh\"\n"
+"    \"/org/gnome/seahorse/keys/openssh/local\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:522
+#, no-wrap
+msgid "dbus-introspect-get-interface-names bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:527
+msgid ""
+"This function returns a list strings of all interface names of @var{service} "
+"in D-Bus @var{bus} at object path @var{path}.  This list will contain the "
+"default interface @samp{org.freedesktop.DBus.Introspectable}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:531
+msgid ""
+"Another default interface is @samp{org.freedesktop.DBus.Properties}.  If "
+"present, @code{interface} elements can also have @code{property} children.  "
+"Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:536
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-interface-names\n"
+" :system \"org.freedesktop.Hal\"\n"
+" \"/org/freedesktop/Hal/devices/computer\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:541
+#, no-wrap
+msgid ""
+"@result{} (\"org.freedesktop.DBus.Introspectable\"\n"
+"    \"org.freedesktop.Hal.Device\"\n"
+"    \"org.freedesktop.Hal.Device.SystemPowerManagement\"\n"
+"    \"org.freedesktop.Hal.Device.CPUFreq\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:544
+#, no-wrap
+msgid "dbus-introspect-get-interface bus service path interface"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:549
+msgid ""
+"This function returns @var{interface} of @var{service} in D-Bus @var{bus} at "
+"object path @var{path}.  The return value is an XML element.  "
+"@var{interface} must be a string and a member of the list returned by "
+"@code{dbus-introspect-get-interface-names}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:555
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-interface\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:566
+#, no-wrap
+msgid ""
+"@result{} (interface ((name . \"org.freedesktop.xesam.Search\"))\n"
+"     (method ((name . \"GetHitData\"))\n"
+"       (arg ((name . \"search\") (type . \"s\") (direction . \"in\")))\n"
+"       (arg ((name . \"hit_ids\") (type . \"au\") (direction . \"in\")))\n"
+"       (arg ((name . \"fields\") (type . \"as\") (direction . \"in\")))\n"
+"       (arg ((name . \"hit_data\") (type . \"aav\") (direction "
+". \"out\"))))\n"
+"     @dots{}\n"
+"     (signal ((name . \"HitsAdded\"))\n"
+"       (arg ((name . \"search\") (type . \"s\")))\n"
+"       (arg ((name . \"count\") (type . \"u\")))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:572
+msgid ""
+"With these functions, it is possible to retrieve all introspection data from "
+"a running system:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:587
+#, no-wrap
+msgid ""
+"(progn\n"
+"  (pop-to-buffer \"*introspect*\")\n"
+"  (erase-buffer)\n"
+"  (dolist (service (dbus-list-known-names :session))\n"
+"    (dolist (path (dbus-introspect-get-all-nodes :session service \"/\"))\n"
+"      ;; We want to introspect only elements, which have more than\n"
+"      ;; the default interface \"org.freedesktop.DBus.Introspectable\".\n"
+"      (when (delete\n"
+"             \"org.freedesktop.DBus.Introspectable\"\n"
+"             (dbus-introspect-get-interface-names :session service path))\n"
+"        (insert (format \"\\nservice: \\\"%s\\\" path: \\\"%s\\\"\\n\" "
+"service path)\n"
+"                (dbus-introspect :session service path))\n"
+"        (redisplay t)))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:595
+msgid ""
+"Methods and signals are the communication means to D-Bus.  The following "
+"functions return their specifications."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:596
+#, no-wrap
+msgid "dbus-introspect-get-method-names bus service path interface"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:600
+msgid ""
+"This function returns a list of strings of all method names of "
+"@var{interface} of @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:606
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-method-names\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:610
+#, no-wrap
+msgid ""
+"@result{} (\"GetState\" \"StartSearch\" \"GetHitCount\" \"GetHits\" "
+"\"NewSession\"\n"
+"    \"CloseSession\" \"GetHitData\" \"SetProperty\" \"NewSearch\"\n"
+"    \"GetProperty\" \"CloseSearch\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:613
+#, no-wrap
+msgid "dbus-introspect-get-method bus service path interface method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:619
+msgid ""
+"This function returns @var{method} of @var{interface} as an XML element.  It "
+"must be located at @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  @var{method} must be a string and a member of the list returned "
+"by @code{dbus-introspect-get-method-names}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:625
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-method\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"GetHitData\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:631
+#, no-wrap
+msgid ""
+"@result{} (method ((name . \"GetHitData\"))\n"
+"     (arg ((name . \"search\") (type . \"s\") (direction . \"in\")))\n"
+"     (arg ((name . \"hit_ids\") (type . \"au\") (direction . \"in\")))\n"
+"     (arg ((name . \"fields\") (type . \"as\") (direction . \"in\")))\n"
+"     (arg ((name . \"hit_data\") (type . \"aav\") (direction . \"out\"))))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:634
+#, no-wrap
+msgid "dbus-introspect-get-signal-names bus service path interface"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:638
+msgid ""
+"This function returns a list of strings of all signal names of "
+"@var{interface} of @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:644
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-signal-names\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:647
+#, no-wrap
+msgid ""
+"@result{} (\"StateChanged\" \"SearchDone\" \"HitsModified\"\n"
+"    \"HitsRemoved\" \"HitsAdded\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:650
+#, no-wrap
+msgid "dbus-introspect-get-signal bus service path interface signal"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:656
+msgid ""
+"This function returns @var{signal} of @var{interface} as an XML element.  It "
+"must be located at @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  @var{signal} must be a string and a member of the list returned "
+"by @code{dbus-introspect-get-signal-names}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:662
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-signal\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"HitsAdded\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:666
+#, no-wrap
+msgid ""
+"@result{} (signal ((name . \"HitsAdded\"))\n"
+"     (arg ((name . \"search\") (type . \"s\")))\n"
+"     (arg ((name . \"count\") (type . \"u\"))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:678
+msgid ""
+"Interfaces can have properties.  These can be exposed via the "
+"@samp{org.freedesktop.DBus.Properties} interface@footnote{See "
+"@uref{https://dbus.freedesktop.org/doc/dbus-specification.html#standard-interfaces-properties}}.  "
+"That is, properties can be retrieved and changed during the lifetime of an "
+"element."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:684
+msgid ""
+"A generalized interface is "
+"@samp{org.freedesktop.DBus.Objectmanager}@footnote{See "
+"@uref{https://dbus.freedesktop.org/doc/dbus-specification.html#standard-interfaces-objectmanager}}, "
+"which returns objects, their interfaces and properties for a given service "
+"in just one call."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:688
+msgid ""
+"Annotations, on the other hand, are static values for an element.  Often, "
+"they are used to instruct generators, how to generate code from the "
+"interface for a given language binding."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:689
+#, no-wrap
+msgid "dbus-introspect-get-property-names bus service path interface"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:693
+msgid ""
+"This function returns a list of strings with all property names of "
+"@var{interface} of @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:698
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-property-names\n"
+" :session \"org.kde.kded\" \"/modules/networkstatus\"\n"
+" \"org.kde.Solid.Networking.Client\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:700
+#, no-wrap
+msgid "@result{} (\"Status\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:704
+msgid ""
+"If an interface declares properties, the corresponding element supports also "
+"the @samp{org.freedesktop.DBus.Properties} interface."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:706
+#, no-wrap
+msgid "dbus-introspect-get-property bus service path interface property"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:711
+msgid ""
+"This function returns @var{property} of @var{interface} as an XML element.  "
+"It must be located at @var{service} in D-Bus @var{bus} at object path "
+"@var{path}.  @var{property} must be a string and a member of the list "
+"returned by @code{dbus-introspect-get-property-names}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:714
+msgid ""
+"A @var{property} value can be retrieved by the function "
+"@code{dbus-introspect-get-attribute}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:719
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-property\n"
+" :session \"org.kde.kded\" \"/modules/networkstatus\"\n"
+" \"org.kde.Solid.Networking.Client\" \"Status\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:721
+#, no-wrap
+msgid ""
+"@result{} (property ((access . \"read\") (type . \"u\") (name "
+". \"Status\")))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:727
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-attribute\n"
+" (dbus-introspect-get-property\n"
+"  :session \"org.kde.kded\" \"/modules/networkstatus\"\n"
+"  \"org.kde.Solid.Networking.Client\" \"Status\")\n"
+" \"access\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:729
+#, no-wrap
+msgid "@result{} \"read\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:732
+#, no-wrap
+msgid "dbus-get-property bus service path interface property"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:737
+msgid ""
+"This function returns the value of @var{property} of @var{interface}.  It "
+"will be checked at @var{bus}, @var{service}, @var{path}.  The result can be "
+"any valid D-Bus value, or @code{nil} if there is no @var{property}.  "
+"Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:742
+#, no-wrap
+msgid ""
+"(dbus-get-property\n"
+" :session \"org.kde.kded\" \"/modules/networkstatus\"\n"
+" \"org.kde.Solid.Networking.Client\" \"Status\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:744
+#, no-wrap
+msgid "@result{} 4\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:747
+#, no-wrap
+msgid "dbus-set-property bus service path interface property value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:752
+msgid ""
+"This function sets the value of @var{property} of @var{interface} to "
+"@var{value}.  It will be checked at @var{bus}, @var{service}, @var{path}.  "
+"When the value is successfully set, this function returns @var{value}.  "
+"Otherwise, it returns @code{nil}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:757
+#, no-wrap
+msgid ""
+"(dbus-set-property\n"
+" :session \"org.kde.kaccess\" \"/MainApplication\"\n"
+" \"com.trolltech.Qt.QApplication\" \"doubleClickInterval\" 500)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:759
+#, no-wrap
+msgid "@result{} 500\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:762
+#, no-wrap
+msgid "dbus-get-all-properties bus service path interface"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:767
+msgid ""
+"This function returns all properties of @var{interface}.  It will be checked "
+"at @var{bus}, @var{service}, @var{path}.  The result is a list of cons.  "
+"Every cons contains the name of the property, and its value.  If there are "
+"no properties, @code{nil} is returned.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:772
+#, no-wrap
+msgid ""
+"(dbus-get-all-properties\n"
+" :session \"org.kde.kaccess\" \"/MainApplication\"\n"
+" \"com.trolltech.Qt.QApplication\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:778
+#, no-wrap
+msgid ""
+"@result{} ((\"cursorFlashTime\" . 1000) (\"doubleClickInterval\" . 500)\n"
+"    (\"keyboardInputInterval\" . 400) (\"wheelScrollLines\" . 3)\n"
+"    (\"globalStrut\" 0 0) (\"startDragTime\" . 500)\n"
+"    (\"startDragDistance\" . 4) (\"quitOnLastWindowClosed\" . t)\n"
+"    (\"styleSheet\" . \"\"))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:781
+#, no-wrap
+msgid "dbus-get-all-managed-objects bus service path"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:789
+msgid ""
+"This function returns all objects at @var{bus}, @var{service}, @var{path}, "
+"and the children of @var{path}.  The result is a list of objects.  Every "
+"object is a cons of an existing path name, and the list of available "
+"interface objects.  An interface object is another cons, whose car is the "
+"interface name and cdr is the list of properties as returned by "
+"@code{dbus-get-all-properties} for that path and interface.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:793
+#, no-wrap
+msgid ""
+"(dbus-get-all-managed-objects\n"
+" :session \"org.gnome.SettingsDaemon\" \"/\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:811
+#, no-wrap
+msgid ""
+"@result{} ((\"/org/gnome/SettingsDaemon/MediaKeys\"\n"
+"     (\"org.gnome.SettingsDaemon.MediaKeys\")\n"
+"     (\"org.freedesktop.DBus.Peer\")\n"
+"     (\"org.freedesktop.DBus.Introspectable\")\n"
+"     (\"org.freedesktop.DBus.Properties\")\n"
+"     (\"org.freedesktop.DBus.ObjectManager\"))\n"
+"    (\"/org/gnome/SettingsDaemon/Power\"\n"
+"     (\"org.gnome.SettingsDaemon.Power.Keyboard\")\n"
+"     (\"org.gnome.SettingsDaemon.Power.Screen\")\n"
+"     (\"org.gnome.SettingsDaemon.Power\"\n"
+"      (\"Icon\" . \". GThemedIcon battery-full-charged-symbolic \")\n"
+"      (\"Tooltip\" . \"Laptop battery is charged\"))\n"
+"     (\"org.freedesktop.DBus.Peer\")\n"
+"     (\"org.freedesktop.DBus.Introspectable\")\n"
+"     (\"org.freedesktop.DBus.Properties\")\n"
+"     (\"org.freedesktop.DBus.ObjectManager\"))\n"
+"    @dots{})\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:817
+msgid ""
+"If possible, @samp{org.freedesktop.DBus.ObjectManager.GetManagedObjects} is "
+"used for retrieving the information.  Otherwise, the information is "
+"collected via @samp{org.freedesktop.DBus.Introspectable.Introspect} and "
+"@samp{org.freedesktop.DBus.Properties.GetAll}, which is slow."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:820
+msgid ""
+"An overview of all existing object paths, their interfaces and properties "
+"could be retrieved by the following code:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:830
+#, no-wrap
+msgid ""
+"(let ((result (mapcar (lambda (service)\n"
+"                        (cons service\n"
+"                              (dbus-get-all-managed-objects\n"
+"                               :session service \"/\")))\n"
+"                      (dbus-list-known-names :session))))\n"
+"  (pop-to-buffer \"*objectmanager*\")\n"
+"  (erase-buffer)\n"
+"  (pp result (current-buffer)))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:833
+#, no-wrap
+msgid ""
+"dbus-introspect-get-annotation-names bus service path interface &optional "
+"name"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:839
+msgid ""
+"This function returns a list of all annotation names as list of strings.  If "
+"@var{name} is @code{nil}, the annotations are children of @var{interface}, "
+"otherwise @var{name} must be a @code{method}, @code{signal}, or "
+"@code{property} XML element, where the annotations belong to.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:844
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-annotation-names\n"
+" :session \"de.berlios.Pinot\" \"/de/berlios/Pinot\"\n"
+" \"de.berlios.Pinot\" \"GetStatistics\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:846
+#, no-wrap
+msgid "@result{} (\"de.berlios.Pinot.GetStatistics\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:851
+msgid ""
+"Default annotation names@footnote{See "
+"@uref{https://dbus.freedesktop.org/doc/dbus-specification.html#introspection-format}} "
+"are"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:853
+#, no-wrap
+msgid "org.freedesktop.DBus.Deprecated"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:855
+msgid "Whether or not the entity is deprecated; defaults to @code{nil}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:856
+#, no-wrap
+msgid "org.freedesktop.DBus.GLib.CSymbol"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:858
+msgid "The C symbol; may be used for @code{methods} and @code{interfaces}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:859
+#, no-wrap
+msgid "org.freedesktop.DBus.Method.NoReply"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:861
+msgid ""
+"If set, don't expect a reply to the @code{method} call; defaults to "
+"@code{nil}"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:864
+#, no-wrap
+msgid "dbus-introspect-get-annotation bus service path interface name annotation"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:870
+msgid ""
+"This function returns @var{annotation} as an XML object.  If @var{name} is "
+"@code{nil}, @var{annotation} is a child of @var{interface}, otherwise "
+"@var{name} must be the name of a @code{method}, @code{signal}, or "
+"@code{property} XML element, where the @var{annotation} belongs to."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:873
+msgid ""
+"An attribute value can be retrieved by "
+"@code{dbus-introspect-get-attribute}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:879
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-annotation\n"
+" :session \"de.berlios.Pinot\" \"/de/berlios/Pinot\"\n"
+" \"de.berlios.Pinot\" \"GetStatistics\"\n"
+" \"de.berlios.Pinot.GetStatistics\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:882
+#, no-wrap
+msgid ""
+"@result{} (annotation ((name . \"de.berlios.Pinot.GetStatistics\")\n"
+"                (value . \"pinotDBus\")))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:889
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-attribute\n"
+" (dbus-introspect-get-annotation\n"
+"  :session \"de.berlios.Pinot\" \"/de/berlios/Pinot\"\n"
+"  \"de.berlios.Pinot\" \"GetStatistics\"\n"
+"  \"de.berlios.Pinot.GetStatistics\")\n"
+" \"value\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:891
+#, no-wrap
+msgid "@result{} \"pinotDBus\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:900
+msgid ""
+"Methods and signals have arguments.  They are described in the @code{arg} "
+"XML elements."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:901
+#, no-wrap
+msgid "dbus-introspect-get-argument-names bus service path interface name"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:905
+msgid ""
+"This function returns a list of all argument names as strings.  @var{name} "
+"must be a @code{method} or @code{signal} XML element.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:911
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-argument-names\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"GetHitData\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:913
+#, no-wrap
+msgid "@result{} (\"search\" \"hit_ids\" \"fields\" \"hit_data\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:917
+msgid ""
+"Argument names are optional; the function can therefore return @code{nil}, "
+"even if the method or signal has arguments."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:919
+#, no-wrap
+msgid "dbus-introspect-get-argument bus service path interface name arg"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:923
+msgid ""
+"This function returns the argument @var{arg} as an XML object.  @var{name} "
+"must be a @code{method} or @code{signal} XML element.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:929
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-argument\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"GetHitData\" \"search\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:931
+#, no-wrap
+msgid "@result{} (arg ((name . \"search\") (type . \"s\") (direction . \"in\")))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:934
+#, no-wrap
+msgid ""
+"dbus-introspect-get-signature bus service path interface name &optional "
+"direction"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:937
+msgid ""
+"This function returns the signature of a @code{method} or @code{signal}, "
+"represented by @var{name}, as a string."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:941
+msgid ""
+"If @var{name} is a @code{method}, @var{direction} can be either @samp{in} or "
+"@samp{out}.  If @var{direction} is @code{nil}, @samp{in} is assumed."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:944
+msgid ""
+"If @var{name} is a @code{signal}, and @var{direction} is non-@code{nil}, "
+"@var{direction} must be @samp{out}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:950
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-signature\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"GetHitData\" \"in\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:952
+#, no-wrap
+msgid ""
+"@result{} \"sauas\"\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:957
+#, no-wrap
+msgid ""
+"(dbus-introspect-get-signature\n"
+" :session \"org.freedesktop.xesam.searcher\"\n"
+" \"/org/freedesktop/xesam/searcher/main\"\n"
+" \"org.freedesktop.xesam.Search\" \"HitsAdded\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:959
+#, no-wrap
+msgid "@result{} \"su\"\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:965
+#, no-wrap
+msgid "type conversion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:970
+msgid ""
+"D-Bus method calls and signals accept usually several arguments as "
+"parameters, either as input parameter, or as output parameter.  Every "
+"argument belongs to a D-Bus type."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:975
+msgid ""
+"Such arguments must be mapped between the value encoded as a D-Bus type, and "
+"the corresponding type of Lisp objects.  The mapping is applied Lisp object "
+"@expansion{} D-Bus type for input parameters, and D-Bus type @expansion{} "
+"Lisp object for output parameters."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:977
+#, no-wrap
+msgid "Input parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:982
+msgid ""
+"Input parameters for D-Bus methods and signals occur as arguments of a Lisp "
+"function call.  The following mapping to D-Bus types is applied, when the "
+"corresponding D-Bus message is created:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:985
+#, no-wrap
+msgid "Lisp type               @tab              @tab D-Bus type"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:987
+#, no-wrap
+msgid "@code{t} and @code{nil} @tab @expansion{} @tab DBUS_TYPE_BOOLEAN"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:988
+#, no-wrap
+msgid "natural number          @tab @expansion{} @tab DBUS_TYPE_UINT32"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:989
+#, no-wrap
+msgid "negative integer        @tab @expansion{} @tab DBUS_TYPE_INT32"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:990
+#, no-wrap
+msgid "float                   @tab @expansion{} @tab DBUS_TYPE_DOUBLE"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:991
+#, no-wrap
+msgid "string                  @tab @expansion{} @tab DBUS_TYPE_STRING"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:992
+#, no-wrap
+msgid "list                    @tab @expansion{} @tab DBUS_TYPE_ARRAY"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:998
+msgid ""
+"Other Lisp objects, like symbols or hash tables, are not accepted as input "
+"parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1006
+msgid ""
+"If it is necessary to use another D-Bus type, a corresponding type symbol "
+"can be prepended to the corresponding Lisp object.  Basic D-Bus types are "
+"represented by the type symbols @code{:byte}, @code{:boolean}, "
+"@code{:int16}, @code{:uint16}, @code{:int32}, @code{:uint32}, @code{:int64}, "
+"@code{:uint64}, @code{:double}, @code{:string}, @code{:object-path}, "
+"@code{:signature} and @code{:unix-fd}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1009
+msgid "Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1012
+#, no-wrap
+msgid "(dbus-call-method @dots{} @var{nat-number} @var{string})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1015
+msgid "is equivalent to"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1018
+#, no-wrap
+msgid "(dbus-call-method @dots{} :uint32 @var{nat-number} :string @var{string})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1021
+msgid "but different to"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1024
+#, no-wrap
+msgid "(dbus-call-method @dots{} :int32 @var{nat-number} :signature @var{string})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1032
+msgid ""
+"The value for a byte D-Bus type can be any integer in the range 0 through "
+"255.  If a character is used as argument, modifiers represented outside this "
+"range are stripped off.  For example, @code{:byte ?x} is equal to "
+"@code{:byte ?\\M-x}, but it is not equal to @code{:byte ?\\C-x} or "
+"@code{:byte ?\\M-\\C-x}.  Signed and unsigned integer D-Bus types expect a "
+"corresponding integer value."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1038
+msgid ""
+"A D-Bus compound type is always represented as a list.  The @sc{car} of this "
+"list can be the type symbol @code{:array}, @code{:variant}, @code{:struct} "
+"or @code{:dict-entry}, which would result in a corresponding D-Bus "
+"container.  @code{:array} is optional, because this is the default compound "
+"D-Bus type for a list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1041
+msgid ""
+"The objects being elements of the list are checked according to the D-Bus "
+"compound type rules."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1043
+#, no-wrap
+msgid "An array must contain only elements of the same D-Bus type.  It"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/dbus.texi:1045
+msgid "can be empty."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1046
+#, no-wrap
+msgid "A variant must contain only a single element."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1048
+#, no-wrap
+msgid "A dictionary entry must be an element of an array, and it must"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/dbus.texi:1051
+msgid "contain only a key-value pair of two elements, with a basic D-Bus type key."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1052
+#, no-wrap
+msgid "There are no restrictions for structs."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1059
+msgid ""
+"If an empty array needs an element D-Bus type other than string, it can "
+"contain exactly one element of D-Bus type @code{:signature}.  The value of "
+"this element (a string) is used as the signature of the elements of this "
+"array.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1075
+#, no-wrap
+msgid ""
+"(dbus-call-method\n"
+" :session \"org.freedesktop.Notifications\"\n"
+" \"/org/freedesktop/Notifications\"\n"
+" \"org.freedesktop.Notifications\" \"Notify\"\n"
+" \"GNU Emacs\"                   ; Application name.\n"
+" 0                             ; No replacement of other notifications.\n"
+" \"\"                            ; No icon.\n"
+" \"Notification summary\"        ; Summary.\n"
+" (format                       ; Body.\n"
+"  \"This is a test notification, raised from\\n%S\" (emacs-version))\n"
+" '(:array)                     ; No actions (empty array of strings).\n"
+" '(:array :signature \"@{sv@}\") ; No hints\n"
+"                               ; (empty array of dictionary entries).\n"
+" :int32 -1)                    ; Default timeout.\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1077
+#, no-wrap
+msgid "@result{} 3\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1079
+#, no-wrap
+msgid "dbus-string-to-byte-array string"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1083
+msgid ""
+"Sometimes, D-Bus methods require as input parameter an array of bytes, "
+"instead of a string.  If it is guaranteed, that @var{string} is a UTF-8 "
+"string, this function performs the conversion.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1086
+#, no-wrap
+msgid ""
+"(dbus-string-to-byte-array \"/etc/hosts\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1089
+#, no-wrap
+msgid ""
+"@result{} (:array :byte 47 :byte 101 :byte 116 :byte 99 :byte 47\n"
+"           :byte 104 :byte 111 :byte 115 :byte 116 :byte 115)\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1092
+#, no-wrap
+msgid "dbus-escape-as-identifier string"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1097
+msgid ""
+"This function escapes an arbitrary @var{string} so it follows the rules for "
+"a C identifier.  The escaped string can be used as object path component, "
+"interface element component, bus name component or member name in D-Bus."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1102
+msgid ""
+"The escaping consists of replacing all non-alphanumerics, and the first "
+"character if it's a digit, with an underscore and two lower-case hex "
+"digits.  As a special case, \"\" is escaped to \"_\".  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1105
+#, no-wrap
+msgid ""
+"(dbus-escape-as-identifier \"0123abc_xyz\\x01\\xff\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1107
+#, no-wrap
+msgid "@result{} \"_30123abc_5fxyz_01_ff\"\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/dbus.texi:1111
+#, no-wrap
+msgid "Output parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1115
+msgid "Output parameters of D-Bus methods and signals are mapped to Lisp objects."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1118
+#, no-wrap
+msgid "D-Bus type            @tab              @tab Lisp type"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1120
+#, no-wrap
+msgid "DBUS_TYPE_BOOLEAN     @tab @expansion{} @tab @code{t} or @code{nil}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1121
+#, no-wrap
+msgid "DBUS_TYPE_BYTE        @tab @expansion{} @tab natural number"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1122
+#, no-wrap
+msgid "DBUS_TYPE_UINT16      @tab @expansion{} @tab natural number"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1123
+#, no-wrap
+msgid "DBUS_TYPE_INT16       @tab @expansion{} @tab integer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1124
+#, no-wrap
+msgid "DBUS_TYPE_UINT32      @tab @expansion{} @tab natural number"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1125
+#, no-wrap
+msgid "DBUS_TYPE_UNIX_FD     @tab @expansion{} @tab natural number"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1126
+#, no-wrap
+msgid "DBUS_TYPE_INT32       @tab @expansion{} @tab integer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1127
+#, no-wrap
+msgid "DBUS_TYPE_UINT64      @tab @expansion{} @tab natural number"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1128
+#, no-wrap
+msgid "DBUS_TYPE_INT64       @tab @expansion{} @tab integer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1129
+#, no-wrap
+msgid "DBUS_TYPE_DOUBLE      @tab @expansion{} @tab float"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1130
+#, no-wrap
+msgid "DBUS_TYPE_STRING      @tab @expansion{} @tab string"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1131
+#, no-wrap
+msgid "DBUS_TYPE_OBJECT_PATH @tab @expansion{} @tab string"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1132
+#, no-wrap
+msgid "DBUS_TYPE_SIGNATURE   @tab @expansion{} @tab string"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1133
+#, no-wrap
+msgid "DBUS_TYPE_ARRAY       @tab @expansion{} @tab list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1134
+#, no-wrap
+msgid "DBUS_TYPE_VARIANT     @tab @expansion{} @tab list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1135
+#, no-wrap
+msgid "DBUS_TYPE_STRUCT      @tab @expansion{} @tab list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1136
+#, no-wrap
+msgid "DBUS_TYPE_DICT_ENTRY  @tab @expansion{} @tab list"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1143
+msgid ""
+"The resulting list of the last 4 D-Bus compound types contains as elements "
+"the elements of the D-Bus container, mapped according to the same rules."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1147
+msgid ""
+"The signal @code{PropertyModified}, discussed as an example in "
+"@ref{Inspection}, would offer as Lisp data the following object (@var{bool} "
+"stands here for either @code{nil} or @code{t}):"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1150
+#, no-wrap
+msgid ""
+"(@var{integer} ((@var{string} @var{bool} @var{bool}) (@var{string} "
+"@var{bool} @var{bool}) @dots{}))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1152
+#, no-wrap
+msgid "dbus-byte-array-to-string byte-array &optional multibyte"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1157
+msgid ""
+"If a D-Bus method or signal returns an array of bytes, which are known to "
+"represent a UTF-8 string, this function converts @var{byte-array} to the "
+"corresponding string.  The string is unibyte encoded, unless @var{multibyte} "
+"is non-@code{nil}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1160
+#, no-wrap
+msgid ""
+"(dbus-byte-array-to-string '(47 101 116 99 47 104 111 115 116 115))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1162
+#, no-wrap
+msgid "@result{} \"/etc/hosts\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1165
+#, no-wrap
+msgid "dbus-unescape-from-identifier string"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1169
+msgid ""
+"This function retrieves the original string from the encoded @var{string} as "
+"a unibyte string.  The value of @var{string} must have been encoded with "
+"@code{dbus-escape-as-identifier}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1172
+#, no-wrap
+msgid ""
+"(dbus-unescape-from-identifier \"_30123abc_5fxyz_01_ff\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1174
+#, no-wrap
+msgid "@result{} \"0123abc_xyz\\x01\\xff\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1179
+msgid ""
+"If the original string used in @code{dbus-escape-as-identifier} is a "
+"multibyte string, it cannot be expected that this function returns that "
+"string:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1185
+#, no-wrap
+msgid ""
+"(string-equal\n"
+" (dbus-unescape-from-identifier\n"
+"  (dbus-escape-as-identifier \"Grüß Göttin\"))\n"
+" \"Grüß Göttin\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1187 ../../../../../doc/misc/dbus.texi:1785 ../../../../../doc/misc/dbus.texi:1896
+#, no-wrap
+msgid "@result{} nil\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1195
+#, no-wrap
+msgid "method calls, synchronous"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1196
+#, no-wrap
+msgid "synchronous method calls"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1200
+msgid ""
+"Methods can be called synchronously (@dfn{blocking}) or asynchronously "
+"(@dfn{non-blocking})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1205
+msgid ""
+"At the D-Bus level, a method call consist of two messages: one message which "
+"carries the input parameters to the object owning the method to be called, "
+"and a reply message returning the resulting output parameters from the "
+"object."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1206
+#, no-wrap
+msgid ""
+"dbus-call-method bus service path interface method &optional :timeout "
+"timeout &rest args"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/dbus.texi:1210
+msgid "dbus-call-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1210
+msgid ""
+"This function calls @var{method} on the D-Bus @var{bus}.  @var{bus} is "
+"either the symbol @code{:system} or the symbol @code{:session}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1214 ../../../../../doc/misc/dbus.texi:1308
+msgid ""
+"@var{service} is the D-Bus service name to be used.  @var{path} is the D-Bus "
+"object path, @var{service} is registered at.  @var{interface} is an "
+"interface offered by @var{service}.  It must provide @var{method}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1220
+msgid ""
+"If the parameter @code{:timeout} is given, the following integer "
+"@var{timeout} specifies the maximum number of milliseconds before the method "
+"call must return.  The default value is 25,000.  If the method call doesn't "
+"return in time, a D-Bus error is raised (@pxref{Errors and Events})."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1224 ../../../../../doc/misc/dbus.texi:1322
+msgid ""
+"The remaining arguments @var{args} are passed to @var{method} as arguments.  "
+"They are converted into D-Bus types as described in @ref{Type Conversion}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1228
+msgid ""
+"The function returns the resulting values of @var{method} as a list of Lisp "
+"objects, according to the type conversion rules described in @ref{Type "
+"Conversion}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1234
+#, no-wrap
+msgid ""
+"(dbus-call-method\n"
+" :session \"org.gnome.seahorse\" \"/org/gnome/seahorse/keys/openpgp\"\n"
+" \"org.gnome.seahorse.Keys\" \"GetKeyField\"\n"
+" \"openpgp:657984B8C7A966DD\" \"simple-name\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1236
+#, no-wrap
+msgid "@result{} (t (\"Philip R. Zimmermann\"))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1241
+msgid ""
+"If the result of the method call is just one value, the converted Lisp "
+"object is returned instead of a list containing this single Lisp object.  "
+"Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1248
+#, no-wrap
+msgid ""
+"(dbus-call-method\n"
+" :system \"org.freedesktop.Hal\"\n"
+" \"/org/freedesktop/Hal/devices/computer\"\n"
+" \"org.freedesktop.Hal.Device\" \"GetPropertyString\"\n"
+" \"system.kernel.machine\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1250
+#, no-wrap
+msgid "@result{} \"i686\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1260
+msgid ""
+"With the @code{dbus-introspect} function it is possible to explore the "
+"interfaces of @samp{org.freedesktop.Hal} service. It offers the interfaces "
+"@samp{org.freedesktop.Hal.Manager} for the object at the path "
+"@samp{/org/freedesktop/Hal/Manager} as well as the interface "
+"@samp{org.freedesktop.Hal.Device} for all objects prefixed with the path "
+"@samp{/org/freedesktop/Hal/devices}.  With the methods @samp{GetAllDevices} "
+"and @samp{GetAllProperties}, it is simple to emulate the @code{lshal} "
+"command on GNU/Linux systems:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1274
+#, no-wrap
+msgid ""
+"(dolist (device\n"
+"         (dbus-call-method\n"
+"          :system \"org.freedesktop.Hal\"\n"
+"          \"/org/freedesktop/Hal/Manager\"\n"
+"          \"org.freedesktop.Hal.Manager\" \"GetAllDevices\"))\n"
+"  (message \"\\nudi = %s\" device)\n"
+"  (dolist (properties\n"
+"           (dbus-call-method\n"
+"            :system \"org.freedesktop.Hal\" device\n"
+"            \"org.freedesktop.Hal.Device\" \"GetAllProperties\"))\n"
+"    (message \"  %s = %S\"\n"
+"             (car properties) (or (caadr properties) \"\"))))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1291
+#, no-wrap
+msgid ""
+"@print{} \"udi = /org/freedesktop/Hal/devices/computer\n"
+"      info.addons = (\\\"hald-addon-acpi\\\")\n"
+"      info.bus = \\\"unknown\\\"\n"
+"      info.product = \\\"Computer\\\"\n"
+"      info.subsystem = \\\"unknown\\\"\n"
+"      info.udi = \\\"/org/freedesktop/Hal/devices/computer\\\"\n"
+"      linux.sysfs_path_device = \\\"(none)\\\"\n"
+"      power_management.acpi.linux.version = \\\"20051216\\\"\n"
+"      power_management.can_suspend_to_disk = t\n"
+"      power_management.can_suspend_to_ram = \\\"\\\"\n"
+"      power_management.type = \\\"acpi\\\"\n"
+"      smbios.bios.release_date = \\\"11/07/2001\\\"\n"
+"      system.chassis.manufacturer = \\\"COMPAL\\\"\n"
+"      system.chassis.type = \\\"Notebook\\\"\n"
+"      system.firmware.release_date = \\\"03/19/2005\\\"\n"
+"      @dots{}\"\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1297
+#, no-wrap
+msgid "method calls, asynchronous"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1298
+#, no-wrap
+msgid "asynchronous method calls"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1300
+#, no-wrap
+msgid ""
+"dbus-call-method-asynchronously bus service path interface method handler "
+"&optional :timeout timeout &rest args"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1304
+msgid ""
+"This function calls @var{method} on the D-Bus @var{bus} asynchronously.  "
+"@var{bus} is either the symbol @code{:system} or the symbol @code{:session}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1312
+msgid ""
+"@var{handler} is a Lisp function, which is called when the corresponding "
+"return message arrives.  If @var{handler} is @code{nil}, no return message "
+"will be expected."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1318
+msgid ""
+"If the parameter @code{:timeout} is given, the following integer "
+"@var{timeout} specifies the maximum number of milliseconds before a reply "
+"message must arrive.  The default value is 25,000.  If there is no reply "
+"message in time, a D-Bus error is raised (@pxref{Errors and Events})."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1327
+msgid ""
+"If @var{handler} is a Lisp function, the function returns a key into the "
+"hash table @code{dbus-registered-objects-table}.  The corresponding entry in "
+"the hash table is removed, when the return message arrives, and "
+"@var{handler} is called.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1335
+#, no-wrap
+msgid ""
+"(dbus-call-method-asynchronously\n"
+" :system \"org.freedesktop.Hal\"\n"
+" \"/org/freedesktop/Hal/devices/computer\"\n"
+" \"org.freedesktop.Hal.Device\" \"GetPropertyString\"\n"
+" (lambda (msg) (message \"%s\" msg))\n"
+" \"system.kernel.machine\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1337
+#, no-wrap
+msgid ""
+"@print{} i686\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1339
+#, no-wrap
+msgid "@result{} (:serial :system 2)\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1345
+#, no-wrap
+msgid "method calls, returning"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1346
+#, no-wrap
+msgid "returning method calls"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1352
+msgid ""
+"In order to register methods on the D-Bus, Emacs has to request a well known "
+"name on the D-Bus under which it will be available for other clients.  Names "
+"on the D-Bus can be registered and unregistered using the following "
+"functions:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1353
+#, no-wrap
+msgid "dbus-register-service bus service &rest flags"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1356
+msgid "This function registers the known name @var{service} on D-Bus @var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1359 ../../../../../doc/misc/dbus.texi:1395 ../../../../../doc/misc/dbus.texi:1442 ../../../../../doc/misc/dbus.texi:1548 ../../../../../doc/misc/dbus.texi:1699
+msgid "@var{bus} is either the symbol @code{:system} or the symbol @code{:session}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1362
+msgid ""
+"@var{service} is the service name to be registered on the D-Bus.  It must be "
+"a known name."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1364
+msgid "@var{flags} is a subset of the following keywords:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1366
+#, no-wrap
+msgid ":allow-replacement"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1368
+msgid "Allow another service to become the primary owner if requested."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1368
+#, no-wrap
+msgid ":replace-existing"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1370
+msgid "Request to replace the current primary owner."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1370
+#, no-wrap
+msgid ":do-not-queue"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1372
+msgid "If we can not become the primary owner do not place us in the queue."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1375 ../../../../../doc/misc/dbus.texi:1401
+msgid "One of the following keywords is returned:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1377
+#, no-wrap
+msgid ":primary-owner"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1379
+msgid "We have become the primary owner of the name @var{service}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1379
+#, no-wrap
+msgid ":in-queue"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1382
+msgid "We could not become the primary owner and have been placed in the queue."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1382
+#, no-wrap
+msgid ":exists"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1384
+msgid "We already are in the queue."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1384
+#, no-wrap
+msgid ":already-owner"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1386
+msgid "We already are the primary owner."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1389
+#, no-wrap
+msgid "dbus-unregister-service bus service"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1392
+msgid ""
+"This function unregisters all objects from D-Bus @var{bus}, that were "
+"registered by Emacs for @var{service}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1399
+msgid ""
+"@var{service} is the D-Bus service name of the D-Bus.  It must be a known "
+"name.  Emacs releases its association to @var{service} from D-Bus."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1403
+#, no-wrap
+msgid ":released"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1405
+msgid "We successfully released the name @var{service}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1405
+#, no-wrap
+msgid ":non-existent"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1407
+msgid "The name @var{service} does not exist on the bus."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1407
+#, no-wrap
+msgid ":not-owner"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1409
+msgid "We are not an owner of the name @var{service}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1416
+msgid ""
+"When a name has been chosen, Emacs can offer its own methods, which can be "
+"called by other applications.  These methods could be an implementation of "
+"an interface of a well known service, like "
+"@samp{org.freedesktop.TextEditor}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1423
+msgid ""
+"They could also be an implementation of its own interface.  In this case, "
+"the service name must be @samp{org.gnu.Emacs}.  The object path shall begin "
+"with @samp{/org/gnu/Emacs/@var{application}}, and the interface name shall "
+"be @code{org.gnu.Emacs.@var{application}}, where @var{application} is the "
+"name of the application which provides the interface."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1424
+#, no-wrap
+msgid "Constant dbus-service-emacs"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1426
+msgid "The well known service name @samp{org.gnu.Emacs} of Emacs."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1428
+#, no-wrap
+msgid "Constant dbus-path-emacs"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1430
+msgid "The object path namespace @samp{/org/gnu/Emacs} used by Emacs."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1432
+#, no-wrap
+msgid "Constant dbus-interface-emacs"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/dbus.texi:1434
+msgid "The interface namespace @code{org.gnu.Emacs} used by Emacs."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1436
+#, no-wrap
+msgid ""
+"dbus-register-method bus service path interface method handler "
+"dont-register-service"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1439
+msgid ""
+"With this function, an application registers @var{method} on the D-Bus "
+"@var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1446
+msgid ""
+"@var{service} is the D-Bus service name of the D-Bus object @var{method} is "
+"registered for.  It must be a known name (see discussion of "
+"@var{dont-register-service} below)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1449 ../../../../../doc/misc/dbus.texi:1554
+msgid ""
+"@var{path} is the D-Bus object path @var{service} is registered (see "
+"discussion of @var{dont-register-service} below)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1452
+msgid ""
+"@var{interface} is the interface offered by @var{service}.  It must provide "
+"@var{method}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1459
+msgid ""
+"@var{handler} is a Lisp function to be called when a @var{method} call is "
+"received.  It must accept as arguments the input arguments of @var{method}.  "
+"@var{handler} should return a list, whose elements are to be used as "
+"arguments for the reply message of @var{method}.  This list can be composed "
+"like the input parameters in @ref{Type Conversion}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1463
+msgid ""
+"If @var{handler} wants to return just one Lisp object and it is not a cons "
+"cell, @var{handler} can return this object directly, instead of returning a "
+"list containing the object."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1466
+msgid ""
+"If @var{handler} returns a reply message with an empty argument list, "
+"@var{handler} must return the symbol @code{:ignore}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1473 ../../../../../doc/misc/dbus.texi:1581
+msgid ""
+"When @var{dont-register-service} is non-@code{nil}, the known name "
+"@var{service} is not registered.  This means that other D-Bus clients have "
+"no way of noticing the newly registered method.  When interfaces are "
+"constructed incrementally by adding single methods or properties at a time, "
+"@var{dont-register-service} can be used to prevent other clients from "
+"discovering the still incomplete interface."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1478
+msgid ""
+"The default D-Bus timeout when waiting for a message reply is 25 seconds.  "
+"This value could be even smaller, depending on the calling client.  "
+"Therefore, @var{handler} should not last longer than absolutely necessary."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1482
+msgid ""
+"@code{dbus-register-method} returns a Lisp object, which can be used as "
+"argument in @code{dbus-unregister-object} for removing the registration for "
+"@var{method}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1488
+#, no-wrap
+msgid ""
+"(defun my-dbus-method-handler (filename)\n"
+"  (if (find-file filename)\n"
+"      '(:boolean t)\n"
+"    '(:boolean nil)))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1493
+#, no-wrap
+msgid ""
+"(dbus-register-method\n"
+" :session \"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+" \"org.freedesktop.TextEditor\" \"OpenFile\"\n"
+" #'my-dbus-method-handler)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1497
+#, no-wrap
+msgid ""
+"@result{} ((:method :session \"org.freedesktop.TextEditor\" \"OpenFile\")\n"
+"    (\"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+"     my-dbus-method-handler))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1504
+msgid ""
+"If you invoke the method @samp{org.freedesktop.TextEditor.OpenFile} from "
+"another D-Bus application with a file name as parameter, the file is opened "
+"in Emacs, and the method returns either @var{true} or @var{false}, "
+"indicating the success of the method.  As a test tool one could use the "
+"command line tool @code{dbus-send} in a shell:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1510
+#, no-wrap
+msgid ""
+"# dbus-send --session --print-reply \\\n"
+"    --dest=\"org.freedesktop.TextEditor\" \\\n"
+"    \"/org/freedesktop/TextEditor\" \\\n"
+"    \"org.freedesktop.TextEditor.OpenFile\" string:\"/etc/hosts\"\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1513
+#, no-wrap
+msgid ""
+"@print{} method return sender=:1.22 -> dest=:1.23 reply_serial=2\n"
+"      boolean true\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1517
+msgid ""
+"You can indicate an error by raising the Emacs signal @code{dbus-error}.  "
+"The handler above could be changed like this:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1526
+#, no-wrap
+msgid ""
+"(defun my-dbus-method-handler (&rest args)\n"
+"  (unless (and (= (length args) 1) (stringp (car args)))\n"
+"    (signal 'dbus-error (list (format \"Wrong argument list: %S\" args))))\n"
+"  (condition-case err\n"
+"      (find-file (car args))\n"
+"    (error (signal 'dbus-error (cdr err))))\n"
+"  t)\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1529
+msgid "The test then runs"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1536
+#, no-wrap
+msgid ""
+"# dbus-send --session --print-reply \\\n"
+"    --dest=\"org.freedesktop.TextEditor\" \\\n"
+"    \"/org/freedesktop/TextEditor\" \\\n"
+"    \"org.freedesktop.TextEditor.OpenFile\" \\\n"
+"    string:\"/etc/hosts\" string:\"/etc/passwd\"\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1539
+#, no-wrap
+msgid ""
+"@print{} Error org.freedesktop.DBus.Error.Failed:\n"
+"   Wrong argument list: (\"/etc/hosts\" \"/etc/passwd\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1542
+#, no-wrap
+msgid ""
+"dbus-register-property bus service path interface property access value "
+"&optional emits-signal dont-register-service"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1545
+msgid ""
+"With this function, an application declares a @var{property} on the D-Bus "
+"@var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1551
+msgid ""
+"@var{service} is the D-Bus service name of the D-Bus.  It must be a known "
+"name."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1557
+msgid ""
+"@var{interface} is the name of the interface used at @var{path}, "
+"@var{property} is the name of the property of @var{interface}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1562
+msgid ""
+"@var{access} indicates, whether the property can be changed by other "
+"services via D-Bus.  It must be either the symbol @code{:read} or "
+"@code{:readwrite}.  @var{value} is the initial value of the property, it can "
+"be of any valid type (@xref{dbus-call-method}, for details)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1567
+msgid ""
+"If @var{property} already exists on @var{path}, it will be overwritten.  For "
+"properties with access type @code{:read} this is the only way to change "
+"their values.  Properties with access type @code{:readwrite} can be changed "
+"by @code{dbus-set-property}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1574
+msgid ""
+"The interface @samp{org.freedesktop.DBus.Properties} is added to @var{path}, "
+"including a default handler for the @samp{Get}, @samp{GetAll} and @samp{Set} "
+"methods of this interface.  When @var{emits-signal} is non-@code{nil}, the "
+"signal @samp{PropertiesChanged} is sent when the property is changed by "
+"@code{dbus-set-property}."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1588
+#, no-wrap
+msgid ""
+"(dbus-register-property\n"
+" :session \"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+" \"org.freedesktop.TextEditor\" \"name\" :read \"GNU Emacs\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1591
+#, no-wrap
+msgid ""
+"@result{} ((:property :session \"org.freedesktop.TextEditor\" \"name\")\n"
+"    (\"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1595
+#, no-wrap
+msgid ""
+"(dbus-register-property\n"
+" :session \"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+" \"org.freedesktop.TextEditor\" \"version\" :readwrite emacs-version t)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1598
+#, no-wrap
+msgid ""
+"@result{} ((:property :session \"org.freedesktop.TextEditor\" \"version\")\n"
+"    (\"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1604
+msgid ""
+"Other D-Bus applications can read the property via the default methods "
+"@samp{org.freedesktop.DBus.Properties.Get} and "
+"@samp{org.freedesktop.DBus.Properties.GetAll}.  Testing is also possible via "
+"the command line tool @code{dbus-send} in a shell:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1611
+#, no-wrap
+msgid ""
+"# dbus-send --session --print-reply \\\n"
+"    --dest=\"org.freedesktop.TextEditor\" \\\n"
+"    \"/org/freedesktop/TextEditor\" \\\n"
+"    \"org.freedesktop.DBus.Properties.GetAll\" \\\n"
+"    string:\"org.freedesktop.TextEditor\"\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/dbus.texi:1623
+#, no-wrap
+msgid ""
+"@print{} method return sender=:1.22 -> dest=:1.23 reply_serial=3\n"
+"      array [\n"
+"         dict entry(\n"
+"            string \"name\"\n"
+"            variant             string \"GNU Emacs\"\n"
+"         )\n"
+"         dict entry(\n"
+"            string \"version\"\n"
+"            variant             string \"23.1.50.5\"\n"
+"         )\n"
+"      ]\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1628
+msgid ""
+"It is also possible to apply the @code{dbus-get-property}, "
+"@code{dbus-get-all-properties} and @code{dbus-set-property} functions "
+"(@pxref{Properties and Annotations})."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1633
+#, no-wrap
+msgid ""
+"(dbus-set-property\n"
+" :session \"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+" \"org.freedesktop.TextEditor\" \"version\" \"23.1.50\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1635
+#, no-wrap
+msgid ""
+"@result{} \"23.1.50\"\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1639
+#, no-wrap
+msgid ""
+"(dbus-get-property\n"
+" :session \"org.freedesktop.TextEditor\" \"/org/freedesktop/TextEditor\"\n"
+" \"org.freedesktop.TextEditor\" \"version\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1641
+#, no-wrap
+msgid "@result{} \"23.1.50\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1644
+#, no-wrap
+msgid "dbus-unregister-object object"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1650
+msgid ""
+"This function unregisters @var{object} from the D-Bus.  @var{object} must be "
+"the result of a preceding @code{dbus-register-method}, "
+"@code{dbus-register-property} or @code{dbus-register-signal} call "
+"(@pxref{Signals}).  It returns @code{t} if @var{object} has been "
+"unregistered, @code{nil} otherwise."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1654
+msgid ""
+"When @var{object} identifies the last method or property, which is "
+"registered for the respective service, Emacs releases its association to the "
+"service from D-Bus."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1659
+#, no-wrap
+msgid "signals"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1663
+msgid ""
+"Signals are one way messages.  They carry input parameters, which are "
+"received by all objects which have registered for such a signal."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1664
+#, no-wrap
+msgid "dbus-send-signal bus service path interface signal &rest args"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1667
+msgid ""
+"This function is similar to @code{dbus-call-method}.  The difference is, "
+"that there are no returning output parameters."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1671
+msgid ""
+"The function emits @var{signal} on the D-Bus @var{bus}.  @var{bus} is either "
+"the symbol @code{:system} or the symbol @code{:session}.  It doesn't matter "
+"whether another object has registered for @var{signal}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1680
+msgid ""
+"Signals can be unicast or broadcast messages.  For broadcast messages, "
+"@var{service} must be @code{nil}.  Otherwise, @var{service} is the D-Bus "
+"service name the signal is sent to as a unicast message.@footnote{For "
+"backward compatibility, a broadcast message is also emitted if @var{service} "
+"is the known or unique name Emacs is registered at D-Bus @var{bus}.} "
+"@var{path} is the D-Bus object path @var{signal} is sent from.  "
+"@var{interface} is an interface available at @var{path}.  It must provide "
+"@var{signal}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1684
+msgid ""
+"The remaining arguments @var{args} are passed to @var{signal} as arguments.  "
+"They are converted into D-Bus types as described in @ref{Type Conversion}.  "
+"Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1690
+#, no-wrap
+msgid ""
+"(dbus-send-signal\n"
+" :session nil dbus-path-emacs\n"
+" (concat dbus-interface-emacs \".FileManager\") \"FileModified\"\n"
+" \"/home/albinus/.emacs\")\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1693
+#, no-wrap
+msgid "dbus-register-signal bus service path interface signal handler &rest args"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1696
+msgid ""
+"With this function, an application registers for a signal on the D-Bus "
+"@var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1706
+msgid ""
+"@var{service} is the D-Bus service name used by the sending D-Bus object.  "
+"It can be either a known name or the unique name of the D-Bus object sending "
+"the signal.  A known name will be mapped onto the unique name of the object, "
+"owning @var{service} at registration time.  When the corresponding D-Bus "
+"object disappears, signals will no longer be received."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1710
+msgid ""
+"@var{path} is the corresponding D-Bus object path that @var{service} is "
+"registered at.  @var{interface} is an interface offered by @var{service}.  "
+"It must provide @var{signal}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1714
+msgid ""
+"@var{service}, @var{path}, @var{interface} and @var{signal} can be "
+"@code{nil}.  This is interpreted as a wildcard for the respective argument."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1718
+msgid ""
+"@var{handler} is a Lisp function to be called when the @var{signal} is "
+"received.  It must accept as arguments the output parameters @var{signal} is "
+"sending."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1725
+msgid ""
+"The remaining arguments @var{args} can be keywords or keyword string "
+"pairs.@footnote{For backward compatibility, the arguments @var{args} can "
+"also be just strings.  They stand for the respective arguments of "
+"@var{signal} in their order, and are used for filtering as well.  A "
+"@code{nil} argument might be used to preserve the order.} Their meaning is "
+"as follows:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1727
+#, no-wrap
+msgid ":arg@var{n} @var{string}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1728
+#, no-wrap
+msgid ":path@var{n} @var{string}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1733
+msgid ""
+"This stands for the @var{n}th argument of the signal.  @code{:path@var{n}} "
+"arguments can be used for object path wildcard matches as specified by "
+"D-Bus, while an @code{:argN} argument requires an exact match."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1734
+#, no-wrap
+msgid ":arg-namespace @var{string}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1737
+msgid ""
+"Register for those signals, whose first argument names a service or "
+"interface within the namespace @var{string}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1738
+#, no-wrap
+msgid ":path-namespace @var{string}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1742
+msgid ""
+"Register for the object path namespace @var{string}.  All signals sent from "
+"an object path, which has @var{string} as the preceding string, are "
+"matched.  This requires @var{path} to be @code{nil}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/dbus.texi:1743
+#, no-wrap
+msgid ":eavesdrop"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/dbus.texi:1747
+msgid ""
+"Register for unicast signals which are not directed to the D-Bus object "
+"Emacs is registered at D-Bus BUS, if the security policy of BUS allows "
+"this.  Otherwise, this argument is ignored."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1752
+msgid ""
+"@code{dbus-register-signal} returns a Lisp object, which can be used as "
+"argument in @code{dbus-unregister-object} for removing the registration for "
+"@var{signal}.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1756
+#, no-wrap
+msgid ""
+"(defun my-dbus-signal-handler (device)\n"
+"  (message \"Device %s added\" device))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1761
+#, no-wrap
+msgid ""
+"(dbus-register-signal\n"
+" :system \"org.freedesktop.Hal\" \"/org/freedesktop/Hal/Manager\"\n"
+" \"org.freedesktop.Hal.Manager\" \"DeviceAdded\"\n"
+" #'my-dbus-signal-handler)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1765
+#, no-wrap
+msgid ""
+"@result{} ((:signal :system \"org.freedesktop.Hal.Manager\" "
+"\"DeviceAdded\")\n"
+"    (\"org.freedesktop.Hal\" \"/org/freedesktop/Hal/Manager\"\n"
+"     my-signal-handler))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1774
+msgid ""
+"As we know from the introspection data of interface "
+"@samp{org.freedesktop.Hal.Manager}, the signal @samp{DeviceAdded} provides "
+"one single parameter, which is mapped into a Lisp string.  The callback "
+"function @code{my-dbus-signal-handler} must therefore define a single string "
+"argument.  Plugging a USB device into your machine, when registered for "
+"signal @samp{DeviceAdded}, will show you which objects the GNU/Linux "
+"@code{hal} daemon adds."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1778
+msgid ""
+"Some of the match rules have been added to a later version of D-Bus.  In "
+"order to test the availability of such features, you could register for a "
+"dummy signal, and check the result:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1783
+#, no-wrap
+msgid ""
+"(dbus-ignore-errors\n"
+"  (dbus-register-signal\n"
+"   :system nil nil nil nil #'ignore :path-namespace \"/invalid/path\"))\n"
+"\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1791
+#, no-wrap
+msgid "bus names"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1792
+#, no-wrap
+msgid "UNIX domain socket"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1793
+#, no-wrap
+msgid "TCP/IP socket"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1802
+msgid ""
+"Until now, we have spoken about the system and the session buses, which are "
+"the default buses to be connected to.  However, it is possible to connect to "
+"any bus with a known address.  This is a UNIX domain or TCP/IP socket.  "
+"Everywhere, where a @var{bus} is mentioned as argument of a function (the "
+"symbol @code{:system} or the symbol @code{:session}), this address can be "
+"used instead.  The connection to this bus must be initialized first."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1803
+#, no-wrap
+msgid "dbus-init-bus bus &optional private"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1805
+msgid "This function establishes the connection to D-Bus @var{bus}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1811
+msgid ""
+"@var{bus} can be either the symbol @code{:system} or the symbol "
+"@code{:session}, or it can be a string denoting the address of the "
+"corresponding bus.  For the system and session buses, this function is "
+"called when loading @file{dbus.el}, there is no need to call it again."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1819
+msgid ""
+"The function returns the number of connections this Emacs session has "
+"established to the @var{bus} under the same unique name "
+"(@pxref{dbus-get-unique-name}).  It depends on the libraries Emacs is linked "
+"with, and on the environment Emacs is running.  For example, if Emacs is "
+"linked with the GTK+ toolkit, and it runs in a GTK+-aware environment like "
+"GNOME, another connection might already be established."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1827
+msgid ""
+"When @var{private} is non-@code{nil}, a new connection is established "
+"instead of reusing an existing one.  It results in a new unique name at the "
+"bus.  This can be used, if it is necessary to distinguish from another "
+"connection used in the same Emacs process, like the one established by "
+"GTK+.  It should be used with care for at least the @code{:system} and "
+"@code{:session} buses, because other Emacs Lisp packages might already use "
+"this connection to those buses."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1829
+msgid "Example: You initialize a connection to the AT-SPI bus on your host:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1835
+#, no-wrap
+msgid ""
+"(setq my-bus\n"
+"      (dbus-call-method\n"
+"       :session \"org.a11y.Bus\" \"/org/a11y/bus\"\n"
+"       \"org.a11y.Bus\" \"GetAddress\"))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1837
+#, no-wrap
+msgid ""
+"@result{} "
+"\"unix:abstract=/tmp/dbus-2yzWHOCdSD,guid=a490dd26625870ca1298b6e10000fd7f\"\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1842
+#, no-wrap
+msgid ""
+";; If Emacs is built with GTK+ support, and you run in a GTK+-enabled\n"
+";; environment (like a GNOME session), the initialization reuses the\n"
+";; connection established by GTK+'s atk bindings.\n"
+"(dbus-init-bus my-bus)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1844
+#, no-wrap
+msgid ""
+"@result{} 2\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1846 ../../../../../doc/misc/dbus.texi:1856
+#, no-wrap
+msgid ""
+"(dbus-get-unique-name my-bus)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1848
+#, no-wrap
+msgid ""
+"@result{} \":1.19\"\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1852
+#, no-wrap
+msgid ""
+";; Open a new connection to the same bus.  This supersedes the\n"
+";; previous one.\n"
+"(dbus-init-bus my-bus 'private)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1854 ../../../../../doc/misc/dbus.texi:1892
+#, no-wrap
+msgid ""
+"@result{} 1\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1858
+#, no-wrap
+msgid "@result{} \":1.20\"\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1863
+msgid ""
+"D-Bus addresses can specify a different transport.  A possible address could "
+"be based on TCP/IP sockets, see next example.  Which transport is supported "
+"depends on the bus daemon configuration, however."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1865
+#, no-wrap
+msgid "dbus-setenv bus variable value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1868
+msgid ""
+"This function sets the value of the @var{bus} environment @var{variable} to "
+"@var{value}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1872
+msgid ""
+"@var{bus} is either a Lisp symbol, @code{:system} or @code{:session}, or a "
+"string denoting the bus address.  Both @var{variable} and @var{value} should "
+"be strings."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1875
+msgid ""
+"Normally, services inherit the environment of the bus daemon.  This function "
+"adds to or modifies that environment when activating services."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1879
+msgid ""
+"Some bus instances, such as @code{:system}, may disable setting the "
+"environment.  In such cases, or if this feature is not available in older "
+"D-Bus versions, this function signals a @code{dbus-error}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1883
+msgid ""
+"As an example, it might be desirable to start X11 enabled services on a "
+"remote host's bus on the same X11 server the local Emacs is running.  This "
+"could be achieved by"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1886
+#, no-wrap
+msgid ""
+"(setq my-bus \"unix:host=example.gnu.org,port=4711\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1888
+#, no-wrap
+msgid ""
+"@result{} \"unix:host=example.gnu.org,port=4711\"\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1890
+#, no-wrap
+msgid ""
+"(dbus-init-bus my-bus)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1894
+#, no-wrap
+msgid ""
+"(dbus-setenv my-bus \"DISPLAY\" (getenv \"DISPLAY\"))\n"
+"\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1902
+#, no-wrap
+msgid "debugging"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1903
+#, no-wrap
+msgid "errors"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/dbus.texi:1904
+#, no-wrap
+msgid "events"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1907
+msgid "The internal actions can be traced by running in a debug mode."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:1908
+#, no-wrap
+msgid "dbus-debug"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:1910
+msgid ""
+"If this variable is non-@code{nil}, D-Bus specific debug messages are "
+"raised."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1918
+msgid ""
+"Input parameters of @code{dbus-call-method}, "
+"@code{dbus-call-method-asynchronously}, @code{dbus-send-signal}, "
+"@code{dbus-register-method}, @code{dbus-register-property} and "
+"@code{dbus-register-signal} are checked for correct D-Bus types. If there is "
+"a type mismatch, the Lisp error @code{wrong-type-argument} @code{D-Bus "
+"@var{arg}} is raised."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1922
+msgid ""
+"All errors raised by D-Bus are signaled with the error symbol "
+"@code{dbus-error}.  If possible, error messages from D-Bus are appended to "
+"the @code{dbus-error}."
+msgstr ""
+
+#. type: defspec
+#: ../../../../../doc/misc/dbus.texi:1923
+#, no-wrap
+msgid "dbus-ignore-errors forms@dots{}"
+msgstr ""
+
+#. type: defspec
+#: ../../../../../doc/misc/dbus.texi:1927
+msgid ""
+"This executes @var{forms} exactly like a @code{progn}, except that "
+"@code{dbus-error} errors are ignored during the @var{forms}.  These errors "
+"can be made visible when @code{dbus-debug} is set to @code{t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1932
+msgid ""
+"Incoming D-Bus messages are handled as Emacs events, @pxref{Misc Events, , , "
+"elisp}.  They are retrieved only, when Emacs runs in interactive mode.  The "
+"generated event has this form:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1936
+#, no-wrap
+msgid ""
+"(dbus-event @var{bus} @var{type} @var{serial} @var{service} @var{path} "
+"@var{interface} @var{member} @var{handler}\n"
+"        &rest @var{args})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1940
+msgid ""
+"@var{bus} identifies the D-Bus the message is coming from.  It is either the "
+"symbol @code{:system} or the symbol @code{:session}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1947
+msgid ""
+"@var{type} is the D-Bus message type which has caused the event.  It can be "
+"@code{dbus-message-type-invalid}, @code{dbus-message-type-method-call}, "
+"@code{dbus-message-type-method-return}, @code{dbus-message-type-error}, or "
+"@code{dbus-message-type-signal}.  @var{serial} is the serial number of the "
+"received D-Bus message."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1951
+msgid ""
+"@var{service} and @var{path} are the unique name and the object path of the "
+"D-Bus object emitting the message.  @var{interface} and @var{member} denote "
+"the message which has been sent."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1955
+msgid ""
+"@var{handler} is the callback function which has been registered for this "
+"message (@pxref{Signals}).  When a @code{dbus-event} event arrives, "
+"@var{handler} is called with @var{args} as arguments."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1958
+msgid ""
+"In order to inspect the @code{dbus-event} data, you could extend the "
+"definition of the callback function in @ref{Signals}:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:1962
+#, no-wrap
+msgid ""
+"(defun my-dbus-signal-handler (&rest args)\n"
+"  (message \"my-dbus-signal-handler: %S\" last-input-event))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:1966
+msgid ""
+"There exist convenience functions which could be called inside a callback "
+"function in order to retrieve the information from the event."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1967
+#, no-wrap
+msgid "dbus-event-bus-name event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1971
+msgid ""
+"This function returns the bus name @var{event} is coming from.  The result "
+"is either the symbol @code{:system} or the symbol @code{:session}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1973
+#, no-wrap
+msgid "dbus-event-message-type event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1976
+msgid ""
+"This function returns the message type of the corresponding D-Bus message.  "
+"The result is a natural number."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1978
+#, no-wrap
+msgid "dbus-event-serial-number event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1981
+msgid ""
+"This function returns the serial number of the corresponding D-Bus message.  "
+"The result is a natural number."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1983
+#, no-wrap
+msgid "dbus-event-service-name event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1986
+msgid ""
+"This function returns the unique name of the D-Bus object @var{event} is "
+"coming from."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1988
+#, no-wrap
+msgid "dbus-event-path-name event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1991
+msgid ""
+"This function returns the object path of the D-Bus object @var{event} is "
+"coming from."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1993
+#, no-wrap
+msgid "dbus-event-interface-name event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1996
+msgid ""
+"This function returns the interface name of the D-Bus object @var{event} is "
+"coming from."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:1998
+#, no-wrap
+msgid "dbus-event-member-name event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/dbus.texi:2001
+msgid ""
+"This function returns the member name of the D-Bus object @var{event} is "
+"coming from.  It is either a signal name or a method name."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:2007
+msgid ""
+"D-Bus errors are not propagated during event handling, because it is usually "
+"not desired.  D-Bus errors in events can be made visible by setting the "
+"variable @code{dbus-debug} to @code{t}.  They can also be handled by a hook "
+"function."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:2008
+#, no-wrap
+msgid "dbus-event-error-functions"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:2013
+msgid ""
+"This hook variable keeps a list of functions, which are called when a D-Bus "
+"error happens in the event handler.  Every function must accept two "
+"arguments, the event and the error variable caught in @code{condition-case} "
+"by @code{dbus-error}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/dbus.texi:2016
+msgid "Such functions can be used to adapt the error signal to be raised.  Example:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:2023
+#, no-wrap
+msgid ""
+"(defun my-dbus-event-error-handler (event error)\n"
+"  (when (string-equal (concat dbus-interface-emacs \".FileManager\")\n"
+"                      (dbus-event-interface-name event))\n"
+"    (message \"my-dbus-event-error-handler: %S %S\" event error)\n"
+"    (signal 'file-error (cdr error))))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/dbus.texi:2025
+#, no-wrap
+msgid "(add-hook 'dbus-event-error-functions #'my-dbus-event-error-handler)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/dbus.texi:2031
+msgid ""
+"Hook functions should take into account that there might be other D-Bus "
+"applications running.  They should therefore check carefully, whether a "
+"given D-Bus error is related to them."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/dbus.texi:2041
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
