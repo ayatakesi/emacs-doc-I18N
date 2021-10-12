@@ -192,7 +192,7 @@ EOT
 	perl -pe 's/\"/\\\"/g' | sort | uniq |
 	perl -ne 'chomp; print "msgid \"$_\"\nmsgstr \"\"\n\n";' >>${POT_TEMP};
     
-    msguniq --output-file=${POT_TEMP} ${POT_FILE} && rm ${POT_TEMP};
+    msguniq --output-file=${POT_FILE} ${POT_TEMP} && rm ${POT_TEMP};
     echo "done";
     
     return;
