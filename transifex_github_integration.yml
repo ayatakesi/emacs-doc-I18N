@@ -1,7 +1,57 @@
-filters:
+  filters:
 - filter_type: dir
   file_format: PO
-  source_file_extension: pot
+  source_file_extension: po
   source_language: en
-  source_file_dir: po/*/doc/*/C/LC_MESSAGES/
-  translation_files_expression: 'po/po4a/doc/*/<lang>/LC_MESSAGES/'
+  source_file_dir: po/po4a/doc/emacs/C/
+  translation_files_expression: 'po/po4a/doc/emacs/<lang>/'
+  
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/po4a/doc/lispref/C/
+  translation_files_expression: 'po/po4a/doc/lispref/<lang>/'
+  
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/po4a/doc/lispintro/C/
+  translation_files_expression: 'po/po4a/doc/lispintro/<lang>/'
+
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/po4a/doc/misc/C/
+  translation_files_expression: 'po/po4a/doc/misc/<lang>/'
+  
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/gettext/doc/emacs/C/LC_MESSAGES/
+  translation_files_expression: 'po/gettext/doc/emacs/<lang>/LC_MESSAGES/'
+
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/gettext/doc/lispref/C/LC_MESSAGES/
+  translation_files_expression: 'po/gettext/doc/lispref/<lang>/LC_MESSAGES/'
+
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/gettext/doc/lispintro/C/LC_MESSAGES/
+  translation_files_expression: 'po/gettext/doc/lispintro/<lang>/LC_MESSAGES/'
+
+- filter_type: dir
+  file_format: PO
+  source_file_extension: po
+  source_language: en
+  source_file_dir: po/gettext/doc/misc/C/LC_MESSAGES/
+  translation_files_expression: 'po/gettext/doc/misc/<lang>/LC_MESSAGES/'
+  
