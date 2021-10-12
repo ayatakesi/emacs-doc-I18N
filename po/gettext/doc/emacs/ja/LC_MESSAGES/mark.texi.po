@@ -1,37 +1,40 @@
-#, fuzzy
+# 
+# Translators:
+# Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-13 00:09\n"
+"PO-Revision-Date: 2021-10-12 15:29+0000\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/emacs-doc-i18n-1/teams/126037/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "@chapter The Mark and the Region"
 msgstr "@chapter マークとリージョン"
 
-msgid "@section Setting the Mark"
-msgstr "@section マークのセット"
-
 msgid "@section Commands to Mark Textual Objects"
 msgstr "@section テキストオブジェクトをマークするコマンド"
+
+msgid "@section Disabling Transient Mark Mode"
+msgstr "@section Transient Markモードを無効にする"
 
 msgid "@section Operating on the Region"
 msgstr "@section リージョンを操作する"
 
-msgid "@section The Mark Ring"
-msgstr "@section マークリング"
-
-msgid "@section The Global Mark Ring"
-msgstr "@section グローバルマークリング"
+msgid "@section Setting the Mark"
+msgstr "@section マークのセット"
 
 msgid "@section Shift Selection"
 msgstr "@section シフト選択"
 
-msgid "@section Disabling Transient Mark Mode"
-msgstr "@section Transient Markモードを無効にする"
+msgid "@section The Global Mark Ring"
+msgstr "@section グローバルマークリング"
+
+msgid "@section The Mark Ring"
+msgstr "@section マークリング"
