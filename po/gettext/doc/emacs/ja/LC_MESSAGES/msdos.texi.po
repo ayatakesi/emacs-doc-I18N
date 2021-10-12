@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-11 03:19\n"
-"PO-Revision-Date: 2021-10-11 03:19\n"
+"POT-Creation-Date: 2021-10-12 22:57\n"
+"PO-Revision-Date: 2021-10-12 22:57\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -40,9 +40,9 @@ msgstr ""
 msgid "@section Specifying Fonts on MS-Windows"
 msgstr ""
 
-msgid "@section Subprocesses on Windows 9X/ME and Windows NT/2K/XP/Vista/7/8/10"
+msgid ""
+"@section Subprocesses on Windows 9X/ME and Windows NT/2K/XP/Vista/7/8/10"
 msgstr ""
 
 msgid "@section Text Files and Binary Files"
 msgstr ""
-

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-11 03:19\n"
-"PO-Revision-Date: 2021-10-11 03:19\n"
+"POT-Creation-Date: 2021-10-12 22:58\n"
+"PO-Revision-Date: 2021-10-12 22:58\n"
 "Last-Translator: emacs-doc#translator\n"
 "Language-Team: emacs-doc#translators\n"
 "Language: ja\n"
@@ -22,7 +22,8 @@ msgstr ""
 msgid "@chapter Frequently Asked Questions"
 msgstr ""
 
-msgid "@chapter How file names, directories and localnames are mangled and managed"
+msgid ""
+"@chapter How file names, directories and localnames are mangled and managed"
 msgstr ""
 
 msgid "@chapter How to Customize Traces"
@@ -61,7 +62,9 @@ msgstr ""
 msgid "@section Cleanup remote connections"
 msgstr ""
 
-msgid "@section Combining @option{ssh} or @option{plink} with @option{su} or @option{sudo}"
+msgid ""
+"@section Combining @option{ssh} or @option{plink} with @option{su} or "
+"@option{sudo}"
 msgstr ""
 
 msgid "@section Connecting to a remote host using multiple hops"
@@ -204,4 +207,3 @@ msgstr ""
 
 msgid "@subsection Which method to use?"
 msgstr ""
-
