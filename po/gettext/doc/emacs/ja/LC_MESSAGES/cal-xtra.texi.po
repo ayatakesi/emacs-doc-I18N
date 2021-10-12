@@ -1,44 +1,46 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@section More advanced features of the Calendar and Diary"
-msgstr ""
-
-msgid "@subsection Converting from the Mayan Calendar"
-msgstr ""
+msgstr "@section カレンダーとダイアリーの上級な機能"
 
 msgid "@subsection Customizing the Calendar"
-msgstr ""
-
-msgid "@subsection Customizing the Diary"
-msgstr ""
+msgstr "@subsection カレンダーのカスタマイズ"
 
 msgid "@subsection Customizing the Holidays"
-msgstr ""
+msgstr "@subsection 休日のカスタマイズ"
+
+msgid "@subsection Converting from the Mayan Calendar"
+msgstr "@subsection マヤ暦からの変換"
 
 msgid "@subsection Date Display Format"
-msgstr ""
-
-msgid "@subsection Diary Display"
-msgstr ""
-
-msgid "@subsection Diary Entries Using non-Gregorian Calendars"
-msgstr ""
-
-msgid "@subsection Fancy Diary Display"
-msgstr ""
-
-msgid "@subsection Sexp Entries and the Fancy Diary Display"
-msgstr ""
+msgstr "@subsection 日付の表示フォーマット"
 
 msgid "@subsection Time Display Format"
-msgstr ""
+msgstr "@subsection 時刻の表示フォーマット"
+
+msgid "@subsection Customizing the Diary"
+msgstr "@subsection ダイアリーのカスタマイズ"
+
+msgid "@subsection Diary Entries Using non-Gregorian Calendars"
+msgstr "@subsection 非グレゴリオ暦を使用するカレンダーエントリー"
+
+msgid "@subsection Diary Display"
+msgstr "@subsection ダイアリーの表示"
+
+msgid "@subsection Fancy Diary Display"
+msgstr "@subsection Fancy Diary表示"
+
+msgid "@subsection Sexp Entries and the Fancy Diary Display"
+msgstr "@subsection sexpエントリーとFancy Diary表示"

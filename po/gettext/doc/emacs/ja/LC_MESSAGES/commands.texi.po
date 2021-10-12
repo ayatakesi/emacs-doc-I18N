@@ -1,23 +1,25 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Characters, Keys and Commands"
-msgstr ""
-
-msgid "@section Keys"
-msgstr ""
-
-msgid "@section Keys and Commands"
-msgstr ""
+msgstr "@chapter Characters, Keys and Commands"
 
 msgid "@section Kinds of User Input"
-msgstr ""
+msgstr "@section ユーザー入力の種類"
+
+msgid "@section Keys"
+msgstr "@section キー"
+
+msgid "@section Keys and Commands"
+msgstr "@section キーとコマンド"

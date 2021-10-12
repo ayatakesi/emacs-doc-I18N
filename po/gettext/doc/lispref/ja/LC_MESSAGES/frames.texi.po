@@ -1,146 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:11+09:00\n"
+"PO-Revision-Date: 2020-07-27 20:30+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Frames"
-msgstr ""
-
-msgid "@section Child Frames"
-msgstr ""
-
-msgid "@section Color Names"
-msgstr ""
+msgstr "@chapter フレーム"
 
 msgid "@section Creating Frames"
-msgstr ""
-
-msgid "@section Deleting Frames"
-msgstr ""
-
-msgid "@section Dialog Boxes"
-msgstr ""
-
-msgid "@section Display Feature Testing"
-msgstr ""
-
-msgid "@section Drag and Drop"
-msgstr ""
-
-msgid "@section Finding All Frames"
-msgstr ""
-
-msgid "@section Frame Configurations"
-msgstr ""
-
-msgid "@section Frame Geometry"
-msgstr ""
-
-msgid "@section Frame Parameters"
-msgstr ""
-
-msgid "@section Frame Titles"
-msgstr ""
-
-msgid "@section Input Focus"
-msgstr ""
-
-msgid "@section Minibuffers and Frames"
-msgstr ""
-
-msgid "@section Mouse Position"
-msgstr ""
-
-msgid "@section Mouse Tracking"
-msgstr ""
+msgstr "@section フレームの作成"
 
 msgid "@section Multiple Terminals"
-msgstr ""
+msgstr "@section 複数の端末"
 
-msgid "@section Pointer Shape"
-msgstr ""
-
-msgid "@section Pop-Up Menus"
-msgstr ""
-
-msgid "@section Raising, Lowering and Restacking Frames"
-msgstr ""
-
-msgid "@section Terminal Parameters"
-msgstr ""
-
-msgid "@section Text Terminal Colors"
-msgstr ""
-
-msgid "@section Visibility of Frames"
-msgstr ""
-
-msgid "@section Window System Selections"
-msgstr ""
-
-msgid "@section X Resources"
-msgstr ""
-
-msgid "@subsection Access to Frame Parameters"
-msgstr ""
-
-msgid "@subsection Frame Font"
-msgstr ""
+msgid "@section Frame Geometry"
+msgstr "@section フレームのジオメトリー"
 
 msgid "@subsection Frame Layout"
-msgstr ""
+msgstr "@subsection フレームのレイアウト"
+
+msgid "@subsection Frame Font"
+msgstr "@subsection フレームのフォント"
 
 msgid "@subsection Frame Position"
-msgstr ""
+msgstr "@subsection フレームの位置"
 
 msgid "@subsection Frame Size"
-msgstr ""
-
-msgid "@subsection Geometry"
-msgstr ""
+msgstr "@subsection フレームのサイズ"
 
 msgid "@subsection Implied Frame Resizing"
-msgstr ""
+msgstr "@subsection フレームの暗黙的なリサイズ"
+
+msgid "@section Frame Parameters"
+msgstr "@section フレームのパラメーター"
+
+msgid "@subsection Access to Frame Parameters"
+msgstr "@subsection フレームパラメーターへのアクセス"
 
 msgid "@subsection Initial Frame Parameters"
-msgstr ""
+msgstr "@subsection フレームの初期パラメーター"
 
 msgid "@subsection Window Frame Parameters"
-msgstr ""
+msgstr "@subsection ウィンドウフレームパラメーター"
 
 msgid "@subsubsection Basic Parameters"
-msgstr ""
-
-msgid "@subsubsection Buffer Parameters"
-msgstr ""
-
-msgid "@subsubsection Cursor Parameters"
-msgstr ""
-
-msgid "@subsubsection Font and Color Parameters"
-msgstr ""
-
-msgid "@subsubsection Frame Interaction Parameters"
-msgstr ""
-
-msgid "@subsubsection Layout Parameters"
-msgstr ""
-
-msgid "@subsubsection Mouse Dragging Parameters"
-msgstr ""
+msgstr "@subsubsection 基本パラメーター"
 
 msgid "@subsubsection Position Parameters"
-msgstr ""
+msgstr "@subsubsection 位置のパラメーター"
 
 msgid "@subsubsection Size Parameters"
-msgstr ""
+msgstr "@subsubsection サイズのパラメーター"
+
+msgid "@subsubsection Layout Parameters"
+msgstr "@subsubsection レイアウトのパラメーター"
+
+msgid "@subsubsection Buffer Parameters"
+msgstr "@subsubsection バッファーのパラメーター"
+
+msgid "@subsubsection Frame Interaction Parameters"
+msgstr "@subsubsection フレームとの相互作用のためのパラメーター"
+
+msgid "@subsubsection Mouse Dragging Parameters"
+msgstr "@subsubsection マウスドラッグのパラメーター"
 
 msgid "@subsubsection Window Management Parameters"
-msgstr ""
+msgstr "@subsubsection ウィンドウ管理のパラメーター"
+
+msgid "@subsubsection Cursor Parameters"
+msgstr "@subsubsection カーソルのパラメーター"
+
+msgid "@subsubsection Font and Color Parameters"
+msgstr "@subsubsection フォントとカラーのパラメーター"
+
+msgid "@subsection Geometry"
+msgstr "@subsection ジオメトリー"
+
+msgid "@section Terminal Parameters"
+msgstr "@section 端末のパラメーター"
+
+msgid "@section Frame Titles"
+msgstr "@section フレームのタイトル"
+
+msgid "@section Deleting Frames"
+msgstr "@section フレームの削除"
+
+msgid "@section Finding All Frames"
+msgstr "@section すべてのフレームを探す"
+
+msgid "@section Minibuffers and Frames"
+msgstr "@section ミニバッファーとフレーム"
+
+msgid "@section Input Focus"
+msgstr "@section 入力のフォーカス"
+
+msgid "@section Visibility of Frames"
+msgstr "@section フレームの可視性"
+
+msgid "@section Raising, Lowering and Restacking Frames"
+msgstr "@section フレームのraise、lower、re-stack"
+
+msgid "@section Frame Configurations"
+msgstr "@section フレーム構成"
+
+msgid "@section Child Frames"
+msgstr "@section 子フレーム"
+
+msgid "@section Mouse Tracking"
+msgstr "@section マウスの追跡"
+
+msgid "@section Mouse Position"
+msgstr "@section マウスの位置"
+
+msgid "@section Pop-Up Menus"
+msgstr "@section ポップアップメニュー"
+
+msgid "@section Dialog Boxes"
+msgstr "@section ダイアログボックス"
+
+msgid "@section Pointer Shape"
+msgstr "@section ポインターの形状"
+
+msgid "@section Window System Selections"
+msgstr "@section ウィンドウシステムによる選択"
+
+msgid "@section Drag and Drop"
+msgstr "@section ドラッグアンドドロップ"
+
+msgid "@section Color Names"
+msgstr "@section カラー名"
+
+msgid "@section Text Terminal Colors"
+msgstr "@section テキスト端末のカラー"
+
+msgid "@section X Resources"
+msgstr "@section Xリソース"
+
+msgid "@section Display Feature Testing"
+msgstr "@section ディスプレー機能のテスト"

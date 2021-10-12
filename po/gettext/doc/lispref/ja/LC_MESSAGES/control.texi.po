@@ -1,71 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:11+09:00\n"
+"PO-Revision-Date: 2020-07-28 21:23+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Control Structures"
-msgstr ""
-
-msgid "@section Conditionals"
-msgstr ""
-
-msgid "@section Constructs for Combining Conditions"
-msgstr ""
-
-msgid "@section Generators"
-msgstr ""
-
-msgid "@section Iteration"
-msgstr ""
-
-msgid "@section Nonlocal Exits"
-msgstr ""
-
-msgid "@section Pattern-Matching Conditional"
-msgstr ""
+msgstr "@chapter 制御構造"
 
 msgid "@section Sequencing"
-msgstr ""
+msgstr "@section 順序"
 
-msgid "@subsection Backquote-Style Patterns"
-msgstr ""
+msgid "@section Conditionals"
+msgstr "@section 条件"
 
-msgid "@subsection Cleaning Up from Nonlocal Exits"
-msgstr ""
+msgid "@section Constructs for Combining Conditions"
+msgstr "@section 組み合わせ条件の構築"
 
-msgid "@subsection Destructuring with @code{pcase} Patterns"
-msgstr ""
-
-msgid "@subsection Errors"
-msgstr ""
-
-msgid "@subsection Examples of @code{catch} and @code{throw}"
-msgstr ""
-
-msgid "@subsection Explicit Nonlocal Exits: @code{catch} and @code{throw}"
-msgstr ""
-
-msgid "@subsection Extending @code{pcase}"
-msgstr ""
+msgid "@section Pattern-Matching Conditional"
+msgstr "@section パターンマッチングによる条件"
 
 msgid "@subsection The @code{pcase} macro"
-msgstr ""
+msgstr "@subsection @code{pcase}マクロ"
 
-msgid "@subsubsection Error Symbols and Condition Names"
-msgstr ""
+msgid "@subsection Extending @code{pcase}"
+msgstr "@subsection @code{pcase}の拡張"
 
-msgid "@subsubsection How Emacs Processes Errors"
-msgstr ""
+msgid "@subsection Backquote-Style Patterns"
+msgstr "@subsection バッククォートスタイルパターン"
+
+msgid "@subsection Destructuring with @code{pcase} Patterns"
+msgstr "@subsection @code{pcase}パターンによる分解"
+
+msgid "@section Iteration"
+msgstr "@section 繰り返し"
+
+msgid "@section Generators"
+msgstr "@section ジェネレーター"
+
+msgid "@section Nonlocal Exits"
+msgstr "@section 非ローカル脱出"
+
+msgid "@subsection Explicit Nonlocal Exits: @code{catch} and @code{throw}"
+msgstr "@subsection 明示的な非ローカル脱出: @code{catch}と@code{throw}"
+
+msgid "@subsection Examples of @code{catch} and @code{throw}"
+msgstr "@subsection @code{catch}と@code{throw}の例"
+
+msgid "@subsection Errors"
+msgstr "@subsection エラー"
 
 msgid "@subsubsection How to Signal an Error"
-msgstr ""
+msgstr "@subsubsection エラーをシグナルする方法"
+
+msgid "@subsubsection How Emacs Processes Errors"
+msgstr "@subsubsection Emacsがエラーを処理する方法"
 
 msgid "@subsubsection Writing Code to Handle Errors"
-msgstr ""
+msgstr "@subsubsection エラーを処理するコードの記述"
+
+msgid "@subsubsection Error Symbols and Condition Names"
+msgstr "@subsubsection エラーシンボルとエラー条件"
+
+msgid "@subsection Cleaning Up from Nonlocal Exits"
+msgstr "@subsection 非ローカル脱出のクリーンアップ"

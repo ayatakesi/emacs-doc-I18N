@@ -1,26 +1,28 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter The Organization of the Screen"
-msgstr ""
+msgstr "@chapter 画面の構成"
 
 msgid "@section Point"
-msgstr ""
+msgstr "@section ポイント"
 
 msgid "@section The Echo Area"
-msgstr ""
-
-msgid "@section The Menu Bar"
-msgstr ""
+msgstr "@section エコーエリア"
 
 msgid "@section The Mode Line"
-msgstr ""
+msgstr "@section モードライン"
+
+msgid "@section The Menu Bar"
+msgstr "@section メニューバー"

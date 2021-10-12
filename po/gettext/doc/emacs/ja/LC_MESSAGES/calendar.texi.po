@@ -1,89 +1,91 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter The Calendar and the Diary"
-msgstr ""
-
-msgid "@section Conversion To and From Other Calendars"
-msgstr ""
-
-msgid "@section Counting Days"
-msgstr ""
-
-msgid "@section Daylight Saving Time"
-msgstr ""
-
-msgid "@section Holidays"
-msgstr ""
-
-msgid "@section Miscellaneous Calendar Commands"
-msgstr ""
+msgstr "@chapter カレンダーとダイアリー"
 
 msgid "@section Movement in the Calendar"
-msgstr ""
-
-msgid "@section Phases of the Moon"
-msgstr ""
-
-msgid "@section Scrolling in the Calendar"
-msgstr ""
-
-msgid "@section Summing Time Intervals"
-msgstr ""
-
-msgid "@section The Diary"
-msgstr ""
-
-msgid "@section Times of Sunrise and Sunset"
-msgstr ""
-
-msgid "@section Writing Calendar Files"
-msgstr ""
-
-msgid "@subsection Appointments"
-msgstr ""
-
-msgid "@subsection Beginning or End of Week, Month or Year"
-msgstr ""
-
-msgid "@subsection Commands to Add to the Diary"
-msgstr ""
-
-msgid "@subsection Converting From Other Calendars"
-msgstr ""
-
-msgid "@subsection Converting To Other Calendars"
-msgstr ""
-
-msgid "@subsection Date Formats"
-msgstr ""
-
-msgid "@subsection Displaying the Diary"
-msgstr ""
-
-msgid "@subsection Importing and Exporting Diary Entries"
-msgstr ""
+msgstr "@section カレンダーでの移動"
 
 msgid "@subsection Motion by Standard Lengths of Time"
-msgstr ""
+msgstr "@subsection 標準的な時間間隔での移動"
 
-msgid "@subsection Special Diary Entries"
-msgstr ""
+msgid "@subsection Beginning or End of Week, Month or Year"
+msgstr "@subsection 週、月、年の開始と終了"
 
 msgid "@subsection Specified Dates"
-msgstr ""
+msgstr "@subsection 日付の指定"
+
+msgid "@section Scrolling in the Calendar"
+msgstr "@section カレンダーでのスクロール"
+
+msgid "@section Counting Days"
+msgstr "@section 日付のカウント"
+
+msgid "@section Miscellaneous Calendar Commands"
+msgstr "@section その他のカレンダーコマンド"
+
+msgid "@section Writing Calendar Files"
+msgstr "@section カレンダーファイルの記述"
+
+msgid "@section Holidays"
+msgstr "@section 休日"
+
+msgid "@section Times of Sunrise and Sunset"
+msgstr "@section 日の出と日の入りの時刻"
+
+msgid "@section Phases of the Moon"
+msgstr "@section 月の位相"
+
+msgid "@section Conversion To and From Other Calendars"
+msgstr "@section 他のカレンダーとの間の変換"
 
 msgid "@subsection Supported Calendar Systems"
-msgstr ""
+msgstr "@subsection サポートされるカレンダーシステム"
+
+msgid "@subsection Converting To Other Calendars"
+msgstr "@subsection 他のカレンダーへの変換"
+
+msgid "@subsection Converting From Other Calendars"
+msgstr "@subsection 他のカレンダーからの変換"
+
+msgid "@section The Diary"
+msgstr "@section ダイアリー"
 
 msgid "@subsection The Diary File"
-msgstr ""
+msgstr "@subsection ダイアリーファイル"
+
+msgid "@subsection Displaying the Diary"
+msgstr "@subsection ダイアリーの表示"
+
+msgid "@subsection Date Formats"
+msgstr "@subsection 日付のフォーマット"
+
+msgid "@subsection Commands to Add to the Diary"
+msgstr "@subsection ダイアリーに追加するコマンド"
+
+msgid "@subsection Special Diary Entries"
+msgstr "@subsection 特別なダイアリーエントリー"
+
+msgid "@subsection Appointments"
+msgstr "@subsection アポイントメント"
+
+msgid "@subsection Importing and Exporting Diary Entries"
+msgstr "@subsection ダイアリーエントリーのインポートとエクスポート"
+
+msgid "@section Daylight Saving Time"
+msgstr "@section サマータイム"
+
+msgid "@section Summing Time Intervals"
+msgstr "@section 時間間隔の加算"

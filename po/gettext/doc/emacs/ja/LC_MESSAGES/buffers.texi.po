@@ -1,44 +1,46 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-12 22:57\n"
-"PO-Revision-Date: 2021-10-12 22:57\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Using Multiple Buffers"
-msgstr ""
-
-msgid "@section Convenience Features and Customization of Buffer Handling"
-msgstr ""
+msgstr "@chapter 複数バッファーの使用"
 
 msgid "@section Creating and Selecting Buffers"
-msgstr ""
-
-msgid "@section Indirect Buffers"
-msgstr ""
-
-msgid "@section Killing Buffers"
-msgstr ""
+msgstr "@section バッファーの作成と選択"
 
 msgid "@section Listing Existing Buffers"
-msgstr ""
+msgstr "@section 既存のバッファーを一覧する"
 
 msgid "@section Miscellaneous Buffer Operations"
-msgstr ""
+msgstr "@section その他のバッファー操作"
+
+msgid "@section Killing Buffers"
+msgstr "@section バッファーのkill"
 
 msgid "@section Operating on Several Buffers"
-msgstr ""
+msgstr "@section 複数バッファーにたいする操作"
 
-msgid "@subsection Customizing Buffer Menus"
-msgstr ""
+msgid "@section Indirect Buffers"
+msgstr "@section インダイレクトバッファー"
 
-msgid "@subsection Fast minibuffer selection"
-msgstr ""
+msgid "@section Convenience Features and Customization of Buffer Handling"
+msgstr "@section バッファー処理の便利な機能とカスタマイズ"
 
 msgid "@subsection Making Buffer Names Unique"
-msgstr ""
+msgstr "@subsection バッファー名を一意にする"
+
+msgid "@subsection Fast minibuffer selection"
+msgstr "@subsection 素早いミニバッファーの選択"
+
+msgid "@subsection Customizing Buffer Menus"
+msgstr "@subsection バッファーメニューのカスタマイズ"
