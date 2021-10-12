@@ -71,7 +71,7 @@ function main () {
 		    case ${COMMAND} in
 			"msginit")
 			    TEXI_NAME=$(basename ${TEXI_FILE});
-			    POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.pot;
+			    POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.po;
 			    PO_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES/${TEXI_NAME}.po;
 			    echo -n "Copying ${POT_FILE} to ${PO_FILE} ... "
 			    [ -d ${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES ] ||
@@ -109,7 +109,7 @@ function main () {
 			    #  with po that contains translated msgstr
 			    #  for existing msgid.
 			    TEXI_NAME=$(basename ${TEXI_FILE});
-			    NEW_POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.pot;
+			    NEW_POT_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/C/LC_MESSAGES/${TEXI_NAME}.po;
 			    OLD_PO_FILE=${GETTEXT_ROOT}/${TEXI_FOLDER}/${LINGUA}/LC_MESSAGES/${TEXI_NAME}.po;
 			    MERGED_PO=$(mktemp);
 
@@ -167,7 +167,7 @@ function generate_gettext_pot () {
     GREP_STRING=${3};
     
     TEXI_NAME=$(basename ${TEXI_FILE});
-    POT_NAME=${TEXI_NAME}.pot;
+    POT_NAME=${TEXI_NAME}.po;
     POT_FILE=${POT_DIRECTORY}/${POT_NAME};
     
     DATE_STRING=$(date '+%Y-%m-%d %H:%M');
