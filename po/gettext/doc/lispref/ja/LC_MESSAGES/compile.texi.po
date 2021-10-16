@@ -1,39 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-16 23:41\n"
-"PO-Revision-Date: 2021-10-16 23:41\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:11+09:00\n"
+"PO-Revision-Date: 2020-07-26 22:38+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Byte Compilation"
-msgstr ""
-
-msgid "@section Byte-Code Function Objects"
-msgstr ""
-
-msgid "@section Byte-Compilation Functions"
-msgstr ""
-
-msgid "@section Compiler Errors"
-msgstr ""
-
-msgid "@section Disassembled Byte-Code"
-msgstr ""
-
-msgid "@section Documentation Strings and Compilation"
-msgstr ""
-
-msgid "@section Dynamic Loading of Individual Functions"
-msgstr ""
-
-msgid "@section Evaluation During Compilation"
-msgstr ""
+msgstr "@chapter バイトコンパイル"
 
 msgid "@section Performance of Byte-Compiled Code"
-msgstr ""
+msgstr "@section バイトコンパイル済みコードのパフォーマンス"
 
+msgid "@section Byte-Compilation Functions"
+msgstr "@section バイトコンパイル関数"
+
+msgid "@section Documentation Strings and Compilation"
+msgstr "@section ドキュメント文字列とコンパイル"
+
+msgid "@section Dynamic Loading of Individual Functions"
+msgstr "@section 個々の関数のダイナミックロード"
+
+msgid "@section Evaluation During Compilation"
+msgstr "@section コンパイル中の評価"
+
+msgid "@section Compiler Errors"
+msgstr "@section コンパイラーのエラー"
+
+msgid "@section Byte-Code Function Objects"
+msgstr "@section バイトコード関数オブジェクト"
+
+msgid "@section Disassembled Byte-Code"
+msgstr "@section 逆アセンブルされたバイトコード"

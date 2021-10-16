@@ -1,45 +1,46 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-16 23:41\n"
-"PO-Revision-Date: 2021-10-16 23:41\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: 2020-08-12 03:53+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Multiple Windows"
-msgstr ""
+msgstr "@chapter 複数ウィンドウ"
 
 msgid "@section Concepts of Emacs Windows"
-msgstr ""
-
-msgid "@section Convenience Features for Window Handling"
-msgstr ""
-
-msgid "@section Deleting and Resizing Windows"
-msgstr ""
-
-msgid "@section Displaying a Buffer in a Window"
-msgstr ""
-
-msgid "@section Displaying in Another Window"
-msgstr ""
+msgstr "@section Emacsウィンドウの概念"
 
 msgid "@section Splitting Windows"
-msgstr ""
+msgstr "@section ウィンドウの分割"
 
 msgid "@section Using Other Windows"
-msgstr ""
+msgstr "@section 他のウィンドウの使用"
 
-msgid "@section Window Tab Line"
-msgstr ""
+msgid "@section Displaying in Another Window"
+msgstr "@section 他のウィンドウでの表示"
 
-msgid "@subsection Displaying non-editable buffers."
-msgstr ""
+msgid "@section Deleting and Resizing Windows"
+msgstr "@section ウィンドウの削除とリサイズ"
+
+msgid "@section Displaying a Buffer in a Window"
+msgstr "@section ウィンドウでのバッファーの表示"
 
 msgid "@subsection How @code{display-buffer} works"
-msgstr ""
+msgstr "@subsection @code{display-buffer}が機能する方法"
 
+msgid "@subsection Displaying non-editable buffers."
+msgstr "@subsection 編集不可バッファーの表示"
+
+msgid "@section Convenience Features for Window Handling"
+msgstr "@section ウィンドウ処理のための便利な機能"
+
+msgid "@section Window Tab Line"
+msgstr "@section ウィンドウのタブライン"

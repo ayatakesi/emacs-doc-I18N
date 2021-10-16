@@ -1,36 +1,37 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Emacs-XX.X\n"
-"POT-Creation-Date: 2021-10-16 23:40\n"
-"PO-Revision-Date: 2021-10-16 23:40\n"
-"Last-Translator: emacs-doc#translator\n"
-"Language-Team: emacs-doc#translators\n"
-"Language: ja\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "@chapter Abbrevs"
-msgstr ""
+msgstr "@chapter abbrev(略語)"
 
 msgid "@section Abbrev Concepts"
-msgstr ""
-
-msgid "@section Controlling Abbrev Expansion"
-msgstr ""
-
-msgid "@section Customizing Dynamic Abbreviation"
-msgstr ""
+msgstr "@section abbrevの概念"
 
 msgid "@section Defining Abbrevs"
-msgstr ""
+msgstr "@section abbrevの定義"
 
-msgid "@section Dynamic Abbrev Expansion"
-msgstr ""
+msgid "@section Controlling Abbrev Expansion"
+msgstr "@section abbrev展開の制御"
 
 msgid "@section Examining and Editing Abbrevs"
-msgstr ""
+msgstr "@section abbrevのテストと編集"
 
 msgid "@section Saving Abbrevs"
-msgstr ""
+msgstr "@section abbrevの保存"
 
+msgid "@section Dynamic Abbrev Expansion"
+msgstr "@section 動的abbrev展開"
+
+msgid "@section Customizing Dynamic Abbreviation"
+msgstr "@section 動的abbrevのカスタマイズ"
