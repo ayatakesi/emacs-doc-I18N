@@ -1,0 +1,4405 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-16 23:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/widget.texi:4 ../../../../../doc/misc/widget.texi:35 ../../../../../doc/misc/widget.texi:44
+#, no-wrap
+msgid "The Emacs Widget Library"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/widget.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/widget.texi:13
+msgid "Copyright @copyright{} 2000--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/widget.texi:21
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/widget.texi:24
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/widget.texi:27
+#, no-wrap
+msgid "Emacs lisp libraries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:31
+msgid "Widget: (widget)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:31
+msgid "The \"widget\" package used by the Emacs Customization facility."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:43
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Introduction::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "User Interface::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Programming Example::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Setting Up the Buffer::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Basic Types::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Sexp Types::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Widget Properties::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Defining New Widgets::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Widget Browser::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Widget Minor Mode::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Utilities::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "Widget Wishlist::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:63
+msgid "GNU Free Documentation License::"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/widget.texi:63 ../../../../../doc/misc/widget.texi:1818 ../../../../../doc/misc/widget.texi:1819
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:65 ../../../../../doc/misc/widget.texi:66
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:74
+msgid ""
+"Most graphical user interface toolkits provide a number of standard user "
+"interface controls (sometimes known as ``widgets'' or ``gadgets'').  Emacs "
+"doesn't really support anything like this, except for an incredibly powerful "
+"text ``widget.'' On the other hand, Emacs does provide the necessary "
+"primitives to implement many other widgets within a text buffer.  The "
+"@code{widget} package simplifies this task."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:75
+#, no-wrap
+msgid "basic widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:76
+#, no-wrap
+msgid "widgets, basic types"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:78
+msgid "The basic widgets are:"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:80 ../../../../../doc/misc/widget.texi:724
+#, no-wrap
+msgid "link"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:83
+msgid ""
+"Areas of text with an associated action.  Intended for hypertext links "
+"embedded in text."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:83 ../../../../../doc/misc/widget.texi:775
+#, no-wrap
+msgid "push-button"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:85
+msgid "Like link, but intended for stand-alone buttons."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:85 ../../../../../doc/misc/widget.texi:799
+#, no-wrap
+msgid "editable-field"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:87
+msgid "An editable text field.  It can be either variable or fixed length."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:87 ../../../../../doc/misc/widget.texi:857
+#, no-wrap
+msgid "menu-choice"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:91
+msgid ""
+"Allows the user to choose one of multiple options from a menu, each option "
+"is itself a widget.  Only the selected option will be visible in the buffer."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:91 ../../../../../doc/misc/widget.texi:897
+#, no-wrap
+msgid "radio-button-choice"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:95
+msgid ""
+"Allows the user to choose one of multiple options by activating radio "
+"buttons.  The options are implemented as widgets.  All options will be "
+"visible in the buffer."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:95 ../../../../../doc/misc/widget.texi:963
+#, no-wrap
+msgid "item"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:98
+msgid ""
+"A simple constant widget intended to be used in the @code{menu-choice} and "
+"@code{radio-button-choice} widgets."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:98 ../../../../../doc/misc/widget.texi:977
+#, no-wrap
+msgid "choice-item"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:101
+msgid ""
+"A button item only intended for use in choices.  When invoked, the user will "
+"be asked to select another option from the choice widget."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:101 ../../../../../doc/misc/widget.texi:993
+#, no-wrap
+msgid "toggle"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:103
+msgid "A simple @samp{on}/@samp{off} switch."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:103 ../../../../../doc/misc/widget.texi:1025
+#, no-wrap
+msgid "checkbox"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:105
+msgid "A checkbox (@samp{[ ]}/@samp{[X]})."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:105 ../../../../../doc/misc/widget.texi:1095
+#, no-wrap
+msgid "editable-list"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:108
+msgid ""
+"Create an editable list.  The user can insert or delete items in the list.  "
+"Each list item is itself a widget."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:118
+msgid ""
+"Now, of what possible use can support for widgets be in a text editor? I'm "
+"glad you asked.  The answer is that widgets are useful for implementing "
+"forms.  A @dfn{form} in Emacs is a buffer where the user is supposed to fill "
+"out a number of fields, each of which has a specific meaning.  The user is "
+"not supposed to change or delete any of the text between the fields.  "
+"Examples of forms in Emacs are the @file{forms} package (of course), the "
+"customize buffers, the mail and news compose modes, and the @acronym{HTML} "
+"form support in the @file{w3} browser."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:119
+#, no-wrap
+msgid "widget library, why use it"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:122
+msgid ""
+"The advantages for a programmer of using the @code{widget} package to "
+"implement forms are:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:126
+msgid "More complex fields than just editable text are supported."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:129
+msgid ""
+"You can give the users immediate feedback if they enter invalid data in a "
+"text field, and sometimes prevent entering invalid data."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:132
+msgid ""
+"You can have fixed sized fields, thus allowing multiple fields to be lined "
+"up in columns."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:134
+msgid "It is simple to query or set the value of a field."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:136
+msgid "Editing happens in the buffer, not in the mini-buffer."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:139
+msgid ""
+"Packages using the library get a uniform look, making them easier for the "
+"user to learn."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:143
+msgid ""
+"As support for embedded graphics improve, the widget library will be "
+"extended to use the GUI features.  This means that your code using the "
+"widget library will also use the new graphic features automatically."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:145 ../../../../../doc/misc/widget.texi:146
+#, no-wrap
+msgid "User Interface"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:153
+msgid ""
+"A form consists of read only text for documentation and some fields, where "
+"each field contains two parts, a tag and a value.  The tags are used to "
+"identify the fields, so the documentation can refer to the @samp{foo field}, "
+"meaning the field tagged with @samp{Foo}. Here is an example form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:156
+#, no-wrap
+msgid ""
+"Here is some documentation.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:161
+#, no-wrap
+msgid ""
+"Name: @i{My Name}     @strong{Choose}: This option\n"
+"Address:  @i{Some Place\n"
+"In some City\n"
+"Some country.}\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:163
+#, no-wrap
+msgid ""
+"See also @b{_other work_} for more information.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:169
+#, no-wrap
+msgid ""
+"Numbers: count to three below\n"
+"@b{[INS]} @b{[DEL]} @i{One}\n"
+"@b{[INS]} @b{[DEL]} @i{Eh, two?}\n"
+"@b{[INS]} @b{[DEL]} @i{Five!}\n"
+"@b{[INS]}\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:171
+#, no-wrap
+msgid ""
+"Select multiple:\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:175
+#, no-wrap
+msgid ""
+"@b{[X]} This\n"
+"@b{[ ]} That\n"
+"@b{[X]} Thus\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:177
+#, no-wrap
+msgid ""
+"Select one:\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:181
+#, no-wrap
+msgid ""
+"@b{(*)} One\n"
+"@b{( )} Another One.\n"
+"@b{( )} A Final One.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:183
+#, no-wrap
+msgid "@b{[Apply Form]} @b{[Reset Form]}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:191
+msgid ""
+"The top level widgets in this example are tagged @samp{Name}, @samp{Choose}, "
+"@samp{Address}, @samp{_other work_}, @samp{Numbers}, @samp{Select multiple}, "
+"@samp{Select one}, @samp{[Apply Form]}, and @samp{[Reset Form]}.  There are "
+"basically two things the user can do within a form, namely editing the "
+"editable text fields and activating the buttons."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:192
+#, no-wrap
+msgid "Editable Text Fields"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:201
+msgid ""
+"In the example, the value for the @samp{Name} is most likely displayed in an "
+"editable text field, and so are values for each of the members of the "
+"@samp{Numbers} list.  All the normal Emacs editing operations are available "
+"for editing these fields.  The only restriction is that each change you make "
+"must be contained within a single editable text field.  For example, "
+"capitalizing all text from the middle of one field to the middle of another "
+"field is prohibited."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:203
+msgid "Editable text fields are created by the @code{editable-field} widget."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:209
+msgid ""
+"@strong{Warning:} In an @code{editable-field} widget, the editable field "
+"must not be adjacent to another widget---that won't work.  You must put some "
+"text in between.  Either make this text part of the @code{editable-field} "
+"widget itself, or insert it with @code{widget-insert}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:217
+msgid ""
+"The @code{:format} keyword is useful for generating the necessary text; for "
+"instance, if you give it a value of @code{\"Name: %v \"}, the @samp{Name: } "
+"part will provide the necessary separating text before the field and the "
+"trailing space will provide the separating text after the field.  If you "
+"don't include the @code{:size} keyword, the field will extend to the end of "
+"the line, and the terminating newline will provide separation after."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:221
+msgid ""
+"@strong{Warning:} In an @code{editable-field} widget, the @samp{%v} escape "
+"must be preceded by some other text in the @code{:format} string (if "
+"specified)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:224
+msgid ""
+"The editing text fields are highlighted with the @code{widget-field-face} "
+"face, making them easy to find."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:225
+#, no-wrap
+msgid "Face widget-field-face"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:227
+msgid "Face used for other editing fields."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:229
+#, no-wrap
+msgid "Buttons"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:231
+#, no-wrap
+msgid "widget buttons"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:232
+#, no-wrap
+msgid "button widgets"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:237
+msgid ""
+"Some portions of the buffer have an associated @dfn{action}, which can be "
+"@dfn{invoked} by a standard key or mouse command.  These portions are called "
+"@dfn{buttons}.  The default commands for activating a button are:"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/widget.texi:239
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:240
+#, no-wrap
+msgid "Command widget-button-press @var{pos} &optional @var{event}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:244
+msgid ""
+"Invoke the button at @var{pos}, defaulting to point.  If point is not "
+"located on a button, invoke the binding in @code{widget-global-map} (by "
+"default the global map)."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/widget.texi:246
+#, no-wrap
+msgid "mouse-2 @r{(on button widgets})"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:247
+#, no-wrap
+msgid "mouse-2"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:248
+#, no-wrap
+msgid "Command widget-button-click @var{event}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:252
+msgid ""
+"Invoke the button at the location of the mouse pointer.  If the mouse "
+"pointer is located in an editable text field, invoke the binding in "
+"@code{widget-global-map} (by default the global map)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:257
+msgid ""
+"There are several different kind of buttons, all of which are present in the "
+"example:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:259
+#, no-wrap
+msgid "option field tag"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:260
+#, no-wrap
+msgid "The Option Field Tags"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:265
+msgid ""
+"When you invoke one of these buttons, you will be asked to choose between a "
+"number of different options.  This is how you edit an option field.  Option "
+"fields are created by the @code{menu-choice} widget.  In the example, "
+"@samp{@b{Choose}} is an option field tag."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:265
+#, no-wrap
+msgid "The @samp{@b{[INS]}} and @samp{@b{[DEL]}} buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:268
+msgid ""
+"Activating these will insert or delete elements from an editable list.  The "
+"list is created by the @code{editable-list} widget."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:268
+#, no-wrap
+msgid "embedded buttons"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:269
+#, no-wrap
+msgid "Embedded Buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:274
+msgid ""
+"The @samp{@b{_other work_}} is an example of an embedded button.  Embedded "
+"buttons are not associated with any fields, but can serve any purpose, such "
+"as implementing hypertext references.  They are usually created by the "
+"@code{link} widget."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:274
+#, no-wrap
+msgid "The @samp{@b{[ ]}} and @samp{@b{[X]}} buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:278
+msgid ""
+"Activating one of these will convert it to the other.  This is useful for "
+"implementing multiple-choice fields.  You can create them with the "
+"@code{checkbox} widget."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:278
+#, no-wrap
+msgid "The @samp{@b{( )}} and @samp{@b{(*)}} buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:283
+msgid ""
+"Only one radio button in a @code{radio-button-choice} widget can be selected "
+"at any time.  When you invoke one of the unselected radio buttons, it will "
+"be selected and the previous selected radio button will become unselected."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:283
+#, no-wrap
+msgid "The @samp{@b{[Apply Form]}} and @samp{@b{[Reset Form]}} buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:287
+msgid ""
+"These are explicit buttons made with the @code{push-button} widget.  The "
+"main difference from the @code{link} widget is that the buttons will be "
+"displayed as GUI buttons when possible."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:290
+msgid "To make them easier to locate, buttons are emphasized in the buffer."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:291
+#, no-wrap
+msgid "Face widget-button-face"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:293
+msgid "Face used for buttons."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:295
+#, no-wrap
+msgid "widget-mouse-face"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:298
+msgid "Face used for highlighting a button when the mouse pointer moves across it."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:300
+#, no-wrap
+msgid "Navigation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:304
+msgid ""
+"You can use all the normal Emacs commands to move around in a form buffer, "
+"plus you will have these additional commands:"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/widget.texi:306
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:307
+#, no-wrap
+msgid "Command widget-forward &optional count"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:309
+msgid "Move point @var{count} buttons or editing fields forward."
+msgstr ""
+
+#. type: kbd{#1}
+#: ../../../../../doc/misc/widget.texi:310
+#, no-wrap
+msgid "M-@key{TAB}"
+msgstr ""
+
+#. type: kbd{#1}
+#: ../../../../../doc/misc/widget.texi:311
+#, no-wrap
+msgid "S-@key{TAB}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:312
+#, no-wrap
+msgid "Command widget-backward &optional count"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:314
+msgid "Move point @var{count} buttons or editing fields backward."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:317 ../../../../../doc/misc/widget.texi:318
+#, no-wrap
+msgid "Programming Example"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:320
+#, no-wrap
+msgid "widgets, programming example"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:321
+#, no-wrap
+msgid "example of using widgets"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:324
+msgid ""
+"Here is the code to implement the user interface example (@pxref{User "
+"Interface})."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:327
+#, no-wrap
+msgid ""
+"(require 'widget)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:330
+#, no-wrap
+msgid ""
+"(eval-when-compile\n"
+"  (require 'wid-edit))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:332
+#, no-wrap
+msgid ""
+"(defvar widget-example-repeat)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:415
+#, no-wrap
+msgid ""
+"(defun widget-example ()\n"
+"  \"Create the widgets from the Widget manual.\"\n"
+"  (interactive)\n"
+"  (switch-to-buffer \"*Widget Example*\")\n"
+"  (kill-all-local-variables)\n"
+"  (make-local-variable 'widget-example-repeat)\n"
+"  (let ((inhibit-read-only t))\n"
+"    (erase-buffer))\n"
+"  (remove-overlays)\n"
+"  (widget-insert \"Here is some documentation.\\n\\n\")\n"
+"  (widget-create 'editable-field\n"
+"                 :size 13\n"
+"                 :format \"Name: %v \" ; Text after the field!\n"
+"                 \"My Name\")\n"
+"  (widget-create 'menu-choice\n"
+"                 :tag \"Choose\"\n"
+"                 :value \"This\"\n"
+"                 :help-echo \"Choose me, please!\"\n"
+"                 :notify (lambda (widget &rest ignore)\n"
+"                           (message \"%s is a good choice!\"\n"
+"                                    (widget-value widget)))\n"
+"                 '(item :tag \"This option\" :value \"This\")\n"
+"                 '(choice-item \"That option\")\n"
+"                 '(editable-field :menu-tag \"No option\" \"Thus "
+"option\"))\n"
+"  (widget-create 'editable-field\n"
+"                 :format \"Address: %v\"\n"
+"                 \"Some Place\\nIn some City\\nSome country.\")\n"
+"  (widget-insert \"\\nSee also \")\n"
+"  (widget-create 'link\n"
+"                 :notify (lambda (&rest ignore)\n"
+"                           (widget-value-set widget-example-repeat\n"
+"                                             '(\"En\" \"To\" \"Tre\"))\n"
+"                           (widget-setup))\n"
+"                 \"other work\")\n"
+"  (widget-insert\n"
+"    \" for more information.\\n\\nNumbers: count to three below\\n\")\n"
+"  (setq widget-example-repeat\n"
+"        (widget-create 'editable-list\n"
+"                       :entry-format \"%i %d %v\"\n"
+"                       :notify\n"
+"                       (lambda (widget &rest ignore)\n"
+"                         (let ((old (widget-get widget\n"
+"                                                ':example-length))\n"
+"                               (new (length (widget-value widget))))\n"
+"                           (unless (eq old new)\n"
+"                             (widget-put widget ':example-length new)\n"
+"                             (message \"You can count to %d.\" new))))\n"
+"                       :value '(\"One\" \"Eh, two?\" \"Five!\")\n"
+"                       '(editable-field :value \"three\")))\n"
+"  (widget-insert \"\\n\\nSelect multiple:\\n\\n\")\n"
+"  (widget-create 'checkbox t)\n"
+"  (widget-insert \" This\\n\")\n"
+"  (widget-create 'checkbox nil)\n"
+"  (widget-insert \" That\\n\")\n"
+"  (widget-create 'checkbox\n"
+"                 :notify (lambda (&rest ignore) (message \"Tickle\"))\n"
+"                 t)\n"
+"  (widget-insert \" Thus\\n\\nSelect one:\\n\\n\")\n"
+"  (widget-create 'radio-button-choice\n"
+"                 :value \"One\"\n"
+"                 :notify (lambda (widget &rest ignore)\n"
+"                           (message \"You selected %s\"\n"
+"                                    (widget-value widget)))\n"
+"                 '(item \"One\") '(item \"Another One.\")\n"
+"                 '(item \"A Final One.\"))\n"
+"  (widget-insert \"\\n\")\n"
+"  (widget-create 'push-button\n"
+"                 :notify (lambda (&rest ignore)\n"
+"                           (if (= (length\n"
+"                                   (widget-value widget-example-repeat))\n"
+"                                  3)\n"
+"                               (message \"Congratulation!\")\n"
+"                             (error \"Three was the count!\")))\n"
+"                 \"Apply Form\")\n"
+"  (widget-insert \" \")\n"
+"  (widget-create 'push-button\n"
+"                 :notify (lambda (&rest ignore)\n"
+"                           (widget-example))\n"
+"                 \"Reset Form\")\n"
+"  (widget-insert \"\\n\")\n"
+"  (use-local-map widget-keymap)\n"
+"  (widget-setup))\n"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:417 ../../../../../doc/misc/widget.texi:418
+#, no-wrap
+msgid "Setting Up the Buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:425
+msgid ""
+"Widgets are created with @code{widget-create}, which returns a @dfn{widget} "
+"object.  This object can be queried and manipulated by other widget "
+"functions, until it is deleted with @code{widget-delete}.  After the widgets "
+"have been created, @code{widget-setup} must be called to enable them."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:426
+#, no-wrap
+msgid "widget-create type [ keyword argument ]@dots{}"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:429
+msgid ""
+"Create and return a widget of type @var{type}.  The syntax for the "
+"@var{type} argument is described in @ref{Basic Types}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:432
+msgid ""
+"The keyword arguments can be used to overwrite the keyword arguments that "
+"are part of @var{type}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:434
+#, no-wrap
+msgid "widget-delete widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:436
+msgid "Delete @var{widget} and remove it from the buffer."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:438
+#, no-wrap
+msgid "widget-setup"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:440
+msgid "Set up a buffer to support widgets."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:443
+msgid ""
+"This should be called after creating all the widgets and before allowing the "
+"user to edit them."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:447
+msgid ""
+"If you want to insert text outside the widgets in the form, the recommended "
+"way to do that is with @code{widget-insert}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:448
+#, no-wrap
+msgid "widget-insert"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:451
+msgid ""
+"Insert the arguments, either strings or characters, at point.  The inserted "
+"text will be read-only."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:454
+msgid "There is a standard widget keymap which you might find useful."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:455
+#, no-wrap
+msgid "widget-button-press"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:456
+#, no-wrap
+msgid "widget-button-click"
+msgstr ""
+
+#. type: defvr
+#: ../../../../../doc/misc/widget.texi:457
+#, no-wrap
+msgid "Const widget-keymap"
+msgstr ""
+
+#. type: defvr
+#: ../../../../../doc/misc/widget.texi:462
+msgid ""
+"@key{TAB} and @kbd{C-@key{TAB}} are bound to @code{widget-forward} and "
+"@code{widget-backward}, respectively.  @key{RET} and @kbd{mouse-2} are bound "
+"to @code{widget-button-press} and @code{widget-button-click}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/widget.texi:464
+#, no-wrap
+msgid "widget-global-map"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/widget.texi:467
+msgid ""
+"Keymap used by @code{widget-button-press} and @code{widget-button-click} "
+"when not on a button.  By default this is @code{global-map}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:469 ../../../../../doc/misc/widget.texi:470
+#, no-wrap
+msgid "Basic Types"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:473
+msgid "This is the general syntax of a type specification:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:477
+#, no-wrap
+msgid ""
+"@var{name} ::= (@var{name} [@var{keyword} @var{argument}]... @var{args})\n"
+"     |   @var{name}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:482
+msgid ""
+"Where, @var{name} is a widget name, @var{keyword} is the name of a property, "
+"@var{argument} is the value of the property, and @var{args} are interpreted "
+"in a widget specific way."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:483
+#, no-wrap
+msgid "keyword arguments"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:485
+msgid "The following keyword arguments apply to all widgets:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:487
+#, no-wrap
+msgid "internal format"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:488
+#, no-wrap
+msgid "external format"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:489
+#, no-wrap
+msgid "value@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:490
+#, no-wrap
+msgid ":value"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:496
+msgid ""
+"The initial value for widgets of this type.  Typically, a widget represents "
+"its value in two formats: external and internal.  The external format is the "
+"value as the rest of Emacs sees it, and the internal format is a "
+"representation that the widget defines and uses in a widget specific way."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:502
+msgid ""
+"Both formats might be the same for certain widgets and might differ for "
+"others, and there is no guarantee about which format the value stored in the "
+"@code{:value} property has.  However, when creating a widget or defining a "
+"new one (@pxref{Defining New Widgets}), the @code{:value} should be in the "
+"external format."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:503
+#, no-wrap
+msgid "format@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:504
+#, no-wrap
+msgid ":format"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:507
+msgid ""
+"This string will be inserted in the buffer when you create a widget.  The "
+"following @samp{%} escapes are available:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:509
+#, no-wrap
+msgid "%["
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/widget.texi:510
+#, no-wrap
+msgid "%]"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:512
+msgid "The text inside will be marked as a button."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:515
+msgid ""
+"By default, the text will be shown in @code{widget-button-face}, and "
+"surrounded by brackets."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:516
+#, no-wrap
+msgid "widget-button-prefix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:518
+msgid "String to prefix buttons."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:520
+#, no-wrap
+msgid "widget-button-suffix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:522
+msgid "String to suffix buttons."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:524
+#, no-wrap
+msgid "%@{"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/widget.texi:525
+#, no-wrap
+msgid "%@}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:528
+msgid ""
+"The text inside will be displayed with the face specified by "
+"@code{:sample-face}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:529 ../../../../../doc/misc/widget.texi:920 ../../../../../doc/misc/widget.texi:1061 ../../../../../doc/misc/widget.texi:1116
+#, no-wrap
+msgid "%v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:532
+msgid ""
+"This will be replaced with the buffer representation of the widget's value.  "
+"What this is depends on the widget type."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:535
+msgid ""
+"@strong{Warning:} In an @code{editable-field} widget, the @samp{%v} escape "
+"must be preceded by some other text in the format string (if specified)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:536 ../../../../../doc/misc/widget.texi:1121
+#, no-wrap
+msgid "%d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:538
+msgid "Insert the string specified by @code{:doc} here."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:539
+#, no-wrap
+msgid "%h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:547
+msgid ""
+"Like @samp{%d}, with the following modifications: If the documentation "
+"string is more than one line, it will add a button which will toggle between "
+"showing only the first line, and showing the full text.  Furthermore, if "
+"there is no @code{:doc} property in the widget, it will instead examine the "
+"@code{:documentation-property} property.  If it is a lambda expression, it "
+"will be called with the widget's value as an argument, and the result will "
+"be used as the documentation text."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:548
+#, no-wrap
+msgid "%t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:551
+msgid ""
+"Insert the string specified by @code{:tag} here, or the @code{princ} "
+"representation of the value if there is no tag."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:552 ../../../../../doc/misc/widget.texi:924 ../../../../../doc/misc/widget.texi:1065 ../../../../../doc/misc/widget.texi:1123
+#, no-wrap
+msgid "%%"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:554 ../../../../../doc/misc/widget.texi:926 ../../../../../doc/misc/widget.texi:1067 ../../../../../doc/misc/widget.texi:1125
+msgid "Insert a literal @samp{%}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:556
+#, no-wrap
+msgid "button-face@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:557
+#, no-wrap
+msgid ":button-face"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:559
+msgid "Face used to highlight text inside %[ %] in the format."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:560
+#, no-wrap
+msgid "button-prefix@r{ keyword}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:561
+#, no-wrap
+msgid "button-suffix@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:562
+#, no-wrap
+msgid ":button-prefix"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/widget.texi:563
+#, no-wrap
+msgid ":button-suffix"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:565
+msgid "Text around %[ %] in the format."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:567
+msgid "These can be"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:568
+#, no-wrap
+msgid "nil"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:570
+msgid "No text is inserted."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:571
+#, no-wrap
+msgid "a string"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:573
+msgid "The string is inserted literally."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:574
+#, no-wrap
+msgid "a symbol"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:576
+msgid "The value of the symbol is expanded according to this table."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:578
+#, no-wrap
+msgid "doc@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:579
+#, no-wrap
+msgid ":doc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:582
+msgid "The string inserted by the @samp{%d} escape in the format string."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:583
+#, no-wrap
+msgid "tag@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:584
+#, no-wrap
+msgid ":tag"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:587
+msgid "The string inserted by the @samp{%t} escape in the format string."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:588
+#, no-wrap
+msgid "tag-glyph@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:589
+#, no-wrap
+msgid ":tag-glyph"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:592
+msgid ""
+"Name of image to use instead of the string specified by @code{:tag} on "
+"Emacsen that supports it."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:593
+#, no-wrap
+msgid "help-echo@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:594
+#, no-wrap
+msgid ":help-echo"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:601
+msgid ""
+"Specifies how to display a message whenever you move to the widget with "
+"either @code{widget-forward} or @code{widget-backward} or move the mouse "
+"over it (using the standard @code{help-echo} mechanism).  The argument is "
+"either a string to display, a function of one argument, the widget, which "
+"should return a string to display, or a form that evaluates to such a "
+"string."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:602
+#, no-wrap
+msgid "follow-link@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:603
+#, no-wrap
+msgid ":follow-link"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:606
+msgid ""
+"Specifies how to interpret a @key{mouse-1} click on the widget.  "
+"@xref{Clickable Text,, Defining Clickable Text, elisp, the Emacs Lisp "
+"Reference Manual}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:607
+#, no-wrap
+msgid "indent@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:608
+#, no-wrap
+msgid ":indent"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:611
+msgid ""
+"An integer indicating the absolute number of spaces to indent children of "
+"this widget."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:612
+#, no-wrap
+msgid "offset@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:613
+#, no-wrap
+msgid ":offset"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:616
+msgid ""
+"An integer indicating how many extra spaces to add to the widget's "
+"grandchildren compared to this widget."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:617
+#, no-wrap
+msgid "extra-offset@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:618
+#, no-wrap
+msgid ":extra-offset"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:621
+msgid ""
+"An integer indicating how many extra spaces to add to the widget's children "
+"compared to this widget."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:622
+#, no-wrap
+msgid "notify@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:623
+#, no-wrap
+msgid ":notify"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:629
+msgid ""
+"A function called each time the widget or a nested widget is changed.  The "
+"function is called with two or three arguments.  The first argument is the "
+"widget itself, the second argument is the widget that was changed, and the "
+"third argument is the event leading to the change, if any."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:630
+#, no-wrap
+msgid "menu-tag@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:631
+#, no-wrap
+msgid ":menu-tag"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:634
+msgid ""
+"Tag used in the menu when the widget is used as an option in a "
+"@code{menu-choice} widget."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:635
+#, no-wrap
+msgid "menu-tag-get@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:636
+#, no-wrap
+msgid ":menu-tag-get"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:641
+msgid ""
+"Function used for finding the tag when the widget is used as an option in a "
+"@code{menu-choice} widget.  By default, the tag used will be either the "
+"@code{:menu-tag} or @code{:tag} property if present, or the @code{princ} "
+"representation of the @code{:value} property if not."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:642
+#, no-wrap
+msgid "match@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:643
+#, no-wrap
+msgid ":match"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:647
+msgid ""
+"Should be a function called with two arguments, the widget and an external "
+"value, and should return non-@code{nil} if the widget can represent the "
+"specified value."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:648
+#, no-wrap
+msgid "validate@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:649
+#, no-wrap
+msgid ":validate"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:654
+msgid ""
+"A function which takes a widget as an argument, and returns @code{nil} if "
+"the widget's current value is valid for the widget.  Otherwise it should "
+"return the widget containing the invalid data, and set that widget's "
+"@code{:error} property to a string explaining the error."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:656
+msgid "The following predefined function can be used:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:657
+#, no-wrap
+msgid "widget-children-validate widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:659
+msgid "All the @code{:children} of @var{widget} must be valid."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:661
+#, no-wrap
+msgid "tab-order@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:662
+#, no-wrap
+msgid ":tab-order"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:666
+msgid ""
+"Specify the order in which widgets are traversed with @code{widget-forward} "
+"or @code{widget-backward}.  This is only partially implemented."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:670
+msgid "Widgets with tabbing order @code{-1} are ignored."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:675
+msgid ""
+"(Unimplemented) When on a widget with tabbing order @var{n}, go to the next "
+"widget in the buffer with tabbing order @var{n+1} or @code{nil}, whichever "
+"comes first."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/widget.texi:679
+msgid ""
+"When on a widget with no tabbing order specified, go to the next widget in "
+"the buffer with a positive tabbing order, or @code{nil}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:681
+#, no-wrap
+msgid "parent@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:682
+#, no-wrap
+msgid ":parent"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:685
+msgid ""
+"The parent of a nested widget (e.g., a @code{menu-choice} item or an element "
+"of a @code{editable-list} widget)."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:686
+#, no-wrap
+msgid "sibling-args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:687
+#, no-wrap
+msgid ":sibling-args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:692
+msgid ""
+"This keyword is only used for members of a @code{radio-button-choice} or "
+"@code{checklist}.  The value should be a list of extra keyword arguments, "
+"which will be used when creating the @code{radio-button} or @code{checkbox} "
+"associated with this item."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:695
+#, no-wrap
+msgid "{User Option} widget-image-directory"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:699
+msgid ""
+"Directory where Widget should look for images.  Widget will look here for a "
+"file with the same name as specified for the image, with either a "
+"@file{.xpm} (if supported) or @file{.xbm} extension."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:703
+msgid ""
+"@deffn{User Option} widget-image-enable If non-@code{nil}, allow images to "
+"appear on displays where they are supported."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "link::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "url-link::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "info-link::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "push-button::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "editable-field::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "text::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "menu-choice::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "radio-button-choice::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "item::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "choice-item::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "toggle::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "checkbox::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "checklist::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:722
+msgid "editable-list::"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:722 ../../../../../doc/misc/widget.texi:1152
+#, no-wrap
+msgid "group"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:725
+#, no-wrap
+msgid "The @code{link} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:726
+#, no-wrap
+msgid "link@r{ widget}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:729 ../../../../../doc/misc/widget.texi:753 ../../../../../doc/misc/widget.texi:767 ../../../../../doc/misc/widget.texi:780 ../../../../../doc/misc/widget.texi:804 ../../../../../doc/misc/widget.texi:862 ../../../../../doc/misc/widget.texi:902 ../../../../../doc/misc/widget.texi:968 ../../../../../doc/misc/widget.texi:982 ../../../../../doc/misc/widget.texi:998 ../../../../../doc/misc/widget.texi:1033 ../../../../../doc/misc/widget.texi:1043 ../../../../../doc/misc/widget.texi:1100 ../../../../../doc/misc/widget.texi:1159
+msgid "Syntax:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:732
+#, no-wrap
+msgid "@var{type} ::= (link [@var{keyword} @var{argument}]...  [ @var{value} ])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:737 ../../../../../doc/misc/widget.texi:788
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property.  The value should be a string, which will be inserted in the "
+"buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:739
+msgid "By default the link will be shown in brackets."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:740
+#, no-wrap
+msgid "widget-link-prefix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:742
+msgid "String to prefix links."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:744
+#, no-wrap
+msgid "widget-link-suffix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:746
+msgid "String to suffix links."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:748
+#, no-wrap
+msgid "url-link"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:749
+#, no-wrap
+msgid "The @code{url-link} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:750
+#, no-wrap
+msgid "url-link@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:756
+#, no-wrap
+msgid "@var{type} ::= (url-link [@var{keyword} @var{argument}]...  @var{url})\n"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:758
+#, no-wrap
+msgid "browse-url-browser-function@r{, and @code{url-link} widget}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:761
+msgid ""
+"When this link is invoked, the @acronym{WWW} browser specified by "
+"@code{browse-url-browser-function} will be called with @var{url}."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:762
+#, no-wrap
+msgid "info-link"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:763
+#, no-wrap
+msgid "The @code{info-link} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:764
+#, no-wrap
+msgid "info-link@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:770
+#, no-wrap
+msgid ""
+"@var{type} ::= (info-link [@var{keyword} @var{argument}]...  "
+"@var{address})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:774
+msgid ""
+"When this link is invoked, the built-in Info reader is started on "
+"@var{address}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:776
+#, no-wrap
+msgid "The @code{push-button} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:777
+#, no-wrap
+msgid "push-button@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:783
+#, no-wrap
+msgid ""
+"@var{type} ::= (push-button [@var{keyword} @var{argument}]...  [ @var{value} "
+"])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:790
+msgid "By default the tag will be shown in brackets."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:791
+#, no-wrap
+msgid "widget-push-button-prefix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:793
+msgid "String to prefix push buttons."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:795
+#, no-wrap
+msgid "widget-push-button-suffix"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/widget.texi:797
+msgid "String to suffix push buttons."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:800
+#, no-wrap
+msgid "The @code{editable-field} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:801
+#, no-wrap
+msgid "editable-field@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:807
+#, no-wrap
+msgid ""
+"@var{type} ::= (editable-field [@var{keyword} @var{argument}]... [ "
+"@var{value} ])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:812
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property.  The value should be a string, which will be inserted in the "
+"field.  This widget will match all string values."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:814 ../../../../../doc/misc/widget.texi:1007 ../../../../../doc/misc/widget.texi:1054 ../../../../../doc/misc/widget.texi:1109
+msgid "The following extra properties are recognized:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:816
+#, no-wrap
+msgid "size@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:817
+#, no-wrap
+msgid ":size"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:820
+msgid ""
+"The width of the editable field.@* By default the field will reach to the "
+"end of the line."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:821
+#, no-wrap
+msgid "value-face@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:822
+#, no-wrap
+msgid ":value-face"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:825
+msgid ""
+"Face used for highlighting the editable field.  Default is "
+"@code{widget-field-face}, see @ref{User Interface}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:826
+#, no-wrap
+msgid "secret@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:827
+#, no-wrap
+msgid ":secret"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:831
+msgid ""
+"Character used to display the value.  You can set this to, e.g., @code{?*} "
+"if the field contains a password or other secret information.  By default, "
+"this is @code{nil}, and the value is not secret."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:832
+#, no-wrap
+msgid "valid-regexp@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:833
+#, no-wrap
+msgid ":valid-regexp"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:837
+msgid ""
+"By default the @code{:validate} function will match the content of the field "
+"with the value of this attribute.  The default value is @code{\"\"} which "
+"matches everything."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:838
+#, no-wrap
+msgid "keymap@r{ keyword}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:839
+#, no-wrap
+msgid "widget-field-keymap"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:840
+#, no-wrap
+msgid ":keymap"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:846
+msgid ""
+"Keymap used in the editable field.  The default value is "
+"@code{widget-field-keymap}, which allows you to use all the normal editing "
+"commands, even if the buffer's major mode suppresses some of them.  Pressing "
+"@key{RET} invokes the function specified by @code{:action}."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:848
+#, no-wrap
+msgid "text"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:849
+#, no-wrap
+msgid "The @code{text} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:850
+#, no-wrap
+msgid "text@r{ widget}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:852
+#, no-wrap
+msgid "widget-text-keymap"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:856
+msgid ""
+"This is just like @code{editable-field}, but intended for multiline text "
+"fields.  The default @code{:keymap} is @code{widget-text-keymap}, which does "
+"not rebind the @key{RET} key."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:858
+#, no-wrap
+msgid "The @code{menu-choice} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:859
+#, no-wrap
+msgid "menu-choice@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:865
+#, no-wrap
+msgid ""
+"@var{type} ::= (menu-choice [@var{keyword} @var{argument}]... @var{type} "
+"... )\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:871
+msgid ""
+"The @var{type} argument represents each possible choice.  The widget's value "
+"will be that of the chosen @var{type} argument.  This widget will match any "
+"value matching at least one of the specified @var{type} arguments."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:873
+#, no-wrap
+msgid "void@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:874
+#, no-wrap
+msgid ":void"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:877
+msgid ""
+"Widget type used as a fallback when the value does not match any of the "
+"specified @var{type} arguments."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:878
+#, no-wrap
+msgid "case-fold@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:879
+#, no-wrap
+msgid ":case-fold"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:882
+msgid ""
+"Set this to @code{nil} if you don't want to ignore case when prompting for a "
+"choice through the minibuffer."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:883 ../../../../../doc/misc/widget.texi:937 ../../../../../doc/misc/widget.texi:1086 ../../../../../doc/misc/widget.texi:1143
+#, no-wrap
+msgid "children@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:884 ../../../../../doc/misc/widget.texi:938 ../../../../../doc/misc/widget.texi:1087 ../../../../../doc/misc/widget.texi:1144
+#, no-wrap
+msgid ":children"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:887
+msgid ""
+"A list whose @sc{car} is the widget representing the currently chosen type "
+"in the buffer."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:888 ../../../../../doc/misc/widget.texi:941
+#, no-wrap
+msgid "choice@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:889 ../../../../../doc/misc/widget.texi:942
+#, no-wrap
+msgid ":choice"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:891
+msgid "The current chosen type."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:892 ../../../../../doc/misc/widget.texi:945 ../../../../../doc/misc/widget.texi:1090 ../../../../../doc/misc/widget.texi:1147
+#, no-wrap
+msgid "args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:893 ../../../../../doc/misc/widget.texi:946 ../../../../../doc/misc/widget.texi:1091 ../../../../../doc/misc/widget.texi:1148
+#, no-wrap
+msgid ":args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:895 ../../../../../doc/misc/widget.texi:948 ../../../../../doc/misc/widget.texi:1093
+msgid "The list of types."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:898
+#, no-wrap
+msgid "The @code{radio-button-choice} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:899
+#, no-wrap
+msgid "radio-button-choice@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:905
+#, no-wrap
+msgid ""
+"@var{type} ::= (radio-button-choice [@var{keyword} @var{argument}]...  "
+"@var{type} ... )\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:911
+msgid ""
+"The component types specify the choices, with one radio button for each.  "
+"The widget's value will be that of the chosen @var{type} argument.  This "
+"widget matches any value that matches at least one of the specified "
+"@var{type} arguments."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:913
+msgid "The following extra properties are recognized."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:915 ../../../../../doc/misc/widget.texi:1056 ../../../../../doc/misc/widget.texi:1111
+#, no-wrap
+msgid "entry-format@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:916 ../../../../../doc/misc/widget.texi:1057 ../../../../../doc/misc/widget.texi:1112
+#, no-wrap
+msgid ":entry-format"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:919 ../../../../../doc/misc/widget.texi:1060 ../../../../../doc/misc/widget.texi:1115
+msgid ""
+"This string will be inserted for each entry in the list.  The following "
+"@samp{%} escapes are available:"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:922
+msgid "Replace with the buffer representation of the @var{type} widget."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:922 ../../../../../doc/misc/widget.texi:1063
+#, no-wrap
+msgid "%b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:924
+msgid "Replace with the radio button."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:928 ../../../../../doc/misc/widget.texi:1077
+#, no-wrap
+msgid "button-args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:929 ../../../../../doc/misc/widget.texi:1078
+#, no-wrap
+msgid ":button-args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:932
+msgid ""
+"A list of keywords to pass to the radio buttons.  Useful for setting, e.g., "
+"the @samp{:help-echo} for each button."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:933 ../../../../../doc/misc/widget.texi:1082 ../../../../../doc/misc/widget.texi:1139
+#, no-wrap
+msgid "buttons@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:934 ../../../../../doc/misc/widget.texi:1083 ../../../../../doc/misc/widget.texi:1140
+#, no-wrap
+msgid ":buttons"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:936
+msgid "The widgets representing the radio buttons."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:940 ../../../../../doc/misc/widget.texi:1089
+msgid "The widgets representing each type."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:944
+msgid "The current chosen type"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:953
+msgid ""
+"You can add extra radio button items to a @code{radio-button-choice} widget "
+"after it has been created with the function @code{widget-radio-add-item}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:954
+#, no-wrap
+msgid "widget-radio-add-item widget type"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:957
+msgid ""
+"Add to @code{radio-button-choice} widget @var{widget} a new radio button "
+"item of type @var{type}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:962
+msgid ""
+"Please note that such items added after the @code{radio-button-choice} "
+"widget has been created will @strong{not} be properly destructed when you "
+"call @code{widget-delete}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:964
+#, no-wrap
+msgid "The @code{item} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:965
+#, no-wrap
+msgid "item@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:971
+#, no-wrap
+msgid "@var{item} ::= (item [@var{keyword} @var{argument}]... @var{value})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:976
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property.  The value should be a string, which will be inserted in the "
+"buffer.  This widget will only match the specified value."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:978
+#, no-wrap
+msgid "The @code{choice-item} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:979
+#, no-wrap
+msgid "choice-item@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:985
+#, no-wrap
+msgid "@var{item} ::= (choice-item [@var{keyword} @var{argument}]... @var{value})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:992
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property.  The value should be a string, which will be inserted in the "
+"buffer as a button.  Activating the button of a @code{choice-item} is "
+"equivalent to activating the parent widget.  This widget will only match the "
+"specified value."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:994
+#, no-wrap
+msgid "The @code{toggle} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:995
+#, no-wrap
+msgid "toggle@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1001
+#, no-wrap
+msgid "@var{type} ::= (toggle [@var{keyword} @var{argument}]...)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1005
+msgid ""
+"The widget has two possible states, @samp{on} and @samp{off}, which "
+"correspond to a @code{t} or @code{nil} value, respectively."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1009
+#, no-wrap
+msgid ":on"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1012
+msgid "A string representing the @samp{on} state.  By default the string @samp{on}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1012
+#, no-wrap
+msgid ":off"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1015
+msgid ""
+"A string representing the @samp{off} state.  By default the string "
+"@samp{off}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1015
+#, no-wrap
+msgid "on-glyph@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1016
+#, no-wrap
+msgid ":on-glyph"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1019
+msgid ""
+"Name of a glyph to be used instead of the @samp{:on} text string, on emacsen "
+"that supports this."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1019
+#, no-wrap
+msgid "off-glyph@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1020
+#, no-wrap
+msgid ":off-glyph"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1023
+msgid ""
+"Name of a glyph to be used instead of the @samp{:off} text string, on "
+"emacsen that supports this."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1026
+#, no-wrap
+msgid "The @code{checkbox} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:1027
+#, no-wrap
+msgid "checkbox@r{ widget}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1031
+msgid ""
+"This widget has two possible states, @samp{selected} and @samp{unselected}, "
+"which corresponds to a @code{t} or @code{nil} value."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1036
+#, no-wrap
+msgid "@var{type} ::= (checkbox [@var{keyword} @var{argument}]...)\n"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1038
+#, no-wrap
+msgid "checklist"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1039
+#, no-wrap
+msgid "The @code{checklist} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:1040
+#, no-wrap
+msgid "checklist@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1046
+#, no-wrap
+msgid ""
+"@var{type} ::= (checklist [@var{keyword} @var{argument}]...  @var{type} "
+"... )\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1052
+msgid ""
+"The @var{type} arguments represent each checklist item.  The widget's value "
+"will be a list containing the values of all checked @var{type} arguments.  "
+"The checklist widget will match a list whose elements all match at least one "
+"of the specified @var{type} arguments."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1063
+msgid "Replaced with the buffer representation of the @var{type} widget."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1065
+msgid "Replace with the checkbox."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1069
+#, no-wrap
+msgid "greedy@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1070
+#, no-wrap
+msgid ":greedy"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1076
+msgid ""
+"Usually a checklist will only match if the items are in the exact sequence "
+"given in the specification.  By setting @code{:greedy} to non-@code{nil}, it "
+"will allow the items to come in any sequence.  However, if you extract the "
+"value they will be in the sequence given in the checklist, i.e., the "
+"original sequence is forgotten."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1081
+msgid ""
+"A list of keywords to pass to the checkboxes.  Useful for setting, e.g., the "
+"@samp{:help-echo} for each checkbox."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1085
+msgid "The widgets representing the checkboxes."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1096
+#, no-wrap
+msgid "The @code{editable-list} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:1097
+#, no-wrap
+msgid "editable-list@r{ widget}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1103
+#, no-wrap
+msgid ""
+"@var{type} ::= (editable-list [@var{keyword} "
+"@var{argument}]... @var{type})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1107
+msgid ""
+"The value is a list, where each member represents one widget of type "
+"@var{type}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1119
+msgid ""
+"This will be replaced with the buffer representation of the @var{type} "
+"widget."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1119
+#, no-wrap
+msgid "%i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1121
+msgid "Insert the @b{[INS]} button."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1123
+msgid "Insert the @b{[DEL]} button."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1127
+#, no-wrap
+msgid "insert-button-args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1128
+#, no-wrap
+msgid ":insert-button-args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1130
+msgid "A list of keyword arguments to pass to the insert buttons."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1131
+#, no-wrap
+msgid "delete-button-args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1132
+#, no-wrap
+msgid ":delete-button-args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1134
+msgid "A list of keyword arguments to pass to the delete buttons."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1135
+#, no-wrap
+msgid "append-button-args@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1136
+#, no-wrap
+msgid ":append-button-args"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1138
+msgid "A list of keyword arguments to pass to the trailing insert button."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1142
+msgid "The widgets representing the insert and delete buttons."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1146
+msgid "The widgets representing the elements of the list."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1150
+msgid "List whose @sc{car} is the type of the list elements."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1153
+#, no-wrap
+msgid "The @code{group} Widget"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:1154
+#, no-wrap
+msgid "group@r{ widget}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1157
+msgid "This widget simply group other widgets together."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1162
+#, no-wrap
+msgid "@var{type} ::= (group [@var{keyword} @var{argument}]... @var{type}...)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1165
+msgid "The value is a list, with one member for each @var{type}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1166 ../../../../../doc/misc/widget.texi:1167
+#, no-wrap
+msgid "Sexp Types"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1168
+#, no-wrap
+msgid "sexp types"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1173
+msgid ""
+"A number of widgets for editing @dfn{s-expressions} (Lisp types), sexp for "
+"short, are also available.  These basically fall in several categories "
+"described in this section."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:1179
+msgid "constants::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:1179
+msgid "generic::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/widget.texi:1179
+msgid "atoms::"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1179 ../../../../../doc/misc/widget.texi:1315
+#, no-wrap
+msgid "composite"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1181
+#, no-wrap
+msgid "constants"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1182
+#, no-wrap
+msgid "The Constant Widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1183
+#, no-wrap
+msgid "constant widgets"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1188
+msgid ""
+"The @code{const} widget can contain any Lisp expression, but the user is "
+"prohibited from editing it, which is mainly useful as a component of one of "
+"the composite widgets."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1190
+msgid "The syntax for the @code{const} widget is:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1193
+#, no-wrap
+msgid "@var{type} ::= (const [@var{keyword} @var{argument}]...  [ @var{value} ])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1197
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property and can be any s-expression."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1198
+#, no-wrap
+msgid "Widget const"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1201
+msgid "This will display any valid s-expression in an immutable part of the buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1208
+msgid ""
+"There are two variations of the @code{const} widget, namely "
+"@code{variable-item} and @code{function-item}.  These should contain a "
+"symbol with a variable or function binding.  The major difference from the "
+"@code{const} widget is that they will allow the user to see the variable or "
+"function documentation for the symbol."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1209
+#, no-wrap
+msgid "Widget variable-item"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1211
+msgid "An immutable symbol that is bound as a variable."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1213
+#, no-wrap
+msgid "Widget function-item"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1215
+msgid "An immutable symbol that is bound as a function."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1217
+#, no-wrap
+msgid "generic"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1218
+#, no-wrap
+msgid "Generic Sexp Widget"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1219
+#, no-wrap
+msgid "generic sexp widget"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1223
+msgid ""
+"The @code{sexp} widget can contain any Lisp expression, and allows the user "
+"to edit it inline in the buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1225
+msgid "The syntax for the @code{sexp} widget is:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1228
+#, no-wrap
+msgid "@var{type} ::= (sexp [@var{keyword} @var{argument}]...  [ @var{value} ])\n"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1230
+#, no-wrap
+msgid "Widget sexp"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1233
+msgid ""
+"This will allow you to edit any valid s-expression in an editable buffer "
+"field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1236
+msgid ""
+"The @code{sexp} widget takes the same keyword arguments as the "
+"@code{editable-field} widget.  @xref{editable-field}."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1238
+#, no-wrap
+msgid "atoms"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1239
+#, no-wrap
+msgid "Atomic Sexp Widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1240
+#, no-wrap
+msgid "atomic sexp widget"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1246
+msgid ""
+"The atoms are s-expressions that do not consist of other s-expressions.  For "
+"example, a string, a file name, or a symbol are atoms, while a list is a "
+"composite type.  You can edit the value of an atom with the following "
+"widgets."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1248
+msgid "The syntax for all the atoms are:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1251
+#, no-wrap
+msgid ""
+"@var{type} ::= (@var{construct} [@var{keyword} @var{argument}]...  [ "
+"@var{value} ])\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1256
+msgid ""
+"The @var{value}, if present, is used to initialize the @code{:value} "
+"property and must be an expression of the same type as the widget.  That is, "
+"the string widget can only be initialized with a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1259
+msgid ""
+"All the atom widgets take the same keyword arguments as the "
+"@code{editable-field} widget.  @xref{editable-field}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1260
+#, no-wrap
+msgid "Widget string"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1262
+msgid "Allows you to edit a string in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1264
+#, no-wrap
+msgid "Widget regexp"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1266
+msgid "Allows you to edit a regular expression in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1268
+#, no-wrap
+msgid "Widget character"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1270
+msgid "Allows you to enter a character in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1272
+#, no-wrap
+msgid "Widget file"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1274
+msgid "Allows you to edit a file name in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1276
+msgid "Keywords:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1277
+#, no-wrap
+msgid "must-match@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1278
+#, no-wrap
+msgid ":must-match"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1281
+msgid ""
+"If this is set to non-@code{nil}, only existing file names will be allowed "
+"in the minibuffer."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1284
+#, no-wrap
+msgid "Widget directory"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1287
+msgid ""
+"Allows you to edit a directory name in an editable field.  Similar to the "
+"@code{file} widget."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1289
+#, no-wrap
+msgid "Widget symbol"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1291
+msgid "Allows you to edit a Lisp symbol in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1293
+#, no-wrap
+msgid "Widget function"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1295
+msgid "Allows you to edit a lambda expression, or a function name with completion."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1297
+#, no-wrap
+msgid "Widget variable"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1299
+msgid "Allows you to edit a variable name, with completion."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1301
+#, no-wrap
+msgid "Widget integer"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1303
+msgid "Allows you to edit an integer in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1305
+#, no-wrap
+msgid "Widget number"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1307
+msgid "Allows you to edit a number in an editable field."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1309
+#, no-wrap
+msgid "Widget boolean"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1312
+msgid ""
+"Allows you to edit a boolean.  In Lisp this means a variable which is either "
+"@code{nil} meaning false, or non-@code{nil} meaning true."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/widget.texi:1316
+#, no-wrap
+msgid "Composite Sexp Widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1317
+#, no-wrap
+msgid "composite sexp widgets"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1320
+msgid "The syntax for the composite widget construct is:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1323
+#, no-wrap
+msgid ""
+"@var{type} ::= (@var{construct} [@var{keyword} @var{argument}]...  "
+"@var{component}...)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1328
+msgid ""
+"where each @var{component} must be a widget type.  Each component widget "
+"will be displayed in the buffer, and will be editable by the user."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1329
+#, no-wrap
+msgid "Widget cons"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1332
+msgid ""
+"The value of a @code{cons} widget must be a cons-cell whose @sc{car} and "
+"@sc{cdr} have two specified types.  It uses this syntax:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1335
+#, no-wrap
+msgid ""
+"@var{type} ::= (cons [@var{keyword} @var{argument}]...  @var{car-type} "
+"@var{cdr-type})\n"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1338
+#, no-wrap
+msgid "Widget choice"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1341
+msgid ""
+"The value matched by a @code{choice} widget must have one of a fixed set of "
+"types.  The widget's syntax is as follows:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1344
+#, no-wrap
+msgid "@var{type} ::= (choice [@var{keyword} @var{argument}]...  @var{type} ... )\n"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1348
+msgid ""
+"The value of a @code{choice} widget can be anything that matches any of the "
+"@var{types}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1350
+#, no-wrap
+msgid "Widget list"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1353
+msgid ""
+"The value of a @code{list} widget must be a list whose element types match "
+"the specified component types:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1356
+#, no-wrap
+msgid ""
+"@var{type} ::= (list [@var{keyword} @var{argument}]...  "
+"@var{component-type}...)\n"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1360
+msgid ""
+"Thus, @code{(list string number)} matches lists of two elements, the first "
+"being a string and the second being a number."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1362
+#, no-wrap
+msgid "Widget vector"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1367
+msgid ""
+"The @code{vector} widget is like the @code{list} widget but matches vectors "
+"instead of lists.  Thus, @code{(vector string number)} matches vectors of "
+"two elements, the first being a string and the second being a number."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1378
+msgid ""
+"The above suffice for specifying fixed size lists and vectors.  To get "
+"variable length lists and vectors, you can use a @code{choice}, @code{set}, "
+"or @code{repeat} widget together with the @code{:inline} keyword.  If any "
+"component of a composite widget has the @code{:inline} keyword set, its "
+"value must be a list which will then be spliced into the composite.  For "
+"example, to specify a list whose first element must be a file name, and "
+"whose remaining elements should either be the symbol @code{t} or two strings "
+"(file names), you can use the following widget specification:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1385
+#, no-wrap
+msgid ""
+"(list file\n"
+"      (choice (const t)\n"
+"              (list :inline t\n"
+"                    :value (\"foo\" \"bar\")\n"
+"                    string string)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1389
+msgid ""
+"The value of a widget of this type will either have the form @code{(file t)} "
+"or @code{(file @var{string} @var{string})}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1394
+msgid ""
+"This concept of @code{:inline} may be hard to understand.  It was certainly "
+"hard to implement, so instead of confusing you more by trying to explain it "
+"here, I'll just suggest you meditate over it for a while."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1395
+#, no-wrap
+msgid "Widget set"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1399
+msgid ""
+"Specifies a type whose values are the lists whose elements all belong to a "
+"given set.  The order of elements of the list is not significant.  Here's "
+"the syntax:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1402
+#, no-wrap
+msgid ""
+"@var{type} ::= (set [@var{keyword} @var{argument}]...  "
+"@var{permitted-element} ... )\n"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1406
+msgid ""
+"Use @code{const} to specify each permitted element, like this: @code{(set "
+"(const a) (const b))}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1408
+#, no-wrap
+msgid "Widget repeat"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1410
+msgid "Specifies a list of any number of elements that fit a certain type."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/widget.texi:1413
+#, no-wrap
+msgid "@var{type} ::= (repeat [@var{keyword} @var{argument}]...  @var{type})\n"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1416
+#, no-wrap
+msgid "Widget Properties"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1417
+#, no-wrap
+msgid "Properties"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1418
+#, no-wrap
+msgid "properties of widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1419
+#, no-wrap
+msgid "widget properties"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1423
+msgid ""
+"You can examine or set the value of a widget by using the widget object that "
+"was returned by @code{widget-create}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1424
+#, no-wrap
+msgid "widget-value widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1427
+msgid ""
+"Return the current value contained in @var{widget}.  It is an error to call "
+"this function on an uninitialized widget."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1429
+#, no-wrap
+msgid "widget-value-set widget value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1432
+msgid ""
+"Set the value contained in @var{widget} to @var{value}.  It is an error to "
+"call this function with an invalid @var{value}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1440
+msgid ""
+"@strong{Important:} You @emph{must} call @code{widget-setup} after modifying "
+"the value of a widget before the user is allowed to edit the widget again.  "
+"It is enough to call @code{widget-setup} once if you modify multiple "
+"widgets.  This is currently only necessary if the widget contains an editing "
+"field, but may be necessary for other widgets in the future."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1445
+msgid ""
+"If your application needs to associate some information with the widget "
+"objects, for example a reference to the item being edited, it can be done "
+"with @code{widget-put} and @code{widget-get}.  The property names must begin "
+"with a @samp{:}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1446
+#, no-wrap
+msgid "widget-put widget property value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1449
+msgid ""
+"In @var{widget} set @var{property} to @var{value}.  @var{property} should be "
+"a symbol, while @var{value} can be anything."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1451
+#, no-wrap
+msgid "widget-get widget property"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1455
+msgid ""
+"In @var{widget} return the value for @var{property}.  @var{property} should "
+"be a symbol, the value is what was last set by @code{widget-put} for "
+"@var{property}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1457
+#, no-wrap
+msgid "widget-member widget property"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1460
+msgid ""
+"Non-@code{nil} if @var{widget} has a value (even @code{nil}) for property "
+"@var{property}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1462
+#, no-wrap
+msgid "widget-apply widget property &rest args"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1466
+msgid ""
+"Apply the value of @var{property} to @var{widget}, passing @var{args} as "
+"additional arguments to the function.  Return the result of that function "
+"call."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1470
+msgid ""
+"Occasionally it can be useful to know which kind of widget you have, i.e., "
+"the name of the widget type you gave when the widget was created."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1471
+#, no-wrap
+msgid "widget-type widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1473
+msgid "Return the name of @var{widget}, a symbol."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1475
+#, no-wrap
+msgid "active widget"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1476
+#, no-wrap
+msgid "inactive widget"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1477
+#, no-wrap
+msgid "activate a widget"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1478
+#, no-wrap
+msgid "deactivate a widget"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1482
+msgid ""
+"Widgets can be in two states: active, which means they are modifiable by the "
+"user, or inactive, which means they cannot be modified by the user.  You can "
+"query or set the state with the following code:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1488
+#, no-wrap
+msgid ""
+";; Examine if @var{widget} is active or not.\n"
+"(if (widget-apply @var{widget} :active)\n"
+"    (message \"Widget is active.\")\n"
+"  (message \"Widget is inactive.\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1491
+#, no-wrap
+msgid ""
+";; Make @var{widget} inactive.\n"
+"(widget-apply @var{widget} :deactivate)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1494
+#, no-wrap
+msgid ""
+";; Make @var{widget} active.\n"
+"(widget-apply @var{widget} :activate)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1500
+msgid ""
+"A widget is inactive if it, or any of its ancestors (found by following the "
+"@code{:parent} link), have been deactivated.  To make sure a widget is "
+"really active, you must therefore activate both it and all its ancestors."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1505
+#, no-wrap
+msgid ""
+"(while widget\n"
+"  (widget-apply widget :activate)\n"
+"  (setq widget (widget-get widget :parent)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1514
+msgid ""
+"You can check if a widget has been made inactive by examining the value of "
+"the @code{:inactive} keyword.  If this is non-@code{nil}, the widget itself "
+"has been deactivated.  This is different from using the @code{:active} "
+"keyword, in that the latter tells you if the widget @strong{or} any of its "
+"ancestors have been deactivated.  Do not attempt to set the @code{:inactive} "
+"keyword directly.  Use the @code{:activate} @code{:deactivate} keywords "
+"instead."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1516 ../../../../../doc/misc/widget.texi:1517
+#, no-wrap
+msgid "Defining New Widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1518
+#, no-wrap
+msgid "new widgets"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1519
+#, no-wrap
+msgid "defining new widgets"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1525
+msgid ""
+"You can define specialized widgets with @code{define-widget}.  It allows you "
+"to create a shorthand for more complex widgets, including specifying "
+"component widgets and new default values for the keyword arguments."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1526
+#, no-wrap
+msgid "define-widget name class doc &rest args"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1528
+msgid "Define a new widget type named @var{name} from @code{class}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1531
+msgid ""
+"@var{name} and class should both be symbols, @code{class} should be one of "
+"the existing widget types."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1533
+msgid "The third argument @var{doc} is a documentation string for the widget."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1536
+msgid ""
+"After the new widget has been defined, the following two calls will create "
+"identical widgets:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1541
+#, no-wrap
+msgid "(widget-create @var{name})\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/widget.texi:1546
+#, no-wrap
+msgid "(apply widget-create @var{class} @var{args})\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1554
+msgid ""
+"Using @code{define-widget} just stores the definition of the widget type in "
+"the @code{widget-type} property of @var{name}, which is what "
+"@code{widget-create} uses."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1557
+msgid ""
+"If you only want to specify defaults for keywords with no complex "
+"conversions, you can use @code{identity} as your conversion function."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1560
+msgid ""
+"The following additional keyword arguments are useful when defining new "
+"widgets:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1561
+#, no-wrap
+msgid "convert-widget@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1562
+#, no-wrap
+msgid ":convert-widget"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1567
+msgid ""
+"Function to convert a widget type before creating a widget of that type.  It "
+"takes a widget type as an argument, and returns the converted widget type.  "
+"When a widget is created, this function is called for the widget type and "
+"all the widget's parent types, most derived first."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1569 ../../../../../doc/misc/widget.texi:1586
+msgid "The following predefined functions can be used here:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1570
+#, no-wrap
+msgid "widget-types-convert-widget widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1572
+msgid "Convert @code{:args} as widget types in @var{widget}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1574
+#, no-wrap
+msgid "widget-value-convert-widget widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1576
+msgid "Initialize @code{:value} from @code{:args} in @var{widget}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1578
+#, no-wrap
+msgid "copy@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1579
+#, no-wrap
+msgid ":copy"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1584
+msgid ""
+"Function to deep copy a widget type.  It takes a shallow copy of the widget "
+"type as an argument (made by @code{copy-sequence}), and returns a deep "
+"copy.  The purpose of this is to avoid having different instances of "
+"combined widgets share nested attributes."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1587
+#, no-wrap
+msgid "widget-types-copy widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1589
+msgid "Copy @code{:args} as widget types in @var{widget}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1591
+#, no-wrap
+msgid "value-to-internal@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1592
+#, no-wrap
+msgid ":value-to-internal"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1598
+msgid ""
+"Function to convert the value to the internal format.  The function takes "
+"two arguments, a widget and an external value, and returns the internal "
+"value.  The function is called on the present @code{:value} when the widget "
+"is created, and on any value set later with @code{widget-value-set}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1599
+#, no-wrap
+msgid "value-to-external@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1600
+#, no-wrap
+msgid ":value-to-external"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1606
+msgid ""
+"Function to convert the value to the external format.  The function takes "
+"two arguments, a widget and an internal value, and returns the external "
+"value.  The function is called on the present @code{:value} when the widget "
+"is created, and on any value set later with @code{widget-value-set}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1607
+#, no-wrap
+msgid "create@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1608
+#, no-wrap
+msgid ":create"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1612
+msgid ""
+"Function to create a widget from scratch.  The function takes one argument, "
+"a widget type, and creates a widget of that type, inserts it in the buffer, "
+"and returns a widget object."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1613
+#, no-wrap
+msgid "delete@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1614
+#, no-wrap
+msgid ":delete"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1617
+msgid ""
+"Function to delete a widget.  The function takes one argument, a widget, and "
+"should remove all traces of the widget from the buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1619
+msgid "The default value is:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1620
+#, no-wrap
+msgid "widget-default-delete widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1623
+msgid ""
+"Remove @var{widget} from the buffer.  Delete all @code{:children} and "
+"@code{:buttons} in @var{widget}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1627
+msgid ""
+"In most cases you should not change this value, but instead use "
+"@code{:value-delete} to make any additional cleanup."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1628
+#, no-wrap
+msgid "value-create@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1629
+#, no-wrap
+msgid ":value-create"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1633
+msgid ""
+"Function to expand the @samp{%v} escape in the format string.  It will be "
+"called with the widget as its argument and should insert a representation of "
+"the widget's value in the buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1636
+msgid ""
+"Nested widgets should be listed in @code{:children} or @code{:buttons} to "
+"make sure they are automatically deleted."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1637
+#, no-wrap
+msgid "value-delete@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1638
+#, no-wrap
+msgid ":value-delete"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1643
+msgid ""
+"Should remove the representation of the widget's value from the buffer.  It "
+"will be called with the widget as its argument.  It doesn't have to remove "
+"the text, but it should release markers and delete nested widgets if these "
+"are not listed in @code{:children} or @code{:buttons}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1644
+#, no-wrap
+msgid "value-get@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1645
+#, no-wrap
+msgid ":value-get"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1648
+msgid "Function to extract the value of a widget, as it is displayed in the buffer."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1650 ../../../../../doc/misc/widget.texi:1673
+msgid "The following predefined function can be used here:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1651
+#, no-wrap
+msgid "widget-value-value-get widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1653
+msgid "Return the @code{:value} property of @var{widget}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1655
+#, no-wrap
+msgid "format-handler@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1656
+#, no-wrap
+msgid ":format-handler"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1661
+msgid ""
+"Function to handle unknown @samp{%} escapes in the format string.  It will "
+"be called with the widget and the character that follows the @samp{%} as "
+"arguments.  You can set this to allow your widget to handle non-standard "
+"escapes."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/widget.texi:1662
+#, no-wrap
+msgid "widget-default-format-handler"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1666
+msgid ""
+"You should end up calling @code{widget-default-format-handler} to handle "
+"unknown escape sequences, which will handle the @samp{%h} and any future "
+"escape sequences, as well as give an error for unknown escapes."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1667
+#, no-wrap
+msgid "action@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1668
+#, no-wrap
+msgid ":action"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1671
+msgid ""
+"Function to handle user initiated events.  By default, @code{:notify} the "
+"parent."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1674
+#, no-wrap
+msgid "widget-parent-action widget &optional event"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1677
+msgid ""
+"Tell @code{:parent} of @var{widget} to handle the @code{:action}.  Optional "
+"@var{event} is the event that triggered the action."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/widget.texi:1679
+#, no-wrap
+msgid "prompt-value@r{ keyword}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/widget.texi:1680
+#, no-wrap
+msgid ":prompt-value"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/widget.texi:1688
+msgid ""
+"Function to prompt for a value in the minibuffer.  The function should take "
+"four arguments, @var{widget}, @var{prompt}, @var{value}, and @var{unbound} "
+"and should return a value for widget entered by the user.  @var{prompt} is "
+"the prompt to use.  @var{value} is the default value to use, unless "
+"@var{unbound} is non-@code{nil}, in which case there is no default value.  "
+"The function should read the value using the method most natural for this "
+"widget, and does not have to check that it matches."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1692
+msgid ""
+"If you want to define a new widget from scratch, use the @code{default} "
+"widget as its base."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1693
+#, no-wrap
+msgid "Widget default"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1695
+msgid "Widget used as a base for other widgets."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1698
+msgid ""
+"It provides most of the functionality that is referred to as ``by default'' "
+"in this text."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1700 ../../../../../doc/misc/widget.texi:1701
+#, no-wrap
+msgid "Widget Browser"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1702
+#, no-wrap
+msgid "widget browser"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1708
+msgid ""
+"There is a separate package to browse widgets.  This is intended to help "
+"programmers who want to examine the content of a widget.  The browser shows "
+"the value of each keyword, but uses links for certain keywords such as "
+"@samp{:parent}, which avoids printing cyclic structures."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1709
+#, no-wrap
+msgid "Command widget-browse @var{widget}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1712
+msgid ""
+"Create a widget browser for @var{widget}.  When called interactively, prompt "
+"for @var{widget}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1714
+#, no-wrap
+msgid "Command widget-browse-other-window @var{widget}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1717
+msgid ""
+"Create a widget browser for @var{widget} and show it in another window.  "
+"When called interactively, prompt for @var{widget}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1719
+#, no-wrap
+msgid "Command widget-browse-at @var{pos}"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1722
+msgid ""
+"Create a widget browser for the widget at @var{pos}.  When called "
+"interactively, use the position of point."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1724 ../../../../../doc/misc/widget.texi:1725
+#, no-wrap
+msgid "Widget Minor Mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1726
+#, no-wrap
+msgid "widget minor mode"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1731
+msgid ""
+"There is a minor mode for manipulating widgets in major modes that don't "
+"provide any support for widgets themselves.  This is mostly intended to be "
+"useful for programmers doing experiments."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1732
+#, no-wrap
+msgid "Command widget-minor-mode"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/widget.texi:1735
+msgid ""
+"Toggle minor mode for traversing widgets.  With arg, turn widget mode on if "
+"and only if arg is positive."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/widget.texi:1737
+#, no-wrap
+msgid "widget-minor-mode-keymap"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/widget.texi:1739
+msgid "Keymap used in @code{widget-minor-mode}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1741 ../../../../../doc/misc/widget.texi:1742
+#, no-wrap
+msgid "Utilities"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1743
+#, no-wrap
+msgid "utility functions for widgets"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1745
+#, no-wrap
+msgid "widget-prompt-value widget prompt [ value unbound ]"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1749
+msgid ""
+"Prompt for a value matching @var{widget}, using @var{prompt}.  The current "
+"value is assumed to be @var{value}, unless @var{unbound} is non-@code{nil}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1751
+#, no-wrap
+msgid "widget-get-sibling widget"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/widget.texi:1754
+msgid ""
+"Get the item which @var{widget} is assumed to toggle.  This is only "
+"meaningful for radio buttons or checkboxes in a list."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/widget.texi:1756
+#, no-wrap
+msgid "Widget Wishlist"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/widget.texi:1757
+#, no-wrap
+msgid "Wishlist"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/widget.texi:1758
+#, no-wrap
+msgid "todo"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1764
+msgid ""
+"It should be possible to add or remove items from a list with @kbd{C-k} and "
+"@kbd{C-o} (suggested by @sc{rms})."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1770
+msgid ""
+"The @samp{[INS]} and @samp{[DEL]} buttons should be replaced by a single "
+"dash (@samp{-}).  The dash should be a button that, when invoked, asks "
+"whether you want to add or delete an item (@sc{rms} wanted to git rid of the "
+"ugly buttons, the dash is my idea)."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1774
+msgid ""
+"The @code{menu-choice} tag should be prettier, something like the "
+"abbreviated menus in Open Look."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1777
+msgid "Finish @code{:tab-order}."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1780
+msgid "Make indentation work with glyphs and proportional fonts."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1784
+msgid ""
+"Add commands to show overview of object and class hierarchies to the "
+"browser."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1787
+msgid "Find a way to disable mouse highlight for inactive widgets."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1790
+msgid "Find a way to make glyphs look inactive."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1793
+msgid "Add @code{property-list} widget."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1796
+msgid "Add @code{association-list} widget."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1799
+msgid "Add @code{key-binding} widget."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1802
+msgid "Add @code{widget} widget for editing widget specifications."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1806
+msgid ""
+"Find clean way to implement variable length list.  See "
+"@code{TeX-printer-list} for an explanation."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1809
+msgid "@kbd{C-h} in @code{widget-prompt-value} should give type specific help."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/widget.texi:1812
+msgid "Add a @code{mailto} widget."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/widget.texi:1814 ../../../../../doc/misc/widget.texi:1815
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/widget.texi:1816
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/widget.texi:1823
+msgid ""
+"This is an alphabetical listing of all concepts, functions, commands, "
+"variables, and widgets described in this manual."
+msgstr ""

@@ -1,0 +1,3576 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-16 23:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/pcl-cvs.texi:4
+#, no-wrap
+msgid "PCL-CVS---Emacs Front-End to CVS"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/pcl-cvs.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/pcl-cvs.texi:11
+msgid "Copyright @copyright{} 1991--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/pcl-cvs.texi:19
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/pcl-cvs.texi:22
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/pcl-cvs.texi:25
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:28
+msgid "PCL-CVS: (pcl-cvs)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:28
+msgid "Emacs front-end to CVS."
+msgstr ""
+
+#. type: titlefont{#1}
+#: ../../../../../doc/misc/pcl-cvs.texi:34
+#, no-wrap
+msgid "User's Guide"
+msgstr ""
+
+#. type: titlefont{#1}
+#: ../../../../../doc/misc/pcl-cvs.texi:36
+#, no-wrap
+msgid "to"
+msgstr ""
+
+#. type: titlefont{#1}
+#: ../../../../../doc/misc/pcl-cvs.texi:38
+#, no-wrap
+msgid "PCL-CVS---The Emacs Front-End to CVS"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/pcl-cvs.texi:41
+#, no-wrap
+msgid "release 2.9"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/pcl-cvs.texi:45
+#, no-wrap
+msgid "Per Cederqvist"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/pcl-cvs.texi:46
+#, no-wrap
+msgid "Stefan Monnier"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:63
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/pcl-cvs.texi:64
+#, no-wrap
+msgid "PCL-CVS"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/pcl-cvs.texi:72
+msgid ""
+"This manual describes PCL-CVS, the GNU Emacs front-end to CVS@.  It is "
+"nowhere near complete, so you are advised to use @kbd{M-x customize-group "
+"@key{RET} pcl-cvs @key{RET}} and to look at the documentation strings of the "
+"various commands and major modes for further information."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:79 ../../../../../doc/misc/pcl-cvs.texi:100 ../../../../../doc/misc/pcl-cvs.texi:132 ../../../../../doc/misc/pcl-cvs.texi:133 ../../../../../doc/misc/pcl-cvs.texi:134
+#, no-wrap
+msgid "About PCL-CVS"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:79
+msgid "Credits, history, @dots{}"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/pcl-cvs.texi:84 ../../../../../doc/misc/pcl-cvs.texi:242 ../../../../../doc/misc/pcl-cvs.texi:243
+#, no-wrap
+msgid "Getting started"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:84
+msgid "An introduction with a walk-through example."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:84 ../../../../../doc/misc/pcl-cvs.texi:310 ../../../../../doc/misc/pcl-cvs.texi:311 ../../../../../doc/misc/pcl-cvs.texi:312
+#, no-wrap
+msgid "Buffer contents"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:84
+msgid "An explanation of the buffer contents."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:84 ../../../../../doc/misc/pcl-cvs.texi:439 ../../../../../doc/misc/pcl-cvs.texi:440 ../../../../../doc/misc/pcl-cvs.texi:441
+#, no-wrap
+msgid "Selected files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:84
+msgid "To which files are commands applied."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/pcl-cvs.texi:84 ../../../../../doc/misc/pcl-cvs.texi:104 ../../../../../doc/misc/pcl-cvs.texi:481 ../../../../../doc/misc/pcl-cvs.texi:482
+#, no-wrap
+msgid "Commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:84
+msgid "All commands, grouped by type."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:90 ../../../../../doc/misc/pcl-cvs.texi:1168
+#, no-wrap
+msgid "Log Edit Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:90
+msgid "Major mode to edit log messages."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:90 ../../../../../doc/misc/pcl-cvs.texi:1201
+#, no-wrap
+msgid "Log View Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:90
+msgid "Major mode to browse log changes."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:90 ../../../../../doc/misc/pcl-cvs.texi:126 ../../../../../doc/misc/pcl-cvs.texi:1222 ../../../../../doc/misc/pcl-cvs.texi:1223 ../../../../../doc/misc/pcl-cvs.texi:1232
+#, no-wrap
+msgid "Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:90
+msgid "How you can tailor PCL-CVS to suit your needs."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:90 ../../../../../doc/misc/pcl-cvs.texi:1372
+#, no-wrap
+msgid "Bugs"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:90
+msgid "Bugs (known and unknown)."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/pcl-cvs.texi:95 ../../../../../doc/misc/pcl-cvs.texi:1410 ../../../../../doc/misc/pcl-cvs.texi:1411
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:95
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/pcl-cvs.texi:95 ../../../../../doc/misc/pcl-cvs.texi:1416 ../../../../../doc/misc/pcl-cvs.texi:1417
+#, no-wrap
+msgid "Function and Variable Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:95
+msgid "List of functions and variables."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/pcl-cvs.texi:95 ../../../../../doc/misc/pcl-cvs.texi:1424 ../../../../../doc/misc/pcl-cvs.texi:1425
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:95
+msgid "List of concepts."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/pcl-cvs.texi:95 ../../../../../doc/misc/pcl-cvs.texi:1431 ../../../../../doc/misc/pcl-cvs.texi:1432
+#, no-wrap
+msgid "Key Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:95
+msgid "List of keystrokes."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:98
+msgid "--- The Detailed Node Listing ---"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:102 ../../../../../doc/misc/pcl-cvs.texi:154 ../../../../../doc/misc/pcl-cvs.texi:156 ../../../../../doc/misc/pcl-cvs.texi:158
+#, no-wrap
+msgid "Contributors"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:102 ../../../../../doc/misc/pcl-cvs.texi:154
+msgid "Contributors to PCL-CVS."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:515 ../../../../../doc/misc/pcl-cvs.texi:516
+#, no-wrap
+msgid "Entering PCL-CVS"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Commands to invoke PCL-CVS"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:575
+#, no-wrap
+msgid "Setting flags"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:576
+#, no-wrap
+msgid "Setting flags for CVS commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Updating the buffer::"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:676
+#, no-wrap
+msgid "Movement commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "How to move up and down in the buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:702 ../../../../../doc/misc/pcl-cvs.texi:703 ../../../../../doc/misc/pcl-cvs.texi:705
+#, no-wrap
+msgid "Marking files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "How to mark files that other commands will later operate on."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:760 ../../../../../doc/misc/pcl-cvs.texi:761 ../../../../../doc/misc/pcl-cvs.texi:762
+#, no-wrap
+msgid "Committing changes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Checking in your modifications to the CVS repository."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:819 ../../../../../doc/misc/pcl-cvs.texi:820 ../../../../../doc/misc/pcl-cvs.texi:821
+#, no-wrap
+msgid "Editing files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Loading files into Emacs."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:856 ../../../../../doc/misc/pcl-cvs.texi:857
+#, no-wrap
+msgid "Getting info about files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Display the log and status of files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:881 ../../../../../doc/misc/pcl-cvs.texi:882
+#, no-wrap
+msgid "Adding and removing files"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:922 ../../../../../doc/misc/pcl-cvs.texi:923
+#, no-wrap
+msgid "Undoing changes"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:938 ../../../../../doc/misc/pcl-cvs.texi:939
+#, no-wrap
+msgid "Removing handled entries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Uninteresting lines can easily be removed."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:970 ../../../../../doc/misc/pcl-cvs.texi:971 ../../../../../doc/misc/pcl-cvs.texi:972
+#, no-wrap
+msgid "Ignoring files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Telling CVS to ignore generated files."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:988 ../../../../../doc/misc/pcl-cvs.texi:989 ../../../../../doc/misc/pcl-cvs.texi:993 ../../../../../doc/misc/pcl-cvs.texi:1055
+#, no-wrap
+msgid "Viewing differences"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Commands to @samp{diff} different versions."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:1051
+#, no-wrap
+msgid "Invoking Ediff"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Running @samp{ediff} from @file{*cvs*} buffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:1083 ../../../../../doc/misc/pcl-cvs.texi:1084 ../../../../../doc/misc/pcl-cvs.texi:1086
+#, no-wrap
+msgid "Updating files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Updating files that Need-update."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:1096 ../../../../../doc/misc/pcl-cvs.texi:1097 ../../../../../doc/misc/pcl-cvs.texi:1101
+#, no-wrap
+msgid "Tagging files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Tagging files."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512 ../../../../../doc/misc/pcl-cvs.texi:1123 ../../../../../doc/misc/pcl-cvs.texi:1124
+#, no-wrap
+msgid "Miscellaneous commands"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/pcl-cvs.texi:124 ../../../../../doc/misc/pcl-cvs.texi:512
+msgid "Miscellaneous commands."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:128 ../../../../../doc/misc/pcl-cvs.texi:1331 ../../../../../doc/misc/pcl-cvs.texi:1333 ../../../../../doc/misc/pcl-cvs.texi:1334
+#, no-wrap
+msgid "Customizing Faces"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:142
+msgid ""
+"PCL-CVS is a front-end to CVS versions 1.9 and later.  It concisely shows "
+"the present status of a checked out module in an Emacs buffer and provides "
+"single-key access to the most frequently used CVS commands.  Note that the "
+"@code{vc-dir} command (@pxref{VC Directory Mode, , , emacs, The GNU Emacs "
+"Manual}) provides similar functionality, but for several version control "
+"systems, including CVS."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:151
+msgid ""
+"PCL-CVS was originally written many years ago by Per Cederqvist who proudly "
+"maintained it until January 1996, at which point he released the beta "
+"version 2.0b2 and passed on the maintainership to Greg A Woods.  Development "
+"stayed mostly dormant for a few years during which version 2.0 never seemed "
+"to be able to leave the ``beta'' stage while a separate XEmacs version was "
+"slowly splitting away.  In late 1998, Stefan Monnier picked up development "
+"again, adding some major new functionality and taking over the maintenance."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:157
+#, no-wrap
+msgid "Contributors to PCL-CVS"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:159
+#, no-wrap
+msgid "Authors"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:164
+msgid ""
+"Contributions to the package are welcome.  I have limited time to work on "
+"this project, but I will gladly add any code that you contribute to me to "
+"this package (@pxref{Bugs})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:166
+msgid "The following persons have made contributions to PCL-CVS."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:171
+msgid ""
+"Brian Berliner wrote CVS, together with some other contributors.  Without "
+"his work on CVS this package would be useless@dots{}"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:175
+msgid ""
+"Per Cederqvist wrote most of the otherwise unattributed functions in PCL-CVS "
+"as well as all the documentation."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:182
+msgid ""
+"Inge Wallin wrote the skeleton of @file{pcl-cvs.texi}, and gave useful "
+"comments on it.  He also wrote the files @file{elib-node.el} and "
+"@file{compile-all.el}.  The file @file{cookie.el} was inspired by Inge."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:187
+msgid ""
+"Linus Tolke contributed useful comments on both the functionality and the "
+"documentation."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:193
+msgid ""
+"Jamie Zawinski contributed @file{pcl-cvs-lucid.el}, which was later renamed "
+"to @file{pcl-cvs-xemacs.el}."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:197
+msgid ""
+"Leif Lonnblad contributed RCVS support (since superseded by the new remote "
+"CVS support)."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:204
+msgid ""
+"Jim Blandy contributed hooks to automatically guess CVS log entries from "
+"@file{ChangeLog} contents, and initial support of the new Cygnus / Cyclic "
+"remote CVS, as well as various sundry bug fixes and cleanups."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:209
+msgid ""
+"Jim Kingdon contributed lots of fixes to the build and installation "
+"procedure."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:215
+msgid ""
+"Greg A. Woods contributed code to implement the use of per-file diff "
+"buffers, and vendor join diffs with emerge and ediff, as well as various and "
+"sundry bug fixes and cleanups."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:222
+msgid ""
+"Greg Klanderman implemented toggling of marked files, setting of CVS command "
+"flags via prefix arguments, updated the XEmacs support, updated the manual, "
+"and fixed numerous bugs."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:228
+msgid ""
+"Stefan Monnier added a slew of other features and introduced even more new "
+"bugs.  If there's any bug left, you can be sure it's his."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:235
+msgid ""
+"Masatake YAMATO made a gracious contribution of his cvstree code to display "
+"a tree of tags which was later superseded by the new @code{cvs-status-mode}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:240
+msgid ""
+"Apart from these, a lot of people have sent us suggestions, ideas, requests, "
+"bug reports and encouragement.  Thanks a lot! Without you there would be no "
+"new releases of PCL-CVS."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:244
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:245
+#, no-wrap
+msgid "Example run"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:246
+#, no-wrap
+msgid "Sample session"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:252
+msgid ""
+"This document assumes that you know what CVS is, and that you at least know "
+"the fundamental concepts of CVS@.  If that is not the case, you should read "
+"the CVS documentation.  Type @kbd{info -f cvs} or @kbd{man cvs}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:256
+msgid ""
+"PCL-CVS is only useful once you have checked out a module.  So before you "
+"invoke it, you must have a copy of a module somewhere in the file system."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:263
+msgid ""
+"You can invoke PCL-CVS by typing @kbd{M-x cvs-examine @key{RET}}.  You can "
+"also invoke it via the menu bar, under @samp{Tools}.  Or, if you prefer, you "
+"can also invoke PCL-CVS by simply visiting the CVS administrative "
+"subdirectory of your module, with a prefix argument.  For example, to invoke "
+"PCL-CVS in a separate frame, type @kbd{C-u C-x 5 f ~/my/project/CVS "
+"@key{RET}}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:269
+msgid ""
+"The function @code{cvs-examine} will ask for a directory.  The command "
+"@samp{cvs -n update} will be run in that directory.  (It should contain "
+"files that have been checked out from a CVS archive.)  The output from "
+"@code{cvs} will be parsed and presented in a table in a buffer called "
+"@file{*cvs*}.  It might look something like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/pcl-cvs.texi:274
+#, no-wrap
+msgid ""
+"Repository : /usr/CVSroot\n"
+"Module     : test\n"
+"Working dir: /users/ceder/FOO/test\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/pcl-cvs.texi:283
+#, no-wrap
+msgid ""
+"In directory .:\n"
+"           Need-Update            bar\n"
+"           Need-Update            file.txt\n"
+"           Modified               namechange\n"
+"           Need-Update            newer\n"
+"In directory sub:\n"
+"           Modified               ChangeLog\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/pcl-cvs.texi:286
+#, no-wrap
+msgid ""
+"--------------------- End ---------------------\n"
+"-- last cmd: cvs -f -z6 -n update -d -P --\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:295
+msgid ""
+"In this example, your repository is in @file{/usr/CVSroot} and CVS has been "
+"run in the directory @file{/users/ceder/FOO/test}.  The three files "
+"(@file{bar}, @file{file.txt} and @file{newer}) that are marked with "
+"@samp{Need-Update} have been changed by someone else in the CVS repository.  "
+"Two files (@file{namechange} and @file{sub/ChangeLog}) have been modified "
+"locally, and need to be checked in."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:303
+msgid ""
+"You can move the cursor up and down in the buffer with @kbd{C-n} and "
+"@kbd{C-p} or @kbd{n} and @kbd{p}.  If you press @kbd{c} on one of the "
+"@samp{Modified} files, that file will be checked in to the CVS "
+"repository. @xref{Committing changes}.  You can also press @kbd{O} to update "
+"any of the files that are marked @samp{Need-Update}.  You can also run "
+"@kbd{M-x cvs-update @key{RET}} (bound to @kbd{M-u} in the @file{*cvs*} "
+"buffer) to update all the files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:309
+msgid ""
+"You can then press @kbd{=} to easily get a @samp{diff} between your modified "
+"file and the base version that you started from, or you can press @kbd{l} to "
+"get the output from @samp{cvs log}.  Many more such commands are available "
+"simply by pressing a key (@pxref{Getting info about files})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:313
+#, no-wrap
+msgid "@file{*cvs*} buffer contents"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:317
+msgid ""
+"The display contains several columns, some of which are optional.  These "
+"columns are, from left to right:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:326
+msgid ""
+"Optionally, the head revision of the file.  This is the latest version found "
+"in the repository.  It might also contain (instead of the head revision) a "
+"sub status which typically gives further information about how we got to the "
+"current state, for example @samp{patched}, @samp{merged}, @dots{}"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:330
+msgid "An asterisk when the file is @dfn{marked} (@pxref{Selected files})."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:333
+msgid "The actual status of the file wrt the repository.  See below."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:337
+msgid ""
+"Optionally, the base revision of the file.  This is the version which the "
+"copy in your working directory is based upon."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/pcl-cvs.texi:340
+msgid "The file name."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:344
+msgid "The @samp{file status} field can have the following values:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:346
+#, no-wrap
+msgid "Modified"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:350
+msgid ""
+"The file is modified in your working directory, and there was no "
+"modification to the same file in the repository.  This status can have the "
+"following substatus:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:352
+#, no-wrap
+msgid "merged"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:356
+msgid ""
+"The file was modified in your working directory, and there were "
+"modifications in the repository as well, but they were merged successfully, "
+"without conflict, in your working directory."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:358
+#, no-wrap
+msgid "Conflict"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:366
+msgid ""
+"A conflict was detected while trying to merge your changes to @var{file} "
+"with changes from the repository.  @var{file} (the copy in your working "
+"directory) is now the output of the @code{rcsmerge} command on the two "
+"versions; an unmodified copy of your file is also in your working directory, "
+"with the name @file{.#@var{file}.@var{version}}, where @var{version} is the "
+"RCS revision that your modified file started from.  @xref{Viewing "
+"differences}, for more details."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:370
+msgid ""
+"A conflict can also come from a disagreement on the existence of the file "
+"rather than on its content.  This case is indicated by the following "
+"possible substatus:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:372
+#, no-wrap
+msgid "removed"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:375
+msgid ""
+"The file is locally removed but a new revision has been committed to the "
+"repository by someone else."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:376 ../../../../../doc/misc/pcl-cvs.texi:404
+#, no-wrap
+msgid "added"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:379
+msgid ""
+"The file is locally added and has also been added to the repository by "
+"someone else."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:380
+#, no-wrap
+msgid "modified"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:383
+msgid ""
+"The file is locally modified but someone else has removed it from the "
+"repository."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:385
+#, no-wrap
+msgid "Added"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:388
+msgid ""
+"The file has been added by you, but it still needs to be checked in to the "
+"repository."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:389
+#, no-wrap
+msgid "Removed"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:393
+msgid ""
+"The file has been removed by you, but it still needs to be checked in to the "
+"repository.  You can resurrect it by typing @kbd{a} (@pxref{Adding and "
+"removing files})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:394
+#, no-wrap
+msgid "Unknown"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:398
+msgid ""
+"A file that was detected in your directory, but that neither appears in the "
+"repository, nor is present on the list of files that CVS should ignore."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:399
+#, no-wrap
+msgid "Up-to-date"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:402
+msgid ""
+"The file is up to date with respect to the version in the repository.  This "
+"status can have a substatus of:"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:406
+msgid "You have just added the file to the repository."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:407
+#, no-wrap
+msgid "updated"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:412
+msgid ""
+"The file was brought up to date with respect to the repository.  This is "
+"done for any file that exists in the repository but not in your source, and "
+"for files that you haven't changed but are not the most recent versions "
+"available in the repository."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:413
+#, no-wrap
+msgid "patched"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:418
+msgid ""
+"The file was brought up to date with respect to the remote repository by way "
+"of fetching and applying a patch to the file in your source.  This is "
+"equivalent to @samp{updated} except that CVS decided to use a hopefully more "
+"efficient method."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:419
+#, no-wrap
+msgid "committed"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:421
+msgid "You just committed the file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:423
+#, no-wrap
+msgid "Need-Update"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:428
+msgid ""
+"Either a newer version than the one in your source is available in the "
+"repository and you have not modified your checked out version, or the file "
+"exists in the repository but not in your source.  Use @samp{cvs-mode-update} "
+"bound to @kbd{O} to update the file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:429
+#, no-wrap
+msgid "Need-Merge"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:433
+msgid ""
+"You have modified the checked out version of the file, and a newer version "
+"is available in the repository.  A merge will take place when you run a "
+"@samp{cvs-update}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:434
+#, no-wrap
+msgid "Missing"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:437
+msgid ""
+"The file has been unexpectedly removed from your working directory although "
+"it has not been @samp{cvs remove}d."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:442
+#, no-wrap
+msgid "Marked files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:443
+#, no-wrap
+msgid "File selection"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:444
+#, no-wrap
+msgid "Active files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:445
+#, no-wrap
+msgid "Applicable"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:450
+msgid ""
+"Many of the commands work on the current set of @dfn{selected} files which "
+"can be either the set of marked files (if any file is marked and marks are "
+"not ignored) or whichever file or directory the cursor is on."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:454
+msgid ""
+"If a directory is selected but the command cannot be applied to a directory, "
+"then it will be applied to the set of files under this directory which are "
+"in the @file{*cvs*} buffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:455
+#, no-wrap
+msgid "cvs-mode-force-command"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:456
+#, no-wrap
+msgid "cvs-allow-dir-commit"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:466
+msgid ""
+"Furthermore, each command only operates on a subset of the selected files, "
+"depending on whether or not the command is @dfn{applicable} to each file "
+"(based on the file's status).  For example, @code{cvs-mode-commit} is not "
+"applicable to a file whose status is @samp{Need-Update}.  If it should "
+"happen that PCL-CVS guesses the applicability wrong, you can override it "
+"with the special prefix @code{cvs-mode-force-command} normally bound to "
+"@kbd{M-f} (and file a bug report).  The applicability rule can be slightly "
+"changed with @code{cvs-allow-dir-commit} and @code{cvs-force-dir-tag}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:471
+msgid ""
+"By default, marks are always in effect (you may change this, however, by "
+"setting the variable @code{cvs-default-ignore-marks}) except for the "
+"commands that @samp{tag} or @samp{diff} a file (which can be changed with "
+"the variable @code{cvs-invert-ignore-marks})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:475
+msgid ""
+"In addition, you may use the special prefix @code{cvs-mode-toggle-marks} "
+"normally bound to @kbd{T} to toggle the use of marks for the following "
+"command."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:478
+msgid ""
+"This scheme might seem a little complicated, but once one gets used to it, "
+"it is quite powerful."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:480
+msgid "For commands to mark and unmark files, see @ref{Marking files}."
+msgstr ""
+
+#. type: iftex
+#: ../../../../../doc/misc/pcl-cvs.texi:486
+msgid "This chapter describes all the commands that you can use in PCL-CVS."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/pcl-cvs.texi:490
+msgid ""
+"The nodes in this menu contains explanations about all the commands that you "
+"can use in PCL-CVS@.  They are grouped together by type."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:517 ../../../../../doc/misc/pcl-cvs.texi:633
+#, no-wrap
+msgid "cvs-update"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:518 ../../../../../doc/misc/pcl-cvs.texi:634
+#, no-wrap
+msgid "cvs-examine"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:519 ../../../../../doc/misc/pcl-cvs.texi:635
+#, no-wrap
+msgid "cvs-status"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:520
+#, no-wrap
+msgid "cvs-checkout"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:521
+#, no-wrap
+msgid "cvs-quickdir"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:522
+#, no-wrap
+msgid "Creating the *cvs* buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:529
+msgid ""
+"Most commands in PCL-CVS require that you have a @file{*cvs*} buffer.  The "
+"commands that you use to get one are listed below.  For each, a @samp{cvs} "
+"process will be run, the output will be parsed by PCL-CVS, and the result "
+"will be printed in the @file{*cvs*} buffer (see @ref{Buffer contents}, for a "
+"description of the buffer's contents)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:531
+#, no-wrap
+msgid "M-x cvs-update"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:534
+msgid ""
+"Run a @samp{cvs update} command.  You will be asked for the directory in "
+"which the @samp{cvs update} will be run."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:535
+#, no-wrap
+msgid "M-x cvs-examine"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:540
+msgid ""
+"Run a @samp{cvs -n update} command.  This is identical to the previous "
+"command, except that it will only check what needs to be done but will not "
+"change anything.  You will be asked for the directory in which the @samp{cvs "
+"-n update} will be run."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:541
+#, no-wrap
+msgid "M-x cvs-status"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:544
+msgid ""
+"Run a @samp{cvs status} command.  You will be asked for the directory in "
+"which the @samp{cvs status} will be run."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:545
+#, no-wrap
+msgid "M-x cvs-checkout"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:549
+msgid ""
+"Run a @samp{cvs checkout} command.  You will be asked for the directory in "
+"which the @samp{cvs update} will be run and the module to be checked out."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:550
+#, no-wrap
+msgid "M-x cvs-quickdir"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:556
+msgid ""
+"Populate the @file{*cvs*} buffer by just looking at the @file{CVS/Entries} "
+"files.  This is very much like @code{cvs-examine} except that it does not "
+"access the CVS repository, which is a major advantage when the repository is "
+"far away.  But of course, it will not be able to detect when a file needs to "
+"be updated or merged."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:558
+#, no-wrap
+msgid "cvs-dired-action"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:559
+#, no-wrap
+msgid "cvs-dired-use-hook"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:567
+msgid ""
+"The first four of those commands are also reachable from the menu bar under "
+"@samp{Tools->PCL-CVS}.  Finally, an alternative way is to visit the CVS "
+"administrative subdirectory in your work area with a simple prefix "
+"argument.  For example @kbd{C-u C-x C-f ~/my/work/CVS @key{RET}}.  This by "
+"default runs @code{cvs-quickdir} but the specific behavior can be changed "
+"with @code{cvs-dired-action} and @code{cvs-dired-use-hook}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:573
+msgid ""
+"By default, the commands above will descend recursively into "
+"subdirectories.  You can avoid that behavior by including @samp{-l} in the "
+"flags for the command.  These flags can be set by giving a prefix argument "
+"to the command (e.g., by typing @kbd{C-u M-x cvs-update @key{RET} -l "
+"@key{RET}})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:577
+#, no-wrap
+msgid "Optional switches to CVS"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:578
+#, no-wrap
+msgid "Command-line options to CVS"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:587
+msgid ""
+"This section describes the convention used by nearly all PCL-CVS commands "
+"for setting optional flags sent to CVS@.  A single @kbd{C-u} prefix argument "
+"is used to cause the command to prompt for flags to be used for the current "
+"invocation of the command only.  Two @kbd{C-u} prefix arguments are used to "
+"prompt for flags which will be set permanently, for the current invocation "
+"and all that follow, until the flags are changed, or unless temporary flags "
+"are set which override them."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:593
+msgid ""
+"Perhaps an example or two is in order.  Say you are about to add a binary "
+"file to the repository, and want to specify the flags @samp{-kb} to "
+"@samp{cvs add}.  You can type @kbd{C-u a -kb @key{RET}}, and the file will "
+"be added.  Subsequent @samp{cvs add} commands will use the previously "
+"prevailing flags."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:601
+msgid ""
+"As a second example, say you are about to perform a diff and want to see the "
+"result in unified diff format, i.e., you'd like to pass the flag @samp{-u} "
+"to both @samp{cvs diff} and @samp{diff}.  You'd also like all subsequent "
+"diffs to use this flag.  You can type @kbd{C-u C-u = -u @key{RET}} and the "
+"diff will be performed, and the default flags will be set to "
+"@code{(\"-u\")}.  You can of course override this flag for a single diff by "
+"using a single @kbd{C-u} prefix argument."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:602
+#, no-wrap
+msgid "Special prefix"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:612
+msgid ""
+"In addition to this, some commands can take @dfn{special prefix} arguments.  "
+"These work as follows: When called with a @kbd{C-u} prefix, the user is "
+"prompted for a new value of the special prefix and the special prefix is "
+"activated for the next command.  When called without the @kbd{C-u} prefix, "
+"the special prefix is re-activated (with the same value as last time) for "
+"the next command.  Calling the prefix command again when it's already "
+"activated deactivates it.  Calling it with the @kbd{C-u C-u} prefix "
+"activates it for all subsequent commands until you deactivate it "
+"explicitly.  The special prefixes are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:614 ../../../../../doc/misc/pcl-cvs.texi:755
+#, no-wrap
+msgid "T"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:616
+msgid "Toggles whether or not marks will be active in the next command."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:617
+#, no-wrap
+msgid "b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:620
+msgid ""
+"Provide the next command with a branch (can be any version specifier) to "
+"work on."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:621
+#, no-wrap
+msgid "B"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:625
+msgid ""
+"Secondary branch argument.  Only meaningful if @kbd{b} is also used.  It can "
+"be used to provide a second branch argument to @code{cvs-mode-diff} or to "
+"@code{cvs-mode-update}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:626
+#, no-wrap
+msgid "M-f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:629
+msgid ""
+"Forces the next command to apply to every selected file rather than only to "
+"the ones PCL-CVS thinks are relevant."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/pcl-cvs.texi:631
+#, no-wrap
+msgid "Updating the buffer"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:632
+#, no-wrap
+msgid "Updating the @file{*cvs*} buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:636 ../../../../../doc/misc/pcl-cvs.texi:1085
+#, no-wrap
+msgid "cvs-mode-update"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:637
+#, no-wrap
+msgid "cvs-mode-examine"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:638 ../../../../../doc/misc/pcl-cvs.texi:864
+#, no-wrap
+msgid "cvs-mode-status"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:642
+msgid ""
+"The following commands can be used from within the @file{*cvs*} buffer to "
+"update the display:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:644
+#, no-wrap
+msgid "M-u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:646
+msgid "Runs the command @samp{cvs-update}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:647
+#, no-wrap
+msgid "M-e"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:649
+msgid "Runs the command @samp{cvs-examine}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:650
+#, no-wrap
+msgid "M-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:652
+msgid "Runs the command @samp{cvs-status}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:657
+msgid ""
+"In addition to the above commands which operate on the whole module, you can "
+"run the equivalent CVS command on just a subset of the files/directories "
+"with these keys:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:659 ../../../../../doc/misc/pcl-cvs.texi:1090
+#, no-wrap
+msgid "O"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:662
+msgid ""
+"Runs @code{cvs-mode-update} on the selected files.  When run on the "
+"top-level directory, this is equivalent to @kbd{M-u}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:663
+#, no-wrap
+msgid "e"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:666
+msgid ""
+"Runs @code{cvs-mode-examine} on the selected files.  When run on the "
+"top-level directory, this is equivalent to @kbd{M-e}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:667
+#, no-wrap
+msgid "cvs-status-mode"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:668 ../../../../../doc/misc/pcl-cvs.texi:872
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:673
+msgid ""
+"Runs @code{cvs-mode-status} on the selected files.  When run on the "
+"top-level directory, this is equivalent to @kbd{M-s}, except that CVS output "
+"will be shown in a @file{*cvs-info*} buffer that will be put in "
+"@samp{cvs-status-mode}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:677 ../../../../../doc/misc/pcl-cvs.texi:678
+#, no-wrap
+msgid "Movement Commands"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:679
+#, no-wrap
+msgid "cvs-mode-next-line"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:680
+#, no-wrap
+msgid "cvs-mode-previous-line"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:681
+#, no-wrap
+msgid "SPC@r{--Move down one file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:682
+#, no-wrap
+msgid "n@r{--Move down one file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:683
+#, no-wrap
+msgid "p@r{--Move up one file}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:688
+msgid ""
+"You can use most normal Emacs commands to move forward and backward in the "
+"buffer.  Some keys are rebound to functions that take advantage of the fact "
+"that the buffer is a PCL-CVS buffer:"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/pcl-cvs.texi:691
+#, no-wrap
+msgid "SPC"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/pcl-cvs.texi:692
+#, no-wrap
+msgid "n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:695
+msgid ""
+"These keys move the cursor one file forward, towards the end of the buffer "
+"(@code{cvs-mode-next-line})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:696
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:699
+msgid ""
+"This key moves one file backward, towards the beginning of the buffer "
+"(@code{cvs-mode-previous-line})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:704
+#, no-wrap
+msgid "Selecting files (commands to mark files)"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:706
+#, no-wrap
+msgid "m@r{--marking a file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:707
+#, no-wrap
+msgid "M@r{--marking all files}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:708
+#, no-wrap
+msgid "u@r{--unmark a file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:709
+#, no-wrap
+msgid "ESC DEL@r{--unmark all files}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:710
+#, no-wrap
+msgid "DEL@r{--unmark previous file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:711
+#, no-wrap
+msgid "%@r{--mark files matching regexp}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:712
+#, no-wrap
+msgid "S@r{--mark files in a particular state}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:713
+#, no-wrap
+msgid "T@r{--toggle marks}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:714
+#, no-wrap
+msgid "cvs-mode-mark"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:715
+#, no-wrap
+msgid "cvs-mode-unmark"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:716
+#, no-wrap
+msgid "cvs-mode-mark-all-files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:717
+#, no-wrap
+msgid "cvs-mode-unmark-all-files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:718
+#, no-wrap
+msgid "cvs-mode-unmark-up"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:719
+#, no-wrap
+msgid "cvs-mode-mark-matching-files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:720
+#, no-wrap
+msgid "cvs-mode-mark-on-state"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:721
+#, no-wrap
+msgid "cvs-mode-toggle-marks"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:725
+msgid ""
+"PCL-CVS works on a set of @dfn{selected files} (@pxref{Selected files}).  "
+"You can mark and unmark files with these commands:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:727
+#, no-wrap
+msgid "m"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:731
+msgid ""
+"This marks the file that the cursor is positioned on.  If the cursor is "
+"positioned on a directory all files in that directory are marked "
+"(@code{cvs-mode-mark})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:732
+#, no-wrap
+msgid "u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:736
+msgid ""
+"Unmark the file that the cursor is positioned on. If the cursor is on a "
+"directory, all files in that directory are unmarked "
+"(@code{cvs-mode-unmark})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:737
+#, no-wrap
+msgid "M"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:739
+msgid "Mark @emph{all} files in the buffer (@code{cvs-mode-mark-all-files})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:740
+#, no-wrap
+msgid "M-@key{DEL}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:742
+msgid "Unmark @emph{all} files (@code{cvs-mode-unmark-all-files})."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/pcl-cvs.texi:743
+#, no-wrap
+msgid "DEL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:746
+msgid ""
+"Unmark the file on the previous line, and move point to that line "
+"(@code{cvs-mode-unmark-up})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:747
+#, no-wrap
+msgid "%"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:750
+msgid ""
+"Mark all files matching a regular expression "
+"(@code{cvs-mode-mark-matching-files})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:751
+#, no-wrap
+msgid "S"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:754
+msgid ""
+"Mark all files in a particular state, such as ``Modified'' or ``Removed'' "
+"(@code{cvs-mode-mark-on-state})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:757
+msgid "Toggle use of marks for the next command (@code{cvs-mode-toggle-marks})."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:763
+#, no-wrap
+msgid "cvs-mode-commit"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:764
+#, no-wrap
+msgid "cvs-mode-commit-setup"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:765
+#, no-wrap
+msgid "c@r{--commit files}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:766
+#, no-wrap
+msgid "C@r{--commit files with @file{ChangeLog} message}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:767 ../../../../../doc/misc/pcl-cvs.texi:1229
+#, no-wrap
+msgid "cvs-auto-revert@r{ (variable)}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:768
+#, no-wrap
+msgid "Commit buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:769
+#, no-wrap
+msgid "Edit buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:770
+#, no-wrap
+msgid "Erasing commit message"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:771 ../../../../../doc/misc/pcl-cvs.texi:1241
+#, no-wrap
+msgid "Reverting buffers after commit"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:774
+msgid "Committing changes basically works as follows:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/pcl-cvs.texi:780
+msgid ""
+"After having selected the files you want to commit, you type either @kbd{c} "
+"or @kbd{C} which brings up a special buffer @file{*cvs-commit*}."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/pcl-cvs.texi:784
+msgid ""
+"You type in the log message describing the changes you're about to commit "
+"(@pxref{Log Edit Mode})."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/pcl-cvs.texi:788
+msgid "When you're happy with it, you type @kbd{C-c C-c} to do the actual commit."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:792
+msgid ""
+"There's no hidden state, so you can abort the process or pick it up again at "
+"any time."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:793
+#, no-wrap
+msgid "log-edit-confirm@r{ (variable)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:801
+msgid ""
+"The set of files actually committed is really decided only during the very "
+"last step, which is a mixed blessing.  It allows you to go back and change "
+"your mind about which files to commit, but it also means that you might "
+"inadvertently change the set of selected files.  To reduce the risk of "
+"error, @kbd{C-c C-c} will ask for confirmation if the set of selected files "
+"has changed between the first step and the last.  You can change this last "
+"detail with @code{log-edit-confirm}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:809
+msgid ""
+"As for the difference between @kbd{c} (i.e., @code{cvs-mode-commit}) and "
+"@kbd{C} (i.e., @code{cvs-mode-commit-setup}) is that the first gets you "
+"straight to @file{*cvs-commit*} without erasing it or changing anything to "
+"its content, while the second first erases @file{*cvs-commit*} and tries to "
+"initialize it with a sane default (it does that by either using a template "
+"provided by the CVS administrator or by extracting a relevant log message "
+"from a @file{ChangeLog} file)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:817
+msgid ""
+"If you are editing the files in your Emacs, an automatic "
+"@samp{revert-buffer} will be performed.  (If the file contains "
+"@samp{$@asis{Id}$} keywords, @samp{cvs commit} will write a new file with "
+"the new values substituted.  The auto-revert makes sure that you get them "
+"into your buffer.)  The revert will not occur if you have modified your "
+"buffer, or if @samp{cvs-auto-revert} is set to @samp{nil}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:822
+#, no-wrap
+msgid "Finding files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:823
+#, no-wrap
+msgid "Loading files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:824
+#, no-wrap
+msgid "Dired"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:825
+#, no-wrap
+msgid "Invoking dired"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:826
+#, no-wrap
+msgid "cvs-mode-find-file"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:827
+#, no-wrap
+msgid "cvs-mode-find-file-other-window"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:828
+#, no-wrap
+msgid "cvs-mode-add-change-log-entry-other-window"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:829
+#, no-wrap
+msgid "f@r{--find file or directory}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:830
+#, no-wrap
+msgid "o@r{--find file in other window}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:831
+#, no-wrap
+msgid "A@r{--add @file{ChangeLog} entry}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:837
+msgid ""
+"There are currently three commands that can be used to find a file (that is, "
+"load it into a buffer and start editing it there).  These commands work on "
+"the line that the cursor is situated at.  They always ignore any marked "
+"files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:839
+#, no-wrap
+msgid "f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:843
+msgid ""
+"Find the file that the cursor points to (@code{cvs-mode-find-file}).  If the "
+"cursor points to a directory, run @code{dired} on that directory; "
+"@inforef{Dired, , emacs}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:844
+#, no-wrap
+msgid "o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:847
+msgid ""
+"Like @kbd{f}, but use another window "
+"(@code{cvs-mode-find-file-other-window})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:848
+#, no-wrap
+msgid "A"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:853
+msgid ""
+"Invoke @samp{add-change-log-entry-other-window} to edit a @file{ChangeLog} "
+"file.  The @file{ChangeLog} file will be found in the directory of the file "
+"the cursor points to, or in a parent of that directory "
+"(@code{cvs-mode-add-change-log-entry-other-window})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:858
+#, no-wrap
+msgid "Status (cvs command)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:859
+#, no-wrap
+msgid "Log (RCS/cvs command)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:860
+#, no-wrap
+msgid "Getting status"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:861
+#, no-wrap
+msgid "l@r{--run @samp{cvs log}}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:862
+#, no-wrap
+msgid "s@r{--run @samp{cvs status}}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:863 ../../../../../doc/misc/pcl-cvs.texi:1208
+#, no-wrap
+msgid "cvs-mode-log"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:867
+#, no-wrap
+msgid "l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:871
+msgid ""
+"Call the command @code{cvs-mode-log} which runs @samp{cvs log} on all "
+"selected files, and show the result in a temporary buffer @file{*cvs-info*} "
+"(@pxref{Log View Mode})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:878
+msgid ""
+"Call the command @code{cvs-mode-status} which runs @samp{cvs status} on all "
+"selected files, and show the result in a temporary buffer @file{*cvs-info*}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:883
+#, no-wrap
+msgid "Adding files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:884
+#, no-wrap
+msgid "Removing files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:885
+#, no-wrap
+msgid "Resurrecting files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:886
+#, no-wrap
+msgid "Deleting files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:887
+#, no-wrap
+msgid "Putting files under CVS control"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:888
+#, no-wrap
+msgid "a@r{--add a file}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:889
+#, no-wrap
+msgid "r@r{--remove a file}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:890
+#, no-wrap
+msgid "cvs-mode-add"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:891
+#, no-wrap
+msgid "cvs-mode-remove-file"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:895
+msgid ""
+"The following commands are available to make it easy to add files to and "
+"remove them from the CVS repository."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:897
+#, no-wrap
+msgid "a"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:903
+msgid ""
+"Add all selected files.  This command can be used on @samp{Unknown} files "
+"(@pxref{Buffer contents}).  The status of the file will change to "
+"@samp{Added}, and you will have to use @kbd{c} (@samp{cvs-mode-commit} "
+"@pxref{Committing changes}), to really add the file to the repository."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:906
+msgid ""
+"This command can also be used on @samp{Removed} files (before you commit "
+"them) to resurrect them."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:908
+msgid "The command that is run is @code{cvs-mode-add}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:909
+#, no-wrap
+msgid "r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:917
+msgid ""
+"This command removes the selected files (after prompting for confirmation).  "
+"The files are deleted from your directory and (unless the status was "
+"@samp{Unknown}; @pxref{Buffer contents}) they will also be @samp{cvs "
+"remove}d.  If the files' status was @samp{Unknown} they will disappear from "
+"the buffer.  Otherwise their status will change to @samp{Removed}, and you "
+"must use @kbd{c} (@samp{cvs-mode-commit}, @pxref{Committing changes}) to "
+"commit the removal."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:919
+msgid "The command that is run is @code{cvs-mode-remove-file}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:924
+#, no-wrap
+msgid "Undo changes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:925
+#, no-wrap
+msgid "Flush changes"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:926
+#, no-wrap
+msgid "U@r{--undo changes}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:927
+#, no-wrap
+msgid "cvs-mode-undo-local-changes"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:930
+#, no-wrap
+msgid "U"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:935
+msgid ""
+"If you have modified a file, and for some reason decide that you don't want "
+"to keep the changes, you can undo them with this command.  It works by "
+"removing your working copy of the file and then getting the latest version "
+"from the repository (@code{cvs-mode-undo-local-changes})."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:940
+#, no-wrap
+msgid "Expunging uninteresting entries"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:941
+#, no-wrap
+msgid "Uninteresting entries, getting rid of them"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:942
+#, no-wrap
+msgid "Getting rid of uninteresting lines"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:943
+#, no-wrap
+msgid "Removing uninteresting (processed) lines"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:944
+#, no-wrap
+msgid "Handled lines, removing them"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:945
+#, no-wrap
+msgid "x@r{--remove processed entries}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:946
+#, no-wrap
+msgid "C-k@r{--remove selected entries}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:947
+#, no-wrap
+msgid "cvs-mode-remove-handled"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:948
+#, no-wrap
+msgid "cvs-mode-acknowledge"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:949 ../../../../../doc/misc/pcl-cvs.texi:974
+#, no-wrap
+msgid "cvs-mode-ignore"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:952
+#, no-wrap
+msgid "x"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:958
+msgid ""
+"This command allows you to remove all entries that you have processed.  More "
+"specifically, the lines for @samp{Up-to-date} files (@pxref{Buffer "
+"contents}) are removed from the buffer.  If a directory becomes empty the "
+"heading for that directory is also removed.  This makes it easier to get an "
+"overview of what needs to be done."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:959
+#, no-wrap
+msgid "cvs-mode-remove-handled@r{ (variable)}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:963
+msgid ""
+"@kbd{x} invokes @code{cvs-mode-remove-handled}.  If "
+"@samp{cvs-auto-remove-handled} is set to non-@code{nil}, this will "
+"automatically be performed after every commit."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:964
+#, no-wrap
+msgid "C-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:967
+msgid ""
+"This command can be used for lines that @samp{cvs-mode-remove-handled} would "
+"not delete, but that you want to delete (@code{cvs-mode-acknowledge})."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:973
+#, no-wrap
+msgid "i@r{--ignoring files}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:977
+#, no-wrap
+msgid "i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:981
+msgid ""
+"Arrange so that CVS will ignore the selected files.  The file names are "
+"added to the @file{.cvsignore} file in the corresponding directory.  If the "
+"@file{.cvsignore} file doesn't exist, it will be created."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:984
+msgid ""
+"The @file{.cvsignore} file should normally be added to the repository, but "
+"you could ignore it as well, if you like it better that way."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:986
+msgid "This runs @code{cvs-mode-ignore}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:990
+#, no-wrap
+msgid "Diff"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:991
+#, no-wrap
+msgid "Invoking @code{diff}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:992 ../../../../../doc/misc/pcl-cvs.texi:1056
+#, no-wrap
+msgid "Conflicts, how to resolve them"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:994
+#, no-wrap
+msgid "d=@r{--run @samp{cvs diff}}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:995
+#, no-wrap
+msgid "=@r{--run @samp{cvs diff}}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:996
+#, no-wrap
+msgid "db@r{--diff against base version}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:997
+#, no-wrap
+msgid "dh@r{--diff against head of repository}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:998
+#, no-wrap
+msgid "dr@r{--diff between base and head of repository}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:999
+#, no-wrap
+msgid "dv@r{--diff against vendor branch}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1000
+#, no-wrap
+msgid "dy@r{--diff against yesterday's head}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1001
+#, no-wrap
+msgid "cvs-mode-diff"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1002
+#, no-wrap
+msgid "cvs-mode-diff-backup"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1003
+#, no-wrap
+msgid "cvs-mode-diff-head"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1004
+#, no-wrap
+msgid "cvs-mode-diff-repository"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1005
+#, no-wrap
+msgid "cvs-mode-diff-vendor"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1006
+#, no-wrap
+msgid "cvs-mode-diff-yesterday"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1007 ../../../../../doc/misc/pcl-cvs.texi:1104
+#, no-wrap
+msgid "cvs-invert-ignore-marks@r{ (variable)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1010
+#, no-wrap
+msgid "="
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/pcl-cvs.texi:1011
+#, no-wrap
+msgid "d ="
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1014
+msgid ""
+"Display a @samp{cvs diff} between the selected files and the version that "
+"they are based on (@code{cvs-mode-diff})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1015
+#, no-wrap
+msgid "d b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1021
+msgid ""
+"If CVS finds a conflict while merging two versions of a file (during a "
+"@samp{cvs update}, @pxref{Updating the buffer}) it will save the original "
+"file in a file called @file{.#@var{file}.@var{version}} where @var{file} is "
+"the name of the file, and @var{version} is the revision number that "
+"@var{file} was based on."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1024
+msgid ""
+"With the @kbd{d b} command you can run a @samp{diff} on the files "
+"@file{.#@var{file}.@var{version}} and @file{@var{file}}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1025
+#, no-wrap
+msgid "d h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1029
+msgid ""
+"Display a @samp{cvs diff} between the selected files and the head revision "
+"(the most recent version on the current branch) in the repository "
+"(@code{cvs-mode-diff-head})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1030
+#, no-wrap
+msgid "d r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1036
+msgid ""
+"Display a @samp{cvs diff} between the base revision of the selected files "
+"and the head revision in the repository.  This displays the changes anyone "
+"has committed to the repository since you last executed a checkout, update "
+"or commit operation (@code{cvs-mode-diff-repository})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1037
+#, no-wrap
+msgid "d v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1041
+msgid ""
+"Display a @samp{cvs diff} between the selected files and the head revision "
+"of the vendor branch in the repository (@code{cvs-mode-diff-vendor})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1042
+#, no-wrap
+msgid "d y"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1046
+msgid ""
+"Display a @samp{cvs diff} between the selected files and yesterday's head "
+"revision in the repository (@code{cvs-mode-diff-yesterday})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1050
+msgid ""
+"By default, @samp{diff} commands ignore the marks.  This can be changed with "
+"@code{cvs-invert-ignore-marks}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/pcl-cvs.texi:1052
+#, no-wrap
+msgid "Running ediff"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1053
+#, no-wrap
+msgid "Ediff"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1054
+#, no-wrap
+msgid "Invoking ediff"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1057
+#, no-wrap
+msgid "Resolving conflicts"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1058
+#, no-wrap
+msgid "e@r{--invoke @samp{ediff}}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1059
+#, no-wrap
+msgid "cvs-mode-idiff"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1060
+#, no-wrap
+msgid "cvs-mode-imerge"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1063
+#, no-wrap
+msgid "cvs-idiff-imerge-handlers@r{ (variable)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1064
+#, no-wrap
+msgid "d e"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1070
+msgid ""
+"This uses @code{ediff} (or @code{emerge}, depending on "
+"@samp{cvs-idiff-imerge-handlers}) to allow you to view diffs.  If a prefix "
+"argument is given, PCL-CVS will prompt for a revision against which the diff "
+"should be made, else the default will be to use the BASE revision."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1071
+#, no-wrap
+msgid "Merging with @code{ediff} and @code{emerge}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1072
+#, no-wrap
+msgid "d E"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1075
+msgid ""
+"This command use @code{ediff} (or @code{emerge}, see above) to allow you to "
+"do an interactive 3-way merge."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1081
+msgid ""
+"@strong{Please note:} when the file status is @samp{Conflict}, CVS has "
+"already performed a merge.  The resulting file is not used in any way if you "
+"use this command.  If you use the @kbd{q} command inside @samp{ediff} (to "
+"successfully terminate a merge) the file that CVS created will be "
+"overwritten."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1087
+#, no-wrap
+msgid "O@r{--update files}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1093
+msgid ""
+"Update all selected files with status @samp{Need-update} by running "
+"@samp{cvs update} on them (@code{cvs-mode-update})."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1098
+#, no-wrap
+msgid "cvs-mode-tag"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1099
+#, no-wrap
+msgid "cvs-mode-untag"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1100
+#, no-wrap
+msgid "cvs-rtag"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1102
+#, no-wrap
+msgid "M-t@r{--repository tag files}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1103
+#, no-wrap
+msgid "t@r{--tag files}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1105
+#, no-wrap
+msgid "cvs-force-dir-tag@r{ (variable)}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1108
+#, no-wrap
+msgid "t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1115
+msgid ""
+"Tag all selected files by running @samp{cvs tag} on them "
+"(@code{cvs-mode-tag}).  It's usually preferable to tag a directory at a "
+"time.  Rather than selecting all files (which too often doesn't select all "
+"files but only the few that are displayed), clear the selection with "
+"@kbd{M-@key{DEL}} (@code{cvs-mode-unmark-all-files}), position the cursor on "
+"the directory you want to tag and hit @kbd{t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1121
+msgid ""
+"By default, @samp{tag} commands ignore the marks.  This can be changed with "
+"@code{cvs-invert-ignore-marks}.  Also, by default @samp{tag} can only be "
+"applied to directories, see @code{cvs-force-dir-tag} if you want to change "
+"this behavior."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1125
+#, no-wrap
+msgid "cvs-mode-byte-compile-files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1126
+#, no-wrap
+msgid "Recompiling elisp files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1127
+#, no-wrap
+msgid "Byte compilation"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1128
+#, no-wrap
+msgid "cvs-mode-delete-lock"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1129
+#, no-wrap
+msgid "Getting rid of lock files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1130
+#, no-wrap
+msgid "Lock files"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1131
+#, no-wrap
+msgid "q@r{--bury the PCL-CVS buffer}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1132
+#, no-wrap
+msgid "cvs-bury-buffer"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1133
+#, no-wrap
+msgid "cvs-mode-quit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1134
+#, no-wrap
+msgid "Quitting"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1135
+#, no-wrap
+msgid "h@r{--help}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1136
+#, no-wrap
+msgid "?@r{--help}"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1137
+#, no-wrap
+msgid "cvs-help"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1138
+#, no-wrap
+msgid "Help"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1141
+#, no-wrap
+msgid "M-x cvs-mode-byte-compile-files"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1143
+msgid "Byte compile all selected files that end in @file{.el}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1144
+#, no-wrap
+msgid "M-x cvs-mode-delete-lock"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1149
+msgid ""
+"This command deletes the lock files that the @file{*cvs*} buffer informs you "
+"about.  You should normally never have to use this command, since CVS tries "
+"very carefully to always remove the lock files itself."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1153
+msgid ""
+"You can only use this command when a message in the @file{*cvs*} buffer "
+"tells you so.  You should wait a while before using this command in case "
+"someone else is running a @code{cvs} command."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1155
+msgid "Also note that this only works if the repository is local."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1156
+#, no-wrap
+msgid "?"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/pcl-cvs.texi:1157
+#, no-wrap
+msgid "h"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1160
+msgid ""
+"Show a summary of common command key bindings in the echo area "
+"(@code{cvs-help})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1161
+#, no-wrap
+msgid "q"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1163
+msgid "Bury the PCL-CVS buffer (@code{cvs-bury-buffer})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1164
+#, no-wrap
+msgid "M-x cvs-mode-quit"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1166
+msgid "Quit PCL-CVS, killing the @file{*cvs*} buffer."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/pcl-cvs.texi:1169
+#, no-wrap
+msgid "Editing a Log Message"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1171
+#, no-wrap
+msgid "Log Edit mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1172
+#, no-wrap
+msgid "mode, Log Edit"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1175
+msgid ""
+"Buffers for entering/editing log messages for changes which are about to be "
+"committed are put into Log Edit mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1180
+msgid ""
+"Sometimes the log buffer contains default text when you enter it, typically "
+"the last log message entered.  If it does, mark and point are set around the "
+"entire contents of the buffer so that it is easy to kill the contents of the "
+"buffer with @kbd{C-w}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1181
+#, no-wrap
+msgid "log-edit-insert-changelog"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1191
+msgid ""
+"If you work by writing entries in the @file{ChangeLog} (@pxref{Change Log,,, "
+"emacs, The GNU Emacs Manual}) and then commit the change under revision "
+"control, you can generate the Log Edit text from the ChangeLog using "
+"@kbd{C-c C-a} (@kbd{log-edit-insert-changelog}).  This looks for entries for "
+"the file(s) concerned in the top entry in the ChangeLog and uses those "
+"paragraphs as the log text.  This text is only inserted if the top entry was "
+"made under your user name on the current date.  @xref{Change Logs and VC,,, "
+"emacs, The GNU Emacs Manual}, for the opposite way of working---generating "
+"ChangeLog entries from the revision control log."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1195
+msgid ""
+"In the Log Edit buffer, @kbd{C-c C-f} (@kbd{M-x log-edit-show-files})  shows "
+"the list of files to be committed in case you need to check that."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1198
+msgid ""
+"When you have finished editing the log message, type @kbd{C-c C-c} to exit "
+"the buffer and commit the change."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/pcl-cvs.texi:1202
+#, no-wrap
+msgid "Browsing a Log of Changes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1204
+#, no-wrap
+msgid "Log View mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1205
+#, no-wrap
+msgid "mode, Log View"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1206
+#, no-wrap
+msgid "output, logs"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1209
+#, no-wrap
+msgid "vc-print-log"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1213
+msgid ""
+"Log View mode provides a few useful commands for navigating revision control "
+"log output.  It is used for the output buffers of both @code{cvs-mode-log} "
+"and @code{vc-print-log}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1218
+msgid ""
+"In this mode, @kbd{n} goes to the next message and @kbd{p} goes to the "
+"previous message and @kbd{N} and @kbd{P} go to the next and previous files, "
+"respectively, in multi-file output.  With a numeric prefix argument, these "
+"commands move that many messages of files."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1224
+#, no-wrap
+msgid "log-edit-changelog-full-paragraphs@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1225
+#, no-wrap
+msgid "cvs-auto-remove-handled@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1226
+#, no-wrap
+msgid "cvs-auto-remove-directories@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1227
+#, no-wrap
+msgid "cvs-update-prog-output-skip-regexp@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1228
+#, no-wrap
+msgid "cvs-cvsroot@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1230
+#, no-wrap
+msgid "log-edit-require-final-newline@r{ (variable)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1231
+#, no-wrap
+msgid "cvs-sort-ignore-file@r{ (variable)}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1233
+#, no-wrap
+msgid "Variables, list of all"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1234
+#, no-wrap
+msgid "Erasing input buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1235
+#, no-wrap
+msgid "Context diff, how to get"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1236
+#, no-wrap
+msgid "Unidiff, how to get"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1237
+#, no-wrap
+msgid "Automatically remove handled files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1238
+#, no-wrap
+msgid "@samp{-u} option in modules file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1239
+#, no-wrap
+msgid "Modules file (@samp{-u} option)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1240
+#, no-wrap
+msgid "Update program (@samp{-u} option in modules file)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1242
+#, no-wrap
+msgid "Require final newline"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1243
+#, no-wrap
+msgid "Automatically inserting newline"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1244
+#, no-wrap
+msgid "Commit message, inserting newline"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1245
+#, no-wrap
+msgid "Sorting @file{.cvsignore} file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1246
+#, no-wrap
+msgid "@file{.cvsignore} file, sorting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1247
+#, no-wrap
+msgid "Automatically sorting @file{.cvsignore}"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1248
+#, no-wrap
+msgid "@samp{CVSROOT}, overriding"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1253
+msgid ""
+"If you have an idea about any customization that would be handy but isn't "
+"present in this list, please tell us! For info on how to reach us, see "
+"@ref{Bugs}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1255
+#, no-wrap
+msgid "cvs-auto-remove-handled"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1260
+msgid ""
+"If this variable is set to any non-@code{nil} value, "
+"@samp{cvs-mode-remove-handled} will be called every time you check in files, "
+"after the check-in is ready.  @xref{Removing handled entries}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1261
+#, no-wrap
+msgid "cvs-auto-remove-directories"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1265
+msgid ""
+"If this variable is set to any non-@code{nil} value, directories that do not "
+"contain any files to be checked in will not be listed in the @file{*cvs*} "
+"buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1266
+#, no-wrap
+msgid "cvs-auto-revert"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1270
+msgid ""
+"If this variable is set to any non-@samp{nil} value any buffers you have "
+"that visit a file that is committed will be automatically reverted.  This "
+"variable defaults to @samp{t}. @xref{Committing changes}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1271
+#, no-wrap
+msgid "cvs-update-prog-output-skip-regexp"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1278
+msgid ""
+"The @samp{-u} flag in the @file{modules} file can be used to run a command "
+"whenever a @samp{cvs update} is performed (see @code{cvs(5)}).  This regexp "
+"is used to search for the last line in that output.  It is normally set to "
+"@samp{$}.  That setting is only correct if the command outputs nothing.  "
+"Note that PCL-CVS will get very confused if the command outputs "
+"@emph{anything} to @code{stderr}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1279
+#, no-wrap
+msgid "cvs-cvsroot"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1284
+msgid ""
+"This variable can be set to override @samp{CVSROOT}.  It should be a "
+"string.  If it is set, then every time a @code{cvs} command is run, it will "
+"be called as @samp{cvs -d @var{cvs-cvsroot}@dots{}}.  This can be useful if "
+"your site has several repositories."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1285
+#, no-wrap
+msgid "log-edit-require-final-newline"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1295
+msgid ""
+"When you enter a log message by typing into the @file{*cvs-commit-message*} "
+"buffer, PCL-CVS normally automatically inserts a trailing newline, unless "
+"there already is one.  This behavior can be controlled via "
+"@samp{cvs-commit-buffer-require-final-newline}.  If it is @samp{t} (the "
+"default behavior), a newline will always be appended.  If it is @samp{nil}, "
+"newlines will never be appended.  Any other value causes PCL-CVS to ask the "
+"user whenever there is no trailing newline in the commit message buffer."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1296
+#, no-wrap
+msgid "cvs-mode-changelog-commit"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1297
+#, no-wrap
+msgid "log-edit-changelog-full-paragraphs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1302
+msgid ""
+"If this variable is non-@code{nil}, include full @file{ChangeLog} paragraphs "
+"in the CVS log created by @samp{cvs-mode-changelog-commit}.  This may be set "
+"in the local variables section of a @file{ChangeLog} file, to indicate the "
+"policy for that @file{ChangeLog}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1303
+#, no-wrap
+msgid "@file{ChangeLog} paragraphs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1308
+msgid ""
+"A @dfn{@file{ChangeLog} paragraph} is a bunch of log text containing no "
+"blank lines; a paragraph usually describes a set of changes with a single "
+"purpose, but perhaps spanning several functions in several files.  Changes "
+"in different paragraphs are unrelated."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1314
+msgid ""
+"You could argue that the CVS log entry for a file should contain the full "
+"@file{ChangeLog} paragraph mentioning the change to the file, even though it "
+"may mention other files, because that gives you the full context you need to "
+"understand the change.  This is the behavior you get when this variable is "
+"set to @code{t}, the default."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1319
+msgid ""
+"On the other hand, you could argue that the CVS log entry for a change "
+"should contain only the text for the changes which occurred in that file, "
+"because the CVS log is per-file.  This is the behavior you get when this "
+"variable is set to @code{nil}."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/pcl-cvs.texi:1320
+#, no-wrap
+msgid "cvs-mode-ignore@r{, and @file{.cvsignore} sorting}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1321
+#, no-wrap
+msgid "cvs-sort-ignore-file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1326
+msgid ""
+"If this variable is set to any non-@samp{nil} value, the @file{.cvsignore} "
+"file will always be sorted whenever you use @samp{cvs-mode-ignore} to add a "
+"file to it.  This option is on by default."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1335
+#, no-wrap
+msgid "cvs-header @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1336
+#, no-wrap
+msgid "cvs-filename @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1337
+#, no-wrap
+msgid "cvs-unknown @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1338
+#, no-wrap
+msgid "cvs-handled @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1339
+#, no-wrap
+msgid "cvs-need-action @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1340
+#, no-wrap
+msgid "cvs-marked @r{(face)}"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1341
+#, no-wrap
+msgid "cvs-msg @r{(face)}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1346
+msgid ""
+"PCL-CVS adds a few extra features, including menus, mouse bindings, and "
+"fontification of the @file{*cvs*} buffer.  The faces defined for "
+"fontification are listed below:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1348
+#, no-wrap
+msgid "cvs-header"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1350
+msgid "used to highlight directory changes."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1351
+#, no-wrap
+msgid "cvs-filename"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1353
+msgid "Used to highlight file names."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1354
+#, no-wrap
+msgid "cvs-unknown"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1356
+msgid "Used to highlight the status of files which are @samp{Unknown}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1357
+#, no-wrap
+msgid "cvs-handled"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1360
+msgid ""
+"Used to highlight the status of files which are handled and need no further "
+"action."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1361
+#, no-wrap
+msgid "cvs-need-action"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1363
+msgid "Used to highlight the status of files which still need action."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1364
+#, no-wrap
+msgid "cvs-marked"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1366
+msgid "Used to highlight the marked file indicator (@samp{*})."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1367
+#, no-wrap
+msgid "cvs-msg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1369
+msgid "Used to highlight CVS messages."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/pcl-cvs.texi:1373
+#, no-wrap
+msgid "Bugs (known and unknown)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1374
+#, no-wrap
+msgid "Reporting bugs and ideas"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1375
+#, no-wrap
+msgid "Bugs, how to report them"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1376
+#, no-wrap
+msgid "Author, how to reach"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1377
+#, no-wrap
+msgid "Email to the author"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1378
+#, no-wrap
+msgid "Known bugs"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1379
+#, no-wrap
+msgid "Bugs, known"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1380
+#, no-wrap
+msgid "FAQ"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/pcl-cvs.texi:1381
+#, no-wrap
+msgid "Problems, list of common"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1388
+msgid ""
+"If you find a bug or misfeature, don't hesitate to tell us! Use @kbd{M-x "
+"report-emacs-bug} to send us a report.  You can follow the same process for "
+"feature requests.  We prefer discussing one thing at a time.  If you find "
+"several unrelated bugs, please report them separately."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1393
+msgid ""
+"If you have problems using PCL-CVS or other questions, send them to the "
+"@url{https://lists.gnu.org/mailman/listinfo/help-gnu-emacs, help-gnu-emacs "
+"mailing list}.  This is a good place to get help, as is the "
+"@url{http://lists.nongnu.org/mailman/listinfo/info-cvs, info-cvs list}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1397
+msgid ""
+"If you have ideas for improvements, or if you have written some extensions "
+"to this package, we would like to hear from you.  We hope that you find this "
+"package useful!"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1399
+msgid "Below is a partial list of currently known problems with PCL-CVS."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/pcl-cvs.texi:1401
+#, no-wrap
+msgid "Unexpected output from CVS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/pcl-cvs.texi:1408
+msgid ""
+"Unexpected output from CVS may confuse PCL-CVS@.  It will create warning "
+"messages in the @file{*cvs*} buffer alerting you to any parse errors.  If "
+"you get these messages, please send a bug report to the email addresses "
+"listed above.  Include the contents of the @file{*cvs*} buffer, the output "
+"of the CVS process (which should be found in the @file{ *cvs-tmp*} buffer), "
+"and the versions of Emacs, PCL-CVS and CVS you are using."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/pcl-cvs.texi:1412
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1421
+msgid ""
+"This is an index of all the functions and variables documented in this "
+"manual."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1428
+msgid "This is an index of concepts discussed in this manual."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/pcl-cvs.texi:1436
+msgid ""
+"This index includes an entry for each PCL-CVS key sequence documented in "
+"this manual."
+msgstr ""

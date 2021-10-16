@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-16 23:41\n"
+"PO-Revision-Date: 2021-10-16 23:41\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter A Survey of VIP"
+msgstr ""
+
+msgid "@chapter Customization"
+msgstr ""
+
+msgid "@chapter Ex Commands"
+msgstr ""
+
+msgid "@chapter Vi Commands"
+msgstr ""
+
+msgid "@section Basic Concepts"
+msgstr ""
+
+msgid "@section Buffers and Windows"
+msgstr ""
+
+msgid "@section Customizing Constants"
+msgstr ""
+
+msgid "@section Customizing Key Bindings"
+msgstr ""
+
+msgid "@section Differences from Vi"
+msgstr ""
+
+msgid "@section Ex Command Reference"
+msgstr ""
+
+msgid "@section Files"
+msgstr ""
+
+msgid "@section Important Keys"
+msgstr ""
+
+msgid "@section Insert Mode"
+msgstr ""
+
+msgid "@section Loading VIP"
+msgstr ""
+
+msgid "@section Mark Commands"
+msgstr ""
+
+msgid "@section Modes in VIP"
+msgstr ""
+
+msgid "@section Modifying Commands"
+msgstr ""
+
+msgid "@section Motion Commands"
+msgstr ""
+
+msgid "@section Numeric Arguments"
+msgstr ""
+
+msgid "@section Other Vi Commands"
+msgstr ""
+
+msgid "@section Searching and Replacing"
+msgstr ""
+
+msgid "@section Viewing the Buffer"
+msgstr ""
+
+msgid "@subsection Buffer Commands"
+msgstr ""
+
+msgid "@subsection Change Commands"
+msgstr ""
+
+msgid "@subsection Changing"
+msgstr ""
+
+msgid "@subsection Counts"
+msgstr ""
+
+msgid "@subsection Delete Commands"
+msgstr ""
+
+msgid "@subsection Emacs Mode"
+msgstr ""
+
+msgid "@subsection File Commands"
+msgstr ""
+
+msgid "@subsection Insert Mode"
+msgstr ""
+
+msgid "@subsection Marking"
+msgstr ""
+
+msgid "@subsection Miscellaneous Commands"
+msgstr ""
+
+msgid "@subsection New Key Bindings"
+msgstr ""
+
+msgid "@subsection Put Back Commands"
+msgstr ""
+
+msgid "@subsection Region Commands"
+msgstr ""
+
+msgid "@subsection Repeating and Undoing Modifications"
+msgstr ""
+
+msgid "@subsection Searching"
+msgstr ""
+
+msgid "@subsection Some New Commands"
+msgstr ""
+
+msgid "@subsection Undoing"
+msgstr ""
+
+msgid "@subsection Vi Mode"
+msgstr ""
+
+msgid "@subsection Window Commands"
+msgstr ""
+
+msgid "@subsection Yank Commands"
+msgstr ""
+
+msgid "@subsection z Command"
+msgstr ""
+

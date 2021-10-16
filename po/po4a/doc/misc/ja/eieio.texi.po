@@ -1,0 +1,3896 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-16 23:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: titlefont{#1}
+#: ../../../../../doc/misc/eieio.texi:5 ../../../../../doc/misc/eieio.texi:36
+#, no-wrap
+msgid "@value{TITLE}"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/eieio.texi:6
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/eieio.texi:14
+msgid "This manual documents EIEIO, an object framework for Emacs Lisp."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/eieio.texi:16
+msgid "Copyright @copyright{} 2007--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/eieio.texi:24
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License.''"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/eieio.texi:27
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/eieio.texi:30
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:33
+msgid "EIEIO: (eieio)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:33
+msgid "An objects system for Emacs Lisp."
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/eieio.texi:38
+#, no-wrap
+msgid "by @value{AUTHOR}"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/eieio.texi:46 ../../../../../doc/misc/eieio.texi:49
+#, no-wrap
+msgid "EIEIO"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/eieio.texi:48
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:55
+msgid ""
+"@eieio{} (``Enhanced Implementation of Emacs Interpreted Objects'')  "
+"provides an Object Oriented layer for Emacs Lisp, following the basic "
+"concepts of the Common Lisp Object System (CLOS).  It provides a framework "
+"for writing object-oriented applications in Emacs."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:84 ../../../../../doc/misc/eieio.texi:85
+#, no-wrap
+msgid "Quick Start"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Quick start for EIEIO."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:176 ../../../../../doc/misc/eieio.texi:177
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Why use @eieio{}? Basic overview, samples list."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:257 ../../../../../doc/misc/eieio.texi:258
+#, no-wrap
+msgid "Building Classes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "How to write new class structures."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:633 ../../../../../doc/misc/eieio.texi:634
+#, no-wrap
+msgid "Making New Objects"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "How to construct new objects."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:693 ../../../../../doc/misc/eieio.texi:694
+#, no-wrap
+msgid "Accessing Slots"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "How to access a slot."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:807 ../../../../../doc/misc/eieio.texi:808
+#, no-wrap
+msgid "Writing Methods"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "How to write a method."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:985 ../../../../../doc/misc/eieio.texi:986
+#, no-wrap
+msgid "Method Invocation"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "How methods are invoked."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1019
+#, no-wrap
+msgid "Predicates"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Class-p, Object-p, etc-p."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1124 ../../../../../doc/misc/eieio.texi:1125
+#, no-wrap
+msgid "Association Lists"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "List of objects as association lists."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1156
+#, no-wrap
+msgid "Customizing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Customizing objects."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1218 ../../../../../doc/misc/eieio.texi:1219
+#, no-wrap
+msgid "Introspection"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Looking inside a class."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1237 ../../../../../doc/misc/eieio.texi:1238
+#, no-wrap
+msgid "Base Classes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Additional classes you can inherit from."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1488
+#, no-wrap
+msgid "Browsing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Browsing your class lists."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1510 ../../../../../doc/misc/eieio.texi:1511
+#, no-wrap
+msgid "Class Values"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Displaying information about a class or object."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1519 ../../../../../doc/misc/eieio.texi:1520
+#, no-wrap
+msgid "Default Superclass"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "The root superclasses."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1707 ../../../../../doc/misc/eieio.texi:1708
+#, no-wrap
+msgid "Signals"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "When you make errors."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1757 ../../../../../doc/misc/eieio.texi:1758
+#, no-wrap
+msgid "Naming Conventions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Name your objects in an Emacs friendly way."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1785 ../../../../../doc/misc/eieio.texi:1786
+#, no-wrap
+msgid "CLOS compatibility"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "What are the differences?"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1844 ../../../../../doc/misc/eieio.texi:1845
+#, no-wrap
+msgid "Wish List"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "Things about EIEIO that could be improved."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1871 ../../../../../doc/misc/eieio.texi:1872
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:82
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/eieio.texi:82 ../../../../../doc/misc/eieio.texi:1875 ../../../../../doc/misc/eieio.texi:1876
+#, no-wrap
+msgid "Function Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:90
+msgid ""
+"@eieio{} provides an Object Oriented layer for Emacs Lisp.  You can use "
+"@eieio{} to create classes, methods for those classes, and instances of "
+"classes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:93
+msgid ""
+"Here is a simple example of a class named @code{person}, containing three "
+"slots named @code{name}, @code{birthday}, and @code{phone}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:110
+#, no-wrap
+msgid ""
+"(defclass person () ; No superclasses\n"
+"  ((name :initarg :name\n"
+"         :initform \"\"\n"
+"         :type string\n"
+"         :custom string\n"
+"         :documentation \"The name of a person.\")\n"
+"   (birthday :initarg :birthday\n"
+"             :initform \"Jan 1, 1970\"\n"
+"             :custom string\n"
+"             :type string\n"
+"             :documentation \"The person's birthday.\")\n"
+"   (phone :initarg :phone\n"
+"          :initform \"\"\n"
+"          :documentation \"Phone number.\"))\n"
+"  \"A class for tracking people I know.\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:113
+msgid "Each class can have methods, which are defined like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:122
+#, no-wrap
+msgid ""
+"(cl-defmethod call-person ((pers person) &optional scriptname)\n"
+"  \"Dial the phone for the person PERS.\n"
+"Execute the program SCRIPTNAME to dial the phone.\"\n"
+"  (message \"Dialing the phone for %s\"  (oref pers name))\n"
+"  (shell-command (concat (or scriptname \"dialphone.sh\")\n"
+"                         \" \"\n"
+"                         (oref pers phone))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:130
+msgid ""
+"In this example, the first argument to @code{call-person} is a list, of the "
+"form (@var{varname} @var{classname}).  @var{varname} is the name of the "
+"variable used for the first argument; @var{classname} is the name of the "
+"class that is expected as the first argument for this method."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:136
+msgid ""
+"@eieio{} dispatches methods based on the type of the first argument.  You "
+"can have multiple methods with the same name for different classes of "
+"object.  When the @code{call-person} method is called, the first argument is "
+"examined to determine the class of that argument, and the method matching "
+"the input type is then executed."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:141
+msgid ""
+"Once the behavior of a class is defined, you can create a new object of type "
+"@code{person}.  Objects are created by calling the constructor.  The "
+"constructor is a function with the same name as your class which returns a "
+"new instance of that class.  Here is an example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:144
+#, no-wrap
+msgid "(setq pers (person :name \"Eric\" :birthday \"June\" :phone \"555-5555\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:150
+msgid ""
+"For backward compatibility reasons, the first argument can be a string (a "
+"name given to this instance).  Each instance used to be given a name, so "
+"different instances could be easily distinguished when debugging."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:154
+msgid ""
+"It can be a bit repetitive to also have a :name slot.  To avoid doing this, "
+"it is sometimes handy to use the base class @code{eieio-named}.  "
+"@xref{eieio-named}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:158
+msgid ""
+"Calling methods on an object is a lot like calling any function.  The first "
+"argument should be an object of a class which has had this method defined "
+"for it.  In this example it would look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:161
+#, no-wrap
+msgid "(call-person pers)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:165
+msgid "or"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:168
+#, no-wrap
+msgid "(call-person pers \"my-call-script\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:175
+msgid ""
+"In these examples, @eieio{} automatically examines the class of @code{pers}, "
+"and ensures that the method defined above is called.  If @code{pers} is some "
+"other class lacking a @code{call-person} method, or some other data type, "
+"Emacs signals a @code{cl-no-applicable-method} error.  @ref{Signals}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:190
+msgid ""
+"First off, please note that this manual cannot serve as a complete "
+"introduction to object oriented programming and generic functions in LISP@.  "
+"Although EIEIO is not a complete implementation of the Common Lisp Object "
+"System (CLOS) and also differs from it in several aspects, it follows the "
+"same basic concepts.  Therefore, it is highly recommended to learn those "
+"from a textbook or tutorial first, especially if you only know OOP from "
+"languages like C++ or Java.  If on the other hand you are already familiar "
+"with CLOS, you should be aware that @eieio{} does not implement the full "
+"CLOS specification and also differs in some other aspects which are "
+"mentioned below (also @pxref{CLOS compatibility})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:192
+msgid "@eieio{} supports the following features:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:197
+msgid ""
+"A structured framework for the creation of basic classes with attributes and "
+"methods using singular inheritance similar to CLOS."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:199
+msgid "Type checking, and slot unbinding."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:201
+msgid "Method definitions similar to CLOS."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:203
+msgid "Simple and complex class browsers."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:205
+msgid "Edebug support for methods."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:207
+msgid "Imenu updates."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:209
+msgid "Byte compilation support of methods."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:211
+msgid "Help system extensions for classes and methods."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:213
+msgid "Several base classes for interesting tasks."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:215
+msgid "Simple test suite."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:217
+msgid "Public and private classifications for slots (extensions to CLOS)"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:219
+msgid "Customization support in a class (extension to CLOS)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:225
+msgid ""
+"Due to restrictions in the Emacs Lisp language, CLOS cannot be completely "
+"supported, and a few functions have been added in place of setf.  Here are "
+"some important CLOS features that @eieio{} presently lacks:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:228
+#, no-wrap
+msgid "Method dispatch"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:232
+msgid ""
+"EIEO does not support method dispatch for built-in types and multiple "
+"arguments types.  In other words, method dispatch only looks at the first "
+"argument, and this one must be an @eieio{} type."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:233
+#, no-wrap
+msgid "Support for metaclasses"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:239
+msgid ""
+"There is just one default metaclass, @code{eieio-default-superclass}, and "
+"you cannot define your own.  The @code{:metaclass} tag in @code{defclass} is "
+"ignored.  Also, functions like @code{find-class}, which should return "
+"instances of the metaclass, behave differently in @eieio{} in that they "
+"return symbols or plain structures instead."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:240
+#, no-wrap
+msgid "EQL specialization"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:242
+msgid "EIEIO does not support it."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:243
+#, no-wrap
+msgid "@code{:around} method tag"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:245
+msgid "This CLOS method tag is non-functional."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:246
+#, no-wrap
+msgid ":default-initargs in @code{defclass}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:248
+msgid "Each slot can have an @code{:initform} tag, so this is not really necessary."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:249
+#, no-wrap
+msgid "Mock object initializers"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:254
+msgid ""
+"Each class contains a mock object used for fast initialization of "
+"instantiated objects.  Using functions with side effects on object slot "
+"values can potentially cause modifications in the mock object.  @eieio{} "
+"should use a deep copy but currently does not."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:263
+msgid ""
+"A @dfn{class} is a definition for organizing data and methods together.  An "
+"@eieio{} class has structures similar to the classes found in other "
+"object-oriented (OO) languages."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:265
+msgid "To create a new class, use the @code{defclass} macro:"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:266
+#, no-wrap
+msgid "defclass class-name superclass-list slot-list &rest options-and-doc"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:272
+msgid ""
+"Create a new class named @var{class-name}.  The class is represented by a "
+"symbol with the name @var{class-name}.  @eieio{} stores the structure of the "
+"class as a symbol property of @var{class-name} (@pxref{Symbol "
+"Components,,,elisp,GNU Emacs Lisp Reference Manual})."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:280
+msgid ""
+"When defining a class, @eieio{} overwrites any preexisting variable or "
+"function bindings for the symbol @var{class-name}, which may lead to "
+"undesired consequences.  Before naming a new class, you should check for "
+"name conflicts.  To help avoid cross-package conflicts you should choose a "
+"name with the same prefix you chose for the rest of your package's functions "
+"and variables (@pxref{Coding Conventions,,,elisp,GNU Emacs Lisp Reference "
+"Manual})."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:285
+msgid ""
+"The @var{class-name} symbol's variable documentation string is a modified "
+"version of the doc string found in @var{options-and-doc}.  Each time a "
+"method is defined, the symbol's documentation string is updated to include "
+"the method's documentation as well."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:290
+msgid ""
+"The parent classes for @var{class-name} is @var{superclass-list}.  Each "
+"element of @var{superclass-list} must be a class.  These classes are the "
+"parents of the class being created.  Every slot that appears in each parent "
+"class is replicated in the new class."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:295
+msgid ""
+"If two parents share the same slot name, the parent which appears in the "
+"@var{superclass-list} first sets the tags for that slot.  If the new class "
+"has a slot with the same name as the parent, the new slot overrides the "
+"parent's slot."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:299
+msgid ""
+"When overriding a slot, some slot attributes cannot be overridden because "
+"they break basic OO rules.  You cannot override @code{:type} or "
+"@code{:protection}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:304
+msgid ""
+"Whenever defclass is used to create a new class, a predicate is created for "
+"it, named @code{@var{CLASS-NAME}-p}:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:305
+#, no-wrap
+msgid "CLASS-NAME-p object"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:308
+msgid ""
+"Return non-@code{nil} if and only if @var{OBJECT} is of the class "
+"@var{CLASS-NAME}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eieio.texi:310
+#, no-wrap
+msgid "eieio-error-unsupported-class-tags"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eieio.texi:313
+msgid ""
+"If non-@code{nil}, @code{defclass} signals an error if a tag in a slot "
+"specifier is unsupported."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eieio.texi:316
+msgid ""
+"This option is here to support programs written with older versions of "
+"@eieio{}, which did not produce such errors."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:322 ../../../../../doc/misc/eieio.texi:324 ../../../../../doc/misc/eieio.texi:325
+#, no-wrap
+msgid "Inheritance"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:322
+msgid "How to specify parents classes."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:322 ../../../../../doc/misc/eieio.texi:400 ../../../../../doc/misc/eieio.texi:401
+#, no-wrap
+msgid "Slot Options"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:322
+msgid "How to specify features of a slot."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:322 ../../../../../doc/misc/eieio.texi:561 ../../../../../doc/misc/eieio.texi:562
+#, no-wrap
+msgid "Class Options"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:322
+msgid "How to specify features for this class."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:331
+msgid ""
+"@dfn{Inheritance} is a basic feature of an object-oriented language.  In "
+"@eieio{}, a defined class specifies the super classes from which it inherits "
+"by using the second argument to @code{defclass}.  Here is an example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:337
+#, no-wrap
+msgid ""
+"(defclass my-baseclass ()\n"
+"   ((slot-A :initarg :slot-A)\n"
+"    (slot-B :initarg :slot-B))\n"
+"  \"My Baseclass.\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:342
+msgid "To subclass from @code{my-baseclass}, we specify it in the superclass list:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:348
+#, no-wrap
+msgid ""
+"(defclass my-subclass (my-baseclass)\n"
+"   ((specific-slot-A :initarg specific-slot-A)\n"
+"    )\n"
+"   \"My subclass of my-baseclass\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:354
+msgid ""
+"@indent Instances of @code{my-subclass} will inherit @code{slot-A} and "
+"@code{slot-B}, in addition to having @code{specific-slot-A} from the "
+"declaration of @code{my-subclass}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:357
+msgid ""
+"@eieio{} also supports multiple inheritance.  Suppose we define a second "
+"baseclass, perhaps an ``interface'' class, like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:363
+#, no-wrap
+msgid ""
+"(defclass my-interface ()\n"
+"   ((interface-slot :initarg :interface-slot))\n"
+"   \"An interface to special behavior.\"\n"
+"   :abstract t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:370
+msgid ""
+"The interface class defines a special @code{interface-slot}, and also "
+"specifies itself as abstract.  Abstract classes cannot be instantiated.  It "
+"is not required to make interfaces abstract, but it is a good programming "
+"practice."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:373
+msgid ""
+"We can now modify our definition of @code{my-subclass} to use this interface "
+"class, together with our original base class:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:379
+#, no-wrap
+msgid ""
+"(defclass my-subclass (my-baseclass my-interface)\n"
+"   ((specific-slot-A :initarg specific-slot-A)\n"
+"    )\n"
+"   \"My subclass of my-baseclass\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:383
+msgid "With this, @code{my-subclass} also has @code{interface-slot}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:387
+msgid ""
+"If @code{my-baseclass} and @code{my-interface} had slots with the same name, "
+"then the superclass showing up in the list first defines the slot "
+"attributes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:390
+msgid ""
+"Inheritance in @eieio{} is more than just combining different slots.  It is "
+"also important in method invocation.  @ref{Methods}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:395
+msgid ""
+"If a method is called on an instance of @code{my-subclass}, and that method "
+"only has an implementation on @code{my-baseclass}, or perhaps "
+"@code{my-interface}, then the implementation for the baseclass is called."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:399
+msgid ""
+"If there is a method implementation for @code{my-subclass}, and another in "
+"@code{my-baseclass}, the implementation for @code{my-subclass} can call up "
+"to the superclass as well."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:405
+msgid ""
+"The @var{slot-list} argument to @code{defclass} is a list of elements where "
+"each element defines one slot.  Each slot is a list of the form"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:410
+#, no-wrap
+msgid ""
+"  (SLOT-NAME :TAG1 ATTRIB-VALUE1\n"
+"             :TAG2 ATTRIB-VALUE2\n"
+"             :TAGN ATTRIB-VALUEN)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:417
+msgid ""
+"where @var{SLOT-NAME} is a symbol that will be used to refer to the slot.  "
+"@var{:TAG} is a symbol that describes a feature to be set on the slot.  "
+"@var{ATTRIB-VALUE} is a lisp expression that will be used for @var{:TAG}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:419
+msgid "Valid tags are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:421
+#, no-wrap
+msgid ":initarg"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:424
+msgid ""
+"A symbol that can be used in the argument list of the constructor to specify "
+"a value for this slot of the new instance being created."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:426
+msgid "A good symbol to use for initarg is one that starts with a colon @code{:}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:428
+msgid "The slot specified like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:430
+#, no-wrap
+msgid "  (myslot :initarg :myslot)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:432
+msgid "could then be initialized to the number 1 like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:434
+#, no-wrap
+msgid "  (myobject :myslot 1)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:437
+msgid "@xref{Making New Objects}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:438
+#, no-wrap
+msgid ":initform"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:440
+msgid "An expression used as the default value for this slot."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:445
+msgid ""
+"If @code{:initform} is left out, that slot defaults to being unbound.  It is "
+"an error to reference an unbound slot, so if you need slots to always be in "
+"a bound state, you should always use an @code{:initform} specifier."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:449
+msgid ""
+"Use @code{slot-boundp} to test if a slot is unbound (@pxref{Predicates}).  "
+"Use @code{slot-makeunbound} to set a slot to being unbound after giving it a "
+"value (@pxref{Accessing Slots})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:451
+msgid "The value passed to initform used to be automatically quoted.  Thus,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:453
+#, no-wrap
+msgid ":initform (1 2 3)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:457
+msgid ""
+"will use the list as a value.  This is incompatible with CLOS (which would "
+"signal an error since 1 is not a valid function) and will likely change in "
+"the future, so better quote your initforms if they're just values."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:458 ../../../../../doc/misc/eieio.texi:1807
+#, no-wrap
+msgid ":type"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:472
+msgid ""
+"An unquoted type specifier used to validate data set into this slot.  "
+"@xref{Type Predicates,,,cl,Common Lisp Extensions}.  Here are some examples: "
+"@table @code @item symbol A symbol.  @item number A number type @item "
+"my-class-name An object of your class type.  @item (or null symbol)  A "
+"symbol, or @code{nil}.  @end table"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:473
+#, no-wrap
+msgid ":allocation"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:479
+msgid ""
+"Either :class or :instance (defaults to :instance) used to specify how data "
+"is stored.  Slots stored per instance have unique values for each object.  "
+"Slots stored per class have shared values for each object.  If one object "
+"changes a :class allocated slot, then all objects for that class gain the "
+"new value."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:480 ../../../../../doc/misc/eieio.texi:568
+#, no-wrap
+msgid ":documentation"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:484
+msgid ""
+"Documentation detailing the use of this slot.  This documentation is exposed "
+"when the user describes a class, and during customization of an object."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:485 ../../../../../doc/misc/eieio.texi:1803
+#, no-wrap
+msgid ":accessor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:489
+msgid ""
+"Name of a generic function which can be used to fetch the value of this "
+"slot.  You can call this function later on your object and retrieve the "
+"value of the slot."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:491 ../../../../../doc/misc/eieio.texi:496 ../../../../../doc/misc/eieio.texi:501
+msgid "This option is in the CLOS spec, but is not fully compliant in @eieio{}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:492
+#, no-wrap
+msgid ":writer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:494
+msgid "Name of a generic function which will write this slot."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:497
+#, no-wrap
+msgid ":reader"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:499
+msgid "Name of a generic function which will read this slot."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:502
+#, no-wrap
+msgid ":custom"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:506
+msgid ""
+"A custom :type specifier used when editing an object of this type.  See "
+"documentation for @code{defcustom} for details.  This specifier is "
+"equivalent to the :type spec of a @code{defcustom} call."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:508 ../../../../../doc/misc/eieio.texi:515 ../../../../../doc/misc/eieio.texi:523 ../../../../../doc/misc/eieio.texi:558 ../../../../../doc/misc/eieio.texi:583 ../../../../../doc/misc/eieio.texi:589 ../../../../../doc/misc/eieio.texi:597
+msgid "This option is specific to Emacs, and is not in the CLOS spec."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:509
+#, no-wrap
+msgid ":label"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:513
+msgid ""
+"When customizing an object, the value of :label will be used instead of the "
+"slot name.  This enables better descriptions of the data than would usually "
+"be afforded."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:516
+#, no-wrap
+msgid ":group"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:521
+msgid ""
+"Similar to @code{defcustom}'s :group command, this organizes different slots "
+"in an object into groups.  When customizing an object, only the slots "
+"belonging to a specific group need be worked with, simplifying the size of "
+"the display."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:524
+#, no-wrap
+msgid ":printer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:529
+msgid ""
+"This routine takes a symbol which is a function name.  The function should "
+"accept one argument.  The argument is the value from the slot to be "
+"printed.  The function in @code{object-write} will write the slot value out "
+"to a printable form on @code{standard-output}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:535
+msgid ""
+"The output format MUST be something that could in turn be interpreted with "
+"@code{read} such that the object can be brought back in from the output "
+"stream.  Thus, if you wanted to output a symbol, you would need to quote the "
+"symbol.  If you wanted to run a function on load, you can output the code to "
+"do the construction of the value."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:536
+#, no-wrap
+msgid ":protection"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:538
+msgid "This is an old option that is not supported any more."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:542
+msgid ""
+"When using a slot referencing function such as @code{slot-value}, and the "
+"value behind @var{slot} is private or protected, then the current scope of "
+"operation must be within a method of the calling object."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:545
+msgid ""
+"This protection is not enforced by the code any more, so it's only useful as "
+"documentation."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:547 ../../../../../doc/misc/eieio.texi:606 ../../../../../doc/misc/eieio.texi:1003
+msgid "Valid values are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:549
+#, no-wrap
+msgid ":public"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:551
+msgid "Access this slot from any scope."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:551
+#, no-wrap
+msgid ":protected"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:553
+msgid "Access this slot only from methods of the same class or a child class."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:553
+#, no-wrap
+msgid ":private"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:555
+msgid "Access this slot only from methods of the same class."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:566
+msgid ""
+"In the @var{options-and-doc} arguments to @code{defclass}, the following "
+"class options may be specified:"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:570
+msgid "A documentation string for this class."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:575
+msgid ""
+"If an Emacs-style documentation string is also provided, then this option is "
+"ignored.  An Emacs-style documentation string is not prefixed by the "
+"@code{:documentation} tag, and appears after the list of slots, and before "
+"the options."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:576
+#, no-wrap
+msgid ":allow-nil-initform"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:581
+msgid ""
+"If this option is non-@code{nil}, and the @code{:initform} is @code{nil}, "
+"but the @code{:type} is specifies something such as @code{string} then allow "
+"this to pass.  The default is to have this option be off.  This is "
+"implemented as an alternative to unbound slots."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:584
+#, no-wrap
+msgid ":abstract"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:587
+msgid ""
+"A class which is @code{:abstract} cannot be instantiated, and instead is "
+"used to define an interface which subclasses should implement."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:590
+#, no-wrap
+msgid ":custom-groups"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:595
+msgid ""
+"This is a list of groups that can be customized within this class.  This "
+"slot is auto-generated when a class is created and need not be specified.  "
+"It can be retrieved with the @code{class-option} command, however, to see "
+"what groups are available."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:598
+#, no-wrap
+msgid ":method-invocation-order"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:604 ../../../../../doc/misc/eieio.texi:996
+msgid ""
+"This controls the order in which method resolution occurs for methods in "
+"cases of multiple inheritance.  The order affects which method is called "
+"first in a tree, and if @code{cl-call-next-method} is used, it controls the "
+"order in which the stack of methods are run."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:608 ../../../../../doc/misc/eieio.texi:1005
+#, no-wrap
+msgid ":breadth-first"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:611 ../../../../../doc/misc/eieio.texi:1008
+msgid ""
+"Search for methods in the class hierarchy in breadth first order.  This is "
+"the default."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:611 ../../../../../doc/misc/eieio.texi:1008
+#, no-wrap
+msgid ":depth-first"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:613 ../../../../../doc/misc/eieio.texi:1010
+msgid "Search for methods in the class hierarchy in a depth first order."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:613 ../../../../../doc/misc/eieio.texi:1010
+#, no-wrap
+msgid ":c3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:616 ../../../../../doc/misc/eieio.texi:1013
+msgid ""
+"Searches for methods in a linearized way that most closely matches what CLOS "
+"does when a monotonic class structure is defined."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:619
+msgid "@xref{Method Invocation}, for more on method invocation order."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:620
+#, no-wrap
+msgid ":metaclass"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:623
+msgid ""
+"Unsupported CLOS option.  Enables the use of a different base class other "
+"than @code{standard-class}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:624
+#, no-wrap
+msgid ":default-initargs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:628
+msgid ""
+"Unsupported CLOS option.  Specifies a list of initargs to be used when "
+"creating new objects.  As far as I can tell, this duplicates the function of "
+"@code{:initform}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:632
+msgid ""
+"@xref{CLOS compatibility}, for more details on CLOS tags versus "
+"@eieio{}-specific tags."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:637
+msgid "Suppose we have defined a simple class, such as:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:641
+#, no-wrap
+msgid ""
+"(defclass my-class ()\n"
+"   ( ) \"Doc String\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:645
+msgid "It is now possible to create objects of that class type."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:649
+msgid ""
+"Calling @code{defclass} has defined two new functions.  One is the "
+"constructor @var{my-class}, and the other is the predicate, "
+"@var{my-class}-p."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:650
+#, no-wrap
+msgid "my-class object-name &rest slots"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:660
+msgid ""
+"This creates and returns a new object.  This object is not assigned to "
+"anything, and will be garbage collected if not saved.  This object will be "
+"given the string name @var{object-name}.  There can be multiple objects of "
+"the same name, but the name slot provides a handy way to keep track of your "
+"objects.  @var{slots} is just all the slots you wish to preset.  Any slot "
+"set as such @emph{will not} get its default value, and any side effects from "
+"a slot's @code{:initform} that may be a function will not occur."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:664
+msgid ""
+"An example pair would appear simply as @code{:value 1}.  Of course you can "
+"do any valid Lispy thing you want with it, such as @code{:value (if (boundp "
+"'special-symbol) special-symbol nil)}"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:666
+msgid "Example of creating an object from a class:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:669
+#, no-wrap
+msgid "(my-class :value 3 :reference nil)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:674
+msgid "To create an object from a class symbol, use @code{make-instance}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:675
+#, no-wrap
+msgid "make-instance class &rest initargs"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:679 ../../../../../doc/misc/eieio.texi:1817
+#, no-wrap
+msgid "make-instance"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:679
+msgid ""
+"Make a new instance of @var{class} based on @var{initargs}.  @var{class} is "
+"a class symbol.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:682
+#, no-wrap
+msgid "  (make-instance 'foo)\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:686
+msgid ""
+"@var{initargs} is a property list with keywords based on the @code{:initarg} "
+"for each slot.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:689
+#, no-wrap
+msgid "  (make-instance @code{'foo} @code{:slot1} value1 @code{:slotN} valueN)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:700
+msgid ""
+"There are several ways to access slot values in an object.  The naming and "
+"argument-order conventions are similar to those used for referencing vectors "
+"(@pxref{Vectors,,,elisp,GNU Emacs Lisp Reference Manual})."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:701
+#, no-wrap
+msgid "oset object slot value"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:704
+msgid ""
+"This macro sets the value behind @var{slot} to @var{value} in @var{object}.  "
+"It returns @var{value}."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:706
+#, no-wrap
+msgid "oset-default class slot value"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:709
+msgid ""
+"This macro sets the value for the class-allocated @var{slot} in @var{class} "
+"to @var{value}."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:713
+msgid ""
+"For example, if a user wanted all @code{data-objects} (@pxref{Building "
+"Classes}) to inform a special object of his own devising when they changed, "
+"this can be arranged by simply executing this bit of code:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:716
+#, no-wrap
+msgid "(oset-default data-object reference (list my-special-object))\n"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:719
+#, no-wrap
+msgid "oref obj slot"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:723
+msgid "oref"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:723
+msgid ""
+"Retrieve the value stored in @var{obj} in the slot named by @var{slot}.  "
+"Slot is the name of the slot when created by @dfn{defclass}."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:725
+#, no-wrap
+msgid "oref-default class slot"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:728
+msgid "oref-default"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:728
+msgid "Get the value of the class-allocated @var{slot} from @var{class}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:732
+msgid ""
+"The following accessors are defined by CLOS to reference or modify slot "
+"values, and use the previously mentioned set/ref routines."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:733
+#, no-wrap
+msgid "slot-value object slot"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:737
+msgid "slot-value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:737
+msgid ""
+"This function retrieves the value of @var{slot} from @var{object}.  Unlike "
+"@code{oref}, the symbol for @var{slot} must be quoted."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:741
+msgid ""
+"This is a generalized variable that can be used with @code{setf} to modify "
+"the value stored in @var{slot}.  @xref{Generalized Variables,,,elisp,GNU "
+"Emacs Lisp Reference Manual}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:743
+#, no-wrap
+msgid "set-slot-value object slot value"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:747
+msgid "set-slot-value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:747
+msgid ""
+"This function sets the value of @var{slot} from @var{object}.  Unlike "
+"@code{oset}, the symbol for @var{slot} must be quoted."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:752
+msgid ""
+"This is not a CLOS function, but is the obsolete setter for "
+"@code{slot-value} used by the @code{setf} macro.  It is therefore "
+"recommended to use @w{@code{(setf (slot-value @var{object} @var{slot})  "
+"@var{value})}} instead."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:754
+#, no-wrap
+msgid "slot-makeunbound object slot"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:757
+msgid ""
+"This function unbinds @var{slot} in @var{object}.  Referencing an unbound "
+"slot can signal an error."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:759
+#, no-wrap
+msgid "object-add-to-list object slot item &optional append"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:766
+msgid "object-add-to-list"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:766
+msgid ""
+"In OBJECT's @var{slot}, add @var{item} to the list of elements.  Optional "
+"argument @var{append} indicates we need to append to the list.  If "
+"@var{item} already exists in the list in @var{slot}, then it is not added.  "
+"Comparison is done with @dfn{equal} through the @dfn{member} function call.  "
+"If @var{slot} is unbound, bind it to the list containing @var{item}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:768
+#, no-wrap
+msgid "object-remove-from-list object slot item"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:774
+msgid "object-remove-from-list"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:774
+msgid ""
+"In OBJECT's @var{slot}, remove occurrences of @var{item}.  Deletion is done "
+"with @dfn{delete}, which deletes by side effect and comparisons are done "
+"with @dfn{equal}.  If @var{slot} is unbound, do nothing."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:776
+#, no-wrap
+msgid "with-slots spec-list object &rest body"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:785
+msgid "with-slots"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:785
+msgid ""
+"Bind @var{spec-list} lexically to slot values in @var{object}, and execute "
+"@var{body}.  This establishes a lexical environment for referring to the "
+"slots in the instance named by the given slot-names as though they were "
+"variables.  Within such a context the value of the slot can be specified by "
+"using its slot name, as if it were a lexically bound variable.  Both "
+"@code{setf} and @code{setq} can be used to set the value of the slot."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:787
+msgid "@var{spec-list} is of a form similar to @dfn{let}.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:793
+#, no-wrap
+msgid ""
+"  ((VAR1 SLOT1)\n"
+"    SLOT2\n"
+"    SLOTN\n"
+"   (VARN+1 SLOTN+1))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:798
+msgid ""
+"Where each @var{var} is the local variable given to the associated "
+"@var{slot}.  A slot specified without a variable name is given a variable "
+"name of the same name as the slot."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:804
+#, no-wrap
+msgid ""
+"(defclass myclass () (x :initform 1))\n"
+"(setq mc (make-instance 'myclass))\n"
+"(with-slots (x) mc x)                      => 1\n"
+"(with-slots ((something x)) mc something)  => 1\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:813
+msgid ""
+"Writing a method in @eieio{} is similar to writing a function.  The "
+"differences are that there are some extra options and there can be multiple "
+"definitions under the same function symbol."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:820
+msgid ""
+"Where a method defines an implementation for a particular data type, a "
+"@dfn{generic method} accepts any argument, but contains no code.  It is used "
+"to provide the dispatching to the defined methods.  A generic method has no "
+"body, and is merely a symbol upon which methods are attached.  It also "
+"provides the base documentation for what methods with that name do."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:825
+msgid "Generics::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:825
+msgid "Methods::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:825 ../../../../../doc/misc/eieio.texi:960 ../../../../../doc/misc/eieio.texi:961
+#, no-wrap
+msgid "Static Methods"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:827 ../../../../../doc/misc/eieio.texi:828
+#, no-wrap
+msgid "Generics"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:834
+msgid ""
+"Each @eieio{} method has one corresponding generic.  This generic provides a "
+"function binding and the base documentation for the method symbol "
+"(@pxref{Symbol Components,,,elisp,GNU Emacs Lisp Reference Manual})."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:835
+#, no-wrap
+msgid "cl-defgeneric method arglist [doc-string]"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:839
+msgid ""
+"This macro turns the (unquoted) symbol @var{method} into a function.  "
+"@var{arglist} is the default list of arguments to use (not implemented "
+"yet).  @var{doc-string} is the documentation used for this symbol."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:843
+msgid ""
+"A generic function acts as a placeholder for methods.  There is no need to "
+"call @code{cl-defgeneric} yourself, as @code{cl-defmethod} will call it if "
+"necessary.  Currently the argument list is unused."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:846
+msgid ""
+"@code{cl-defgeneric} signals an error if you attempt to turn an existing "
+"Emacs Lisp function into a generic function."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:851
+msgid ""
+"You can also create a generic method with @code{cl-defmethod} "
+"(@pxref{Methods}).  When a method is created and there is no generic method "
+"in place with that name, then a new generic will be created, and the new "
+"method will use it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:856
+msgid ""
+"In CLOS, a generic call also be used to provide an argument list and "
+"dispatch precedence for all the arguments.  In @eieio{}, dispatching only "
+"occurs for the first argument, so the @var{arglist} is not used."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:857 ../../../../../doc/misc/eieio.texi:858
+#, no-wrap
+msgid "Methods"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:863
+msgid ""
+"A method is a function that is executed if the arguments passed to it "
+"matches the method's specializers.  Different @eieio{} classes may share the "
+"same method names."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:866
+msgid ""
+"Methods are created with the @code{cl-defmethod} macro, which is similar to "
+"@code{defun}."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:867
+#, no-wrap
+msgid "cl-defmethod method [:before | :around | :after ] arglist [doc-string] forms"
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:870
+msgid "@var{method} is the name of the function to create."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:874
+msgid ""
+"@code{:before}, @code{:around}, and @code{:after} specify execution order "
+"(i.e., when this form is called).  If none of these symbols are present, the "
+"method is said to be a @emph{primary}."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:880
+msgid ""
+"@var{arglist} is the list of arguments to this method.  The mandatory "
+"arguments in this list may have a type specializer (see the example below) "
+"which means that the method will only apply when those arguments match the "
+"given type specializer.  An argument with no type specializer means that the "
+"method applies regardless of its value."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:884
+msgid ""
+"@var{doc-string} is the documentation attached to the implementation.  All "
+"method doc-strings are incorporated into the generic method's function "
+"documentation."
+msgstr ""
+
+#. type: defmac
+#: ../../../../../doc/misc/eieio.texi:886
+msgid "@var{forms} is the body of the function."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:892
+msgid ""
+"In the following example, we create a method @code{mymethod} for the "
+"@code{classname} class:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:896
+#, no-wrap
+msgid ""
+"(cl-defmethod mymethod ((obj classname) secondarg)\n"
+"  \"Doc string\" )\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:901
+msgid ""
+"This method only executes if the @var{obj} argument passed to it is an "
+"@eieio{} object of class @code{classname}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:905
+msgid ""
+"A method with no type specializer is a @dfn{default method}.  If a given "
+"class has no implementation, then the default method is called when that "
+"method is used on a given object of that class."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:910
+msgid ""
+"Only one method per combination of specializers and qualifiers "
+"(@code{:before}, @code{:around}, or @code{:after}) is kept.  If two "
+"@code{cl-defmethod}s appear with the same specializers and the same "
+"qualifiers, then the second implementation replaces the first."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:917
+msgid ""
+"When a method is called on an object, but there is no method specified for "
+"that object, but there is a method specified for object's parent class, the "
+"parent class's method is called.  If there is a method defined for both, "
+"only the child's method is called.  A child method may call a parent's "
+"method using @code{cl-call-next-method}, described below."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:920
+msgid ""
+"If multiple methods and default methods are defined for the same method and "
+"class, they are executed in this order:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:922
+#, no-wrap
+msgid ":around methods"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:928
+msgid ""
+"The most specific @code{:around} method is called first, which may invoke "
+"the less specific ones via @code{cl-call-next-method}.  If it doesn't invoke "
+"@code{cl-call-next-method}, then no other methods will be executed.  When "
+"there are no more @code{:around} methods to call, falls through to run the "
+"other (non-@code{:around}) methods."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:928
+#, no-wrap
+msgid ":before methods"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:930
+msgid "Called in sequence from most specific to least specific."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:930
+#, no-wrap
+msgid "primary methods"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:933
+msgid ""
+"The most specific method is called, which may invoke the less specific ones "
+"via @code{cl-call-next-method}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:933
+#, no-wrap
+msgid ":after methods"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:935
+msgid "Called in sequence from least specific to most specific."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:940
+msgid ""
+"If no methods exist, Emacs signals a @code{cl-no-applicable-method} error.  "
+"@xref{Signals}.  If methods exist but none of them are primary, Emacs "
+"signals a @code{cl-no-primary-method} error.  @xref{Signals}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:941
+#, no-wrap
+msgid "cl-call-next-method &rest replacement-args"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:943 ../../../../../doc/misc/eieio.texi:1831
+#, no-wrap
+msgid "cl-call-next-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:946
+msgid ""
+"This function calls the superclass method from a subclass method.  This is "
+"the ``next method'' specified in the current method list."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:949
+msgid ""
+"If @var{replacement-args} is non-@code{nil}, then use them instead of the "
+"arguments originally provided to the method."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:951 ../../../../../doc/misc/eieio.texi:958
+msgid "Can only be used from within the lexical body of a primary or around method."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:953 ../../../../../doc/misc/eieio.texi:956
+#, no-wrap
+msgid "cl-next-method-p"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:956
+msgid "Non-@code{nil} if there is a next method."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:966
+msgid ""
+"Static methods do not depend on an object instance, but instead operate on a "
+"class.  You can create a static method by using the @code{subclass} "
+"specializer with @code{cl-defmethod}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:972
+#, no-wrap
+msgid ""
+"(cl-defmethod make-instance ((class (subclass mychild)) &rest args)\n"
+"  (let ((new (cl-call-next-method)))\n"
+"    (push new all-my-children)\n"
+"    new))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:977
+msgid ""
+"The first argument of a static method will be a class rather than an "
+"object.  Use the functions @code{oref-default} or @code{oset-default} which "
+"will work on a class."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:980
+msgid "A class's @code{make-instance} method is defined as a static method."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:982
+msgid "@b{Note:} The @code{subclass} specializer is unique to @eieio{}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:990
+msgid ""
+"When classes are defined, you can specify the "
+"@code{:method-invocation-order}.  This is a feature specific to EIEIO."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1001
+msgid ""
+"The original EIEIO order turned out to be broken for multiple inheritance, "
+"but some programs depended on it.  As such this option was added when the "
+"default invocation order was fixed to something that made more sense in that "
+"case."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1017
+msgid ""
+"This is derived from the Dylan language documents by Kim Barrett et al.: A "
+"Monotonic Superclass Linearization for Dylan Retrieved from: "
+"https://doi.org/10.1145/236338.236343"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:1020
+#, no-wrap
+msgid "Predicates and Utilities"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1025
+msgid ""
+"Now that we know how to create classes, access slots, and define methods, it "
+"might be useful to verify that everything is doing ok.  To help with this a "
+"plethora of predicates have been created."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1026
+#, no-wrap
+msgid "find-class symbol &optional errorp"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1031
+msgid "find-class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1031
+msgid ""
+"Return the class that @var{symbol} represents.  If there is no class, "
+"@code{nil} is returned if @var{errorp} is @code{nil}.  If @var{errorp} is "
+"non-@code{nil}, @code{wrong-argument-type} is signaled."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1033
+#, no-wrap
+msgid "class-p class"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1037
+msgid "class-p"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1037
+msgid ""
+"Return @code{t} if @var{class} is a valid class object.  @var{class} is a "
+"symbol."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1039
+#, no-wrap
+msgid "slot-exists-p object-or-class slot"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1042
+msgid "slot-exists-p"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1042
+msgid "Non-@code{nil} if @var{object-or-class} has @var{slot}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1044
+#, no-wrap
+msgid "slot-boundp object slot"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1050
+msgid "slot-boundp"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1050
+msgid ""
+"Non-@code{nil} if OBJECT's @var{slot} is bound.  Setting a slot's value "
+"makes it bound.  Calling @dfn{slot-makeunbound} will make a slot unbound.  "
+"@var{object} can be an instance or a class."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1052
+#, no-wrap
+msgid "eieio-class-name class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1054
+msgid "Return the class name as a symbol."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1056
+#, no-wrap
+msgid "class-option class option"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1059
+msgid "Return the value in @var{CLASS} of a given @var{OPTION}.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1062
+#, no-wrap
+msgid "(class-option eieio-default-superclass :documentation)\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1065
+msgid "Will fetch the documentation string for @code{eieio-default-superclass}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1067
+#, no-wrap
+msgid "eieio-object-name obj"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1074
+msgid ""
+"Return a string of the form @samp{#<object-class myobjname>} for @var{obj}.  "
+"This should look like Lisp symbols from other parts of Emacs such as buffers "
+"and processes, and is shorter and cleaner than printing the object's "
+"record.  It is more useful to use @code{object-print} to get an object's "
+"print form, as this allows the object to add extra display information into "
+"the symbol."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1076
+#, no-wrap
+msgid "eieio-object-class obj"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1078
+msgid "Returns the class symbol from @var{obj}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1080
+#, no-wrap
+msgid "eieio-object-class-name obj"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1082
+msgid "Returns the symbol of @var{obj}'s class."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1084
+#, no-wrap
+msgid "eieio-class-parents class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1087
+msgid ""
+"Returns the direct parents class of @var{class}.  Returns @code{nil} if it "
+"is a superclass."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1089
+#, no-wrap
+msgid "eieio-class-parents-fast class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1092
+msgid ""
+"Just like @code{eieio-class-parents} except it is a macro and no type "
+"checking is performed."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1094
+#, no-wrap
+msgid "eieio-class-parent class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1096
+msgid "Deprecated function which returns the first parent of @var{class}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1098
+#, no-wrap
+msgid "eieio-class-children class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1100
+msgid "Return the list of classes inheriting from @var{class}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1102
+#, no-wrap
+msgid "eieio-class-children-fast class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1104
+msgid "Just like @code{eieio-class-children}, but with no checks."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1106
+#, no-wrap
+msgid "same-class-p obj class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1108
+msgid "Returns @code{t} if @var{obj}'s class is the same as @var{class}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1110
+#, no-wrap
+msgid "object-of-class-p obj class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1113
+msgid ""
+"Returns @code{t} if @var{obj} inherits anything from @var{class}.  This is "
+"different from @code{same-class-p} because it checks for inheritance."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1115
+#, no-wrap
+msgid "child-of-class-p child class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1117
+msgid "Returns @code{t} if @var{child} is a subclass of @var{class}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1119
+#, no-wrap
+msgid "generic-p method-symbol"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1122
+msgid ""
+"Returns @code{t} if @code{method-symbol} is a generic function, as opposed "
+"to a regular Emacs Lisp function."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1130
+msgid ""
+"Lisp offers the concept of association lists, with primitives such as "
+"@code{assoc} used to access them.  The following functions can be used to "
+"manage association lists of @eieio{} objects:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1131
+#, no-wrap
+msgid "object-assoc key slot list"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1138
+msgid "object-assoc"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1138
+msgid ""
+"Return an object if @var{key} is @dfn{equal} to SLOT's value of an object in "
+"@var{list}.  @var{list} is a list of objects whose slots are searched.  "
+"Objects in @var{list} do not need to have a slot named @var{slot}, nor does "
+"@var{slot} need to be bound.  If these errors occur, those objects will be "
+"ignored."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1141
+#, no-wrap
+msgid "object-assoc-list slot list"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1146
+msgid ""
+"Return an association list generated by extracting @var{slot} from all "
+"objects in @var{list}.  For each element of @var{list} the @code{car} is the "
+"value of @var{slot}, and the @code{cdr} is the object it was extracted "
+"from.  This is useful for generating completion tables."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1148
+#, no-wrap
+msgid "eieio-build-class-alist &optional base-class"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1154
+msgid ""
+"Returns an alist of all currently defined classes.  This alist is suitable "
+"for completion lists used by interactive functions to select a class.  The "
+"optional argument @var{base-class} allows the programmer to select only a "
+"subset of classes which includes @var{base-class} and all its subclasses."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:1157
+#, no-wrap
+msgid "Customizing Objects"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1165
+msgid ""
+"@eieio{} supports the Custom facility through two new widget types.  If a "
+"variable is declared as type @code{object}, then full editing of slots via "
+"the widgets is made possible.  This should be used carefully, however, "
+"because modified objects are cloned, so if there are other references to "
+"these objects, they will no longer be linked together."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1167
+msgid "If you want in place editing of objects, use the following methods:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1168
+#, no-wrap
+msgid "eieio-customize-object object"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1174
+msgid ""
+"Create a custom buffer and insert a widget for editing @var{object}.  At the "
+"end, an @code{Apply} and @code{Reset} button are available.  This will edit "
+"the object \"in place\" so references to it are also changed.  There is no "
+"effort to prevent multiple edits of a singular object, so care must be taken "
+"by the user of this function."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1176
+#, no-wrap
+msgid "eieio-custom-widget-insert object flags"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1181
+msgid ""
+"This method inserts an edit object into the current buffer in place.  It is "
+"implemented as @code{(widget-create 'object-edit :value object)}.  This "
+"method is provided as a locale for adding tracking, or specializing the "
+"widget insert procedure for any object."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1186
+msgid ""
+"To define a slot with an object in it, use the @code{object} tag.  This "
+"widget type will be automatically converted to @code{object-edit} if you do "
+"in place editing of you object."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1192
+msgid ""
+"If you want to have additional actions taken when a user clicks on the "
+"@code{Apply} button, then overload the method "
+"@code{eieio-done-customizing}.  This method does nothing by default, but "
+"that may change in the future.  This would be the best way to make your "
+"objects persistent when using in-place editing."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:1193
+#, no-wrap
+msgid "Widget extension"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1199
+msgid ""
+"When widgets are being created, one new widget extension has been added, "
+"called the @code{:slotofchoices}.  When this occurs in a widget definition, "
+"all elements after it are removed, and the slot is specifies is queried and "
+"converted into a series of constants."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1203
+#, no-wrap
+msgid ""
+"(choice (const :tag \"None\" nil)\n"
+"        :slotofchoices morestuff)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1207
+msgid ""
+"and if the slot @code{morestuff} contains @code{(sym1 sym2 sym3)}, the above "
+"example is converted into:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1213
+#, no-wrap
+msgid ""
+"(choice (const :tag \"None\" nil)\n"
+"        (const sym1)\n"
+"        (const sym2)\n"
+"        (const sym3))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1217
+msgid ""
+"This is useful when a given item needs to be selected from a list of items "
+"defined in this second slot."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1226
+msgid ""
+"Introspection permits a programmer to peek at the contents of a class "
+"without any previous knowledge of that class.  While @eieio{} implements "
+"objects on top of records, and thus everything is technically visible, some "
+"functions have been provided.  None of these functions are a part of CLOS."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1227
+#, no-wrap
+msgid "eieio-class-slots obj"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1229
+msgid "Return the list of public slots for @var{obj}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1231
+#, no-wrap
+msgid "class-slot-initarg class slot"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1235
+msgid ""
+"For the given @var{class} return an :initarg associated with @var{slot}.  "
+"Not all slots have initargs, so the return value can be @code{nil}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1243
+msgid ""
+"All defined classes, if created with no specified parent class, inherit from "
+"a special class called @code{eieio-default-superclass}.  @xref{Default "
+"Superclass}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1248
+msgid ""
+"Often, it is more convenient to inherit from one of the other base classes "
+"provided by @eieio{}, which have useful pre-defined properties.  (Since "
+"@eieio{} supports multiple inheritance, you can even inherit from more than "
+"one of these classes at once.)"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1258 ../../../../../doc/misc/eieio.texi:1259
+#, no-wrap
+msgid "eieio-instance-inheritor"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Enable value inheritance between instances."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1287 ../../../../../doc/misc/eieio.texi:1288
+#, no-wrap
+msgid "eieio-instance-tracker"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Enable self tracking instances."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1321 ../../../../../doc/misc/eieio.texi:1322
+#, no-wrap
+msgid "eieio-singleton"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Only one instance of a given class."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1332 ../../../../../doc/misc/eieio.texi:1333
+#, no-wrap
+msgid "eieio-persistent"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Enable persistence for a class."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1383 ../../../../../doc/misc/eieio.texi:1384
+#, no-wrap
+msgid "eieio-named"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Use the object name as a :name slot."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1256 ../../../../../doc/misc/eieio.texi:1394 ../../../../../doc/misc/eieio.texi:1395
+#, no-wrap
+msgid "eieio-speedbar"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1256
+msgid "Enable speedbar support in your objects."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1262 ../../../../../doc/misc/eieio.texi:1291 ../../../../../doc/misc/eieio.texi:1325 ../../../../../doc/misc/eieio.texi:1336 ../../../../../doc/misc/eieio.texi:1387
+msgid "This class is defined in the package @file{eieio-base}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1267
+msgid ""
+"Instance inheritance is a mechanism whereby the value of a slot in object "
+"instance can reference the parent instance.  If the parent's slot value is "
+"changed, then the child instance is also changed.  If the child's slot is "
+"set, then the parent's slot is not modified."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1268
+#, no-wrap
+msgid "{Class} eieio-instance-inheritor parent-instance"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1272
+msgid ""
+"A class whose instances are enabled with instance inheritance.  The "
+"@var{parent-instance} slot indicates the instance which is considered the "
+"parent of the current instance.  Default is @code{nil}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1274 ../../../../../doc/misc/eieio.texi:1590
+#, no-wrap
+msgid "clone"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1279
+msgid ""
+"To use this class, inherit from it with your own class.  To make a new "
+"instance that inherits from and existing instance of your class, use the "
+"@code{clone} method with additional parameters to specify local values."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1280 ../../../../../doc/misc/eieio.texi:1670
+#, no-wrap
+msgid "slot-unbound"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1286
+msgid ""
+"The @code{eieio-instance-inheritor} class works by causing cloned objects to "
+"have all slots unbound.  This class' @code{slot-unbound} method will cause "
+"references to unbound slots to be redirected to the parent instance.  If the "
+"parent slot is also unbound, then @code{slot-unbound} will signal an error "
+"named @code{slot-unbound}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1294
+msgid ""
+"Sometimes it is useful to keep a master list of all instances of a given "
+"class.  The class @code{eieio-instance-tracker} performs this task."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1295
+#, no-wrap
+msgid "{Class} eieio-instance-tracker tracking-symbol"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1301
+msgid ""
+"Enable instance tracking for this class.  The slot @var{tracking-symbol} "
+"should be initialized in inheritors of this class to a symbol created with "
+"@code{defvar}.  This symbol will serve as the variable used as a master list "
+"of all objects of the given class."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1303
+#, no-wrap
+msgid "eieio-instance-tracker initialize-instance obj slot"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1306
+msgid ""
+"This method is defined as an @code{:after} method.  It adds new instances to "
+"the master list."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1308
+#, no-wrap
+msgid "eieio-instance-tracker delete-instance obj"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1311
+msgid ""
+"Remove @var{obj} from the master list of instances of this class.  This may "
+"let the garbage collector nab this instance."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1313
+#, no-wrap
+msgid "eieio-instance-tracker-find key slot list-symbol"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1319
+msgid ""
+"This convenience function lets you find instances.  @var{key} is the value "
+"to search for.  @var{slot} is the slot to compare @var{KEY} against.  The "
+"function @code{equal} is used for comparison.  The parameter "
+"@var{list-symbol} is the variable symbol which contains the list of objects "
+"to be searched."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1326
+#, no-wrap
+msgid "{Class} eieio-singleton"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1330
+msgid ""
+"Inheriting from the singleton class will guarantee that there will only ever "
+"be one instance of this class.  Multiple calls to @code{make-instance} will "
+"always return the same object."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1340
+msgid ""
+"If you want an object, or set of objects to be persistent, meaning the slot "
+"values are important to keep saved between sessions, then you will want your "
+"top level object to inherit from @code{eieio-persistent}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1344
+msgid ""
+"To make sure your persistent object can be moved, make sure all file names "
+"stored to disk are made relative with @code{eieio-persistent-path-relative}."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1345
+#, no-wrap
+msgid "{Class} eieio-persistent file file-header-line"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1351
+msgid ""
+"Enables persistence for instances of this class.  Slot @var{file} with "
+"initarg @code{:file} is the file name in which this object will be saved.  "
+"Class allocated slot @var{file-header-line} is used with method "
+"@code{object-write} as a header comment."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1355
+msgid ""
+"All objects can write themselves to a file, but persistent objects have "
+"several additional methods that aid in maintaining them."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1356
+#, no-wrap
+msgid "eieio-persistent eieio-persistent-save obj &optional file"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1360
+msgid ""
+"Write the object @var{obj} to its file.  If optional argument @var{file} is "
+"specified, use that file name instead."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1362
+#, no-wrap
+msgid "eieio-persistent eieio-persistent-path-relative obj file"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1367
+msgid ""
+"Return a file name derived from @var{file} which is relative to the stored "
+"location of @var{OBJ}.  This method should be used to convert file names so "
+"that they are relative to the save file, making any system of files movable "
+"from one location to another."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1369
+#, no-wrap
+msgid "eieio-persistent object-write obj &optional comment"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1373
+msgid ""
+"Like @code{object-write} for @code{standard-object}, but will derive a "
+"header line comment from the class allocated slot if one is not provided."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1375
+#, no-wrap
+msgid "eieio-persistent-read filename &optional class allow-subclass"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1381
+msgid ""
+"Read a persistent object from @var{filename}, and return it.  Signal an "
+"error if the object in @var{FILENAME} is not a constructor for @var{CLASS}.  "
+"Optional @var{allow-subclass} says that it is ok for "
+"@code{eieio-persistent-read} to load in subclasses of class instead of being "
+"pedantic."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1388
+#, no-wrap
+msgid "{Class} eieio-named"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1392
+msgid ""
+"Object with a name.  Name storage already occurs in an object.  This object "
+"provides get/set access to it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1398
+msgid "This class is in package @file{eieio-speedbar}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1403
+msgid ""
+"If a series of class instances map to a tree structure, it is possible to "
+"cause your classes to be displayable in Speedbar.  @xref{Top,,,speedbar}.  "
+"Inheriting from these classes will enable a speedbar major display mode with "
+"a minimum of effort."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1404
+#, no-wrap
+msgid "{Class} eieio-speedbar buttontype buttonface"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1406
+msgid "Enables base speedbar display for a class."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eieio.texi:1406
+#, no-wrap
+msgid "speedbar-make-tag-line"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1414
+msgid ""
+"The slot @var{buttontype} is any of the symbols allowed by the function "
+"@code{speedbar-make-tag-line} for the @var{exp-button-type} argument "
+"@xref{Extending,,,speedbar}.  The slot @var{buttonface} is the face to use "
+"for the text of the string displayed in speedbar.  The slots "
+"@var{buttontype} and @var{buttonface} are class allocated slots, and do not "
+"take up space in your instances."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1416
+#, no-wrap
+msgid "{Class} eieio-speedbar-directory-button buttontype buttonface"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1419
+msgid ""
+"This class inherits from @code{eieio-speedbar} and initializes "
+"@var{buttontype} and @var{buttonface} to appear as directory level lines."
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1421
+#, no-wrap
+msgid "{Class} eieio-speedbar-file-button buttontype buttonface"
+msgstr ""
+
+#. type: deftp
+#: ../../../../../doc/misc/eieio.texi:1424
+msgid ""
+"This class inherits from @code{eieio-speedbar} and initializes "
+"@var{buttontype} and @var{buttonface} to appear as file level lines."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1430
+msgid ""
+"To use these classes, inherit from one of them in you class.  You can use "
+"multiple inheritance with them safely.  To customize your class for speedbar "
+"display, override the default values for @var{buttontype} and "
+"@var{buttonface} to get the desired effects."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1432
+msgid "Useful methods to define for your new class include:"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1433
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-derive-line-path obj depth"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1437
+msgid ""
+"Return a string representing a directory associated with an instance of "
+"@var{obj}.  @var{depth} can be used to index how many levels of indentation "
+"have been opened by the user where @var{obj} is shown."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1440
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-description obj"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1444
+msgid ""
+"Return a string description of @var{OBJ}.  This is shown in the minibuffer "
+"or tooltip when the mouse hovers over this instance in speedbar."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1446
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-child-description obj"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1450
+msgid ""
+"Return a string representing a description of a child node of @var{obj} when "
+"that child is not an object.  It is often useful to just use item info "
+"helper functions such as @code{speedbar-item-info-file-helper}."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1452
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-object-buttonname obj"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1454
+msgid "Return a string which is the text displayed in speedbar for @var{obj}."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1456
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-object-children obj"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1458
+msgid "Return a list of children of @var{obj}."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1460
+#, no-wrap
+msgid "eieio-speedbar eieio-speedbar-child-make-tag-lines obj depth"
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1465
+msgid ""
+"This method inserts a list of speedbar tag lines for @var{obj} to represent "
+"its children.  Implement this method for your class if your children are not "
+"objects themselves.  You still need to implement "
+"@code{eieio-speedbar-object-children}."
+msgstr ""
+
+#. type: defmethod
+#: ../../../../../doc/misc/eieio.texi:1468
+msgid ""
+"In this method, use techniques specified in the Speedbar manual.  "
+"@xref{Extending,,,speedbar}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1471
+msgid "Some other functions you will need to learn to use are:"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1472
+#, no-wrap
+msgid "eieio-speedbar-create make-map key-map menu name toplevelfn"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1482
+msgid ""
+"Register your object display mode with speedbar.  @var{make-map} is a "
+"function which initialized you keymap.  @var{key-map} is a symbol you keymap "
+"is installed into.  @var{menu} is an easy menu vector representing menu "
+"items specific to your object display.  @var{name} is a short string to use "
+"as a name identifying you mode.  @var{toplevelfn} is a function called which "
+"must return a list of objects representing those in the instance system you "
+"wish to browse in speedbar."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1486
+msgid ""
+"Read the Extending chapter in the speedbar manual for more information on "
+"how speedbar modes work @xref{Extending,,,speedbar}."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eieio.texi:1489
+#, no-wrap
+msgid "Browsing class trees"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1495
+msgid ""
+"The command @kbd{M-x eieio-browse} displays a buffer listing all the "
+"currently loaded classes in Emacs.  The classes are listed in an indented "
+"tree structure, starting from @code{eieio-default-superclass} "
+"(@pxref{Default Superclass})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1498
+msgid ""
+"With a prefix argument, this command prompts for a class name; it then lists "
+"only that class and its subclasses."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1500
+msgid "Here is a sample tree from our current example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1505
+#, no-wrap
+msgid ""
+"eieio-default-superclass\n"
+"  +--data-object\n"
+"       +--data-object-symbol\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1509
+msgid ""
+"Note: new classes are consed into the inheritance lists, so the tree comes "
+"out upside-down."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1518
+msgid ""
+"You can use the normal @code{describe-function} command to retrieve "
+"information about a class.  Running it on constructors will show a full "
+"description of the generated class.  If you call it on a generic function, "
+"all implementations of that generic function will be listed, together with "
+"links through which you can directly jump to the source."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1528
+msgid ""
+"All defined classes, if created with no specified parent class, will inherit "
+"from a special class stored in @code{eieio-default-superclass}.  This "
+"superclass is quite simple, but with it, certain default methods or "
+"attributes can be added to all objects.  In CLOS, this would be named "
+"@code{STANDARD-CLASS}, and that symbol is an alias to "
+"@code{eieio-default-superclass}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1530
+msgid "Currently, the default superclass is defined as follows:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1538
+#, no-wrap
+msgid ""
+"(defclass eieio-default-superclass nil\n"
+"  nil\n"
+"  \"Default parent class for classes with no specified parent class.\n"
+"Its slots are automatically adopted by classes with no specified\n"
+"parents.  This class is not stored in the `parent' slot of a class "
+"object.\"\n"
+"  :abstract t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1542
+msgid ""
+"The default superclass implements several methods providing a default "
+"behavior for all objects created by @eieio{}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:1547 ../../../../../doc/misc/eieio.texi:1549 ../../../../../doc/misc/eieio.texi:1550
+#, no-wrap
+msgid "Initialization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1547
+msgid "How objects are initialized"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:1547 ../../../../../doc/misc/eieio.texi:1579 ../../../../../doc/misc/eieio.texi:1580
+#, no-wrap
+msgid "Basic Methods"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1547
+msgid "Clone, print, and write"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eieio.texi:1547 ../../../../../doc/misc/eieio.texi:1632 ../../../../../doc/misc/eieio.texi:1633
+#, no-wrap
+msgid "Signal Handling"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eieio.texi:1547
+msgid "Methods for managing signals."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1556
+msgid ""
+"When creating an object of any type, you can use its constructor, or "
+"@code{make-instance}.  This, in turns calls the method "
+"@code{initialize-instance}, which then calls the method "
+"@code{shared-initialize}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1560
+msgid ""
+"These methods are all implemented on the default superclass so you do not "
+"need to write them yourself, unless you need to override one of their "
+"behaviors."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1565
+msgid ""
+"Users should not need to call @code{initialize-instance} or "
+"@code{shared-initialize}, as these are used by @code{make-instance} to "
+"initialize the object.  They are instead provided so that users can augment "
+"these behaviors."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1566
+#, no-wrap
+msgid "initialize-instance obj &rest slots"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1570
+msgid ""
+"Initialize @var{obj}.  Sets slots of @var{obj} with @var{slots} which is a "
+"list of name/value pairs.  These are actually just passed to "
+"@code{shared-initialize}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1572
+#, no-wrap
+msgid "shared-initialize obj &rest slots"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1575
+msgid ""
+"Sets slots of @var{obj} with @var{slots} which is a list of name/value "
+"pairs."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1577
+msgid "This is called from the default constructor."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1583
+msgid "Additional useful methods defined on the base subclass are:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1584
+#, no-wrap
+msgid "clone obj &rest params"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1590
+msgid ""
+"Make a copy of @var{obj}, and then apply @var{params}.  @var{params} is a "
+"parameter list of the same form as @var{initialize-instance} which are "
+"applied to change the object.  When overloading @dfn{clone}, be sure to call "
+"@dfn{cl-call-next-method} first and modify the returned object."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1592
+#, no-wrap
+msgid "object-print this &rest strings"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1597
+msgid "object-print"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1597
+msgid ""
+"Pretty printer for object @var{this}.  Call function @dfn{eieio-object-name} "
+"with @var{strings}.  The default method for printing object @var{this} is to "
+"use the function @dfn{eieio-object-name}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1600
+msgid ""
+"It is sometimes useful to put a summary of the object into the default "
+"#<notation> string when using eieio browsing tools."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1605
+msgid ""
+"Implement this function and specify @var{strings} in a call to "
+"@dfn{cl-call-next-method} to provide additional summary information.  When "
+"passing in extra strings from child classes, always remember to prepend a "
+"space."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1610
+#, no-wrap
+msgid ""
+"(defclass data-object ()\n"
+"   (value)\n"
+"   \"Object containing one data slot.\")\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1616
+#, no-wrap
+msgid ""
+"(cl-defmethod object-print ((this data-object) &optional strings)\n"
+"  \"Return a string with a summary of the data object as part of the "
+"name.\"\n"
+"  (apply #'cl-call-next-method this\n"
+"         (format \" value: %s\" (render this))\n"
+"         strings))\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1619
+msgid "Here is what some output could look like:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eieio.texi:1622
+#, no-wrap
+msgid ""
+"(object-print test-object)\n"
+"   => #<data-object test-object value: 3>\n"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1625
+#, no-wrap
+msgid "object-write obj &optional comment"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1630
+msgid ""
+"Write @var{obj} onto a stream in a readable fashion.  The resulting output "
+"will be Lisp code which can be used with @code{read} and @code{eval} to "
+"recover the object.  Only slots with @code{:initarg}s are written to the "
+"stream."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1637
+msgid ""
+"The default superclass defines methods for managing error conditions.  These "
+"methods all throw a signal for a particular error condition."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1641
+msgid ""
+"By implementing one of these methods for a class, you can change the "
+"behavior that occurs during one of these error cases, or even ignore the "
+"error by providing some behavior."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1642
+#, no-wrap
+msgid "slot-missing object slot-name operation &optional new-value"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1648
+msgid "slot-missing"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1648
+msgid ""
+"Method invoked when an attempt to access a slot in @var{object} fails.  "
+"@var{slot-name} is the name of the failed slot, @var{operation} is the type "
+"of access that was requested, and optional @var{new-value} is the value that "
+"was desired to be set."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1651
+msgid ""
+"This method is called from @code{oref}, @code{oset}, and other functions "
+"which directly reference slots in EIEIO objects."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1654
+msgid ""
+"The default method signals an error of type @code{invalid-slot-name}.  "
+"@xref{Signals}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1657
+msgid ""
+"You may override this behavior, but it is not expected to return in the "
+"current implementation."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1659
+msgid "This function takes arguments in a different order than in CLOS."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1661
+#, no-wrap
+msgid "slot-unbound object class slot-name fn"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1670
+msgid ""
+"Slot unbound is invoked during an attempt to reference an unbound slot.  "
+"@var{object} is the instance of the object being reference.  @var{class} is "
+"the class of @var{object}, and @var{slot-name} is the offending slot.  This "
+"function throws the signal @code{unbound-slot}.  You can overload this "
+"function and return the value to use in place of the unbound value.  "
+"Argument @var{fn} is the function signaling this error.  Use "
+"@dfn{slot-boundp} to determine if a slot is bound or not."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1673
+msgid ""
+"In @var{clos}, the argument list is (@var{class} @var{object} "
+"@var{slot-name}), but @var{eieio} can only dispatch on the first argument, "
+"so the first two are swapped."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1675
+#, no-wrap
+msgid "cl-no-applicable-method generic &rest args"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1680
+msgid "cl-no-applicable-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1680
+msgid ""
+"Called if there are no methods applicable for @var{args} in the generic "
+"function @var{generic}.  @var{args} are the arguments that were passed to "
+"@var{generic}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1683 ../../../../../doc/misc/eieio.texi:1693
+msgid ""
+"Implement this for a class to block this signal.  The return value becomes "
+"the return value of the original method call."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1685
+#, no-wrap
+msgid "cl-no-primary-method generic &rest args"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1690
+msgid "cl-no-primary-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1690
+msgid ""
+"Called if there are methods applicable for @var{args} in the generic "
+"function @var{generic} but they are all qualified.  @var{args} are the "
+"arguments that were passed to @var{generic}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1695
+#, no-wrap
+msgid "cl-no-next-method generic method &rest args"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/eieio.texi:1705
+msgid "cl-no-next-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eieio.texi:1705
+msgid ""
+"Called from @dfn{cl-call-next-method} when no additional methods are "
+"available.  @var{generic} is the generic function being called on "
+"@dfn{cl-call-next-method}, @var{method} is the method where "
+"@dfn{cl-call-next-method} was called, and @var{args} are the arguments it is "
+"called by.  This method signals @dfn{cl-no-next-method} by default.  "
+"Override this method to not throw an error, and its return value becomes the "
+"return value of @dfn{cl-call-next-method}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1712
+msgid ""
+"There are new condition names (signals) that can be caught when using "
+"@eieio{}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1713
+#, no-wrap
+msgid "Signal invalid-slot-name obj-or-class slot"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1717
+msgid ""
+"This signal is called when an attempt to reference a slot in an "
+"@var{obj-or-class} is made, and the @var{slot} is not defined for it."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1719
+#, no-wrap
+msgid "Signal cl-no-applicable-method generic arguments"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1724
+msgid ""
+"This signal is called when @var{generic} is called, with @var{arguments} and "
+"nothing is resolved.  This occurs when @var{generic} has been defined, but "
+"the arguments make it impossible for @eieio{} to determine which method body "
+"to run."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1729
+msgid ""
+"To prevent this signal from occurring in your class, implement the method "
+"@code{cl-no-applicable-method} for your class.  This method is called when "
+"to throw this signal, so implementing this for your class allows you block "
+"the signal, and perform some work."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1731
+#, no-wrap
+msgid "Signal cl-no-primary-method generic arguments"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1735
+msgid ""
+"Like @code{cl-no-applicable-method} but applies when there are some "
+"applicable methods, but none of them are primary.  You can similarly block "
+"it by implementing a @code{cl-no-primary-method} method."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1737
+#, no-wrap
+msgid "Signal cl-no-next-method class arguments"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1740
+msgid ""
+"This signal is called if the function @code{cl-call-next-method} is called "
+"and there is no next method to be called."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1742
+msgid "Overload the method @code{cl-no-next-method} to protect against this signal."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1744
+#, no-wrap
+msgid "Signal invalid-slot-type slot spec value"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1747
+msgid ""
+"This signal is called when an attempt to set @var{slot} is made, and "
+"@var{value} doesn't match the specified type @var{spec}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1750
+msgid ""
+"In @eieio{}, this is also used if a slot specifier has an invalid value "
+"during a @code{defclass}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1752
+#, no-wrap
+msgid "Signal unbound-slot object class slot"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eieio.texi:1755
+msgid ""
+"This signal is called when an attempt to reference @var{slot} in "
+"@var{object} is made, and that instance is currently unbound."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1765
+msgid ""
+"@xref{Tips,,Tips and Conventions,elisp,GNU Emacs Lisp Reference Manual}, for "
+"a description of Emacs Lisp programming conventions.  These conventions help "
+"ensure that Emacs packages work nicely one another, so an @eieio{}-based "
+"program should follow them.  Here are some conventions that apply "
+"specifically to @eieio{}-based programs:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1768
+#, no-wrap
+msgid "Come up with a package prefix that is relatively short.  Prefix"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eieio.texi:1771
+msgid ""
+"all classes, and methods with your prefix.  This is a standard convention "
+"for functions and variables in Emacs."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1772
+#, no-wrap
+msgid "Do not prefix method names with the class name.  All methods in"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eieio.texi:1776
+msgid ""
+"@eieio{} are ``virtual'', and are dynamically dispatched.  Anyone can "
+"override your methods at any time.  Your methods should be prefixed with "
+"your package name."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1777
+#, no-wrap
+msgid "Do not prefix slots in your class.  The slots are always locally"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eieio.texi:1779
+msgid "scoped to your class, and need no prefixing."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1780
+#, no-wrap
+msgid "If your library inherits from other libraries of classes, you"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eieio.texi:1782
+msgid "must ``require'' that library with the @code{require} command."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1790
+msgid ""
+"Currently, the following functions should behave almost as expected from "
+"CLOS."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1793
+#, no-wrap
+msgid "defclass"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1796
+msgid ""
+"All slot keywords are available but not all work correctly.  Slot keyword "
+"differences are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1799
+#, no-wrap
+msgid ":reader, and :writer tags"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1802
+msgid ""
+"Create methods that signal errors instead of creating an unqualified "
+"method.  You can still create new ones to do its business."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1806
+msgid ""
+"This should create an unqualified method to access a slot, but instead "
+"pre-builds a method that gets the slot's value."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1812
+msgid ""
+"Specifier uses the @code{typep} function from the @file{cl} package.  "
+"@xref{Type Predicates,,,cl,Common Lisp Extensions}.  It therefore has the "
+"same issues as that package.  Extensions include the ability to provide "
+"object names."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1816
+msgid ""
+"defclass also supports class options, but does not currently use values of "
+"@code{:metaclass}, and @code{:default-initargs}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1821
+msgid ""
+"Make instance works as expected, however it just uses the @eieio{} instance "
+"creator automatically generated when a new class is created.  @xref{Making "
+"New Objects}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1822
+#, no-wrap
+msgid "cl-defgeneric"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1825
+msgid ""
+"Creates the desired symbol, and accepts most of the expected arguments of "
+"CLOS's @code{defgeneric}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eieio.texi:1826
+#, no-wrap
+msgid "cl-defmethod"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1830
+msgid ""
+"Accepts most of the expected arguments of CLOS's @code{defmethod}.  To type "
+"cast against a class, the class must exist before @code{cl-defmethod} is "
+"called."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eieio.texi:1833
+msgid "Works just like CLOS's @code{call-next-method}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1838
+msgid ""
+"CLOS supports the @code{describe} command, but @eieio{} provides support for "
+"using the standard @code{describe-function} command on a constructor or "
+"generic function."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1841
+msgid ""
+"When creating a new class (@pxref{Building Classes}) there are several new "
+"keywords supported by @eieio{}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1843
+msgid "In @eieio{} tags are in lower case, not mixed case."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1850
+msgid ""
+"@eieio{} is an incomplete implementation of CLOS@.  Finding ways to improve "
+"the compatibility would help make CLOS style programs run better in Emacs."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1852
+msgid "Some important compatibility features that would be good to add are:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:1856
+msgid "Support for metaclasses."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:1858
+msgid "Improve integration with the @file{cl} package."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eieio.texi:1862
+msgid ""
+"There are also improvements to be made to allow @eieio{} to operate better "
+"in the Emacs environment."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:1867
+msgid ""
+"Allow subclassing of Emacs built-in types, such as faces, markers, and "
+"buffers."
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/eieio.texi:1869
+msgid "Allow method overloading of method-like functions in Emacs."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/eieio.texi:1873
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

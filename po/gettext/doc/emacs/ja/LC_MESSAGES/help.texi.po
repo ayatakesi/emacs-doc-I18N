@@ -1,0 +1,46 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-19 23:06+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@chapter Help"
+msgstr "@chapter ヘルプ"
+
+msgid "@section Help Summary"
+msgstr "@section ヘルプの概要"
+
+msgid "@section Documentation for a Key"
+msgstr "@section キーのドキュメント"
+
+msgid "@section Help by Command or Variable Name"
+msgstr "@section コマンドと変数名のヘルプ"
+
+msgid "@section Apropos"
+msgstr "@section Apropos(適切な)"
+
+msgid "@section Help Mode Commands"
+msgstr "@section ヘルプモードのコマンド"
+
+msgid "@section Keyword Search for Packages"
+msgstr "@section パッケージのキーワード検索"
+
+msgid "@section Help for International Language Support"
+msgstr "@section 国際化言語のサポートに関するヘルプ"
+
+msgid "@section Other Help Commands"
+msgstr "@section その他のヘルプコマンド"
+
+msgid "@section Help Files"
+msgstr "@section ヘルプファイル"
+
+msgid "@section Help on Active Text and Tooltips"
+msgstr "@section アクティブテキストのヘルプとツールチップ"

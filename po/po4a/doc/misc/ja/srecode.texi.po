@@ -1,0 +1,4126 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-16 23:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/srecode.texi:6 ../../../../../doc/misc/srecode.texi:62
+#, no-wrap
+msgid "@value{TITLE}"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/srecode.texi:7
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/srecode.texi:20
+msgid "Copyright @copyright{} 2007--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/srecode.texi:28
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/srecode.texi:31
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/srecode.texi:34
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:37
+msgid "SRecode: (srecode)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:37
+msgid "Semantic template code generator."
+msgstr ""
+
+#. type: i{#1}
+#: ../../../../../doc/misc/srecode.texi:41 ../../../../../doc/misc/srecode.texi:59
+#, no-wrap
+msgid "SRecode"
+msgstr ""
+
+#. type: center
+#: ../../../../../doc/misc/srecode.texi:43
+#, no-wrap
+msgid "by @value{AUTHOR}"
+msgstr ""
+
+#. type: i{#1}
+#: ../../../../../doc/misc/srecode.texi:51
+msgid "Semantic"
+msgstr ""
+
+#. type: i{#1}
+#: ../../../../../doc/misc/srecode.texi:55
+msgid "EIEIO"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/srecode.texi:61
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:68
+msgid ""
+"@srecode{} is the @i{Semantic Recoder}.  Where @semantic{} will parse source "
+"files into lists of tags, the @i{Semantic Recoder} will aid in converting "
+"@semantic{} tags and various other information back into various types of "
+"code."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:73
+msgid ""
+"While the @srecode{} tool provides a template language, templates for "
+"several languages, and even a sequence of heuristics that aid the user in "
+"choosing a template to insert, this is not the main goal of @srecode{}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:78
+msgid ""
+"The goal of @srecode{} is to provide an application framework where someone "
+"can write a complex code generator, and the underlying template commonality "
+"allows it to work in multiple languages with ease."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:99 ../../../../../doc/misc/srecode.texi:100
+#, no-wrap
+msgid "Quick Start"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Basic Setup for template insertion."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:152 ../../../../../doc/misc/srecode.texi:153
+#, no-wrap
+msgid "User Templates"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Custom User Templates"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:200 ../../../../../doc/misc/srecode.texi:201
+#, no-wrap
+msgid "Parts of SRecode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Parts of the system"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:282 ../../../../../doc/misc/srecode.texi:283
+#, no-wrap
+msgid "SRecode Minor Mode"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "A minor mode for using templates"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:349 ../../../../../doc/misc/srecode.texi:350
+#, no-wrap
+msgid "Template Writing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "How to write a template"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:934 ../../../../../doc/misc/srecode.texi:935
+#, no-wrap
+msgid "Dictionaries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "How dictionaries work"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1463 ../../../../../doc/misc/srecode.texi:1464
+#, no-wrap
+msgid "Developing Template Functions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "How to write your own template insert functions."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1582 ../../../../../doc/misc/srecode.texi:1583
+#, no-wrap
+msgid "Template Naming Conventions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Creating a set of core templates"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1695 ../../../../../doc/misc/srecode.texi:1696
+#, no-wrap
+msgid "Inserting Tag Lists"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Inserting Semantic tags via templates"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1746 ../../../../../doc/misc/srecode.texi:1747
+#, no-wrap
+msgid "Application Writing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "Writing an @srecode{}r application"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1785 ../../../../../doc/misc/srecode.texi:1786
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:96
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/srecode.texi:96 ../../../../../doc/misc/srecode.texi:1790 ../../../../../doc/misc/srecode.texi:1791
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:104
+msgid ""
+"When you install CEDET and enable @srecode{}, an @code{SRecoder} menu item "
+"should appear."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:106
+msgid "To toggle @srecode{} minor mode on and off use:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:109
+#, no-wrap
+msgid "M-x srecode-minor-mode @key{RET}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:111
+msgid "or"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:113
+#, no-wrap
+msgid "M-x global-srecode-minor-mode @key{RET}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:116
+msgid "or add"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:119
+#, no-wrap
+msgid "(srecode-minor-mode 1)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:123
+msgid ""
+"into a language hook function to force it on (which is the default) or pass "
+"in @code{-1} to force it off."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:125
+msgid "See @ref{SRecode Minor Mode} for more on using the minor mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:127
+msgid "Use the menu to insert templates into the current file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:130
+msgid ""
+"You can add your own templates in @file{~/.srecode}, or update the template "
+"map path:"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:131
+#, no-wrap
+msgid "Option srecode-map-load-path"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:134
+msgid "srecode-map-load-path"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:134
+msgid "Global load path for SRecode template files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:139
+msgid ""
+"Once installed, you can start inserting templates using the menu, or the "
+"command:"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:140
+#, no-wrap
+msgid "Command srecode-insert template-name &rest dict-entries"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:144
+msgid "srecode-insert"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:144
+msgid ""
+"Insert the template @var{template-name} into the current buffer at point.  "
+"@var{dict-entries} are additional dictionary values to add."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:151
+msgid ""
+"SRecode Insert will prompt for a template name.  Template names are specific "
+"to each major mode.  A typical name is of the form: @code{CONTEXT:NAME} "
+"where a @var{CONTEXT} might be something like @code{file} or "
+"@code{declaration}.  The same @var{NAME} can occur in multiple contexts."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:159
+msgid ""
+"@srecode{} builds and maintains a map of all template files.  The root "
+"template files resides in the @srecode{} distribution.  User written "
+"templates files are saved in @file{~/.srecode}, along with the @srecode{} "
+"map file."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:160 ../../../../../doc/misc/srecode.texi:163
+#, no-wrap
+msgid "srecode-map-save-file"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/srecode.texi:163
+msgid "The save location for SRecode's map file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:167
+msgid ""
+"Template files end with a @file{.srt} extension.  Details on how to write "
+"templates are in @ref{Template Writing}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:173
+msgid ""
+"Each template file you write is dedicated to a single major mode.  In it, "
+"you can write templates within the same context and with the same name as "
+"core templates.  You can force your templates to override the core templates "
+"for a particular major mode by setting the priority.  See @ref{Special "
+"Variables}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:177
+msgid ""
+"To get going quickly, open a new @file{.srt} file.  It will start in the "
+"@srecode{} template writing mode.  Use the @srecode{} minor mode menu to "
+"insert the @code{empty} file template."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:182
+msgid ""
+"When using templates in other modes (such as C++ or Emacs Lisp templates), "
+"use the ``Edit Template'' menu to find a template you would like to update.  "
+"Copy it into your user template file, and change it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:189
+msgid ""
+"If you were to update @code{declaration:function} in your user template "
+"file, then you would get this new template instead of the one that comes "
+"with @srecode{}.  Higher level applications should always use "
+"@code{declaration:function} when generating their own code, so higher level "
+"templates will then adopt your changes to @code{declaration:function} into "
+"themselves."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:195
+msgid ""
+"You can also override variables.  Core variables are stored in the "
+"@srecode{} root template file @file{default.srt}, and that contains the "
+"copyright usually used, and some basic file setup formats.  Override "
+"variables like this by specifying a @code{mode} of @code{default} like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:198
+#, no-wrap
+msgid "set mode \"default\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:205
+msgid ""
+"The @srecode{} system is made up of several layers which work together to "
+"generate code."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:206
+#, no-wrap
+msgid "Template Layer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:209
+msgid ""
+"The template layer provides a way to write, and compile templates.  The "
+"template layer is the scheme used to insert text into an Emacs buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:217
+msgid ""
+"The @srecode{} template layer is more advanced than other modes like the "
+"Emacs packages @code{skeleton} or @code{tempo} in that it allows multiple "
+"layers of templates to be created with the same names.  This means that "
+"@srecode{} can provide a wide range of templates, and users can override "
+"only the small sections they want, instead of either accepting someone "
+"else's template, or writing large new templates of their own."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:220
+msgid ""
+"Templates are written in @file{.srt} files.  You can learn how to author new "
+"@file{.srt} files @ref{Template Writing}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:224
+msgid ""
+"While the template system was designed for @srecode{} based applications it "
+"can also be used independently for simple template insertion during typical "
+"coding."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:225
+#, no-wrap
+msgid "Template Manager"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:233
+msgid ""
+"Once templates have been written, a scheme for loading and selecting "
+"templates is needed.  The template manager has a loader for finding template "
+"files, and determining which templates are relevant to the current buffer.  "
+"Template files are sorted by priority, with user templates being found "
+"first, and system level default templates last.  Templates are also sorted "
+"by application.  Each application has its own templates, and are kept "
+"separate from the generic templates."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:234
+#, no-wrap
+msgid "Dictionary"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:242
+msgid ""
+"Dictionaries contain values associated with variable.  Variables are used in "
+"macros in a template.  Variables are what allows a generic template such as "
+"a function to be made specific, such as a function named foo.  The value of "
+"a variable can be one of three things; a string, a list of more "
+"dictionaries, or a special @code{srecode-dictionary-compound-value} object "
+"subclass.  See @ref{Variables} for more."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:243
+#, no-wrap
+msgid "Template Insertion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:247
+msgid ""
+"The template insertion layer involves extensions to the basic template "
+"layer.  A wide range of custom variables are available for mixing derived "
+"data as macros into the plain text of a template."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:251
+msgid ""
+"In addition, templates can be declared with arguments.  These arguments "
+"represent predetermined sets of dictionary values, such as features of the "
+"current file name, user name, time, etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:254
+msgid ""
+"Some arguments are major-mode specific, such as the @code{:el} or "
+"@code{:cpp} arguments."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:255
+#, no-wrap
+msgid "Template Insertion Context"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:260
+msgid ""
+"A context can be provided for templates in a file.  This helps "
+"auto-selection of templates by name, or allows templates in different "
+"contexts to have the same name.  Some standard contexts are @code{file}, "
+"@code{declaration}, and @code{classdecl}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:263
+msgid ""
+"A context can be automatically derived as well based on the parsing state "
+"from @i{Semantic}.  @inforef{Top, Semantic Manual, semantic}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:264
+#, no-wrap
+msgid "Applications"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:272
+msgid ""
+"Commands that do a particular user task which involves also writing Emacs "
+"Lisp code.  Applications are at the top layer.  These applications have "
+"their own template files and logic needed to fill in dictionaries or "
+"position a cursor.  SRecode comes with an example @code{srecode-document} "
+"application for creating comments for Semantic tags.  The CEDET application "
+"@i{EDE} has a project type that is an @srecode{} application."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:273 ../../../../../doc/misc/srecode.texi:313
+#, no-wrap
+msgid "Field Editing"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:281
+msgid ""
+"If the variable @code{srecode-insert-ask-variable-method} is set to 'field, "
+"then variables that would normally ask a question, will instead create "
+"``fields'' in the buffer.  A field-editing layer provides simple interaction "
+"through the fields.  Typing in a field will cause all variable locations "
+"that are the same to edit at the same time.  Pressing @kbd{@key{TAB}} on a "
+"field will move you to the next field."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:287
+msgid ""
+"The Semantic Recode minor mode enables a keymap and menu that provides "
+"simple access to different templates or template applications."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:289
+msgid "The key prefix is @kbd{C-c /}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:292
+msgid ""
+"If the variable @code{srecode-takeover-INS-key} is set, then the key "
+"@kbd{@key{INSERT}} can also be used."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:295
+msgid ""
+"The most important key is bound to @code{srecode-insert} which is @kbd{C-c / "
+"/}, or @kbd{@key{INSERT} @key{INSERT}}.  @ref{Quick Start}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:297
+msgid "Major keybindings are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:299
+#, no-wrap
+msgid "C-c / /"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:301
+msgid "Insert a template whose name is typed into the minibuffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:301
+#, no-wrap
+msgid "C-c / <lower case letter>"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:304
+msgid ""
+"Reserved for direct binding of simple templates to keys using a keybinding "
+"command in the template file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:304
+#, no-wrap
+msgid "C-c / <upper case letter>"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:306
+msgid "Reserved for template applications (Such as comment or get/set inserter.)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:306
+#, no-wrap
+msgid "C-c / E"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:308
+msgid "Edit the code of a template."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:308
+#, no-wrap
+msgid "C-c / ."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:311
+msgid ""
+"Insert template again.  This will cause the previously inserted template to "
+"be inserted again."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:319
+msgid ""
+"By default, when inserting a template, if the user needs to enter text to "
+"fill in a part of the template, then the minibuffer is used to query for "
+"that information.  SRecode also supports a field-editing mode that can be "
+"used instead.  To enable it set:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:320 ../../../../../doc/misc/srecode.texi:326
+#, no-wrap
+msgid "srecode-insert-ask-variable-method"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:326
+msgid ""
+"Determine how to ask for a dictionary value when inserting a template.  Only "
+"the @var{ASK} style inserter will query the user for a value.  Dictionary "
+"value references that ask begin with the ? character.  Possible values are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:327
+#, no-wrap
+msgid "ask"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:329
+msgid "Prompt in the minibuffer as the value is inserted."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:329
+#, no-wrap
+msgid "field"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:332
+msgid ""
+"Use the dictionary macro name as the inserted value, and place a field "
+"there.  Matched fields change together."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:342
+msgid ""
+"Field editing mode is supported in newer versions of Emacs.  You will not be "
+"prompted to fill in values while the template is inserted.  Instead, short "
+"regions will be highlighted, and the cursor placed in a field.  Typing in "
+"the field will then fill in the value.  Several fields might be linked "
+"together.  In that case, typing in one area will modify the other linked "
+"areas.  Pressing @key{TAB} will move between editable fields in the "
+"template."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:345
+msgid ""
+"Once the cursor moves out of the are inserted by the template, all the "
+"fields are canceled."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:348
+msgid ""
+"@b{NOTE}: Some conveniences in templates, such as completion, or character "
+"restrictions are lost when using field editing mode."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/srecode.texi:352
+msgid "SRecode-template-mode"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:356
+msgid ""
+"@code{srecode-template-mode} is the major mode used for designing new "
+"templates.  @srecode{} files (Extension @file{.srt}) are made up of variable "
+"settings and template declarations."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:359
+msgid ""
+"Here is an overview of the terminology you will need for the next few "
+"sections:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:361
+#, no-wrap
+msgid "template file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:364
+msgid ""
+"A file with a @file{.srt} extension which contains settings, variables, and "
+"templates."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:364
+#, no-wrap
+msgid "template"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:368
+msgid ""
+"One named entity which represents a block of text that will be inserted.  "
+"The text is compiled into a sequence of insertable entities.  The entities "
+"are string constants, and macros."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:368
+#, no-wrap
+msgid "macro"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:371
+msgid ""
+"A macro is a text sequence within template text that is replaced with some "
+"other value."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:371
+#, no-wrap
+msgid "dictionary"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:373
+msgid "A table of variable names and values."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:373
+#, no-wrap
+msgid "subdictionary"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:376
+msgid ""
+"A dictionary that is subordinate under another dictionary as a value to some "
+"variable."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:376 ../../../../../doc/misc/srecode.texi:1618 ../../../../../doc/misc/srecode.texi:1650
+#, no-wrap
+msgid "variable"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:378
+msgid "A variable is an entry in a dictionary which has a value."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:385 ../../../../../doc/misc/srecode.texi:387 ../../../../../doc/misc/srecode.texi:388
+#, no-wrap
+msgid "Variables"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:385
+msgid "Creating special and regular variables."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:385 ../../../../../doc/misc/srecode.texi:596 ../../../../../doc/misc/srecode.texi:597
+#, no-wrap
+msgid "Templates"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:385
+msgid "Creating templates"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/srecode.texi:385 ../../../../../doc/misc/srecode.texi:821
+#, no-wrap
+msgid "Contexts"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:385
+msgid "Templates are grouped by context"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/srecode.texi:385 ../../../../../doc/misc/srecode.texi:863
+#, no-wrap
+msgid "Prompts"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:385
+msgid "Setting prompts for interactive insert macros"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:393
+msgid ""
+"Variables can be set up and used in templates.  Many variables you may use "
+"are set up via template arguments, but some may be preferences a user can "
+"set up that are used in system templates."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:397
+msgid ""
+"When expanding a template, variables are stored in a @dfn{dictionary}.  "
+"Dictionary entries are variables.  Variables defined in templates can have "
+"string like values."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:399
+msgid "A variable can be set like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:401
+#, no-wrap
+msgid "set VARNAME \"some value\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:405
+msgid ""
+"Note that a VARIABLE is a name in a dictionary that can be used in a MACRO "
+"in a template.  The macro references some variable by name."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:415 ../../../../../doc/misc/srecode.texi:416
+#, no-wrap
+msgid "String Values"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:413
+msgid "Basic Variable values"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:425 ../../../../../doc/misc/srecode.texi:426
+#, no-wrap
+msgid "Multi-string Values"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:413
+msgid "Complex variable values"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:452 ../../../../../doc/misc/srecode.texi:453
+#, no-wrap
+msgid "Section Show"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:413
+msgid "Enabling the display of a named section."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:470 ../../../../../doc/misc/srecode.texi:471
+#, no-wrap
+msgid "Special Variables"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:413
+msgid "Variables with special names"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:568 ../../../../../doc/misc/srecode.texi:569
+#, no-wrap
+msgid "Automatic Loop Variables"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:413
+msgid "Variables automatically set in section loops."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:413 ../../../../../doc/misc/srecode.texi:585 ../../../../../doc/misc/srecode.texi:586
+#, no-wrap
+msgid "Compound Variable Values"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:421
+msgid ""
+"Variables can be set to strings.  Strings may contain newlines or any other "
+"characters.  Strings are interpreted by the Emacs Lisp reader so @code{\\n}, "
+"@code{\\t}, and @code{\\\"} work."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:424
+msgid ""
+"When a string is inserted as part of a template, nothing within the string "
+"is interpreted, such as template escape characters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:431
+msgid ""
+"A variable can be set to multiple strings.  A compound value is usually used "
+"when you want to use dictionary entries as part of a variable later on."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:434
+msgid ""
+"Multi-string variable values are set like string values except there are "
+"more than one.  For example"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:437
+#, no-wrap
+msgid "set NAME \"this\" \"-mode\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:440
+msgid "These two strings will be concatenated together."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:444
+msgid ""
+"A more useful thing is to include dictionary variables and concatenate those "
+"into the string.  Use the ``macro'' keyword to include the name of a "
+"variable.  This is like macros in a template.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:447
+#, no-wrap
+msgid "set NAME macro \"MODE\" \"-mode\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:451
+msgid ""
+"will extract the value of the dictionary variable MODE and append ``-mode'' "
+"to the end."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:459
+msgid ""
+"To set a variable to show a template section, use the @code{show} command.  "
+"Sections are blocks of a template wrapped in section macros.  If there is a "
+"section macro using @var{NAME} it will be shown for each dictionary "
+"associated with the @var{NAME} macro."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:462
+#, no-wrap
+msgid "show NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:465
+msgid "This will enable that section."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:468
+msgid "NOTE: May 11, 2008: I haven't used this yet, so I don't know if it works."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:475
+msgid ""
+"Some variables have special meaning that changes attributes when templates "
+"are compiled, including:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:477
+#, no-wrap
+msgid "escape-start"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:481
+msgid ""
+"This is the character sequence that escapes from raw text to template macro "
+"names.  The ability to change the escape characters are key for enabling "
+"@srecode{} templates to work across many kinds of languages."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:481
+#, no-wrap
+msgid "escape-end"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:484
+msgid ""
+"This is the character sequence that escapes the end of a template macro "
+"name."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:486 ../../../../../doc/misc/srecode.texi:499 ../../../../../doc/misc/srecode.texi:517 ../../../../../doc/misc/srecode.texi:531 ../../../../../doc/misc/srecode.texi:552
+msgid "Example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:489
+#, no-wrap
+msgid ""
+"set escape_start \"$\"\n"
+"set escape_end \"$\"\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:490
+#, no-wrap
+msgid "mode"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:494
+msgid ""
+"This is the major mode, as a string with the full Emacs Lisp symbol in it.  "
+"All templates in this file will be installed into the template table for "
+"this major mode."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:497
+msgid ""
+"Multiple template files can use the same mode, and all those templates will "
+"be available in buffers of that mode."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:501
+#, no-wrap
+msgid "set mode \"emacs-lisp-mode\"\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:503
+#, no-wrap
+msgid "priority"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:509
+msgid ""
+"The priority of a file is a number in a string constant that indicates where "
+"it lies in the template search order.  System templates default to low "
+"priority numbers.  User templates default to high priority numbers.  You can "
+"specify the priority of your template to insert it anywhere in the template "
+"search list."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:512
+msgid ""
+"If there are multiple templates with the same context and name, the template "
+"with the highest priority number will be used."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:515
+msgid ""
+"If multiple files have the same priority, then the sort order is "
+"unpredictable.  If no template names match, then it doesn't matter."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:519
+#, no-wrap
+msgid "set priority \"35\"\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:521
+#, no-wrap
+msgid "application"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:526
+msgid ""
+"If a template file contains templates only needed for a particular "
+"application, then specify an application.  Template files for an application "
+"are stored in the template repository, but are not used in the generic "
+"template insertion case."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:529
+msgid ""
+"The application with a particular name will access these templates from Lisp "
+"code."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:533
+#, no-wrap
+msgid "set application \"document\"\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:535
+#, no-wrap
+msgid "project"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:539
+msgid ""
+"If a template file contains templates, or template overrides specific to a "
+"set of files under a particular directory, then that template file can "
+"specify a ``project'' that it belongs to."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:543
+msgid ""
+"Set the ``project'' special variable to a directory name.  Only files under "
+"that directory will be able to access the templates in that file."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:547
+msgid ""
+"Any template file that has a project specified will get have a priority that "
+"is set between SRecode base templates, and user defined templates."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:550
+msgid ""
+"Templates can be compiled via a project system, such as EDE@.  EDE loaded "
+"templates will get a @var{project} set automatically."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:554
+#, no-wrap
+msgid "set project \"/tmp/testproject\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:561
+msgid ""
+"If you need to insert the characters that belong to the variables "
+"@code{escape_start} or @code{escape_end}, then place those into a variable.  "
+"For example"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:566
+#, no-wrap
+msgid ""
+"set escape_start \"$\"\n"
+"set escape_end \"$\"\n"
+"set DOLLAR \"$\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:573
+msgid ""
+"When section macros are used, that section is repeated for each "
+"subdictionary bound to the loop variable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:577
+msgid ""
+"Each dictionary added will automatically get values for positional macros "
+"which will enable different @var{sections}.  The automatic section variables "
+"are."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:579
+#, no-wrap
+msgid "@var{first}---The first entry in the table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:580
+#, no-wrap
+msgid "@var{notfirst}---Not the first entry in the table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:581
+#, no-wrap
+msgid "@var{last}---The last entry in the table"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:582
+#, no-wrap
+msgid "@var{notlast}---Not the last entry in the table."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:591
+msgid ""
+"A variable can also have a compound value.  This means the value of the "
+"variable is an @EIEIO{} object, which is a subclass of "
+"@code{srecode-dictionary-compound-value}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:595
+msgid ""
+"New compound variables can only be setup from Lisp code.  See @ref{Compound "
+"Dictionary Values} for details on setting up compound variables from Lisp."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:601
+msgid "A template represents a text pattern that can be inserted into a buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:603
+msgid "A basic template is declared like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:611
+#, no-wrap
+msgid ""
+"template TEMPLATENAME :arg1 :arg2\n"
+"\"Optional documentation string\"\n"
+"----\n"
+"The text to your template goes here.\n"
+"----\n"
+"bind \"a\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:615
+msgid ""
+"Templates are stored in a template table by name, and are inserted by the "
+"@var{templatename} provided."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:618
+msgid ""
+"The documentation string is optional.  This documentation string will be "
+"used to aid users in selecting which template they want to use."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:621
+msgid ""
+"The code that makes up the raw template occurs between the lines that "
+"contain the text \"-----\"."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:625 ../../../../../doc/misc/srecode.texi:627 ../../../../../doc/misc/srecode.texi:628
+#, no-wrap
+msgid "Template Section Dictionaries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:625
+msgid "Template Scoped Macro values"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:625 ../../../../../doc/misc/srecode.texi:705 ../../../../../doc/misc/srecode.texi:706
+#, no-wrap
+msgid "Template Macros"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:625
+msgid "Macros occurring in template patterns"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:633
+msgid ""
+"To add variable values to section dictionaries used within a specific "
+"template, you can add them to the beginning of the template declaration like "
+"this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:644
+#, no-wrap
+msgid ""
+"template TEMPLATENAME :arg1 :arg2\n"
+"\"Optional documentation string\"\n"
+"sectiondictionary \"A\"\n"
+"set NAME \"foo\"\n"
+"----\n"
+"A beginning line @{@{NAME@}@}\n"
+"@{@{#A@}@}Optional string @{@{NAME@}@} here@{@{/A@}@}\n"
+"An end line\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:649
+msgid ""
+"In this example, the @var{NAME} variable gets the value ``foo'', but only "
+"while it is inside section macro A@.  The outer scoped NAME will be empty."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:653
+msgid ""
+"This is particularly useful while using an include macro to pull in a second "
+"template.  In this way, you can pass values known from one template to a "
+"subordinate template where some value is not known."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:656
+msgid ""
+"From the Emacs Lisp default template file, a syntax table is just a variable "
+"with a specialized value."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:658
+msgid "If a variable is declared like this (where $ is the escape character):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:667
+#, no-wrap
+msgid ""
+"template variable :el\n"
+"\"Insert a variable.\n"
+"DOC is optional.\"\n"
+"----\n"
+"(defvar $?NAME$ $^$\n"
+"  \"$DOC$\")\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:671
+msgid ""
+"then you can see that there is a NAME and DOC that is needed.  The @code{^} "
+"point inserter is also a handy key here."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:675
+msgid ""
+"The syntax table wants a variable, but knows the values of some of these "
+"variables, and can recast the problem like this by using template specific "
+"@code{sectiondictionary} macro declarations."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:690
+#, no-wrap
+msgid ""
+"template syntax-table\n"
+"\"Create a syntax table.\"\n"
+"sectiondictionary \"A\"\n"
+"set NAME macro \"?MODESYM\" \"-mode-syntax-table\"\n"
+"set DOC \"Syntax table used in \" macro \"?MODESYM\" \" buffers.\"\n"
+"----\n"
+"$<A:variable$\n"
+"  (let ((table (make-syntax-table (standard-syntax-table))))\n"
+"    (modify-syntax-entry ?\\; \". 12\"  table) ;; SEMI, Comment start ;;\n"
+"    ;; ...\n"
+"    table)\n"
+"$/A$\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:695
+msgid ""
+"In this way, @var{NAME} can be set as a user posed question for "
+"@var{MODESYM} with ``-mode-syntax-table'' appended.  A simplified doc string "
+"will also be inserted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:698
+msgid ""
+"Lastly, the @var{A} section contains more macro text which is inserted at "
+"the @code{^} point marker."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:704
+msgid ""
+"By creating useful base templates for things like function or variable "
+"declarations, and recycling them in higher-order templates, an end user can "
+"override the basic declarator, and the higher order templates will then obey "
+"the new format, or perhaps even work in more than one major mode."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:711
+msgid ""
+"Template macros occur in the template text.  The default escape characters "
+"are ``@{@{`` and ``@}@}'', though they can be changed in the top-level "
+"variables.  See @ref{Variables}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:713
+msgid "Thus, if you have the template code that looks like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:716
+#, no-wrap
+msgid ";; Author: @{@{AUTHOR@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:720
+msgid ""
+"Then the text between @{@{ and @}@} are a macro, and substituted by the "
+"value of the variable @var{AUTHOR}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:724
+msgid ""
+"Macros can be specialized to be more than just a text string.  For example, "
+"the macro above could be augmented with an Emacs Lisp function."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:727
+#, no-wrap
+msgid ";; Author: @{@{AUTHOR:upcase@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:731
+msgid ""
+"In this case, the Emacs Lisp function @code{upcase} will be called on the "
+"text value of the @var{AUTHOR} variable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:734
+msgid ""
+"Macros can also be specialized to have different behaviors by using a "
+"prefix, non-alpha character or symbol.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:737
+#, no-wrap
+msgid "@{@{! This is a comment inside macro escape characters @}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:740
+msgid "shows that the ``!'' symbol is for comments."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:742
+msgid "Alternately, a macro could query the user during insertion:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:747
+#, no-wrap
+msgid ""
+"(defun @{@{?NAME@}@} ()\n"
+"   @{@{^@}@}\n"
+"   ) ;; End of @{@{NAME@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:753
+msgid ""
+"the ``?'' symbol indicates that if the symbol @var{NAME} isn't in the "
+"dictionary, then the user should be queried for the @var{NAME} variable.  If "
+"@var{NAME} appears again in the template, the original value specified by "
+"the user will be inserted again."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:757
+msgid ""
+"If the text from a dictionary value is to be placed in column format, you "
+"can use the ``|'' symbol to indicate you want column control.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:761
+#, no-wrap
+msgid ""
+"   | this | that |@{@{#A@}@}\n"
+"   | @{@{|THIS:4@}@} | @{@{|THAT:4@}@} |@{@{/A@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:766
+msgid ""
+"For each repeated section ``#A'' the dictionary values for @var{THIS} and "
+"@var{THAT} will be inserted and either trimmed to, or expanded to 4 "
+"characters in width."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:770
+msgid ""
+"Macros that are prefixed with the ``#'' symbol denote a section.  A macro of "
+"the same name with a ``/'' prefix denotes the end of that section."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:775
+#, no-wrap
+msgid ""
+"@{@{#MOOSE@}@}\n"
+"Here is some text describing moose.\n"
+"@{@{/MOOSE@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:780
+msgid ""
+"In this example if the section MOOSE was ``shown'' in the active dictionary, "
+"then the text between the # and / macros will also be inserted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:785
+msgid ""
+"All the text and macros within a section are either not shown at all (if "
+"that section is not 'visible') or the section is shown one time for each "
+"dictionary added to that symbol.  @xref{Developing Template Functions}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:788
+msgid ""
+"Macros prefixed with ``>'' will include another template.  Include macros "
+"would look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:791
+#, no-wrap
+msgid "@{@{>FOO:defun@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:797
+msgid ""
+"where @code{FOO} is the dictionary variable for the sub-dictionary used for "
+"expanding the template @code{defun}.  The @code{defun} template will be "
+"looked up in the template repository for the current mode, or in any "
+"inherited modes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:801
+msgid ""
+"Another way to include another template is with an include macro that will "
+"also wrap section text.  The includewrap insertion method looks like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:804
+#, no-wrap
+msgid "@{@{<FOO:defun@}@}Handy Text goes here@{@{/FOO@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:810
+msgid ""
+"In this case, @code{defun} is included just as above.  If the @code{defun} "
+"template has a @{@{^@}@} macro in it, then the section text ``Handy Text "
+"goes here'' will be inserted at that point, and that location will not be "
+"saved as the cursor location."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:812
+msgid "If there is no @{@{^@}@}, then the text will not be inserted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:816
+msgid ""
+"For both kinds of include macros, you may need to include a template from a "
+"different context.  You can use @code{:} separate the context from the name, "
+"like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:819
+#, no-wrap
+msgid "@{@{>FOO:declaration:function@}@}\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:822
+#, no-wrap
+msgid "Context"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:827
+msgid ""
+"Each template belongs to a context.  When prompting for a template by name, "
+"such as with @kbd{C-c / /}, the name is prefixed by the current context.  If "
+"there is no context, it defaults to @code{declaration}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:829
+msgid "You can change context like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:832
+#, no-wrap
+msgid "context NAME\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:835
+msgid "where @var{name} is some symbol that represents any context."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:838
+msgid ""
+"A context resides over all templates that come after it until the next "
+"context statement.  Thus:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:841
+#, no-wrap
+msgid ""
+"context C1\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:846
+#, no-wrap
+msgid ""
+"template foo\n"
+"\"Foo template in C1\"\n"
+"----\n"
+"----\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:848
+#, no-wrap
+msgid ""
+"context C2\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:853
+#, no-wrap
+msgid ""
+"template foo\n"
+"\"Foo template in C2\"\n"
+"----\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:857
+msgid ""
+"creates two @code{foo} templates.  The first one is when in context C1.  The "
+"second is available in context C2."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:862
+msgid ""
+"This is useful if there are multiple ways to declare something like a "
+"function or variable that differ only by where it is in the syntax of the "
+"language.  The name @code{foo} is not ambiguous because each is in a "
+"different context."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:864
+#, no-wrap
+msgid "Prompt"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:868
+msgid ""
+"Some templates use prompting macro insertion.  A macro that needs a prompt "
+"looks like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:871
+#, no-wrap
+msgid "@{@{?NAME@}@}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:874
+msgid "where ? comes after the first escape character."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:876
+msgid "by default, it will use a prompt like this when it is encountered:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:879
+#, no-wrap
+msgid "Specify NAME:\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:884
+msgid ""
+"For such macros, you can pre-define prompts for any dictionary entry.  When "
+"that dictionary entry is first encountered, the user is prompted, and "
+"subsequent occurrences of that dictionary entry use the same value."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:886
+msgid "To get a different prompt, use a prompt command like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:889
+#, no-wrap
+msgid "prompt VARNAME \"Nice Way to ask for VARNAME: \"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:892
+msgid "Now, if you put this in a template:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:899
+#, no-wrap
+msgid ""
+"template variable\n"
+"----\n"
+"(defvar @{@{?VARNAME@}@} nil\n"
+"   \"\")\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:902
+msgid "when VARNAME is encountered, it will use the nice prompt."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:904
+msgid "Prompts can be extended as well.  For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:907
+#, no-wrap
+msgid "prompt VARNAME \"VARNAME: \" default \"srecode\" read y-or-n-p\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:912
+msgid ""
+"In this case, the @code{default} keyword indicates that @code{\"srecode\"} "
+"is the default string to use, and @code{y-or-n-p} is the function to use to "
+"ask the question."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:915
+msgid ""
+"For @code{y-or-n-p} if you type ``y'' it inserts the default string, "
+"otherwise it inserts empty."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:920
+msgid ""
+"For any other symbol that occurs after the @code{read} token, it is expected "
+"to take the same argument list as @code{read-string}.  As such, you can "
+"create your own prompts that do completing reads on deterministic values."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:923
+msgid ""
+"To have the default be calculated later from a dictionary entry, you need to "
+"use the @code{defaultmacro} keyword instead."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:926
+#, no-wrap
+msgid "prompt VARNAME \"Varname: \" defaultmacro \"PREFIX\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:930
+msgid ""
+"now, when it attempts to read in VARNAME, it will pre-populate the text "
+"editing section with whatever the value of PREFIX is."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:933
+msgid ""
+"Some language arguments may supply possible prefixes for prompts.  Look for "
+"these when creating your prompts."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:940
+msgid ""
+"Dictionaries are a set of variables.  The values associated with the "
+"variable names could be anything, but how it is handled is dependent on the "
+"type of macro being inserted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:944
+msgid ""
+"Most of this chapter is for writing Lisp programs that use @srecode{}.  If "
+"you only want to write template files, then you only need to read the "
+"@ref{Template Argument Dictionary Entries} section."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Create a Dictionary::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:967 ../../../../../doc/misc/srecode.texi:968
+#, no-wrap
+msgid "Setting Dictionary Values"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Basic dictionary values"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:1022 ../../../../../doc/misc/srecode.texi:1023
+#, no-wrap
+msgid "Compound Dictionary Values"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Complex dictionary values"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:1087 ../../../../../doc/misc/srecode.texi:1088
+#, no-wrap
+msgid "Argument Resolution"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Automatic template argument resolution"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:1102 ../../../../../doc/misc/srecode.texi:1103
+#, no-wrap
+msgid "Creating new Arguments"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Create new arguments for use in templates"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:1126 ../../../../../doc/misc/srecode.texi:1127
+#, no-wrap
+msgid "Querying a Dictionary"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Querying a dictionary for values."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:953 ../../../../../doc/misc/srecode.texi:1147 ../../../../../doc/misc/srecode.texi:1148
+#, no-wrap
+msgid "Template Argument Dictionary Entries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:953
+msgid "Catalog of arguments"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:955 ../../../../../doc/misc/srecode.texi:956
+#, no-wrap
+msgid "Create a Dictionary"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:958
+#, no-wrap
+msgid "srecode-create-dictionary &optional buffer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:965 ../../../../../doc/misc/srecode.texi:1560
+#, no-wrap
+msgid "srecode-create-dictionary"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:965
+msgid ""
+"Create a dictionary for @var{buffer}.  If @var{buffer} is not specified, use "
+"the current buffer.  The dictionary is initialized with no variables or "
+"enabled sections.  Any variables defined with @code{set} in the template, "
+"however, becomes a name in the dictionary."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:973
+msgid ""
+"When building an @srecode{} based application, you will need to setup your "
+"dictionary values yourself.  There are several utility functions for this."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:975
+msgid "In the simplest form, you can associate a string with a variable."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:976
+#, no-wrap
+msgid "srecode-dictionary-set-value dict name value"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:979 ../../../../../doc/misc/srecode.texi:1561
+#, no-wrap
+msgid "srecode-dictionary-set-value"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:979
+msgid "In dictionary @var{dict}, set @var{name} to have @var{value}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:983
+msgid ""
+"For section macros, you can have alternate values.  A section can either be "
+"toggled as visible, or it can act as a loop."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:984
+#, no-wrap
+msgid "srecode-dictionary-show-section dict name"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:987 ../../../../../doc/misc/srecode.texi:1562
+#, no-wrap
+msgid "srecode-dictionary-show-section"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:987
+msgid ""
+"In dictionary @var{dict}, indicate that the section @var{name} should be "
+"exposed."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:990
+#, no-wrap
+msgid "srecode-dictionary-add-section-dictionary dict name show-only"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:994 ../../../../../doc/misc/srecode.texi:1563
+#, no-wrap
+msgid "srecode-dictionary-add-section-dictionary"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:994
+msgid ""
+"In dictionary @var{DICT}, add a section dictionary for section macro "
+"@var{NAME}.  Return the new dictionary."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:998
+msgid ""
+"You can add several dictionaries to the same section entry.  For each "
+"dictionary added to a variable, the block of codes in the template will be "
+"repeated."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1003
+msgid ""
+"If optional argument @var{SHOW-ONLY} is non-@code{nil}, then don't add a new "
+"dictionary if there is already one in place.  Also, don't add "
+"@var{FIRST}/@var{LAST} entries.  These entries are not needed when we are "
+"just showing a section."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1006
+msgid ""
+"Each dictionary added will automatically get values for positional macros "
+"which will enable @var{SECTIONS} to be enabled."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1008
+#, no-wrap
+msgid "first"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1010
+msgid "The first entry in the table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1010
+#, no-wrap
+msgid "notfirst"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1012
+msgid "Not the first entry in the table."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1012
+#, no-wrap
+msgid "last"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1014
+msgid "The last entry in the table"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1014
+#, no-wrap
+msgid "notlast"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1016
+msgid "Not the last entry in the table."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1020
+msgid ""
+"Adding a new dictionary will alter these values in previously inserted "
+"dictionaries."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1029
+msgid ""
+"If you want to associate a non-string value with a dictionary variable, then "
+"you will need to use a compound value.  Compound dictionary values are "
+"derived using @EIEIO{} from a base class for handling arbitrary data in a "
+"macro."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:1030
+#, no-wrap
+msgid "Type srecode-dictionary-compound-value"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1036
+msgid "srecode-dictionary-compound-value"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:1036
+msgid ""
+"A compound dictionary value.  Values stored in a dictionary must be a "
+"@var{string}, a dictionary for showing sections, or an instance of a "
+"subclass of this class."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/srecode.texi:1040
+msgid ""
+"Compound dictionary values derive from this class, and must provide a "
+"sequence of method implementations to convert into a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1044
+msgid "Your new subclass of the compound value needs to implement these methods:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1045
+#, no-wrap
+msgid "srecode-compound-toString cp function dictionary"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1051
+msgid "srecode-compound-toString"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1051
+msgid ""
+"Convert the compound dictionary value @var{cp} to a string.  If "
+"@var{function} is non-@code{nil}, then @var{function} is somehow applied to "
+"an aspect of the compound value.  The @var{function} could be a fraction of "
+"some function symbol with a logical prefix excluded."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1054
+msgid "The next method is for dumping out tables during debugging."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1055
+#, no-wrap
+msgid "srecode-dump cp &optional indent"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1058
+msgid "srecode-dump"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1058
+msgid "Display information about this compound value."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1062
+msgid "Here is an example of wrapping a semantic tag in a compound value:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1072
+#, no-wrap
+msgid ""
+"(defclass srecode-semantic-tag (srecode-dictionary-compound-value)\n"
+"  ((prime :initarg :prime\n"
+"          :type semantic-tag\n"
+"          :documentation\n"
+"          \"This is the primary insertion tag.\")\n"
+"   )\n"
+"  \"Wrap up a collection of semantic tag information.\n"
+"This class will be used to derive dictionary values.\")\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1085
+#, no-wrap
+msgid ""
+"(defmethod srecode-compound-toString((cp srecode-semantic-tag)\n"
+"                                     function\n"
+"                                     dictionary)\n"
+"  \"Convert the compound dictionary value CP to a string.\n"
+"If FUNCTION is non-nil, then FUNCTION is somehow applied to an\n"
+"aspect of the compound value.\"\n"
+"  (if (not function)\n"
+"      ;; Just format it in some handy dandy way.\n"
+"      (semantic-format-tag-prototype (oref cp :prime))\n"
+"    ;; Otherwise, apply the function to the tag itself.\n"
+"    (funcall function (oref cp :prime))\n"
+"    ))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1093
+msgid ""
+"Some dictionary entries can be set via template arguments in the template "
+"declaration.  For examples of template arguments, see @ref{Template Argument "
+"Dictionary Entries}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1095
+msgid "You can resolve an argument list into a dictionary with:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1096
+#, no-wrap
+msgid "srecode-resolve-arguments temp dict"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1100
+msgid "srecode-resolve-arguments"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1100
+msgid ""
+"Resolve all the arguments needed by the template @var{temp}.  Apply anything "
+"learned to the dictionary @var{dict}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1108
+msgid ""
+"You can create new arguments for use in template files by writing new Emacs "
+"Lisp functions.  Doing so is easy.  Here is an example for the @code{:user} "
+"argument:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1116
+#, no-wrap
+msgid ""
+"(defun srecode-semantic-handle-:user (dict)\n"
+"  \"Add macros into the dictionary DICT based on the current :user.\"\n"
+"  (srecode-dictionary-set-value dict \"AUTHOR\" (user-full-name))\n"
+"  (srecode-dictionary-set-value dict \"LOGIN\" (user-login-name))\n"
+"   ;; ...\n"
+"  )\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1121
+msgid ""
+"In this case, a function with the name prefix "
+"@code{srecode-semantic-handle-} that ends in @code{:user} creates a new "
+"argument @code{:user} that can be used in a template."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1125
+msgid ""
+"Your argument handler must take one argument @var{dict}, which is the "
+"dictionary to fill in.  Inside your function, you can do whatever you want, "
+"but adding dictionary values is the right thing."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1132
+msgid ""
+"When creating a new argument, it may be useful to ask the dictionary what "
+"entries are already set there, and conditionally create new entries based on "
+"those."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1135
+msgid ""
+"In this way, a template author can get additional logic through more "
+"advanced arguments."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1136
+#, no-wrap
+msgid "srecode-dictionary-lookup-name dict name"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1143
+msgid "srecode-dictionary-lookup-name"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1143
+msgid ""
+"Return information about the current @var{DICT}'s value for @var{NAME}.  "
+"@var{DICT} is a dictionary, and @var{NAME} is a string that is the name of a "
+"symbol in the dictionary.  This function derives values for some special "
+"NAMEs, such as @var{FIRST} and '@var{LAST}'."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1152
+msgid ""
+"When a dictionary is initialized for a template, then the dictionary will be "
+"initialized with a predefined set of macro values."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1154
+msgid "A template of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1160
+#, no-wrap
+msgid ""
+"template template-name :arg1 :arg2\n"
+"----\n"
+"Your template goes here\n"
+"----\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1163
+msgid "specifies two arguments :arg1, and :arg2."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1165
+msgid "The following built-in simple arguments are available:"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:1170
+msgid "Base Arguments::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/srecode.texi:1170
+msgid "Semantic Arguments::"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/srecode.texi:1170 ../../../../../doc/misc/srecode.texi:1377
+#, no-wrap
+msgid "Language Arguments"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:1172 ../../../../../doc/misc/srecode.texi:1173
+#, no-wrap
+msgid "Base Arguments"
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1175
+#, no-wrap
+msgid "Argument :indent"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1180
+msgid ""
+"Supplies the @code{INDENT} macro.  When @code{INDENT} is non-@code{nil}, "
+"then each line is individually indented with @code{indent-according-to-mode} "
+"during macro processing."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1181
+#, no-wrap
+msgid "Argument :blank"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1186
+msgid ""
+"Specifying this argument adds a special @code{:blank} handler at the "
+"beginning and end of the template.  This handler will insert @code{\\n} if "
+"the insertion point is not on a line by itself."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1187
+#, no-wrap
+msgid "Argument :region"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1192
+msgid ""
+"If there is an active region via @code{transient-mark-mode}, or "
+"@code{mouse-drag-region}, then the @code{REGION} section will be enabled."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1195
+msgid ""
+"In addition, @code{REGIONTEXT} will be set to the text in the region, and "
+"that region of text will be ``killed'' from the current buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1199
+msgid ""
+"If standard-output is NOT the current buffer, then the region will not be "
+"deleted.  In this way, you can safely use @code{:region} using templates in "
+"arbitrary output streams."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1200
+#, no-wrap
+msgid "Argument :user"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1203
+msgid "Sets up variables about the current user."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1205
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1207
+msgid "Value of the Emacs function @code{user-full-name}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1207
+#, no-wrap
+msgid "EMAIL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1209
+msgid "Current Emacs user's email address."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1209
+#, no-wrap
+msgid "LOGIN"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1211
+msgid "Current Emacs user's login name."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1211
+#, no-wrap
+msgid "UID"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1213
+msgid "Current Emacs user's login ID."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1213
+#, no-wrap
+msgid "EMACSINITFILE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1215
+msgid "This Emacs sessions' init file."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1217
+#, no-wrap
+msgid "Argument :time"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1220
+msgid "Sets up variables with the current date and time."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1222
+#, no-wrap
+msgid "YEAR"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1224
+msgid "The current year."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1224
+#, no-wrap
+msgid "MONTH"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1226
+msgid "The current month as a number."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1226
+#, no-wrap
+msgid "MONTHNAME"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1228
+msgid "The current month name, unabbreviated."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1228
+#, no-wrap
+msgid "DAY"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1230
+msgid "The current day as a number."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1230
+#, no-wrap
+msgid "WEEKDAY"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1232
+msgid "The current day of the week as an abbreviated name"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1232
+#, no-wrap
+msgid "HOUR"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1234
+msgid "The current hour in 24 hour format."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1234
+#, no-wrap
+msgid "HOUR12"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1236
+msgid "The current hour in 12 hour format."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1236
+#, no-wrap
+msgid "AMPM"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1238
+msgid "Locale equivalent of AM or PM@.  Useful with HOUR12."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1238
+#, no-wrap
+msgid "MINUTE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1240
+msgid "The current minute."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1240
+#, no-wrap
+msgid "SECOND"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1242
+msgid "The current second."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1242
+#, no-wrap
+msgid "TIMEZONE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1244
+msgid "The timezone string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1244
+#, no-wrap
+msgid "DATE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1246
+msgid "The Locale supported date (%D)."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1246
+#, no-wrap
+msgid "TIME"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1248
+msgid "The Locale supported time format (%X)."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1250
+#, no-wrap
+msgid "Argument :file"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1253
+msgid "Sets up variables with details about the current file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1255
+#, no-wrap
+msgid "FILENAME"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1257
+msgid "The filename without the directory part of the current buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1257
+#, no-wrap
+msgid "FILE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1259
+msgid "The filename without the directory or extension"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1259
+#, no-wrap
+msgid "EXTENSION"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1261
+msgid "The filename extension."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1261
+#, no-wrap
+msgid "DIRECTORY"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1263
+msgid "The directory in which the current buffer resides."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1263
+#, no-wrap
+msgid "MODE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1265
+msgid "Major mode of this buffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1265
+#, no-wrap
+msgid "SHORTMODE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1268
+msgid ""
+"Major mode of this buffer without ``-mode''.  Useful for inserting the Emacs "
+"mode specifier."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1268
+#, no-wrap
+msgid "section RCS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1270
+msgid "Show the section RCS if there is a CVS or RCS directory here."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1272
+#, no-wrap
+msgid "Argument :system"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1275
+msgid "Sets up variables with computer system information."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1277
+#, no-wrap
+msgid "SYSTEMCONF"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1279
+msgid "The ``system-configuration''."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1279
+#, no-wrap
+msgid "SYSTEMTYPE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1281
+msgid "The ``system-type''."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1281
+#, no-wrap
+msgid "SYSTEMNAME"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1283
+msgid "The ``system-name''."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1283
+#, no-wrap
+msgid "MAILHOST"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1285
+msgid "The name of the machine Emacs derived mail ``comes from''."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1287
+#, no-wrap
+msgid "Argument :kill"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1290
+#, no-wrap
+msgid "KILL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1292
+msgid "The top-most item from the kill ring."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1292
+#, no-wrap
+msgid "KILL2"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1294
+msgid "The second item in the kill ring."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1294
+#, no-wrap
+msgid "KILL3"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1296
+msgid "The third item in the kill ring."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1296
+#, no-wrap
+msgid "KILL4"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1298
+msgid "The fourth item in the kill ring."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:1300 ../../../../../doc/misc/srecode.texi:1301
+#, no-wrap
+msgid "Semantic Arguments"
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1303
+#, no-wrap
+msgid "Argument :tag"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1308
+msgid ""
+"The :tag argument is filled in with information from Semantic.  The tag in "
+"question is queried from the senator tag ring, or passed in from @srecode{} "
+"utilities that use tags in templates."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1310 ../../../../../doc/misc/srecode.texi:1687
+#, no-wrap
+msgid "TAG"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1314
+msgid ""
+"This is a compound value for the tag in the current senator kill ring, or "
+"something handled via the variable @code{srecode-semantic-selected-tag}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1315 ../../../../../doc/misc/srecode.texi:1319
+#, no-wrap
+msgid "srecode-semantic-selected-tag"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/srecode.texi:1319
+msgid ""
+"The tag selected by a @code{:tag} template argument.  If this is @code{nil}, "
+"then @code{senator-tag-ring} is used."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1323
+msgid "Use the function part of a macro insert to extract obscure parts of the tag."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1323 ../../../../../doc/misc/srecode.texi:1667
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1325
+msgid "The name of the tag as a string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1325 ../../../../../doc/misc/srecode.texi:1672
+#, no-wrap
+msgid "TYPE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1327
+msgid "The data type of the tag as a string."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1331
+msgid ""
+"If @var{tag} is a function, you will get these additional dictionary "
+"entries."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1333 ../../../../../doc/misc/srecode.texi:1677
+#, no-wrap
+msgid "ARGS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1336
+msgid ""
+"A Loop macro value.  Each argument is inserted in ARGS@.  To create a comma "
+"separated list of arguments, you might do this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1339
+#, no-wrap
+msgid ""
+"@{@{#ARGS@}@}@{@{TYPE@}@} "
+"@{@{NAME@}@}@{@{#NOTLAST@}@},@{@{/NOTLAST@}@}@{@{/ARGS@}@}\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1344
+msgid ""
+"Within the section dictionaries for each argument, you will find both "
+"@var{NAME} and @var{TYPE}, in addition to the automatic section values for "
+"@var{FIRST}, @var{LAST}, @var{NOTFIRST}, and @var{NOTLAST}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1344 ../../../../../doc/misc/srecode.texi:1669
+#, no-wrap
+msgid "PARENT"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1347
+msgid ""
+"The string name of the parent of this function, if the function is a method "
+"of some class."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1347
+#, no-wrap
+msgid "THROWS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1349
+msgid ""
+"In each @var{THROWS} entry, the @var{NAME} of the signal thrown is "
+"specified."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1352
+msgid "If @var{tag} is a variable, you will get these dictionary entries."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1354
+#, no-wrap
+msgid "DEFAULTVALUE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1356
+msgid "Enabled if there is a @var{VALUE}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1356
+#, no-wrap
+msgid "VALUE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1359
+msgid ""
+"An entry in the @var{HAVEDEFAULT} subdictionary that represents the textual "
+"representation of the default value of this variable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1362
+msgid "If @var{tag} is a datatype, you will get these dictionary entries."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1364
+#, no-wrap
+msgid "PARENTS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1367
+msgid ""
+"Section dictionaries for the parents of this class.  Each parent will have a "
+"@var{NAME}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1367
+#, no-wrap
+msgid "INTERFACES"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1370
+msgid ""
+"Section dictionaries for all the implemented interfaces of this class.  Each "
+"interface will have a @var{NAME}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1376
+msgid ""
+"Note that data type templates should always have a @code{@{@{^@}@}} macro in "
+"it where the core contents of that type will go.  This is why data types "
+"don't have subdictionaries full of the slots in the classes or structs."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:1378
+#, no-wrap
+msgid "language Arguments"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1382
+msgid ""
+"Each language typically has its own argument.  These arguments can be used "
+"to fill in language specific values that will be useful."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1383
+#, no-wrap
+msgid "Argument :srt"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1386
+msgid "Used for SRecoder template files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1388
+#, no-wrap
+msgid "ESCAPE_START"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1390
+msgid "The characters used for an escape start"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1390
+#, no-wrap
+msgid "ESCAPE_END"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1392
+msgid "The characters used for an escape end"
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1394
+#, no-wrap
+msgid "Argument :cpp"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1397
+#, no-wrap
+msgid "HEADER"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1399
+msgid "Shows this section if the current file is a header file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1399
+#, no-wrap
+msgid "NOTHEADER"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1401
+msgid "The opposite of @code{HEADER}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1401
+#, no-wrap
+msgid "FILENAME_SYMBOL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1403
+msgid "The current filename reformatted as a C friendly symbol."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:1405
+#, no-wrap
+msgid "Argument :java"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1408
+#, no-wrap
+msgid "FILENAME_AS_PACKAGE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1411
+msgid "Converts the filename into text that would be suitable as a package name."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1411
+#, no-wrap
+msgid "FILENAME_AS_CLASS"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1414
+msgid ""
+"Converts the filename into text that would be suitable as a class-name for "
+"the main class in the file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1414
+#, no-wrap
+msgid "CURRENT_PACKAGE"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1416
+msgid "Finds the occurrence of ``package'' and gets its value."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1418
+#, no-wrap
+msgid "Argument :el"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1422
+msgid ""
+"Sets @code{PRENAME}.  This would be a common prefix from all the tags in the "
+"current buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1425
+msgid ""
+"Most Emacs Lisp packages have some common prefix used in a way similar to "
+"namespaces in other languages."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1426
+#, no-wrap
+msgid "Argument :el-custom"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1429
+#, no-wrap
+msgid "GROUP"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1432
+msgid ""
+"The name of the Emacs Custom group that instances of @code{defcustom} ought "
+"to use."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1432
+#, no-wrap
+msgid "FACEGROUP"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1435
+msgid ""
+"The name of the Emacs Custom group that faces declared with @code{defface} "
+"ought to use."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1437
+#, no-wrap
+msgid "Argument :texi"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1440
+#, no-wrap
+msgid "LEVEL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1442
+msgid "The current section level, such as @code{chapter} or @code{section}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1442
+#, no-wrap
+msgid "NEXTLEVEL"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1445
+msgid ""
+"The next level down, so if @code{LEVEL} is @code{chapter}, then "
+"@code{NEXTLEVEL} would be @code{section}."
+msgstr ""
+
+#. type: subsubsection
+#: ../../../../../doc/misc/srecode.texi:1447
+#, no-wrap
+msgid "Argument :texitag"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1451
+msgid ""
+"The @code{:texitag} argument is like the @code{:tag} argument, except that "
+"additional variable @code{TAGDOC} is provided for each tag."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1455
+msgid ""
+"The @code{TAGDOC} is filled with derived documentation from the tag in "
+"question, and that documentation is also reformatted to be mostly texinfo "
+"compatible."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/srecode.texi:1456
+#, no-wrap
+msgid "Argument :android"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1460
+msgid "The @code{:android} argument pulls in information from your current project."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1462
+msgid "@@TODO - add more here."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1469
+msgid ""
+"You can develop your own custom template insertion functions.  Doing so is "
+"relatively simple, and requires that you write an Emacs Lisp command."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1473
+msgid ""
+"If the built in commands don't provide enough options, you will need to "
+"write your own function in order to provide your dictionaries with the "
+"values needed for custom templates."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1477
+msgid ""
+"In this way, you can build your own code generator for any language based on "
+"a set of predefined macros whose values you need to derive from Emacs Lisp "
+"code yourself."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1479
+msgid "For example:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1483
+#, no-wrap
+msgid ""
+"(defun my-srecode-insert (template-name)\n"
+"  \"Insert the template TEMPLATE-NAME into the current buffer at point.\"\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1489
+#, no-wrap
+msgid ""
+"  ;; Read in a template name.\n"
+"  (interactive (list (srecode-read-template-name \"Template Name: \")))\n"
+"  (if (not (srecode-table))\n"
+"      (error \"No template table found for mode %s\" major-mode))\n"
+"  (let ((temp (srecode-template-get-table (srecode-table) template-name))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1492
+#, no-wrap
+msgid ""
+"       ;; Create a new dictionary\n"
+"\t(newdict (srecode-create-dictionary)))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1495
+#, no-wrap
+msgid ""
+"    (if (not temp)\n"
+"        (error \"No Template named %s\" template-name))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1500
+#, no-wrap
+msgid ""
+"    ;; Add some values into the dictionary!\n"
+"    (srecode-dictionary-set-value newdict \"FOO\" (my-get-value-of-foo))\n"
+"    ;; Optionally show a section\n"
+"    (srecode-dictionary-show-section newdict \"BLARG\")\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1511
+#, no-wrap
+msgid ""
+"    ;; Add in several items over a loop\n"
+"    (let ((my-stuff (get-my-stuff-list)))\n"
+"       (while my-stuff\n"
+"          (let ((subdict (srecode-dictionary-add-section-dictionary\n"
+"                             newdict \"LOOP\")))\n"
+"             (srecode-dictionary-set-value subdict \"NAME\" (nth 0 "
+"my-stuff))\n"
+"             (srecode-dictionary-set-value subdict \"ARG\" (nth 1 "
+"my-stuff))\n"
+"             (srecode-dictionary-set-value subdict \"MOOSE\" (nth 2 "
+"my-stuff))\n"
+"             )\n"
+"          (setq my-stuff (cdr my-stuff)))\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1514
+#, no-wrap
+msgid ""
+"    ;; Some templates have arguments that need to be resolved.\n"
+"    (srecode-resolve-arguments temp newdict)\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1518
+#, no-wrap
+msgid ""
+"    ;; Do the expansion\n"
+"    (srecode-insert-fcn temp newdict)\n"
+"    ))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1521
+msgid "Lets look at the key functions involved above:"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1522
+#, no-wrap
+msgid "Interactive Completion:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1524
+#, no-wrap
+msgid "srecode-read-template-name prompt"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1528
+msgid "srecode-read-template-name"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1528
+msgid ""
+"Completing read for Semantic Recoder template names.  @var{prompt} is used "
+"to query for the name of the template desired."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1530
+#, no-wrap
+msgid "Template Lookup"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1535
+msgid ""
+"Even if your program does not query the user for a template name, you will "
+"need to locate a template.  First, you need to locate the table to look the "
+"template up in."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1536
+#, no-wrap
+msgid "srecode-table &optional mode"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1540
+msgid "srecode-table"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1540
+msgid ""
+"Return the currently active Semantic Recoder table for this buffer.  "
+"Optional argument @var{MODE} specifies the mode table to use."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1543
+#, no-wrap
+msgid "srecode-template-get-table tab template-name &optional context application"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1551
+msgid "srecode-template-get-table"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1551
+msgid ""
+"Find in the template in mode table @var{TAB}, the template with "
+"@var{TEMPLATE-NAME}.  Optional argument @var{CONTEXT} specifies a context a "
+"particular template would belong to.  Optional argument @var{APPLICATION} "
+"restricts searches to only template tables belonging to a specific "
+"application.  If @var{APPLICATION} is @code{nil}, then only tables that do "
+"not belong to an application will be searched."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1555
+msgid ""
+"For purposes of an @srecode{} application, it is important to decide what to "
+"call your application, and use that with this method call."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1556
+#, no-wrap
+msgid "Creating dictionaries"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1559
+msgid "Several dictionary calls are made in this example, including:"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1567
+msgid "These are documented more fully @ref{Dictionaries}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1570
+msgid ""
+"Also used is @code{srecode-resolve-arguments}.  To learn more about that, "
+"see @ref{Argument Resolution}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1571
+#, no-wrap
+msgid "Template Insertion Commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1575
+msgid ""
+"There are several ways to insert a template.  It is easiest to just start "
+"with the main entry point."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1576
+#, no-wrap
+msgid "srecode-insert-fcn template dictionary &optional stream"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1580
+msgid "srecode-insert-fcn"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1580
+msgid ""
+"Insert @var{template} using @var{dictionary} into @var{stream}.  If "
+"@var{stream} is @code{nil}, then use the current buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1590
+msgid ""
+"For @srecode{} to work across languages reliably, templates need to follow a "
+"predictable pattern.  For every language of similar nature (OO, functional, "
+"doc based) if they all provide the same base templates, then an application "
+"can be written against the base templates, and it will work in each of the "
+"supported language."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1594
+msgid ""
+"Having consistent templates also makes it easy to use those templates from a "
+"user perspective during basic interactive insertion via "
+"@code{srecode-minor-mode}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1597
+msgid "NOTES ON THIS CHAPTER:"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1601
+msgid ""
+"These conventions are being worked on.  Check w/ CEDET-DEVEL mailing list if "
+"you want to support a language, or write an application and provide your "
+"opinions on this topic.  Any help is appreciated."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1603
+#, no-wrap
+msgid "Context: File"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1607
+msgid ""
+"Each language should support the @code{file:empty} template.  This will "
+"generally use the default copyright insertion mechanism."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1608
+#, no-wrap
+msgid "Context: Declaration"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1611
+msgid "Functional languages should attempt to support the following:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1613 ../../../../../doc/misc/srecode.texi:1645
+#, no-wrap
+msgid "function"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1615
+msgid "A standalone function.  Not a method, external method, or other."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1615
+#, no-wrap
+msgid "method"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1618
+msgid ""
+"A method belonging to some class declared outside the textual bounds of that "
+"class' declaration."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1620
+msgid "A global variable."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1620
+#, no-wrap
+msgid "type"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1623
+msgid ""
+"A data type.  If the language supports several types of datatypes then do "
+"not use this, use more specific ones instead."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1623
+#, no-wrap
+msgid "class"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1625
+msgid "For OO languages, use this instead of @code{type}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1625
+#, no-wrap
+msgid "include"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1627
+msgid "Include files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1631
+msgid ""
+"For any @semantic{} tag class in your language, you will likely want to have "
+"a corresponding template."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1638
+msgid ""
+"In order for the @srecode{} function @code{srecode-semantic-insert-tag} to "
+"work, you can create templates similar to those mentioned above, except with "
+"@code{-tag} appended to the end.  This lets a template like @code{function} "
+"have user conveniences when referencing @code{function-tag}, while also "
+"allowing the tag inserter to do its job with a simpler template."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1639
+#, no-wrap
+msgid "Context: Classdef"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1643
+msgid ""
+"Inside a class definition.  These are to be inserted inside the textual "
+"bounds of a class declaration."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1647
+msgid "This would be a method of the class being inserted into."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1647
+#, no-wrap
+msgid "constructor"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/srecode.texi:1648
+#, no-wrap
+msgid "destructor"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1650
+msgid "Like @code{function} but specific to alloc/delete of an object."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1652
+msgid "This would be a field of the class being inserted into."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1654
+#, no-wrap
+msgid "Context: Code"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1657
+msgid "Inside a body of code, such as a function or method body."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1659
+msgid "---no conventions yet."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/srecode.texi:1660
+#, no-wrap
+msgid "Standard Dictionary Values"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1665
+msgid ""
+"For these variables to be useful, standard names should be used.  These "
+"values could be provided directly from a Semantic tag, or by an application."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1669
+msgid "The name of the declaration being created."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1672
+msgid ""
+"If the item belongs to some parent type, it would be the full name of that "
+"type, including namespaces."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1674
+msgid "A datatype name for a variable, or the return value of a function."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1674
+#, no-wrap
+msgid "DOC"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1677
+msgid ""
+"If there is some documentation associated with the item, then DOC should "
+"contain the value.  (Optional)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1681
+msgid ""
+"The ARGS variable defines a section for 0 or more arguments to a function or "
+"method.  Each entry in ARGS will follow the rest of these naming "
+"conventions, such as for NAME and TYPE."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1685
+msgid ""
+"For templates used by @code{srecode-semantic-insert-tag}, there is also the "
+"following useful dictionary values."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1690
+msgid ""
+"A special insertion value TAG@.  You can use semantic functions to turn the "
+"tag into a string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/srecode.texi:1690
+#, no-wrap
+msgid "HAVEDEFAULT"
+msgstr ""
+
+#. type: itemx
+#: ../../../../../doc/misc/srecode.texi:1691
+#, no-wrap
+msgid "DEFAULT"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/srecode.texi:1693
+msgid "Default value for a variable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1701
+msgid ""
+"Since @srecode{} is the @i{Semantic Recoder}, the ultimate goal for "
+"@srecode{} is to convert lists of tags, as produced by @semantic{} back into "
+"code."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1705
+msgid ""
+"A single function provides the interface for programs to do this, but it "
+"requires any particular language to have provided the correct templates to "
+"make it work."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1706
+#, no-wrap
+msgid ""
+"srecode-semantic-insert-tag tag &optional style-option point-insert-fcn "
+"&rest dict-entries"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1709
+msgid "srecode-semantic-insert-tag"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1709
+msgid "Insert @var{tag} into a buffer using srecode templates at point."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1714
+msgid ""
+"Optional @var{style-option} is a list of minor configuration of styles, such "
+"as the symbol @code{'prototype} for prototype functions, or @code{'system} "
+"for system includes, and @code{'doxygen}, for a doxygen style comment."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1719
+msgid ""
+"Optional third argument @var{point-insert-fcn} is a hook that is run after "
+"@var{tag} is inserted that allows an opportunity to fill in the body of some "
+"thing.  This hook function is called with one argument, the @var{tag} being "
+"inserted."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1722
+msgid ""
+"The rest of the arguments are @var{dict-entries}.  @var{dict-entries} is of "
+"the form ( @var{name1} @var{value1} @var{name2} @var{value2} @dots{} NAMEn "
+"VALUEn)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1727
+msgid ""
+"The exact template used is based on the current context.  The template used "
+"is found within the toplevel context as calculated by "
+"@dfn{srecode-calculate-context}, such as @code{declaration}, "
+"@code{classdecl}, or @code{code}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1732
+msgid ""
+"For various conditions, this function looks for a template with the name "
+"@var{class}-tag, where @var{class} is the tag class.  If it cannot find "
+"that, it will look for that template in the @code{declaration}context (if "
+"the current context was not @code{declaration})."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1735
+msgid ""
+"If @var{prototype} is specified, it will first look for templates with the "
+"name @var{class}-tag-prototype, or @var{class}-prototype as above."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1738
+msgid ""
+"See @dfn{srecode-semantic-apply-tag-to-dict} for details on what is in the "
+"dictionary when the templates are called."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1743
+msgid ""
+"This function returns to location in the buffer where the inserted tag "
+"@var{ends}, and will leave point inside the inserted text based on any "
+"occurrence of a point-inserter.  Templates such as @dfn{function} will leave "
+"point where code might be inserted."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1751
+msgid ""
+"The main goal of @srecode{} is to provide a strong platform for writing code "
+"generating applications."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1755
+msgid ""
+"Any templates that are application specific should make an application "
+"declaration for each template file they use.  This prevents those templates "
+"from being used outside of that application."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1757
+msgid "For example, add this to a file:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1759
+#, no-wrap
+msgid "set application \"getset\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1763
+msgid ""
+"In your application Emacs Lisp code, you would then load those templates.  A "
+"typical initialization would look like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/srecode.texi:1767
+#, no-wrap
+msgid ""
+"  (srecode-load-tables-for-mode major-mode)\n"
+"  (srecode-load-tables-for-mode major-mode 'getset)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1771
+msgid ""
+"These two lines will load in the base templates for the major mode, and then "
+"the application specific templates."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1772
+#, no-wrap
+msgid "srecode-load-tables-for-mode mmode &optional appname"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/srecode.texi:1779
+msgid "srecode-load-tables-for-mode"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/srecode.texi:1779
+msgid ""
+"Load all the template files for @var{mmode}.  Templates are found in the "
+"SRecode Template Map.  See @dfn{srecode-get-maps} for more.  @var{appname} "
+"is the name of an application.  In this case, all template files for that "
+"application will be loaded."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/srecode.texi:1783
+msgid "todo: Add examples.  Most core stuff is already described above."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/srecode.texi:1787
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""

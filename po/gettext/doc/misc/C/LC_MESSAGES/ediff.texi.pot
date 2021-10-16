@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-16 23:41\n"
+"PO-Revision-Date: 2021-10-16 23:41\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Credits"
+msgstr ""
+
+msgid "@chapter Customization"
+msgstr ""
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Major Entry Points"
+msgstr ""
+
+msgid "@chapter Registry of Ediff Sessions"
+msgstr ""
+
+msgid "@chapter Remote and Compressed Files"
+msgstr ""
+
+msgid "@chapter Session Commands"
+msgstr ""
+
+msgid "@chapter Session Groups"
+msgstr ""
+
+msgid "@section Customizing the Mode Line"
+msgstr ""
+
+msgid "@section Highlighting Difference Regions"
+msgstr ""
+
+msgid "@section Hooks"
+msgstr ""
+
+msgid "@section Merging and diff3"
+msgstr ""
+
+msgid "@section Miscellaneous"
+msgstr ""
+
+msgid "@section Narrowing"
+msgstr ""
+
+msgid "@section Notes on Heavy-duty Customization"
+msgstr ""
+
+msgid "@section Other Session Commands"
+msgstr ""
+
+msgid "@section Patch and Diff Programs"
+msgstr ""
+
+msgid "@section Quick Help Commands"
+msgstr ""
+
+msgid "@section Quick Help Customization"
+msgstr ""
+
+msgid "@section Refinement of Difference Regions"
+msgstr ""
+
+msgid "@section Selective Browsing"
+msgstr ""
+
+msgid "@section Support for Version Control"
+msgstr ""
+
+msgid "@section Window and Frame Configuration"
+msgstr ""
+

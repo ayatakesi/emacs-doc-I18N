@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-16 23:41\n"
+"PO-Revision-Date: 2021-10-16 23:41\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter Basic Navigation"
+msgstr ""
+
+msgid "@chapter Buffer Mode"
+msgstr ""
+
+msgid "@chapter Customizing"
+msgstr ""
+
+msgid "@chapter Extending"
+msgstr ""
+
+msgid "@chapter File Mode"
+msgstr ""
+
+msgid "@chapter Introduction"
+msgstr ""
+
+msgid "@chapter Minor Display Modes"
+msgstr ""
+
+msgid "@section Basic Key Bindings"
+msgstr ""
+
+msgid "@section Basic Visuals"
+msgstr ""
+
+msgid "@section Creating a display"
+msgstr ""
+
+msgid "@section Directory Display"
+msgstr ""
+
+msgid "@section Displays Submenu"
+msgstr ""
+
+msgid "@section File Key Bindings"
+msgstr ""
+
+msgid "@section Frames and Faces"
+msgstr ""
+
+msgid "@section GDB"
+msgstr ""
+
+msgid "@section Hidden Files"
+msgstr ""
+
+msgid "@section Hooks"
+msgstr ""
+
+msgid "@section Info"
+msgstr ""
+
+msgid "@section Major Display Modes"
+msgstr ""
+
+msgid "@section Minor Display Modes"
+msgstr ""
+
+msgid "@section Mouse Bindings"
+msgstr ""
+
+msgid "@section RMAIL"
+msgstr ""
+
+msgid "@section Tag Hierarchy Methods"
+msgstr ""
+
+msgid "@section Tagging Extensions"
+msgstr ""
+
+msgid "@section Version Control"
+msgstr ""
+
+msgid "@subsection Groups"
+msgstr ""
+
+msgid "@subsubsection Boolean Flags"
+msgstr ""
+
+msgid "@subsubsection Color Cues"
+msgstr ""
+
+msgid "@subsubsection Tags"
+msgstr ""
+
+msgid "@subsubsection Unadorned Text"
+msgstr ""
+

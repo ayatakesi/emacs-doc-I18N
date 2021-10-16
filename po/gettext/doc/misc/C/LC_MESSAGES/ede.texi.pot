@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emacs-XX.X\n"
+"POT-Creation-Date: 2021-10-16 23:41\n"
+"PO-Revision-Date: 2021-10-16 23:41\n"
+"Last-Translator: emacs-doc#translator\n"
+"Language-Team: emacs-doc#translators\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "@appendix GNU Free Documentation License"
+msgstr ""
+
+msgid "@chapter @ede{} Mode"
+msgstr ""
+
+msgid "@chapter @ede{} Project Concepts"
+msgstr ""
+
+msgid "@chapter Building and Debugging"
+msgstr ""
+
+msgid "@chapter Creating a project"
+msgstr ""
+
+msgid "@chapter Extending @ede{}"
+msgstr ""
+
+msgid "@chapter Miscellaneous commands"
+msgstr ""
+
+msgid "@chapter Modifying your project"
+msgstr ""
+
+msgid "@chapter Quick Start"
+msgstr ""
+
+msgid "@section Add/Remove files"
+msgstr ""
+
+msgid "@section Add/Remove target"
+msgstr ""
+
+msgid "@section Automake direct projects"
+msgstr ""
+
+msgid "@section Base project methods"
+msgstr ""
+
+msgid "@section Compiler and Linker objects"
+msgstr ""
+
+msgid "@section Compilers"
+msgstr ""
+
+msgid "@section Customize Features"
+msgstr ""
+
+msgid "@section Detecting a Project"
+msgstr ""
+
+msgid "@section Development Overview"
+msgstr ""
+
+msgid "@section EDE Project Features"
+msgstr ""
+
+msgid "@section Make and Automake projects"
+msgstr ""
+
+msgid "@section Project"
+msgstr ""
+
+msgid "@section Project Local Variables"
+msgstr ""
+
+msgid "@section Simple Projects"
+msgstr ""
+
+msgid "@section Sourcecode"
+msgstr ""
+
+msgid "@section Sourcecode objects"
+msgstr ""
+
+msgid "@section Step 1: Create root directory"
+msgstr ""
+
+msgid "@section Step 2: Create Subdirectories and Files"
+msgstr ""
+
+msgid "@section Step 3: Create subprojects"
+msgstr ""
+
+msgid "@section Step 4: Create targets"
+msgstr ""
+
+msgid "@section Step 5: Compile, and fail"
+msgstr ""
+
+msgid "@section Step 6: Customizing your project"
+msgstr ""
+
+msgid "@section Step 7: Shared library dependency"
+msgstr ""
+
+msgid "@section Step 8: Run your program"
+msgstr ""
+
+msgid "@section Targets"
+msgstr ""
+
+msgid "@section User interface methods"
+msgstr ""
+
+msgid "@subsection Changing Compilers and Flags"
+msgstr ""
+
+msgid "@subsection Configurations"
+msgstr ""
+
+msgid "@subsection Custom Locate"
+msgstr ""
+
+msgid "@subsection ede-compilation-program"
+msgstr ""
+
+msgid "@subsection ede-compiler"
+msgstr ""
+
+msgid "@subsection ede-cpp-root"
+msgstr ""
+
+msgid "@subsection ede-cpp-root-project"
+msgstr ""
+
+msgid "@subsection ede-emacs"
+msgstr ""
+
+msgid "@subsection ede-generic-project"
+msgstr ""
+
+msgid "@subsection ede-linker"
+msgstr ""
+
+msgid "@subsection ede-linux"
+msgstr ""
+
+msgid "@subsection ede-object-compiler"
+msgstr ""
+
+msgid "@subsection ede-proj-project"
+msgstr ""
+
+msgid "@subsection ede-proj-target"
+msgstr ""
+
+msgid "@subsection ede-proj-target-elisp"
+msgstr ""
+
+msgid "@subsection ede-proj-target-elisp-autoloads"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-archive"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-info"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-miscelaneous"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-objectcode"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-program"
+msgstr ""
+
+msgid "@subsection ede-proj-target-makefile-shared-object"
+msgstr ""
+
+msgid "@subsection ede-proj-target-scheme"
+msgstr ""
+
+msgid "@subsection ede-project"
+msgstr ""
+
+msgid "@subsection ede-project-placeholder"
+msgstr ""
+
+msgid "@subsection ede-simple-base-project"
+msgstr ""
+
+msgid "@subsection ede-simple-project"
+msgstr ""
+
+msgid "@subsection ede-sourcecode"
+msgstr ""
+
+msgid "@subsection ede-step-project"
+msgstr ""
+
+msgid "@subsection ede-target"
+msgstr ""
+
+msgid "@subsection project-am-header-inst"
+msgstr ""
+
+msgid "@subsection project-am-header-noinst"
+msgstr ""
+
+msgid "@subsection project-am-lisp"
+msgstr ""
+
+msgid "@subsection project-am-makefile"
+msgstr ""
+
+msgid "@subsection project-am-man"
+msgstr ""
+
+msgid "@subsection project-am-objectcode"
+msgstr ""
+
+msgid "@subsection project-am-program"
+msgstr ""
+
+msgid "@subsection project-am-target"
+msgstr ""
+
+msgid "@subsection project-am-texinfo"
+msgstr ""
+
+msgid "@subsection semantic-ede-proj-target-grammar"
+msgstr ""
+
+msgid "@subsubsection Specialized Methods"
+msgstr ""
+

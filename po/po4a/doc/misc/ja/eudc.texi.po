@@ -1,0 +1,2103 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-16 23:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/eudc.texi:4
+#, no-wrap
+msgid "Emacs Unified Directory Client (EUDC) Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/eudc.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:7
+msgid "@afourpaper"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/eudc.texi:13
+msgid "This file documents EUDC version 1.40.0."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/eudc.texi:16
+msgid ""
+"EUDC is the Emacs Unified Directory Client, a common interface to directory "
+"servers and contact information."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/eudc.texi:18
+msgid "Copyright @copyright{} 1998, 2000--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/eudc.texi:26
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the "
+"Back-Cover Texts as in (a) below.  A copy of the license is included in the "
+"section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/eudc.texi:29
+msgid ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/eudc.texi:32
+#, no-wrap
+msgid "Emacs network features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:35
+msgid "EUDC: (eudc)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:35
+msgid "Emacs client for directory servers (LDAP, BBDB)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:38
+msgid "@footnotestyle end"
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/eudc.texi:40
+#, no-wrap
+msgid "EUDC Manual"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/eudc.texi:41
+#, no-wrap
+msgid "The Emacs Unified Directory Client"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/eudc.texi:42
+#, no-wrap
+msgid "by Oscar Figueiredo"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/eudc.texi:44
+msgid "1.40.0"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/eudc.texi:53
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/eudc.texi:54
+#, no-wrap
+msgid "Emacs Unified Directory Client"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:72 ../../../../../doc/misc/eudc.texi:73
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:66
+msgid "Summary of EUDC features"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:162 ../../../../../doc/misc/eudc.texi:163
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:66
+msgid "How to install EUDC"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:382 ../../../../../doc/misc/eudc.texi:383
+#, no-wrap
+msgid "Usage"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:66
+msgid "The various usage possibilities explained"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:1035 ../../../../../doc/misc/eudc.texi:1036
+#, no-wrap
+msgid "Credits"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:66
+msgid "Who's done what"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:1044 ../../../../../doc/misc/eudc.texi:1045
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:66
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/eudc.texi:66 ../../../../../doc/misc/eudc.texi:1048 ../../../../../doc/misc/eudc.texi:1049
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:78
+msgid ""
+"EUDC, the @dfn{Emacs Unified Directory Client}, provides a common user "
+"interface to access directory servers using different directory protocols."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:80
+msgid "Currently supported back-ends are:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:84
+msgid "LDAP, Lightweight Directory Access Protocol"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:86
+msgid "BBDB, Big Brother's Insidious Database"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:89
+msgid "The main features of the EUDC interface are:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:93
+msgid "Queries using a customizable form"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:97
+msgid ""
+"Inline query expansion (for instance you can expand a name to an email "
+"address in a mail message buffer using a server as an address book)"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:100
+msgid ""
+"Multiple servers can be tried in turn until a match is found for an inline "
+"query"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:102
+msgid "Fast minibuffer queries for email addresses and phone numbers"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:105
+msgid ""
+"Interface to BBDB to let you insert server records into your own BBDB "
+"database (@pxref{Top,,BBDB,bbdb,BBDB Manual})"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:110 ../../../../../doc/misc/eudc.texi:114 ../../../../../doc/misc/eudc.texi:115
+#, no-wrap
+msgid "LDAP"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:110
+msgid "What is LDAP ?"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:110 ../../../../../doc/misc/eudc.texi:140 ../../../../../doc/misc/eudc.texi:141
+#, no-wrap
+msgid "BBDB"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:110
+msgid "What is BBDB ?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:119
+msgid ""
+"LDAP, @dfn{the Lightweight Directory Access Protocol}, is a communication "
+"protocol for directory applications defined in RFC 1777."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:121
+msgid "Quoted from RFC 1777:"
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/eudc.texi:129
+msgid ""
+"[LDAP] is designed to provide access to the X.500 Directory while not "
+"incurring the resource requirements of the Directory Access Protocol "
+"(DAP). This protocol is specifically targeted at simple management "
+"applications and browser applications that provide simple read/write "
+"interactive access to the X.500 Directory, and is intended to be a "
+"complement to the DAP itself."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:135
+msgid ""
+"LDAP servers usually store (but are not limited to) information about people "
+"such as their name, phone number, email address, office location, "
+"etc@enddots{} More information about LDAP can be found at "
+"@url{https://www.openldap.org/}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:138
+msgid ""
+"EUDC requires external support to access LDAP directory servers (@pxref{LDAP "
+"Configuration})"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:147
+msgid ""
+"BBDB is the @dfn{Big Brother's Insidious Database}, a package for Emacs "
+"originally written by Jamie Zawinski which provides rolodex-like database "
+"functionality featuring tight integration with the Emacs mail and news "
+"readers."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:149
+msgid "It is often used as an enhanced email address book."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:158
+msgid ""
+"EUDC considers BBDB as a directory server back end just like LDAP, though "
+"BBDB has no client/server protocol and thus always resides locally on your "
+"machine.  The point in this is not to offer an alternate way to query your "
+"BBDB database (BBDB itself provides much more flexible ways to do that), but "
+"rather to offer an interface to your local directory that is consistent with "
+"the interface to external LDAP directories.  This is particularly "
+"interesting when performing queries on multiple servers."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:161
+msgid ""
+"EUDC also offers a means to insert results from directory queries into your "
+"own local BBDB (@pxref{Creating BBDB Records})"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:166
+msgid "Add the following to your @file{.emacs} init file:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:168
+#, no-wrap
+msgid "(require 'eudc)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:170
+msgid "This will install EUDC at startup."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:174
+msgid ""
+"After installing EUDC you will find (the next time you launch Emacs) a new "
+"@code{Directory Search} submenu in the @samp{Tools} menu that will give you "
+"access to EUDC."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:178
+msgid ""
+"You may also find it useful to add the following to your @file{.emacs} "
+"initialization file to add a shortcut for email address expansion in email "
+"composition buffers (@pxref{Inline Query Expansion})"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:184
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (define-key message-mode-map [(control ?c) (tab)] 'eudc-expand-inline))\n"
+"(with-eval-after-load \"sendmail\"\n"
+"  (define-key mail-mode-map [(control ?c) (tab)] 'eudc-expand-inline))\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:188 ../../../../../doc/misc/eudc.texi:190 ../../../../../doc/misc/eudc.texi:191
+#, no-wrap
+msgid "LDAP Configuration"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:188
+msgid "EUDC needs external support for LDAP"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:198
+msgid ""
+"LDAP support is added by means of @file{ldap.el}, which is part of Emacs.  "
+"@file{ldap.el} needs an external program called @command{ldapsearch}, "
+"available as part of OpenLDAP (@url{https://www.openldap.org/}).  The "
+"configurations in this section were tested with OpenLDAP 2.4.23."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:201
+msgid ""
+"Most servers use LDAP-over-SSL these days; the examples here reflect that.  "
+"The other possibilities are:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:202 ../../../../../doc/misc/eudc.texi:270 ../../../../../doc/misc/eudc.texi:326 ../../../../../doc/misc/eudc.texi:355
+#, no-wrap
+msgid "ldap-host-parameters-alist"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:203
+#, no-wrap
+msgid "ldap-ldapsearch-args"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:209
+msgid ""
+"Servers that do not require authentication or that do not encrypt "
+"authentication traffic."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:212
+msgid ""
+"Include @code{auth simple} in @code{ldap-host-parameters-alist}, which "
+"causes the @code{-x} option to be passed to @command{ldapsearch}."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:215
+msgid "Servers that require SASL authentication."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/eudc.texi:218
+msgid ""
+"Pass any required extra options to @command{ldapsearch} using "
+"@code{ldap-ldapsearch-args}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:226
+msgid ""
+"The following examples use a base of @code{ou=people,dc=gnu,dc=org} and the "
+"host name @code{ldap.gnu.org}, a server that supports LDAP-over-SSL (the "
+"@code{ldaps} protocol, with default port @code{636}) and which requires "
+"authentication by the user @code{emacsuser} with password @code{s3cr3t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:231
+msgid ""
+"These configurations are meant to be self-contained; that is, each provides "
+"everything required for sensible TAB-completion of email fields.  BBDB "
+"lookups are attempted first; if a matching BBDB entry is found then EUDC "
+"will not attempt any LDAP lookups."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:234
+msgid ""
+"Wildcard LDAP lookups are supported using the @code{*} character.  For "
+"example, attempting to TAB-complete the following:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:237
+#, no-wrap
+msgid "To: * Smith\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:243
+msgid ""
+"will return all LDAP entries with surnames that begin with @code{Smith}.  In "
+"every LDAP query it makes, EUDC implicitly appends the wildcard character to "
+"the end of the last word."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:248 ../../../../../doc/misc/eudc.texi:250 ../../../../../doc/misc/eudc.texi:251
+#, no-wrap
+msgid "Emacs-only Configuration"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:248
+msgid "Configure with @file{.emacs}"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:248 ../../../../../doc/misc/eudc.texi:297 ../../../../../doc/misc/eudc.texi:298
+#, no-wrap
+msgid "External Configuration"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:248
+msgid "Configure with @file{/etc/openldap/ldap.conf}"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:248 ../../../../../doc/misc/eudc.texi:365 ../../../../../doc/misc/eudc.texi:366
+#, no-wrap
+msgid "Troubleshooting"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:248
+msgid "Debug @command{ldapsearch} failures"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:259
+msgid ""
+"Emacs can pass most required configuration options via the "
+"@command{ldapsearch} command-line.  One exception is certificate "
+"configuration for LDAP-over-SSL, which must be specified in "
+"@file{/etc/openldap/ldap.conf}.  On systems that provide such certificates "
+"as part of the @code{OpenLDAP} installation, this can be as simple as one "
+"line:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:262
+#, no-wrap
+msgid "TLS_CACERTDIR /etc/openldap/certs\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:266
+msgid "In @file{.emacs}, these expressions suffice to configure EUDC for LDAP:"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:267 ../../../../../doc/misc/eudc.texi:323 ../../../../../doc/misc/eudc.texi:352
+#, no-wrap
+msgid "message-mode-map"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:268 ../../../../../doc/misc/eudc.texi:324 ../../../../../doc/misc/eudc.texi:353
+#, no-wrap
+msgid "eudc-expand-inline"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:269 ../../../../../doc/misc/eudc.texi:325 ../../../../../doc/misc/eudc.texi:354
+#, no-wrap
+msgid "eudc-server-hotlist"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:282
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (define-key message-mode-map (kbd \"TAB\") 'eudc-expand-inline))\n"
+"(customize-set-variable 'eudc-server-hotlist\n"
+"                        '((\"\" . bbdb)\n"
+"                          (\"ldaps://ldap.gnu.org\" . ldap)))\n"
+"(customize-set-variable 'ldap-host-parameters-alist\n"
+"                        '((\"ldaps://ldap.gnu.org\"\n"
+"                           base \"ou=people,dc=gnu,dc=org\"\n"
+"                           binddn \"gnu\\\\emacsuser\"\n"
+"                           passwd ldap-password-read)))\n"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:284
+#, no-wrap
+msgid "ldap-password-read"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:285
+#, no-wrap
+msgid "passwd"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:286
+#, no-wrap
+msgid "password-cache"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/eudc.texi:287
+#, no-wrap
+msgid "password-cache-expiry"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:288
+#, no-wrap
+msgid "password-reset"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:296
+msgid ""
+"Specifying the function @code{ldap-password-read} for @code{passwd} will "
+"cause Emacs to prompt interactively for the password.  The password will "
+"then be validated and cached, unless @code{password-cache} is nil.  You can "
+"customize @code{password-cache-expiry} to control the duration for which the "
+"password is cached.  If you want to clear the cache, call "
+"@code{password-reset}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:302
+msgid ""
+"Your system may already be configured for a default LDAP server.  For "
+"example, @file{/etc/openldap/ldap.conf} might contain:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:307
+#, no-wrap
+msgid ""
+"BASE ou=people,dc=gnu,dc=org\n"
+"URI ldaps://ldap.gnu.org\n"
+"TLS_CACERTDIR /etc/openldap/certs\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/eudc.texi:309
+#, no-wrap
+msgid "bind distinguished name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/eudc.texi:310
+#, no-wrap
+msgid "binddn"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:315
+msgid ""
+"Authentication requires a password, and a @dfn{bind distinguished name "
+"(binddn)} representing the user, in this case, @code{gnu\\emacsuser}.  These "
+"can be specified in @file{~/.authinfo.gpg} with the following line:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:318
+#, no-wrap
+msgid "machine ldaps://ldap.gnu.org binddn gnu\\emacsuser password s3cr3t\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:322
+msgid ""
+"Then in the @file{.emacs} init file, these expressions suffice to configure "
+"EUDC for LDAP:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:336
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (define-key message-mode-map (kbd \"TAB\") 'eudc-expand-inline))\n"
+"(customize-set-variable 'eudc-server-hotlist\n"
+"                        '((\"\" . bbdb)\n"
+"                          (\"ldaps://ldap.gnu.org\" . ldap)))\n"
+"(customize-set-variable 'ldap-host-parameters-alist\n"
+"                        '((\"ldaps://ldap.gnu.org\"\n"
+"                           auth-source t)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:342
+msgid ""
+"For this example where we only care about one server, the server name can be "
+"omitted in @file{~/.authinfo.gpg} and @file{.emacs}, in which case "
+"@command{ldapsearch} defaults to the host name in "
+"@file{/etc/openldap/ldap.conf}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:344
+msgid "The @file{~/.authinfo.gpg} line becomes:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:347
+#, no-wrap
+msgid "binddn gnu\\emacsuser password s3cr3t\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:351
+msgid "and the @file{.emacs} expressions become:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:363
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (define-key message-mode-map (kbd \"TAB\") 'eudc-expand-inline))\n"
+"(customize-set-variable 'eudc-server-hotlist\n"
+"                        '((\"\" . bbdb) (\"\" . ldap)))\n"
+"(customize-set-variable 'ldap-host-parameters-alist\n"
+"                        '((\"\" auth-source t)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:370
+msgid ""
+"If @command{ldapsearch} exits with an error, you'll see a message like this "
+"in the @code{*Messages*} buffer (all on one line):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/eudc.texi:376
+#, no-wrap
+msgid ""
+"ldap-search-internal: Failed ldapsearch invocation:\n"
+"   ldapsearch \"-Hldaps://ldap.gnu.org\" \"-bou=people,dc=gnu,dc=org\"\n"
+"   \"-Dgnu\\emacsuser\" \"-W\" \"-LL\" \"-tt\" \"(&(mail=name*))\"\n"
+"   \"givenname\" \"sn\" \"mail\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:381
+msgid ""
+"The @command{ldapsearch} command is formatted such that it can be copied and "
+"pasted into a terminal.  Set the @command{ldapsearch} debug level to 5 by "
+"appending @code{-d 5} to the command line."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:388
+msgid ""
+"This chapter describes the usage of EUDC@.  Most functions and customization "
+"options are available through the @samp{Directory Search} submenu of the "
+"@samp{Tools} submenu."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:401 ../../../../../doc/misc/eudc.texi:402
+#, no-wrap
+msgid "Querying Servers"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How queries are performed and handled"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:530 ../../../../../doc/misc/eudc.texi:531
+#, no-wrap
+msgid "Query Form"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How to use and customize the query form"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:584 ../../../../../doc/misc/eudc.texi:585
+#, no-wrap
+msgid "Display of Query Results"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "Controlling how query results are presented"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:661 ../../../../../doc/misc/eudc.texi:662
+#, no-wrap
+msgid "Inline Query Expansion"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How to use and customize inline queries"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:760 ../../../../../doc/misc/eudc.texi:761
+#, no-wrap
+msgid "The Server Hotlist"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How to use and manage the server hotlist"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:833 ../../../../../doc/misc/eudc.texi:834
+#, no-wrap
+msgid "Multi-server Queries"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How to query multiple servers successively"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:864 ../../../../../doc/misc/eudc.texi:865
+#, no-wrap
+msgid "Creating BBDB Records"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "How to insert query results into your BBDB"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/eudc.texi:398 ../../../../../doc/misc/eudc.texi:946 ../../../../../doc/misc/eudc.texi:947
+#, no-wrap
+msgid "Server/Protocol Locals"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:398
+msgid "Customizing on a per server/protocol basis"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:407
+msgid ""
+"EUDC's basic functionality is to let you query a directory server and return "
+"the results back to you.  There are several things you may want to customize "
+"in this process."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:413 ../../../../../doc/misc/eudc.texi:415 ../../../../../doc/misc/eudc.texi:416
+#, no-wrap
+msgid "Selecting a Server"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:413
+msgid "The first thing to do"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:413 ../../../../../doc/misc/eudc.texi:454 ../../../../../doc/misc/eudc.texi:455
+#, no-wrap
+msgid "Return Attributes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:413
+msgid "Configuring what the server should return"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:413 ../../../../../doc/misc/eudc.texi:478 ../../../../../doc/misc/eudc.texi:479
+#, no-wrap
+msgid "Duplicate Attributes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:413
+msgid "What to do when records have duplicate attributes"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:422
+msgid ""
+"Before doing any query you will need to set the directory server.  You need "
+"to specify the name of the host machine running the server software and the "
+"protocol to use. If you do not set the server in any fashion, EUDC will ask "
+"you for one when you make your first query."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:426
+msgid ""
+"You can set the server by selecting one from your hotlist of servers "
+"(@pxref{The Server Hotlist}) available in the @samp{Server} submenu or by "
+"selecting @samp{New Server} in that same menu."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:433
+msgid ""
+"LDAP servers generally require some configuration before you can perform "
+"queries on them.  In particular, the @dfn{search base} must be configured.  "
+"If the server you select has no configured search base then EUDC will "
+"propose you to configure it at this point.  A customization buffer will be "
+"displayed where you can edit the search base and other parameters for the "
+"server."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:434
+#, no-wrap
+msgid "eudc-server"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:442
+msgid ""
+"The name or IP address of the remote directory server. A TCP port number may "
+"be specified by appending a colon and a number to the name of the "
+"server. You will not need this unless your server runs on a port other than "
+"the default (which depends on the protocol).  If the directory server "
+"resides on your own computer (which is the case if you use the BBDB back "
+"end) then @samp{localhost} is a reasonable value but it will be ignored "
+"anyway."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:444
+#, no-wrap
+msgid "eudc-protocol"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:447
+msgid ""
+"The directory protocol to use to query the server.  Currently supported "
+"protocols in this version of EUDC are @code{ldap} and @code{bbdb}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:449
+#, no-wrap
+msgid "Command eudc-set-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:452
+msgid ""
+"This command accessible from @samp{New Server} submenu lets you specify a "
+"new directory server and protocol."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:461
+msgid ""
+"Directory servers may be configured to return a default set of attributes "
+"for each record matching a query if the query specifies none.  The variable "
+"@code{eudc-default-return-attributes} controls the return attributes you "
+"want to see, if different from the server defaults."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:462
+#, no-wrap
+msgid "eudc-default-return-attributes"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:467
+msgid ""
+"A list of the default attributes to extract from directory entries.  If set "
+"to the symbol @code{all} then all available attributes are returned. A value "
+"of @code{nil}, the default, means to return the default attributes as "
+"configured in the server."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:472
+msgid ""
+"The server may return several matching records to a query. Some of the "
+"records may however not contain all the attributes you requested. You can "
+"discard those records."
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/eudc.texi:473
+#, no-wrap
+msgid "eudc-strict-return-matches"
+msgstr ""
+
+#. type: defopt
+#: ../../../../../doc/misc/eudc.texi:476
+msgid ""
+"If non-@code{nil}, entries that do not contain all the requested return "
+"attributes are ignored.  Default is @code{t}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:485
+msgid ""
+"Directory standards may authorize different instances of the same attribute "
+"in a record. For instance the record of a person may contain several email "
+"fields containing different email addresses, in which case EUDC will "
+"consider the attribute duplicated."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:488
+msgid ""
+"EUDC has several methods to deal with duplicated attributes. The available "
+"methods are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:490
+#, no-wrap
+msgid "list"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:496
+msgid ""
+"Makes a list with the different values of the duplicate attribute. The "
+"record is returned with only one instance of the attribute with a list of "
+"all the different values as a value. This is the default method that is used "
+"to handle duplicate fields for which no other method has been specified."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:496 ../../../../../doc/misc/eudc.texi:743
+#, no-wrap
+msgid "first"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:499
+msgid "Discards all the duplicate values of the field keeping only the first one."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:499
+#, no-wrap
+msgid "concat"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:503
+msgid ""
+"Concatenates the different values using a newline as a separator. The record "
+"keeps only one instance of the field the value of which is a single "
+"multi-line string."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:503
+#, no-wrap
+msgid "duplicate"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:512
+msgid ""
+"Duplicates the whole record into as many instances as there are different "
+"values for the field. This is the default for the email field. Thus a record "
+"containing 3 different email addresses is duplicated into three different "
+"records each having a single email address. This is particularly useful in "
+"combination with @code{select} as the method to handle multiple matches in "
+"inline expansion queries (@pxref{Inline Query Expansion}) because you are "
+"presented with the 3 addresses in a selection buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:517
+msgid ""
+"Because a method may not be applicable to all fields, the variable "
+"@code{eudc-duplicate-attribute-handling-method} lets you specify either a "
+"default method for all fields or a method for each individual field."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:518
+#, no-wrap
+msgid "eudc-duplicate-attribute-handling-method"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:526
+msgid ""
+"A method to handle entries containing duplicate attributes.  This is either "
+"an alist of elements @code{(@var{attr} . @var{method})}, or a symbol "
+"@var{method}.  The alist form of the variable associates a method to an "
+"individual attribute name; the second form specifies a method applicable to "
+"all attribute names. Available methods are: @code{list}, @code{first}, "
+"@code{concat}, and @code{duplicate} (see above).  The default is "
+"@code{list}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:539
+msgid ""
+"The simplest way to query your directory server is to use the query "
+"form. You display the query form with the @samp{Query with Form} menu item "
+"or by invoking the command @kbd{M-x eudc-query-form}. The attribute names "
+"presented in this form are defined by the @code{eudc-query-form-attributes} "
+"variable (unless a non-@code{nil} argument is supplied to "
+"@code{eudc-query-form})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:547
+msgid ""
+"Since the different directory protocols to which EUDC interfaces may use "
+"different names for equivalent attributes, EUDC defines its own set of "
+"attribute names and a mapping between these names and their "
+"protocol-specific equivalent through the variable "
+"@code{eudc-protocol-attributes-translation-alist}.  Names currently defined "
+"by EUDC are @code{name}, @code{firstname}, @code{email} and @code{phone}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:548
+#, no-wrap
+msgid "eudc-query-form-attributes"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:549
+#, no-wrap
+msgid "eudc-get-attribute-list"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:556
+msgid ""
+"A list of attributes presented in the query form.  Attribute names in this "
+"list should be either EUDC attribute names or valid attribute names.  You "
+"can get a list of valid attribute names for the current protocol with the "
+"@samp{List Valid Attribute Names} menu item or the @kbd{M-x "
+"eudc-get-attribute-list} command.  Defaults to @code{name}, @code{email} and "
+"@code{phone}."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:558
+#, no-wrap
+msgid "Command eudc-query-form get-fields-from-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:563
+msgid ""
+"Display a form to query the directory server.  If given a non-@code{nil} "
+"argument the function first queries the server for the existing fields and "
+"displays a corresponding form.  Not all protocols may support a "
+"non-@code{nil} argument here."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:570
+msgid ""
+"Since the names of the fields may not be explicit enough or adapted to be "
+"directly displayed as prompt strings in the form, the variable "
+"@code{eudc-user-attribute-names-alist} lets you define more explicit names "
+"for directory attribute names.  This variable is ignored if "
+"@code{eudc-use-raw-directory-names} is non-@code{nil}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:571
+#, no-wrap
+msgid "eudc-user-attribute-names-alist"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:576
+msgid ""
+"This is an alist of user-defined names for the directory attributes used in "
+"query/response forms. Prompt strings for attributes that are not in this "
+"alist are derived by splitting the attribute name at underscores and "
+"capitalizing the individual words."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:578
+#, no-wrap
+msgid "eudc-use-raw-directory-names"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:582
+msgid ""
+"If non-@code{nil}, use attributes names as defined in the directory.  "
+"Otherwise, directory query/response forms display the user attribute names "
+"defined in @code{eudc-user-attribute-names-alist}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:589
+msgid ""
+"Upon successful completion of a form query, EUDC will display a buffer "
+"containing the results of the query."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:593
+msgid ""
+"The fields that are returned for each record are controlled by "
+"@code{eudc-default-return-attributes} (@pxref{Return Attributes})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:598
+msgid ""
+"The display of each individual field can be performed by an arbitrary "
+"function which allows specific processing for binary values, such as images "
+"or audio samples, as well as values with semantics, such as URLs."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:599
+#, no-wrap
+msgid "eudc-attribute-display-method-alist"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:607
+msgid ""
+"An alist specifying methods to display attribute values.  Each member of the "
+"list is of the form @code{(@var{name} . @var{func})} where @var{name} is a "
+"lowercased string naming a directory attribute (translated according to "
+"@code{eudc-user-attribute-names-alist} if "
+"@code{eudc-use-raw-directory-names} is non-@code{nil}) and @var{func} a "
+"function that will be passed the corresponding attribute values for display."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:611
+msgid ""
+"This variable has protocol-local definitions (@pxref{Server/Protocol "
+"Locals}).  For instance, it is defined as follows for LDAP:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:620
+#, no-wrap
+msgid ""
+"(eudc-protocol-set 'eudc-attribute-display-method-alist\n"
+"                   '((\"jpegphoto\" . eudc-display-jpeg-inline)\n"
+"                     (\"labeledurl\" . eudc-display-url)\n"
+"                     (\"audio\" . eudc-display-sound)\n"
+"                     (\"labeledurl\" . eudc-display-url)\n"
+"                     (\"url\" . eudc-display-url))\n"
+"                   'ldap)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:623
+msgid "EUDC provides a set of built-in functions to display binary value types:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:624
+#, no-wrap
+msgid "eudc-display-generic-binary data"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:626
+msgid "Display a button for unidentified binary @var{data}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:628
+#, no-wrap
+msgid "eudc-display-url url"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:630
+msgid "Display URL and make it clickable."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:632
+#, no-wrap
+msgid "eudc-display-sound data"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:634
+msgid "Display a button to play the sound @var{data}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:636
+#, no-wrap
+msgid "eudc-display-jpeg-inline data"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:638
+msgid "Display the JPEG @var{data} inline at point if possible."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:640
+#, no-wrap
+msgid "eudc-display-jpeg-as-button data"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:642
+msgid "Display a button for the JPEG @var{data}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:651
+msgid ""
+"Right-clicking on a binary value button pops up a contextual menu with "
+"options to process the value.  Among these are saving the attribute value to "
+"a file or sending it to an external viewer command.  External viewers should "
+"expect the value on their standard input and should display it or perform "
+"arbitrary processing on it.  Messages sent to standard output are "
+"discarded.  External viewers are listed in the variable "
+"@code{eudc-external-viewers} which you can customize."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:652
+#, no-wrap
+msgid "eudc-external-viewers"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:658
+msgid ""
+"This is a list of viewer program specifications.  Each specification is a "
+"list whose first element is a string naming the viewer for unique "
+"identification, the second element is the executable program which should be "
+"invoked and the following elements are arguments that should be passed to "
+"the program."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:674
+msgid ""
+"Inline query expansion is a powerful method to get completion from your "
+"directory server.  The most common usage is for expanding names to email "
+"addresses in mail message buffers.  The expansion is performed by the "
+"command @kbd{M-x eudc-expand-inline} which is available from the "
+"@samp{Expand Inline Query} menu item but can also be conveniently bound to a "
+"key shortcut (@pxref{Installation}).  The operation is controlled by the "
+"variables @code{eudc-inline-expansion-format}, "
+"@code{eudc-inline-query-format}, @code{eudc-expanding-overwrites-query} and "
+"@code{eudc-multiple-match-handling-method}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:677
+msgid ""
+"If the query fails for a server, other servers may be tried successively "
+"until one of them finds a match (@pxref{Multi-server Queries})."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:678
+#, no-wrap
+msgid "Command eudc-expand-inline replace-p"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:689
+msgid ""
+"Query the server and expand the query string before point.  The query string "
+"consists of the buffer substring from the point back to the preceding comma, "
+"colon or beginning of line.  @code{eudc-inline-query-format} controls how "
+"individual words are mapped onto directory attribute names.  After querying "
+"the server for the given string, the expansion specified by "
+"@code{eudc-inline-expansion-format} is inserted in the buffer at point. If "
+"@var{replace-p} is @code{t} then this expansion replaces the query string in "
+"the buffer.  If @code{eudc-expanding-overwrites-query} is non-@code{nil} "
+"then the meaning of @var{replace-p} is negated."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:691
+#, no-wrap
+msgid "eudc-inline-query-format"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:699
+msgid ""
+"Format of an inline expansion query.  This is actually a list of "
+"@var{format}s.  A @var{format} is a list of one or more EUDC attribute "
+"names.  A @var{format} applies if it contains as many attributes as "
+"individual words in the inline query string.  If several @var{format}s apply "
+"then they are tried in order until a match is found.  If @code{nil} all the "
+"words will be mapped onto the default server/protocol attribute name "
+"(generally @code{name})."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:701
+msgid "For instance, use the following"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:705
+#, no-wrap
+msgid ""
+"(setq eudc-inline-query-format '((name)\n"
+"                                 (firstname)\n"
+"                                 (firstname name)))\n"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:713
+msgid ""
+"to indicate that single word expansion queries are to be considered as "
+"surnames and if no match is found then they should be tried as first names.  "
+"Inline queries consisting of two words are considered as consisting of a "
+"first name followed by a surname.  If the query consists of more than two "
+"words, then the first one is considered as the first name and the remaining "
+"words are all considered as surname constituents."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:718
+msgid ""
+"@var{format}s are in fact not limited to EUDC attribute names, you can use "
+"server or protocol specific names in them.  It may be safer if you do so, to "
+"set the variable @code{eudc-inline-query-format} in a protocol or server "
+"local fashion (@pxref{Server/Protocol Locals})."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:721
+msgid ""
+"For instance you could use the following to match up to three words against "
+"the @code{cn} attribute of LDAP servers:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/eudc.texi:727
+#, no-wrap
+msgid ""
+"(eudc-protocol-set 'eudc-inline-query-format\n"
+"                   '((cn)\n"
+"                     (cn cn)\n"
+"                     (cn cn cn))\n"
+"                   'ldap)\n"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:730
+#, no-wrap
+msgid "eudc-inline-expansion-format"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:737
+msgid ""
+"This variable lets you control exactly what is inserted into the buffer upon "
+"an inline expansion request.  It is a list whose first element is a string "
+"passed to @code{format}.  Remaining elements are symbols corresponding to "
+"directory attribute names.  The corresponding attribute values are passed as "
+"additional arguments to @code{format}.  Default is @code{(\"%s %s <%s>\" "
+"firstname name email)}."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:739
+#, no-wrap
+msgid "eudc-multiple-match-handling-method"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:742
+msgid ""
+"This variable controls what to do when multiple entries match a query for an "
+"inline expansion.  Possible values are:"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:746
+msgid ""
+"The first match is considered as being the only one, the others are "
+"discarded."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:746
+#, no-wrap
+msgid "select"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:749
+msgid ""
+"A selection buffer pops up where you can choose a particular match.  This is "
+"the default value of the variable."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:749
+#, no-wrap
+msgid "all"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:751
+msgid "The expansion uses all records successively"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:751
+#, no-wrap
+msgid "abort"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:753
+msgid "An error is signaled.  The expansion aborts."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:756
+msgid "Default is @code{select}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:771
+msgid ""
+"EUDC lets you maintain a list of frequently used servers so that you can "
+"easily switch from one to another.  This hotlist appears in the "
+"@samp{Server} submenu.  You select a server in this list by clicking on its "
+"name.  You can add the current server to the list with the command @kbd{M-x "
+"eudc-bookmark-current-server}.  The list is contained in the variable "
+"@code{eudc-server-hotlist} which is stored in and retrieved from the file "
+"designated by @code{eudc-options-file}.  EUDC also provides a facility to "
+"edit the hotlist interactively (@pxref{The Hotlist Edit Buffer})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:776
+msgid ""
+"The hotlist is also used to make queries on multiple servers successively "
+"(@pxref{Multi-server Queries}).  The order in which the servers are tried is "
+"the order they appear in the hotlist, therefore it is important to sort the "
+"hotlist appropriately."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:777
+#, no-wrap
+msgid "Command eudc-bookmark-server server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:779
+msgid "Add @var{server} to the hotlist of servers"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:781
+#, no-wrap
+msgid "Command eudc-bookmark-current-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:783
+msgid "Add the current server to the hotlist of servers"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:785
+#, no-wrap
+msgid "eudc-options-file"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:791
+msgid ""
+"The name of a file where EUDC stores its internal variables (the hotlist and "
+"the current server).  EUDC will try to load that file upon initialization "
+"so, if you choose a file name different from the defaults "
+"@file{~/.emacs.d/eudc-options}, be sure to set this variable to the "
+"appropriate value @emph{before} EUDC is itself loaded."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:795 ../../../../../doc/misc/eudc.texi:797 ../../../../../doc/misc/eudc.texi:798
+#, no-wrap
+msgid "The Hotlist Edit Buffer"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:795
+msgid "An interactive hotlist editing facility"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:804
+msgid ""
+"The hotlist edit buffer offers a means to manage a list of frequently used "
+"servers.  Commands are available in the context pop-up menu generally bound "
+"to the right mouse button.  Those commands also have equivalent key "
+"bindings."
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:805
+#, no-wrap
+msgid "Command eudc-hotlist-add-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:808
+msgid "Bound to @kbd{a}.  Add a new server to the hotlist on the line after point"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:810
+#, no-wrap
+msgid "Command eudc-hotlist-delete-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:813
+msgid "Bound to @kbd{d}.  Delete the server on the line point is on"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:815
+#, no-wrap
+msgid "Command eudc-hotlist-select-server"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:819
+msgid ""
+"Bound to @kbd{s}.  Select the server the point is on as the current "
+"directory server for the next queries"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:821
+#, no-wrap
+msgid "Command eudc-hotlist-transpose-servers"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:824
+msgid ""
+"Bound to @kbd{t}.  Bubble up the server the point is on to the top of the "
+"list"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:826
+#, no-wrap
+msgid "Command eudc-hotlist-quit-edit"
+msgstr ""
+
+#. type: deffn
+#: ../../../../../doc/misc/eudc.texi:830
+msgid ""
+"Bound to @kbd{q}.  Save the changes and quit the hotlist edit buffer.  Use "
+"@kbd{x} or @kbd{M-x kill-buffer} to exit without saving."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:839
+msgid ""
+"When using inline query expansion (@pxref{Inline Query Expansion}), EUDC can "
+"try to query successively a sequence of directory servers until one of them "
+"successfully finds a match for the query."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:840
+#, no-wrap
+msgid "eudc-inline-expansion-servers"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:843
+msgid ""
+"This variable controls which servers are tried and in which order when "
+"trying to perform an inline query.  Possible values are:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:844
+#, no-wrap
+msgid "current-server"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:846
+msgid "Only the current directory server is tried"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:846
+#, no-wrap
+msgid "hotlist"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:849
+msgid ""
+"The servers in the hotlist are tried in order until one finds a match for "
+"the query or @code{eudc-max-servers-to-query} is reached"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:849
+#, no-wrap
+msgid "server-then-hotlist"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:853
+msgid ""
+"The current server then the servers in the hotlist are tried in the order "
+"they appear in the hotlist until one of them finds a match or "
+"@code{eudc-max-servers-to-query} is reached.  This is the default."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:856
+#, no-wrap
+msgid "eudc-max-servers-to-query"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:860
+msgid ""
+"This variable indicates the maximum number of servers to query when "
+"performing a multi-server query.  The default, @code{nil}, indicates that "
+"all available servers should be tried."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:867
+#, no-wrap
+msgid "eudc-insert-record-at-point-into-bbdb"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:868
+#, no-wrap
+msgid "eudc-try-bbdb-insert"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:879
+msgid ""
+"With EUDC, you can automatically create BBDB records "
+"(@pxref{Top,,BBDB,bbdb,BBDB Manual}) from records you get from a directory "
+"server.  You do this by moving point to the appropriate record in a query "
+"result display buffer and invoking the command @kbd{M-x "
+"eudc-insert-record-at-point-into-bbdb} with the keyboard binding "
+"@kbd{b}@footnote{This key binding does not actually call "
+"@code{eudc-insert-record-at-point-into-bbdb} but uses "
+"@code{eudc-try-bbdb-insert} instead.}, or with the menu.  EUDC cannot update "
+"an existing BBDB record and will signal an error if you try to insert a "
+"record matching an existing one."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/eudc.texi:880
+#, no-wrap
+msgid "eudc-batch-export-records-to-bbdb"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:884
+msgid ""
+"It is also possible to export to BBDB the whole batch of records contained "
+"in the directory query result with the command @kbd{M-x "
+"eudc-batch-export-records-to-bbdb}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:891
+msgid ""
+"Because directory systems may not enforce a strict record format, local "
+"server installations may use different attribute names and have different "
+"ways to organize the information.  Furthermore BBDB has its own record "
+"structure.  For these reasons converting a record from its external "
+"directory format to the BBDB format is a highly customizable process."
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:892
+#, no-wrap
+msgid "eudc-bbdb-conversion-alist"
+msgstr ""
+
+#. type: defvar
+#: ../../../../../doc/misc/eudc.texi:906
+msgid ""
+"The value of this variable should be a symbol naming an alist defining a "
+"mapping between BBDB field names onto directory attribute names records.  "
+"This is a protocol-local variable and is initialized upon protocol switch "
+"(@pxref{Server/Protocol Locals}).  The alist is made of cells of the form "
+"@code{(@var{bbdb-field} . @var{spec-or-list})}.  @var{bbdb-field} is the "
+"name of a field that must be defined in your BBDB environment (standard "
+"field names are @code{name}, @code{company}, @code{net}, @code{phone}, "
+"@code{address} and @code{notes}).  @var{spec-or-list} is either a single "
+"mapping specification or a list of mapping specifications.  Lists of mapping "
+"specifications are valid for the @code{phone} and @code{address} BBDB fields "
+"only. @var{spec}s are actually s-expressions which are evaluated as follows:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:908
+#, no-wrap
+msgid "a string"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:910
+msgid "evaluates to itself"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:910
+#, no-wrap
+msgid "a symbol"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:914
+msgid ""
+"evaluates to the symbol value.  Symbols corresponding to directory attribute "
+"names present in the record evaluate to the value of the field in the record"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/eudc.texi:914
+#, no-wrap
+msgid "a form"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/eudc.texi:921
+msgid ""
+"is evaluated as a function.  The argument list may contain attribute names "
+"which evaluate to the corresponding values in the record.  The form "
+"evaluation should return something appropriate for the particular "
+"@var{bbdb-field} (see @code{bbdb-create-internal}).  "
+"@code{eudc-bbdbify-phone} and @code{eudc-bbdbify-address} are provided as "
+"convenience functions to parse phones and addresses."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:924
+#, no-wrap
+msgid "eudc-bbdbify-phone phone location"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:930
+msgid ""
+"This is a convenience function provided for use in "
+"@code{eudc-bbdb-conversion-alist}.  It parses @var{phone} into a vector "
+"compatible with @code{bbdb-create-internal}.  @var{phone} is either a string "
+"supposedly containing a phone number or a list of such strings which are "
+"concatenated. @var{location} is used as the phone location for BBDB."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:932
+#, no-wrap
+msgid "eudc-bbdbify-address addr location"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:939
+msgid ""
+"This is a convenience function provided for use in "
+"@code{eudc-bbdb-conversion-alist}.  It parses @var{addr} into a vector "
+"compatible with @code{bbdb-create-internal}.  @var{addr} should be an "
+"address string of no more than four lines or a list of lines.  The last line "
+"is searched for the zip code, city and state name.  @var{location} is used "
+"as the phone location for BBDB."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:944
+msgid ""
+"Note that only a subset of the attributes you selected with "
+"@code{eudc-default-return-attributes} and that are actually displayed may "
+"actually be inserted as part of the newly created BBDB record."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:953
+msgid ""
+"EUDC can be customized independently for each server or directory protocol.  "
+"All variables can be given local bindings that are activated when a "
+"particular server and/or protocol becomes active.  This is much like "
+"buffer-local bindings but on a per server or per protocol basis."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/eudc.texi:956 ../../../../../doc/misc/eudc.texi:958 ../../../../../doc/misc/eudc.texi:959
+#, no-wrap
+msgid "Manipulating local bindings"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/eudc.texi:956
+msgid "Functions to set and query local bindings"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:963
+msgid ""
+"EUDC offers functions that let you set and query variables on a per server "
+"or per protocol basis."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:966
+msgid ""
+"The following predicates allow you to test the existence of server/protocol "
+"local bindings for a particular variable."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:967
+#, no-wrap
+msgid "eudc-server-local-variable-p var"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:969
+msgid "Return non-@code{nil} if @var{var} has server-local bindings"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:971
+#, no-wrap
+msgid "eudc-protocol-local-variable-p var"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:973
+msgid "Return non-@code{nil} if @var{var} has protocol-local bindings"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:977
+msgid ""
+"The following functions allow you to set the value of a variable with "
+"various degrees of locality."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:978
+#, no-wrap
+msgid "eudc-default-set var val"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:982
+msgid ""
+"Set the EUDC default value of @var{var} to @var{val}.  The current binding "
+"of @var{var} (if local to the current server or protocol) is not changed."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:984
+#, no-wrap
+msgid "eudc-protocol-set var val &optional protocol"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:989
+msgid ""
+"Set the binding of @var{var} local to @var{protocol} to @var{val}.  If "
+"omitted, @var{protocol} defaults to the current value of "
+"@code{eudc-protocol}.  The current binding of @var{var} is changed only if "
+"@var{protocol} is omitted."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:991
+#, no-wrap
+msgid "eudc-server-set var val &optional server"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:996
+msgid ""
+"Set the binding of @var{var} local to @var{server} to @var{val}.  If "
+"omitted, @var{server} defaults to the current value of @code{eudc-server}.  "
+"The current binding of @var{var} is changed only if @var{server} is omitted."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:998
+#, no-wrap
+msgid "eudc-set var val"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1001
+msgid ""
+"Set the most local (server, protocol or default) binding of @var{var} to "
+"@var{val}.  The current binding of @var{var} is also set to @var{val}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:1005
+msgid ""
+"The following variables allow you to query the various bindings of a "
+"variable (local or non-local)."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1006
+#, no-wrap
+msgid "eudc-variable-default-value var"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1010
+msgid ""
+"Return the default binding of @var{var} (outside of a particular server or "
+"protocol local binding).  Return @code{unbound} if @var{var} has no EUDC "
+"default value."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1012
+#, no-wrap
+msgid "eudc-variable-protocol-value var &optional protocol"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1016
+msgid ""
+"Return the value of @var{var} local to @var{protocol}.  Return "
+"@code{unbound} if @var{var} has no value local to @var{protocol}.  "
+"@var{protocol} defaults to @code{eudc-protocol}."
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1018
+#, no-wrap
+msgid "eudc-variable-server-value var [server]"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1022
+msgid ""
+"Return the value of @var{var} local to @var{server}.  Return @code{unbound} "
+"if @var{var} has no value local to @var{server}.  @var{server} defaults to "
+"@code{eudc-server}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:1028
+msgid ""
+"Changing a protocol-local or server-local value of a variable has no effect "
+"on its current value.  The following command is used to synchronize the "
+"current values of variables with their local values given the current "
+"@code{eudc-server} and @code{eudc-protocol}:"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1029
+#, no-wrap
+msgid "eudc-update-local-variables"
+msgstr ""
+
+#. type: defun
+#: ../../../../../doc/misc/eudc.texi:1031
+msgid "Update all EUDC variables according to their local settings."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:1040
+msgid ""
+"EUDC was written by Oscar Figueiredo based on @file{ph.el} by the same "
+"author."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/eudc.texi:1043
+msgid ""
+"Thanks to Soren Dayton for his suggestions, his enthusiasm and his help in "
+"testing and proofreading the code and docs of @file{ph.el}."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/eudc.texi:1046
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
