@@ -1,0 +1,2273 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-17 05:44+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: top
+#: ../../../../../doc/misc/rcirc.texi:4 ../../../../../doc/misc/rcirc.texi:30
+#: ../../../../../doc/misc/rcirc.texi:40
+#, no-wrap
+msgid "rcirc Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/rcirc.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/rcirc.texi:10
+msgid "Copyright @copyright{} 2006--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/rcirc.texi:18
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, with the Front-Cover Texts being ``A GNU Manual'', and with the Back-Cover Texts as in (a) below.  A copy of the license is included in the section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/rcirc.texi:21
+msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/rcirc.texi:24
+#, no-wrap
+msgid "Emacs network features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:27
+msgid "Rcirc: (rcirc)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:27
+msgid "Internet Relay Chat (IRC) client."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/rcirc.texi:39
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/rcirc.texi:43
+msgid "@code{rcirc} is an Emacs IRC client."
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/rcirc.texi:48
+msgid "IRC (Internet Relay Chat) is a multi-user chat protocol.  Users communicate with each other in real-time.  Communication occurs both in topic channels which are collections of many users, or privately, with just one other user."
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Basics::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Reference::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Fighting Information Overload::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Hacking and Tweaking::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "GNU Free Documentation License::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Key Index::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:62
+msgid "Variable Index::"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/rcirc.texi:62 ../../../../../doc/misc/rcirc.texi:920
+#: ../../../../../doc/misc/rcirc.texi:921
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:65
+msgid "--- The Detailed Node Listing ---"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/rcirc.texi:67 ../../../../../doc/misc/rcirc.texi:95
+#: ../../../../../doc/misc/rcirc.texi:96
+#, no-wrap
+msgid "Basics"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:70 ../../../../../doc/misc/rcirc.texi:104
+msgid "Internet Relay Chat::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:70 ../../../../../doc/misc/rcirc.texi:104
+#: ../../../../../doc/misc/rcirc.texi:159
+#: ../../../../../doc/misc/rcirc.texi:160
+#, no-wrap
+msgid "Getting started with rcirc"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/rcirc.texi:72 ../../../../../doc/misc/rcirc.texi:248
+#: ../../../../../doc/misc/rcirc.texi:249
+#, no-wrap
+msgid "Reference"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:76 ../../../../../doc/misc/rcirc.texi:260
+msgid "rcirc commands::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:76 ../../../../../doc/misc/rcirc.texi:260
+msgid "Useful IRC commands::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:76 ../../../../../doc/misc/rcirc.texi:260
+#: ../../../../../doc/misc/rcirc.texi:451
+#: ../../../../../doc/misc/rcirc.texi:452
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/rcirc.texi:78 ../../../../../doc/misc/rcirc.texi:615
+#: ../../../../../doc/misc/rcirc.texi:616
+#, no-wrap
+msgid "Fighting Information Overload"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:83 ../../../../../doc/misc/rcirc.texi:629
+msgid "Channels::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:83 ../../../../../doc/misc/rcirc.texi:629
+msgid "People::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:83 ../../../../../doc/misc/rcirc.texi:629
+msgid "Keywords::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:83 ../../../../../doc/misc/rcirc.texi:629
+#: ../../../../../doc/misc/rcirc.texi:763
+#: ../../../../../doc/misc/rcirc.texi:764
+#, no-wrap
+msgid "Notices"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/rcirc.texi:85 ../../../../../doc/misc/rcirc.texi:795
+#: ../../../../../doc/misc/rcirc.texi:796
+#, no-wrap
+msgid "Hacking and Tweaking"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:91 ../../../../../doc/misc/rcirc.texi:807
+msgid "Skipping /away messages using handlers::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:91 ../../../../../doc/misc/rcirc.texi:807
+msgid "Using fly spell mode::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:91 ../../../../../doc/misc/rcirc.texi:807
+msgid "Scrolling conservatively::"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/rcirc.texi:91 ../../../../../doc/misc/rcirc.texi:807
+msgid "Changing the time stamp format::"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:91 ../../../../../doc/misc/rcirc.texi:807
+#: ../../../../../doc/misc/rcirc.texi:884
+#: ../../../../../doc/misc/rcirc.texi:885
+#, no-wrap
+msgid "Defining a new command"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:100
+msgid "This chapter contains a brief introduction to IRC (Internet Relay Chat), and a quick tutorial on @code{rcirc}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:106
+#: ../../../../../doc/misc/rcirc.texi:107
+#, no-wrap
+msgid "Internet Relay Chat"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:108
+#, no-wrap
+msgid "internet relay chat"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:109
+#, no-wrap
+msgid "irc"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:111
+#, no-wrap
+msgid "channel"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:116
+msgid "@dfn{Internet Relay Chat} (IRC) is a form of instant communication over the Internet.  It is mainly designed for group (many-to-many) communication in discussion forums called channels, but also allows one-to-one communication."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:117
+#, no-wrap
+msgid "instant messaging, comparison"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:118
+#, no-wrap
+msgid "server"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:119
+#, no-wrap
+msgid "network"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:123
+msgid "Contrary to most Instant Messenger (IM) systems, users usually don't connect to a central server.  Instead, users connect to a random server in a network, and servers relay messages from one to the next."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:125
+msgid "Here's a typical example:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:126
+#, no-wrap
+msgid "redirection to random servers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:131
+msgid "When you connect to the Freenode network (@code{http://freenode.net/}), you point your IRC client at the server @code{irc.freenode.net}.  That server will redirect your client to a random server on the network, such as @code{zelazny.freenode.net}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:132
+#, no-wrap
+msgid "channel name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:133
+#, no-wrap
+msgid "# starts a channel name"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:139
+msgid "Once you're connected, you can send messages to all other users connected to the same network, and you can join all channels on the same network.  You might join the @code{#emacs} and the @code{#rcirc} channels, for example.  (Typically, channel names begin with a hash character.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:142
+msgid "Once you have joined a channel, anything you type will be broadcast to all the other users on the same channel."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:143
+#, no-wrap
+msgid "addressing other people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:144
+#, no-wrap
+msgid "other people, addressing them"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:145
+#, no-wrap
+msgid "talk to other people"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:149
+msgid "If you want to address someone specifically, for example as an answer to a question, it is customary to prefix the message with the nick followed by a colon, like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:152
+#, no-wrap
+msgid "deego: fsbot rules!\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:154
+#, no-wrap
+msgid "nick completion"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:155
+#, no-wrap
+msgid "completion of nicks"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:156
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:158
+msgid "Since this is so common, you can use @key{TAB} to do nick completion."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:161
+#, no-wrap
+msgid "getting started"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:162
+#, no-wrap
+msgid "connecting to a server"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:164
+#, no-wrap
+msgid "irc command"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:167
+msgid "Use the command @kbd{M-x irc} to connect using the defaults.  @xref{Configuration}, if you want to change the defaults."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:171
+msgid "Use @kbd{C-u M-x irc} if you don't want to use the defaults, e.g., if you want to connect to a different network, or connect to the same network using a different nick.  This will prompt you for four things:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:173
+#, no-wrap
+msgid "server, connecting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:174
+#, no-wrap
+msgid "Freenode network"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:175
+#, no-wrap
+msgid "IRC Server"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:183
+msgid "What server do you want to connect to? All the servers in a particular network are equivalent.  Some networks use a round-robin system where a single server redirects new connections to a random server in the network.  @code{irc.freenode.net} is such a server for the Freenode network.  Freenode provides the network ``for the Free and Open Source Software communities, for not-for-profit organizations and for related communities and organizations.''"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:184
+#, no-wrap
+msgid "port, connecting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:185
+#, no-wrap
+msgid "6667, default IRC port"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:186
+#, no-wrap
+msgid "IRC Port"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:190
+msgid "All network connections require a port.  Just as web servers and clients use port 80 per default, IRC uses port 6667 per default.  You rarely have to use a different port."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:191
+#, no-wrap
+msgid "nick, connecting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:192
+#, no-wrap
+msgid "changing nick"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:193
+#, no-wrap
+msgid "name changes"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:194
+#, no-wrap
+msgid "IRC Nick"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:195
+#, no-wrap
+msgid "user-login-name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:200
+msgid "Every users needs a handle on-line.  You will automatically be assigned a slightly different nick if your chosen nick is already in use.  If your @code{user-login-name} is @code{alex}, and this nick is already in use, you might for example get assigned the nick @code{alex`}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:201
+#, no-wrap
+msgid "channels, connecting"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:202
+#, no-wrap
+msgid "initial channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:203
+#, no-wrap
+msgid "startup channels"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:204
+#, no-wrap
+msgid "IRC Channels"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:210
+msgid "A space separated list of channels you want to join when connecting.  You don't need to join any channels, if you just want to have one-to-one conversations with friends on the same network.  If you're new to the Freenode network, join @code{#emacs}, the channel about all things Emacs, or join @code{#rcirc}, the channel about @code{rcirc}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:212
+#, no-wrap
+msgid "server buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:216
+msgid "When you have answered these questions, @code{rcirc} will create a server buffer, which will be named something like @file{*irc.freenode.net*}, and a channel buffer for each of the channels you wanted to join."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:217
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:218
+#, no-wrap
+msgid "talking"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:219
+#, no-wrap
+msgid "communicating"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:222
+msgid "To talk in a channel, just type what you want to say in a channel buffer, and press @key{RET}."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:223
+#, no-wrap
+msgid "C-c C-c"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:224
+#, no-wrap
+msgid "multiline messages"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:225
+#, no-wrap
+msgid "messages, multiple lines"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:226
+#, no-wrap
+msgid "pasting multiple lines"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:227
+#, no-wrap
+msgid "edit message before sending"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:233
+msgid "If you want to paste multiple lines, such as source code, you can use @kbd{C-c C-c} to edit your message in a separate buffer.  Use @kbd{C-c C-c} to finish editing.  You still need to press @key{RET} to send it, though.  Generally, IRC users don't like people pasting more than around four lines of code, so use with care."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:241
+msgid "Once you are connected to multiple channels, or once you've turned you attention to other buffers in Emacs, you probably want to be notified of any activity in channels not currently visible.  All you need to do is switch channel tracking on using @kbd{M-x rcirc-track-minor-mode}.  To make this permanent, add the following to your init file:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:244
+#: ../../../../../doc/misc/rcirc.texi:652
+#, no-wrap
+msgid "(rcirc-track-minor-mode 1)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:247
+msgid "Use @kbd{C-c C-@key{SPC}} to switch to these buffers."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:250
+#, no-wrap
+msgid "reference"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:255
+msgid "This is the reference section of the manual.  It is not complete.  For complete listings of @code{rcirc} features, use Emacs built-in documentation."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:262
+#: ../../../../../doc/misc/rcirc.texi:263
+#: ../../../../../doc/misc/rcirc.texi:264
+#, no-wrap
+msgid "rcirc commands"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:265
+#: ../../../../../doc/misc/rcirc.texi:277
+#: ../../../../../doc/misc/rcirc.texi:426
+#, no-wrap
+msgid "commands"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:267
+#, no-wrap
+msgid "C-h m"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:271
+msgid "This is a list of commands that you may use in @code{rcirc}.  It is not complete.  For a complete listing, press @kbd{C-h m} in an @code{rcirc} buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:274
+msgid "In addition to using regular Emacs key bindings, you can call them by typing them into an @code{rcirc} buffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:275
+#, no-wrap
+msgid "call commands"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:276
+#, no-wrap
+msgid "typing commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:280
+msgid "For instance, instead of using the command @kbd{C-c C-j} to join a new channel, you may type this in an @code{rcirc} buffer, and press @key{RET}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:283
+#, no-wrap
+msgid "/join #emacs\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:285
+#, no-wrap
+msgid "/ starts a command"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:286
+#, no-wrap
+msgid "messages starting with a slash disappear"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:287
+#, no-wrap
+msgid "disappearing messages if starting with a slash"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:288
+#, no-wrap
+msgid "slash hides message"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:292
+msgid "This is why you cannot start a message with a slash.  You will have to precede the command with a space, or rewrite your message in order to send it to a channel."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:293
+#, no-wrap
+msgid "multiple words as parameters"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:294
+#, no-wrap
+msgid "string delimiters"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:295
+#, no-wrap
+msgid "quotes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:296
+#, no-wrap
+msgid "double-quotes"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:300
+msgid "Many commands take parameters.  IRC commands usually ignore string delimiters.  Neither apostrophe nor double-quote have special meanings in IRC."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:303
+#, no-wrap
+msgid "/nick \"alex schroeder\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:308
+msgid "This will try to change your nick to @code{\"alex}.  Usually this will fail because the double quote character is not a valid character for nicks."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:309
+#, no-wrap
+msgid "case insensitive commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:311
+msgid "These commands are case insensitive."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:312
+#, no-wrap
+msgid "new command"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:313
+#, no-wrap
+msgid "unknown command"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:314
+#, no-wrap
+msgid "command unknown"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:318
+msgid "If a command isn't known by @code{rcirc}, it will simply be sent along to the server.  There is a list of some useful commands like that in the next section."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:320
+#: ../../../../../doc/misc/rcirc.texi:321
+#, no-wrap
+msgid "C-c C-j"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:322
+#, no-wrap
+msgid "/join"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:323
+#, no-wrap
+msgid "join channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:324
+#, no-wrap
+msgid "other channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:325
+#, no-wrap
+msgid "rooms, joining"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:326
+#, no-wrap
+msgid "discussion, joining"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:331
+msgid "This joins a channel such as @code{#rcirc} or @code{#emacs}.  On most networks, anybody can create new channels.  If you want to talk with some friends, for example, all you have to do is agree on a valid channel name and join that channel.  (Also @code{/join #emacs}.)"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:332
+#: ../../../../../doc/misc/rcirc.texi:333
+#, no-wrap
+msgid "C-c C-p"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:334
+#, no-wrap
+msgid "/part"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:335
+#, no-wrap
+msgid "part a channel"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:336
+#, no-wrap
+msgid "leave a channel"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:337
+#, no-wrap
+msgid "disconnect from a channel"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:338
+#, no-wrap
+msgid "stop talking on a channel"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:339
+#, no-wrap
+msgid "kill channel buffer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:344
+msgid "This leaves the current channel.  You can optionally provide a different channel name and reason for parting.  When you kill a channel buffer, you automatically part the corresponding channel.  (Also @code{/part #emacs you are too weird!}.)"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:345
+#: ../../../../../doc/misc/rcirc.texi:346
+#, no-wrap
+msgid "C-c C-r"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:347
+#, no-wrap
+msgid "/nick"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:348
+#, no-wrap
+msgid "change name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:349
+#, no-wrap
+msgid "nick changing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:350
+#, no-wrap
+msgid "rename yourself"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:351
+#, no-wrap
+msgid "other name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:356
+msgid "This changes your nick to some other name.  Your nick must be unique across the network.  Most networks don't allow too many nick changes in quick succession, and have restrictions on the valid characters in nick names.  (Also @code{/nick alex-test})"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:357
+#: ../../../../../doc/misc/rcirc.texi:358
+#, no-wrap
+msgid "C-c C-w"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:359
+#, no-wrap
+msgid "/whois"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:360
+#, no-wrap
+msgid "who are these people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:361
+#, no-wrap
+msgid "identifying people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:362
+#, no-wrap
+msgid "channels other people are on"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:363
+#, no-wrap
+msgid "what channels people are on"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:366
+msgid "Gives you some basic information about a nick.  This often includes what other channels people are on.  (Also @code{/whois fsbot}.)"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:367
+#: ../../../../../doc/misc/rcirc.texi:368
+#, no-wrap
+msgid "C-c C-q"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:369
+#, no-wrap
+msgid "/query"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:370
+#, no-wrap
+msgid "starting a private conversation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:371
+#, no-wrap
+msgid "one-to-one conversation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:372
+#, no-wrap
+msgid "talk privately"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:373
+#, no-wrap
+msgid "private conversation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:374
+#, no-wrap
+msgid "contact one person only"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:375
+#, no-wrap
+msgid "query a person"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:379
+msgid "Starts a one-to-one conversation with another person on the same network.  A new buffer will be created for this conversation.  It works like a channel with only two members.  (Also @code{/query fsbot}.)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:380
+#, no-wrap
+msgid "C-c @key{RET}"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:381
+#, no-wrap
+msgid "C-c RET"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:382
+#, no-wrap
+msgid "/msg"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:383
+#, no-wrap
+msgid "single message"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:384
+#, no-wrap
+msgid "message sending"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:388
+msgid "This sends a single message to a nick.  Like with @kbd{C-c C-q}, a new buffer is created, where the response from the other party will show up.  (Also @code{/msg nickserv identify secret}.)"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:389
+#: ../../../../../doc/misc/rcirc.texi:390
+#, no-wrap
+msgid "C-c C-x"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:391
+#, no-wrap
+msgid "/quit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:392
+#, no-wrap
+msgid "quit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:393
+#, no-wrap
+msgid "disconnect"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:394
+#, no-wrap
+msgid "kill connection"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:395
+#, no-wrap
+msgid "connection end"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:396
+#, no-wrap
+msgid "part all channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:397
+#, no-wrap
+msgid "end connection"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:398
+#, no-wrap
+msgid "server buffer killing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:399
+#, no-wrap
+msgid "reason for quitting"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:404
+msgid "This disconnects from the server and parts all channels.  You can optionally provide a reason for quitting.  When you kill the server buffer, you automatically quit the server and part all channels.  (Also @code{/quit ZZZzzz...}.)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:405
+#: ../../../../../doc/misc/rcirc.texi:406
+#, no-wrap
+msgid "/reconnect"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:407
+#, no-wrap
+msgid "reconnect"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:408
+#, no-wrap
+msgid "lost connection"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:409
+#, no-wrap
+msgid "disconnecting servers, reconnecting"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:411
+msgid "This reconnects after you have lost the connection."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:419
+msgid "If you're chatting from a laptop, then you might be familiar with this problem: When your laptop falls asleep and wakes up later, your IRC client doesn't realize that it has been disconnected.  It takes several minutes until the client decides that the connection has in fact been lost.  The simple solution is to use @kbd{M-x rcirc}.  The problem is that this opens an @emph{additional} connection, so you'll have two copies of every channel buffer, one dead and one live."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:421
+msgid "The real answer, therefore, is the @code{/reconnect} command."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:423
+#: ../../../../../doc/misc/rcirc.texi:424
+#, no-wrap
+msgid "Useful IRC commands"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:425
+#, no-wrap
+msgid "irc commands"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:431
+msgid "As mentioned, if a command isn't known by @code{rcirc}, it will simply be sent along to the server.  Some such commands are available on nearly all IRC servers, such as:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:433
+#: ../../../../../doc/misc/rcirc.texi:434
+#, no-wrap
+msgid "/away"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:435
+#, no-wrap
+msgid "away status"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:436
+#, no-wrap
+msgid "pause status"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:437
+#, no-wrap
+msgid "unavailable status"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:438
+#, no-wrap
+msgid "set away status"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:442
+msgid "This sets your status as ``being away'' if you provide a reason, or sets your status as ``being back'' if you do not.  People can use the @kbd{C-c C-w} command to check your status.  Example: @code{/away food}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:444
+#, no-wrap
+msgid "irc resources"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:445
+#, no-wrap
+msgid "help about irc"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:450
+msgid "Typical IRC servers implement many more commands.  You can read more about the fantastic world of IRC online at @uref{http://www.irchelp.org/, the Internet Relay Chat (IRC) help archive}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:453
+#, no-wrap
+msgid "configuring rcirc"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:457
+msgid "These are some variables you can change to configure @code{rcirc} to your liking."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:459
+#: ../../../../../doc/misc/rcirc.texi:460
+#, no-wrap
+msgid "rcirc-server-alist"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:461
+#, no-wrap
+msgid "channels, configuration"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:462
+#, no-wrap
+msgid "initial channels, configuration"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:463
+#, no-wrap
+msgid "startup channels, configuration"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:464
+#, no-wrap
+msgid "servers, configuration"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:465
+#, no-wrap
+msgid "initial servers, configuration"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:466
+#, no-wrap
+msgid "startup servers, configuration"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:471
+msgid "This variable contains an alist of servers to connect to by default and the keywords parameters to use.  The keyword parameters are optional.  If you don't provide any, the defaults as documented below will be used."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:475
+msgid "The most important parameter is the @code{:channels} parameter.  It controls which channels you will join by default as soon as you are connected to the server."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:477
+msgid "Here's an example of how to set it:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:482
+#, no-wrap
+msgid ""
+"(add-to-list 'rcirc-server-alist\n"
+"             '(\"otherworlders.org\"\n"
+"               :channels (\"#FUDGE\" \"#game-design\")))\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:486
+msgid "By default you will be connected to the @code{rcirc} support channel: @code{#rcirc} on @code{irc.freenode.net}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:488
+#, no-wrap
+msgid ":nick"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:490
+msgid "This overrides @code{rcirc-default-nick}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:491
+#, no-wrap
+msgid ":port"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:493
+msgid "This overrides @code{rcirc-default-port}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:494
+#, no-wrap
+msgid ":user-name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:496
+msgid "This overrides @code{rcirc-default-user-name}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:497
+#, no-wrap
+msgid ":full-name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:499
+msgid "This overrides @code{rcirc-default-full-name}."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:500
+#, no-wrap
+msgid ":channels"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:503
+msgid "This describes which channels to join when connecting to the server.  If absent, no channels will be connected to automatically."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:506
+#: ../../../../../doc/misc/rcirc.texi:507
+#, no-wrap
+msgid "rcirc-default-nick"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:510
+msgid "This variable is used for the default nick.  It defaults to the login name returned by @code{user-login-name}."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:513
+#, no-wrap
+msgid "(setq rcirc-default-nick \"kensanata\")\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:515
+#: ../../../../../doc/misc/rcirc.texi:516
+#, no-wrap
+msgid "rcirc-default-port"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:517
+#, no-wrap
+msgid "port"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:520
+msgid "This variable contains the default port to connect to.  It is 6667 by default and rarely needs changing."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:521
+#: ../../../../../doc/misc/rcirc.texi:522
+#, no-wrap
+msgid "rcirc-default-user-name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:523
+#, no-wrap
+msgid "user name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:527
+msgid "This variable contains the default user name to report to the server.  It defaults to the login name returned by @code{user-login-name}, just like @code{rcirc-default-nick}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:528
+#: ../../../../../doc/misc/rcirc.texi:529
+#, no-wrap
+msgid "rcirc-default-full-name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:530
+#, no-wrap
+msgid "full name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:531
+#, no-wrap
+msgid "real name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:532
+#, no-wrap
+msgid "surname"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:536
+msgid "This variable is used to set your ``real name'' on IRC@.  It defaults to the name returned by @code{user-full-name}.  If you want to hide your full name, you might want to set it to some pseudonym."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:539
+#, no-wrap
+msgid "(setq rcirc-default-full-name \"Curious Minds Want To Know\")\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:541
+#: ../../../../../doc/misc/rcirc.texi:542
+#, no-wrap
+msgid "rcirc-authinfo"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:543
+#, no-wrap
+msgid "authentication"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:544
+#, no-wrap
+msgid "identification"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:545
+#: ../../../../../doc/misc/rcirc.texi:565
+#, no-wrap
+msgid "nickserv"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:546
+#, no-wrap
+msgid "login"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:552
+msgid "This variable is an alist used to automatically identify yourself on networks.  Each sublist starts with a regular expression that is compared to the server address you're connecting to.  The second element in the list is a symbol representing the method to use, followed by the arguments this method requires."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:554
+msgid "Here is an example to illustrate how you would set it:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:560
+#, no-wrap
+msgid ""
+"(setq rcirc-authinfo\n"
+"      '((\"freenode\" nickserv \"bob\" \"p455w0rd\")\n"
+"        (\"freenode\" chanserv \"bob\" \"#bobland\" \"passwd99\")\n"
+"        (\"bitlbee\" bitlbee \"robert\" \"sekrit\")))\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:563
+msgid "And here are the valid method symbols and the arguments they require:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:566
+#, no-wrap
+msgid "nickserv authentication"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:571
+msgid "Use this symbol if you need to identify yourself as follows when connecting to a network: @code{/msg nickserv identify secret}.  The necessary arguments are the nickname you want to use this for, and the password to use."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:575
+msgid "Before you can use this method, you will have to register your nick and pick a password for it.  Contact @code{nickserv} and check out the details.  (Using @code{/msg nickserv help}, for example.)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:576
+#, no-wrap
+msgid "chanserv"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:577
+#, no-wrap
+msgid "chanserv authentication"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:582
+msgid "Use this symbol if you need to identify yourself as follows if you want to join a particular channel: @code{/msg chanserv identify #underground secret}.  The necessary arguments are the nickname and channel you want to use this for, and the password to use."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:586
+msgid "Before you can use this method, a channel contact must tell you about the password to use.  Contact @code{chanserv} and check out the details.  (Using @code{/msg chanserv help}, for example.)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/rcirc.texi:587
+#, no-wrap
+msgid "bitlbee"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:588
+#, no-wrap
+msgid "bitlbee authentication"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:592
+msgid "Use this symbol if you need to identify yourself in the Bitlbee channel as follows: @code{identify secret}.  The necessary arguments are the nickname you want to use this for, and the password to use."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:593
+#, no-wrap
+msgid "gateway to other IM services"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:594
+#, no-wrap
+msgid "instant messaging, other services"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:595
+#, no-wrap
+msgid "Jabber"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:596
+#, no-wrap
+msgid "AIM"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:597
+#, no-wrap
+msgid "ICQ"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:598
+#, no-wrap
+msgid "MSN"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:599
+#, no-wrap
+msgid "Yahoo!"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:605
+msgid "Bitlbee acts like an IRC server, but in fact it is a gateway to a lot of other instant messaging services.  You can either install Bitlbee locally or use a public Bitlbee server.  There, you need to create an account with a password.  This is the nick and password you need to provide for the bitlbee authentication method."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:610
+msgid "Later, you will tell Bitlbee about your accounts and passwords on all the other instant messaging services, and Bitlbee will log you in.  All @code{rcirc} needs to know, is the login to your Bitlbee account.  Don't confuse the Bitlbee account with all the other accounts."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:617
+#, no-wrap
+msgid "information overload"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:623
+msgid "This is the section of the manual that caters to the busy person online.  There are support channels with several hundred people in them.  Trying to follow a conversation in these channels can be a daunting task.  This chapters tells you how @code{rcirc} can help."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:631
+#: ../../../../../doc/misc/rcirc.texi:632
+#, no-wrap
+msgid "Channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:633
+#, no-wrap
+msgid "channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:634
+#, no-wrap
+msgid "modeline"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:637
+#, no-wrap
+msgid "C-c C-SPC"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:638
+#, no-wrap
+msgid "rcirc-track-minor-mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:639
+#, no-wrap
+msgid "switching channels"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:640
+#, no-wrap
+msgid "tracking activity"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:641
+#, no-wrap
+msgid "active channel"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:642
+#, no-wrap
+msgid "abbreviated channel names"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:643
+#, no-wrap
+msgid "modeline tracks activity"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:649
+msgid "Most people want a notification when something is said on a channel they have joined, particularly if they have been addressed directly.  There is a global minor mode that will do this kind of tracking for you.  All you need to do is switch it on using @kbd{M-x rcirc-track-minor-mode}.  To make this permanent, add the following to your init file:"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:658
+msgid "When other people say things in buffers that are currently buried (no window is showing them), the mode line will now show you the abbreviated channel or nick name.  Use @kbd{C-c C-@key{SPC}} to switch to these buffers."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:659
+#: ../../../../../doc/misc/rcirc.texi:835
+#: ../../../../../doc/misc/rcirc.texi:853
+#, no-wrap
+msgid "rcirc-mode-hook"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:662
+msgid "If you prefer not to load @code{rcirc} immediately, you can delay the activation of this mode:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:667
+#, no-wrap
+msgid ""
+"(add-hook 'rcirc-mode-hook\n"
+"          (lambda ()\n"
+"            (rcirc-track-minor-mode 1)))\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:669
+#, no-wrap
+msgid "busy channels"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:674
+msgid "If you've joined a very active support channel, tracking activity is no longer useful.  The channel will be always active.  Switching to active channels using @kbd{C-c C-@key{SPC}} no longer works as expected."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:675
+#, no-wrap
+msgid "C-c C-l"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:676
+#: ../../../../../doc/misc/rcirc.texi:771
+#, no-wrap
+msgid "low priority channels"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:682
+msgid "The solution is to mark this channel as a low priority channel.  Use @kbd{C-c C-l} to make the current channel a low-priority channel.  Low priority channels have the modeline indicator ``LowPri''.  @kbd{C-c C-@key{SPC}} will not switch to low priority channels unless you use the @kbd{C-u} prefix."
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:683
+#, no-wrap
+msgid "C-c TAB"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:684
+#, no-wrap
+msgid "ignored channels"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:688
+msgid "If you prefer a channel to never show up in the modeline, then you have to ignore it.  Use @kbd{C-c @key{TAB}} to ignore the current channel."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:689
+#: ../../../../../doc/misc/rcirc.texi:690
+#, no-wrap
+msgid "People"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:691
+#, no-wrap
+msgid "people, how to ignore"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:692
+#, no-wrap
+msgid "nicks, how to ignore"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:693
+#, no-wrap
+msgid "friends"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:694
+#, no-wrap
+msgid "buddies"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:695
+#, no-wrap
+msgid "trolls"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:700
+msgid "The most important command available to the discerning IRC user is @code{/ignore}.  It's the big equalizer online: If people aggravate you, just ignore them."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:705
+msgid "This is of course a crude all-or-nothing solution.  Fear not, @code{rcirc} offers alternatives: You can ``brighten'' your buddies and ``dim'' certain other nicks that you don't want to ignore altogether."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:707
+#: ../../../../../doc/misc/rcirc.texi:708
+#, no-wrap
+msgid "/ignore"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:709
+#, no-wrap
+msgid "ignoring other people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:710
+#, no-wrap
+msgid "trolls, ignoring"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:711
+#, no-wrap
+msgid "hide some posts"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:712
+#, no-wrap
+msgid "idiots online"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:719
+msgid "This command toggles the ignore status of a nick, if you provide one.  If you don't provide a nick, the command lists all the nicks you are ignoring.  All messages by ignored nicks are---you guessed it---ignored.  Since only ``operators'' can kick people from channels, the ignore command is often the only way to deal with some of the more obnoxious fellows online.  Example: @code{/ignore rudybot}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:720
+#: ../../../../../doc/misc/rcirc.texi:721
+#, no-wrap
+msgid "/bright"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:722
+#, no-wrap
+msgid "highlight other people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:723
+#, no-wrap
+msgid "friends, highlight"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:724
+#, no-wrap
+msgid "buddies, highlight"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:725
+#, no-wrap
+msgid "nicks, highlight"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:726
+#, no-wrap
+msgid "brighten nicks"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:732
+msgid "This command toggles the bright status of a nick, if you provide one.  If you don't provide a nick, the command lists all the ``brightened'' nicks.  All messages by brightened nicks are---you guessed it---brightened.  Use this for your friends.  Example: @code{/bright rcy}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:733
+#: ../../../../../doc/misc/rcirc.texi:734
+#, no-wrap
+msgid "/dim"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:735
+#, no-wrap
+msgid "soft-ignore other people"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:736
+#, no-wrap
+msgid "obnoxious people online"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:737
+#, no-wrap
+msgid "rabble online"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:744
+msgid "This command toggles the dim status of a nick, if you provide one.  If you don't provide a nick, the command lists all the ``dimmed'' nicks.  All messages by dimmed nicks are---you guessed it---dimmed.  Use this for boring people and bots.  If you are tracking channel activity, messages by dimmed nicks will not register as activity.  Example: @code{/dim fsbot}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:747
+#: ../../../../../doc/misc/rcirc.texi:748
+#, no-wrap
+msgid "Keywords"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:749
+#, no-wrap
+msgid "keywords"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:754
+msgid "On a busy channel, you might want to ignore all activity (using @kbd{C-c @key{TAB}}) and just watch for certain keywords.  The following command allows you to highlight certain keywords:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:756
+#: ../../../../../doc/misc/rcirc.texi:757
+#, no-wrap
+msgid "/keyword"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/rcirc.texi:761
+msgid "This command toggles the highlighting of a keyword, if you provide one.  If you don't provide a keyword, the current keywords are listed.  Example: @code{/keyword manual}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:765
+#, no-wrap
+msgid "part notices, how to omit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:766
+#, no-wrap
+msgid "join notices, how to omit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:767
+#, no-wrap
+msgid "quit notices, how to omit"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:768
+#, no-wrap
+msgid "nick notices, how to omit"
+msgstr ""
+
+#. type: kindex
+#: ../../../../../doc/misc/rcirc.texi:770
+#, no-wrap
+msgid "C-c C-o"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:775
+msgid "In busy channels you might not be interested in all the joining, parting, quitting, and renaming that goes on.  You can omit those notices using @kbd{C-c C-o}."
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:776
+#, no-wrap
+msgid "rcirc-omit-responses"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:777
+#, no-wrap
+msgid "away notices, how to omit"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:781
+msgid "You can control which notices get omitted via the @code{rcirc-omit-responses} variable.  Here's an example of how to omit away messages:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:784
+#, no-wrap
+msgid "(setq rcirc-omit-responses '(\"JOIN\" \"PART\" \"QUIT\" \"NICK\" \"AWAY\"))\n"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:786
+#, no-wrap
+msgid "rcirc-omit-threshold"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:794
+msgid "Notice that these messages will not be omitted if the nick in question has recently been active.  After all, you don't want to continue a conversation with somebody who just left.  That's why @code{rcirc} checks recent lines in the buffer to figure out if a nick has been active and only omits a message if the nick has not been active.  The window @code{rcirc} considers is controlled by the @code{rcirc-omit-threshold} variable."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:797
+#, no-wrap
+msgid "hacking and tweaking"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:800
+msgid "Here are some examples of stuff you can do to configure @code{rcirc}."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/rcirc.texi:809
+#, no-wrap
+msgid "Skipping /away messages using handlers"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:810
+#, no-wrap
+msgid "Skipping @code{/away} messages using handlers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:811
+#, no-wrap
+msgid "/away messages"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:813
+#, no-wrap
+msgid "handlers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:814
+#, no-wrap
+msgid "status codes"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:819
+msgid "The IRC protocol specifies how certain events are signaled from server to client.  These events have numbers and are dealt with using so-called handlers.  You can override existing handlers by exploiting the naming convention adopted for @code{rcirc}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:823
+msgid "Here's how to stop @code{rcirc} from printing @code{/away} messages.  Since @code{rcirc} doesn't define a 301 handler, you don't need to require @code{rcirc} before defining the handler:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:827
+#, no-wrap
+msgid ""
+"(defun rcirc-handler-301 (process cmd sender args)\n"
+"  \"/away message handler.\")\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:829
+#: ../../../../../doc/misc/rcirc.texi:830
+#, no-wrap
+msgid "Using fly spell mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:831
+#, no-wrap
+msgid "fly spell"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:832
+#, no-wrap
+msgid "spelling"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:833
+#, no-wrap
+msgid "spell-checking as you type"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:834
+#, no-wrap
+msgid "automatic spelling"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:839
+msgid "The following code activates Fly Spell Mode for @code{rcirc} buffers:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:843
+#, no-wrap
+msgid ""
+"(add-hook 'rcirc-mode-hook (lambda ()\n"
+"                             (flyspell-mode 1)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:847
+msgid "@xref{Spelling, , Flyspell mode, emacs, The GNU Emacs Manual}, for details."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:848
+#: ../../../../../doc/misc/rcirc.texi:849
+#, no-wrap
+msgid "Scrolling conservatively"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:850
+#, no-wrap
+msgid "input line"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:851
+#, no-wrap
+msgid "scrolling"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:852
+#, no-wrap
+msgid "scroll-conservatively"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:859
+msgid "IRC buffers are constantly growing.  If you want to see as much as possible at all times, you would want the prompt at the bottom of the window when possible.  The following snippet uses a local value for @code{scroll-conservatively} to achieve this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:865
+#, no-wrap
+msgid ""
+"(add-hook 'rcirc-mode-hook\n"
+"          (lambda ()\n"
+"            (set (make-local-variable 'scroll-conservatively)\n"
+"                 8192)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:869
+msgid "@xref{Scrolling, , Scrolling conservatively, emacs, The GNU Emacs Manual}, for details."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/rcirc.texi:870
+#: ../../../../../doc/misc/rcirc.texi:871
+#, no-wrap
+msgid "Changing the time stamp format"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:872
+#, no-wrap
+msgid "time stamp"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:873
+#, no-wrap
+msgid "date time"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:874
+#, no-wrap
+msgid "format time stamp"
+msgstr ""
+
+#. type: vindex
+#: ../../../../../doc/misc/rcirc.texi:875
+#, no-wrap
+msgid "rcirc-time-format"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:879
+msgid "@code{rcirc-time-format} is the format used for the time stamp.  Here's how to include the date in the time stamp:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/rcirc.texi:882
+#, no-wrap
+msgid "(setq rcirc-time-format \"%Y-%m-%d %H:%M \")\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:886
+#, no-wrap
+msgid "defining commands"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:887
+#, no-wrap
+msgid "commands, defining"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/rcirc.texi:888
+#, no-wrap
+msgid "new commands, defining"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:893
+msgid "Here's a simple new command, @code{/sv}.  With it, you can boast about your IRC client.  It shows how you can use @code{defun-rcirc-command} to define new commands."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/rcirc.texi:897
+msgid "We're waiting for the definition of this command until @code{rcirc} is loaded because @code{defun-rcirc-command} is not yet available, and without @code{rcirc} loaded, the command wouldn't do us much good anyway."
+msgstr ""
+
+#. type: smallexample
+#: ../../../../../doc/misc/rcirc.texi:905
+#, no-wrap
+msgid ""
+"(with-eval-after-load 'rcirc\n"
+"  (defun-rcirc-command sv (arg)\n"
+"    \"Boast about rcirc.\"\n"
+"    (interactive \"i\")\n"
+"    (rcirc-send-message process target\n"
+"                         (concat \"I use \" rcirc-id-string))))\n"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/rcirc.texi:907
+#: ../../../../../doc/misc/rcirc.texi:908
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/rcirc.texi:909
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/rcirc.texi:912
+#: ../../../../../doc/misc/rcirc.texi:913
+#, no-wrap
+msgid "Key Index"
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/rcirc.texi:916
+#: ../../../../../doc/misc/rcirc.texi:917
+#, no-wrap
+msgid "Variable Index"
+msgstr ""

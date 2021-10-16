@@ -1,0 +1,2593 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-17 05:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: title
+#: ../../../../../doc/misc/htmlfontify.texi:4
+#: ../../../../../doc/misc/htmlfontify.texi:35
+#, no-wrap
+msgid "Htmlfontify User Manual"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/htmlfontify.texi:5
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:8
+msgid "@exampleindent 2"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/htmlfontify.texi:12
+msgid "This manual documents Htmlfontify, a source code -> crosslinked + formatted + syntax colorized html transformer."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/htmlfontify.texi:15
+msgid "Copyright @copyright{} 2002--2003, 2013--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/htmlfontify.texi:23
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.  A copy of the license is included in the section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/htmlfontify.texi:26
+msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/htmlfontify.texi:29
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:32
+msgid "Htmlfontify: (htmlfontify)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:32
+msgid "Convert source code to html."
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/htmlfontify.texi:37
+#, no-wrap
+msgid "Htmlfontify version 0.20"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/htmlfontify.texi:39
+#, no-wrap
+msgid "Jun 2002"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/htmlfontify.texi:41
+#, no-wrap
+msgid "Vivek Dasmohapatra"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/htmlfontify.texi:52
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/htmlfontify.texi:53
+#, no-wrap
+msgid "Htmlfontify"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:67
+#: ../../../../../doc/misc/htmlfontify.texi:68
+#: ../../../../../doc/misc/htmlfontify.texi:69
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "About Htmlfontify."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:86
+#: ../../../../../doc/misc/htmlfontify.texi:87
+#: ../../../../../doc/misc/htmlfontify.texi:88
+#, no-wrap
+msgid "Usage & Examples"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "How to use Htmlfontify."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:1259
+#: ../../../../../doc/misc/htmlfontify.texi:1260
+#, no-wrap
+msgid "Customization"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "Fine-tuning Htmlfontify's behavior."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:1534
+#: ../../../../../doc/misc/htmlfontify.texi:1535
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "External programs used by Htmlfontify."
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:1570
+#: ../../../../../doc/misc/htmlfontify.texi:1571
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/htmlfontify.texi:65
+#: ../../../../../doc/misc/htmlfontify.texi:1574
+#: ../../../../../doc/misc/htmlfontify.texi:1575
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:65
+msgid "Index of contents."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:75
+msgid "Htmlfontify provides a means of converting individual Emacs buffers, source files, or entire source trees to html, preserving formatting and Emacs colorization / syntax highlighting as much as possible through careful application of CSS stylesheets and html tags."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:80
+msgid "It can also turn instances of functions, methods and (for some languages) variables and other constructs and items into links to their definitions, and create an index file (or files) of all such symbols, also linked to their points of definition."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:85
+msgid "Htmlfontify also provides several customization items, which should allow it to mesh more-or-less seamlessly with various templating or publishing systems (in the event, for instance, that you don't want to produce the html pages directly)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:94
+msgid "Htmlfontify can be used both interactively and as part of another elisp function.  If you're running it in a modern Emacs, it will also run when attached to a terminal (i.e., without X) or even when in batch mode."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:101
+#: ../../../../../doc/misc/htmlfontify.texi:103
+#: ../../../../../doc/misc/htmlfontify.texi:104
+#: ../../../../../doc/misc/htmlfontify.texi:105
+#, no-wrap
+msgid "Interactive"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:101
+msgid "Using Htmlfontify interactively."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/htmlfontify.texi:101
+#: ../../../../../doc/misc/htmlfontify.texi:193
+#: ../../../../../doc/misc/htmlfontify.texi:194
+#, no-wrap
+msgid "Non-interactive"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:101
+msgid "Using Htmlfontify from elisp."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/htmlfontify.texi:101
+#: ../../../../../doc/misc/htmlfontify.texi:1047
+#: ../../../../../doc/misc/htmlfontify.texi:1048
+#, no-wrap
+msgid "Variables"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:101
+msgid "Variables (other than customization entries)."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:101
+#: ../../../../../doc/misc/htmlfontify.texi:1110
+#: ../../../../../doc/misc/htmlfontify.texi:1111
+#: ../../../../../doc/misc/htmlfontify.texi:1112
+#, no-wrap
+msgid "Data Structures"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:101
+msgid "Important data structures."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:101
+#: ../../../../../doc/misc/htmlfontify.texi:1200
+#: ../../../../../doc/misc/htmlfontify.texi:1201
+#: ../../../../../doc/misc/htmlfontify.texi:1202
+#, no-wrap
+msgid "Examples"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/htmlfontify.texi:101
+msgid "Example(s) of Htmlfontify in use."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:106
+#, no-wrap
+msgid "functions (interactive)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:109
+msgid "Htmlfontify provides the following interactive functions:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:111
+#: ../../../../../doc/misc/htmlfontify.texi:112
+#: ../../../../../doc/misc/htmlfontify.texi:114
+#, no-wrap
+msgid "htmlfontify-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:118
+#, no-wrap
+msgid "(htmlfontify-buffer &optional @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:123
+msgid "Create a new buffer, named for the current buffer + a .html extension, containing an inline CSS-stylesheet and formatted CSS-markup html that reproduces the look of the current Emacs buffer as closely as possible."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:127
+msgid "``Dangerous'' characters in the existing buffer are turned into html entities, so you should even be able to do html-within-html fontified display."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:131
+msgid "You should, however, note that random control or non-ASCII characters such as ^L (U+000C FORM FEED (FF)) or ¤ (U+00A4 CURRENCY SIGN) won't get mapped yet."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:135
+msgid "If the @var{srcdir} and @var{file} arguments are set, lookup etags derived entries in the @ref{hfy-tags-cache} and add html anchors and hyperlinks as appropriate."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:136
+#: ../../../../../doc/misc/htmlfontify.texi:137
+#: ../../../../../doc/misc/htmlfontify.texi:139
+#, no-wrap
+msgid "htmlfontify-run-etags"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:143
+#, no-wrap
+msgid "(htmlfontify-run-etags @var{srcdir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:146
+msgid "Load the etags cache for @var{srcdir}.  See @ref{hfy-load-tags-cache}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:147
+#: ../../../../../doc/misc/htmlfontify.texi:148
+#: ../../../../../doc/misc/htmlfontify.texi:150
+#, no-wrap
+msgid "htmlfontify-copy-and-link-dir"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:154
+#, no-wrap
+msgid "(htmlfontify-copy-and-link-dir @var{srcdir} @var{dstdir} &optional @var{f-ext} @var{l-ext})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:159
+msgid "Trawl @var{srcdir} and write fontified-and-hyperlinked output in @var{dstdir}.  @var{f-ext} and @var{l-ext} specify values for @ref{hfy-extn} and @ref{hfy-link-extn}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:161
+msgid "You may also want to set @ref{hfy-page-header} and @ref{hfy-page-footer}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:162
+#: ../../../../../doc/misc/htmlfontify.texi:163
+#: ../../../../../doc/misc/htmlfontify.texi:165
+#, no-wrap
+msgid "htmlfontify-load-rgb-file"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:169
+#, no-wrap
+msgid "(htmlfontify-load-rgb-file &optional @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:173
+msgid "Load an X11 style rgb.txt file (search @code{hfy-rgb-load-path} if @var{file} is not specified)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:177
+msgid "Note that this is not necessary if all you want is the standard X11 (XFree86 4.1.0) color name -> rgb triplet mapping.  Htmlfontify has a copy built in, for use when it cannot contact an X server."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:180
+msgid "Loads the variable @code{hfy-rgb-txt-color-map}, which is used by @ref{hfy-fallback-color-values}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:181
+#: ../../../../../doc/misc/htmlfontify.texi:182
+#: ../../../../../doc/misc/htmlfontify.texi:184
+#, no-wrap
+msgid "htmlfontify-unload-rgb-file"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:188
+#, no-wrap
+msgid "(htmlfontify-unload-rgb-file)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:191
+msgid "Unload the currently loaded X11 style rgb.txt file (if any)."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:195
+#, no-wrap
+msgid "Noninteractive"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:196
+#, no-wrap
+msgid "functions (noninteractive)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:200
+msgid "In addition to the aforementioned interactive methods, Htmlfontify provides the following non-interactive ones:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:204
+#: ../../../../../doc/misc/htmlfontify.texi:205
+#: ../../../../../doc/misc/htmlfontify.texi:207
+#, no-wrap
+msgid "hfy-face-to-style"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:211
+#, no-wrap
+msgid "(hfy-face-to-style @var{fn})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:216
+msgid "Take @var{fn}, a font or @code{defface} style font specification, (as returned by @code{face-attr-construct} or @ref{hfy-face-attr-for-class})  and return a @ref{hfy-style-assoc}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:218
+msgid "See also: @ref{hfy-face-to-style-i}, @ref{hfy-flatten-style}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:219
+#: ../../../../../doc/misc/htmlfontify.texi:220
+#: ../../../../../doc/misc/htmlfontify.texi:222
+#, no-wrap
+msgid "hfy-fallback-color-values"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:226
+#, no-wrap
+msgid "(hfy-fallback-color-values @var{color-string})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:231
+msgid "Use a fallback method for obtaining the rgb values for a color.  If @ref{htmlfontify-load-rgb-file} has been called, it uses the color map specified, otherwise it uses Htmlfontify's built in map."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:232
+#: ../../../../../doc/misc/htmlfontify.texi:233
+#: ../../../../../doc/misc/htmlfontify.texi:235
+#, no-wrap
+msgid "hfy-combined-face-spec"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:239
+#, no-wrap
+msgid "(hfy-combined-face-spec @var{face})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:244
+msgid "Return a @code{defface} style alist of possible specifications for @var{face}, with any entries resulting from user customization (@code{custom-set-faces}) taking precedence."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:246
+msgid "See also: @ref{hfy-default-face-def}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:247
+#: ../../../../../doc/misc/htmlfontify.texi:248
+#: ../../../../../doc/misc/htmlfontify.texi:250
+#, no-wrap
+msgid "hfy-word-regex"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:254
+#, no-wrap
+msgid "(hfy-word-regex @var{string})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:259
+msgid "Return a regex that matches @var{string} as the first @code{match-string}, with non word characters on either side (vaguely emulating the perl @code{\\b} regex atom)."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:260
+#: ../../../../../doc/misc/htmlfontify.texi:261
+#: ../../../../../doc/misc/htmlfontify.texi:263
+#, no-wrap
+msgid "hfy-force-fontification"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:267
+#, no-wrap
+msgid "(hfy-force-fontification)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:279
+msgid "Emacs's fontification is designed for interactive use.  As such, it sometimes does things like deferring fontification until a section of the buffer is exposed and rendered, or until Emacs is idle for a while.  Sometimes, in non-interactive circumstances, or if it can't see X, it doesn't bother with some of the harder stuff.  While this is all great from the perspective of a user waiting for Emacs to load a 20000 line file and colorize it, it's a pain from the point of view from non-interactive code.  This function lies, cheats, steals and generally bullies Emacs into fontifying a buffer from start to finish, with all the extra frills, whether it thinks it needs to or not.  Oh yes: it operates on the current buffer."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:280
+#: ../../../../../doc/misc/htmlfontify.texi:281
+#: ../../../../../doc/misc/htmlfontify.texi:283
+#, no-wrap
+msgid "hfy-link-style-string"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:287
+#, no-wrap
+msgid "(hfy-link-style-string @var{style-string})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:292
+msgid "Replace the end of a CSS style declaration @var{style-string} with the contents of the variable @ref{hfy-src-doc-link-style}, removing text matching the regex @ref{hfy-src-doc-link-unstyle} first, if necessary."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:294
+#: ../../../../../doc/misc/htmlfontify.texi:295
+#: ../../../../../doc/misc/htmlfontify.texi:297
+#, no-wrap
+msgid "hfy-prepare-index-i"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:301
+#, no-wrap
+msgid "(hfy-prepare-index-i @var{srcdir} @var{dstdir} @var{filename} &optional @var{stub} @var{map})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:307
+msgid "Prepare a tags index buffer for @var{srcdir}.  @ref{hfy-tags-cache} must already have an entry for @var{srcdir} for this to work.  @ref{hfy-page-header}, @ref{hfy-page-footer}, @ref{hfy-link-extn} and @ref{hfy-extn} all play a part here."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:310
+msgid "If @var{stub} is set, prepare an (appropriately named) index buffer specifically for entries beginning with @var{stub}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:312
+msgid "If @var{map} is set, use that instead of @ref{hfy-tags-cache}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:313
+#: ../../../../../doc/misc/htmlfontify.texi:314
+#: ../../../../../doc/misc/htmlfontify.texi:316
+#, no-wrap
+msgid "hfy-compile-stylesheet"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:320
+#, no-wrap
+msgid "(hfy-compile-stylesheet)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:323
+msgid "Trawl the current buffer, construct and return a @ref{hfy-sheet-assoc}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:324
+#: ../../../../../doc/misc/htmlfontify.texi:325
+#: ../../../../../doc/misc/htmlfontify.texi:327
+#, no-wrap
+msgid "hfy-css-name"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:331
+#, no-wrap
+msgid "(hfy-css-name @var{fn})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:337
+msgid "Strip some of the boring bits from a font-name and return a CSS style name.  If @var{fn} is a @code{defface} attribute list, either construct a name for it, store it in the cache, and return it, or just fetch it from the cache if it's already there."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:338
+#: ../../../../../doc/misc/htmlfontify.texi:339
+#: ../../../../../doc/misc/htmlfontify.texi:341
+#, no-wrap
+msgid "hfy-make-directory"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:345
+#, no-wrap
+msgid "(hfy-make-directory @var{dir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:348
+msgid "Approximate equivalent of @code{mkdir -p @var{dir}}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:349
+#: ../../../../../doc/misc/htmlfontify.texi:350
+#: ../../../../../doc/misc/htmlfontify.texi:352
+#, no-wrap
+msgid "hfy-triplet"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:356
+#, no-wrap
+msgid "(hfy-triplet @var{color})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:363
+msgid "Takes a color name (string) and return a CSS rgb(R, G, B) triplet string.  Uses the definition of ``white'' to map the numbers to the 0-255 range, so if you've redefined white, (especially if you've redefined it to have a triplet member lower than that of the color you are processing, strange things may happen)."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:364
+#: ../../../../../doc/misc/htmlfontify.texi:365
+#: ../../../../../doc/misc/htmlfontify.texi:367
+#, no-wrap
+msgid "hfy-default-footer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:371
+#, no-wrap
+msgid "(hfy-default-footer @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:374
+msgid "Default value for @ref{hfy-page-footer}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:375
+#: ../../../../../doc/misc/htmlfontify.texi:376
+#: ../../../../../doc/misc/htmlfontify.texi:378
+#, no-wrap
+msgid "hfy-list-files"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:382
+#, no-wrap
+msgid "(hfy-list-files @var{directory})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:386
+msgid "Return a list of files under @var{directory}.  Strips any leading @samp{./} from each filename."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:387
+#: ../../../../../doc/misc/htmlfontify.texi:388
+#: ../../../../../doc/misc/htmlfontify.texi:390
+#, no-wrap
+msgid "hfy-color-vals"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:394
+#, no-wrap
+msgid "(hfy-color-vals @var{color})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:399
+msgid "Where @var{color} is a color name or #XXXXXX style triplet, return a list of 3 (16 bit) rgb values for said color.  If a window system is unavailable, calls @ref{hfy-fallback-color-values}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:400
+#: ../../../../../doc/misc/htmlfontify.texi:401
+#: ../../../../../doc/misc/htmlfontify.texi:403
+#, no-wrap
+msgid "hfy-href-stub"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:407
+#, no-wrap
+msgid "(hfy-href-stub @var{this-file} @var{def-files} @var{tag})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:413
+msgid "Return an href stub for a tag href: if @var{def-files} (list of files containing definitions for the tag in question) contains only one entry, the href should link straight to that file.  Otherwise, the link should be to the index file."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:416
+msgid "We are not yet concerned with the file extensions/tag line number and so on at this point."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:420
+msgid "If @ref{hfy-split-index} is set, and the href will be to an index file rather than a source file, append a @samp{.X} to @ref{hfy-index-file}, where @samp{X} is the uppercased first character of @var{tag}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:422
+msgid "See also: @ref{hfy-relstub}, @ref{hfy-index-file}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:423
+#: ../../../../../doc/misc/htmlfontify.texi:424
+#: ../../../../../doc/misc/htmlfontify.texi:426
+#, no-wrap
+msgid "hfy-line-number"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:430
+#, no-wrap
+msgid "(hfy-line-number)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:433
+msgid "Returns the line number of the point in the current buffer."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:434
+#: ../../../../../doc/misc/htmlfontify.texi:435
+#: ../../../../../doc/misc/htmlfontify.texi:437
+#, no-wrap
+msgid "hfy-merge-adjacent-spans"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:441
+#, no-wrap
+msgid "(hfy-merge-adjacent-spans @var{face-map})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:446
+msgid "Where @var{face-map} is a @ref{hfy-facemap-assoc} for the current buffer, this function merges adjacent style blocks which are of the same value and are separated by nothing more interesting than whitespace."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:448
+msgid "<span class=\"foo\">narf</span> <span class=\"foo\">brain</span>"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:450
+msgid "(as interpreted from @var{face-map}) would become:"
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:452
+msgid "<span class=\"foo\">narf brain</span>"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:454
+msgid "Returns a modified copy of @var{face-map} (also a @ref{hfy-facemap-assoc})."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:455
+#: ../../../../../doc/misc/htmlfontify.texi:456
+#: ../../../../../doc/misc/htmlfontify.texi:458
+#, no-wrap
+msgid "hfy-mark-tag-names"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:462
+#, no-wrap
+msgid "(hfy-mark-tag-names @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:466
+msgid "Mark tags in @var{file} (lookup @var{srcdir} in @ref{hfy-tags-cache}) with the @code{hfy-anchor} property, with a value of @samp{tag.line-number}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:467
+#: ../../../../../doc/misc/htmlfontify.texi:468
+#: ../../../../../doc/misc/htmlfontify.texi:470
+#, no-wrap
+msgid "hfy-weight"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:474
+#, no-wrap
+msgid "(hfy-weight @var{weight})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:477
+msgid "Derive a font-weight CSS specifier from an Emacs weight specification symbol."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:478
+#: ../../../../../doc/misc/htmlfontify.texi:479
+#: ../../../../../doc/misc/htmlfontify.texi:481
+#, no-wrap
+msgid "hfy-size"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:485
+#, no-wrap
+msgid "(hfy-size @var{height})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:490
+msgid "Derive a CSS font-size specifier from an Emacs font @code{:height} attribute.  Does not cope with the case where height is a function to be applied to the height of the underlying font."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:491
+#: ../../../../../doc/misc/htmlfontify.texi:492
+#: ../../../../../doc/misc/htmlfontify.texi:494
+#, no-wrap
+msgid "hfy-default-header"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:498
+#, no-wrap
+msgid "(hfy-default-header @var{file} @var{style})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:501
+msgid "Default value for @ref{hfy-page-header}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:502
+#: ../../../../../doc/misc/htmlfontify.texi:503
+#: ../../../../../doc/misc/htmlfontify.texi:505
+#, no-wrap
+msgid "hfy-family"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:509
+#, no-wrap
+msgid "(hfy-family @var{family})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:512
+msgid "Derives a CSS font-family specifier from an Emacs @code{:family} attribute."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:513
+#: ../../../../../doc/misc/htmlfontify.texi:514
+#: ../../../../../doc/misc/htmlfontify.texi:516
+#, no-wrap
+msgid "hfy-mark-tag-hrefs"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:520
+#, no-wrap
+msgid "(hfy-mark-tag-hrefs @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:523
+msgid "Mark href start points with the @code{hfy-link} property (value: href string)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:525
+msgid "Mark href end points with the @code{hfy-endl} property (value @code{t})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:529
+msgid "Avoid overlapping links, and mark links in descending length of tag name in order to prevent subtags from usurping supertags; e.g., ``term'' for ``terminal'')."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:530
+#: ../../../../../doc/misc/htmlfontify.texi:531
+#: ../../../../../doc/misc/htmlfontify.texi:533
+#, no-wrap
+msgid "hfy-box"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:537
+#, no-wrap
+msgid "(hfy-box @var{box})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:540
+msgid "Derive CSS border-* attributes from the Emacs @code{:box} attribute."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:541
+#: ../../../../../doc/misc/htmlfontify.texi:542
+#: ../../../../../doc/misc/htmlfontify.texi:544
+#, no-wrap
+msgid "hfy-box-to-style"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:548
+#, no-wrap
+msgid "(hfy-box-to-style @var{spec})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:553
+msgid "Convert a complex @code{:box} Emacs font attribute set to a list of CSS border-* attributes.  Don't call this directly---it is called by @ref{hfy-box} when necessary."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:554
+#: ../../../../../doc/misc/htmlfontify.texi:555
+#: ../../../../../doc/misc/htmlfontify.texi:557
+#, no-wrap
+msgid "hfy-html-enkludge-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:561
+#, no-wrap
+msgid "(hfy-html-enkludge-buffer)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:564
+msgid "Mark dangerous @samp{[\"<>]} characters with the @code{hfy-quoteme} property."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:566
+msgid "See also @ref{hfy-html-dekludge-buffer}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:567
+#: ../../../../../doc/misc/htmlfontify.texi:568
+#: ../../../../../doc/misc/htmlfontify.texi:570
+#, no-wrap
+msgid "hfy-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:574
+#, no-wrap
+msgid "(hfy-buffer)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:578
+msgid "Generate and return an Htmlfontify html output buffer for the current buffer.  May trample an existing buffer."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:579
+#: ../../../../../doc/misc/htmlfontify.texi:580
+#: ../../../../../doc/misc/htmlfontify.texi:582
+#, no-wrap
+msgid "hfy-fontified-p"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:586
+#, no-wrap
+msgid "(hfy-fontified-p)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:592
+msgid "@code{font-lock} doesn't like to say a buffer's been fontified when in batch mode, but we want to know if we should fontify or raw copy, so in batch mode we check for non-default face properties.  Otherwise we test @code{font-lock-mode} and @code{font-lock-fontified} for truth."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:593
+#: ../../../../../doc/misc/htmlfontify.texi:594
+#: ../../../../../doc/misc/htmlfontify.texi:596
+#, no-wrap
+msgid "hfy-lookup"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:600
+#, no-wrap
+msgid "(hfy-lookup @var{face} @var{style})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:604
+msgid "Where @var{style} is a @ref{hfy-sheet-assoc} and @var{face} is an Emacs face, return the relevant @var{css} style name."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:605
+#: ../../../../../doc/misc/htmlfontify.texi:606
+#: ../../../../../doc/misc/htmlfontify.texi:608
+#, no-wrap
+msgid "hfy-fontify-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:612
+#, no-wrap
+msgid "(hfy-fontify-buffer &optional @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:615
+msgid "Implement the guts of @ref{htmlfontify-buffer}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:616
+#: ../../../../../doc/misc/htmlfontify.texi:617
+#: ../../../../../doc/misc/htmlfontify.texi:619
+#, no-wrap
+msgid "hfy-color"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:623
+#, no-wrap
+msgid "(hfy-color @var{color})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:626
+msgid "Convert an Emacs :foreground property to a CSS color property."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:627
+#: ../../../../../doc/misc/htmlfontify.texi:628
+#: ../../../../../doc/misc/htmlfontify.texi:630
+#, no-wrap
+msgid "hfy-flatten-style"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:634
+#, no-wrap
+msgid "(hfy-flatten-style @var{style})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:640
+msgid "Take @var{style} (see @ref{hfy-face-to-style-i}, @ref{hfy-face-to-style})  and merge any multiple attributes appropriately.  Currently only font-size is merged down to a single occurrence---others may need special handling, but I haven't encountered them yet.  Returns a @ref{hfy-style-assoc}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:641
+#: ../../../../../doc/misc/htmlfontify.texi:642
+#: ../../../../../doc/misc/htmlfontify.texi:644
+#, no-wrap
+msgid "hfy-size-to-int"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:648
+#, no-wrap
+msgid "(hfy-size-to-int @var{spec})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:653
+msgid "Convert @var{spec}, a CSS font-size specifier, back to an Emacs @code{:height} attribute value.  Used while merging multiple font-size attributes."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:654
+#: ../../../../../doc/misc/htmlfontify.texi:655
+#: ../../../../../doc/misc/htmlfontify.texi:657
+#, no-wrap
+msgid "hfy-sprintf-stylesheet"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:661
+#, no-wrap
+msgid "(hfy-sprintf-stylesheet @var{css} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:666
+msgid "Generates a header, via @ref{hfy-page-header}, for @var{file}, containing the stylesheet derived from @var{css}, which is a @ref{hfy-sheet-assoc}.  Returns a string containing the same."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:667
+#: ../../../../../doc/misc/htmlfontify.texi:668
+#: ../../../../../doc/misc/htmlfontify.texi:670
+#, no-wrap
+msgid "hfy-relstub"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:674
+#, no-wrap
+msgid "(hfy-relstub @var{file} &optional @var{start})\n"
+msgstr ""
+
+#.  iyswim.
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:678
+msgid "Return a @samp{../} stub of the appropriate length for the current source tree depth (as determined from @var{file})."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:679
+#: ../../../../../doc/misc/htmlfontify.texi:680
+#: ../../../../../doc/misc/htmlfontify.texi:682
+#, no-wrap
+msgid "hfy-compile-face-map"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:686
+#, no-wrap
+msgid "(hfy-compile-face-map)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:689
+msgid "Compile and return a @ref{hfy-facemap-assoc} for the current buffer."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:690
+#: ../../../../../doc/misc/htmlfontify.texi:691
+#: ../../../../../doc/misc/htmlfontify.texi:693
+#, no-wrap
+msgid "hfy-prepare-index"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:697
+#, no-wrap
+msgid "(hfy-prepare-index @var{srcdir} @var{dstdir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:701
+msgid "Return as list of index buffer(s), as determined by @ref{hfy-split-index}.  Uses @ref{hfy-prepare-index-i} to do this."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:702
+#: ../../../../../doc/misc/htmlfontify.texi:703
+#: ../../../../../doc/misc/htmlfontify.texi:705
+#, no-wrap
+msgid "hfy-prepare-tag-map"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:709
+#, no-wrap
+msgid "(hfy-prepare-tag-map @var{srcdir} @var{dstdir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:714
+msgid "Prepare the counterpart(s) to the index buffer(s)---a list of buffers with the same structure, but listing (and linking to) instances of tags (as opposed to their definitions)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:716
+msgid "See also: @ref{hfy-prepare-index}, @ref{hfy-split-index}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:717
+#: ../../../../../doc/misc/htmlfontify.texi:718
+#: ../../../../../doc/misc/htmlfontify.texi:720
+#, no-wrap
+msgid "hfy-subtract-maps"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:724
+#, no-wrap
+msgid "(hfy-subtract-maps @var{srcdir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:728
+msgid "Internal function---strips definitions of tags from the instance map.  See: @ref{hfy-tags-cache} and @ref{hfy-tags-rmap}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:729
+#: ../../../../../doc/misc/htmlfontify.texi:730
+#: ../../../../../doc/misc/htmlfontify.texi:732
+#, no-wrap
+msgid "hfy-face-to-style-i"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:736
+#, no-wrap
+msgid "(hfy-face-to-style-i @var{fn})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:745
+msgid "The guts of @ref{hfy-face-to-style}.  @var{fn} should be a @code{defface} font specification, as returned by @code{face-attr-construct} or @ref{hfy-face-attr-for-class}.  Note that this function does not get font-sizes right if they are based on inherited modifiers (via the :inherit) attribute, and any other modifiers that are cumulative if they appear multiple times need to be merged by the user---@ref{hfy-flatten-style} should do this."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:746
+#: ../../../../../doc/misc/htmlfontify.texi:747
+#: ../../../../../doc/misc/htmlfontify.texi:749
+#, no-wrap
+msgid "hfy-face-to-css"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:753
+#, no-wrap
+msgid "(hfy-face-to-css @var{fn})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:757
+msgid "Take @var{fn}, a font or @code{defface} specification (c.f.  @code{face-attr-construct}) and return a CSS style specification."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:759
+msgid "See also: @ref{hfy-face-to-style}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:760
+#: ../../../../../doc/misc/htmlfontify.texi:761
+#: ../../../../../doc/misc/htmlfontify.texi:763
+#, no-wrap
+msgid "hfy-html-quote"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:767
+#, no-wrap
+msgid "(hfy-html-quote @var{char-string})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:771
+msgid "Map a string (usually 1 character long) to an html safe string (entity) if need be."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:772
+#: ../../../../../doc/misc/htmlfontify.texi:773
+#: ../../../../../doc/misc/htmlfontify.texi:775
+#, no-wrap
+msgid "hfy-link-style"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:779
+#, no-wrap
+msgid "(hfy-link-style @var{style-string})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:783
+msgid "Convert the CSS style spec @var{style-string} to its equivalent hyperlink style."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:785
+msgid "See: @ref{hfy-link-style-fun}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:786
+#: ../../../../../doc/misc/htmlfontify.texi:787
+#: ../../../../../doc/misc/htmlfontify.texi:789
+#, no-wrap
+msgid "hfy-p-to-face"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:793
+#, no-wrap
+msgid "(hfy-p-to-face @var{props})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:797
+msgid "Given @var{props}, a list of text-properties, return the value of the face property, or @code{nil}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:798
+#: ../../../../../doc/misc/htmlfontify.texi:799
+#: ../../../../../doc/misc/htmlfontify.texi:801
+#, no-wrap
+msgid "hfy-box-to-border-assoc"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:805
+#, no-wrap
+msgid "(hfy-box-to-border-assoc @var{spec})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:808
+msgid "Helper function for @ref{hfy-box-to-style}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:809
+#: ../../../../../doc/misc/htmlfontify.texi:810
+#: ../../../../../doc/misc/htmlfontify.texi:812
+#, no-wrap
+msgid "hfy-face-attr-for-class"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:816
+#, no-wrap
+msgid "(hfy-face-attr-for-class @var{face} &optional @var{class})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:827
+msgid "Return the face attributes for @var{face}.  If @var{class} is set, it must be a @code{defface} alist key [see below].  Prior to version 0.18, the first face specification returned by @ref{hfy-combined-face-spec} which @emph{didn't} clash with @var{class} was returned.  In versions from 0.18 onwards, each font attribute list is scored, and the non-conflicting list with the highest score is returned.  (A specification with a class of @code{t} is considered to match any class you specify.  This matches Emacs's behavior when deciding on which face attributes to use, to the best of my understanding )."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:831
+msgid "If @var{class} is @code{nil}, then you just get whatever @code{face-attr-construct} returns; i.e., the current specification in effect for @var{face}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:833
+msgid "See @ref{hfy-display-class} for details of valid values for @var{class}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:834
+#: ../../../../../doc/misc/htmlfontify.texi:835
+#: ../../../../../doc/misc/htmlfontify.texi:837
+#, no-wrap
+msgid "hfy-face-at"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:841
+#, no-wrap
+msgid "(hfy-face-at P)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:846
+msgid "Find face in effect at point P@.  If overlays are to be considered (see @ref{hfy-optimizations}) then this may return a @code{defface} style list of face properties instead of a face symbol."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:847
+#: ../../../../../doc/misc/htmlfontify.texi:848
+#: ../../../../../doc/misc/htmlfontify.texi:850
+#, no-wrap
+msgid "hfy-bgcol"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:854
+#, no-wrap
+msgid "(hfy-bgcol @var{color})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:857
+msgid "As per @ref{hfy-color} but for background colors."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:858
+#: ../../../../../doc/misc/htmlfontify.texi:859
+#: ../../../../../doc/misc/htmlfontify.texi:861
+#, no-wrap
+msgid "hfy-kludge-cperl-mode"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:865
+#, no-wrap
+msgid "(hfy-kludge-cperl-mode)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:869
+msgid "cperl mode does its best to not do some of its fontification when not in a windowing system---we try to trick it@dots{}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:870
+#: ../../../../../doc/misc/htmlfontify.texi:871
+#: ../../../../../doc/misc/htmlfontify.texi:873
+#, no-wrap
+msgid "hfy-href"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:877
+#, no-wrap
+msgid "(hfy-href @var{this-file} @var{def-files} @var{tag} @var{tag-map})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:880
+msgid "Return a relative href to the tag in question, based on"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:882
+msgid "@var{this-file} @ref{hfy-link-extn} @ref{hfy-extn} @var{def-files} @var{tag} and @var{tag-map}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:887
+msgid "@var{this-file} is the current source file @var{def-files} is a list of file containing possible link endpoints for @var{tag} @var{tag} is the @var{tag} in question @var{tag-map} is the entry in @ref{hfy-tags-cache}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:888
+#: ../../../../../doc/misc/htmlfontify.texi:889
+#: ../../../../../doc/misc/htmlfontify.texi:891
+#, no-wrap
+msgid "hfy-shell"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:895
+#, no-wrap
+msgid "(hfy-shell)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:899
+msgid "Returns a best guess at a Bourne compatible shell to use: If the current shell doesn't look promising, fall back to @ref{hfy-shell-file-name}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:900
+#: ../../../../../doc/misc/htmlfontify.texi:901
+#: ../../../../../doc/misc/htmlfontify.texi:903
+#, no-wrap
+msgid "hfy-load-tags-cache"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:907
+#, no-wrap
+msgid "(hfy-load-tags-cache @var{srcdir})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:910
+msgid "Run @ref{hfy-etags-cmd} on @var{srcdir}: load @ref{hfy-tags-cache} and @ref{hfy-tags-sortl}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:911
+#: ../../../../../doc/misc/htmlfontify.texi:912
+#: ../../../../../doc/misc/htmlfontify.texi:914
+#, no-wrap
+msgid "hfy-parse-tags-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:918
+#, no-wrap
+msgid "(hfy-parse-tags-buffer @var{srcdir} @var{buffer})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:922
+msgid "Parse a @var{buffer} containing etags formatted output, loading the @ref{hfy-tags-cache} and @ref{hfy-tags-sortl} entries for @var{srcdir}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:923
+#: ../../../../../doc/misc/htmlfontify.texi:924
+#: ../../../../../doc/misc/htmlfontify.texi:926
+#, no-wrap
+msgid "hfy-interq"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:930
+#, no-wrap
+msgid "(hfy-interq @var{set-a} @var{set-b})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:933
+msgid "Return the intersection (using @code{eq}) of 2 lists."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:934
+#: ../../../../../doc/misc/htmlfontify.texi:935
+#: ../../../../../doc/misc/htmlfontify.texi:937
+#, no-wrap
+msgid "hfy-text-p"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:941
+#, no-wrap
+msgid "(hfy-text-p @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:944
+msgid "Is @var{srcdir}/@var{file} text? Uses @ref{hfy-istext-command} to determine this."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:945
+#: ../../../../../doc/misc/htmlfontify.texi:946
+#: ../../../../../doc/misc/htmlfontify.texi:948
+#, no-wrap
+msgid "hfy-opt"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:952
+#, no-wrap
+msgid "(hfy-opt @var{symbol})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:955
+msgid "Is @ref{hfy-optimizations} member @var{symbol} set or not?"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:956
+#: ../../../../../doc/misc/htmlfontify.texi:957
+#: ../../../../../doc/misc/htmlfontify.texi:959
+#, no-wrap
+msgid "hfy-dirname"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:963
+#, no-wrap
+msgid "(hfy-dirname @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:969
+msgid "Return everything preceding the last @samp{/} from a relative filename, on the assumption that this will produce the name of a relative directory.  Hardly bombproof, but good enough in the context in which it is being used."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:970
+#: ../../../../../doc/misc/htmlfontify.texi:971
+#: ../../../../../doc/misc/htmlfontify.texi:973
+#, no-wrap
+msgid "hfy-html-dekludge-buffer"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:977
+#, no-wrap
+msgid "(hfy-html-dekludge-buffer)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:981
+msgid "Transform all dangerous characters marked with the @code{hfy-quoteme} property using @ref{hfy-html-quote}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:983
+msgid "See also @ref{hfy-html-enkludge-buffer}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:984
+#: ../../../../../doc/misc/htmlfontify.texi:985
+#: ../../../../../doc/misc/htmlfontify.texi:987
+#, no-wrap
+msgid "hfy-copy-and-fontify-file"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:991
+#, no-wrap
+msgid "(hfy-copy-and-fontify-file @var{srcdir} @var{dstdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:996
+msgid "Open @var{file} in @var{srcdir}---if fontified, write a fontified copy to @var{dstdir} adding an extension of @ref{hfy-extn}.  Fontification is actually done by @ref{htmlfontify-buffer}.  If the buffer is not fontified, just copy it."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:997
+#: ../../../../../doc/misc/htmlfontify.texi:998
+#: ../../../../../doc/misc/htmlfontify.texi:1000
+#, no-wrap
+msgid "hfy-decor"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1004
+#, no-wrap
+msgid "(hfy-decor @var{tag} @var{val})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1007
+msgid "Derive CSS text-decoration specifiers from various Emacs font attributes."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1008
+#: ../../../../../doc/misc/htmlfontify.texi:1009
+#: ../../../../../doc/misc/htmlfontify.texi:1011
+#, no-wrap
+msgid "hfy-slant"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1015
+#, no-wrap
+msgid "(hfy-slant @var{slant})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1020
+msgid "Derive a font-style CSS specifier from the Emacs :slant attribute---CSS does not define the reverse-* styles, so just maps those to the regular specifiers."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1021
+#: ../../../../../doc/misc/htmlfontify.texi:1022
+#: ../../../../../doc/misc/htmlfontify.texi:1024
+#, no-wrap
+msgid "hfy-tags-for-file"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1028
+#, no-wrap
+msgid "(hfy-tags-for-file @var{srcdir} @var{file})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1032
+msgid "List of etags tags that have definitions in this @var{file}.  Looks up the tags cache in @ref{hfy-tags-cache} using @var{srcdir} as the key."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1033
+#: ../../../../../doc/misc/htmlfontify.texi:1034
+#: ../../../../../doc/misc/htmlfontify.texi:1036
+#, no-wrap
+msgid "hfy-width"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1040
+#, no-wrap
+msgid "(hfy-width @var{width})\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1043
+msgid "Convert an Emacs @code{:width} attribute to a CSS font-stretch attribute."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:1049
+#, no-wrap
+msgid "variables"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:1052
+msgid "Important variables that are not customization items:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1055
+#: ../../../../../doc/misc/htmlfontify.texi:1056
+#: ../../../../../doc/misc/htmlfontify.texi:1058
+#, no-wrap
+msgid "hfy-tags-cache"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1060
+msgid "This is an alist of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/htmlfontify.texi:1063
+#, no-wrap
+msgid "((\"/src/dir/0\" . tag-hash0) (\"/src/dir/1\" tag-hash1) @dots{} )\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1066
+msgid "Each tag hash entry then contains entries of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/htmlfontify.texi:1069
+#, no-wrap
+msgid "\"tag_string\" => ((\"file/name.ext\" line char) @dots{} )\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1072
+msgid "i.e., an alist mapping (relative) file paths to line and character offsets."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1074
+msgid "See @ref{hfy-load-tags-cache}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1075
+#: ../../../../../doc/misc/htmlfontify.texi:1076
+#: ../../../../../doc/misc/htmlfontify.texi:1078
+#, no-wrap
+msgid "hfy-tags-rmap"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1080
+msgid "@code{hfy-tags-rmap} is an alist of the form:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1083
+#, no-wrap
+msgid "((\"/src/dir\" . tag-rmap-hash))\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1086
+msgid "Where tag-rmap-hash has entries of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/htmlfontify.texi:1089
+#, no-wrap
+msgid "\"tag_string\" => ( \"file/name.ext\" line char )\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1093
+msgid "Unlike @ref{hfy-tags-cache} these are the locations of occurrences of tagged items, not the locations of their definitions."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1094
+#: ../../../../../doc/misc/htmlfontify.texi:1095
+#: ../../../../../doc/misc/htmlfontify.texi:1097
+#, no-wrap
+msgid "hfy-tags-sortl"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1099
+msgid "@code{hfy-tags-sortl} is an alist of the form:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/htmlfontify.texi:1102
+#, no-wrap
+msgid "((\"/src/dir\" . (tag0 tag1 tag2)) @dots{} )\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1105
+msgid "Where the tags are stored in descending order of length."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1107
+msgid "See: @ref{hfy-load-tags-cache}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:1115
+msgid "Some of the (informal) data structures used in Htmlfontify are detailed here:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1118
+#: ../../../../../doc/misc/htmlfontify.texi:1119
+#: ../../../../../doc/misc/htmlfontify.texi:1121
+#, no-wrap
+msgid "hfy-style-assoc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1127
+msgid "An assoc representing/describing an Emacs face.  Properties may be repeated, in which case later properties should be treated as if they were inherited from a ``parent'' font.  (For some properties, only the first encountered value is of any importance, for others the values might be cumulative, and for others they might be cumulative in a complex way.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1129
+msgid "Some examples:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1132
+#, no-wrap
+msgid ""
+"(hfy-face-to-style 'default) =>\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1141
+#, no-wrap
+msgid ""
+"  ((\"background\"      . \"rgb(0, 0, 0)\"      )\n"
+"   (\"color\"           . \"rgb(255, 255, 255)\")\n"
+"   (\"font-style\"      . \"normal\"            )\n"
+"   (\"font-weight\"     . \"500\"               )\n"
+"   (\"font-stretch\"    . \"normal\"            )\n"
+"   (\"font-family\"     . \"misc-fixed\"        )\n"
+"   (\"font-size\"       . \"13pt\"              )\n"
+"   (\"text-decoration\" . \"none\"              ))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1143
+#, no-wrap
+msgid ""
+"(hfy-face-to-style 'Info-title-3-face) =>\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1148
+#, no-wrap
+msgid ""
+"  ((\"font-weight\"     . \"700\"        )\n"
+"   (\"font-family\"     . \"helv\"       )\n"
+"   (\"font-size\"       . \"120%\"       )\n"
+"   (\"text-decoration\" . \"none\")      )\n"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1150
+#: ../../../../../doc/misc/htmlfontify.texi:1151
+#: ../../../../../doc/misc/htmlfontify.texi:1153
+#, no-wrap
+msgid "hfy-sheet-assoc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1156
+msgid "An assoc with elements of the form @samp{(face-name style-name . style-string)}.  The actual stylesheet for each page is derived from one of these."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1160
+#, no-wrap
+msgid ""
+"((default       \"default\" . \"@{ background: black; color: white@}\")\n"
+" (font-lock-string-face \"string\"  . \"@{ color: rgb(64,224,208) @}\"))\n"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1162
+#: ../../../../../doc/misc/htmlfontify.texi:1163
+#: ../../../../../doc/misc/htmlfontify.texi:1165
+#, no-wrap
+msgid "hfy-facemap-assoc"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1176
+msgid "An assoc of @code{(point . @var{face-symbol})} or @code{(point . @code{defface} attribute list)} and @code{(point . end)} elements, in descending order of point value (i.e., from the file's end to its beginning).  The map is in reverse order because inserting a @samp{<style>} tag (or any other string) at @var{point} invalidates the map for all entries with a greater value of point. By traversing the map from greatest to least @var{point}, we still invalidate the map as we go, but only those points we have already dealt with (and therefore no longer care about) will be invalid at any time."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1196
+#, no-wrap
+msgid ""
+"((64820 . end)\n"
+" (64744 . font-lock-comment-face)\n"
+" (64736 . end)\n"
+" (64722 . font-lock-string-face)\n"
+" (64630 . end)\n"
+" (64623 . font-lock-string-face)\n"
+" (64449 . end)\n"
+" ;; Big similar section elided.  You get the idea.\n"
+" (5459 . end)\n"
+" (5431 . (:inherit font-lock-keyword-face :background \"7e7e7e\"))\n"
+" (5431 . end)\n"
+" (4285 . font-lock-constant-face)\n"
+" (4285 . end)\n"
+" (4221 . font-lock-comment-face)\n"
+" (4221 . end)\n"
+" (4197 . font-lock-constant-face)\n"
+" (4197 . end)\n"
+" (1 . font-lock-comment-face))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:1207
+msgid "The following is a lump of code I use to fontify source code on my site, @url{http://rtfm.etla.org/} (which was the reason, incidentally, that Htmlfontify was written in the first place)."
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1210
+#, no-wrap
+msgid ""
+"(defvar rtfm-section nil)\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1225
+#, no-wrap
+msgid ""
+";; Constructs an appropriate header string to fit in with rtfm's\n"
+";; templating system, based on the file and the stylesheet string\n"
+"(defun rtfm-build-page-header (file style)\n"
+"  (format \"#define  TEMPLATE red+black.html\n"
+"#define  DEBUG    1\n"
+"#include <build/menu-dirlist|>\\n\n"
+"html-css-url := /css/red+black.css\n"
+"title        := rtfm.etla.org ( %s / src/%s )\n"
+"bodytag      :=\n"
+"head         <=STYLESHEET;\\n\n"
+"%s\n"
+"STYLESHEET\n"
+"main-title   := rtfm / %s / src/%s\\n\n"
+"main-content <=MAIN_CONTENT;\\n\" rtfm-section file style rtfm-section file))\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1228
+#, no-wrap
+msgid ""
+";; the footer:\n"
+"(defun rtfm-build-page-footer (file) \"\\nMAIN_CONTENT\\n\")\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1238
+#, no-wrap
+msgid ""
+"(defun rtfm-fontify-buffer (section)\n"
+"  (interactive \"s section[eg- emacs / p4-blame]: \")\n"
+"  (require 'htmlfontify)\n"
+"  (let ((hfy-page-header  'rtfm-build-page-header)\n"
+"\t(hfy-page-footer  'rtfm-build-page-footer)\n"
+"\t(rtfm-section                     section))\n"
+"    (htmlfontify-buffer)\n"
+"    )\n"
+"  )\n"
+"\n"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1257
+#, no-wrap
+msgid ""
+";; Here's the function I actually call---it asks me for a section label,\n"
+";; and source and destination directories, and then binds a couple of\n"
+";; customization variable in a let before calling htmlfontify:\n"
+"(defun rtfm-build-source-docs (section srcdir destdir)\n"
+"  (interactive\n"
+"   \"s section[eg- emacs / p4-blame]:\\nD source-dir: \\nD output-dir: \")\n"
+"  (require 'htmlfontify)\n"
+"  (hfy-load-tags-cache srcdir)\n"
+"  (let ((hfy-page-header  'rtfm-build-page-header)\n"
+"\t(hfy-page-footer  'rtfm-build-page-footer)\n"
+"\t(rtfm-section                     section)\n"
+"\t(hfy-index-file                   \"index\")\n"
+"\t(auto-mode-alist (append auto-mode-alist\n"
+"\t\t\t\t '((\"dbi\\\\(shell\\\\|gtk\\\\)$\" . cperl-mode)\n"
+"\t\t\t\t   (\"\\\\.xpm$\"               . c-mode    ))))\n"
+"\t)\n"
+"    (htmlfontify-run-etags srcdir)\n"
+"    (htmlfontify-copy-and-link-dir srcdir destdir \".src\" \".html\")))\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:1261
+#, no-wrap
+msgid "variables (customization)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:1264
+msgid "Htmlfontify provides the following variable and customization entries:"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1268
+#: ../../../../../doc/misc/htmlfontify.texi:1269
+#: ../../../../../doc/misc/htmlfontify.texi:1271
+#, no-wrap
+msgid "hfy-link-style-fun"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1277
+msgid "Set this to a function, which will be called with one argument (a @samp{@{ foo: bar; @dots{}@}} CSS style-string)---it should return a copy of its argument, altered so as to make any changes you want made for text which is a hyperlink, in addition to being in the class to which that style would normally be applied."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1278
+#: ../../../../../doc/misc/htmlfontify.texi:1279
+#: ../../../../../doc/misc/htmlfontify.texi:1281
+#, no-wrap
+msgid "hfy-html-quote-regex"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1286
+msgid "Regex to match (with a single back-reference per match) strings in HTML which should be quoted with @ref{hfy-html-quote} (and @pxref{hfy-html-quote-map}) to make them safe."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1287
+#: ../../../../../doc/misc/htmlfontify.texi:1288
+#: ../../../../../doc/misc/htmlfontify.texi:1290
+#, no-wrap
+msgid "hfy-page-footer"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1293
+msgid "As @ref{hfy-page-header}, but generates the output footer (and takes only 1 argument, the filename)."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1294
+#: ../../../../../doc/misc/htmlfontify.texi:1295
+#: ../../../../../doc/misc/htmlfontify.texi:1297
+#, no-wrap
+msgid "hfy-display-class"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1302
+msgid "Display class to use to determine which display class to use when calculating a face's attributes.  This is useful when, for example, you are running Emacs on a tty or in batch mode, and want Htmlfontify to have access to the face spec you would use if you were connected to an X display."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1304
+msgid "Some valid class specification elements are:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1314
+#, no-wrap
+msgid ""
+"  (class      color)\n"
+"  (class      grayscale)\n"
+"  (background dark)\n"
+"  (background light)\n"
+"  (type       x-toolkit)\n"
+"  (type       tty)\n"
+"  (type       motif)\n"
+"  (type       lucid)\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1319
+msgid "Multiple values for a tag may be combined, to indicate that any one or more of these values in the specification key constitutes a match.  For example, @code{((class color grayscale) (type tty))} would match any of:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1327
+#, no-wrap
+msgid ""
+"  ((class color))\n"
+"  ((class grayscale))\n"
+"  ((class color grayscale)))\n"
+"  ((class color foo))\n"
+"  ((type  tty))\n"
+"  ((type  tty) (class color))\n"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1329
+#: ../../../../../doc/misc/htmlfontify.texi:1330
+#: ../../../../../doc/misc/htmlfontify.texi:1332
+#, no-wrap
+msgid "hfy-page-header"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1338
+msgid "Function called with two arguments (the filename relative to the top level source directory being etagged and fontified), and a string containing the @samp{<style>@dots{}</style>} text to embed in the document---the string returned will be used as the header for the htmlfontified version of the source file."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1340
+msgid "See also: @ref{hfy-page-footer}"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1341
+#: ../../../../../doc/misc/htmlfontify.texi:1342
+#: ../../../../../doc/misc/htmlfontify.texi:1344
+#, no-wrap
+msgid "hfy-src-doc-link-style"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1346
+msgid "String to add to the @samp{<style> a} variant of an Htmlfontify CSS class."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1347
+#: ../../../../../doc/misc/htmlfontify.texi:1348
+#: ../../../../../doc/misc/htmlfontify.texi:1350
+#, no-wrap
+msgid "hfy-split-index"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1354
+msgid "Whether or not to split the index @ref{hfy-index-file} alphabetically on the first letter of each tag.  Useful when the index would otherwise be large and take a long time to render or be difficult to navigate."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1355
+#: ../../../../../doc/misc/htmlfontify.texi:1356
+#: ../../../../../doc/misc/htmlfontify.texi:1358
+#, no-wrap
+msgid "hfy-find-cmd"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1360
+msgid "The ``find'' command used to harvest a list of files to attempt to fontify."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1361
+#: ../../../../../doc/misc/htmlfontify.texi:1362
+#: ../../../../../doc/misc/htmlfontify.texi:1364
+#, no-wrap
+msgid "hfy-extn"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1366
+msgid "File extension used for output files."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1367
+#: ../../../../../doc/misc/htmlfontify.texi:1368
+#: ../../../../../doc/misc/htmlfontify.texi:1370
+#, no-wrap
+msgid "hfy-default-face-def"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1375
+msgid "Fallback @code{defface} specification for the face @code{default}, used when @ref{hfy-display-class} has been set (the normal Htmlfontify way of extracting potentially non-current face information doesn't necessarily work for @code{default})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1377
+msgid "For example, I customize this to:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/htmlfontify.texi:1380
+#, no-wrap
+msgid "((t :background \"black\" :foreground \"white\" :family \"misc-fixed\"))\n"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1382
+#: ../../../../../doc/misc/htmlfontify.texi:1383
+#: ../../../../../doc/misc/htmlfontify.texi:1385
+#, no-wrap
+msgid "hfy-init-kludge-hook"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1389
+msgid "List of functions to call when starting htmlfontify-buffer to do any kludging necessary to get highlighting modes to behave as you want, even when not running under a window system."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1390
+#: ../../../../../doc/misc/htmlfontify.texi:1391
+#: ../../../../../doc/misc/htmlfontify.texi:1393
+#, no-wrap
+msgid "hfy-shell-file-name"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1398
+msgid "Should be set to a Bourne compatible shell, which will be invoked for the more complex shell interactions needed by Htmlfontify.  Currently this is only required/used when using GNU etags, see @ref{hfy-etags-cmd-alist} for details."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1399
+#: ../../../../../doc/misc/htmlfontify.texi:1400
+#: ../../../../../doc/misc/htmlfontify.texi:1402
+#, no-wrap
+msgid "hfy-optimizations"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1404
+msgid "Optimizations to turn on.  So far, the following have been implemented:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1406
+#, no-wrap
+msgid "merge-adjacent-tags"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1409
+msgid "If two (or more) span tags are adjacent, identical and separated by nothing more than whitespace, they will be merged into one span."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1410
+#, no-wrap
+msgid "zap-comment-links"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1412
+msgid "Suppress hyperlinking of tags found in comments."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1413
+#, no-wrap
+msgid "zap-string-links"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1415
+msgid "Suppress hyperlinking of tags found in strings."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1416
+#, no-wrap
+msgid "div-wrapper"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1420
+msgid "Add @samp{<div class=\"default\"> </div>} tags around the fontified body.  (Some people like this because they cut and paste the html into a page with different colors than the fontified code.)"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1421
+#, no-wrap
+msgid "keep-overlays"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1425
+msgid "Preserve overlay highlighting (cf.@: @code{ediff} or @code{goo-font-lock})  as well as basic faces.  Can result in extremely verbose highlighting if there are many overlays (as is the case with @code{goo-font-lock})."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1429
+msgid "And the following are planned but not yet available:"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1431
+#, no-wrap
+msgid "kill-context-leak"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1433
+msgid "Suppress hyperlinking between files highlighted by different modes."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1441
+msgid "Note: like compiler optimizations, these optimize the @emph{output} of the code, not the processing of the source itself, and are therefore likely to slow Htmlfontify down, at least a little.  Except for skip-refontification, which can never slow you down, but may result in incomplete fontification."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1442
+#: ../../../../../doc/misc/htmlfontify.texi:1443
+#: ../../../../../doc/misc/htmlfontify.texi:1445
+#, no-wrap
+msgid "hfy-src-doc-link-unstyle"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1447
+msgid "Regex to remove from the @samp{<style> a} variant of an Htmlfontify CSS class."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1448
+#: ../../../../../doc/misc/htmlfontify.texi:1449
+#: ../../../../../doc/misc/htmlfontify.texi:1451
+#, no-wrap
+msgid "hfy-link-extn"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1456
+msgid "File extension used for href links---useful where the Htmlfontify output files are going to be processed again, with a resulting change in file extension.  If @code{nil}, then any code using this should fall back to @ref{hfy-extn}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1457
+#: ../../../../../doc/misc/htmlfontify.texi:1458
+#: ../../../../../doc/misc/htmlfontify.texi:1460
+#, no-wrap
+msgid "hfy-istext-command"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1464
+msgid "Command to run with the name of a file, to see whether it is a text file or not.  The command should emit a string containing the word @samp{text} if the file is a text file, and a string not containing @samp{text} otherwise."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1465
+#: ../../../../../doc/misc/htmlfontify.texi:1466
+#: ../../../../../doc/misc/htmlfontify.texi:1468
+#, no-wrap
+msgid "hfy-etags-cmd-alist"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1471
+msgid "An alist of possible shell commands that will generate etags output that Htmlfontify can use.  @samp{%s} will be replaced by @ref{hfy-etags-bin}."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1472
+#: ../../../../../doc/misc/htmlfontify.texi:1473
+#: ../../../../../doc/misc/htmlfontify.texi:1475
+#, no-wrap
+msgid "hfy-etags-bin"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1477
+msgid "The location of the etags binary (we begin by assuming it's in your path)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1480
+msgid "Note that if etags is not in your path, you will need to alter the shell commands in @ref{hfy-etags-cmd-alist}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1483
+msgid "[As of version 0.17, this requirement has been removed: it should all just work(tm).]"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1484
+#: ../../../../../doc/misc/htmlfontify.texi:1485
+#: ../../../../../doc/misc/htmlfontify.texi:1487
+#, no-wrap
+msgid "hfy-etags-cmd"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1491
+msgid "An etags shell command to run in the source directory to generate a tags file for the whole source tree from there on down.  The command should emit the etags output on standard output."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1494
+msgid "Two canned commands are provided---they drive Emacs's etags and exuberant-ctags's etags respectively."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1495
+#: ../../../../../doc/misc/htmlfontify.texi:1496
+#: ../../../../../doc/misc/htmlfontify.texi:1498
+#, no-wrap
+msgid "hfy-etag-regex"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1501
+msgid "Regex used to parse an etags entry: must have 3 subexps, corresponding, in order, to:"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/htmlfontify.texi:1505
+msgid "The tag"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/htmlfontify.texi:1507
+msgid "The line"
+msgstr ""
+
+#. type: enumerate
+#: ../../../../../doc/misc/htmlfontify.texi:1509
+msgid "The character (point) at which the tag occurs"
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1511
+#: ../../../../../doc/misc/htmlfontify.texi:1512
+#: ../../../../../doc/misc/htmlfontify.texi:1514
+#, no-wrap
+msgid "hfy-index-file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1517
+msgid "Name (sans extension) of the index file produced during fontification-and-hyperlinking."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1518
+#: ../../../../../doc/misc/htmlfontify.texi:1519
+#: ../../../../../doc/misc/htmlfontify.texi:1521
+#, no-wrap
+msgid "hfy-instance-file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1524
+msgid "Name (sans extension) of the tag usage index file produced during fontification-and-hyperlinking."
+msgstr ""
+
+#. type: anchor{#1}
+#: ../../../../../doc/misc/htmlfontify.texi:1525
+#: ../../../../../doc/misc/htmlfontify.texi:1526
+#: ../../../../../doc/misc/htmlfontify.texi:1528
+#, no-wrap
+msgid "hfy-html-quote-map"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/htmlfontify.texi:1530
+msgid "An alist of character -> entity mappings used to make the text html-safe."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/htmlfontify.texi:1536
+#, no-wrap
+msgid "Requirements, Prerequisites"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/htmlfontify.texi:1539
+msgid "Htmlfontify has a couple of external requirements:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1544
+msgid "GNU Emacs 20.7+ or 21.1+"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1548
+msgid "Other versions may work---these have been used successfully by the author.  If you intend to use Htmlfontify in batch mode, 21.1+ is pretty much required."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1553
+msgid "A copy of etags (exuberant-ctags or GNU etags).  Htmlfontify attempts to autodetect the version you have and customize itself accordingly, but you should be able to override this."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1555
+msgid "See: @ref{Customization}"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1558
+msgid "A copy of find (e.g., GNU find) that provides the @code{-path} predicate."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1561
+msgid "You may be able to work around this with a suitable clever shell command and the customization entry: @ref{hfy-find-cmd}"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1564
+msgid "A copy of sed (e.g., GNU sed)."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/htmlfontify.texi:1567
+msgid "A copy of the @code{file} command."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/htmlfontify.texi:1572
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1578
+#, no-wrap
+msgid "Concepts"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1581
+#, no-wrap
+msgid "Functions"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/htmlfontify.texi:1584
+#, no-wrap
+msgid "Variables & Customization"
+msgstr ""

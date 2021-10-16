@@ -1,0 +1,3179 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-17 05:35+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: section
+#: ../../../../../doc/misc/gnus-faq.texi:12
+#: ../../../../../doc/misc/gnus-faq.texi:13
+#, no-wrap
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "FAQ - Changes::"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:60
+#, no-wrap
+msgid "FAQ - Introduction"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "About Gnus and this FAQ."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:96
+#, no-wrap
+msgid "FAQ 1 - Installation FAQ"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Installation of Gnus."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:225
+#, no-wrap
+msgid "FAQ 2 - Startup / Group buffer"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Start up questions and the first buffer Gnus shows you."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:326
+#, no-wrap
+msgid "FAQ 3 - Getting Messages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Making Gnus read your mail and news."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:696
+#, no-wrap
+msgid "FAQ 4 - Reading messages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "How to efficiently read messages."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:1187
+#, no-wrap
+msgid "FAQ 5 - Composing messages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Composing mails or Usenet postings."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:1691
+#, no-wrap
+msgid "FAQ 6 - Old messages"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Importing, archiving, searching and deleting messages."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:1909
+#, no-wrap
+msgid "FAQ 7 - Gnus in a dial-up environment"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Reading mail and news while offline."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:2050
+#, no-wrap
+msgid "FAQ 8 - Getting help"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "When this FAQ isn't enough."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:2149
+#, no-wrap
+msgid "FAQ 9 - Tuning Gnus"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "How to make Gnus faster."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:35
+#: ../../../../../doc/misc/gnus-faq.texi:2250
+#, no-wrap
+msgid "FAQ - Glossary"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:35
+msgid "Terms used in the FAQ explained."
+msgstr ""
+
+#. type: subheading
+#: ../../../../../doc/misc/gnus-faq.texi:37
+#, no-wrap
+msgid "Abstract"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:40
+msgid "This is the new Gnus Frequently Asked Questions list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:43
+msgid "Please submit features and suggestions to the @email{ding@@gnus.org, ding list}."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:44
+#, no-wrap
+msgid "FAQ - Changes"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:45
+#, no-wrap
+msgid "Changes"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:55
+msgid "2008-06-15: Adjust for message-fill-column.  Add x-face-file.  Clarify difference between ding and gnu.emacs.gnus.  Remove reference to discontinued service."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:58
+msgid "2006-04-15: Added tip on how to delete sent buffer on exit."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:61
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:64
+msgid "This is the Gnus Frequently Asked Questions list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:72
+msgid "Gnus is a Usenet Newsreader and Electronic Mail User Agent implemented as a part of Emacs. It's been around in some form for almost a decade now, and has been distributed as a standard part of Emacs for much of that time. Gnus 5 is the latest (and greatest) incarnation. The original version was called GNUS, and was written by Masanobu UMEDA@.  When autumn crept up in '94, Lars Magne Ingebrigtsen grew bored and decided to rewrite Gnus."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:81
+msgid "Its biggest strength is the fact that it is extremely customizable. It is somewhat intimidating at first glance, but most of the complexity can be ignored until you're ready to take advantage of it. If you receive a reasonable volume of e-mail (you're on various mailing lists), or you would like to read high-volume mailing lists but cannot keep up with them, or read high volume newsgroups or are just bored, then Gnus is what you want."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:86
+msgid "This FAQ was maintained by Justin Sheehy until March 2002. He would like to thank Steve Baur and Per Abrahamsen for doing a wonderful job with this FAQ before him. We would like to do the same: thanks, Justin!"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:91
+msgid "This version is much nicer than the unofficial hypertext versions that are archived at Utrecht, Oxford, Smart Pages, Ohio State, and other FAQ archives. See the resources question below if you want information on obtaining it in another format."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:95
+msgid "The information contained here was compiled with the assistance of the Gnus development mailing list, and any errors or misprints are the Gnus team's fault, sorry."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:97
+#, no-wrap
+msgid "Installation FAQ"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:109
+#, no-wrap
+msgid "FAQ 1-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:113
+msgid "What is the latest version of Gnus?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:122
+#, no-wrap
+msgid "FAQ 1-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:126
+msgid "What's new in 5.10?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:156
+#, no-wrap
+msgid "FAQ 1-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:160
+msgid "Where and how to get Gnus?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:171
+#, no-wrap
+msgid "FAQ 1-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:175
+msgid "What to do with the tarball now?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:199
+#, no-wrap
+msgid "FAQ 1-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:204
+msgid "I sometimes read references to No Gnus and Oort Gnus, what are those?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:214
+#, no-wrap
+msgid "FAQ 1-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:107
+#: ../../../../../doc/misc/gnus-faq.texi:218
+msgid "Which version of Emacs do I need?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:110
+#, no-wrap
+msgid "Question 1.1"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:114
+#: ../../../../../doc/misc/gnus-faq.texi:127
+#: ../../../../../doc/misc/gnus-faq.texi:161
+#: ../../../../../doc/misc/gnus-faq.texi:176
+#: ../../../../../doc/misc/gnus-faq.texi:205
+#: ../../../../../doc/misc/gnus-faq.texi:219
+#: ../../../../../doc/misc/gnus-faq.texi:249
+#: ../../../../../doc/misc/gnus-faq.texi:267
+#: ../../../../../doc/misc/gnus-faq.texi:278
+#: ../../../../../doc/misc/gnus-faq.texi:297
+#: ../../../../../doc/misc/gnus-faq.texi:319
+#: ../../../../../doc/misc/gnus-faq.texi:359
+#: ../../../../../doc/misc/gnus-faq.texi:377
+#: ../../../../../doc/misc/gnus-faq.texi:417
+#: ../../../../../doc/misc/gnus-faq.texi:442
+#: ../../../../../doc/misc/gnus-faq.texi:459
+#: ../../../../../doc/misc/gnus-faq.texi:477
+#: ../../../../../doc/misc/gnus-faq.texi:496
+#: ../../../../../doc/misc/gnus-faq.texi:533
+#: ../../../../../doc/misc/gnus-faq.texi:630
+#: ../../../../../doc/misc/gnus-faq.texi:677
+#: ../../../../../doc/misc/gnus-faq.texi:689
+#: ../../../../../doc/misc/gnus-faq.texi:737
+#: ../../../../../doc/misc/gnus-faq.texi:771
+#: ../../../../../doc/misc/gnus-faq.texi:785
+#: ../../../../../doc/misc/gnus-faq.texi:797
+#: ../../../../../doc/misc/gnus-faq.texi:811
+#: ../../../../../doc/misc/gnus-faq.texi:832
+#: ../../../../../doc/misc/gnus-faq.texi:857
+#: ../../../../../doc/misc/gnus-faq.texi:876
+#: ../../../../../doc/misc/gnus-faq.texi:896
+#: ../../../../../doc/misc/gnus-faq.texi:965
+#: ../../../../../doc/misc/gnus-faq.texi:982
+#: ../../../../../doc/misc/gnus-faq.texi:998
+#: ../../../../../doc/misc/gnus-faq.texi:1021
+#: ../../../../../doc/misc/gnus-faq.texi:1065
+#: ../../../../../doc/misc/gnus-faq.texi:1110
+#: ../../../../../doc/misc/gnus-faq.texi:1177
+#: ../../../../../doc/misc/gnus-faq.texi:1225
+#: ../../../../../doc/misc/gnus-faq.texi:1255
+#: ../../../../../doc/misc/gnus-faq.texi:1281
+#: ../../../../../doc/misc/gnus-faq.texi:1315
+#: ../../../../../doc/misc/gnus-faq.texi:1366
+#: ../../../../../doc/misc/gnus-faq.texi:1408
+#: ../../../../../doc/misc/gnus-faq.texi:1433
+#: ../../../../../doc/misc/gnus-faq.texi:1498
+#: ../../../../../doc/misc/gnus-faq.texi:1549
+#: ../../../../../doc/misc/gnus-faq.texi:1578
+#: ../../../../../doc/misc/gnus-faq.texi:1595
+#: ../../../../../doc/misc/gnus-faq.texi:1617
+#: ../../../../../doc/misc/gnus-faq.texi:1632
+#: ../../../../../doc/misc/gnus-faq.texi:1710
+#: ../../../../../doc/misc/gnus-faq.texi:1737
+#: ../../../../../doc/misc/gnus-faq.texi:1786
+#: ../../../../../doc/misc/gnus-faq.texi:1833
+#: ../../../../../doc/misc/gnus-faq.texi:1859
+#: ../../../../../doc/misc/gnus-faq.texi:1895
+#: ../../../../../doc/misc/gnus-faq.texi:1928
+#: ../../../../../doc/misc/gnus-faq.texi:1971
+#: ../../../../../doc/misc/gnus-faq.texi:2003
+#: ../../../../../doc/misc/gnus-faq.texi:2039
+#: ../../../../../doc/misc/gnus-faq.texi:2068
+#: ../../../../../doc/misc/gnus-faq.texi:2087
+#: ../../../../../doc/misc/gnus-faq.texi:2100
+#: ../../../../../doc/misc/gnus-faq.texi:2112
+#: ../../../../../doc/misc/gnus-faq.texi:2132
+#: ../../../../../doc/misc/gnus-faq.texi:2145
+#: ../../../../../doc/misc/gnus-faq.texi:2163
+#: ../../../../../doc/misc/gnus-faq.texi:2198
+#: ../../../../../doc/misc/gnus-faq.texi:2242
+#, no-wrap
+msgid "Answer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:121
+msgid "Jingle please: Gnus 5.10 is released, get it while it's hot! As well as the step in version number is rather small, Gnus 5.10 has tons of new features which you shouldn't miss. The current release (5.13) should be at least as stable as the latest release of the 5.8 series."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:123
+#, no-wrap
+msgid "Question 1.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:134
+msgid "First of all, you should have a look into the file GNUS-NEWS in the toplevel directory of the Gnus tarball, there the most important changes are listed. Here's a short list of the changes I find especially important/interesting:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:140
+msgid "Major rewrite of the Gnus agent, Gnus agent is now active by default."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:144
+msgid "Many new article washing functions for dealing with ugly formatted articles."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:147
+msgid "Anti Spam features."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:150
+msgid "Message-utils now included in Gnus."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/gnus-faq.texi:154
+msgid "New format specifiers for summary lines, e.g., %B for a complex trn-style thread tree."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:157
+#, no-wrap
+msgid "Question 1.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:170
+msgid "Gnus is released independent from releases of Emacs.  Therefore, the version bundled with Emacs might not be up to date (e.g., Gnus 5.9 bundled with Emacs 21 is outdated).  You can get the latest released version of Gnus from @uref{https://www.gnus.org/dist/gnus.tar.gz} or from @uref{https://ftp.gnus.org/pub/gnus/gnus.tar.gz}."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:172
+#, no-wrap
+msgid "Question 1.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:188
+msgid "Untar it via @samp{tar xvzf gnus.tar.gz} and do the common @samp{./configure; make; make install} circle.  (under MS-Windows either get the Cygwin environment from @uref{https://www.cygwin.com} which allows you to do what's described above or unpack the tarball with some packer (e.g., Winace)  and use the batch-file make.bat included in the tarball to install Gnus.) If you don't want to (or aren't allowed to) install Gnus system-wide, you can install it in your home directory and add the following lines to your ~/.emacs:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:192
+#, no-wrap
+msgid ""
+"(add-to-list 'load-path \"/path/to/gnus/lisp\")\n"
+"(add-to-list 'Info-default-directory-list \"/path/to/gnus/texi/\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:198
+msgid "Make sure that you don't have any Gnus related stuff before this line, on MS Windows use something like \"C:/path/to/lisp\" (yes, \"/\")."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:200
+#, no-wrap
+msgid "Question 1.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:213
+msgid "Oort Gnus was the name of the development version of Gnus, which became Gnus 5.10 in autumn 2003. No Gnus is the name of the current development version which will once become Gnus 5.12 or Gnus 6. (If you're wondering why not 5.11, the odd version numbers are normally used for the Gnus versions bundled with Emacs)"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:215
+#, no-wrap
+msgid "Question 1.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:224
+msgid "Gnus 5.13 requires an Emacs version that is greater than or equal to Emacs 23.1, although there are some features that only work on Emacs 24."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:226
+#, no-wrap
+msgid "Startup / Group buffer"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:242
+#, no-wrap
+msgid "FAQ 2-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:248
+msgid "Every time I start Gnus I get a message \"Gnus auto-save file exists. Do you want to read it?\", what does this mean and how to prevent it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:261
+#, no-wrap
+msgid "FAQ 2-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:266
+msgid "Gnus doesn't remember which groups I'm subscribed to, what's this?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:273
+#, no-wrap
+msgid "FAQ 2-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:277
+msgid "How to change the format of the lines in Group buffer?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:290
+#, no-wrap
+msgid "FAQ 2-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:296
+msgid "My group buffer becomes a bit crowded, is there a way to sort my groups into categories so I can easier browse through them?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:313
+#, no-wrap
+msgid "FAQ 2-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:240
+#: ../../../../../doc/misc/gnus-faq.texi:318
+msgid "How to manually sort the groups in Group buffer? How to sort the groups in a topic?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:243
+#, no-wrap
+msgid "Question 2.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:256
+msgid "This message means that the last time you used Gnus, it wasn't properly exited and therefore couldn't write its information to disk (e.g., which messages you read), you are now asked if you want to restore that information from the auto-save file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:260
+msgid "To prevent this message make sure you exit Gnus via @samp{q} in group buffer instead of just killing Emacs."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:262
+#, no-wrap
+msgid "Question 2.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:272
+msgid "You get the message described in the q/a pair above while starting Gnus, right? It's another symptom for the same problem, so read the answer above."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:274
+#, no-wrap
+msgid "Question 2.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:284
+msgid "You've got to tweak the value of the variable gnus-group-line-format. See the manual node \"Group Line Specification\" for information on how to do this. An example for this (guess from whose .gnus :-)):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:287
+#, no-wrap
+msgid "(setq gnus-group-line-format \"%P%M%S[%5t]%5y : %(%g%)\\n\")\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:291
+#, no-wrap
+msgid "Question 2.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:304
+msgid "Gnus offers the topic mode, it allows you to sort your groups in, well, topics, e.g., all groups dealing with Linux under the topic linux, all dealing with music under the topic music and all dealing with scottish music under the topic scottish which is a subtopic of music."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:312
+msgid "To enter topic mode, just hit t while in Group buffer. Now you can use @samp{T n} to create a topic at point and @samp{T m} to move a group to a specific topic. For more commands see the manual or the menu. You might want to include the %P specifier at the beginning of your gnus-group-line-format variable to have the groups nicely indented."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:314
+#, no-wrap
+msgid "Question 2.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:325
+msgid "Move point over the group you want to move and hit @samp{C-k}, now move point to the place where you want the group to be and hit @samp{C-y}."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:327
+#, no-wrap
+msgid "Getting Messages"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:352
+#, no-wrap
+msgid "FAQ 3-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:358
+msgid "I just installed Gnus, started it via @samp{M-x gnus} but it only says \"nntp (news) open error\", what to do?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:372
+#, no-wrap
+msgid "FAQ 3-2"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:350
+msgid "I'm working under Windows and have no idea what ~/.gnus.el means."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:411
+#, no-wrap
+msgid "FAQ 3-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:416
+msgid "My news server requires authentication, how to store user name and password on disk?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:436
+#, no-wrap
+msgid "FAQ 3-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:441
+msgid "Gnus seems to start up OK, but I can't find out how to subscribe to a group."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:453
+#, no-wrap
+msgid "FAQ 3-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:458
+msgid "Gnus doesn't show all groups / Gnus says I'm not allowed to post on this server as well as I am, what's that?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:472
+#, no-wrap
+msgid "FAQ 3-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:476
+msgid "I want Gnus to fetch news from several servers, is this possible?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:491
+#, no-wrap
+msgid "FAQ 3-7"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:495
+msgid "And how about local spool files?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:527
+#, no-wrap
+msgid "FAQ 3-8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:532
+msgid "OK, reading news works now, but I want to be able to read my mail with Gnus, too. How to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:625
+#, no-wrap
+msgid "FAQ 3-9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:629
+msgid "And what about IMAP?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:671
+#, no-wrap
+msgid "FAQ 3-10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:676
+msgid "At the office we use one of those MS Exchange servers, can I use Gnus to read my mail from it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:683
+#, no-wrap
+msgid "FAQ 3-11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:350
+#: ../../../../../doc/misc/gnus-faq.texi:688
+msgid "Can I tell Gnus not to delete the mails on the server it retrieves via POP3?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:353
+#, no-wrap
+msgid "Question 3.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:364
+msgid "You've got to tell Gnus where to fetch the news from. Read the documentation for information on how to do this. As a first start, put those lines in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:369
+#, no-wrap
+msgid ""
+"(setq gnus-select-method '(nntp \"news.yourprovider.net\"))\n"
+"(setq user-mail-address \"you@@yourprovider.net\")\n"
+"(setq user-full-name \"Your Name\")\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:373
+#, no-wrap
+msgid "Question 3.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:376
+msgid "I'm working under Windows and have no idea what @file{~/.gnus.el} means."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:395
+msgid "The ~/ means the home directory where Gnus and Emacs look for the configuration files.  However, you don't really need to know what this means, it suffices that Emacs knows what it means :-) You can type @samp{C-x C-f ~/.gnus.el @key{RET}} (yes, with the forward slash, even on Windows), and Emacs will open the right file for you.  (It will most likely be new, and thus empty.)  However, I'd discourage you from doing so, since the directory Emacs chooses will most certainly not be what you want, so let's do it the correct way.  The first thing you've got to do is to create a suitable directory (no blanks in names please), e.g., c:\\myhome. Then you must set the environment variable HOME to this directory.  To do this under Windows 9x or Me include the line"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:398
+#, no-wrap
+msgid "SET HOME=C:\\myhome\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:406
+msgid "in your autoexec.bat and reboot.  Under NT, 2000 and XP, hit Winkey+Pause/Break to enter system options (if it doesn't work, go to Control Panel -> System -> Advanced). There you'll find the possibility to set environment variables.  Create a new one with name HOME and value C:\\myhome.  Rebooting is not necessary."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:410
+msgid "Now to create @file{~/.gnus.el}, say @samp{C-x C-f ~/.gnus.el @key{RET} C-x C-s}.  in Emacs."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:412
+#, no-wrap
+msgid "Question 3.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:420
+msgid "Create a file ~/.authinfo which includes for each server a line like this"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:423
+#, no-wrap
+msgid "machine news.yourprovider.net login YourUserName password YourPassword\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:429
+msgid ".  Make sure that the file isn't readable to others if you work on an OS which is capable of doing so.  (Under Unix say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:431
+#, no-wrap
+msgid "chmod 600 ~/.authinfo\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:435
+msgid "in a shell.)"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:437
+#, no-wrap
+msgid "Question 3.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:452
+msgid "If you know the name of the group say @samp{U name.of.group @key{RET}} in group buffer (use the tab-completion Luke). Otherwise hit ^ in group buffer, this brings you to the server buffer. Now place point (the cursor) over the server which carries the group you want, hit @samp{@key{RET}}, move point to the group you want to subscribe to and say @samp{u} to subscribe to it."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:454
+#, no-wrap
+msgid "Question 3.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:464
+msgid "Some providers allow restricted anonymous access and full access only after authorization. To make Gnus send authinfo to those servers append"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:467
+#, no-wrap
+msgid "force yes\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:471
+msgid "to the line for those servers in ~/.authinfo."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:473
+#, no-wrap
+msgid "Question 3.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:482
+msgid "Of course. You can specify more sources for articles in the variable gnus-secondary-select-methods. Add something like this in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:488
+#, no-wrap
+msgid ""
+"(add-to-list 'gnus-secondary-select-methods\n"
+"             '(nntp \"news.yourSecondProvider.net\"))\n"
+"(add-to-list 'gnus-secondary-select-methods\n"
+"             '(nntp \"news.yourThirdProvider.net\"))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:492
+#, no-wrap
+msgid "Question 3.7"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:500
+msgid "No problem, this is just one more select method called nnspool, so you want this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:503
+#, no-wrap
+msgid "(add-to-list 'gnus-secondary-select-methods '(nnspool \"\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:507
+msgid "Or this if you don't want an NNTP Server as primary news source:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:510
+#, no-wrap
+msgid "(setq gnus-select-method '(nnspool \"\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:515
+msgid "Gnus will look for the spool file in /usr/spool/news, if you want something different, change the line above to something like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:520
+#, no-wrap
+msgid ""
+"(add-to-list 'gnus-secondary-select-methods\n"
+"             '(nnspool \"\"\n"
+"                       (nnspool-directory \"/usr/local/myspoolddir\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:526
+msgid "This sets the spool directory for this server only.  You might have to specify more stuff like the program used to post articles, see the Gnus manual on how to do this."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:528
+#, no-wrap
+msgid "Question 3.8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:544
+msgid "That's a bit harder since there are many possible sources for mail, many possible ways for storing mail and many different ways for sending mail. The most common cases are these: 1: You want to read your mail from a pop3 server and send them directly to a SMTP Server 2: Some program like fetchmail retrieves your mail and stores it on disk from where Gnus shall read it. Outgoing mail is sent by Sendmail, Postfix or some other MTA@. Sometimes, you even need a combination of the above cases."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:553
+msgid "However, the first thing to do is to tell Gnus in which way it should store the mail, in Gnus terminology which back end to use. Gnus supports many different back ends, the most commonly used one is nnml. It stores every mail in one file and is therefore quite fast. However you might prefer a one file per group approach if your file system has problems with many small files, the nnfolder back end is then probably the choice for you.  To use nnml add the following to @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:556
+#, no-wrap
+msgid "(add-to-list 'gnus-secondary-select-methods '(nnml \"\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:560
+msgid "As you might have guessed, if you want nnfolder, it's"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:563
+#, no-wrap
+msgid "(add-to-list 'gnus-secondary-select-methods '(nnfolder \"\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:568
+msgid "Now we need to tell Gnus, where to get its mail from. If it's a POP3 server, then you need something like this:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:574
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"mail-source\"\n"
+"  (add-to-list 'mail-sources '(pop :server \"pop.YourProvider.net\"\n"
+"                                   :user \"yourUserName\"\n"
+"                                   :password \"yourPassword\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:580
+msgid "Make sure @file{~/.gnus.el} isn't readable to others if you store your password there. If you want to read your mail from a traditional spool file on your local machine, it's"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:584
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"mail-source\"\n"
+"  (add-to-list 'mail-sources '(file :path \"/path/to/spool/file\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:589
+msgid "If it's a Maildir, with one file per message as used by postfix, Qmail and (optionally) fetchmail it's"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:594
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"mail-source\"\n"
+"  (add-to-list 'mail-sources '(maildir :path \"/path/to/Maildir/\"\n"
+"                                       :subdirs (\"cur\" \"new\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:600
+msgid "And finally if you want to read your mail from several files in one directory, for example because procmail already split your mail, it's"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:606
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"mail-source\"\n"
+"  (add-to-list 'mail-sources\n"
+"               '(directory :path \"/path/to/procmail-dir/\"\n"
+"                           :suffix \".prcml\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:611
+msgid "Where :suffix \".prcml\" tells Gnus only to use files with the suffix .prcml."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:617
+msgid "OK, now you only need to tell Gnus how to send mail. If you want to send mail via sendmail (or whichever MTA is playing the role of sendmail on your system), you don't need to do anything. However, if you want to send your mail to an SMTP Server you need the following in your @file{~/.gnus.el}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:622
+#, no-wrap
+msgid ""
+"(setq send-mail-function 'smtpmail-send-it)\n"
+"(setq message-send-mail-function 'smtpmail-send-it)\n"
+"(setq smtpmail-default-smtp-server \"smtp.yourProvider.net\")\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:626
+#, no-wrap
+msgid "Question 3.9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:637
+msgid "There are two ways of using IMAP with Gnus. The first one is to use IMAP like POP3, that means Gnus fetches the mail from the IMAP server and stores it on disk. If you want to do this (you don't really want to do this) add the following to @file{~/.gnus.el}"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:646
+#, no-wrap
+msgid ""
+"(add-to-list 'mail-sources '(imap :server \"mail.mycorp.com\"\n"
+"                                  :user \"username\"\n"
+"                                  :pass \"password\"\n"
+"                                  :stream network\n"
+"                                  :authentication login\n"
+"                                  :mailbox \"INBOX\"\n"
+"                                  :fetchflag \"\\\\Seen\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:652
+msgid "You might have to tweak the values for stream and/or authentication, see the Gnus manual node \"Mail Source Specifiers\" for possible values."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:657
+msgid "If you want to use IMAP the way it's intended, you've got to follow a different approach.  You've got to add the nnimap back end to your select method and give the information about the server there."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:664
+#, no-wrap
+msgid ""
+"(add-to-list 'gnus-secondary-select-methods\n"
+"             '(nnimap \"Give the baby a name\"\n"
+"                      (nnimap-address \"imap.yourProvider.net\")\n"
+"                      (nnimap-port 143)\n"
+"                      (nnimap-list-pattern \"archive.*\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:670
+msgid "Again, you might have to specify how to authenticate to the server if Gnus can't guess the correct way, see the Manual Node \"IMAP\" for detailed information."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:672
+#, no-wrap
+msgid "Question 3.10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:682
+msgid "Offer your administrator a pair of new running shoes for activating IMAP on the server and follow the instructions above."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:684
+#, no-wrap
+msgid "Question 3.11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:695
+msgid "Yes, if the POP3 server supports the UIDL control (maybe almost servers do it nowadays).  To do that, add a @code{:leave @var{value}} pair to each POP3 mail source.  @xref{Mail Source Specifiers}, for details on @var{value}."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:697
+#, no-wrap
+msgid "Reading messages"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:732
+#, no-wrap
+msgid "FAQ 4-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:736
+msgid "When I enter a group, all read messages are gone. How to view them again?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:765
+#, no-wrap
+msgid "FAQ 4-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:770
+msgid "How to tell Gnus to show an important message every time I enter a group, even when it's read?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:780
+#, no-wrap
+msgid "FAQ 4-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:784
+msgid "How to view the headers of a message?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:792
+#, no-wrap
+msgid "FAQ 4-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:796
+msgid "How to view the raw unformatted message?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:805
+#, no-wrap
+msgid "FAQ 4-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:810
+msgid "How can I change the headers Gnus displays by default at the top of the article buffer?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:826
+#, no-wrap
+msgid "FAQ 4-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:831
+msgid "I'd like Gnus NOT to render HTML-mails but show me the text part if it's available. How to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:852
+#, no-wrap
+msgid "FAQ 4-7"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:730
+msgid "Can I use some other browser than shr to render my HTML-mails?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:870
+#, no-wrap
+msgid "FAQ 4-8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:875
+msgid "Is there anything I can do to make poorly formatted mails more readable?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:889
+#, no-wrap
+msgid "FAQ 4-9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:895
+msgid "Is there a way to automatically ignore posts by specific authors or with specific words in the subject? And can I highlight more interesting ones in some way?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:959
+#, no-wrap
+msgid "FAQ 4-10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:964
+msgid "How can I disable threading in some (e.g., mail-) groups, or set other variables specific for some groups?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:976
+#, no-wrap
+msgid "FAQ 4-11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:981
+msgid "Can I highlight messages written by me and follow-ups to those?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:991
+#, no-wrap
+msgid "FAQ 4-12"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:997
+msgid "The number of total messages in a group which Gnus displays in group buffer is by far to high, especially in mail groups. Is this a bug?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1015
+#, no-wrap
+msgid "FAQ 4-13"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1020
+msgid "I don't like the layout of summary and article buffer, how to change it? Perhaps even a three pane display?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1060
+#, no-wrap
+msgid "FAQ 4-14"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1064
+msgid "I don't like the way the Summary buffer looks, how to tweak it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1105
+#, no-wrap
+msgid "FAQ 4-15"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1109
+msgid "How to split incoming mails in several groups?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1172
+#, no-wrap
+msgid "FAQ 4-16"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:730
+#: ../../../../../doc/misc/gnus-faq.texi:1176
+msgid "How can I ensure more contrast when viewing HTML mail?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:733
+#, no-wrap
+msgid "Question 4.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:745
+msgid "If you enter the group by saying @samp{@key{RET}} in group buffer with point over the group, only unread and ticked messages are loaded. Say @samp{C-u @key{RET}} instead to load all available messages. If you want only the 300 newest say @samp{C-u 300 @key{RET}}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:747
+msgid "Loading only unread messages can be annoying if you have threaded view enabled, say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:750
+#, no-wrap
+msgid "(setq gnus-fetch-old-headers 'some)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:756
+msgid "in @file{~/.gnus.el} to load enough old articles to prevent teared threads, replace 'some with @code{t} to load all articles (Warning: Both settings enlarge the amount of data which is fetched when you enter a group and slow down the process of entering a group)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:760
+msgid "If you already use Gnus 5.10, you can say @samp{/o N} In summary buffer to load the last N messages, this feature is not available in 5.8.8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:764
+msgid "If you don't want all old messages, but the parent of the message you're just reading, you can say @samp{^}, if you want to retrieve the whole thread the message you're just reading belongs to, @samp{A T} is your friend."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:766
+#, no-wrap
+msgid "Question 4.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:779
+msgid "You can tick important messages. To do this hit @samp{u} while point is in summary buffer over the message. When you want to remove the mark, hit either @samp{d} (this deletes the tick mark and set's unread mark) or @samp{M c} (which deletes all marks for the message)."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:781
+#, no-wrap
+msgid "Question 4.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:791
+msgid "Say @samp{t} to show all headers, one more @samp{t} hides them again."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:793
+#, no-wrap
+msgid "Question 4.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:804
+msgid "Say @samp{C-u g} to show the raw message @samp{g} returns to normal view."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:806
+#, no-wrap
+msgid "Question 4.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:818
+msgid "The variable gnus-visible-headers controls which headers are shown, its value is a regular expression, header lines which match it are shown. So if you want author, subject, date, and if the header exists, Followup-To and MUA / NUA say this in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:823
+#, no-wrap
+msgid ""
+"(setq gnus-visible-headers\n"
+"      '(\"^From\" \"^Subject\" \"^Date\" \"^Newsgroups\" \"^Followup-To\"\n"
+"        \"^User-Agent\" \"^X-Newsreader\" \"^X-Mailer\"))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:827
+#, no-wrap
+msgid "Question 4.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:835
+msgid "Say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:840
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"mm-decode\"\n"
+"  (add-to-list 'mm-discouraged-alternatives \"text/html\")\n"
+"  (add-to-list 'mm-discouraged-alternatives \"text/richtext\"))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:844
+msgid "in @file{~/.gnus.el}. If you don't want HTML rendered, even if there's no text alternative add"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:847
+#, no-wrap
+msgid "(setq mm-automatic-display (remove \"text/html\" mm-automatic-display))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:851
+msgid "too."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:853
+#, no-wrap
+msgid "Question 4.7"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:856
+msgid "Can I use some other browser than w3m to render my HTML-mails?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:864
+msgid "Only if you use Gnus 5.10 or younger. In this case you've got the choice between shr, w3m, links, lynx and html2text, which one is used can be specified in the variable mm-text-html-renderer, so if you want links to render your mail say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:867
+#, no-wrap
+msgid "(setq mm-text-html-renderer 'links)\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:871
+#, no-wrap
+msgid "Question 4.8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:888
+msgid "Gnus offers you several functions to ``wash'' incoming mail, you can find them if you browse through the menu, item Article->Washing. The most interesting ones are probably ``Wrap long lines'' (@samp{W w}), ``Decode ROT13'' (@samp{W r}) and ``Outlook Deuglify'' which repairs the dumb quoting used by many users of Microsoft products (@samp{W Y f} gives you full deuglify.  See @samp{W Y C-h} or have a look at the menus for other deuglifications).  Outlook deuglify is only available since Gnus 5.10."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:890
+#, no-wrap
+msgid "Question 4.9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:903
+msgid "You want Scoring. Scoring means, that you define rules which assign each message an integer value. Depending on the value the message is highlighted in summary buffer (if it's high, say +2000) or automatically marked read (if the value is low, say @minus{}800) or some other action happens."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:922
+msgid "There are basically three ways of setting up rules which assign the scoring-value to messages. The first and easiest way is to set up rules based on the article you are just reading. Say you're reading a message by a guy who always writes nonsense and you want to ignore his messages in the future. Hit @samp{L}, to set up a rule which lowers the score.  Now Gnus asks you which the criteria for lowering the Score shall be. Hit @samp{?} twice to see all possibilities, we want @samp{a} which means the author (the from header). Now Gnus wants to know which kind of matching we want.  Hit either @samp{e} for an exact match or @samp{s} for substring-match and delete afterwards everything but the name to score down all authors with the given name no matter which email address is used. Now you need to tell Gnus when to apply the rule and how long it should last, hit @samp{p} to apply the rule now and let it last forever. If you want to raise the score instead of lowering it say @samp{I} instead of @samp{L}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:933
+msgid "You can also set up rules by hand. To do this say @samp{V f} in summary buffer. Then you are asked for the name of the score file, it's name.of.group.SCORE for rules valid in only one group or all.Score for rules valid in all groups. See the Gnus manual for the exact syntax, basically it's one big list whose elements are lists again. the first element of those lists is the header to score on, then one more list with what to match, which score to assign, when to expire the rule and how to do the matching. If you find me very interesting, you could add the following to your all.Score:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:937
+#, no-wrap
+msgid ""
+"((\"references\" (\"hschmi22.userfqdn.rz-online.de\" 500 nil s))\n"
+" (\"message-id\" (\"hschmi22.userfqdn.rz-online.de\" 999 nil s)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:944
+msgid "This would add 999 to the score of messages written by me and 500 to the score of messages which are a (possibly indirect) answer to a message written by me. Of course nobody with a sane mind would do this :-)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:951
+msgid "The third alternative is adaptive scoring. This means Gnus watches you and tries to find out what you find interesting and what annoying and sets up rules which reflect this. Adaptive scoring can be a huge help when reading high traffic groups. If you want to activate adaptive scoring say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:954
+#, no-wrap
+msgid "(setq gnus-use-adaptive-scoring t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:958
+#: ../../../../../doc/misc/gnus-faq.texi:1135
+#: ../../../../../doc/misc/gnus-faq.texi:1272
+msgid "in @file{~/.gnus.el}."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:960
+#, no-wrap
+msgid "Question 4.10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:975
+msgid "While in group buffer move point over the group and hit @samp{G c}, this opens a buffer where you can set options for the group. At the bottom of the buffer you'll find an item that allows you to set variables locally for the group. To disable threading enter gnus-show-threads as name of variable and @code{nil} as value. Hit button done at the top of the buffer when you're ready."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:977
+#, no-wrap
+msgid "Question 4.11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:990
+msgid "Stop those \"Can I ...\" questions, the answer is always yes in Gnus Country :-). It's a three step process: First we make faces (specifications of how summary-line shall look like) for those postings, then we'll give them some special score and finally we'll tell Gnus to use the new faces."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:992
+#, no-wrap
+msgid "Question 4.12"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1014
+msgid "No, that's a matter of design of Gnus, fixing this would mean reimplementation of major parts of Gnus' back ends. Gnus thinks ``highest-article-number @minus{} lowest-article-number = total-number-of-articles''. This works OK for Usenet groups, but if you delete and move many messages in mail groups, this fails. To cure the symptom, enter the group via @samp{C-u @key{RET}} (this makes Gnus get all messages), then hit @samp{M P b} to mark all messages and then say @samp{B m name.of.group} to move all messages to the group they have been in before, they get new message numbers in this process and the count is right again (until you delete and move your mail to other groups again)."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1016
+#, no-wrap
+msgid "Question 4.13"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1027
+msgid "You can control the windows configuration by calling the function gnus-add-configuration. The syntax is a bit complicated but explained very well in the manual node \"Window Layout\". Some popular examples:"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1031
+msgid "Instead 25% summary 75% article buffer 35% summary and 65% article (the 1.0 for article means \"take the remaining space\"):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1035
+#, no-wrap
+msgid ""
+"(gnus-add-configuration\n"
+" '(article (vertical 1.0 (summary .35 point) (article 1.0))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1040
+msgid "A three pane layout, Group buffer on the left, summary buffer top-right, article buffer bottom-right:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1057
+#, no-wrap
+msgid ""
+"(gnus-add-configuration\n"
+" '(article\n"
+"   (horizontal 1.0\n"
+"               (vertical 25\n"
+"                         (group 1.0))\n"
+"               (vertical 1.0\n"
+"                         (summary 0.25 point)\n"
+"                         (article 1.0)))))\n"
+"(gnus-add-configuration\n"
+" '(summary\n"
+"   (horizontal 1.0\n"
+"               (vertical 25\n"
+"                         (group 1.0))\n"
+"               (vertical 1.0\n"
+"                         (summary 1.0 point)))))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1061
+#, no-wrap
+msgid "Question 4.14"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1076
+msgid "You've got to play around with the variable gnus-summary-line-format. Its value is a string of symbols which stand for things like author, date, subject etc. A list of the available specifiers can be found in the manual node ``Summary Buffer Lines'' and the often forgotten node ``Formatting Variables'' and its sub-nodes. There you'll find useful things like positioning the cursor and tabulators which allow you a summary in table form, but sadly hard tabulators are broken in 5.8.8."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1081
+msgid "Since 5.10, Gnus offers you some very nice new specifiers, e.g., %B which draws a thread-tree and %&user-date which gives you a date where the details are dependent of the articles age. Here's an example which uses both:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1084
+#, no-wrap
+msgid "(setq gnus-summary-line-format \":%U%R %B %s %-60=|%4L |%-20,20f |%&user-date; \\n\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1088
+msgid "resulting in:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1102
+#, no-wrap
+msgid ""
+":O     Re: [Richard Stallman] rfc2047.el          |  13 |Lars Magne Ingebrigt |Sat 23:06\n"
+":O     Re: Revival of the ding-patches list       |  13 |Lars Magne Ingebrigt |Sat 23:12\n"
+":R  >  Re: Find correct list of articles for a gro|  25 |Lars Magne Ingebrigt |Sat 23:16\n"
+":O  \\->  ...                                      |  21 |Kai Grossjohann      | 0:01\n"
+":R  >  Re: Cry for help: deuglify.el - moving stuf|  28 |Lars Magne Ingebrigt |Sat 23:34\n"
+":O  \\->  ...                                      | 115 |Raymond Scholz       | 1:24\n"
+":O    \\->  ...                                    |  19 |Lars Magne Ingebrigt |15:33\n"
+":O     Slow mailing list                          |  13 |Lars Magne Ingebrigt |Sat 23:49\n"
+":O     Re: '@@' mark not documented                |  13 |Lars Magne Ingebrigt |Sat 23:50\n"
+":R  >  Re: Gnus still doesn't count messages prope|  23 |Lars Magne Ingebrigt |Sat 23:57\n"
+":O  \\->  ...                                      |  18 |Kai Grossjohann      | 0:35\n"
+":O    \\->  ...                                    |  13 |Lars Magne Ingebrigt | 0:56\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1106
+#, no-wrap
+msgid "Question 4.15"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1116
+msgid "Gnus offers two possibilities for splitting mail, the easy nnmail-split-methods and the more powerful Fancy Mail Splitting. I'll only talk about the first one, refer to the manual, node \"Fancy Mail Splitting\" for the latter."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1128
+msgid "The value of nnmail-split-methods is a list, each element is a list which stands for a splitting rule. Each rule has the form \"group where matching articles should go to\", \"regular expression which has to be matched\", the first rule which matches wins. The last rule must always be a general rule (regular expression .*) which denotes where articles should go which don't match any other rule. If the folder doesn't exist yet, it will be created as soon as an article lands there.  By default the mail will be send to all groups whose rules match. If you don't want that (you probably don't want), say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1131
+#, no-wrap
+msgid "(setq nnmail-crosspost nil)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1144
+msgid "An example might be better than thousand words, so here's my nnmail-split-methods. Note that I send duplicates in a special group and that the default group is spam, since I filter all mails out which are from some list I'm subscribed to or which are addressed directly to me before. Those rules kill about 80% of the Spam which reaches me (Email addresses are changed to prevent spammers from using them):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1169
+#, no-wrap
+msgid ""
+"(setq nnmail-split-methods\n"
+"  '((\"duplicates\" \"^Gnus-Warning:.*duplicate\")\n"
+"    (\"Emacs-devel\" \"^\\\\(To:\\\\|Cc:\\\\).*localpart@@gnu.invalid.*\")\n"
+"    (\"Gnus-Tut\" \"^\\\\(To:\\\\|Cc:\\\\).*localpart@@socha.invalid.*\")\n"
+"    (\"tcsh\" \"^\\\\(To:\\\\|Cc:\\\\).*localpart@@mx.gw.invalid.*\")\n"
+"    (\"BAfH\" \"^\\\\(To:\\\\|Cc:\\\\).*localpart@@.*uni-muenchen.invalid.*\")\n"
+"    (\"Hamster-src\" \"^\\\\(Cc:\\\\|To:\\\\).*hamster-sourcen@@yahoogroups.\\\\(de\\\\|com\\\\).*\")\n"
+"    (\"Tagesschau\" \"^From: tagesschau <localpart@@www.tagesschau.invalid>$\")\n"
+"    (\"Replies\" \"^\\\\(Cc:\\\\|To:\\\\).*localpart@@Frank-Schmitt.invalid.*\")\n"
+"    (\"EK\" \"^From:.*\\\\(localpart@@privateprovider.invalid\\\\|localpart@@workplace.invalid\\\\).*\")\n"
+"    (\"Spam\" \"^Content-Type:.*\\\\(ks_c_5601-1987\\\\|EUC-KR\\\\|big5\\\\|iso-2022-jp\\\\).*\")\n"
+"    (\"Spam\" \"^Subject:.*\\\\(This really work\\\\|XINGA\\\\|ADV:\\\\|XXX\\\\|adult\\\\|sex\\\\).*\")\n"
+"    (\"Spam\" \"^Subject:.*\\\\(\\=\\?ks_c_5601-1987\\?\\\\|\\=\\?euc-kr\\?\\\\|\\=\\?big5\\?\\\\).*\")\n"
+"    (\"Spam\" \"^X-Mailer:\\\\(.*BulkMailer.*\\\\|.*MIME::Lite.*\\\\|\\\\)\")\n"
+"    (\"Spam\" \"^X-Mailer:\\\\(.*CyberCreek Avalanche\\\\|.*http\\:\\/\\/GetResponse\\.com\\\\)\")\n"
+"    (\"Spam\" \"^From:.*\\\\(verizon\\.net\\\\|prontomail\\.com\\\\|money\\\\|ConsumerDirect\\\\).*\")\n"
+"    (\"Spam\" \"^Delivered-To: GMX delivery to spamtrap@@gmx.invalid$\")\n"
+"    (\"Spam\" \"^Received: from link2buy.com\")\n"
+"    (\"Spam\" \"^Cc: .*azzrael@@t-online.invalid\")\n"
+"    (\"Spam\" \"^X-Mailer-Version: 1.50 BETA\")\n"
+"    (\"Uni\" \"^\\\\(Cc:\\\\|To:\\\\).*localpart@@uni-koblenz.invalid.*\")\n"
+"    (\"Inbox\" \"^\\\\(Cc:\\\\|To:\\\\).*\\\\(my\\ name\\\\|address@@one.invalid\\\\|address@@two.invalid\\\\)\")\n"
+"    (\"Spam\" \"\")))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1173
+#, no-wrap
+msgid "Question 4.16"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1186
+msgid "Gnus' built-in simple HTML renderer (you use it if the value of @code{mm-text-html-renderer} is @code{shr}) uses the colors which are declared in the HTML mail.  However, it adjusts them in order to prevent situations like dark gray text on black background.  In case the results still have a too low contrast for you, increase the values of the variables @code{shr-color-visible-distance-min} and @code{shr-color-visible-luminance-min}."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:1188
+#, no-wrap
+msgid "Composing messages"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1220
+#, no-wrap
+msgid "FAQ 5-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1224
+msgid "What are the basic commands I need to know for sending mail and postings?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1250
+#, no-wrap
+msgid "FAQ 5-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1254
+msgid "How to enable automatic word-wrap when composing messages?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1276
+#, no-wrap
+msgid "FAQ 5-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1280
+msgid "How to set stuff like From, Organization, Reply-To, signature...?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1310
+#, no-wrap
+msgid "FAQ 5-4"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+msgid "Can I set things like From, Signature etc. group based on the group I post too?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1361
+#, no-wrap
+msgid "FAQ 5-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1365
+msgid "Is there a spell-checker? Perhaps even on-the-fly spell-checking?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1403
+#, no-wrap
+msgid "FAQ 5-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1407
+msgid "Can I set the dictionary based on the group I'm posting to?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1427
+#, no-wrap
+msgid "FAQ 5-7"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1432
+msgid "Is there some kind of address-book, so I needn't remember all those email addresses?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1491
+#, no-wrap
+msgid "FAQ 5-8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1497
+msgid "Sometimes I see little images at the top of article buffer. What's that and how can I send one with my postings, too?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1542
+#, no-wrap
+msgid "FAQ 5-9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1548
+msgid "Sometimes I accidentally hit r instead of f in newsgroups. Can Gnus warn me, when I'm replying by mail in newsgroups?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1573
+#, no-wrap
+msgid "FAQ 5-10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1577
+msgid "How to tell Gnus not to generate a sender header?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1589
+#, no-wrap
+msgid "FAQ 5-11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1594
+msgid "I want Gnus to locally store copies of my send mail and news, how to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1611
+#, no-wrap
+msgid "FAQ 5-12"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1616
+msgid "I want Gnus to kill the buffer after successful sending instead of keeping it alive as \"Sent mail to...\", how to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1626
+#, no-wrap
+msgid "FAQ 5-13"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1218
+#: ../../../../../doc/misc/gnus-faq.texi:1631
+msgid "People tell me my Message-IDs are not correct, why aren't they and how to fix it?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1221
+#, no-wrap
+msgid "Question 5.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1241
+msgid "To start composing a new mail hit @samp{m} either in Group or Summary buffer, for a posting, it's either @samp{a} in Group buffer and filling the Newsgroups header manually or @samp{a} in the Summary buffer of the group where the posting shall be send to. Replying by mail is @samp{r} if you don't want to cite the author, or import the cited text manually and @samp{R} to cite the text of the original message. For a follow up to a newsgroup, it's @samp{f} and @samp{F} (analogously to @samp{r} and @samp{R})."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1249
+msgid "Enter new headers above the line saying \"--text follows this line--\", enter the text below the line. When ready hit @samp{C-c C-c}, to send the message, if you want to finish it later hit @samp{C-c C-d} to save it in the drafts group, where you can start editing it again by saying @samp{D e}."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1251
+#, no-wrap
+msgid "Question 5.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1259
+msgid "Starting from No Gnus, automatic word-wrap is already enabled by default, see the variable message-fill-column."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1261
+msgid "For other versions of Gnus, say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1268
+#, no-wrap
+msgid ""
+"(unless (boundp 'message-fill-column)\n"
+"  (add-hook 'message-mode-hook\n"
+"            (lambda ()\n"
+"              (setq fill-column 72)\n"
+"              (turn-on-auto-fill))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1275
+msgid "You can reformat a paragraph by hitting @samp{M-q} (as usual)."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1277
+#, no-wrap
+msgid "Question 5.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1286
+msgid "There are other ways, but you should use posting styles for this. (See below why).  This example should make the syntax clear:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1296
+#, no-wrap
+msgid ""
+"(setq gnus-posting-styles\n"
+"  '((\".*\"\n"
+"     (name \"Frank Schmitt\")\n"
+"     (address \"me@@there.invalid\")\n"
+"     (organization \"Hamme net, kren mer och nimmi\")\n"
+"     (signature-file \"~/.signature\")\n"
+"     (\"X-SampleHeader\" \"foobar\")\n"
+"     (eval (setq some-variable \"Foo bar\")))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1309
+msgid "The \".*\" means that this settings are the default ones (see below), valid values for the first element of the following lists are signature, signature-file, organization, address, name or body.  The attribute name can also be a string.  In that case, this will be used as a header name, and the value will be inserted in the headers of the article; if the value is @code{nil}, the header name will be removed. You can also say (eval (foo bar)), then the function foo will be evaluated with argument bar and the result will be thrown away."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1311
+#, no-wrap
+msgid "Question 5.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1314
+msgid "Can I set things like From, Signature etc group based on the group I post too?"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1324
+msgid "That's the strength of posting styles. Before, we used \".*\" to set the default for all groups. You can use a regexp like \"^gmane\" and the following settings are only applied to postings you send to the gmane hierarchy, use \".*binaries\" instead and they will be applied to postings send to groups containing the string binaries in their name etc."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1331
+msgid "You can instead of specifying a regexp specify a function which is evaluated, only if it returns true, the corresponding settings take effect. Two interesting candidates for this are message-news-p which returns t if the current Group is a newsgroup and the corresponding message-mail-p."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1340
+msgid "Note that all forms that match are applied, that means in the example below, when I post to gmane.mail.spam.spamassassin.general, the settings under \".*\" are applied and the settings under message-news-p and those under \"^gmane\" and those under \"^gmane\\\\.mail\\\\.spam\\\\.spamassassin\\\\.general$\". Because of this put general settings at the top and specific ones at the bottom."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1358
+#, no-wrap
+msgid ""
+"(setq gnus-posting-styles\n"
+"      '((\".*\" ;;default\n"
+"         (name \"Frank Schmitt\")\n"
+"         (organization \"Hamme net, kren mer och nimmi\")\n"
+"         (signature-file \"~/.signature\"))\n"
+"        ((message-news-p) ;;Usenet news?\n"
+"         (address \"mySpamTrap@@Frank-Schmitt.invalid\")\n"
+"         (reply-to \"hereRealRepliesOnlyPlease@@Frank-Schmitt.invalid\"))\n"
+"        ((message-mail-p) ;;mail?\n"
+"         (address \"usedForMails@@Frank-Schmitt.invalid\"))\n"
+"        (\"^gmane\" ;;this is mail, too in fact\n"
+"         (address \"usedForMails@@Frank-Schmitt.invalid\")\n"
+"         (reply-to nil))\n"
+"        (\"^gmane\\\\.mail\\\\.spam\\\\.spamassassin\\\\.general$\"\n"
+"         (eval (set (make-local-variable 'message-sendmail-envelope-from)\n"
+"                    \"Azzrael@@rz-online.de\")))))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1362
+#, no-wrap
+msgid "Question 5.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1379
+msgid "You can use ispell.el to spell-check stuff in Emacs. So the first thing to do is to make sure that you've got either @uref{https://www.cs.hmc.edu/~geoff/ispell.html, ispell} or @uref{http://aspell.net, aspell} installed and in your Path. Then you need ispell.el and for on-the-fly spell-checking @uref{https://www-sop.inria.fr/members/Manuel.Serrano/flyspell/flyspell.html, flyspell.el}.  Ispell.el is shipped with Emacs, flyspell.el is shipped with Emacs, so there should be no need to install them manually."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1381
+msgid "Ispell.el assumes you use ispell, if you choose aspell say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1384
+#, no-wrap
+msgid "(setq ispell-program-name \"aspell\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1388
+msgid "in your Emacs configuration file."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1390
+msgid "If you want your outgoing messages to be spell-checked, say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1393
+#, no-wrap
+msgid "(add-hook 'message-send-hook 'ispell-message)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1397
+msgid "In your @file{~/.gnus.el}, if you prefer on-the-fly spell-checking say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1400
+#, no-wrap
+msgid "(add-hook 'message-mode-hook (lambda () (flyspell-mode 1)))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1404
+#, no-wrap
+msgid "Question 5.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1411
+msgid "Yes, say something like"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1421
+#, no-wrap
+msgid ""
+"(add-hook 'gnus-select-group-hook\n"
+"          (lambda ()\n"
+"            (cond\n"
+"             ((string-match\n"
+"               \"^de\\\\.\" (gnus-group-real-name gnus-newsgroup-name))\n"
+"              (ispell-change-dictionary \"deutsch8\"))\n"
+"             (t\n"
+"              (ispell-change-dictionary \"english\")))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1426
+msgid "in @file{~/.gnus.el}. Change \"^de\\\\.\" and \"deutsch8\" to something that suits your needs."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1428
+#, no-wrap
+msgid "Question 5.7"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1438
+msgid "There's a very basic solution for this, mail aliases.  You can store your mail addresses in a ~/.mailrc file using a simple alias syntax:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1441
+#, no-wrap
+msgid "alias al        \"Al <al@@english-heritage.invalid>\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1449
+msgid "Then typing your alias (followed by a space or punctuation character) on a To: or Cc: line in the message buffer will cause Gnus to insert the full address for you. See the node \"Mail Aliases\" in Message (not Gnus) manual for details."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1454
+msgid "However, what you really want is the Insidious Big Brother Database bbdb. Get it from @uref{http://bbdb.sourceforge.net/, bbdb's homepage}.  Now place the following in @file{~/.gnus.el}, to activate bbdb for Gnus:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1458
+#, no-wrap
+msgid ""
+"(require 'bbdb)\n"
+"(bbdb-initialize 'gnus 'message)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1463
+msgid "Now you probably want some general bbdb configuration, place them in ~/.emacs:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1477
+#, no-wrap
+msgid ""
+"(require 'bbdb)\n"
+";;If you don't live in Northern America, you should disable the\n"
+";;syntax check for telephone numbers by saying\n"
+"(setq bbdb-north-american-phone-numbers-p nil)\n"
+";;Tell bbdb about your email address:\n"
+"(setq bbdb-user-mail-names\n"
+"      (regexp-opt '(\"Your.Email@@here.invalid\"\n"
+"                    \"Your.other@@mail.there.invalid\")))\n"
+";;cycling while completing email addresses\n"
+"(setq bbdb-complete-name-allow-cycling t)\n"
+";;No popup-buffers\n"
+"(setq bbdb-use-pop-up nil)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1490
+msgid "Now you should be ready to go. Say @samp{M-x bbdb @key{RET} @key{RET}} to open a bbdb buffer showing all entries. Say @samp{c} to create a new entry, @samp{b} to search your BBDB and @samp{C-o} to add a new field to an entry. If you want to add a sender to the BBDB you can also just hit @kbd{:} on the posting in the summary buffer and you are done. When you now compose a new mail, hit @samp{TAB} to cycle through know recipients."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1492
+#, no-wrap
+msgid "Question 5.8"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1510
+msgid "Those images are called X-Faces. They are 48*48 pixel b/w pictures, encoded in a header line. If you want to include one in your posts, you've got to convert some image to a X-Face. So fire up some image manipulation program (say Gimp), open the image you want to include, cut out the relevant part, reduce color depth to 1 bit, resize to 48*48 and save as bitmap. Now you should get the compface package from @uref{ftp://ftp.cs.indiana.edu/pub/faces/, this site}.  and create the actual X-face by saying"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1514
+#, no-wrap
+msgid ""
+"cat file.xbm | xbm2ikon | compface > file.face\n"
+"cat file.face | sed 's/[\"\\\\]/\\\\&/g' > file.face.quoted\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1523
+msgid "If you can't use compface, there's an online X-face converter at @uref{https://www.dairiki.org/xface/}.  If you use MS Windows, you could also use the WinFace program, which used to be available from @indicateurl{http://www.xs4all.nl/~walterln/winface/}.  Now you only have to tell Gnus to include the X-face in your postings by saying"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1530
+#, no-wrap
+msgid ""
+"(setq message-default-headers\n"
+"        (with-temp-buffer\n"
+"          (insert \"X-Face: \")\n"
+"          (insert-file-contents \"~/.xface\")\n"
+"          (buffer-string)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1534
+msgid "in @file{~/.gnus.el}.  If you use Gnus 5.10, you can simply add an entry"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1537
+#, no-wrap
+msgid "(x-face-file \"~/.xface\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1541
+msgid "to gnus-posting-styles."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1543
+#, no-wrap
+msgid "Question 5.9"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1552
+msgid "Put this in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1555
+#, no-wrap
+msgid "(setq gnus-confirm-mail-reply-to-news t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1560
+msgid "if you already use Gnus 5.10, if you still use 5.8.8 or 5.9 try this instead:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1570
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"gnus-msg\"\n"
+"  (unless (boundp 'gnus-confirm-mail-reply-to-news)\n"
+"    (defadvice gnus-summary-reply (around reply-in-news activate)\n"
+"      \"Request confirmation when replying to news.\"\n"
+"      (interactive)\n"
+"      (when (or (not (gnus-news-group-p gnus-newsgroup-name))\n"
+"                (y-or-n-p \"Really reply by mail to article author? \"))\n"
+"        ad-do-it))))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1574
+#, no-wrap
+msgid "Question 5.10"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1582
+msgid "Since 5.10 Gnus doesn't generate a sender header by default. For older Gnus' try this in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1586
+#: ../../../../../doc/misc/gnus-faq.texi:2188
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (add-to-list 'message-syntax-checks '(sender . disabled)))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1590
+#, no-wrap
+msgid "Question 5.11"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1602
+msgid "You must set the variable gnus-message-archive-group to do this. You can set it to a string giving the name of the group where the copies shall go or like in the example below use a function which is evaluated and which returns the group to use."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1608
+#, no-wrap
+msgid ""
+"(setq gnus-message-archive-group\n"
+"        '((if (message-news-p)\n"
+"              \"nnml:Send-News\"\n"
+"            \"nnml:Send-Mail\")))\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1612
+#, no-wrap
+msgid "Question 5.12"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1620
+msgid "Add this to your ~/.gnus:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1623
+#, no-wrap
+msgid "(setq message-kill-buffer-on-exit t)\n"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1627
+#, no-wrap
+msgid "Question 5.13"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1640
+msgid "The message-ID is a unique identifier for messages you send. To make it unique, Gnus need to know which machine name to put after the \"@@\". If the name of the machine where Gnus is running isn't suitable (it probably isn't at most private machines) you can tell Gnus what to use by saying:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1643
+#, no-wrap
+msgid "(setq message-user-fqdn \"yourmachine.yourdomain.tld\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1648
+msgid "in @file{~/.gnus.el}.  If you use Gnus 5.9 or earlier, you can use this instead (works for newer versions as well):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1658
+#, no-wrap
+msgid ""
+"(with-eval-after-load \"message\"\n"
+"  (let ((fqdn \"yourmachine.yourdomain.tld\"));; <-- Edit this!\n"
+"    (if (boundp 'message-user-fqdn)\n"
+"        (setq message-user-fqdn fqdn)\n"
+"      (gnus-message 1 \"Redefining `message-make-fqdn'.\")\n"
+"      (defun message-make-fqdn ()\n"
+"        \"Return user's fully qualified domain name.\"\n"
+"        fqdn))))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1669
+msgid "If you have no idea what to insert for \"yourmachine.yourdomain.tld\", you've got several choices. You can either ask your provider if he allows you to use something like yourUserName.userfqdn.provider.net, or you can use somethingUnique.yourdomain.tld if you own the domain yourdomain.tld, or you can register at a service which gives private users a FQDN for free."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1672
+msgid "Finally you can tell Gnus not to generate a Message-ID for News at all (and letting the server do the job) by saying"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1676
+#, no-wrap
+msgid ""
+"(setq message-required-news-headers\n"
+"  (remove' Message-ID message-required-news-headers))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1680
+msgid "you can also tell Gnus not to generate Message-IDs for mail by saying"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1684
+#, no-wrap
+msgid ""
+"(setq message-required-mail-headers\n"
+"  (remove' Message-ID message-required-mail-headers))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1690
+msgid ", however some mail servers don't generate proper Message-IDs, too, so test if your Mail Server behaves correctly by sending yourself a Mail and looking at the Message-ID."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:1692
+#, no-wrap
+msgid "Old messages"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1705
+#, no-wrap
+msgid "FAQ 6-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1709
+msgid "How to import my old mail into Gnus?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1732
+#, no-wrap
+msgid "FAQ 6-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1736
+msgid "How to archive interesting messages?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1781
+#, no-wrap
+msgid "FAQ 6-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1785
+msgid "How to search for a specific message?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1828
+#, no-wrap
+msgid "FAQ 6-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1832
+msgid "How to get rid of old unwanted mail?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1853
+#, no-wrap
+msgid "FAQ 6-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1858
+msgid "I want that all read messages are expired (at least in some groups). How to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1889
+#, no-wrap
+msgid "FAQ 6-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1703
+#: ../../../../../doc/misc/gnus-faq.texi:1894
+msgid "I don't want expiration to delete my mails but to move them to another group."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1706
+#, no-wrap
+msgid "Question 6.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1717
+msgid "The easiest way is to tell your old mail program to export the messages in mbox format. Most Unix mailers are able to do this, if you come from the MS Windows world, you may find tools at @uref{https://sourceforge.net/projects/mbx2mbox/}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1731
+msgid "Now you've got to import this mbox file into Gnus. To do this, create a nndoc group based on the mbox file by saying @samp{G f /path/file.mbox @key{RET}} in Group buffer. You now have read-only access to your mail. If you want to import the messages to your normal Gnus mail groups hierarchy, enter the nndoc group you've just created by saying @samp{C-u @key{RET}} (thus making sure all messages are retrieved), mark all messages by saying @samp{M P b} and either copy them to the desired group by saying @samp{B c name.of.group @key{RET}} or send them through nnmail-split-methods (respool them) by saying @samp{B r}."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1733
+#, no-wrap
+msgid "Question 6.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1747
+msgid "If you stumble across an interesting message, say in gnu.emacs.gnus and want to archive it there are several solutions. The first and easiest is to save it to a file by saying @samp{O f}. However, wouldn't it be much more convenient to have more direct access to the archived message from Gnus? If you say yes, put this snippet by Frank Haun <pille3003@@fhaun.de> in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1753
+#, no-wrap
+msgid ""
+"(defun my-archive-article (&optional n)\n"
+"  \"Copies one or more article(s) to a corresponding `nnml:' group, e.g.,\n"
+"`gnus.ding' goes to `nnml:1.gnus.ding'. And `nnml:List-gnus.ding' goes\n"
+"to `nnml:1.List-gnus-ding'.\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1762
+#, no-wrap
+msgid ""
+"Use process marks or mark a region in the summary buffer to archive\n"
+"more then one article.\"\n"
+"  (interactive \"P\")\n"
+"  (let ((archive-name\n"
+"         (format\n"
+"          \"nnml:1.%s\"\n"
+"          (replace-in-string gnus-newsgroup-name \"^.*:\" \"\"))))\n"
+"    (gnus-summary-copy-article n archive-name)))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1769
+msgid "You can now say @samp{M-x my-archive-article} in summary buffer to archive the article under the cursor in a nnml group. (Change nnml to your preferred back end)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1771
+msgid "Of course you can also make sure the cache is enabled by saying"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1774
+#, no-wrap
+msgid "(setq gnus-use-cache t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1780
+msgid "then you only have to set either the tick or the dormant mark for articles you want to keep, setting the read mark will remove them from cache."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1782
+#, no-wrap
+msgid "Question 6.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1798
+msgid "There are several ways for this, too. For a posting from a Usenet group the easiest solution is probably to ask @uref{https://groups.google.com, groups.google.com}, if you found the posting there, tell Google to display the raw message, look for the message-id, and say @samp{M-^ the@@message.id @key{RET}} in a summary buffer.  Since Gnus 5.10 there's also a Gnus interface for groups.google.com which you can call with @samp{G W}) in group buffer."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1808
+msgid "Another idea which works for both mail and news groups is to enter the group where the message you are searching is and use the standard Emacs search @samp{C-s}, it's smart enough to look at articles in collapsed threads, too. If you want to search bodies, too try @samp{M-s} instead. Further on there are the gnus-summary-limit-to-foo functions, which can help you, too."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1820
+msgid "Of course you can also use grep to search through your local mail, but this is both slow for big archives and inconvenient since you are not displaying the found mail in Gnus.  Here nnir comes into action.  Nnir is a front end to search engines like swish-e or swish++ and others.  You index your mail with one of those search engines and with the help of nnir you can search through the indexed mail and generate a temporary group with all messages which met your search criteria.  If this sounds cool to you, get nnir.el from"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1827
+msgid "@uref{ftp://ftp.is.informatik.uni-duisburg.de/pub/src/emacs/}.  Instructions on how to use it are at the top of the file."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1829
+#, no-wrap
+msgid "Question 6.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1843
+msgid "You can of course just mark the mail you don't need anymore by saying @samp{#} with point over the mail and then say @samp{B @key{DEL}} to get rid of them forever. You could also instead of actually deleting them, send them to a junk-group by saying @samp{B m nnml:trash-bin} which you clear from time to time, but both are not the intended way in Gnus."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1852
+msgid "In Gnus, we let mail expire like news expires on a news server. That means you tell Gnus the message is expirable (you tell Gnus \"I don't need this mail anymore\") by saying @samp{E} with point over the mail in summary buffer. Now when you leave the group, Gnus looks at all messages which you marked as expirable before and if they are old enough (default is older than a week) they are deleted."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1854
+#, no-wrap
+msgid "Question 6.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1870
+msgid "If you want all read messages to be expired (e.g., in mailing lists where there's an online archive), you've got two choices: auto-expire and total-expire. Auto-expire means, that every article which has no marks set and is selected for reading is marked as expirable, Gnus hits @samp{E} for you every time you read a message. Total-expire follows a slightly different approach, here all article where the read mark is set are expirable."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1876
+msgid "To activate auto-expire, include auto-expire in the Group parameters for the group. (Hit @samp{G c} in summary buffer with point over the group to change group parameters). For total-expire add total-expire to the group-parameters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1881
+msgid "Which method you choose is merely a matter of taste: Auto-expire is faster, but it doesn't play together with Adaptive Scoring, so if you want to use this feature, you should use total-expire."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1888
+msgid "If you want a message to be excluded from expiration in a group where total or auto expire is active, set either tick (hit @samp{u}) or dormant mark (hit @samp{u}), when you use auto-expire, you can also set the read mark (hit @samp{d})."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1890
+#, no-wrap
+msgid "Question 6.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1898
+msgid "Say something like this in @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1901
+#, no-wrap
+msgid "(setq nnmail-expiry-target \"nnml:expired\")\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1908
+msgid "(If you want to change the value of nnmail-expiry-target on a per group basis see the question \"How can I disable threading in some (e.g., mail-) groups, or set other variables specific for some groups?\")"
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:1910
+#, no-wrap
+msgid "Gnus in a dial-up environment"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:1922
+#, no-wrap
+msgid "FAQ 7-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:1927
+msgid "I don't have a permanent connection to the net, how can I minimize the time I've got to be connected?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:1966
+#, no-wrap
+msgid "FAQ 7-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:1970
+msgid "So what was this thing about the Agent?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:1998
+#, no-wrap
+msgid "FAQ 7-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:2002
+msgid "I want to store article bodies on disk, too. How to do it?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:2033
+#, no-wrap
+msgid "FAQ 7-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1920
+#: ../../../../../doc/misc/gnus-faq.texi:2038
+msgid "How to tell Gnus not to try to send mails / postings while I'm offline?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1923
+#, no-wrap
+msgid "Question 7.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1935
+msgid "You've got basically two options: Either you use the Gnus Agent (see below) for this, or you can install programs which fetch your news and mail to your local disk and Gnus reads the stuff from your local machine."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1941
+msgid "If you want to follow the second approach, you need a program which fetches news and offers them to Gnus, a program which does the same for mail and a program which receives the mail you write from Gnus and sends them when you're online."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1957
+msgid "Let's talk about Unix systems first: For the news part, the easiest solution is a small nntp server like @uref{http://www.leafnode.org/, Leafnode} or @uref{http://patrik.iki.fi/sn/, sn}, of course you can also install a full featured news server like @uref{https://www.isc.org/othersoftware/, inn}.  Then you want to fetch your Mail, popular choices are @uref{http://www.fetchmail.info/, fetchmail} and @uref{http://pyropus.ca/software/getmail/, getmail}.  You should tell those to write the mail to your disk and Gnus to read it from there. Last but not least the mail sending part: This can be done with every MTA like @uref{https://www.proofpoint.com/us/open-source-email-solution, sendmail} or @uref{https://www.exim.org/, exim}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1965
+msgid "On windows boxes I'd vote for @uref{http://www.tglsoft.de/freeware_hamster.html, Hamster}, it's a small freeware, open-source program which fetches your mail and news from remote servers and offers them to Gnus (or any other mail and/or news reader) via nntp respectively POP3 or IMAP@. It also includes a smtp server for receiving mails from Gnus."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1967
+#, no-wrap
+msgid "Question 7.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1979
+msgid "The Gnus agent is part of Gnus, it allows you to fetch mail and news and store them on disk for reading them later when you're offline. It kind of mimics offline newsreaders like Forte Agent. If you want to use the Agent place the following in @file{~/.gnus.el} if you are still using 5.8.8 or 5.9 (it's the default since 5.10):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:1982
+#, no-wrap
+msgid "(setq gnus-agent t)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:1997
+msgid "Now you've got to select the servers whose groups can be stored locally.  To do this, open the server buffer (that is press @samp{^} while in the group buffer).  Now select a server by moving point to the line naming that server.  Finally, agentize the server by typing @samp{J a}.  If you make a mistake, or change your mind, you can undo this action by typing @samp{J r}.  When you're done, type 'q' to return to the group buffer.  Now the next time you enter a group on an agentized server, the headers will be stored on disk and read from there the next time you enter the group."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:1999
+#, no-wrap
+msgid "Question 7.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2012
+msgid "You can tell the agent to automatically fetch the bodies of articles which fulfill certain predicates, this is done in a special buffer which can be reached by saying @samp{J c} in group buffer. Please refer to the documentation for information which predicates are possible and how exactly to do it."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2032
+msgid "Further on you can tell the agent manually which articles to store on disk. There are two ways to do this: Number one: In the summary buffer, process mark a set of articles that shall be stored in the agent by saying @samp{#} with point over the article and then type @samp{J s}. The other possibility is to set, again in the summary buffer, downloadable (%) marks for the articles you want by typing @samp{@@} with point over the article and then typing @samp{J u}.  What's the difference? Well, process marks are erased as soon as you exit the summary buffer while downloadable marks are permanent.  You can actually set downloadable marks in several groups then use fetch session ('J s' in the GROUP buffer) to fetch all of those articles.  The only downside is that fetch session also fetches all of the headers for every selected group on an agentized server.  Depending on the volume of headers, the initial fetch session could take hours."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2034
+#, no-wrap
+msgid "Question 7.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2049
+msgid "All you've got to do is to tell Gnus when you are online (plugged) and when you are offline (unplugged), the rest works automatically. You can toggle plugged/unplugged state by saying @samp{J j} in group buffer. To start Gnus unplugged say @samp{M-x gnus-unplugged} instead of @samp{M-x gnus}. Note that for this to work, the agent must be active."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:2051
+#, no-wrap
+msgid "Getting help"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2063
+#, no-wrap
+msgid "FAQ 8-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2067
+msgid "How to find information and help inside Emacs?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2081
+#, no-wrap
+msgid "FAQ 8-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2086
+msgid "I can't find anything in the Gnus manual about X (e.g., attachments, PGP, MIME...), is it not documented?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2095
+#, no-wrap
+msgid "FAQ 8-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2099
+msgid "Which websites should I know?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2107
+#, no-wrap
+msgid "FAQ 8-4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2111
+msgid "Which mailing lists and newsgroups are there?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2127
+#, no-wrap
+msgid "FAQ 8-5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2131
+msgid "Where to report bugs?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2140
+#, no-wrap
+msgid "FAQ 8-6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2061
+#: ../../../../../doc/misc/gnus-faq.texi:2144
+msgid "I need real-time help, where to find it?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2064
+#, no-wrap
+msgid "Question 8.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2080
+msgid "The first stop should be the Gnus manual (Say @samp{C-h i d m Gnus @key{RET}} to start the Gnus manual, then walk through the menus or do a full-text search with @samp{s}). Then there are the general Emacs help commands starting with C-h, type @samp{C-h ? ?} to get a list of all available help commands and their meaning. Finally @samp{M-x apropos-command} lets you search through all available functions and @samp{M-x apropos} searches the bound variables."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2082
+#, no-wrap
+msgid "Question 8.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2094
+msgid "There's not only the Gnus manual but also the manuals for message, emacs-mime, sieve, EasyPG Assistant, and pgg. Those packages are distributed with Gnus and used by Gnus but aren't really part of core Gnus, so they are documented in different info files, you should have a look in those manuals, too."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2096
+#, no-wrap
+msgid "Question 8.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2104
+msgid "The most important one is the @uref{https://www.gnus.org, official Gnus website}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2106
+msgid "Tell me about other sites which are interesting."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2108
+#, no-wrap
+msgid "Question 8.4"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2117
+msgid "There's the newsgroup gnu.emacs.gnus which deals with general Gnus questions.  If you have questions about development versions of Gnus, you should better ask on the ding mailing list, see below."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2123
+msgid "If you want to stay in the big8, news.software.readers is also read by some Gnus users (but chances for qualified help are much better in the above groups).  If you speak German, there's de.comm.software.gnus."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2126
+msgid "The ding mailing list (ding@@gnus.org) deals with development of Gnus."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2128
+#, no-wrap
+msgid "Question 8.5"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2139
+msgid "Say @samp{M-x gnus-bug}, this will start a message to the @email{bugs@@gnus.org, gnus bug mailing list} including information about your environment which make it easier to help you."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2141
+#, no-wrap
+msgid "Question 8.6"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2148
+msgid "Point your IRC client to irc.freenode.net, channel #gnus."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:2150
+#, no-wrap
+msgid "Tuning Gnus"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2158
+#, no-wrap
+msgid "FAQ 9-1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2162
+msgid "Starting Gnus is really slow, how to speed it up?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2193
+#, no-wrap
+msgid "FAQ 9-2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2197
+msgid "How to speed up the process of entering a group?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2237
+#, no-wrap
+msgid "FAQ 9-3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2156
+#: ../../../../../doc/misc/gnus-faq.texi:2241
+msgid "Sending mail becomes slower and slower, what's up?"
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2159
+#, no-wrap
+msgid "Question 9.1"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2175
+msgid "The reason for this could be the way Gnus reads its active file, see the node \"The Active File\" in the Gnus manual for things you might try to speed the process up.  An other idea would be to byte compile your @file{~/.gnus.el} (say @samp{M-x byte-compile-file @key{RET} ~/.gnus.el @key{RET}} to do it). Finally, if you have require statements in your .gnus, you could replace them with @code{with-eval-after-load}, which loads the stuff not at startup time, but when it's needed. Say you've got this in your @file{~/.gnus.el}:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:2179
+#, no-wrap
+msgid ""
+"(require 'message)\n"
+"(add-to-list 'message-syntax-checks '(sender . disabled))\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2184
+msgid "then as soon as you start Gnus, message.el is loaded. If you replace it with"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2192
+msgid "it's loaded when it's needed."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2194
+#, no-wrap
+msgid "Question 9.2"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2204
+msgid "A speed killer is setting the variable gnus-fetch-old-headers to anything different from @code{nil}, so don't do this if speed is an issue. To speed up building of summary say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:2207
+#, no-wrap
+msgid "(gnus-compile)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2215
+msgid "at the bottom of your @file{~/.gnus.el}, this will make gnus byte-compile things like gnus-summary-line-format.  then you could increase the value of gc-cons-threshold by saying something like"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:2218
+#, no-wrap
+msgid "(setq gc-cons-threshold 3500000)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2224
+msgid "in ~/.emacs. If you don't care about width of CJK characters or use Gnus 5.10 or younger together with a recent GNU Emacs, you should say"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/gnus-faq.texi:2227
+#, no-wrap
+msgid "(setq gnus-use-correct-string-widths nil)\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2236
+msgid "in @file{~/.gnus.el} (thanks to Jesper harder for the last two suggestions). Finally if you are still using 5.8.8 or 5.9 and experience speed problems with summary buffer generation, you definitely should update to 5.10 since there quite some work on improving it has been done."
+msgstr ""
+
+#. type: subsubheading
+#: ../../../../../doc/misc/gnus-faq.texi:2238
+#, no-wrap
+msgid "Question 9.3"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/gnus-faq.texi:2249
+msgid "The reason could be that you told Gnus to archive the messages you wrote by setting gnus-message-archive-group. Try to use a nnml group instead of an archive group, this should bring you back to normal speed."
+msgstr ""
+
+#. type: subsection
+#: ../../../../../doc/misc/gnus-faq.texi:2251
+#, no-wrap
+msgid "Glossary"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2255
+#, no-wrap
+msgid "~/.gnus.el"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2259
+msgid "When the term @file{~/.gnus.el} is used it just means your Gnus configuration file. You might as well call it @file{~/.gnus} or specify another name."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2260
+#, no-wrap
+msgid "Back End"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2265
+msgid "In Gnus terminology a back end is a virtual server, a layer between core Gnus and the real NNTP-, POP3-, IMAP- or whatever-server which offers Gnus a standardized interface to functions like \"get message\", \"get Headers\" etc."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2266
+#, no-wrap
+msgid "Emacs"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2269
+msgid "When the term Emacs is used in this FAQ, it means GNU Emacs."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2270
+#, no-wrap
+msgid "Message"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2274
+msgid "In this FAQ message means either a mail or a posting to a Usenet Newsgroup or to some other fancy back end, no matter of which kind it is."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2275
+#, no-wrap
+msgid "MUA"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2278
+msgid "MUA is an acronym for Mail User Agent, it's the program you use to read and write e-mails."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/gnus-faq.texi:2279
+#, no-wrap
+msgid "NUA"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/gnus-faq.texi:2282
+msgid "NUA is an acronym for News User Agent, it's the program you use to read and write Usenet news."
+msgstr ""

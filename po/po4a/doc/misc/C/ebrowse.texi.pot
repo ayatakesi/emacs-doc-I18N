@@ -1,0 +1,3323 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-17 04:55+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: settitle
+#: ../../../../../doc/misc/ebrowse.texi:5
+#, no-wrap
+msgid "A Class Browser for C++"
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ebrowse.texi:6
+#, no-wrap
+msgid "docstyle.texi"
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ebrowse.texi:13
+msgid "This file documents Ebrowse, a C++ class browser for GNU Emacs."
+msgstr ""
+
+#. type: copying
+#: ../../../../../doc/misc/ebrowse.texi:15
+msgid "Copyright @copyright{} 2000--2021 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ebrowse.texi:23
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.  A copy of the license is included in the section entitled ``GNU Free Documentation License''."
+msgstr ""
+
+#. type: quotation
+#: ../../../../../doc/misc/ebrowse.texi:26
+msgid "(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.''"
+msgstr ""
+
+#. type: dircategory
+#: ../../../../../doc/misc/ebrowse.texi:29
+#, no-wrap
+msgid "Emacs misc features"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:32
+msgid "Ebrowse: (ebrowse)"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:32
+msgid "A C++ class browser for Emacs."
+msgstr ""
+
+#. type: title
+#: ../../../../../doc/misc/ebrowse.texi:35
+#, no-wrap
+msgid "Ebrowse User's Manual"
+msgstr ""
+
+#. type: subtitle
+#: ../../../../../doc/misc/ebrowse.texi:37
+#, no-wrap
+msgid "Ebrowse/Emacs"
+msgstr ""
+
+#. type: author
+#: ../../../../../doc/misc/ebrowse.texi:39
+#, no-wrap
+msgid "Gerd Moellmann"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:48
+#, no-wrap
+msgid "Top"
+msgstr ""
+
+#. type: top
+#: ../../../../../doc/misc/ebrowse.texi:49
+#, no-wrap
+msgid "Ebrowse"
+msgstr ""
+
+#. type: ifnottex
+#: ../../../../../doc/misc/ebrowse.texi:53
+msgid "You can browse C++ class hierarchies from within Emacs by using Ebrowse."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:71
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "What is it and how does it work?"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:181
+#, no-wrap
+msgid "Generating browser files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "How to process C++ source files"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:397
+#, no-wrap
+msgid "Loading a Tree"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "How to start browsing"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:437
+#: ../../../../../doc/misc/ebrowse.texi:438
+#, no-wrap
+msgid "Tree Buffers"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "Traversing class hierarchies"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:773
+#: ../../../../../doc/misc/ebrowse.texi:774
+#, no-wrap
+msgid "Member Buffers"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "Looking at member information"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:1210
+#: ../../../../../doc/misc/ebrowse.texi:1211
+#, no-wrap
+msgid "Tags-like Functions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "Finding members from source files"
+msgstr ""
+
+#. type: appendix
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:1409
+#: ../../../../../doc/misc/ebrowse.texi:1410
+#, no-wrap
+msgid "GNU Free Documentation License"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "The license for this documentation."
+msgstr ""
+
+#. type: unnumbered
+#: ../../../../../doc/misc/ebrowse.texi:66
+#: ../../../../../doc/misc/ebrowse.texi:1414
+#: ../../../../../doc/misc/ebrowse.texi:1415
+#, no-wrap
+msgid "Concept Index"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:66
+msgid "An entry for each concept defined"
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:72
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:76
+msgid "When working in software projects using C++, I frequently missed software support for two things:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:84
+msgid "When you get a new class library, or you have to work on source code you haven't written yourself (or written sufficiently long ago), you need a tool to let you navigate class hierarchies and investigate features of the software.  Without such a tool you often end up @command{grep}ing through dozens or even hundreds of files."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:91
+msgid "Once you are productive, it would be nice to have a tool that knows your sources and can help you while you are editing source code.  Imagine to be able to jump to the definition of an identifier while you are editing, or something that can complete long identifier names because it knows what identifiers are defined in your program@dots{}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:94
+msgid "The design of Ebrowse reflects these two needs."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:96
+msgid "How does it work?"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:97
+#, no-wrap
+msgid "parser for C++ sources"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:101
+msgid "A fast parser written in C is used to process C++ source files.  The parser generates a data base containing information about classes, members, global functions, defines, types etc.@: found in the sources."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:106
+msgid "The second part of Ebrowse is a Lisp program.  This program reads the data base generated by the parser.  It displays its contents in various forms and allows you to perform operations on it, or do something with the help of the knowledge contained in the data base."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:107
+#, no-wrap
+msgid "major modes, of Ebrowse buffers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:110
+msgid "@dfn{Navigational} use of Ebrowse is centered around two types of buffers which define their own major modes:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:111
+#, no-wrap
+msgid "tree buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:117
+msgid "@dfn{Tree buffers} are used to view class hierarchies in tree form.  They allow you to quickly find classes, find or view class declarations, perform operations like query replace on sets of your source files, and finally tree buffers are used to produce the second buffer form---member buffers.  @xref{Tree Buffers}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:118
+#, no-wrap
+msgid "member buffer"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:122
+msgid "Members are displayed in @dfn{member buffers}.  Ebrowse distinguishes between six different types of members; each type is displayed as a member list of its own:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:126
+msgid "Instance member variables;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:129
+msgid "Instance member functions;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:132
+msgid "Static member variables;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:135
+#: ../../../../../doc/misc/ebrowse.texi:792
+msgid "Static member functions;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:139
+msgid "Friends/Defines.  The list of defines is contained in the friends list of the pseudo-class @samp{*Globals*};"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:143
+msgid "Types (@code{enum}s, and @code{typedef}s defined with class scope)."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:150
+msgid "You can switch member buffers from one list to another, or to another class.  You can include inherited members in the display, you can set filters that remove categories of members from the display, and most importantly you can find or view member declarations and definitions with a keystroke.  @xref{Member Buffers}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:156
+msgid "These two buffer types and the commands they provide support the navigational use of the browser.  The second form resembles Emacs's Tags package for C and other procedural languages.  Ebrowse's commands of this type are not confined to special buffers; they are most often used while you are editing your source code."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:158
+msgid "To list just a subset of what you can use the Tags part of Ebrowse for:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:164
+msgid "Jump to the definition or declaration of an identifier in your source code, with an electric position stack that lets you easily navigate back and forth."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:168
+msgid "Complete identifiers in your source with a completion list containing identifiers from your source code only."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:172
+msgid "Perform search and query replace operations over some or all of your source files."
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:176
+msgid "Show all identifiers matching a regular expression---and jump to one of them, if you like."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:182
+#, no-wrap
+msgid "Processing Source Files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:184
+#, no-wrap
+msgid "@command{ebrowse}, the program"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:185
+#, no-wrap
+msgid "class data base creation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:189
+msgid "Before you can start browsing a class hierarchy, you must run the parser @command{ebrowse} on your source files in order to generate a Lisp data base describing your program."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:190
+#, no-wrap
+msgid "command line for @command{ebrowse}"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:195
+msgid "The operation of @command{ebrowse} can be tailored with command line options.  Under normal circumstances it suffices to let the parser use its default settings.  If you want to do that, call it with a command line like:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:198
+#, no-wrap
+msgid "ebrowse *.h *.cc\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:203
+msgid "or, if your shell doesn't allow all the file names to be specified on the command line,"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:206
+#, no-wrap
+msgid "ebrowse --files=@var{file}\n"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:211
+msgid "where @var{file} contains the names of the files to be parsed, one per line."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:212
+#, no-wrap
+msgid "--help"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:215
+msgid "When invoked with option @samp{--help}, @command{ebrowse} prints a list of available command line options."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:222
+#: ../../../../../doc/misc/ebrowse.texi:228
+#, no-wrap
+msgid "Input files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:222
+msgid "Specifying which files to parse"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:222
+#: ../../../../../doc/misc/ebrowse.texi:269
+#, no-wrap
+msgid "Output file"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:222
+msgid "Changing the output file name"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:222
+#: ../../../../../doc/misc/ebrowse.texi:304
+#, no-wrap
+msgid "Structs and unions"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:222
+msgid "Omitting @code{struct}s and @code{union}s"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:222
+#: ../../../../../doc/misc/ebrowse.texi:324
+#, no-wrap
+msgid "Matching"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:222
+msgid "Setting regular expression lengths"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:222
+#: ../../../../../doc/misc/ebrowse.texi:377
+#, no-wrap
+msgid "Verbosity"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:222
+msgid "Getting feedback for lengthy operations"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:229
+#, no-wrap
+msgid "Specifying Input Files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:232
+#, no-wrap
+msgid "input files, for @command{ebrowse}"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:233
+#, no-wrap
+msgid "file"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:236
+msgid "Each file name on the command line tells @command{ebrowse} to parse that file."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:237
+#, no-wrap
+msgid "response files"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:238
+#, no-wrap
+msgid "--files"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:239
+#, no-wrap
+msgid "--files=@var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:245
+msgid "This command line switch specifies that @var{file} contains a list of file names to parse.  Each line in @var{file} must contain one file name.  More than one option of this kind is allowed.  You might, for instance, want to use one file for header files, and another for source files."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:246
+#, no-wrap
+msgid "standard input, specifying input files"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:247
+#, no-wrap
+msgid "standard input"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:252
+msgid "When @command{ebrowse} finds no file names on the command line, and no @samp{--file} option is specified, it reads file names from standard input.  This is sometimes convenient when @command{ebrowse} is used as part of a command pipe."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:253
+#, no-wrap
+msgid "--search-path"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:254
+#, no-wrap
+msgid "--search-path=@var{paths}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:258
+msgid "This option lets you specify search paths for your input files.  @var{paths} is a list of directories, separated by either a colon or a semicolon, depending on the operating system."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:260
+#, no-wrap
+msgid "header files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:261
+#, no-wrap
+msgid "friend functions"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:265
+msgid "It is generally a good idea to specify input files so that header files are parsed before source files.  This facilitates the parser's work of properly identifying friend functions of a class."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:270
+#, no-wrap
+msgid "Changing the Output File Name"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:273
+#, no-wrap
+msgid "output file name"
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:274
+#, no-wrap
+msgid "--output-file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:275
+#, no-wrap
+msgid "@file{BROWSE} file"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:276
+#, no-wrap
+msgid "--output-file=@var{file}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:280
+msgid "This option instructs @command{ebrowse} to generate a Lisp data base with name @var{file}.  By default, the data base is named @file{BROWSE}, and is written in the directory in which @command{ebrowse} is invoked."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:283
+msgid "If you regularly use data base names different from the default, you might want to add this to your init file:"
+msgstr ""
+
+#. type: lisp
+#: ../../../../../doc/misc/ebrowse.texi:286
+#, no-wrap
+msgid "(add-to-list 'auto-mode-alist '(@var{NAME} . ebrowse-tree-mode))\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:290
+msgid "where @var{NAME} is the Lisp data base name you are using."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:291
+#: ../../../../../doc/misc/ebrowse.texi:293
+#, no-wrap
+msgid "--append"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:292
+#, no-wrap
+msgid "appending output to class data base"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:298
+msgid "By default, each run of @command{ebrowse} erases the old contents of the output file when writing to it.  You can instruct @command{ebrowse} to append its output to an existing file produced by @command{ebrowse} with this command line option."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:305
+#, no-wrap
+msgid "Structs and Unions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:306
+#, no-wrap
+msgid "structs"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:307
+#, no-wrap
+msgid "unions"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:310
+#: ../../../../../doc/misc/ebrowse.texi:311
+#, no-wrap
+msgid "--no-structs-or-unions"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:314
+msgid "This switch suppresses all classes in the data base declared as @code{struct} or @code{union} in the output."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:318
+msgid "This is mainly useful when you are converting an existing C program to C++, and do not want to see the old C structs in a class tree."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:325
+#, no-wrap
+msgid "Regular Expressions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:327
+#, no-wrap
+msgid "regular expressions, recording"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:331
+msgid "The parser @command{ebrowse} normally writes regular expressions to its output file that help the Lisp part of Ebrowse to find functions, variables etc.@: in their source files."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:334
+msgid "You can instruct @command{ebrowse} to omit these regular expressions by calling it with the command line switch @samp{--no-regexps}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:340
+msgid "When you do this, the Lisp part of Ebrowse tries to guess, from member or class names, suitable regular expressions to locate that class or member in source files.  This works fine in most cases, but the automatic generation of regular expressions can be too weak if unusual coding styles are used."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:342
+#: ../../../../../doc/misc/ebrowse.texi:343
+#, no-wrap
+msgid "--no-regexps"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:345
+msgid "This option turns off regular expression recording."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:346
+#, no-wrap
+msgid "--min-regexp-length"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:347
+#, no-wrap
+msgid "minimum regexp length for recording"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:348
+#, no-wrap
+msgid "--min-regexp-length=@var{n}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:353
+msgid "The number @var{n} following this option specifies the minimum length of the regular expressions recorded to match class and member declarations and definitions.  The default value is set at compilation time of @command{ebrowse}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:358
+msgid "The smaller the minimum length, the higher the probability that Ebrowse will find a wrong match.  The larger the value, the larger the output file and therefore the memory consumption once the file is read from Emacs."
+msgstr ""
+
+#. type: findex
+#: ../../../../../doc/misc/ebrowse.texi:359
+#, no-wrap
+msgid "--max-regexp-length"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:360
+#, no-wrap
+msgid "maximum regexp length for recording"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:361
+#, no-wrap
+msgid "--max-regexp-length=@var{n}"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:366
+msgid "The number following this option specifies the maximum length of the regular expressions used to match class and member declarations and definitions.  The default value is set at compilation time of @command{ebrowse}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:372
+msgid "The larger the maximum length, the higher the probability that the browser will find a correct match, but the larger the value the larger the output file and therefore the memory consumption once the data is read.  As a second effect, the larger the regular expression, the higher the probability that it will no longer match after editing the file."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:378
+#, no-wrap
+msgid "Verbose Mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:379
+#, no-wrap
+msgid "verbose operation"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:382
+#: ../../../../../doc/misc/ebrowse.texi:383
+#, no-wrap
+msgid "--verbose"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:387
+msgid "When this option is specified on the command line, @command{ebrowse} prints a period for each file parsed, and it displays a @samp{+} for each class written to the output file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:388
+#: ../../../../../doc/misc/ebrowse.texi:389
+#, no-wrap
+msgid "--very-verbose"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:392
+msgid "This option makes @command{ebrowse} print out the names of the files and the names of the classes seen."
+msgstr ""
+
+#. type: chapter
+#: ../../../../../doc/misc/ebrowse.texi:398
+#, no-wrap
+msgid "Starting to Browse"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:399
+#, no-wrap
+msgid "loading"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:400
+#, no-wrap
+msgid "browsing"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:404
+msgid "You start browsing a class hierarchy parsed by @command{ebrowse} by just finding the @file{BROWSE} file with @kbd{C-x C-f}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:406
+msgid "An example of a tree buffer display is shown below."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:414
+#, no-wrap
+msgid ""
+"|  Collection\n"
+"|    IndexedCollection\n"
+"|      Array\n"
+"|        FixedArray\n"
+"|    Set\n"
+"|    Dictionary\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:416
+#, no-wrap
+msgid "mouse highlight in tree buffers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:422
+msgid "When you run Emacs on a display which supports colors and the mouse, you will notice that certain areas in the tree buffer are highlighted when you move the mouse over them.  This highlight marks mouse-sensitive regions in the buffer.  Please notice the help strings in the echo area when the mouse moves over a sensitive region."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:423
+#, no-wrap
+msgid "context menu"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:428
+msgid "A click with @kbd{mouse-3} on a mouse-sensitive region opens a context menu.  In addition to this, each buffer also has a buffer-specific menu that is opened with a click with @kbd{mouse-3} somewhere in the buffer where no highlight is displayed."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:439
+#, no-wrap
+msgid "tree buffer mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:440
+#, no-wrap
+msgid "class trees"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:446
+msgid "Class trees are displayed in @dfn{tree buffers} which install their own major mode.  Most Emacs keys work in tree buffers in the usual way, e.g., you can move around in the buffer with the usual @kbd{C-f}, @kbd{C-v} etc., or you can search with @kbd{C-s}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:451
+msgid "Tree-specific commands are bound to simple keystrokes, similar to @code{Gnus}.  You can take a look at the key bindings by entering @kbd{?} which calls @code{M-x describe-mode} in both tree and member buffers."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:468
+#, no-wrap
+msgid "Source Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Viewing and finding a class declaration"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:496
+#, no-wrap
+msgid "Member Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Showing members, switching to member buffers"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:559
+#, no-wrap
+msgid "Go to Class"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Finding a class"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:586
+#, no-wrap
+msgid "Quitting"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Discarding and burying the tree buffer"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:598
+#, no-wrap
+msgid "File Name Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Showing file names in the tree"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:628
+#, no-wrap
+msgid "Expanding and Collapsing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Expanding and collapsing branches"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:667
+#, no-wrap
+msgid "Tree Indentation"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Changing the tree indentation"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:682
+#, no-wrap
+msgid "Killing Classes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Removing class from the tree"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:697
+#: ../../../../../doc/misc/ebrowse.texi:698
+#, no-wrap
+msgid "Saving a Tree"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Saving a modified tree"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:715
+#: ../../../../../doc/misc/ebrowse.texi:716
+#, no-wrap
+msgid "Statistics"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Displaying class tree statistics"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:464
+#: ../../../../../doc/misc/ebrowse.texi:731
+#: ../../../../../doc/misc/ebrowse.texi:732
+#, no-wrap
+msgid "Marking Classes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:464
+msgid "Marking and unmarking classes"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:469
+#, no-wrap
+msgid "Viewing and Finding Class Declarations"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:470
+#, no-wrap
+msgid "viewing, class"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:471
+#, no-wrap
+msgid "finding a class"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:472
+#, no-wrap
+msgid "class declaration"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:476
+msgid "You can view or find a class declaration when the cursor is on a class name."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ebrowse.texi:478
+#: ../../../../../doc/misc/ebrowse.texi:888
+#, no-wrap
+msgid "SPC"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:483
+msgid "This command views the class declaration if the database contains information about it.  If you don't parse the entire source you are working on, some classes will only be known to exist but the location of their declarations and definitions will not be known."
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ebrowse.texi:484
+#: ../../../../../doc/misc/ebrowse.texi:879
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:488
+msgid "Works like @kbd{@key{SPC}}, except that it finds the class declaration rather than viewing it, so that it is ready for editing."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:492
+msgid "The same functionality is available from the menu opened with @kbd{mouse-3} on the class name."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:497
+#, no-wrap
+msgid "Displaying Members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:498
+#, no-wrap
+msgid "@file{*Members*} buffer"
+msgstr ""
+
+#. type: samp{#1}
+#: ../../../../../doc/misc/ebrowse.texi:499
+#, no-wrap
+msgid "*Globals*"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:500
+#, no-wrap
+msgid "freezing a member buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:501
+#, no-wrap
+msgid "member lists, in tree buffers"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:507
+msgid "Ebrowse distinguishes six different kinds of members, each of which is displayed as a separate @dfn{member list}: instance variables, instance functions, static variables, static functions, friend functions, and types."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:514
+msgid "Each of these lists can be displayed in a member buffer with a command starting with @kbd{L} when the cursor is on a class name.  By default, there is only one member buffer named @dfn{*Members*} that is reused each time you display a member list---this has proven to be more practical than to clutter up the buffer list with dozens of member buffers."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:519
+msgid "If you want to display more than one member list at a time you can @dfn{freeze} its member buffer. Freezing a member buffer prevents it from being overwritten the next time you display a member list. You can toggle this buffer status at any time."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:524
+msgid "Every member list display command in the tree buffer can be used with a prefix argument (@kbd{C-u}).  Without a prefix argument, the command will pop to a member buffer displaying the member list.  With prefix argument, the member buffer will additionally be @dfn{frozen}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:526
+#, no-wrap
+msgid "instance member variables, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:527
+#: ../../../../../doc/misc/ebrowse.texi:848
+#, no-wrap
+msgid "L v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:529
+msgid "This command displays the list of instance member variables."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:530
+#, no-wrap
+msgid "static variables, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:531
+#: ../../../../../doc/misc/ebrowse.texi:851
+#, no-wrap
+msgid "L V"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:533
+msgid "Display the list of static variables."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:534
+#, no-wrap
+msgid "friend functions, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:535
+#: ../../../../../doc/misc/ebrowse.texi:854
+#, no-wrap
+msgid "L d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:539
+msgid "Display the list of friend functions.  This list is used for defines if you are viewing the class @samp{*Globals*} which is a place holder for global symbols."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:540
+#, no-wrap
+msgid "member functions, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:541
+#: ../../../../../doc/misc/ebrowse.texi:841
+#, no-wrap
+msgid "L f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:543
+msgid "Display the list of member functions."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:544
+#, no-wrap
+msgid "static member functions, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:545
+#: ../../../../../doc/misc/ebrowse.texi:845
+#, no-wrap
+msgid "L F"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:547
+msgid "Display the list of static member functions."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:548
+#, no-wrap
+msgid "types, list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:549
+#: ../../../../../doc/misc/ebrowse.texi:857
+#, no-wrap
+msgid "L t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:551
+msgid "Display a list of types."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:555
+msgid "These lists are also available from the class' context menu invoked with @kbd{mouse-3} on the class name."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:560
+#, no-wrap
+msgid "Finding a Class"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:561
+#, no-wrap
+msgid "locate class"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:562
+#, no-wrap
+msgid "expanding branches"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:563
+#, no-wrap
+msgid "class location"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:566
+#, no-wrap
+msgid "search for class"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:567
+#, no-wrap
+msgid "/"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:570
+msgid "This command reads a class name from the minibuffer with completion and positions the cursor on the class in the class tree."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:575
+msgid "If the branch of the class tree containing the class searched for is currently collapsed, the class itself and all its base classes are recursively made visible.  (See also @ref{Expanding and Collapsing}.)"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:577
+msgid "This function is also available from the tree buffer's context menu."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:578
+#, no-wrap
+msgid "n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:581
+msgid "Repeat the last search done with @kbd{/}.  Each tree buffer has its own local copy of the regular expression last searched in it."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:587
+#, no-wrap
+msgid "Burying a Tree Buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:588
+#, no-wrap
+msgid "burying tree buffer"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:591
+#: ../../../../../doc/misc/ebrowse.texi:1157
+#, no-wrap
+msgid "q"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:593
+msgid "Is a synonym for @kbd{M-x bury-buffer}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:599
+#, no-wrap
+msgid "Displaying File Names"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:602
+#, no-wrap
+msgid "file names in tree buffers"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:603
+#, no-wrap
+msgid "T f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:608
+msgid "This command toggles the display of file names in a tree buffer.  If file name display is switched on, the names of the files containing the class declaration are shown to the right of the class names.  If the file is not known, the string @samp{unknown} is displayed."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:610
+msgid "This command is also provided in the tree buffer's context menu."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:611
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:614
+msgid "Display file names for the current line, or for the number of lines given by a prefix argument."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:617
+msgid "Here is an example of a tree buffer with file names displayed."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:625
+#, no-wrap
+msgid ""
+"|  Collection           (unknown)\n"
+"|    IndexedCollection  (indexedcltn.h)\n"
+"|      Array            (array.h)\n"
+"|        FixedArray     (fixedarray.h)\n"
+"|    Set                (set.h)\n"
+"|    Dictionary         (dict.h)\n"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:629
+#, no-wrap
+msgid "Expanding and Collapsing a Tree"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:630
+#, no-wrap
+msgid "expand tree branch"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:631
+#, no-wrap
+msgid "collapse tree branch"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:632
+#, no-wrap
+msgid "branches of class tree"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:633
+#, no-wrap
+msgid "class tree, collapse or expand"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:639
+msgid "You can expand and collapse parts of a tree to reduce the complexity of large class hierarchies.  Expanding or collapsing branches of a tree has no impact on the functionality of other commands, like @kbd{/}.  (See also @ref{Go to Class}.)"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:642
+msgid "Collapsed branches are indicated with an ellipsis following the class name like in the example below."
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:648
+#, no-wrap
+msgid ""
+"|  Collection\n"
+"|    IndexedCollection...\n"
+"|    Set\n"
+"|    Dictionary\n"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:651
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:654
+msgid "This command collapses the branch of the tree starting at the class the cursor is on."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:655
+#, no-wrap
+msgid "+"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:659
+msgid "This command expands the branch of the tree starting at the class the cursor is on.  Both commands for collapsing and expanding branches are also available from the class' object menu."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:660
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:662
+msgid "This command expands all collapsed branches in the tree."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:668
+#, no-wrap
+msgid "Changing the Tree Indentation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:669
+#, no-wrap
+msgid "tree indentation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:670
+#, no-wrap
+msgid "indentation of the tree"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:673
+#, no-wrap
+msgid "T w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:677
+msgid "This command reads a new indentation width from the minibuffer and redisplays the tree buffer with the new indentation It is also available from the tree buffer's context menu."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:683
+#, no-wrap
+msgid "Removing Classes from the Tree"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:684
+#, no-wrap
+msgid "killing classes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:685
+#, no-wrap
+msgid "class, remove from tree"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:688
+#, no-wrap
+msgid "C-k"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:692
+msgid "This command removes the class the cursor is on and all its derived classes from the tree.  The user is asked for confirmation before the deletion is actually performed."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:699
+#, no-wrap
+msgid "save tree to a file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:700
+#, no-wrap
+msgid "tree, save to a file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:701
+#, no-wrap
+msgid "class tree, save to a file"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:704
+#, no-wrap
+msgid "C-x C-s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:707
+msgid "This command writes a class tree to the file from which it was read.  This is useful after classes have been deleted from a tree."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:708
+#, no-wrap
+msgid "C-x C-w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:710
+msgid "Writes the tree to a file whose name is read from the minibuffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:717
+#, no-wrap
+msgid "statistics for a tree"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:718
+#, no-wrap
+msgid "tree statistics"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:719
+#, no-wrap
+msgid "class statistics"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:722
+#, no-wrap
+msgid "x"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:726
+msgid "Display statistics for the tree, like number of classes in it, number of member functions, etc.  This command can also be found in the buffer's context menu."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:733
+#, no-wrap
+msgid "marking classes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:734
+#, no-wrap
+msgid "operations on marked classes"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:739
+msgid "Classes can be marked for operations similar to the standard Emacs commands @kbd{M-x tags-search} and @kbd{M-x tags-query-replace} (see also @xref{Tags-like Functions}.)"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:741
+#, no-wrap
+msgid "toggle mark"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:742
+#, no-wrap
+msgid "M t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:746
+msgid "Toggle the mark of the line point is in or for as many lines as given by a prefix command.  This command can also be found in the class' context menu."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:747
+#, no-wrap
+msgid "unmark all"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:748
+#, no-wrap
+msgid "M a"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:752
+msgid "Unmark all classes.  With prefix argument @kbd{C-u}, mark all classes in the tree. Since this command operates on the whole buffer, it can also be found in the buffer's object menu."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:756
+msgid "Marked classes are displayed with an @code{>} in column one of the tree display, like in the following example"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:762
+#, no-wrap
+msgid ""
+"|> Collection\n"
+"|    IndexedCollection...\n"
+"|>   Set\n"
+"|    Dictionary\n"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:775
+#, no-wrap
+msgid "members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:776
+#, no-wrap
+msgid "member buffer mode"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:778
+#, no-wrap
+msgid "class members, types"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:779
+#, no-wrap
+msgid "types of class members"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:782
+msgid "@dfn{Member buffers} are used to operate on lists of members of a class.  Ebrowse distinguishes six kinds of lists:"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:786
+msgid "Instance variables (normal member variables);"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:788
+msgid "Instance functions (normal member functions);"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:790
+msgid "Static variables;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:794
+msgid "Friend functions;"
+msgstr ""
+
+#. type: itemize
+#: ../../../../../doc/misc/ebrowse.texi:797
+msgid "Types (@code{enum}s and @code{typedef}s defined with class scope.  Nested classes will be shown in the class tree like normal classes."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:802
+msgid "Like tree buffers, member buffers install their own major mode.  Also like in tree buffers, menus are provided for certain areas in the buffer: members, classes, and the buffer itself."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:823
+#: ../../../../../doc/misc/ebrowse.texi:824
+#, no-wrap
+msgid "Switching Member Lists"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Choosing which members to display"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:869
+#, no-wrap
+msgid "Finding/Viewing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Modifying source code"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:906
+#, no-wrap
+msgid "Inherited Members"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:907
+#, no-wrap
+msgid "Display of Inherited Members"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:921
+#: ../../../../../doc/misc/ebrowse.texi:922
+#, no-wrap
+msgid "Searching Members"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Finding members in member buffer"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:950
+#, no-wrap
+msgid "Switching to Tree"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Going back to the tree buffer"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:968
+#: ../../../../../doc/misc/ebrowse.texi:969
+#, no-wrap
+msgid "Filters"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Selective member display"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1012
+#, no-wrap
+msgid "Attributes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Display of @code{virtual} etc."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1068
+#, no-wrap
+msgid "Long and Short Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Comprehensive and verbose display"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1102
+#, no-wrap
+msgid "Regexp Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Showing matching regular expressions"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1120
+#, no-wrap
+msgid "Switching Classes"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Displaying another class"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1152
+#, no-wrap
+msgid "Killing/Burying"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Getting rid of the member buffer"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1164
+#, no-wrap
+msgid "Column Width"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Display style"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1179
+#, no-wrap
+msgid "Redisplay"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "Redrawing the member list"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:818
+#: ../../../../../doc/misc/ebrowse.texi:1194
+#: ../../../../../doc/misc/ebrowse.texi:1195
+#, no-wrap
+msgid "Getting Help"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:818
+msgid "How to get help for key bindings"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:825
+#, no-wrap
+msgid "member lists, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:826
+#, no-wrap
+msgid "static members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:827
+#, no-wrap
+msgid "friends"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:828
+#, no-wrap
+msgid "types"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:829
+#, no-wrap
+msgid "defines"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:832
+#, no-wrap
+msgid "next member list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:833
+#, no-wrap
+msgid "L n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:835
+msgid "This command switches the member buffer display to the next member list."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:836
+#, no-wrap
+msgid "previous member list"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:837
+#, no-wrap
+msgid "L p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:840
+msgid "This command switches the member buffer display to the previous member list."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:843
+msgid "Switch to the list of member functions."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:844
+#, no-wrap
+msgid "static"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:847
+msgid "Switch to the list of static member functions."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:850
+msgid "Switch to the list of member variables."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:853
+msgid "Switch to the list of static member variables."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:856
+msgid "Switch to the list of friends or defines."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:859
+msgid "Switch to the list of types."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:862
+msgid "Both commands cycle through the member list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:865
+msgid "Most of the commands are also available from the member buffer's context menu."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:870
+#, no-wrap
+msgid "Finding and Viewing Member Source"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:871
+#, no-wrap
+msgid "finding members, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:872
+#, no-wrap
+msgid "viewing members, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:873
+#, no-wrap
+msgid "member definitions, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:874
+#, no-wrap
+msgid "member declarations, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:875
+#, no-wrap
+msgid "definition of a member, in member buffers"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:876
+#, no-wrap
+msgid "declaration of a member, in member buffers"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:884
+msgid "This command finds the definition of the member the cursor is on.  Finding involves roughly the same as the standard Emacs tags facility does---loading the file and searching for a regular expression matching the member."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:885
+#, no-wrap
+msgid "f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:887
+msgid "This command finds the declaration of the member the cursor is on."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:891
+msgid "This is the same command as @kbd{@key{RET}}, but views the member definition instead of finding the member's source file."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:892
+#: ../../../../../doc/misc/ebrowse.texi:1036
+#, no-wrap
+msgid "v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:895
+msgid "This is the same command as @kbd{f}, but views the member's declaration instead of finding the file the declaration is in."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:899
+msgid "You can install a hook function to perform actions after a member or class declaration or definition has been found, or when it is not found."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:902
+msgid "All the commands described above can also be found in the context menu displayed when clicking @kbd{mouse-2} on a member name."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:908
+#, no-wrap
+msgid "superclasses, members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:909
+#, no-wrap
+msgid "base classes, members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:910
+#, no-wrap
+msgid "inherited members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:913
+#, no-wrap
+msgid "D b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:916
+msgid "This command toggles the display of inherited members in the member buffer.  This is also in the buffer's context menu."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:923
+#, no-wrap
+msgid "searching members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:926
+#, no-wrap
+msgid "G v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:930
+msgid "Position the cursor on a member whose name is read from the minibuffer; only members shown in the current member buffer appear in the completion list."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:931
+#, no-wrap
+msgid "G m"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:935
+msgid "Like the above command, but all members for the current class appear in the completion list.  If necessary, the current member list is switched to the one containing the member."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:940
+msgid "With a prefix argument (@kbd{C-u}), all members in the class tree, i.e., all members the browser knows about appear in the completion list.  The member display will be switched to the class and member list containing the member."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:941
+#, no-wrap
+msgid "G n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:943
+msgid "Repeat the last member search."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:947
+msgid "Look into the buffer's context menu for a convenient way to do this with a mouse."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:951
+#, no-wrap
+msgid "Switching to Tree Buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:952
+#, no-wrap
+msgid "tree buffer, switch to"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:953
+#, no-wrap
+msgid "buffer switching"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:954
+#, no-wrap
+msgid "switching buffers"
+msgstr ""
+
+#. type: key{#1}
+#: ../../../../../doc/misc/ebrowse.texi:957
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:959
+msgid "Pop up the tree buffer to which the member buffer belongs."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:960
+#: ../../../../../doc/misc/ebrowse.texi:1059
+#, no-wrap
+msgid "t"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:963
+msgid "Do the same as @key{TAB} but also position the cursor on the class displayed in the member buffer."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:970
+#, no-wrap
+msgid "filters"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:973
+#, no-wrap
+msgid "@code{public} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:974
+#, no-wrap
+msgid "F a u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:977
+msgid "This command toggles the display of @code{public} members.  The @samp{a} stands for ``access''."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:978
+#, no-wrap
+msgid "@code{protected} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:979
+#, no-wrap
+msgid "F a o"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:981
+msgid "This command toggles the display of @code{protected} members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:982
+#, no-wrap
+msgid "@code{private} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:983
+#, no-wrap
+msgid "F a i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:985
+msgid "This command toggles the display of @code{private} members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:986
+#, no-wrap
+msgid "@code{virtual} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:987
+#, no-wrap
+msgid "F v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:989
+msgid "This command toggles the display of @code{virtual} members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:990
+#, no-wrap
+msgid "@code{inline} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:991
+#, no-wrap
+msgid "F i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:993
+msgid "This command toggles the display of @code{inline} members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:994
+#, no-wrap
+msgid "@code{const} members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:995
+#, no-wrap
+msgid "F c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:997
+msgid "This command toggles the display of @code{const} members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:998
+#, no-wrap
+msgid "pure virtual members"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:999
+#, no-wrap
+msgid "F p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1001
+msgid "This command toggles the display of pure virtual members."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1002
+#, no-wrap
+msgid "remove filters"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1003
+#, no-wrap
+msgid "F r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1005
+msgid "This command removes all filters."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1008
+msgid "These commands are also found in the buffer's context menu."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1013
+#, no-wrap
+msgid "Displaying Member Attributes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1014
+#, no-wrap
+msgid "attributes"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1015
+#, no-wrap
+msgid "member attribute display"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1018
+#, no-wrap
+msgid "D a"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1020
+msgid "Toggle the display of member attributes (default is on)."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1025
+msgid "The nine member attributes Ebrowse knows about are displayed as a list a single-characters flags enclosed in angle brackets in front the of the member's name.  A @samp{-} at a given position means that the attribute is false.  The list of attributes from left to right is"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1027
+#, no-wrap
+msgid "@code{template} attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1028
+#, no-wrap
+msgid "T"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1030
+msgid "The member is a template."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1031
+#, no-wrap
+msgid "@code{extern \"C\"} attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1032
+#, no-wrap
+msgid "C"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1034
+msgid "The member is declared @code{extern \"C\"}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1035
+#, no-wrap
+msgid "@code{virtual} attribute"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1038
+msgid "Means the member is declared @code{virtual}."
+msgstr ""
+
+#. type: code{#1}
+#: ../../../../../doc/misc/ebrowse.texi:1039
+#, no-wrap
+msgid "inline"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1040
+#, no-wrap
+msgid "i"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1042
+msgid "The member is declared @code{inline}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1043
+#, no-wrap
+msgid "@code{const} attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1044
+#, no-wrap
+msgid "c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1046
+msgid "The member is @code{const}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1047
+#, no-wrap
+msgid "pure virtual function attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1048
+#, no-wrap
+msgid "0"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1050
+msgid "The member is a pure virtual function."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1051
+#, no-wrap
+msgid "@code{mutable} attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1052
+#, no-wrap
+msgid "m"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1054
+msgid "The member is declared @code{mutable}."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1055
+#, no-wrap
+msgid "@code{explicit} attribute"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1056
+#, no-wrap
+msgid "e"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1058
+msgid "The member is declared @code{explicit}."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1061
+msgid "The member is a function with a throw list."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1065
+msgid "This command is also in the buffer's context menu."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1069
+#, no-wrap
+msgid "Long and Short Member Display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1070
+#, no-wrap
+msgid "display form"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1071
+#, no-wrap
+msgid "long display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1072
+#, no-wrap
+msgid "short display"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1075
+#, no-wrap
+msgid "D l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1078
+msgid "This command toggles the member buffer between short and long display form.  The short display form displays member names, only:"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:1083
+#, no-wrap
+msgid ""
+"| isEmpty        contains       hasMember      create\n"
+"| storeSize      hash           isEqual        restoreGuts\n"
+"| saveGuts\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1087
+msgid "The long display shows one member per line with member name and regular expressions matching the member (if known):"
+msgstr ""
+
+#. type: example
+#: ../../../../../doc/misc/ebrowse.texi:1092
+#, no-wrap
+msgid ""
+"| isEmpty               Bool isEmpty () const...\n"
+"| hash                  unsigned hash () const...\n"
+"| isEqual               int isEqual (...\n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1097
+msgid "Regular expressions will only be displayed when the Lisp database has not been produced with the @command{ebrowse} option @samp{--no-regexps}.  @xref{Matching, --no-regexps, Regular Expressions}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1103
+#, no-wrap
+msgid "Display of Regular Expressions"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1104
+#, no-wrap
+msgid "regular expression display"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1107
+#, no-wrap
+msgid "D r"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1111
+msgid "This command toggles the long display form from displaying the regular expressions matching the member declarations to those expressions matching member definitions."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1116
+msgid "Regular expressions will only be displayed when the Lisp database has not been produced with the @command{ebrowse} option @samp{--no-regexps}, see @ref{Matching, --no-regexps, Regular Expressions}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1121
+#, no-wrap
+msgid "Displaying Another Class"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1122
+#, no-wrap
+msgid "base class, display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1123
+#, no-wrap
+msgid "derived class, display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1124
+#, no-wrap
+msgid "superclass, display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1125
+#, no-wrap
+msgid "subclass, display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1126
+#, no-wrap
+msgid "class display"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1129
+#, no-wrap
+msgid "C c"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1132
+msgid "This command lets you switch the member buffer to another class.  It reads the name of the new class from the minibuffer with completion."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1133
+#, no-wrap
+msgid "C b"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1137
+msgid "This is the same command as @kbd{C c} but restricts the classes shown in the completion list to immediate base classes, only.  If only one base class exists, this one is immediately shown in the minibuffer."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1138
+#, no-wrap
+msgid "C d"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1140
+msgid "Same as @kbd{C b}, but for derived classes."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1141
+#, no-wrap
+msgid "C p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1144
+msgid "Switch to the previous class in the class hierarchy on the same level as the class currently displayed."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1145
+#, no-wrap
+msgid "C n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1147
+msgid "Switch to the next sibling of the class in the class tree."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1153
+#, no-wrap
+msgid "Burying a Member Buffer"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1154
+#, no-wrap
+msgid "burying member buffers"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1159
+msgid "This command is a synonym for @kbd{M-x bury-buffer}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1165
+#, no-wrap
+msgid "Setting the Column Width"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1166
+#, no-wrap
+msgid "column width"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1167
+#, no-wrap
+msgid "member indentation"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1168
+#, no-wrap
+msgid "indentation, member"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1171
+#, no-wrap
+msgid "D w"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1174
+msgid "This command sets the column width depending on the display form used (long or short display)."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1180
+#, no-wrap
+msgid "Forced Redisplay"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1181
+#, no-wrap
+msgid "redisplay of member buffers"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1184
+#, no-wrap
+msgid "C-l"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1189
+msgid "This command forces a redisplay of the member buffer.  If the width of the window displaying the member buffer is changed this command redraws the member list with the appropriate column widths and number of columns."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1196
+#, no-wrap
+msgid "help"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1199
+#, no-wrap
+msgid "?"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1201
+msgid "This key is bound to @code{describe-mode}."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1215
+msgid "Ebrowse provides tags functions similar to those of the standard Emacs Tags facility, but better suited to the needs of C++ programmers."
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1229
+#, no-wrap
+msgid "Finding and Viewing"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Going to a member declaration/definition"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1288
+#, no-wrap
+msgid "Position Stack"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Moving to previous locations"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1324
+#, no-wrap
+msgid "Search & Replace"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Searching and replacing over class tree files"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1361
+#: ../../../../../doc/misc/ebrowse.texi:1362
+#, no-wrap
+msgid "Members in Files"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Listing all members in a given file"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1374
+#, no-wrap
+msgid "Apropos"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Listing members matching a regular expression"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1391
+#: ../../../../../doc/misc/ebrowse.texi:1392
+#, no-wrap
+msgid "Symbol Completion"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Completing names while editing"
+msgstr ""
+
+#. type: node
+#: ../../../../../doc/misc/ebrowse.texi:1225
+#: ../../../../../doc/misc/ebrowse.texi:1401
+#, no-wrap
+msgid "Member Buffer Display"
+msgstr ""
+
+#. type: menuentry
+#: ../../../../../doc/misc/ebrowse.texi:1225
+msgid "Quickly display a member buffer for some identifier"
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1230
+#, no-wrap
+msgid "Finding and Viewing Members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1231
+#, no-wrap
+msgid "finding class member, in C++ source"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1232
+#, no-wrap
+msgid "viewing class member, in C++ source"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1233
+#, no-wrap
+msgid "tags"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1234
+#, no-wrap
+msgid "member definition, finding, in C++ source"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1235
+#, no-wrap
+msgid "member declaration, finding, in C++ source"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1241
+msgid "The functions in this section are similar to those described in @ref{Source Display}, and also in @ref{Finding/Viewing}, except that they work in a C++ source buffer, not in member and tree buffers created by Ebrowse."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1243
+#, no-wrap
+msgid "C-c C-m f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1246
+msgid "Find the definition of the member around point.  If you invoke this function with a prefix argument, the declaration is searched."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1251
+msgid "If more than one class contains a member with the given name you can select the class with completion.  If there is a scope declaration in front of the member name, this class name is used as initial input for the completion."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1252
+#, no-wrap
+msgid "C-c C-m F"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1254
+msgid "Find the declaration of the member around point."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1255
+#, no-wrap
+msgid "C-c C-m v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1257
+msgid "View the definition of the member around point."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1258
+#, no-wrap
+msgid "C-c C-m V"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1260
+msgid "View the declaration of the member around point."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1261
+#, no-wrap
+msgid "C-c C-m 4 f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1263
+msgid "Find a member's definition in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1264
+#, no-wrap
+msgid "C-c C-m 4 F"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1266
+msgid "Find a member's declaration in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1267
+#, no-wrap
+msgid "C-c C-m 4 v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1269
+msgid "View a member's definition in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1270
+#, no-wrap
+msgid "C-c C-m 4 V"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1272
+msgid "View a member's declaration in another window."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1273
+#, no-wrap
+msgid "C-c C-m 5 f"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1275
+msgid "Find a member's definition in another frame."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1276
+#, no-wrap
+msgid "C-c C-m 5 F"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1278
+msgid "Find a member's declaration in another frame."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1279
+#, no-wrap
+msgid "C-c C-m 5 v"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1281
+msgid "View a member's definition in another frame."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1282
+#, no-wrap
+msgid "C-c C-m 5 V"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1284
+msgid "View a member's declaration in another frame."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1289
+#, no-wrap
+msgid "The Position Stack"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1290
+#, no-wrap
+msgid "position stack"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1297
+msgid "When jumping to a member declaration or definition with one of Ebrowse's commands, the position from where you performed the jump and the position where you jumped to are recorded in a @dfn{position stack}.  There are several ways in which you can quickly move to positions in the stack:"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1299
+#, no-wrap
+msgid "return to original position"
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1300
+#, no-wrap
+msgid "C-c C-m -"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1304
+msgid "This command sets point to the previous position in the position stack.  Directly after you performed a jump, this will put you back to the position where you came from."
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1310
+msgid "The stack is not popped, i.e., you can always switch back and forth between positions in the stack.  To avoid letting the stack grow to infinite size there is a maximum number of positions defined.  When this number is reached, older positions are discarded when new positions are pushed on the stack."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1311
+#, no-wrap
+msgid "C-c C-m +"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1314
+msgid "This command moves forward in the position stack, setting point to the next position stored in the position stack."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1315
+#, no-wrap
+msgid "C-c C-m p"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1319
+msgid "Displays an electric buffer showing all positions saved in the stack.  You can select a position by pressing @kbd{@key{SPC}} in a line.  You can view a position with @kbd{v}."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1325
+#, no-wrap
+msgid "Searching and Replacing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1326
+#, no-wrap
+msgid "searching multiple C++ files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1327
+#, no-wrap
+msgid "replacing in multiple C++ files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1328
+#, no-wrap
+msgid "restart tags-operation"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1337
+msgid "Ebrowse allows you to perform operations on all or a subset of the files mentioned in a class tree.  When you invoke one of the following functions and more than one class tree is loaded, you must choose a class tree to use from an electric tree menu.  If the selected tree contains marked classes, the following commands operate on the files mentioned in the marked classes only.  Otherwise all files in the class tree are used."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1339
+#, no-wrap
+msgid "C-c C-m s"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1342
+msgid "This function performs a regular expression search in the chosen set of files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1343
+#, no-wrap
+msgid "C-c C-m u"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1346
+msgid "This command performs a search for calls of a given member which is selected in the usual way with completion."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1347
+#, no-wrap
+msgid "C-c C-m %"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1349
+msgid "Perform a query replace over the set of files."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1350
+#, no-wrap
+msgid "C-c C-m ,"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1353
+msgid "All three operations above stop when finding a match.  You can restart the operation with this command."
+msgstr ""
+
+#. type: item
+#: ../../../../../doc/misc/ebrowse.texi:1354
+#, no-wrap
+msgid "C-c C-m n"
+msgstr ""
+
+#. type: table
+#: ../../../../../doc/misc/ebrowse.texi:1356
+msgid "This restarts the last tags operation with the next file in the list."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1363
+#, no-wrap
+msgid "files"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1364
+#, no-wrap
+msgid "members in file, listing"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1365
+#, no-wrap
+msgid "list class members in a file"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1366
+#, no-wrap
+msgid "file, members"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1370
+msgid "The command @kbd{C-c C-m l}, lists all members in a given file.  The file name is read from the minibuffer with completion."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1375
+#, no-wrap
+msgid "Member Apropos"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1376
+#, no-wrap
+msgid "apropos on class members"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1377
+#, no-wrap
+msgid "members, matching regexp"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1382
+msgid "The command @kbd{C-c C-m a} can be used to display all members matching a given regular expression.  This command can be very useful if you remember only part of a member name, and not its beginning."
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1387
+msgid "A special buffer is popped up containing all identifiers matching the regular expression, and what kind of symbol it is (e.g., a member function, or a type).  You can then switch to this buffer, and use the command @kbd{C-c C-m f}, for example, to jump to a specific member."
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1393
+#, no-wrap
+msgid "completion"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1394
+#, no-wrap
+msgid "symbol completion"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1397
+msgid "The command @kbd{C-c C-m @key{TAB}} completes the symbol in front of point."
+msgstr ""
+
+#. type: section
+#: ../../../../../doc/misc/ebrowse.texi:1402
+#, no-wrap
+msgid "Quick Member Display"
+msgstr ""
+
+#. type: cindex
+#: ../../../../../doc/misc/ebrowse.texi:1403
+#, no-wrap
+msgid "member buffer, for member at point"
+msgstr ""
+
+#. type: Plain text
+#: ../../../../../doc/misc/ebrowse.texi:1407
+msgid "You can quickly display a member buffer containing the member the cursor in on with the command @kbd{C-c C-m m}."
+msgstr ""
+
+#. type: include
+#: ../../../../../doc/misc/ebrowse.texi:1411
+#, no-wrap
+msgid "doclicense.texi"
+msgstr ""
